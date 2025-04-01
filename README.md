@@ -1,35 +1,39 @@
-# Informe de Trabajo Final
+# Informe de Trabajo Final - TB1
 
-**Universidad Peruana de Ciencias Aplicadas**  
-**Ingenieria de Software**  
-**Ciclo 07**  
-
-**Código del curso:**  
-**Desarrollo de Soluciones IOT**  
-**NRC:**  
-
-**Profesor: Velasquez Nuñez, Angel Augusto**
-
-**Startup: IoT Innovators**  
-
-**Producto: SmartParking**  
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+    <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
+    <strong>Ingeniería de Software - 202510</strong><br>
+    <strong>Ciclo: 07</strong><br><br>
+    <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
+    <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
+    <strong>INFORME DE TRABAJO FINAL - TB1 </strong> 
+</p>
+<p align="center">
+    <strong>Startup: IoT Innovators </strong><br>
+    <strong>Producto:  SmartParking </strong>
+</p>
 
 ### Relación de integrantes
 
 | Apellidos y Nombres                    | Código     |
-| :------------------------------------: | :-------: |
+| :------------------------------------  | :--------: |
 | Arroyo Ormeño, André Alonso            | u202114714 |
 | Castilla Pachas, César Antonio         | u202218735 |
 | Cortés Casas, Joaquin Marcelo          | u202114545 |
-| Diaz Silva, Fernando Josué            | u202112722 |
+| Diaz Silva, Fernando Josué             | u202112722 |
 | Godoy, Johan Príncipe                  | u202014511 |
 | Tafur Gonzales, Josty Gerardo          | u20201c069 |
-| Zarate Caceres, Victor Ernesto        | u202112907 |
+| Zarate Caceres, Victor Ernesto         | u202112907 |
 
 
 **Marzo, 2025**
 
 ## Registro de Versiones del Informe
+|  Versión  |  Fecha  |     Autor     | Descripción de modificación |
+| :------:  | :-----: | :------------ | :-------------------------- |
+
+## Project Report Collaboration Insights
 
 ## Contenido
 
@@ -85,15 +89,15 @@
       - [4.1.3.5. Software Architecture Container Level Diagrams](#4135-software-architecture-container-level-diagrams)
       - [4.1.3.6. Software Architecture Deployment Diagrams](#4136-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.X. Bounded Context: <Bounded Context Name>](#42x-bounded-context-bounded-context-name)
-      - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-      - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-      - [4.2.X.3. Application Layer](#42x3-application-layer)
-      - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-      - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-      - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+    - [4.2.1. Bounded Context: <Bounded Context Name>](#421-bounded-context-bounded-context-name)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
 
 ## Student Outcome
 
@@ -236,31 +240,31 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ### 4.2. Tactical-Level Domain-Driven Design
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-#### 4.2.X. Bounded Context: <Bounded Context Name>
+#### 4.2.1. Bounded Context: <Bounded Context Name>
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.1. Domain Layer
+##### 4.2.1.1. Domain Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.2. Interface Layer
+##### 4.2.1.2. Interface Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.3. Application Layer
+##### 4.2.1.3. Application Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.4. Infrastructure Layer
+##### 4.2.1.4. Infrastructure Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-###### 4.2.X.6.2. Bounded Context Database Design Diagram
+###### 4.2.1.6.2. Bounded Context Database Design Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ## Conclusiones
