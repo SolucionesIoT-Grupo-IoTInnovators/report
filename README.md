@@ -30,8 +30,9 @@
 **Marzo, 2025**
 
 ## Registro de Versiones del Informe
-|  Versión  |  Fecha  |     Autor     | Descripción de modificación |
-| :------:  | :-----: | :------------ | :-------------------------- |
+|  Versión  |    Fecha   |      Autor     | Descripción de modificación |
+| :------:  | :--------: | :------------- | :-------------------------- |
+|   1.0.0   | 01/04/2025 | Ernesto Zarate | Avance de Capitulo 1: Descripcion de la Startup |
 
 ## Project Report Collaboration Insights
 
@@ -100,29 +101,165 @@
         - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
 
 ## Student Outcome
-
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <table align="justify">
+    <tr>
+      <td>
+        Criterio específico
+      </td>
+      <td>
+        Acciones realizadas
+      </td>
+      <td>
+        Conclusiones
+      </td>
+    </tr>
+    <!--Primer Criterio-->
+    <tr>
+      <td>
+        Trabaja en equipo para proporcionar liderazgo en forma conjunta
+      </td>
+      <!--Ingresar Accion Realizada por Entregable-->
+      <td>
+        <!--Andre Alonso-->
+        Arroyo Ormeño, André Alonso: <br>
+        TB1:<br>
+        <br>
+        <!--Cesar-->
+        Castilla Pachas, César Antonio <br>
+        TB1:<br>
+        <br>
+        <!--Joaquin-->
+        Cortés Casas, Joaquin Marcelo <br>
+        TB1:<br>
+        <br>
+        <!--Fernando-->
+        Diaz Silva, Fernando Josué <br>
+        TB1:<br>
+        <br>
+        <!--Johan-->
+        Godoy, Johan Príncipe <br>
+        TB1:<br>
+        <br>
+        <!--Josty-->
+        Tafur Gonzales, Josty Gerardo <br>
+        TB1:<br>
+        <br>
+        <!--CeVictorsar-->
+        Zarate Caceres, Victor Ernesto  <br>
+        TB1:<br>
+        <br>
+      </td>
+      <!--Ingresar Conclusion por Entregable-->
+      <td>
+        TB1:<br>
+      </td>
+    </tr>
+    <!--Segundo Criterio-->
+    <tr>
+      <td>
+        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+      </td>
+      <!--Ingresar Accion Realizada por Entregable-->
+      <td>
+        <!--Andre Alonso-->
+        Arroyo Ormeño, André Alonso: <br>
+        TB1:<br>
+        <br>
+        <!--Cesar-->
+        Castilla Pachas, César Antonio <br>
+        TB1:<br>
+        <br>
+        <!--Joaquin-->
+        Cortés Casas, Joaquin Marcelo <br>
+        TB1:<br>
+        <br>
+        <!--Fernando-->
+        Diaz Silva, Fernando Josué <br>
+        TB1:<br>
+        <br>
+        <!--Johan-->
+        Godoy, Johan Príncipe <br>
+        TB1:<br>
+        <br>
+        <!--Josty-->
+        Tafur Gonzales, Josty Gerardo <br>
+        TB1:<br>
+        <br>
+        <!--Victor-->
+        Zarate Caceres, Victor Ernesto  <br>
+        TB1:<br>
+        <br>
+      </td>
+      <!--Ingresar Conclusion por Entregable-->
+      <td>
+        TB1:<br>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 1.1.1. Descripción de la Startup
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+    SmartParking nace como respuesta ante la falta de eficiencia en la gestión de estacionamientos en espacios públicos de alto tráfico. En muchas ciudades, los conductores pierden un tiempo considerable buscando espacios de estacionamiento disponibles, lo que genera congestión vehicular, aumenta la contaminación ambiental y reduce la satisfacción del usuario.
+    Nuestra solución utiliza tecnología IoT para optimizar la administración de grandes estacionamientos, permitiendo la detección en tiempo real de espacios libres, la reserva de estacionamientos a través de una aplicación móvil y la integración con sistemas de pago automatizados. Con SmartParking, buscamos mejorar la movilidad urbana y hacer que el uso de los estacionamientos sea más eficiente y sostenible.<br>
+    <ul>
+      <li>
+        <b>Misión:</b>
+      </li>
+      Revolucionar la gestión de estacionamientos a través de la tecnología IoT, proporcionando una solución inteligente que optimice el uso del espacio, reduzca el tiempo de búsqueda y mejore la experiencia del usuario.
+      <li>
+        <b>Visión:</b>
+      </li>
+      Ser la plataforma líder de estacionamientos inteligentes a nivel nacional, contribuyendo a la movilidad eficiente, promoviendo soluciones tecnológicas sostenibles.
+    </ul>
+</div>
 
 #### 1.1.2. Perfiles de integrantes del equipo
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Los integrantes que conforman la startup son:
+
+| Integrante |  Perfil |Foto|
+| :--------- |---------|----|
+| Arroyo Ormeño, André Alonso (202114714)   |Perfil|![Foto Andre]()|
+| Castilla Pachas, César Antonio (202218735)|Perfil|![Foto César]()|
+| Cortés Casas, Joaquin Marcelo (202114545) |Perfil|![Foto Joaquin]()|
+| Diaz Silva, Fernando Josué (202112722)    |Perfil|![Foto Fernando]()|
+| Godoy, Johan Príncipe (202014511)         |Perfil|![Foto Johan]()|
+| Tafur Gonzales, Josty Gerardo (20201c069) |Perfil|![Foto Josty]()|
+| Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado|![Foto Ernesto](https://intranet.upc.edu.pe/programas/Imagen/Fotos/Upc/0540202112907.jpg)|
 
 ### 1.2. Solution Profile
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 1.2.1. Antecedentes y problemática
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <ul>
+    <li>
+      <b>What (Qué): </b> 
+    </li>
+    <li>
+      <b>When (Cuándo): </b>
+    </li>
+    <li>
+      <b>Where (Dónde): </b>
+    </li>
+    <li>
+      <b>Who (Quién): </b>
+    </li>
+    <li>
+      <b>Why (Por qué): </b>
+    </li>
+    <li>
+      <b>How (Cómo): </b>
+    </li>
+    <li>
+      <b>How Much (Cuánto):</b>
+    </li>
+  </ul>
+</div>
 
 #### 1.2.2. Lean UX Process
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 ##### 1.2.2.1. Lean UX Problem Statements
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -141,8 +278,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 2.1.1. Análisis competitivo
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -150,8 +285,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 2.2. Entrevistas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 2.2.1. Diseño de entrevistas
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -162,8 +295,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 2.3. Needfinding
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 2.3.1. User Personas
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -183,7 +314,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ## Capítulo III: Requirements Specification
-
 ### 3.1. To-Be Scenario Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -268,15 +398,55 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ## Conclusiones
-
 ### Conclusiones y recomendaciones
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <ul>
+    <li>Conclusiones</li>
+    <ul>
+      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    </ul>
+    <li>Recomendaciones</li>
+    <ul>
+      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    </ul>
+  </ul>
+</div>
 
 ### Video About-the-Team
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ## Bibliografia
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <ul>
+    <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+  </ul>
+</div>
 
 ## Anexos
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<table>
+	<tr>
+		<td>Sección</td>
+    <td>Características del video</td>
+  </tr>
+	<tr>
+		<td>Exposición</td>
+		<td>
+			Cantidad de videos: 1<br><br>
+			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tb1<br>
+			Formato: .mp4<br>
+			Duración:<br>
+			Enlace:<br>
+		</td>
+	</tr>
+	<tr>
+		<td>Entrevistas</td>
+		<td>
+			Cantidad de videos: 1<br><br>
+			Nomenclatura: <br>
+			Formato: .mp4<br>
+			Duración: <br>
+			Enlace:<br>
+		</td>
+	</tr>
+</table>
