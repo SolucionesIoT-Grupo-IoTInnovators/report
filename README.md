@@ -236,25 +236,46 @@ Los integrantes que conforman la startup son:
 <div align="justify">
   <ul>
     <li>
-      <b>What (Qué): </b> 
+      <b>What (Qué):</b> Desarrollar una solución IoT para la gestión inteligente de estacionamientos públicos, que permita:
+      <ul>
+        <li>Monitorear en tiempo real la disponibilidad de espacios.</li>
+        <li>Reducir el tiempo de búsqueda de estacionamiento, disminuyendo la congestión vehicular</li>
+        <li>Optimizar el cobro automatizado y la fiscalización mediante sensores y aplicaciones móviles.</li>
+      </ul>
     </li>
     <li>
-      <b>When (Cuándo): </b>
+      <b>When (Cuándo): </b>La congestión por falta de estacionamiento es un problema persistente, pero se ha agravado en la última década debido al crecimiento vehicular. Un informe de la Asociación Automotriz del Perú (2023) señala que Lima un crecimiento de más de 100000 vehículos al año, lo que ocasiona cada vez más tráfico, que empeora durante las horas pico (7:00 - 9:00 AM y 5:00 - 8:00 PM).
     </li>
     <li>
-      <b>Where (Dónde): </b>
+      <b>Where (Dónde): </b>La problemática es crítica en ciudades con alta densidad vehicular, como Lima, Arequipa y Trujillo. Según un estudio de Lima Cómo Vamos (2022), el 60% del tráfico en distritos como Miraflores y San Isidro se debe a vehículos buscando estacionamiento.
     </li>
     <li>
-      <b>Who (Quién): </b>
+      <b>Who (Quién): </b> La problemática afecta principalmente a conductores que buscan estacionamiento en zonas urbanas congestionadas. Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el movimiento vehicular crecio en un 5,7%, lo que exacerba la demanda de espacios de estacionamiento. Además, las autoridades locales enfrentan desafíos en la fiscalización y gestión eficiente de estos espacios.
     </li>
     <li>
-      <b>Why (Por qué): </b>
+      <b>Why (Por qué): </b>La falta de gestión eficiente de estacionamientos genera:
+      <ul>
+        <li>Pérdidas económicas por tiempo improductivo en búsqueda de estacionamiento</li>
+        <li>Contaminación ambiental debido a emisiones innecesarias.¿</li>
+        <li>Estrés en conductores, reduciendo la calidad de vida urbana</li>
+      </ul>
     </li>
     <li>
-      <b>How (Cómo): </b>
+      <b>How (Cómo): </b>La solución propuesta integra:
+      <ul>
+        <li>Sensores IoT para detectar ocupación en tiempo real</li>
+        <li>Plataforma centralizada para gestionar datos y procesar pagos digitales</li>
+        <li>App móvil que guíe a los conductores a espacios disponibles</li>
+        <li>Sistema de cobro automatizado para reducir evasión y mejorar ingresos municipales</li>
+      </ul>
     </li>
     <li>
       <b>How Much (Cuánto):</b>
+      <ul>
+        <li>Impacto económico: Reducción del 30% en tiempo de búsqueda de estacionamiento</li>
+        <li>Impacto ambiental: Disminución de emisiones de CO₂ en un 15% al reducir la congestión</li>
+        <li>Retorno de inversión: Las municipalidades podrían aumentar ingresos mediante tarifas dinámicas y multas automatizadas.</li>
+      </ul>
     </li>
   </ul>
 </div>
@@ -418,8 +439,9 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ## Bibliografia
 <div align="justify">
   <ul>
-    <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
-    <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    <li>Asociación Automotriz del Perú. (2023). <em>INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024.</em> Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>INEI. (2022). <em>Estadísticas de transporte urbano en el Perú. </em>Recuperado de: https://m.inei.gob.pe/prensa/noticias/movimiento-de-vehiculos-a-nivel-nacional-aumento-39-en-febrero-de-2024-15125/ [Consulta: 02 de abril de 2025]</li>
+    <li>Lima Cómo Vamos. (2023). <em>Reporte de movilidad urbana 2023.</em> Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 02 de abril de 2025]</li>
   </ul>
 </div>
 
