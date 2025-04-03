@@ -137,8 +137,34 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Nuestros competidores principales seran los siguientes:
 
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <td><strong>iPark</strong><br>
+      link: <a href="https://ipark.pe/propuesta/">https://ipark.pe/</a>
+    </td>
+    <td>
+      iPark es una plataforma digital orientada a la gestión de estacionamientos. Ofrece soluciones como pago con QR, cámaras ANPR, app móvil para conductores y un panel administrativo para los operadores. Su enfoque está en la automatización y maximización de ingresos.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>ACCIST Perú</strong><br>
+      link: <a href="https://accistperu.com/">https://accistperu.com/</a>
+    </td>
+    <td>
+      ACCIST es una empresa especializada en control de asistencia y acceso. Ofrece soluciones biométricas, molinetes y otros dispositivos de seguridad, que aunque no están centrados en estacionamientos, pueden competir indirectamente en espacios como edificios o universidades.
+    </td>
+  </tr>
+  <tr>
+    <td><strong>Smelpro</strong><br>
+      link: <a href="https://smelpro.com/">https://smelpro.com/</a>
+    </td>
+    <td>
+      Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica.
+    </td>
+  </tr>
+</table>
 #### 2.1.1. Análisis competitivo
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
