@@ -158,10 +158,16 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 2.3. Needfinding
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 2.3.1. User Personas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
+
+**Segmento Propietario de Estacionamiento:** <br>
+Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.
+![user persona de propietario de estacionamiento](chapterII-images/user%20persona-%20Propietario%20de%20estacionamiento.png)
+
+**Segmento Conductor:** <br>
+Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.
+![user persona de conductor](chapterII-images/user%20persona%20-%20conductor.png)
 
 #### 2.3.2. User Task Matrix
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
@@ -170,7 +176,111 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 #### 2.3.4. Empathy Mapping
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
+
+**Segmento Propietario de Estacionamiento:** <br>
+Alejandro Torres es propietario de varios estacionamientos en la ciudad y busca maximizar la rentabilidad de su negocio. Aunque tiene experiencia en gestión, enfrenta desafíos como baja ocupación en horarios específicos y la falta de datos sobre el comportamiento de los clientes. Le interesa implementar herramientas tecnológicas que le permitan automatizar reservas y pagos, así como obtener reportes detallados que le ayuden a tomar mejores decisiones. Su principal frustración es la dificultad de administrar los espacios de manera eficiente sin una plataforma digital que optimice la operación. Su objetivo es mejorar la ocupación de sus estacionamientos, aumentar sus ingresos y ofrecer una mejor experiencia a sus clientes.
+![emphaty mapping de propietario de estacionamiento](chapterII-images/emphaty%20map%20-%20propietario%20de%20estacionamiento.png)
+
+**Segmento Conductor:** <br>
+Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asistir a reuniones. Su apretada agenda hace que encontrar estacionamiento sea un problema frecuente, especialmente en zonas de alta demanda. Se frustra al perder tiempo buscando un espacio disponible, enfrentarse a tarifas imprevistas o no tener información en tiempo real sobre la disponibilidad. Como usuario de tecnología, busca soluciones que optimicen su tiempo y le brinden mayor comodidad, como aplicaciones móviles que le permitan reservar espacios con antelación y recibir notificaciones sobre estacionamientos cercanos y sus costos. Su objetivo principal es reducir el estrés de encontrar estacionamiento y asegurarse de que su vehículo esté seguro mientras realiza su trabajo.
+![emphaty mapping de conductor](chapterII-images/emphaty%20map%20-%20conductor.png)
+
+**Proceso de Elaboración** <br>
+1. **Preparación y Enfoque en el User Persona** <br>
+Cada mapa comenzó con la identificación del User Persona en el centro:
+   - **Alejandro Torres**: Propietario de varios estacionamientos en Santiago, busca optimizar la ocupación de sus espacios y mejorar la rentabilidad de su negocio mediante herramientas digitales.
+   - **Diego Ramírez**: Persona que usa su vehículo diariamente y enfrenta dificultades para encontrar estacionamiento de manera rápida y eficiente.
+    
+
+2. **Captura de Observaciones**:  
+   Para cada User Persona, se recopilaron observaciones del equipo en las secciones del Empathy Map:
+
+    - **¿Con quién estamos empatizando?**:  
+       - **Alejandro Torres**: Un empresario que administra estacionamientos y busca mejorar la eficiencia y rentabilidad de su negocio.
+        - **Diego Ramírez**: Un conductor que necesita estacionar rápidamente en zonas de alta demanda y evitar pérdidas de tiempo en su rutina diaria.
+
+    - **¿Qué necesitan hacer?**:
+        - **Alejandro Torres**
+          - Aumentar la ocupación de su estacionamiento y optimizar la gestión de espacios.
+          - Obtener reportes y métricas sobre la demanda de estacionamientos.
+          - Automatizar reservas y pagos para mejorar la experiencia del cliente.
+        - **Diego Ramírez**
+          - Encontrar estacionamiento de manera rápida y sin estrés.
+          - Reservar espacios con antelación en zonas concurridas.
+          - Recibir información en tiempo real sobre disponibilidad y precios.
+
+    - **¿Qué están viendo?**:
+        - **Alejandro Torres**
+          - Estacionamientos vacíos en horarios específicos.
+          - Competencia implementando nuevas tecnologías para atraer clientes.
+          - Dificultades en la gestión manual de pagos y espacios.
+        - **Diego Ramírez**
+          - Falta de espacios disponibles en zonas comerciales.
+          - Precios elevados y cambios inesperados en las tarifas.
+          - Conductores compitiendo por los mismos espacios.
+
+    - **¿Qué están escuchando?**:
+        - **Alejandro Torres**
+          - Sugerencias de su equipo sobre cómo mejorar la ocupación.
+          - Comentarios de clientes que buscan mayor comodidad y eficiencia.
+          - Información sobre tendencias en gestión de estacionamientos.
+        - **Diego Ramírez**
+          - Opiniones de otros conductores sobre la falta de estacionamientos.
+          - Recomendaciones de apps y herramientas para facilitar el proceso.
+          - Quejas sobre la seguridad en algunos estacionamientos.
+
+    - **¿Qué están diciendo?**:
+        - **Alejandro Torres**
+          - "Necesito una mejor manera de gestionar mis estacionamientos."
+          - "Es difícil predecir la demanda sin datos claros."
+          - "Automatizar pagos y reservas me ahorraría muchos problemas."
+        - **Diego Ramírez**
+          - "Perder tiempo buscando estacionamiento es frustrante."
+          - "Sería ideal poder reservar con anticipación."
+          - "No quiero pagar más de la cuenta sin previo aviso."
+
+    - **¿Qué están haciendo?**:
+        - **Alejandro Torres**
+          - Analizando la ocupación de su estacionamiento y ajustando tarifas.
+          - Supervisando la operación y gestionando pagos manualmente.
+          - Evaluando herramientas digitales para mejorar la eficiencia.
+        - **Diego Ramírez**
+          - "Perder tiempo buscando estacionamiento es frustrante."
+          - "Sería ideal poder reservar con anticipación."
+          - "No quiero pagar más de la cuenta sin previo aviso."
+
+    - **¿Cómo se sienten y qué piensan?**:
+       - **Alejandro Torres**
+          - Siente presión por aumentar la rentabilidad de su negocio.
+          - Está interesado en nuevas herramientas, pero solo si generan beneficios reales.
+          - Quiere reducir la carga operativa y mejorar la experiencia de sus clientes.
+        - **Diego Ramírez**
+          - Se siente estresado cuando no encuentra estacionamiento a tiempo.
+          - Siente frustración por la falta de información clara y actualizada.
+          - Quiere soluciones tecnológicas que faciliten su día a día.
+
+    - **Gains**:
+       - **Alejandro Torres**
+          - Incremento en la ocupación y rentabilidad de su estacionamiento.
+          - Optimización del negocio con reportes y análisis de datos.
+          - Automatización de procesos para mejorar la eficiencia operativa.
+        - **Diego Ramírez**
+          - Ahorro de tiempo y reducción del estrés diario.
+          - Mayor seguridad y comodidad al estacionar.
+          - Capacidad de planificar mejor su día sin preocuparse por el estacionamiento.
+
+    - **Pains**:
+       - **Alejandro Torres**
+          - Baja ocupación en ciertos horarios y días.
+          - Falta de datos para mejorar la toma de decisiones.
+          - Complejidad en la gestión manual de pagos y reservas.
+        - **Diego Ramírez**
+          - Pérdida de tiempo buscando estacionamiento.
+          - Falta de información en tiempo real sobre precios y disponibilidad.
+          - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
+
+Estos Empathy Maps proporcionan una visión clara de las necesidades y desafíos de los usuarios, ayudando a desarrollar soluciones alineadas con sus expectativas y mejorando la experiencia en la gestión y búsqueda de estacionamientos.
 
 #### 2.3.5. As-is Scenario Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
