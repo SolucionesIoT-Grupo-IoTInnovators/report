@@ -170,8 +170,49 @@ Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exig
 ![user persona de conductor](chapterII-images/user%20persona%20-%20conductor.png)
 
 #### 2.3.2. User Task Matrix
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
+En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los **User Personas** realizan para cumplir sus objetivos. Se consideran dos segmentos: **propietarios de estacionamiento** y **conductores**. Las tareas identificadas representan actividades que los usuarios deben realizar independientemente de la existencia de una solución de software.
+
+| **Task**                                 | **Propietario de Estacionamiento** |                 | **Conductor**  |                 |
+|------------------------------------------|------------------------------------|-----------------|----------------|-----------------|
+|                                          | **Frecuencia**                     | **Importancia** | **Frecuencia** | **Importancia** |
+| Establecer horarios y tarifas            | High                               | High            | -              | -               |
+| Gestionar la disponibilidad del espacio  | High                               | High            | -              | -               |
+| Supervisar ocupación del estacionamiento | Medium                             | High            | -              | -               |
+| Cobrar o verificar pagos                 | High                               | High            | -              | -               |
+| Coordinar con clientes                   | Medium                             | Medium          | Medium         | Medium          |
+| Buscar estacionamiento                   | -                                  | -               | High           | High            |
+| Evaluar seguridad del lugar              | -                                  | -               | High           | High            |
+| Comparar precios y distancias            | -                                  | -               | High           | Medium          |
+| Reservar espacio de estacionamiento      | -                                  | -               | High           | High            |
+| Verificar disponibilidad en tiempo real  | -                                  | -               | High           | High            |
+| Gestionar historial de reservas/pagos    | Medium                             | Medium          | Medium         | Medium          |
+
+### Explicación
+
+Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y **conductores**, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
+
+#### Tareas con Mayor Frecuencia e Importancia
+
+1. **Establecer horarios y tarifas** (propietarios): Es esencial para gestionar correctamente su espacio y maximizar ingresos. Tiene alta frecuencia, especialmente si los precios varían según el día o la demanda.
+
+2. **Gestionar disponibilidad del espacio** (propietarios): Es una tarea clave que impacta directamente en la operación eficiente del estacionamiento.
+
+3. **Buscar estacionamiento**, **reservar espacio** y **verificar disponibilidad en tiempo real** (conductores): Estas tareas son el núcleo de la experiencia del conductor, siendo realizadas de manera constante para resolver su necesidad inmediata.
+
+4. **Evaluar seguridad del lugar** (conductores): La percepción de seguridad influye fuertemente en la elección del estacionamiento.
+
+#### Principales Diferencias
+
+- Los **propietarios** están enfocados en la **gestión operativa y financiera** del estacionamiento (tarifas, disponibilidad, pagos).
+- Los **conductores** están enfocados en **localizar, evaluar y asegurar** su experiencia al aparcar.
+
+#### Coincidencias
+
+Ambos perfiles realizan la tarea de **coordinar con clientes** (por ejemplo, para resolver inconvenientes o dar indicaciones) y **gestionar historial** (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
+
+Estas diferencias y coincidencias subrayan la necesidad de una solución que contemple tanto la eficiencia operativa para los propietarios como la conveniencia y seguridad para los conductores.
+    
 #### 2.3.3. User Journey Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
