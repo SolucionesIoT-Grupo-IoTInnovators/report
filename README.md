@@ -372,7 +372,23 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+En esta sección se presentan los To-Be Scenario Mapping para cada segmento objetivo donde se reflejarán, a partir de los As-is Scenario Mapping, la experiencia de usuario ideal si se resuelven los puntos de dolor y necesidades. La herramienta empleada para su desarrollo ha sido Miro.
+
+**Segmento Propietario de Estacionamiento:** <br>
+![emphaty mapping de propietario de estacionamiento](chapterII-images/To-be%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
+
+**Cambios Claves**
+  - Eliminación del registro manual gracias a paneles automáticos y visualización en tiempo real.
+  - Disminuye la carga operativa y aumenta la eficiencia, lo que permite dedicar más tiempo a la estrategia.
+  - Acceso a datos analíticos facilita la toma de decisiones y mejora la rentabilidad.
+
+**Segmento Conductor:** <br>
+![emphaty mapping de propietario de estacionamiento](chapterII-images/To-be%20Scenario%20Mapping-conductor.jpg)
+
+**Cambios Claves**
+  - La incertidumbre por la disponibilidad y precios desaparece gracias a la reserva previa y visibilidad en tiempo real.
+  - Se eliminan las vueltas innecesarias y el estrés por llegar tarde.
+  - Mejora la confianza y seguridad, tanto en el trayecto como en el uso del espacio reservado.
 
 ### 3.2. User Stories
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
