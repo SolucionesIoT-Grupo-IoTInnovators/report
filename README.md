@@ -394,17 +394,17 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 <div align="justify">
   <table>
     <tr>
-      <td>Epic / Story ID</td>
-      <td>Título</td>
-      <td>Descripción</td>
-      <td>Criterios de Aceptación</td>
-      <td>Relacionado con (Epic ID)</td>
+      <td width="10%">Epic / Story ID</td>
+      <td width="10%">Título</td>
+      <td width="30%">Descripción</td>
+      <td width="40%">Criterios de Aceptación</td>
+      <td width="10%">Relacionado con (Epic ID)</td>
     </tr>
     <!--Epicas-->
     <tr>
       <td>EP01</td>
       <td>Disponibilidad en Tiempo Real</td>
-      <td>Implementar la integración de sensores IoT que detecten en tiempo real la disponibilidad de espacios en el estacionamiento, de modo que los conductores puedan ver en la app información actualizada al instante.</td>
+      <td>Implementar los sensores IoT para que detecten en tiempo real la disponibilidad de espacios en el estacionamiento, de modo que los conductores puedan ver en la app información actualizada al instante.</td>
       <td>
         Scenario: Ver espacios de estacionamiento disponibles en tiempo real<br>
         Given que el usuario ha iniciado sesión en la aplicación móvil<br>
@@ -440,7 +440,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     <tr>
       <td>EP03</td>
       <td>Panel de Gestión para Propietarios</td>
-      <td>Crear una plataforma web para los propietarios de estacionamientos que permita gestionar la ocupación, automatizar pagos y acceder a análisis y reportes en tiempo real para optimizar la administración y maximizar ingresos.</td>
+      <td>Crear una plataforma web para los propietarios de estacionamientos que permita la gestión en tiempo real para optimizar la administración y maximizar ingresos.</td>
       <td>
         Scenario: Ver estadísticas de ocupación en el dashboard<br>
         Given que el propietario ha iniciado sesión en la plataforma web<br>
@@ -538,17 +538,17 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US04</td>
-      <td>Filtro por tipo de espacio (techado / libre / accesible)</td>
-      <td>Como conductor, quiero poder filtrar el tipo de espacio que busco (techado, libre o accesible) para que el sistema me muestre solo lo que necesito.</td>
+      <td>Información en Tiempo Real de Disponibilidad de Espacios</td>
+      <td>Como visitante de la Landing Page, quiero ver una representación en tiempo real de los espacios de estacionamiento disponibles, para conocer cómo funciona el sistema de monitoreo antes de registrarme.</td>
       <td>
-        Scenario: Filtrar espacios según tipo<br>
-        Given que el usuario está en la pantalla de mapa<br>
-        When selecciona el filtro "Espacio techado"<br>
-        Then solo se deben mostrar los espacios techados disponibles<br><br>
-        Scenario: Eliminar filtros aplicados<br>
-        Given que el usuario ha aplicado un filtro<br>
-        When presiona "Limpiar filtros"<br>
-        Then el mapa debe mostrar todos los espacios disponibles sin filtrar
+        Scenario: Mostrar visualización de disponibilidad en tiempo real<br>
+        Given que el visitante accede a la landing page<br>
+        When la sección de disponibilidad es visible<br>
+        Then debe mostrarse un mapa interactivo con la cantidad de espacios disponibles en tiempo real<br><br>
+        Scenario: Datos actualizados en tiempo real<br>
+        Given que hay cambios en la ocupación de los estacionamientos<br>
+        When el sistema detecta estos cambios<br>
+        Then la visualización del mapa se actualiza automáticamente sin recargar la página
       </td>
       <td>EP01</td>
     </tr>
@@ -670,13 +670,17 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US14</td>
-      <td>Configurar alertas personalizadas</td>
-      <td>Como propietario, quiero configurar alertas que me notifiquen cuando la ocupación supere un cierto porcentaje para responder con promociones o ajustes de precio.</td>
+      <td>Comparativa con métodos tradicionales</td>
+      <td>Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales, para entender los beneficios económicos y operativos de la plataforma.</td>
       <td>
-        Scenario: Configurar alerta por alta ocupación<br>
-        Given que el propietario accede a la configuración de alertas<br>
-        When establece un umbral de ocupación del 90%<br>
-        Then debe recibir una notificación cuando el estacionamiento supere ese porcentaje
+        Scenario: Mostrar tabla comparativa<br>
+        Given que el visitante accede a la landing page<br>
+        When hace clic en “¿Por qué SmartParking?”<br>
+        Then debe aparecer una tabla que compare: tiempo de gestión, precisión, ingresos estimados y herramientas disponibles<br><br>
+        Scenario: Mostrar CTA al final de la tabla<br>
+        Given que el visitante revisa la tabla<br>
+        When llega al final<br>
+        Then debe mostrarse un botón para “Agendar una demo gratuita” o “Empezar gratis”<br>
       </td>
       <td>EP03</td>
     </tr>
@@ -710,13 +714,17 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US17</td>
-      <td>Actualización del estado de los espacios en tiempo real</td>
-      <td>Como conductor, quiero ver en tiempo real si un espacio está ocupado o libre, para decidir rápidamente dónde estacionar.</td>
+      <td>Seguridad y Confiabilidad del Sistema</td>
+      <td>Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.</td>
       <td>
-        Scenario: Reflejo automático del estado de ocupación<br>
-        Given que el sensor detecta un vehículo en el espacio<br>
-        When se actualiza el estado a “ocupado”<br>
-        Then la app y la web muestran ese espacio como no disponible
+        Scenario: Mostrar sección sobre sensores IoT<br>
+        Given que el visitante navega en la landing page<br>
+        When llega a la sección “¿Cómo funciona?”<br>
+        Then debe visualizar una explicación animada de cómo los sensores detectan ocupación y envían datos a la plataforma<br><br>
+        Scenario: Garantía de precisión<br>
+        Given que el visitante revisa la confiabilidad del sistema<br>
+        When hace clic en “Leer más sobre confiabilidad”<br>
+        Then debe mostrarse una ventana emergente o nueva página con datos técnicos y métricas de precisión (&#60 5% error)<br>
       </td>
       <td>EP04</td>
     </tr>
@@ -782,13 +790,17 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US23</td>
-      <td>Visualizar mi historial de referidos</td>
-      <td>Como usuario, quiero ver a cuántos usuarios he invitado y si han completado sus acciones, para saber cuántas recompensas he generado.</td>
+      <td>Registro Rápido desde Landing Page</td>
+      <td>Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.</td>
       <td>
-        Scenario: Acceder al historial de referidos<br>
-        Given que he invitado usuarios usando mi enlace<br>
-        When accedo a la sección "Mis Referidos"<br>
-        Then puedo ver una lista de usuarios invitados y el estado de sus acciones (registro, reserva)
+        Scenario: Mostrar formulario de registro visible<br>
+        Given que el visitante accede a la landing page<br>
+        When hace clic en “Empieza ahora”<br>
+        Then debe desplegarse un formulario breve con campos de nombre, correo y tipo de usuario<br><br>
+        Scenario: Confirmación tras registro exitoso<br>
+        Given que el visitante llena el formulario correctamente<br>
+        When presiona “Registrarse”<br>
+        Then debe ver un mensaje de confirmación con un botón para ir a la app web o descargar la app móvil
       </td>
       <td>EP05</td>
     </tr>
@@ -818,37 +830,63 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>TS01</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Integrar sensores IoT al backend</td>
+      <td>Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.</td>
+      <td>
+        Scenario: Recepción de datos desde sensores IoT<br>
+        Given que un sensor envía un POST con su estado (ocupado o libre)<br>
+        When el backend recibe la solicitud<br>
+        Then el estado del espacio de estacionamiento se actualiza correctamente en la base de datos
+      </td>
       <td>-</td>
     </tr>
     <tr>
       <td>TS02</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Autenticación con JWT en Web y App</td>
+      <td>Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.</td>
+      <td>
+        Scenario: Inicio de sesión con JWT<br>
+        Given que un usuario envía sus credenciales al endpoint de login<br>
+        When las credenciales son válidas<br>
+        Then se devuelve un JWT válido que puede ser usado para acceder a recursos protegidos
+      </td>
       <td>-</td>
     </tr>
     <tr>
       <td>TS03</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Visualización en tiempo real en la aplicación web</td>
+      <td>Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.</td>
+      <td>
+        Scenario: Actualización en tiempo real del estado de espacios<br>
+        Given que el estado de un espacio cambia (de libre a ocupado o viceversa)<br>
+        When el cambio es detectado por el backend<br>
+        Then la interfaz web actualiza automáticamente el estado visual de ese espacio sin recargar la página
+      </td>
       <td>-</td>
     </tr>
     <tr>
       <td>TS04</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Implementar sistema de reservas en la App Móvil</td>
+      <td>Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.</td>
+      <td>
+        Scenario: Reserva de espacio desde la app<br>
+        Given que el usuario tiene sesión activa y un espacio está libre<br>
+        When selecciona el espacio y confirma la reserva<br>
+        Then el espacio se marca como reservado en el backend<br>
+        And la reserva queda vinculada al usuario
+      </td>
       <td>-</td>
     </tr>
     <tr>
       <td>TS05</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Implementar sistema de pagos en línea</td>
+      <td>Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.</td>
+      <td>
+        Scenario: Pago exitoso de reserva<br>
+        Given que el usuario ha reservado un espacio<br>
+        When accede a la opción de pagar y completa el proceso con su tarjeta<br>
+        Then el sistema confirma el pago y lo registra asociado a la reserva
+      </td>
       <td>-</td>
     </tr>
   </table>
