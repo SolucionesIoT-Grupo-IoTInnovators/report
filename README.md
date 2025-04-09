@@ -500,220 +500,356 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     <!--User Stories-->
     <tr>
       <td>US01</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Visualización de espacios disponibles en el mapa</td>
+      <td>Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.</td>
+      <td>
+        Scenario: Mostrar espacios disponibles en el mapa<br>
+        Given que el usuario ha iniciado sesión en la aplicación móvil<br>
+        When accede a la pantalla de mapa<br>
+        Then los espacios disponibles se deben mostrar en color verde<br>
+        And los espacios ocupados deben mostrarse en color rojo
+      </td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td>US02</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Actualización automática de disponibilidad</td>
+      <td>Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.</td>
+      <td>
+        Scenario: Actualización automática del mapa<br>
+        Given que el propietarios está visualizando el mapa de estacionamientos<br>
+        When pasan 30 segundos<br>
+        Then el sistema debe actualizar automáticamente la disponibilidad de los espacios sin recargar la vista
+      </td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td>US03</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Notificación de disponibilidad cercana</td>
+      <td>Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.</td>
+      <td>
+        Scenario: Notificación de espacio disponible cercano<br>
+        Given que el usuario tiene activadas las notificaciones<br>
+        And se encuentra a menos de 300 metros de un estacionamiento<br>
+        When un espacio se libera<br>
+        Then el sistema debe enviar una notificación indicando la disponibilidad y ubicación
+      </td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td>US04</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Filtro por tipo de espacio (techado / libre / accesible)</td>
+      <td>Como conductor, quiero poder filtrar el tipo de espacio que busco (techado, libre o accesible) para que el sistema me muestre solo lo que necesito.</td>
+      <td>
+        Scenario: Filtrar espacios según tipo<br>
+        Given que el usuario está en la pantalla de mapa<br>
+        When selecciona el filtro "Espacio techado"<br>
+        Then solo se deben mostrar los espacios techados disponibles<br><br>
+        Scenario: Eliminar filtros aplicados<br>
+        Given que el usuario ha aplicado un filtro<br>
+        When presiona "Limpiar filtros"<br>
+        Then el mapa debe mostrar todos los espacios disponibles sin filtrar
+      </td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td>US05</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Visualizar detalles de un espacio disponible</td>
+      <td>Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.</td>
+      <td>
+        Scenario: Ver detalles de un espacio<br>
+        Given que el usuario visualiza un espacio disponible en el mapa<br>
+        When toca un marcador de espacio<br>
+        Then se debe mostrar un panel con información sobre el precio, duración máxima permitida y tipo de espacio
+      </td>
+      <td>EP01</td>
     </tr>
     <tr>
       <td>US06</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Reservar un espacio disponible desde la app</td>
+      <td>Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.</td>
+      <td>
+        Scenario: Reservar espacio desde la app<br>
+        Given que el usuario visualiza un espacio disponible<br>
+        When selecciona el espacio y presiona "Reservar"<br>
+        Then el sistema debe bloquear el espacio durante un tiempo determinado<br>
+        And debe mostrar un mensaje de confirmación con el tiempo límite para llegar
+      </td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US07</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Cancelar una reserva activa</td>
+      <td>Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.</td>
+      <td>
+        Scenario: Cancelación de reserva<br>
+        Given que el usuario tiene una reserva activa<br>
+        When presiona el botón "Cancelar reserva"<br>
+        Then el espacio debe quedar liberado inmediatamente<br>
+        And debe mostrarse una notificación de cancelación exitosa
+      </td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US08</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Realizar pago desde la app</td>
+      <td>Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.</td>
+      <td>
+        Scenario: Pago exitoso desde la app<br>
+        Given que el usuario ha utilizado un espacio reservado<br>
+        When accede a la opción de pago y confirma el monto<br>
+        Then el sistema debe procesar el pago de forma segura<br>
+        And debe mostrar un comprobante digital de la transacción
+      </td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US09</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Registro de método de pago en el perfil</td>
+      <td>Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.</td>
+      <td>
+        Scenario: Registrar método de pago<br>
+        Given que el usuario accede a su perfil<br>
+        When introduce los datos de su tarjeta y guarda la información<br>
+        Then el sistema debe validar y guardar el método de pago de forma segura<br>
+        And debe estar disponible para próximos pagos
+      </td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US10</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Ver historial de pagos realizados</td>
+      <td>Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.</td>
+      <td>
+        Scenario: Visualizar historial de pagos<br>
+        Given que el usuario está en la sección de "Mis pagos"<br>
+        When selecciona una fecha o rango de fechas<br>
+        Then debe mostrarse una lista de pagos realizados con detalles como fecha, monto y estacionamiento
+      </td>
+      <td>EP02</td>
     </tr>
     <tr>
       <td>US11</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Visualizar ocupación en tiempo real</td>
+      <td>Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.</td>
+      <td>
+        Scenario: Ver ocupación en tiempo real<br>
+        Given que el propietario ha iniciado sesión en la plataforma web<br>
+        When accede al panel principal<br>
+        Then debe visualizar un gráfico con el porcentaje de ocupación actual<br>
+        And una lista con los espacios ocupados y disponibles en tiempo real
+      </td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US12</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Modificar tarifas de estacionamiento</td>
+      <td>Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.</td>
+      <td>
+        Scenario: Modificar tarifa base por hora<br>
+        Given que el propietario está en el panel de tarifas<br>
+        When edita el valor en el campo “Tarifa por hora”<br>
+        And hace clic en "Guardar cambios"<br>
+        Then la tarifa actualizada debe reflejarse en la plataforma<br>
+        And debe mostrarse un mensaje de confirmación
+      </td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US13</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Descargar reportes de uso</td>
+      <td>Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.</td>
+      <td>
+        Scenario: Descargar reporte mensual<br>
+        Given que el propietario accede a la sección de reportes<br>
+        When selecciona un rango de fechas<br>
+        And hace clic en "Descargar reporte"<br>
+        Then el sistema debe generar un archivo PDF o Excel con los datos de ocupación e ingresos
+      </td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US14</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Configurar alertas personalizadas</td>
+      <td>Como propietario, quiero configurar alertas que me notifiquen cuando la ocupación supere un cierto porcentaje para responder con promociones o ajustes de precio.</td>
+      <td>
+        Scenario: Configurar alerta por alta ocupación<br>
+        Given que el propietario accede a la configuración de alertas<br>
+        When establece un umbral de ocupación del 90%<br>
+        Then debe recibir una notificación cuando el estacionamiento supere ese porcentaje
+      </td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US15</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Gestionar múltiples estacionamientos desde un solo panel</td>
+      <td>Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.</td>
+      <td>
+        Scenario: Ver listado de estacionamientos registrados<br>
+        Given que el propietario tiene más de un estacionamiento<br>
+        When accede al panel de gestión<br>
+        Then debe visualizar una lista con todos sus estacionamientos registrados<br><br>
+        Scenario: Ver detalles por cada estacionamiento<br>
+        Given que el propietario está en el panel<br>
+        When selecciona un estacionamiento de la lista<br>
+        Then debe ver un desglose con sus métricas de ocupación, ingresos y alertas
+      </td>
+      <td>EP03</td>
     </tr>
     <tr>
       <td>US16</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Registro de sensores en la plataforma</td>
+      <td>Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.</td>
+      <td>
+        Scenario: Registro exitoso de un nuevo sensor<br>
+        Given que el administrador está autenticado en la plataforma<br>
+        When agrega un sensor proporcionando su ID y ubicación<br>
+        Then el sistema confirma el registro y lo muestra en el panel de control
+      </td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td>US17</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Actualización del estado de los espacios en tiempo real</td>
+      <td>Como conductor, quiero ver en tiempo real si un espacio está ocupado o libre, para decidir rápidamente dónde estacionar.</td>
+      <td>
+        Scenario: Reflejo automático del estado de ocupación<br>
+        Given que el sensor detecta un vehículo en el espacio<br>
+        When se actualiza el estado a “ocupado”<br>
+        Then la app y la web muestran ese espacio como no disponible
+      </td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td>US18</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Alertas ante fallas en los sensores</td>
+      <td>Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.</td>
+      <td>
+        Scenario: Notificación por inactividad del sensor<br>
+        Given que un sensor no envía datos por más de 60 segundos<br>
+        When el sistema detecta esta inactividad<br>
+        Then se envía una notificación al propietario indicando el sensor afectado
+      </td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td>US19</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Actualización remota del firmware de sensores</td>
+      <td>Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.</td>
+      <td>
+        Scenario: Actualización remota de firmware<br>
+        Given que el administrador selecciona uno o más sensores<br>
+        When hace clic en “Actualizar firmware”<br>
+        Then el sistema despliega la actualización de manera remota y muestra un mensaje de éxito o error
+      </td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td>US20</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Validación de consistencia entre sensores y estado del sistema</td>
+      <td>Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.</td>
+      <td>
+        Scenario: Verificación automática de consistencia<br>
+        Given que el sistema recibe datos de los sensores<br>
+        When detecta una discrepancia con los datos mostrados en la interfaz<br>
+        Then genera una alerta y actualiza automáticamente el estado correcto
+      </td>
+      <td>EP04</td>
     </tr>
     <tr>
       <td>US21</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Registro mediante enlace de invitación</td>
+      <td>Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.</td>
+      <td>
+        Scenario: Registro desde enlace de invitación<br>
+        Given que recibo un enlace de invitación generado por otro usuario<br>
+        When accedo al enlace y completo el registro<br>
+        Then el sistema registra al usuario como referido y lo vincula con quien lo invitó
+      </td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td>US22</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Incentivo por recomendación exitosa</td>
+      <td>Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.</td>
+      <td>
+        Scenario: Recompensa por recomendación exitosa<br>
+        Given que invito a un nuevo usuario usando mi enlace personalizado<br>
+        When ese usuario se registra y realiza su primera reserva<br>
+        Then recibo una recompensa en mi cuenta (ej. crédito o cupón)
+      </td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td>US23</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Visualizar mi historial de referidos</td>
+      <td>Como usuario, quiero ver a cuántos usuarios he invitado y si han completado sus acciones, para saber cuántas recompensas he generado.</td>
+      <td>
+        Scenario: Acceder al historial de referidos<br>
+        Given que he invitado usuarios usando mi enlace<br>
+        When accedo a la sección "Mis Referidos"<br>
+        Then puedo ver una lista de usuarios invitados y el estado de sus acciones (registro, reserva)
+      </td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td>US24</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Encuesta de satisfacción automática</td>
+      <td>Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.</td>
+      <td>
+        Scenario: Enviar encuesta de satisfacción automática<br>
+        Given que he usado la app durante más de 7 días<br>
+        When abro la app en ese periodo<br>
+        Then se me presenta una encuesta de satisfacción de forma automática
+      </td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td>US25</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Panel de métricas de crecimiento orgánico (Admin)</td>
+      <td>Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.</td>
+      <td>
+        Scenario: Visualizar panel de métricas de referidos<br>
+        Given que soy un administrador de la plataforma<br>
+        When accedo al panel de métricas<br>
+        Then puedo ver datos como cantidad de referidos, usuarios activos y conversiones por invitación
+      </td>
+      <td>EP05</td>
     </tr>
     <tr>
       <td>TS01</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>-</td>
     </tr>
     <tr>
       <td>TS02</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>-</td>
     </tr>
     <tr>
       <td>TS03</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>-</td>
     </tr>
     <tr>
       <td>TS04</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>-</td>
     </tr>
     <tr>
       <td>TS05</td>
       <td></td>
       <td></td>
       <td></td>
-      <td></td>
+      <td>-</td>
     </tr>
   </table>
 </div>
