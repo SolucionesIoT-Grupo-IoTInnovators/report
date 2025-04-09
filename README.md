@@ -391,16 +391,364 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
   - Mejora la confianza y seguridad, tanto en el trayecto como en el uso del espacio reservado.
 
 ### 3.2. User Stories
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <table>
+    <tr>
+      <td>Epic / Story ID</td>
+      <td>Título</td>
+      <td>Descripción</td>
+      <td>Criterios de Aceptación</td>
+      <td>Relacionado con (Epic ID)</td>
+    </tr>
+    <!--Epicas-->
+    <tr>
+      <td>EP01</td>
+      <td>Disponibilidad en Tiempo Real</td>
+      <td>Implementar la integración de sensores IoT que detecten en tiempo real la disponibilidad de espacios en el estacionamiento, de modo que los conductores puedan ver en la app información actualizada al instante.</td>
+      <td>
+        Scenario: Ver espacios de estacionamiento disponibles en tiempo real<br>
+        Given que el usuario ha iniciado sesión en la aplicación móvil<br>
+        When accede al mapa de estacionamientos<br>
+        Then podrá ver los espacios disponibles actualizados automáticamente cada 30 segundos<br><br>
+        Scenario: Manejo de error en sensores IoT<br>
+        Given que un sensor deja de enviar datos válidos<br>
+        When el sistema detecta la falla<br>
+        Then el espacio asociado se mostrará como no disponible o marcado con una alerta
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>EP02</td>
+      <td>Sistema de Reserva y Pago Automatizado</td>
+      <td>Desarrollar un sistema integral que permita a los conductores reservar un espacio de estacionamiento y procesar el pago de forma automatizada, ofreciendo una experiencia fluida y sin fricciones.</td>
+      <td>
+        Scenario: Reservar un espacio de estacionamiento<br>
+        Given que el conductor visualiza un espacio disponible<br>
+        When selecciona el espacio y presiona “Reservar”<br>
+        Then el sistema deberá bloquear el espacio para ese usuario<br><br>
+        Scenario: Confirmación de pago exitoso<br>
+        Given que el usuario ha reservado un espacio<br>
+        When realiza el pago mediante la aplicación<br>
+        Then se le mostrará una confirmación y recibirá una notificación con los detalles<br><br>
+        Scenario: Ver detalle de reserva<br>
+        Given que el usuario tiene una reserva activa<br>
+        When accede a la sección “Mis reservas”<br>
+        Then verá la ubicación, tiempo y código del espacio asignado
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>EP03</td>
+      <td>Panel de Gestión para Propietarios</td>
+      <td>Crear una plataforma web para los propietarios de estacionamientos que permita gestionar la ocupación, automatizar pagos y acceder a análisis y reportes en tiempo real para optimizar la administración y maximizar ingresos.</td>
+      <td>
+        Scenario: Ver estadísticas de ocupación en el dashboard<br>
+        Given que el propietario ha iniciado sesión en la plataforma web<br>
+        When accede a la sección de estadísticas<br>
+        Then visualizará información en tiempo real sobre ocupación y tarifas<br><br>
+        Scenario: Generar reportes de uso y rentabilidad<br>
+        Given que el propietario necesita un resumen de uso<br>
+        When presiona “Generar reporte” en el panel de control<br>
+        Then podrá descargar el archivo en formato PDF o Excel<br><br>
+        Scenario: Notificación ante baja ocupación<br>
+        Given que la ocupación cae por debajo del 20%<br>
+        When el sistema detecta este evento<br>
+        Then el propietario recibe una alerta por email o en el panel
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>EP04</td>
+      <td>Integración y Confiabilidad del Sistema IoT</td>
+      <td>Garantizar una integración robusta y confiable de los dispositivos IoT en el estacionamiento, con un sistema de monitoreo que minimice errores y garantice la exactitud de los datos transmitidos.</td>
+      <td>
+        Scenario: Transmisión de datos de sensores IoT<br>
+        Given que los sensores están instalados y operativos<br>
+        When detectan la entrada o salida de un vehículo<br>
+        Then el sistema actualiza el estado del espacio en menos de 5 segundos<br><br>
+        Scenario: Manejo de errores del sensor<br>
+        Given que un sensor presenta fallas<br>
+        When no responde por más de 1 minuto<br>
+        Then el sistema lo marca como inactivo y genera una alerta al administrador<br><br>
+        Scenario: Mantenimiento remoto de sensores<br>
+        Given que un administrador desea actualizar el firmware<br>
+        When accede al módulo de mantenimiento<br>
+        Then podrá iniciar la actualización de los sensores remotamente
+      </td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>EP05</td>
+      <td>Estrategia de Adopción y Crecimiento Orgánico</td>
+      <td>Diseñar e implementar funcionalidades que mejoren la experiencia del usuario, fomenten el boca a boca y aseguren la adopción de la plataforma tanto por conductores como por propietarios, impulsando el crecimiento orgánico.</td>
+      <td>
+        Scenario: Registro de usuarios por recomendación<br>
+        Given que un nuevo usuario descarga la app desde un enlace de invitación<br>
+        When completa el registro<br>
+        Then el sistema lo clasifica como adquisición por referencia<br><br>
+        Scenario: Medir satisfacción del usuario<br>
+        Given que el usuario ha utilizado la app por más de una semana<br>
+        When se le envía una encuesta de satisfacción<br>
+        Then debe completarla y el sistema almacenará la puntuación<br><br>
+        Scenario: Incentivo por recomendación<br>
+        Given que un usuario refiere a un nuevo usuario<br>
+        When este se registre y realice una primera reserva<br>
+        Then el usuario original recibe una recompensa en su cuenta
+      </td>
+      <td>-</td>
+    </tr>
+    <!--User Stories-->
+    <tr>
+      <td>US01</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US21</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS01</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS02</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS03</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS04</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS05</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
 
 ### 3.3. Impact Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 3.4. Product Backlog
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <table>
+    <tr>
+      <td># Orden</td>
+      <td>User Story Id</td>
+      <td>Título</td>
+      <td>Descripción</td>
+      <td>Story Points (1 / 2 / 3 / 5 / 8)</td>
+    </tr>
+    <tr>
+      <td>US</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
 
 ## Capítulo IV: Solution Software Design
-
 ### 4.1. Strategic-Level Domain-Driven Design
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
