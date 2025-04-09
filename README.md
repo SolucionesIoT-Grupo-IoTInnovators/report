@@ -479,8 +479,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>EP05</td>
-      <td>Estrategia de Adopción y Crecimiento Orgánico</td>
-      <td>Diseñar e implementar funcionalidades que mejoren la experiencia del usuario, fomenten el boca a boca y aseguren la adopción de la plataforma tanto por conductores como por propietarios, impulsando el crecimiento orgánico.</td>
+      <td>Estrategia de Adopción y Crecimiento</td>
+      <td>Diseñar e implementar funcionalidades que mejoren la experiencia del usuario y aseguren la adopción de la plataforma tanto por conductores como por propietarios, impulsando el crecimiento.</td>
       <td>
         Scenario: Registro de usuarios por recomendación<br>
         Given que un nuevo usuario descarga la app desde un enlace de invitación<br>
@@ -490,10 +490,6 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el usuario ha utilizado la app por más de una semana<br>
         When se le envía una encuesta de satisfacción<br>
         Then debe completarla y el sistema almacenará la puntuación<br><br>
-        Scenario: Incentivo por recomendación<br>
-        Given que un usuario refiere a un nuevo usuario<br>
-        When este se registre y realice una primera reserva<br>
-        Then el usuario original recibe una recompensa en su cuenta
       </td>
       <td>-</td>
     </tr>
@@ -539,7 +535,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     <tr>
       <td>US04</td>
       <td>Información en Tiempo Real de Disponibilidad de Espacios</td>
-      <td>Como visitante de la Landing Page, quiero ver una representación en tiempo real de los espacios de estacionamiento disponibles, para conocer cómo funciona el sistema de monitoreo antes de registrarme.</td>
+      <td>Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.</td>
       <td>
         Scenario: Mostrar visualización de disponibilidad en tiempo real<br>
         Given que el visitante accede a la landing page<br>
@@ -680,7 +676,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Mostrar CTA al final de la tabla<br>
         Given que el visitante revisa la tabla<br>
         When llega al final<br>
-        Then debe mostrarse un botón para “Agendar una demo gratuita” o “Empezar gratis”<br>
+        Then debe mostrarse un botón “Empezar gratis”<br>
       </td>
       <td>EP03</td>
     </tr>
