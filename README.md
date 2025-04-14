@@ -31,6 +31,31 @@
 
 ## Registro de Versiones del Informe
 
+## Project Report Collaboration Insights
+
+### URL del repositorio en la organización GitHub
+[Enlace al repositorio del informe en GitHub](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/tree/feature-version-registration)
+
+### Actividades de elaboración del informe
+
+#### TB1:
+
+**Descripción de las actividades realizadas:**
+- **Arroyo Ormeño, André Alonso:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Castilla Pachas, César Antonio:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Cortés Casas, Joaquin Marcelo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Diaz Silva, Fernando Josué:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Godoy, Johan Príncipe:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Tafur Gonzales, Josty Gerardo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Zarate Caceres, Victor Ernesto:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+
+**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
+![Captura de analíticos de colaboración de GitHub - 1]()
+![Captura de commits de GitHub - 1]()
+
+---
+
 ## Contenido
 
 **Tabla de contenidos**
