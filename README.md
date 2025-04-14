@@ -35,6 +35,8 @@
 
 **Tabla de contenidos**
 
+- [Student Outcome](#student-outcome)
+
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -97,7 +99,19 @@
 
 ## Student Outcome
 
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+
+Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| **Criterio específico**                                                                                                                                                             | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                         | **Conclusiones**                                                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta.   | Arroyo Ormeño, André Alonso<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Castilla Pachas, César Antonio<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Cortés Casas, Joaquin Marcelo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Diaz Silva, Fernando Josué <br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Godoy, Johan Príncipe<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Tafur Gonzales, Josty Gerardo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Zarate Caceres, Victor Ernesto<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>... | TB1<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam augue, convallis at porta eu.<br/>TP1<br/>... |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Arroyo Ormeño, André Alonso<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Castilla Pachas, César Antonio<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Cortés Casas, Joaquin Marcelo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Diaz Silva, Fernando Josué <br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Godoy, Johan Príncipe<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Tafur Gonzales, Josty Gerardo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Zarate Caceres, Victor Ernesto<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>... | TB1<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam augue, convallis at porta eu.<br/>TP1<br/>... |
+
+---
 
 ## Capítulo I: Introducción
 
