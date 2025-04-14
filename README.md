@@ -1448,40 +1448,43 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ### 4.1. Strategic-Level Domain-Driven Design
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-#### 4.1.1. EventStorming
+#### 4.1.1. Bounded Contexts
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.1.1. Candidate Context Discovery
+#### 4.1.2. EventStorming
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.1.2. Domain Message Flows Modeling
+##### 4.1.2.1. Candidate Context Discovery
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.1.3. Bounded Context Canvases
+##### 4.1.2.2. Domain Message Flows Modeling
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-#### 4.1.2. Context Mapping
+##### 4.1.2.3. Bounded Context Canvases
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-#### 4.1.3. Software Architecture
+#### 4.1.3. Context Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.1. System Quality Attributes
+#### 4.1.4. Software Architecture
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.2. Architectural Design Backlog
+##### 4.1.4.1. System Quality Attributes
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.3. Software Architecture System Landscape Diagram
+##### 4.1.4.2. Architectural Design Backlog
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.4. Software Architecture Context Level Diagrams
+##### 4.1.4.3. Software Architecture System Landscape Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.5. Software Architecture Container Level Diagrams
+##### 4.1.4.4. Software Architecture Context Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.6. Software Architecture Deployment Diagrams
+##### 4.1.4.5. Software Architecture Container Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.1.4.6. Software Architecture Deployment Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 4.2. Tactical-Level Domain-Driven Design
