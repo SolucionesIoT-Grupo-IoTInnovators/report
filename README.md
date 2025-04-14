@@ -185,7 +185,9 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 1.3. Segmentos objetivo
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Propietarios de estacionamientos
+
+Conductores
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
