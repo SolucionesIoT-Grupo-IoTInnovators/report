@@ -1,18 +1,20 @@
 # Informe de Trabajo Final
 
+![UPC Logo](https://www.upc.edu.pe/static/img/logo_upc_red.png)
+
 **Universidad Peruana de Ciencias Aplicadas**  
 **Ingenieria de Software**  
-**Ciclo 07**  
+**Ciclo 07**
 
-**Código del curso:**  
-**Desarrollo de Soluciones IOT**  
-**NRC:**  
+**Código del curso: 1ASI0572**  
+**Curso: Desarrollo de Soluciones IOT**  
+**NRC: 2971**
 
 **Profesor: Velasquez Nuñez, Angel Augusto**
 
-**Startup: IoT Innovators**  
+**Startup: IoT Innovators**
 
-**Producto: SmartParking**  
+**Producto: SmartParking**
 
 ### Relación de integrantes
 
@@ -26,10 +28,22 @@
 | Tafur Gonzales, Josty Gerardo          | u20201c069 |
 | Zarate Caceres, Victor Ernesto        | u202112907 |
 
-
 **Marzo, 2025**
 
+---
+
 ## Registro de Versiones del Informe
+
+| **Versión** | **Fecha**  | **Autor**                     | **Descripción de Modificación**                                                                                                                  |
+|-------------|------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Startup Profile y Solution Profile.                                                                                                  |
+| 1.2         | 14/04/2025 | Cortés Casas, Joaquín Marcelo | Adición del cuadro de Registro de Versiones del Informe, Project Report Collaboration Insights, Student Outcome                                  |
+| ...         | ...        | ...                           | ...                                                                                                                                              |
+| ...         | ...        | ...                           | ...                                                                                                                                              |
+
+
+---
 
 ## Project Report Collaboration Insights
 
