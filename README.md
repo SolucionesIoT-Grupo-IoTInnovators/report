@@ -186,6 +186,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
+        Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.
         <br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
@@ -227,6 +228,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
+        Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.
         <br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
