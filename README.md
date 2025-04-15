@@ -1416,31 +1416,40 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 3.4. Product Backlog
-<div align="justify">
-  <table>
-    <tr>
-      <td># Orden</td>
-      <td>User Story Id</td>
-      <td>Título</td>
-      <td>Descripción</td>
-      <td>Story Points (1 / 2 / 3 / 5 / 8)</td>
-    </tr>
-    <tr>
-      <td>US</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>TS</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </table>
-</div>
+
+| # Orden | User Story Id | Título                                                 | Descripción                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|----------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| 1       | US01           | Visualización de espacios disponibles en el mapa       | Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar. | 5                                |
+| 2       | US02           | Actualización automática de disponibilidad             | Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente. | 2                                |
+| 3       | US03           | Notificación de disponibilidad cercana                 | Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.         | 5                                |
+| 4       | US04           | Información en Tiempo Real de Disponibilidad de Espacios | Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.                     | 3                                |
+| 5       | US05           | Visualizar detalles de un espacio disponible           | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada. | 2                                |
+| 6       | US06           | Reservar un espacio disponible desde la app            | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.       | 5                                |
+| 7       | US07           | Cancelar una reserva activa                            | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.  | 3                                |
+| 8       | US08           | Realizar pago desde la app                             | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo. | 5                                |
+| 9       | US09           | Registro de método de pago en el perfil                | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones. | 3                                |
+| 10      | US10           | Ver historial de pagos realizados                      | Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos. | 2                                |
+| 11      | US11           | Visualizar ocupación en tiempo real                    | Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos. | 3                                |
+| 12      | US12           | Modificar tarifas de estacionamiento                   | Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda. | 2                                |
+| 13      | US13           | Descargar reportes de uso                              | Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado. | 3                                |
+| 14      | US14           | Comparativa con métodos tradicionales                  | Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales.                          | 2                                |
+| 15      | US15           | Gestionar múltiples estacionamientos desde un solo panel | Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño. | 5                                |
+| 16      | US16           | Registro de sensores en la plataforma                  | Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.         | 5                                |
+| 17      | US17           | Seguridad y Confiabilidad del Sistema                  | Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos.           | 2                                |
+| 18      | US18           | Alertas ante fallas en los sensores                    | Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.              | 3                                |
+| 19      | US19           | Actualización remota del firmware de sensores          | Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma.                                      | 5                                |
+| 20      | US20           | Validación de consistencia entre sensores y estado del sistema | Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma. | 3                                |
+| 21      | US21           | Registro mediante enlace de invitación                 | Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación.                                                 | 2                                |
+| 22      | US22           | Incentivo por recomendación exitosa                    | Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app.                                             | 3                                |
+| 23      | US23           | Registro Rápido desde Landing Page                     | Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page.                         | 2                                |
+| 24      | US24           | Encuesta de satisfacción automática                    | Como usuario activo, quiero recibir una encuesta después de un tiempo de uso.                                                     | 2                                |
+| 25      | US25           | Panel de métricas de crecimiento orgánico (Admin)      | Como administrador, quiero ver métricas de adquisición orgánica.                                                                 | 3                                |
+| 26      | TS01           | Integrar sensores IoT al backend                       | Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT.              | 5                                |
+| 27      | TS02           | Autenticación con JWT en Web y App                     | Como desarrollador, quiero implementar autenticación basada en tokens JWT.                                                       | 3                                |
+| 28      | TS03           | Visualización en tiempo real en la aplicación web      | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real.                                | 3                                |
+| 29      | TS04           | Implementar sistema de reservas en la App Móvil        | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app.                                     | 5                                |
+| 30      | TS05           | Implementar sistema de pagos en línea                  | Como desarrollador, quiero integrar un proveedor de pagos en línea.                                                              | 5                                |
+
 
 ---
 
