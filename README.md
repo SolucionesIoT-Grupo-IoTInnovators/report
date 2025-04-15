@@ -1,32 +1,30 @@
-# Informe de Trabajo Final
+# Informe de Trabajo Final - TB1
 
-![UPC Logo](https://www.upc.edu.pe/static/img/logo_upc_red.png)
-
-**Universidad Peruana de Ciencias Aplicadas**  
-**Ingenieria de Software**  
-**Ciclo 07**
-
-**Código del curso: 1ASI0572**  
-**Curso: Desarrollo de Soluciones IOT**  
-**NRC: 2971**
-
-**Profesor: Velasquez Nuñez, Angel Augusto**
-
-**Startup: IoT Innovators**
-
-**Producto: SmartParking**
+<p align="center">
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+    <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
+    <strong>Ingeniería de Software - 202510</strong><br>
+    <strong>Ciclo: 07</strong><br><br>
+    <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
+    <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
+    <strong>INFORME DE TRABAJO FINAL - TB1 </strong> 
+</p>
+<p align="center">
+    <strong>Startup: IoT Innovators </strong><br>
+    <strong>Producto:  SmartParking </strong>
+</p>
 
 ### Relación de integrantes
 
 | Apellidos y Nombres                    | Código     |
-| :------------------------------------: | :-------: |
+| :------------------------------------: | :--------: |
 | Arroyo Ormeño, André Alonso            | u202114714 |
 | Castilla Pachas, César Antonio         | u202218735 |
 | Cortés Casas, Joaquin Marcelo          | u202114545 |
-| Diaz Silva, Fernando Josué            | u202112722 |
+| Diaz Silva, Fernando Josué             | u202112722 |
 | Godoy, Johan Príncipe                  | u202014511 |
 | Tafur Gonzales, Josty Gerardo          | u20201c069 |
-| Zarate Caceres, Victor Ernesto        | u202112907 |
+| Zarate Caceres, Victor Ernesto         | u202112907 |
 
 **Marzo, 2025**
 
@@ -34,14 +32,13 @@
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  | **Autor**                     | **Descripción de Modificación**                                                                                                                  |
-|-------------|------------|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Versión** | **Fecha**  |           **Autor**           |                     **Descripción de Modificación**                    |
+|-------------|------------|-------------------------------|------------------------------------------------------------------------|
 | 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Startup Profile y Solution Profile.                                                                                                  |
-| 1.2         | 14/04/2025 | Cortés Casas, Joaquín Marcelo | Adición del cuadro de Registro de Versiones del Informe, Project Report Collaboration Insights, Student Outcome                                  |
-| ...         | ...        | ...                           | ...                                                                                                                                              |
-| ...         | ...        | ...                           | ...                                                                                                                                              |
-
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto| Adición del Startup Profile y Solution Profile.                        |
+| 1.2         | 14/04/2025 | Cortés Casas, Joaquín Marcelo | Adición del cuadro de Registro de Versiones del Informe, Project Report Collaboration Insights, Student Outcome|
+| ...         | ...        | ...                           | ...                                                                                                            |
+| ...         | ...        | ...                           | ...                                                                                                            |
 
 ---
 
@@ -126,15 +123,15 @@
       - [4.1.3.5. Software Architecture Container Level Diagrams](#4135-software-architecture-container-level-diagrams)
       - [4.1.3.6. Software Architecture Deployment Diagrams](#4136-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.X. Bounded Context: <Bounded Context Name>](#42x-bounded-context-bounded-context-name)
-      - [4.2.X.1. Domain Layer](#42x1-domain-layer)
-      - [4.2.X.2. Interface Layer](#42x2-interface-layer)
-      - [4.2.X.3. Application Layer](#42x3-application-layer)
-      - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
-      - [4.2.X.5. Bounded Context Software Architecture Component Level Diagrams](#42x5-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.X.6. Bounded Context Software Architecture Code Level Diagrams](#42x6-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.X.6.1. Bounded Context Domain Layer Class Diagrams](#42x61-bounded-context-domain-layer-class-diagrams)
-      - [4.2.X.6.2. Bounded Context Database Design Diagram](#42x62-bounded-context-database-design-diagram)
+    - [4.2.1. Bounded Context: ](#421-bounded-context-)
+        - [4.2.1.1. Domain Layer](#4211-domain-layer)
+        - [4.2.1.2. Interface Layer](#4212-interface-layer)
+        - [4.2.1.3. Application Layer](#4213-application-layer)
+        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+          - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
 
 ## Student Outcome
 
@@ -145,12 +142,104 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
-| **Criterio específico**                                                                                                                                                             | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                         | **Conclusiones**                                                                                                          |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta.   | Arroyo Ormeño, André Alonso<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Castilla Pachas, César Antonio<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Cortés Casas, Joaquin Marcelo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Diaz Silva, Fernando Josué <br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Godoy, Johan Príncipe<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Tafur Gonzales, Josty Gerardo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Zarate Caceres, Victor Ernesto<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>... | TB1<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam augue, convallis at porta eu.<br/>TP1<br/>... |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | Arroyo Ormeño, André Alonso<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Castilla Pachas, César Antonio<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Cortés Casas, Joaquin Marcelo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Diaz Silva, Fernando Josué <br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Godoy, Johan Príncipe<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Tafur Gonzales, Josty Gerardo<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>...<br/>Zarate Caceres, Victor Ernesto<br/>TB1<br/>Lorem ipsum dolor sit amet<br/>TP1<br/>... | TB1<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi diam augue, convallis at porta eu.<br/>TP1<br/>... |
+<div align="justify">
+  <table align="justify">
+    <tr>
+      <td width="25%">
+        Criterio específico
+      </td>
+      <td>
+        Acciones realizadas
+      </td>
+      <td>
+        Conclusiones
+      </td>
+    </tr>
+    <!--Primer Criterio-->
+    <tr>
+      <td>
+        Trabaja en equipo para proporcionar liderazgo en forma conjunta
+      </td>
+      <!--Ingresar Accion Realizada por Entregable-->
+      <td>
+        <!--Andre Alonso-->
+        Arroyo Ormeño, André Alonso: <br>
+        TB1:<br>
+        <br>
+        <!--Cesar-->
+        Castilla Pachas, César Antonio <br>
+        TB1:<br>
+        <br>
+        <!--Joaquin-->
+        Cortés Casas, Joaquin Marcelo <br>
+        TB1:<br>
+        <br>
+        <!--Fernando-->
+        Diaz Silva, Fernando Josué <br>
+        TB1:<br>
+        <br>
+        <!--Johan-->
+        Godoy, Johan Príncipe <br>
+        TB1:<br>
+        <br>
+        <!--Josty-->
+        Tafur Gonzales, Josty Gerardo <br>
+        TB1:<br>
+        <br>
+        <!--Victor-->
+        Zarate Caceres, Victor Ernesto  <br>
+        TB1:<br>
+        <br>
+      </td>
+      <!--Ingresar Conclusion por Entregable-->
+      <td>
+        TB1:<br>
+      </td>
+    </tr>
+    <!--Segundo Criterio-->
+    <tr>
+      <td>
+        Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+      </td>
+      <!--Ingresar Accion Realizada por Entregable-->
+      <td>
+        <!--Andre Alonso-->
+        Arroyo Ormeño, André Alonso: <br>
+        TB1:<br>
+        <br>
+        <!--Cesar-->
+        Castilla Pachas, César Antonio <br>
+        TB1:<br>
+        <br>
+        <!--Joaquin-->
+        Cortés Casas, Joaquin Marcelo <br>
+        TB1:<br>
+        <br>
+        <!--Fernando-->
+        Diaz Silva, Fernando Josué <br>
+        TB1:<br>
+        <br>
+        <!--Johan-->
+        Godoy, Johan Príncipe <br>
+        TB1:<br>
+        <br>
+        <!--Josty-->
+        Tafur Gonzales, Josty Gerardo <br>
+        TB1:<br>
+        <br>
+        <!--Victor-->
+        Zarate Caceres, Victor Ernesto  <br>
+        TB1:<br>
+        <br>
+      </td>
+      <!--Ingresar Conclusion por Entregable-->
+      <td>
+        TB1:<br>
+      </td>
+    </tr>
+  </table>
+</div>
 
----
 
 ## Capítulo I: Introducción
 
@@ -252,7 +341,6 @@ Los integrantes que conforman la startup son:
     </p>
   </p>
 </div>
-
 
 ##### 1.2.2.2. Lean UX Assumptions
 <div>
@@ -1487,43 +1575,81 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ### 4.2. Tactical-Level Domain-Driven Design
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-#### 4.2.X. Bounded Context: <Bounded Context Name>
+#### 4.2.1. Bounded Context: <Bounded Context Name>
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.1. Domain Layer
+##### 4.2.1.1. Domain Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.2. Interface Layer
+##### 4.2.1.2. Interface Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.3. Application Layer
+##### 4.2.1.3. Application Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.4. Infrastructure Layer
+##### 4.2.1.4. Infrastructure Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-###### 4.2.X.6.2. Bounded Context Database Design Diagram
+###### 4.2.1.6.2. Bounded Context Database Design Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ## Conclusiones
-
 ### Conclusiones y recomendaciones
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-### Video About-the-Team
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <ul>
+    <li>Conclusiones</li>
+    <ul>
+      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    </ul>
+    <li>Recomendaciones</li>
+    <ul>
+      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    </ul>
+  </ul>
+</div>
 
 ## Bibliografia
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <ul>
+    <li>Asociación Automotriz del Perú. (2023). <em>INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024.</em> Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>INEI. (2022). <em>Estadísticas de transporte urbano en el Perú. </em>Recuperado de: https://m.inei.gob.pe/prensa/noticias/movimiento-de-vehiculos-a-nivel-nacional-aumento-39-en-febrero-de-2024-15125/ [Consulta: 02 de abril de 2025]</li>
+    <li>Lima Cómo Vamos. (2023). <em>Reporte de movilidad urbana 2023.</em> Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 02 de abril de 2025]</li>
+  </ul>
+</div>
 
 ## Anexos
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<table>
+	<tr>
+		<td>Sección</td>
+    <td>Características del video</td>
+  </tr>
+	<tr>
+		<td>Exposición</td>
+		<td>
+			Cantidad de videos: 1<br><br>
+			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tb1<br>
+			Formato: .mp4<br>
+			Duración:<br>
+			Enlace:<br>
+		</td>
+	</tr>
+	<tr>
+		<td>Entrevistas</td>
+		<td>
+			Cantidad de videos: 1<br><br>
+			Nomenclatura: <br>
+			Formato: .mp4<br>
+			Duración: <br>
+			Enlace:<br>
+		</td>
+	</tr>
+</table>
