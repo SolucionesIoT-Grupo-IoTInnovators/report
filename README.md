@@ -1413,7 +1413,17 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 </div>
 
 ### 3.3. Impact Mapping
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
+
+Segmento 1
+
+![Impact Mapping SmartParking](./ChapterII-images/Impact%20map%201.png)
+
+Segmento 2
+
+![Impact Mapping SmartParking](./ChapterII-images/Impact%20mapping%202.png)
+
 
 ### 3.4. Product Backlog
 
