@@ -32,23 +32,20 @@
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  |           **Autor**           |                     **Descripción de Modificación**                    |
-|-------------|------------|-------------------------------|------------------------------------------------------------------------|
-| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto| Adición del Startup Profile y Solution Profile.                        |
-| 1.2         | 14/04/2025 | Cortés Casas, Joaquín Marcelo | Adición del cuadro de Registro de Versiones del Informe, Project Report Collaboration Insights, Student Outcome|
-| ...         | ...        | ...                           | ...                                                                                                            |
-| ...         | ...        | ...                           | ...                                                                                                            |
+| **Versión** | **Fecha**  |           **Autor**            |                     **Descripción de Modificación**                    |
+|-------------|------------|--------------------------------|------------------------------------------------------------------------|
+| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo  | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Startup Profile y Solution Profile.                        |
+| 1.2         | 14/04/2025 | Cortés Casas, Joaquín Marcelo  | Adición del cuadro de Registro de Versiones del Informe, Project Report Collaboration Insights, Student Outcome|
+| ...         | ...        | ...                            | ...                                                                                                            |
 
 ---
 
 ## Project Report Collaboration Insights
-
 ### URL del repositorio en la organización GitHub
 [Enlace al repositorio del informe en GitHub](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/tree/feature-version-registration)
 
 ### Actividades de elaboración del informe
-
 #### TB1:
 
 **Descripción de las actividades realizadas:**
@@ -271,7 +268,7 @@ Los integrantes que conforman la startup son:
 | Diaz Silva, Fernando Josué (202112722)    |Perfil|![Foto Fernando]()|
 | Godoy, Johan Príncipe (202014511)         |Perfil|![Foto Johan]()|
 | Tafur Gonzales, Josty Gerardo (20201c069) |Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo. |![Foto Josty](https://intranet.upc.edu.pe/programas/Imagen/Fotos/Upc/054020201c069.jpg)|
-| Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado|![Foto Ernesto](https://intranet.upc.edu.pe/programas/Imagen/Fotos/Upc/0540202112907.jpg)|
+| Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado|![Foto Ernesto](ChapterI-images/ernesto.png)|
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
