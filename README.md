@@ -59,8 +59,8 @@
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
-![Captura de analíticos de colaboración de GitHub - 1]()
-![Captura de commits de GitHub - 1]()
+![Captura de analíticos de colaboración de GitHub - 1](insights/xxx.jpg)
+![Captura de commits de GitHub - 1](insights/xxx.jpg)
 
 ---
 
@@ -331,7 +331,7 @@ Los integrantes que conforman la startup son:
     <p>¿Cómo podemos ayudar a los conductores a encontrar y acceder a estacionamientos disponibles en tiempo real para optimizar su tiempo y reducir la congestión?</p>
   </p>
 
-<b>Problem Statement 2</b>
+  <b>Problem Statement 2</b>
   <p>
     Se ha observado que los propietarios de estacionamientos enfrentan dificultades para gestionar de manera efectiva la ocupación de sus espacios. Los métodos manuales y sistemas obsoletos dificultan la obtención de datos en tiempo real, lo que afecta la capacidad de responder ante la variabilidad de la demanda y limita la optimización de los ingresos. Esto genera problemas en la asignación eficiente de los espacios disponibles y en la automatización de los cobros, reduciendo la rentabilidad de los estacionamientos.
     Por lo tanto, se identificó la necesidad de desarrollar un sistema centralizado que integre tecnología IoT para monitorear y gestionar de forma automatizada la ocupación y los pagos en los estacionamientos, facilitando la toma de decisiones basada en datos actualizados y maximizando la rentabilidad para los propietarios.<br>
@@ -342,7 +342,7 @@ Los integrantes que conforman la startup son:
 </div>
 
 ##### 1.2.2.2. Lean UX Assumptions
-<div>
+<div align="justify">
   <b>Business Assumptions</b>
   <ul>
     <li>
@@ -420,7 +420,7 @@ Los integrantes que conforman la startup son:
     </li>
   </ul>
 
-<b>User Assumptions</b>
+  <b>User Assumptions</b>
   <ul>
     <li>
       <b>¿Quién es el usuario?</b>
@@ -754,9 +754,8 @@ Nuestros competidores principales seran los siguientes:
 #### 2.1.2. Estrategias y tácticas frente a competidores
 Nuestras estrategias y tácticas para hacer frente a nuestros competidores serían las siguientes:
 - Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. A su vez, anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
-### 2.2. Entrevistas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
+### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -768,15 +767,24 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 ### 2.3. Needfinding
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
+
 #### 2.3.1. User Personas
-En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
+<div align="justify">
+  En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.<br><br>
+</div>
 
 **Segmento Propietario de Estacionamiento:** <br>
-Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.
+<div align="justify">
+  Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.<br><br>
+</div>
+
 ![user persona de propietario de estacionamiento](chapterII-images/user%20persona-%20Propietario%20de%20estacionamiento.png)
 
 **Segmento Conductor:** <br>
-Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.
+<div align="justify">
+  Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.<br><br>
+</div>
+
 ![user persona de conductor](chapterII-images/user%20persona%20-%20conductor.png)
 
 #### 2.3.2. User Task Matrix
@@ -944,8 +952,6 @@ Cada mapa comenzó con la identificación del User Persona en el centro:
           - Pérdida de tiempo buscando estacionamiento.
           - Falta de información en tiempo real sobre precios y disponibilidad.
           - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
-
-Estos Empathy Maps proporcionan una visión clara de las necesidades y desafíos de los usuarios, ayudando a desarrollar soluciones alineadas con sus expectativas y mejorando la experiencia en la gestión y búsqueda de estacionamientos.
 
 #### 2.3.5. As-is Scenario Mapping
 **Segmento Propietario de Estacionamiento:** <br>
@@ -1481,10 +1487,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 |   28   |    US22     |Incentivo por recomendación exitosa|Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.|3|
 |   29   |    US24     |Encuesta de satisfacción automática|Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.|3|
 |   30   |    US25     |Panel de métricas de crecimiento orgánico (Admin)|Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.|5|
-
-
-
-
 ---
 
 ## Capítulo IV: Solution Software Design
