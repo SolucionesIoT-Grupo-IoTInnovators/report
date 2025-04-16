@@ -782,14 +782,14 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
   Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.<br><br>
 </div>
 
-![user persona de propietario de estacionamiento](chapterII-images/user%20persona-%20Propietario%20de%20estacionamiento.png)
+![user persona de propietario de estacionamiento](chapterII-images/UserPersona-Propietario.png)
 
 **Segmento Conductor:** <br>
 <div align="justify">
   Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.<br><br>
 </div>
 
-![user persona de conductor](chapterII-images/user%20persona%20-%20conductor.png)
+![user persona de conductor](chapterII-images/UserPersona-Conductor.png)
 
 #### 2.3.2. User Task Matrix
 
