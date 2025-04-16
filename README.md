@@ -1456,10 +1456,12 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 </div>
 
 ### 3.3. Impact Mapping
+En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
+
 - Segmento 1: Propietarios de estacionamientos:
-!["Impact Mapping - Segmento 1"](ChapterIII-images/xxx.jpg)
+!["Impact Mapping - Segmento 1"](ChapterIII-images/ImpactMap1.png)
 - Segmento 2: Conductores
-!["Impact Mapping - Segmento 2"](ChapterIII-images/xxx.jpg)
+!["Impact Mapping - Segmento 2"](ChapterIII-images/ImpactMap2.png)
 
 ### 3.4. Product Backlog
 |# Orden |User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
