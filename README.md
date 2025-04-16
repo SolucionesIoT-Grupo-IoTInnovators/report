@@ -1498,7 +1498,62 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 #### 4.1.1. EventStorming
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+Para diseñar de manera eficiente la solución SmartParking, utilizamos la técnica de EventStorming, que nos ayudó a entender a fondo cómo se comportan los usuarios, los sensores IoT y el sistema en general. Esta técnica consiste en mapear todos los eventos importantes que ocurren en el dominio (como reservas, pagos, detección de vehículos, etc.), con el fin de organizar bien la lógica del sistema desde el inicio.
+
+Durante el proceso, trabajamos con distintos tipos de tarjetas de colores (eventos, comandos, decisiones, etc.) para visualizar cómo fluye la información y qué decisiones se toman en cada parte del sistema. Esta herramienta fue clave para alinear al equipo, detectar posibles errores o conflictos, y definir claramente los distintos módulos que tendrá la solución.
+
+---
+
+##### 4.1.1.1. Descubrimiento de Contextos Candidatos
+
+A partir del EventStorming, identificamos los siguientes contextos principales (áreas funcionales del sistema):
+
+- **Gestión de estacionamientos:** donde los propietarios pueden configurar tarifas, ver estadísticas, y monitorear espacios en tiempo real.
+- **Reservas y pagos:** todo lo relacionado con el bloqueo de espacios, el cobro automatizado, y la validación de reservas.
+- **Comunicación con sensores IoT:** conexión con los sensores físicos que detectan si un espacio está libre u ocupado.
+- **Usuarios y notificaciones:** incluye el registro, inicio de sesión, envío de alertas y notificaciones tanto a conductores como a propietarios.
+
+Cada uno de estos contextos tiene su propia lógica y responsabilidades, lo cual nos ayudará a separarlos correctamente cuando definamos los Bounded Contexts en las siguientes etapas.
+
+---
+
+##### 4.1.1.2. Modelado de flujos de mensajes del dominio
+
+Aquí mapeamos cómo se comunican los distintos actores y partes del sistema entre sí. Por ejemplo:
+
+- Cuando un sensor detecta que un vehículo ingresó, se genera el evento: `EspacioMarcadoComoOcupado`.
+- Si un conductor reserva un espacio desde la app, se dispara el comando: `ReservarEspacio`, y luego el evento: `ReservaConfirmada`.
+- Al realizar el pago, se genera el evento: `PagoRealizado`, y se activa la validación de reserva.
+- Si el sensor detecta la salida del vehículo, se libera el espacio: `EspacioMarcadoComoDisponible`.
+
+Este mapeo nos permitió visualizar claramente qué eventos afectan a cada contexto, y cómo se relacionan entre sí. También nos ayudó a detectar dónde hay riesgo de errores, como reservas duplicadas o sensores inactivos.
+
+---
+
+##### 4.1.1.3. Canvases de Bounded Contexts
+
+Finalmente, agrupamos todos los eventos y reglas de negocio dentro de Bounded Contexts, que son como límites naturales que separan responsabilidades dentro del sistema. Quedaron así:
+
+- **Contexto: Gestión de Estacionamientos**
+  - Responsabilidad: configuración de precios, horarios y monitoreo.
+  - Eventos clave: `TarifaModificada`, `EspacioActualizado`, `ReporteGenerado`.
+
+- **Contexto: Reservas y Pagos**
+  - Responsabilidad: manejar reservas, pagos, tiempos límite y cancelaciones.
+  - Eventos clave: `ReservaConfirmada`, `PagoExitoso`, `ReservaVencida`.
+
+- **Contexto: Sensado IoT**
+  - Responsabilidad: leer datos de sensores, detectar ocupación o fallas.
+  - Eventos clave: `VehiculoDetectado`, `SensorDesconectado`, `EspacioLiberado`.
+
+- **Contexto: Usuarios y Notificaciones**
+  - Responsabilidad: autenticación, registro, envío de notificaciones a usuarios.
+  - Eventos clave: `UsuarioRegistrado`, `NotificacionEnviada`.
+
+Con estos contextos bien definidos, será mucho más fácil construir una arquitectura limpia, escalable y mantenible.
+
+
 
 ##### 4.1.1.1. Candidate Context Discovery
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
@@ -1533,7 +1588,7 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 ##### 4.1.3.6. Software Architecture Deployment Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-### 4.2. Tactical-Level Domain-Driven Design
+### 4.2. Tctical-Level Domain-Driven Design
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 #### 4.2.1. Bounded Context: <Bounded Context Name>
