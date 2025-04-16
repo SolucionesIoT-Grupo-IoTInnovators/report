@@ -265,7 +265,7 @@ Los integrantes que conforman la startup son:
 | Integrante |  Perfil |Foto|
 | :--------- |---------|----|
 | Arroyo Ormeño, André Alonso (202114714)   |Perfil|![Foto Andre]()|
-| Castilla Pachas, César Antonio (202218735)|Perfil|![Foto César]()|
+| Castilla Pachas, César Antonio (202218735)| Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además, me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos. |<img src="https://github.com/Aplicaciones-Web-Grupo-CodeRush/Informe-Final/raw/Chapter-01/assets/imgs/cesar.png" width="125" height="130">|
 | Cortés Casas, Joaquin Marcelo (202114545) |Perfil|![Foto Joaquin]()|
 | Diaz Silva, Fernando Josué (202112722)    |Perfil|![Foto Fernando]()|
 | Godoy, Johan Príncipe (202014511)         |Perfil|![Foto Johan]()|
