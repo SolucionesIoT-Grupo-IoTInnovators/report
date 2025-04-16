@@ -1456,7 +1456,10 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 </div>
 
 ### 3.3. Impact Mapping
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+- Segmento 1: Propietarios de estacionamientos:
+!["Impact Mapping - Segmento 1"](ChapterIII-images/xxx.jpg)
+- Segmento 2: Conductores
+!["Impact Mapping - Segmento 2"](ChapterIII-images/xxx.jpg)
 
 ### 3.4. Product Backlog
 |# Orden |User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
