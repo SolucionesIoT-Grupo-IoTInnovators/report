@@ -583,10 +583,14 @@ En relación con la propuesta descrita en la sección "Descripción de la Startu
 </div>
 
 ### 1.3. Segmentos objetivo
-Propietarios de estacionamientos
-
-Conductores
-
+<div align="justify">
+  <ul>
+    <li><b>Propietarios de estacionamientos:</b></li>
+    Administradores o dueños de playas de estacionamiento privadas o públicas que desean optimizar la ocupación de sus espacios, automatizar procesos de cobro y monitoreo, y acceder a reportes de rendimiento en tiempo real. Están interesados en herramientas tecnológicas que mejoren su eficiencia operativa y aumenten su rentabilidad.
+    <li><b>Conductores:</b></li>
+    Conductores que circulan frecuentemente en zonas con alta densidad de tráfico y escasez de estacionamientos. Buscan soluciones prácticas que les permitan encontrar espacios disponibles rápidamente, reservarlos con anticipación y realizar pagos de manera digital para ahorrar tiempo, reducir el estrés y evitar dar vueltas innecesarias.
+  </ul>
+</div>
 ---
 
 ## Capítulo II: Requirements Elicitation & Analysis
