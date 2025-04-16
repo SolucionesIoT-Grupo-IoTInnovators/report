@@ -1495,15 +1495,11 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 ## Capítulo IV: Solution Software Design
 ### 4.1. Strategic-Level Domain-Driven Design
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 4.1.1. EventStorming
 
 Para diseñar de manera eficiente la solución SmartParking, utilizamos la técnica de EventStorming, que nos ayudó a entender a fondo cómo se comportan los usuarios, los sensores IoT y el sistema en general. Esta técnica consiste en mapear todos los eventos importantes que ocurren en el dominio (como reservas, pagos, detección de vehículos, etc.), con el fin de organizar bien la lógica del sistema desde el inicio.
 
 Durante el proceso, trabajamos con distintos tipos de tarjetas de colores (eventos, comandos, decisiones, etc.) para visualizar cómo fluye la información y qué decisiones se toman en cada parte del sistema. Esta herramienta fue clave para alinear al equipo, detectar posibles errores o conflictos, y definir claramente los distintos módulos que tendrá la solución.
-
----
 
 ##### 4.1.1.1. Descubrimiento de Contextos Candidatos
 
@@ -1553,44 +1549,23 @@ Finalmente, agrupamos todos los eventos y reglas de negocio dentro de Bounded Co
 
 Con estos contextos bien definidos, será mucho más fácil construir una arquitectura limpia, escalable y mantenible.
 
-
-
-##### 4.1.1.1. Candidate Context Discovery
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.1.1.2. Domain Message Flows Modeling
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.1.1.3. Bounded Context Canvases
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 #### 4.1.2. Context Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 #### 4.1.3. Software Architecture
+##### 4.1.3.1. Software Architecture System Landscape Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.1. System Quality Attributes
+##### 4.1.3.2. Software Architecture Context Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.2. Architectural Design Backlog
+##### 4.1.3.3. Software Architecture Container Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.3. Software Architecture System Landscape Diagram
+##### 4.1.3.4. Software Architecture Deployment Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
-##### 4.1.3.4. Software Architecture Context Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.1.3.5. Software Architecture Container Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.1.3.6. Software Architecture Deployment Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-### 4.2. Tctical-Level Domain-Driven Design
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
+### 4.2. Tactical-Level Domain-Driven Design
 #### 4.2.1. Bounded Context: <Bounded Context Name>
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
