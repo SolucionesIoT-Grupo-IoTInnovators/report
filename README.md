@@ -16,15 +16,15 @@
 
 ### Relación de integrantes
 
-| Apellidos y Nombres                    | Código     |
-| :------------------------------------: | :--------: |
-| Arroyo Ormeño, André Alonso            | u202114714 |
-| Castilla Pachas, César Antonio         | u202218735 |
-| Cortés Casas, Joaquin Marcelo          | u202114545 |
-| Diaz Silva, Fernando Josué             | u202112722 |
-| Godoy, Johan Príncipe                  | u202014511 |
-| Tafur Gonzales, Josty Gerardo          | u20201c069 |
-| Zarate Caceres, Victor Ernesto         | u202112907 |
+|      Apellidos y Nombres       |   Código   |
+|:------------------------------:|:----------:|
+|  Arroyo Ormeño, André Alonso   | u202114714 |
+| Castilla Pachas, César Antonio | u202218735 |
+| Cortés Casas, Joaquin Marcelo  | u202114545 |
+|   Diaz Silva, Fernando Josué   | u202112722 |
+|     Godoy, Johan Príncipe      | u202014511 |
+| Tafur Gonzales, Josty Gerardo  | u20201c069 |
+| Zarate Caceres, Victor Ernesto | u202112907 |
 
 **Marzo, 2025**
 
@@ -1464,38 +1464,38 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 !["Impact Mapping - Segmento 2"](ChapterIII-images/ImpactMap2.png)
 
 ### 3.4. Product Backlog
-|# Orden |User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
-|:------:|:-----------:|------|-----------|--------------------------------|
-|   01   |    US04     |Información en Tiempo Real de Disponibilidad de Espacios|Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.|1|
-|   02   |    US17     |Seguridad y Confiabilidad del Sistema|Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.|1|
-|   03   |    US23     |Registro Rápido desde Landing Page|Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.|1|
-|   04   |    US14     |Comparativa con métodos tradicionales|Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales, para entender los beneficios económicos y operativos de la plataforma.|2|
-|   05   |    TS01     |Integrar sensores IoT al backend|Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.|5|
-|   06   |    TS02     |Autenticación con JWT en Web y App|Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.|5|
-|   07   |    TS03     |Visualización en tiempo real en la aplicación web|Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.|5|
-|   08   |    US16     |Registro de sensores en la plataforma|Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.|3|
-|   09   |    US20     |Validación de consistencia entre sensores y estado del sistema|Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.|5|
-|   10   |    US18     |Alertas ante fallas en los sensores|Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.|3|
-|   11   |    US19     |Actualización remota del firmware de sensores|Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.|5|
-|   12   |    US01     |Visualización de espacios disponibles en el mapa|Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.|3|
-|   13   |    US05     |Visualizar detalles de un espacio disponible|Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.|2|
-|   14   |    US02     |Actualización automática de disponibilidad|Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.|5|
-|   15   |    US03     |Notificación de disponibilidad cercana|Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.|3|
-|   16   |    TS04     |Implementar sistema de reservas en la App Móvil|Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.|3|
-|   17   |    US06     |Reservar un espacio disponible desde la app|Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.|5|
-|   18   |    US07     |Cancelar una reserva activa|Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.|3|
-|   19   |    TS05     |Implementar sistema de pagos en línea|Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.|8|
-|   20   |    US08     |Realizar pago desde la app|Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.|5|
-|   21   |    US09     |Registro de método de pago en el perfil|Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.|3|
-|   22   |    US10     |Ver historial de pagos realizados|Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.|3|
-|   23   |    US11     |Visualizar ocupación en tiempo real|Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.|3|
-|   24   |    US12     |Modificar tarifas de estacionamiento|Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.|2|
-|   25   |    US13     |Descargar reportes de uso|Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.|5|
-|   26   |    US15     |Gestionar múltiples estacionamientos desde un solo panel|Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.|8|
-|   27   |    US21     |Registro mediante enlace de invitación|Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.|5|
-|   28   |    US22     |Incentivo por recomendación exitosa|Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.|3|
-|   29   |    US24     |Encuesta de satisfacción automática|Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.|3|
-|   30   |    US25     |Panel de métricas de crecimiento orgánico (Admin)|Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.|5|
+| # Orden | User Story Id | Título                                                         | Descripción                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
+|:-------:|:-------------:|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+|   01    |     US04      | Información en Tiempo Real de Disponibilidad de Espacios       | Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.                                                                     | 1                                |
+|   02    |     US17      | Seguridad y Confiabilidad del Sistema                          | Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema. | 1                                |
+|   03    |     US23      | Registro Rápido desde Landing Page                             | Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.               | 1                                |
+|   04    |     US14      | Comparativa con métodos tradicionales                          | Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales, para entender los beneficios económicos y operativos de la plataforma.   | 2                                |
+|   05    |     TS01      | Integrar sensores IoT al backend                               | Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.  | 5                                |
+|   06    |     TS02      | Autenticación con JWT en Web y App                             | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.                 | 5                                |
+|   07    |     TS03      | Visualización en tiempo real en la aplicación web              | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.                      | 5                                |
+|   08    |     US16      | Registro de sensores en la plataforma                          | Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.                                                         | 3                                |
+|   09    |     US20      | Validación de consistencia entre sensores y estado del sistema | Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.                                                     | 5                                |
+|   10    |     US18      | Alertas ante fallas en los sensores                            | Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.                                                              | 3                                |
+|   11    |     US19      | Actualización remota del firmware de sensores                  | Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.                                            | 5                                |
+|   12    |     US01      | Visualización de espacios disponibles en el mapa               | Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.                           | 3                                |
+|   13    |     US05      | Visualizar detalles de un espacio disponible                   | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.                | 2                                |
+|   14    |     US02      | Actualización automática de disponibilidad                     | Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.    | 5                                |
+|   15    |     US03      | Notificación de disponibilidad cercana                         | Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.                                                         | 3                                |
+|   16    |     TS04      | Implementar sistema de reservas en la App Móvil                | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.                                   | 3                                |
+|   17    |     US06      | Reservar un espacio disponible desde la app                    | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.                                                       | 5                                |
+|   18    |     US07      | Cancelar una reserva activa                                    | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.                                                  | 3                                |
+|   19    |     TS05      | Implementar sistema de pagos en línea                          | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.                                       | 8                                |
+|   20    |     US08      | Realizar pago desde la app                                     | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.                                                  | 5                                |
+|   21    |     US09      | Registro de método de pago en el perfil                        | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                        | 3                                |
+|   22    |     US10      | Ver historial de pagos realizados                              | Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.                                             | 3                                |
+|   23    |     US11      | Visualizar ocupación en tiempo real                            | Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.                 | 3                                |
+|   24    |     US12      | Modificar tarifas de estacionamiento                           | Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.                                      | 2                                |
+|   25    |     US13      | Descargar reportes de uso                                      | Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.                     | 5                                |
+|   26    |     US15      | Gestionar múltiples estacionamientos desde un solo panel       | Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.                                 | 8                                |
+|   27    |     US21      | Registro mediante enlace de invitación                         | Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.                               | 5                                |
+|   28    |     US22      | Incentivo por recomendación exitosa                            | Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.                                                               | 3                                |
+|   29    |     US24      | Encuesta de satisfacción automática                            | Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.                                                        | 3                                |
+|   30    |     US25      | Panel de métricas de crecimiento orgánico (Admin)              | Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.                                                       | 5                                |
 ---
 
 ## Capítulo IV: Solution Software Design
@@ -1571,7 +1571,7 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ### 4.2. Tactical-Level Domain-Driven Design
-#### 4.2.1. Bounded Context: <Bounded Context Name>
+#### 4.2.1. Bounded Context: Identity and Access Management
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ##### 4.2.1.1. Domain Layer
@@ -1597,6 +1597,201 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+#### 4.2.2. Bounded Context: Profile Management
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.2.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.3. Bounded Context: Parking Management
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.4. Bounded Context: Reservation
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.4.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.5. Bounded Context: Payment 
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.5.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.7. Bounded Context: Review
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.7.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+#### 4.2.8. Bounded Context: Notification
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.8.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.9.1. Bounded Context: IoT Management
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.9.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
