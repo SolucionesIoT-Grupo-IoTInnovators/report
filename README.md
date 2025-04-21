@@ -1568,10 +1568,14 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
+
+!["System Context Diagram"](ChapterIV-images/SystemContextDiagram.png)
 
 ##### 4.1.3.3. Software Architecture Container Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
+
+!["Container Diagram"](ChapterIV-images/ContainerDiagram.png)
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
