@@ -43,7 +43,7 @@
 | 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.          |
 | 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                          | Adición del segmento objetivo.                                                                                                                   |
 | 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio | Adición de diagramas de Software Architecture.                                                                                                   |
-| ...         | ...        | ...                                                                       | ...                                                                                                                                              |
+| 1.9          | 21/04/2025 | ...                                                                       | ...                                                                                                                                              |
 
 ---
 
