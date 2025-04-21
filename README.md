@@ -1565,7 +1565,9 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 #### 4.1.3. Software Architecture
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
+
+!["System Landscape Diagram"](ChapterIV-images/SystemLandscapeDiagram.png)
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
@@ -1578,7 +1580,9 @@ Se presenta el diagrama de contenedores del sistema SmartParking, que detalla lo
 !["Container Diagram"](ChapterIV-images/ContainerDiagram.png)
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
+
+!["Deployment Diagram"](ChapterIV-images/DeploymentDiagram.png)
 
 ### 4.2. Tactical-Level Domain-Driven Design
 #### 4.2.1. Bounded Context: <Bounded Context Name>
