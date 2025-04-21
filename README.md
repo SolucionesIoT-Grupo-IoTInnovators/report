@@ -189,6 +189,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
+        De manera grupal, pudimos organizarnos correctamente para poder realizar el trabajo, asignando tareas a cada uno de los integrantes del grupo. Se realizaron reuniones para coordinar las tareas a realizar y se utilizó Github para poder ver el avance de cada uno de los integrantes.
         <br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
@@ -231,6 +232,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
+        Se coordinó en equipo las tareas que debia resolver cada uno de los miembros y la metodología que se seguiría para la correcta realización del reporte mediante Github.
         TB1:<br>
         <br>
         <!--Victor-->
@@ -277,7 +279,7 @@ Los integrantes que conforman la startup son:
 | Cortés Casas, Joaquin Marcelo (202114545) | Soy Joaquín Marcelo Cortés Casas, estudiante de la carrera Ingeniería de Software en la UPC. Tengo experiencia previa liderando múltiples equipos de trabajo, buscando el compromiso y enfoque en la calidad del producto final. Cada día actualizo mis conocimientos de software probando distintas tecnologías innovadoras. | ![Foto Joaquin](ChapterI-images/JoaquinPerfil.jpg)                                                                                         |
 | Diaz Silva, Fernando Josué (202112722)    | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Fernando]()                                                                                                                         |
 | Godoy, Johan Príncipe (202014511)         | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Johan]()                                                                                                                            |
-| Tafur Gonzales, Josty Gerardo (20201c069) | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                             | ![Foto Josty](https://intranet.upc.edu.pe/programas/Imagen/Fotos/Upc/054020201c069.jpg)                                                    |
+| Tafur Gonzales, Josty Gerardo (20201c069) | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                             | ![Foto Josty](ChapterI-images/JostyTafur.png)                                                                                              |
 | Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado                                | ![Foto Ernesto](ChapterI-images/ernesto.png)                                                                                               |
 
 ### 1.2. Solution Profile
