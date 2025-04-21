@@ -769,7 +769,88 @@ Nuestras estrategias y tácticas para hacer frente a nuestros competidores serí
 
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+**Objetivo:**
+
+Identificar con claridad las necesidades, frustraciones y comportamientos actuales de los usuarios en relación con la gestión y disponibilidad de espacios de parqueo en zonas urbanas. Esto permitirá validar las hipótesis planteadas en el enfoque Lean UX y orientar el desarrollo de la solución IoT SmartParking hacia una verdadera propuesta de valor.
+
+**Perfil del entrevistado:**
+
+Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
+
+**A. Conductor urbano**
+
+- Dentro de un rango de edad entre los 20 y 60 años.
+- Uso frecuente del automóvil en zonas urbanas.
+- Ha experimentado dificultad para encontrar estacionamiento.
+- Tiene acceso y usa smartphones habitualmente.
+- Dispuesto a utilizar aplicaciones móviles que le faciliten su día a día.
+
+**B. Propietario de estacionamiento**
+- Persona encargada de administrar uno o varios estacionamientos públicos o privados.
+- Con interés en mejorar la eficiencia, visibilidad o rentabilidad de su espacio.
+- Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
+- Tiene contacto diario con la gestión operativa de espacios de parqueo.
+
+**Preguntas guía de la entrevista**
+
+Se presentan 2 bloques de preguntas diferenciadas, uno para cada perfil.
+
+**A. Preguntas para Conductores**
+
+Bloque 1: Contexto y hábitos
+1. ¿Con qué frecuencia manejas en la ciudad durante la semana?
+2. ¿En qué zonas sueles tener más dificultad para estacionar?
+3. ¿Cuánto tiempo en promedio te toma encontrar un lugar libre para estacionar?
+4. ¿Has dejado de ir a algún lugar por no encontrar parqueo?
+
+Bloque 2: Problemas y frustraciones
+5. ¿Qué es lo que más te molesta al buscar estacionamiento?
+6. ¿Qué haces cuando no encuentras espacio fácilmente?
+7. ¿Has recibido multas o sanciones por estacionar en lugares inadecuados?
+
+Bloque 3: Soluciones actuales
+8. ¿Usas alguna app o tecnología actualmente para ayudarte con el estacionamiento?
+9. ¿Qué tan confiables te han parecido esas soluciones?
+
+Bloque 4: Validación de propuesta
+10. Si existiera una app que te muestre los espacios disponibles en tiempo real y te permita reservarlos, ¿la usarías? ¿Por qué?
+11. ¿Estarías dispuesto a pagar por este tipo de servicio? ¿Cuánto considerarías razonable?
+12. ¿Qué funciones te gustaría que tuviera una app como esta?
+
+**B. Preguntas para Propietarios de Estacionamiento**
+
+Bloque 1: Contexto del negocio
+1. ¿Cuántos espacios de parqueo gestionas actualmente?
+2. ¿Cómo llevas el control de los espacios disponibles y ocupados?
+3. ¿Cuáles son tus horarios pico y cómo manejas esa demanda?
+
+Bloque 2: Problemas y oportunidades
+4. ¿Qué dificultades enfrentas con la gestión actual del estacionamiento?
+5. ¿Qué tanto control tienes sobre los ingresos diarios?
+6. ¿Has considerado implementar tecnología para optimizar tu operación?
+
+Bloque 3: Validación de propuesta
+7. ¿Te interesaría un sistema que automatice la detección de espacios libres?
+8. ¿Qué información sería más útil para ti en una plataforma de gestión?
+9. ¿Qué funcionalidades considerarías imprescindibles en una solución tecnológica?
+10. ¿Qué beneficios esperas obtener con una herramienta como SmartParking?
+
+**Justificación de las preguntas**
+
+Las preguntas fueron diseñadas para:
+- Obtener insights reales sobre comportamientos actuales (Bloque 1).
+- Detectar puntos de dolor que validen la necesidad de una solución (Bloque 2).
+- Entender el uso de alternativas existentes y su efectividad (Bloque 3).
+- Validar la propuesta de valor de SmartParking y sus funcionalidades clave (Bloque 4).
+
+Duración estimada de la entrevista
+
+- Para conductores: 10 a 20 minutos  
+- Para propietarios: 15 a 30 minutos
+
+Medio de aplicación
+- Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
+
 
 #### 2.2.2. Registro de entrevistas
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
