@@ -16,15 +16,15 @@
 
 ### Relación de integrantes
 
-| Apellidos y Nombres                    | Código     |
-| :------------------------------------: | :--------: |
-| Arroyo Ormeño, André Alonso            | u202114714 |
-| Castilla Pachas, César Antonio         | u202218735 |
-| Cortés Casas, Joaquin Marcelo          | u202114545 |
-| Diaz Silva, Fernando Josué             | u202112722 |
-| Godoy, Johan Príncipe                  | u202014511 |
-| Tafur Gonzales, Josty Gerardo          | u20201c069 |
-| Zarate Caceres, Victor Ernesto         | u202112907 |
+|      Apellidos y Nombres       |   Código   |
+|:------------------------------:|:----------:|
+|  Arroyo Ormeño, André Alonso   | u202114714 |
+| Castilla Pachas, César Antonio | u202218735 |
+| Cortés Casas, Joaquin Marcelo  | u202114545 |
+|   Diaz Silva, Fernando Josué   | u202112722 |
+|     Godoy, Johan Príncipe      | u202014511 |
+| Tafur Gonzales, Josty Gerardo  | u20201c069 |
+| Zarate Caceres, Victor Ernesto | u202112907 |
 
 **Marzo, 2025**
 
@@ -32,12 +32,18 @@
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  |           **Autor**            |                     **Descripción de Modificación**                    |
-|-------------|------------|--------------------------------|------------------------------------------------------------------------|
-| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo  | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Startup Profile y Solution Profile.                        |
-| 1.2         | 14/04/2025 | Cortés Casas, Joaquín Marcelo  | Adición del cuadro de Registro de Versiones del Informe, Project Report Collaboration Insights, Student Outcome|
-| ...         | ...        | ...                            | ...                                                                                                            |
+| **Versión** | **Fecha**  | **Autor**                                                                 | **Descripción de Modificación**                                                                                                                  |
+|-------------|------------|---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                             | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                            | Adición del Startup Profile.                                                                                                                     |
+| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio       | Adición del Solution Profile y Competidores.                                                                                                     |
+| 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>             | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                  |
+| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                               | Adición del To-Be Scenario Mapping.                                                                                                              |
+| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                            | Adición de User Stories.                                                                                                                         |
+| 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.          |
+| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                          | Adición del segmento objetivo.                                                                                                                   |
+| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio | Adición de diagramas de Software Architecture.                                                                                                   |
+| 1.9          | 21/04/2025 | ...                                                                       | ...                                                                                                                                              |
 
 ---
 
@@ -51,7 +57,7 @@
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Castilla Pachas, César Antonio:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
-- **Cortés Casas, Joaquin Marcelo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas y Diagramas de Arquitectura de Software.
 - **Diaz Silva, Fernando Josué:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Godoy, Johan Príncipe:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Tafur Gonzales, Josty Gerardo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
@@ -170,6 +176,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
+        Asumi la responsabilidad de coordinar al equipo en la asignación de las primeras tareas y resolución de dudas. De esta manera, fomenté el liderazgo promoviendo la participación y aporte de todos los miembros del grupo.
         <br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
@@ -212,6 +219,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
+        Me he encargado de definir metas semanales para todos los integrantes del grupo, facilitando un ambiente colaborativo por medio de reuniones periódicas y revisión conjunta de avances realizados.
         <br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
@@ -262,15 +270,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 #### 1.1.2. Perfiles de integrantes del equipo
 Los integrantes que conforman la startup son:
 
-| Integrante |  Perfil |Foto|
-| :--------- |---------|----|
-| Arroyo Ormeño, André Alonso (202114714)   |Perfil|![Foto Andre]()|
-| Castilla Pachas, César Antonio (202218735)| Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además, me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos. |<img src="https://github.com/Aplicaciones-Web-Grupo-CodeRush/Informe-Final/raw/Chapter-01/assets/imgs/cesar.png" width="125" height="130">|
-| Cortés Casas, Joaquin Marcelo (202114545) |Perfil|![Foto Joaquin]()|
-| Diaz Silva, Fernando Josué (202112722)    |Perfil|![Foto Fernando]()|
-| Godoy, Johan Príncipe (202014511)         |Perfil|![Foto Johan]()|
-| Tafur Gonzales, Josty Gerardo (20201c069) |Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo. |![Foto Josty](https://intranet.upc.edu.pe/programas/Imagen/Fotos/Upc/054020201c069.jpg)|
-| Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado|![Foto Ernesto](ChapterI-images/ernesto.png)|
+| Integrante | Perfil                                                                                                                                                                                                                                                                                                                        | Foto                                                                                                                                       |
+| :--------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Arroyo Ormeño, André Alonso (202114714)   | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Andre]()                                                                                                                            |
+| Castilla Pachas, César Antonio (202218735)| Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además, me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos. | <img src="https://github.com/Aplicaciones-Web-Grupo-CodeRush/Informe-Final/raw/Chapter-01/assets/imgs/cesar.png" width="125" height="130"> |
+| Cortés Casas, Joaquin Marcelo (202114545) | Soy Joaquín Marcelo Cortés Casas, estudiante de la carrera Ingeniería de Software en la UPC. Tengo experiencia previa liderando múltiples equipos de trabajo, buscando el compromiso y enfoque en la calidad del producto final. Cada día actualizo mis conocimientos de software probando distintas tecnologías innovadoras. | ![Foto Joaquin](ChapterI-images/JoaquinPerfil.jpg)                                                                                         |
+| Diaz Silva, Fernando Josué (202112722)    | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Fernando]()                                                                                                                         |
+| Godoy, Johan Príncipe (202014511)         | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Johan]()                                                                                                                            |
+| Tafur Gonzales, Josty Gerardo (20201c069) | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                             | ![Foto Josty](https://intranet.upc.edu.pe/programas/Imagen/Fotos/Upc/054020201c069.jpg)                                                    |
+| Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado                                | ![Foto Ernesto](ChapterI-images/ernesto.png)                                                                                               |
 
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
@@ -761,7 +769,88 @@ Nuestras estrategias y tácticas para hacer frente a nuestros competidores serí
 
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+**Objetivo:**
+
+Identificar con claridad las necesidades, frustraciones y comportamientos actuales de los usuarios en relación con la gestión y disponibilidad de espacios de parqueo en zonas urbanas. Esto permitirá validar las hipótesis planteadas en el enfoque Lean UX y orientar el desarrollo de la solución IoT SmartParking hacia una verdadera propuesta de valor.
+
+**Perfil del entrevistado:**
+
+Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
+
+**A. Conductor urbano**
+
+- Dentro de un rango de edad entre los 20 y 60 años.
+- Uso frecuente del automóvil en zonas urbanas.
+- Ha experimentado dificultad para encontrar estacionamiento.
+- Tiene acceso y usa smartphones habitualmente.
+- Dispuesto a utilizar aplicaciones móviles que le faciliten su día a día.
+
+**B. Propietario de estacionamiento**
+- Persona encargada de administrar uno o varios estacionamientos públicos o privados.
+- Con interés en mejorar la eficiencia, visibilidad o rentabilidad de su espacio.
+- Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
+- Tiene contacto diario con la gestión operativa de espacios de parqueo.
+
+**Preguntas guía de la entrevista**
+
+Se presentan 2 bloques de preguntas diferenciadas, uno para cada perfil.
+
+**A. Preguntas para Conductores**
+
+Bloque 1: Contexto y hábitos
+1. ¿Con qué frecuencia manejas en la ciudad durante la semana?
+2. ¿En qué zonas sueles tener más dificultad para estacionar?
+3. ¿Cuánto tiempo en promedio te toma encontrar un lugar libre para estacionar?
+4. ¿Has dejado de ir a algún lugar por no encontrar parqueo?
+
+Bloque 2: Problemas y frustraciones
+5. ¿Qué es lo que más te molesta al buscar estacionamiento?
+6. ¿Qué haces cuando no encuentras espacio fácilmente?
+7. ¿Has recibido multas o sanciones por estacionar en lugares inadecuados?
+
+Bloque 3: Soluciones actuales
+8. ¿Usas alguna app o tecnología actualmente para ayudarte con el estacionamiento?
+9. ¿Qué tan confiables te han parecido esas soluciones?
+
+Bloque 4: Validación de propuesta
+10. Si existiera una app que te muestre los espacios disponibles en tiempo real y te permita reservarlos, ¿la usarías? ¿Por qué?
+11. ¿Estarías dispuesto a pagar por este tipo de servicio? ¿Cuánto considerarías razonable?
+12. ¿Qué funciones te gustaría que tuviera una app como esta?
+
+**B. Preguntas para Propietarios de Estacionamiento**
+
+Bloque 1: Contexto del negocio
+1. ¿Cuántos espacios de parqueo gestionas actualmente?
+2. ¿Cómo llevas el control de los espacios disponibles y ocupados?
+3. ¿Cuáles son tus horarios pico y cómo manejas esa demanda?
+
+Bloque 2: Problemas y oportunidades
+4. ¿Qué dificultades enfrentas con la gestión actual del estacionamiento?
+5. ¿Qué tanto control tienes sobre los ingresos diarios?
+6. ¿Has considerado implementar tecnología para optimizar tu operación?
+
+Bloque 3: Validación de propuesta
+7. ¿Te interesaría un sistema que automatice la detección de espacios libres?
+8. ¿Qué información sería más útil para ti en una plataforma de gestión?
+9. ¿Qué funcionalidades considerarías imprescindibles en una solución tecnológica?
+10. ¿Qué beneficios esperas obtener con una herramienta como SmartParking?
+
+**Justificación de las preguntas**
+
+Las preguntas fueron diseñadas para:
+- Obtener insights reales sobre comportamientos actuales (Bloque 1).
+- Detectar puntos de dolor que validen la necesidad de una solución (Bloque 2).
+- Entender el uso de alternativas existentes y su efectividad (Bloque 3).
+- Validar la propuesta de valor de SmartParking y sus funcionalidades clave (Bloque 4).
+
+Duración estimada de la entrevista
+
+- Para conductores: 10 a 20 minutos  
+- Para propietarios: 15 a 30 minutos
+
+Medio de aplicación
+- Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
+
 
 #### 2.2.2. Registro de entrevistas
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
@@ -1464,38 +1553,38 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 !["Impact Mapping - Segmento 2"](ChapterIII-images/ImpactMap2.png)
 
 ### 3.4. Product Backlog
-|# Orden |User Story Id|Título|Descripción|Story Points (1 / 2 / 3 / 5 / 8)|
-|:------:|:-----------:|------|-----------|--------------------------------|
-|   01   |    US04     |Información en Tiempo Real de Disponibilidad de Espacios|Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.|1|
-|   02   |    US17     |Seguridad y Confiabilidad del Sistema|Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.|1|
-|   03   |    US23     |Registro Rápido desde Landing Page|Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.|1|
-|   04   |    US14     |Comparativa con métodos tradicionales|Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales, para entender los beneficios económicos y operativos de la plataforma.|2|
-|   05   |    TS01     |Integrar sensores IoT al backend|Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.|5|
-|   06   |    TS02     |Autenticación con JWT en Web y App|Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.|5|
-|   07   |    TS03     |Visualización en tiempo real en la aplicación web|Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.|5|
-|   08   |    US16     |Registro de sensores en la plataforma|Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.|3|
-|   09   |    US20     |Validación de consistencia entre sensores y estado del sistema|Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.|5|
-|   10   |    US18     |Alertas ante fallas en los sensores|Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.|3|
-|   11   |    US19     |Actualización remota del firmware de sensores|Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.|5|
-|   12   |    US01     |Visualización de espacios disponibles en el mapa|Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.|3|
-|   13   |    US05     |Visualizar detalles de un espacio disponible|Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.|2|
-|   14   |    US02     |Actualización automática de disponibilidad|Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.|5|
-|   15   |    US03     |Notificación de disponibilidad cercana|Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.|3|
-|   16   |    TS04     |Implementar sistema de reservas en la App Móvil|Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.|3|
-|   17   |    US06     |Reservar un espacio disponible desde la app|Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.|5|
-|   18   |    US07     |Cancelar una reserva activa|Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.|3|
-|   19   |    TS05     |Implementar sistema de pagos en línea|Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.|8|
-|   20   |    US08     |Realizar pago desde la app|Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.|5|
-|   21   |    US09     |Registro de método de pago en el perfil|Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.|3|
-|   22   |    US10     |Ver historial de pagos realizados|Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.|3|
-|   23   |    US11     |Visualizar ocupación en tiempo real|Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.|3|
-|   24   |    US12     |Modificar tarifas de estacionamiento|Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.|2|
-|   25   |    US13     |Descargar reportes de uso|Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.|5|
-|   26   |    US15     |Gestionar múltiples estacionamientos desde un solo panel|Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.|8|
-|   27   |    US21     |Registro mediante enlace de invitación|Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.|5|
-|   28   |    US22     |Incentivo por recomendación exitosa|Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.|3|
-|   29   |    US24     |Encuesta de satisfacción automática|Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.|3|
-|   30   |    US25     |Panel de métricas de crecimiento orgánico (Admin)|Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.|5|
+| # Orden | User Story Id | Título                                                         | Descripción                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
+|:-------:|:-------------:|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+|   01    |     US04      | Información en Tiempo Real de Disponibilidad de Espacios       | Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.                                                                     | 1                                |
+|   02    |     US17      | Seguridad y Confiabilidad del Sistema                          | Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema. | 1                                |
+|   03    |     US23      | Registro Rápido desde Landing Page                             | Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.               | 1                                |
+|   04    |     US14      | Comparativa con métodos tradicionales                          | Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales, para entender los beneficios económicos y operativos de la plataforma.   | 2                                |
+|   05    |     TS01      | Integrar sensores IoT al backend                               | Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.  | 5                                |
+|   06    |     TS02      | Autenticación con JWT en Web y App                             | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.                 | 5                                |
+|   07    |     TS03      | Visualización en tiempo real en la aplicación web              | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.                      | 5                                |
+|   08    |     US16      | Registro de sensores en la plataforma                          | Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.                                                         | 3                                |
+|   09    |     US20      | Validación de consistencia entre sensores y estado del sistema | Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.                                                     | 5                                |
+|   10    |     US18      | Alertas ante fallas en los sensores                            | Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.                                                              | 3                                |
+|   11    |     US19      | Actualización remota del firmware de sensores                  | Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.                                            | 5                                |
+|   12    |     US01      | Visualización de espacios disponibles en el mapa               | Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.                           | 3                                |
+|   13    |     US05      | Visualizar detalles de un espacio disponible                   | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.                | 2                                |
+|   14    |     US02      | Actualización automática de disponibilidad                     | Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.    | 5                                |
+|   15    |     US03      | Notificación de disponibilidad cercana                         | Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.                                                         | 3                                |
+|   16    |     TS04      | Implementar sistema de reservas en la App Móvil                | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.                                   | 3                                |
+|   17    |     US06      | Reservar un espacio disponible desde la app                    | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.                                                       | 5                                |
+|   18    |     US07      | Cancelar una reserva activa                                    | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.                                                  | 3                                |
+|   19    |     TS05      | Implementar sistema de pagos en línea                          | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.                                       | 8                                |
+|   20    |     US08      | Realizar pago desde la app                                     | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.                                                  | 5                                |
+|   21    |     US09      | Registro de método de pago en el perfil                        | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                        | 3                                |
+|   22    |     US10      | Ver historial de pagos realizados                              | Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.                                             | 3                                |
+|   23    |     US11      | Visualizar ocupación en tiempo real                            | Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.                 | 3                                |
+|   24    |     US12      | Modificar tarifas de estacionamiento                           | Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.                                      | 2                                |
+|   25    |     US13      | Descargar reportes de uso                                      | Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.                     | 5                                |
+|   26    |     US15      | Gestionar múltiples estacionamientos desde un solo panel       | Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.                                 | 8                                |
+|   27    |     US21      | Registro mediante enlace de invitación                         | Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.                               | 5                                |
+|   28    |     US22      | Incentivo por recomendación exitosa                            | Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.                                                               | 3                                |
+|   29    |     US24      | Encuesta de satisfacción automática                            | Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.                                                        | 3                                |
+|   30    |     US25      | Panel de métricas de crecimiento orgánico (Admin)              | Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.                                                       | 5                                |
 ---
 
 ## Capítulo IV: Solution Software Design
@@ -1559,19 +1648,27 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 #### 4.1.3. Software Architecture
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
+
+!["System Landscape Diagram"](ChapterIV-images/SystemLandscapeDiagram.png)
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
+
+!["System Context Diagram"](ChapterIV-images/SystemContextDiagram.png)
 
 ##### 4.1.3.3. Software Architecture Container Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
+
+!["Container Diagram"](ChapterIV-images/ContainerDiagram.png)
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
+
+!["Deployment Diagram"](ChapterIV-images/DeploymentDiagram.png)
 
 ### 4.2. Tactical-Level Domain-Driven Design
-#### 4.2.1. Bounded Context: <Bounded Context Name>
+#### 4.2.1. Bounded Context: Identity and Access Management
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ##### 4.2.1.1. Domain Layer
@@ -1597,6 +1694,201 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+#### 4.2.2. Bounded Context: Profile Management
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.2.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.3. Bounded Context: Parking Management
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.4. Bounded Context: Reservation
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.4.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.5. Bounded Context: Payment 
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.5.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.2.7. Bounded Context: Review
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.7.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+#### 4.2.8. Bounded Context: Notification
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.8.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+
+#### 4.9.1. Bounded Context: IoT Management
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+###### 4.2.9.6.2. Bounded Context Database Design Diagram
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
