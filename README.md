@@ -1807,59 +1807,365 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 
-#### 4.2.7. Bounded Context: Review
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+### 4.2.7 Bounded Context: Review
 
-##### 4.2.7.1. Domain Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+#### 4.2.7.1. Domain Layer
 
-##### 4.2.7.2. Interface Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+La capa de dominio de Review encapsula la lógica de negocio para la creación y gestión de reseñas de parkings.
 
-##### 4.2.7.3. Application Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+**Propósito:** Modelar el agregado raíz **Review** junto con sus entidades relacionadas **User** y **Parking**, asegurando las invariantes de dominio (por ejemplo, rating entre 1 y 5).
 
-##### 4.2.7.4. Infrastructure Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+| **Aggregate**: `Review`                                                                            |
+|----------------------------------------------------------------------------------------------------|
+| **Descripción**: Representa la reseña que un **User** hace sobre un **Parking**.                   |
 
-##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+| **Atributo**    | **Tipo**          | **Descripción**                                                                 |
+|-----------------|-------------------|---------------------------------------------------------------------------------|
+| `id`            | `Long`            | Identificador único de la reseña.                                               |
+| `user`          | `User`            | Usuario que crea la reseña.                                                     |
+| `parking`       | `Parking`         | Parking al que pertenece la reseña.                                             |
+| `rating`        | `Rating`          | Valor de la reseña (1–5).                                                       |
+| `comment`       | `Comment`         | Texto del comentario (máx. 500 caracteres).                                     |
+| `createdAt`     | `Date`            | Fecha de creación (inmutable).                                                  |
+| `updatedAt`     | `Date`            | Fecha de última modificación.                                                   |
 
-##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+| **Método**                | **Descripción**                                                          |
+|---------------------------|---------------------------------------------------------------------------|
+| `Review(Long id, User user, Parking parking, int rating, String comment)` | Constructor que valida y crea una reseña.  |
+| `updateRating(int rating)`    | Actualiza `rating` tras validar el rango 1–5.                        |
+| `updateComment(String comment)` | Actualiza `comment` tras validar longitud.                         |
+| `getRating()`             | Retorna el valor de la reseña.                                           |
+| `getComment()`            | Retorna el comentario.                                                   |
 
-###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+---
 
-###### 4.2.7.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+| **Value Object**: `Rating`                                                                             |
+|--------------------------------------------------------------------------------------------------------|
+| **Descripción**: Encapsula y valida el valor de la reseña (debe estar entre 1 y 5).                    |
+
+| **Atributo** | **Tipo** | **Descripción**               |
+|--------------|----------|-------------------------------|
+| `value`      | `int`    | Valor de la reseña (1–5).     |
+
+| **Método**        | **Descripción**                                        |
+|-------------------|--------------------------------------------------------|
+| `Rating(int v)`   | Constructor que valida `1 ≤ v ≤ 5`.                   |
+| `int value()`     | Retorna el valor encapsulado.                         |
+
+---
+
+| **Value Object**: `Comment`                                                                             |
+|--------------------------------------------------------------------------------------------------------|
+| **Descripción**: Texto de la reseña, validado para no estar vacío y no exceder 500 caracteres.         |
+
+| **Atributo** | **Tipo**    | **Descripción**                               |
+|--------------|-------------|-----------------------------------------------|
+| `text`       | `String`    | Comentario de la reseña.                      |
+
+| **Método**              | **Descripción**                                         |
+|-------------------------|---------------------------------------------------------|
+| `Comment(String txt)`   | Constructor que valida longitud y no-nulidad.           |
+| `String text()`         | Retorna el texto encapsulado.                           |
+
+---
+
+| **Entity**: `User`                                                                                     |
+|--------------------------------------------------------------------------------------------------------|
+| **Descripción**: Representa al usuario que escribe la reseña.                                          |
+
+| **Atributo**     | **Tipo**     | **Descripción**                                           |
+|------------------|--------------|-----------------------------------------------------------|
+| `id`             | `Long`       | Identificador único.                                      |
+| `email`          | `String`     | Correo electrónico.                                       |
+| `createdAt`      | `Date`       | Fecha de creación.                                        |
+| `updatedAt`      | `Date`       | Fecha de última actualización.                            |
+
+| **Método**       | **Descripción**                        |
+|------------------|----------------------------------------|
+| `getId()`        | Retorna el `id`.                       |
+| `getEmail()`     | Retorna el `email`.                    |
+
+---
+
+| **Entity**: `Parking`                                                                                  |
+|--------------------------------------------------------------------------------------------------------|
+| **Descripción**: Representa el parking objeto de la reseña.                                            |
+
+| **Atributo**       | **Tipo**    | **Descripción**                                         |
+|--------------------|-------------|---------------------------------------------------------|
+| `id`               | `Long`      | Identificador único.                                    |
+| `name`             | `String`    | Nombre del parking.                                     |
+| `address`          | `String`    | Dirección del parking.                                  |
+| `ratePerHour`      | `Float`     | Tarifa por hora.                                        |
+| `totalSpots`       | `int`       | Total de espacios.                                      |
+
+| **Método**         | **Descripción**                        |
+|--------------------|----------------------------------------|
+| `getId()`          | Retorna el `id`.                       |
+| `getName()`        | Retorna el `name`.                     |
+
+---
+
+#### 4.2.7.2. Interface Layer
+
+Expone los endpoints HTTP para el manejo de reseñas.
+
+| **Controlador**: `ReviewController`                                                                                   |
+|------------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Gestiona las operaciones CRUD de reseñas.                                                            |
+
+| **Método**                              | **Ruta**                                       | **Descripción**                                        |
+|-----------------------------------------|------------------------------------------------|--------------------------------------------------------|
+| `createReview`                          | `POST /api/v1/parkings/{parkingId}/reviews`    | Crea una nueva reseña para el parking dado.           |
+| `getReviewsByParking`                   | `GET /api/v1/parkings/{parkingId}/reviews`     | Lista todas las reseñas de un parking.                |
+| `getReviewById`                         | `GET /api/v1/reviews/{reviewId}`               | Obtiene una reseña por su ID.                         |
+| `updateReview`                          | `PUT /api/v1/reviews/{reviewId}`               | Actualiza rating y/o comentario de una reseña.        |
+| `deleteReview`                          | `DELETE /api/v1/reviews/{reviewId}`            | Elimina una reseña por su ID.                         |
+
+**Dependencias**:
+- `ReviewCommandService`
+- `ReviewQueryService`
+- `CreateReviewCommandFromResourceAssembler`
+- `ReviewResourceFromEntityAssembler`
+
+---
+
+#### 4.2.7.3. Application Layer
+
+Orquesta comandos y consultas de reseñas.
+
+| **Servicio**: `ReviewCommandServiceImpl`                                                                              |
+|-----------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Maneja la lógica de comandos (crear, actualizar, eliminar).                                          |
+
+| **Método**                         | **Descripción**                                                                                         |
+|------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `handle(CreateReviewCommand cmd)`  | Verifica existencia de `User` y `Parking`, crea y persiste un nuevo `Review`.                          |
+| `handle(UpdateReviewCommand cmd)`  | Valida y actualiza campos permitidos de `Review`.                                                       |
+| `handle(DeleteReviewCommand cmd)`  | Elimina la reseña y lanza excepción si no existe.                                                       |
+
+**Dependencias**:
+- `ReviewRepository`
+- `UserQueryService`
+- `ParkingQueryService`
+
+---
+
+| **Servicio**: `ReviewQueryServiceImpl`                                                                                |
+|-----------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Maneja la lógica de consultas (obtener reseñas).                                                    |
+
+| **Método**                             | **Descripción**                                                                                   |
+|----------------------------------------|---------------------------------------------------------------------------------------------------|
+| `handle(GetReviewByIdQuery q)`         | Recupera un `Review` por su ID.                                                                   |
+| `handle(GetReviewsByParkingQuery q)`   | Recupera todas las `Review` de un `Parking` dado.                                                 |
+| `handle(GetAllReviewsQuery q)`         | Recupera todas las reseñas del sistema.                                                           |
+
+**Dependencias**:
+- `ReviewRepository`
+
+---
+
+#### 4.2.7.4. Infrastructure Layer
+
+Persiste y recupera reseñas de la base de datos.
+
+| **Repositorio**: `ReviewRepository`                                                                                    |
+|------------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Interfaz para persistencia de `Review` (extiende `JpaRepository<Review, Long>`).                     |
+
+| **Método**                             | **Descripción**                                                       |
+|----------------------------------------|-----------------------------------------------------------------------|
+| `List<Review> findByParkingId(Long id)`| Obtiene todas las reseñas de un parking.                              |
+| `Optional<Review> findById(Long id)`   | Busca reseña por ID.                                                  |
+| `Review save(Review r)`                | Persiste o actualiza una reseña.                                      |
+| `void deleteById(Long id)`             | Elimina reseña por ID.                                                |
+| `boolean existsById(Long id)`          | Verifica existencia de reseña.                                        |
+
+---
+
+#### 4.2.7.6. Component Level Diagram (estructura)
+
+El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
+
+![Review Context Component Diagram](ChapterIV-images/ReviewBoundedContextComponentDiagram.png)
+
+---
+
+#### 4.2.7.7. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.7.7.1. Domain Layer Class Diagram
+En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
+![Review Context Class Diagram](ChapterIV-images/ReviewBoundedContextClassDiagram.png)
+
+##### 4.2.7.7.2. Database Design Diagram
+
+El diagrama de base de datos del bounded context **Review** muestra tres tablas principales:  
+- **reviews**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `parking_id` (BIGINT, clave foránea a `parkings.id`), `rating` (INT), `comment` (VARCHAR(500)), `created_at` y `updated_at` (TIMESTAMP).  
+- **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).  
+- **parkings**: con campos `id` (clave primaria, BIGINT), `name` (VARCHAR(255)), `address` (VARCHAR(500)), `rate_per_hour` (DECIMAL), `total_spots` (INT).  
+
+Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
+![Review Context Database Diagram](ChapterIV-images/ReviewBoundedContextDatabaseDiagram.png)
+
 
 #### 4.2.8. Bounded Context: Notification
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 ##### 4.2.8.1. Domain Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+La capa de dominio de Notifications encapsula la lógica de negocio para la creación y gestión de notificaciones dirigidas a un usuario.
 
+**Propósito:** Modelar el agregado raíz **Notification** junto con su relación a **User**, asegurando las invariantes del dominio (por ejemplo, tipo y mensaje no vacíos).
+
+| **Aggregate**: `Notification`                                                                            |
+|----------------------------------------------------------------------------------------------------------|
+| **Descripción**: Representa una notificación asociada a un **User** en el sistema.                        |
+
+| **Atributo**    | **Tipo**           | **Descripción**                                         |
+|-----------------|--------------------|---------------------------------------------------------|
+| `id`            | `Long`             | Identificador único de la notificación.                 |
+| `user`          | `User`             | Usuario destinatario de la notificación.                |
+| `type`          | `NotificationType` | Tipo de notificación (e.g. “INFO”, “WARN”, “ERROR”).    |
+| `message`       | `NotificationMessage` | Texto de la notificación.                            |
+| `createdAt`     | `Date`             | Fecha de creación (inmutable).                          |
+
+| **Método**                                  | **Descripción**                                        |
+|---------------------------------------------|--------------------------------------------------------|
+| `Notification(Long id, User user, NotificationType type, NotificationMessage msg)` | Constructor que valida y crea la notificación. |
+| `getType()`                                 | Retorna el tipo de la notificación.                    |
+| `getMessage()`                              | Retorna el mensaje.                                    |
+
+---
+
+| **Value Object**: `NotificationType`                                                                         |
+|--------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Encapsula y valida el tipo de notificación.                                                 |
+
+| **Atributo** | **Tipo** | **Descripción**                         |
+|--------------|----------|-----------------------------------------|
+| `value`      | `String` | Cadena no vacía que identifica el tipo. |
+
+| **Método**                  | **Descripción**                                 |
+|-----------------------------|-------------------------------------------------|
+| `NotificationType(String v)`| Constructor que valida no-nulidad y no-blank.   |
+| `String value()`            | Retorna el tipo encapsulado.                    |
+
+---
+
+| **Value Object**: `NotificationMessage`                                                                      |
+|--------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Encapsula y valida el texto de la notificación.                                             |
+
+| **Atributo** | **Tipo** | **Descripción**                           |
+|--------------|----------|-------------------------------------------|
+| `text`       | `String` | Mensaje de la notificación (máx. 500).    |
+
+| **Método**                      | **Descripción**                                |
+|---------------------------------|------------------------------------------------|
+| `NotificationMessage(String t)` | Constructor que valida longitud y no-nulidad. |
+| `String text()`                 | Retorna el texto encapsulado.                  |
+
+---
+
+| **Entity**: `User`                                                                                      |
+|---------------------------------------------------------------------------------------------------------|
+| **Descripción**: Representa al destinatario de la notificación.                                         |
+
+| **Atributo**     | **Tipo**   | **Descripción**                               |
+|------------------|------------|-----------------------------------------------|
+| `id`             | `Long`     | Identificador único.                          |
+| `email`          | `String`   | Correo electrónico.                           |
+| `createdAt`      | `Date`     | Fecha de creación.                            |
+| `updatedAt`      | `Date`     | Fecha de actualización.                       |
+
+| **Método**       | **Descripción**                        |
+|------------------|----------------------------------------|
+| `getId()`        | Retorna el `id`.                       |
+| `getEmail()`     | Retorna el `email`.                    |
+
+---
 ##### 4.2.8.2. Interface Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Expone los endpoints HTTP para la gestión de notificaciones.
 
+| **Controlador**: `NotificationController`                                                                            |
+|----------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Gestiona las operaciones CRUD de notificaciones.                                                   |
+
+| **Método**                      | **Ruta**                                       | **Descripción**                                   |
+|---------------------------------|------------------------------------------------|---------------------------------------------------|
+| `createNotification`            | `POST /api/v1/users/{userId}/notifications`    | Crea una nueva notificación para un usuario.     |
+| `getNotificationsByUser`        | `GET /api/v1/users/{userId}/notifications`     | Lista todas las notificaciones de un usuario.    |
+| `getNotificationById`           | `GET /api/v1/notifications/{notificationId}`   | Obtiene una notificación por su ID.              |
+| `deleteNotification`            | `DELETE /api/v1/notifications/{notificationId}`| Elimina una notificación por su ID.              |
+
+**Dependencias**:
+- `NotificationCommandService`  
+- `NotificationQueryService`  
+- `CreateNotificationCommandFromResourceAssembler`  
+- `NotificationResourceFromEntityAssembler`  
+
+---
 ##### 4.2.8.3. Application Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Orquesta los comandos y consultas de notificaciones.
 
+| **Servicio**: `NotificationCommandServiceImpl`                                                                  |
+|------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Maneja la lógica de comandos (crear, eliminar).                                                |
+
+| **Método**                                | **Descripción**                                                              |
+|-------------------------------------------|------------------------------------------------------------------------------|
+| `handle(CreateNotificationCommand cmd)`   | Verifica existencia de `User`, crea y persiste una nueva `Notification`.     |
+| `handle(DeleteNotificationCommand cmd)`   | Elimina la notificación y lanza excepción si no existe.                      |
+
+**Dependencias**:
+- `NotificationRepository`  
+- `UserQueryService`  
+
+---
+
+| **Servicio**: `NotificationQueryServiceImpl`                                                                   |
+|------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Maneja la lógica de consultas (obtener notificaciones).                                        |
+
+| **Método**                                      | **Descripción**                                             |
+|-------------------------------------------------|-------------------------------------------------------------|
+| `handle(GetNotificationsByUserQuery q)`         | Recupera todas las notificaciones de un usuario dado.       |
+| `handle(GetNotificationByIdQuery q)`            | Recupera una notificación por su ID.                       |
+
+**Dependencias**:
+- `NotificationRepository`  
+
+---
 ##### 4.2.8.4. Infrastructure Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Interacción con la base de datos de notificaciones.
 
+| **Repositorio**: `NotificationRepository`                                                                           |
+|----------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Interfaz para persistencia de `Notification` (extiende `JpaRepository<Notification, Long>`).        |
+
+| **Método**                                      | **Descripción**                                                  |
+|-------------------------------------------------|------------------------------------------------------------------|
+| `List<Notification> findByUserId(Long id)`      | Obtiene todas las notificaciones de un usuario.                  |
+| `Optional<Notification> findById(Long id)`      | Busca notificación por ID.                                       |
+| `Notification save(Notification n)`              | Persiste o actualiza una notificación.                           |
+| `void deleteById(Long id)`                      | Elimina notificación por ID.                                     |
+| `boolean existsById(Long id)`                   | Verifica existencia de notificación.                             |
+
+---
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
+El diagrama muestra la arquitectura monolítica del bounded context de notificaciones. Las peticiones REST llegan al NotificationController, que a su vez invoca al NotificationCommandService para crear o eliminar notificaciones y al NotificationQueryService para obtenerlas. Antes de crear una notificación, el NotificationCommandService valida la existencia del usuario consultando al UserQueryService. Tanto los comandos como las consultas utilizan el NotificationRepository para leer y escribir en la base de datos MySQL dedicada a notificaciones.
+
+![Notification Context Component Diagram](ChapterIV-images/NotificationBoundedContextComponentDiagram.png)
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
+En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
+![Notification Context Class Diagram](ChapterIV-images/NotificationBoundedContextClassDiagram.png)
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+El diagrama de base de datos del bounded context **Notifications** muestra dos tablas principales:  
+- **notifications**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `type` (VARCHAR(50)), `message` (VARCHAR(500)), `created_at` (TIMESTAMP).  
+- **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).  
+
+La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
+![Notification Context Database Diagram](ChapterIV-images/NotificationBoundedContextDatabaseDiagram.png)
 
 
 #### 4.9.1. Bounded Context: IoT Management
