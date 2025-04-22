@@ -853,7 +853,145 @@ Medio de aplicación
 
 
 #### 2.2.2. Registro de entrevistas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+##### Segmento 1:
+<div align="justify">
+  <!--Entrevista 1-->
+  <table>
+    <tr>
+      <td>Entrevista 1: </td>
+      <td>
+        Nombre: <br>
+        Edad: <br>
+        Distrito: <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista1.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Tiempo en el video: 00:00</td>
+    </tr>
+  </table>
+  <!--Entrevista 2-->
+  <table>
+    <tr>
+      <td>Entrevista 2: </td>
+      <td>
+        Nombre: <br>
+        Edad: <br>
+        Distrito: <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista2.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Tiempo en el video: 00:00</td>
+    </tr>
+  </table>
+  <!--Entrevista 3-->
+  <table>
+    <tr>
+      <td>Entrevista 3: </td>
+      <td>
+        Nombre: <br>
+        Edad: <br>
+        Distrito: <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista3.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Tiempo en el video: 00:00</td>
+    </tr>
+  </table>
+</div>
+
+##### Segmento 2:
+<div align="justify">
+  <!--Entrevista 1-->
+  <table>
+    <tr>
+      <td>Entrevista 1: </td>
+      <td>
+        Nombre: <br>
+        Edad: <br>
+        Distrito: <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista1.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Tiempo en el video: 00:00</td>
+    </tr>
+  </table>
+  <!--Entrevista 2-->
+  <table>
+    <tr>
+      <td>Entrevista 2: </td>
+      <td>
+        Nombre: <br>
+        Edad: <br>
+        Distrito: <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista2.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Tiempo en el video: 00:00</td>
+    </tr>
+  </table>
+  <!--Entrevista 3-->
+  <table>
+    <tr>
+      <td>Entrevista 3: </td>
+      <td>
+        Nombre: <br>
+        Edad: <br>
+        Distrito: <br>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista3.png"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Tiempo en el video: 00:00</td>
+    </tr>
+  </table>
+</div>
 
 #### 2.2.3. Análisis de entrevistas
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
@@ -1927,17 +2065,17 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tb1<br>
 			Formato: .mp4<br>
 			Duración:<br>
-			Enlace:<br>
+			Enlace: <br>
 		</td>
 	</tr>
 	<tr>
 		<td>Entrevistas</td>
 		<td>
 			Cantidad de videos: 1<br><br>
-			Nomenclatura: <br>
+			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-needfinding<br>
 			Formato: .mp4<br>
 			Duración: <br>
-			Enlace:<br>
+			Enlace: <br>
 		</td>
 	</tr>
 </table>
