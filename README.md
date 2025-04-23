@@ -1780,8 +1780,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 
 #### 4.2.5. Bounded Context: Payment 
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
 ##### 4.2.5.1. Domain Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
@@ -1807,9 +1805,9 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 
-### 4.2.7 Bounded Context: Review
+#### 4.2.6 Bounded Context: Review
 
-#### 4.2.7.1. Domain Layer
+##### 4.2.6.1. Domain Layer
 
 La capa de dominio de Review encapsula la lógica de negocio para la creación y gestión de reseñas de parkings.
 
@@ -1906,7 +1904,7 @@ La capa de dominio de Review encapsula la lógica de negocio para la creación y
 
 ---
 
-#### 4.2.7.2. Interface Layer
+##### 4.2.6.2. Interface Layer
 
 Expone los endpoints HTTP para el manejo de reseñas.
 
@@ -1930,7 +1928,7 @@ Expone los endpoints HTTP para el manejo de reseñas.
 
 ---
 
-#### 4.2.7.3. Application Layer
+##### 4.2.6.3. Application Layer
 
 Orquesta comandos y consultas de reseñas.
 
@@ -1966,7 +1964,7 @@ Orquesta comandos y consultas de reseñas.
 
 ---
 
-#### 4.2.7.4. Infrastructure Layer
+##### 4.2.6.4. Infrastructure Layer
 
 Persiste y recupera reseñas de la base de datos.
 
@@ -1984,7 +1982,7 @@ Persiste y recupera reseñas de la base de datos.
 
 ---
 
-#### 4.2.7.6. Component Level Diagram (estructura)
+##### 4.2.6.6. Component Level Diagram (estructura)
 
 El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
 
@@ -1992,13 +1990,13 @@ El diagrama representa una arquitectura monolítica del bounded context de rese�
 
 ---
 
-#### 4.2.7.7. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.6.7. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.7.7.1. Domain Layer Class Diagram
+###### 4.2.6.7.1. Domain Layer Class Diagram
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
 ![Review Context Class Diagram](ChapterIV-images/ReviewBoundedContextClassDiagram.png)
 
-##### 4.2.7.7.2. Database Design Diagram
+###### 4.2.6.7.2. Database Design Diagram
 
 El diagrama de base de datos del bounded context **Review** muestra tres tablas principales:  
 - **reviews**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `parking_id` (BIGINT, clave foránea a `parkings.id`), `rating` (INT), `comment` (VARCHAR(500)), `created_at` y `updated_at` (TIMESTAMP).  
@@ -2009,8 +2007,8 @@ Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apu
 ![Review Context Database Diagram](ChapterIV-images/ReviewBoundedContextDatabaseDiagram.png)
 
 
-#### 4.2.8. Bounded Context: Notification
-##### 4.2.8.1. Domain Layer
+#### 4.2.7. Bounded Context: Notification
+##### 4.2.7.1. Domain Layer
 La capa de dominio de Notifications encapsula la lógica de negocio para la creación y gestión de notificaciones dirigidas a un usuario.
 
 **Propósito:** Modelar el agregado raíz **Notification** junto con su relación a **User**, asegurando las invariantes del dominio (por ejemplo, tipo y mensaje no vacíos).
@@ -2082,7 +2080,7 @@ La capa de dominio de Notifications encapsula la lógica de negocio para la crea
 | `getEmail()`     | Retorna el `email`.                    |
 
 ---
-##### 4.2.8.2. Interface Layer
+##### 4.2.7.2. Interface Layer
 Expone los endpoints HTTP para la gestión de notificaciones.
 
 | **Controlador**: `NotificationController`                                                                            |
@@ -2103,7 +2101,7 @@ Expone los endpoints HTTP para la gestión de notificaciones.
 - `NotificationResourceFromEntityAssembler`  
 
 ---
-##### 4.2.8.3. Application Layer
+##### 4.2.7.3. Application Layer
 Orquesta los comandos y consultas de notificaciones.
 
 | **Servicio**: `NotificationCommandServiceImpl`                                                                  |
@@ -2134,7 +2132,7 @@ Orquesta los comandos y consultas de notificaciones.
 - `NotificationRepository`  
 
 ---
-##### 4.2.8.4. Infrastructure Layer
+##### 4.2.7.4. Infrastructure Layer
 Interacción con la base de datos de notificaciones.
 
 | **Repositorio**: `NotificationRepository`                                                                           |
@@ -2150,16 +2148,16 @@ Interacción con la base de datos de notificaciones.
 | `boolean existsById(Long id)`                   | Verifica existencia de notificación.                             |
 
 ---
-##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama muestra la arquitectura monolítica del bounded context de notificaciones. Las peticiones REST llegan al NotificationController, que a su vez invoca al NotificationCommandService para crear o eliminar notificaciones y al NotificationQueryService para obtenerlas. Antes de crear una notificación, el NotificationCommandService valida la existencia del usuario consultando al UserQueryService. Tanto los comandos como las consultas utilizan el NotificationRepository para leer y escribir en la base de datos MySQL dedicada a notificaciones.
 
 ![Notification Context Component Diagram](ChapterIV-images/NotificationBoundedContextComponentDiagram.png)
-##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
-###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
 ![Notification Context Class Diagram](ChapterIV-images/NotificationBoundedContextClassDiagram.png)
-###### 4.2.8.6.2. Bounded Context Database Design Diagram
+###### 4.2.7.6.2. Bounded Context Database Design Diagram
 El diagrama de base de datos del bounded context **Notifications** muestra dos tablas principales:  
 - **notifications**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `type` (VARCHAR(50)), `message` (VARCHAR(500)), `created_at` (TIMESTAMP).  
 - **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).  
@@ -2168,31 +2166,21 @@ La clave foránea `notifications.user_id` asegura que cada notificación esté a
 ![Notification Context Database Diagram](ChapterIV-images/NotificationBoundedContextDatabaseDiagram.png)
 
 
-#### 4.9.1. Bounded Context: IoT Management
+#### 4.2.8. Bounded Context: IoT Management
+##### 4.2.8.1. Domain Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.2.9.1. Domain Layer
+##### 4.2.8.2. Interface Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.2.9.2. Interface Layer
+##### 4.2.8.3. Application Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.2.9.3. Application Layer
+##### 4.2.8.4. Infrastructure Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.2.9.4. Infrastructure Layer
+##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-##### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-###### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
-###### 4.2.9.6.2. Bounded Context Database Design Diagram
+###### 4.2.8.6.2. Bounded Context Database Design Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 
