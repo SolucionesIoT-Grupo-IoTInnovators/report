@@ -251,6 +251,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Andre Alonso-->
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
+        En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.
         <br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
@@ -295,6 +296,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Andre Alonso-->
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
+        Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.
         <br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
@@ -357,7 +359,7 @@ Los integrantes que conforman la startup son:
 
 | Integrante | Perfil | Foto | 
 | :--------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Arroyo Ormeño, André Alonso (202114714)   | Soy estudiante de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable, estudioso y disciplinado. Desde pequeño siempre he tenido ese interés por la tecnología y dicha curiosidad me ha llevado a elegir esta carrera. Espero en el futuro adquirir los conocimientos necesarios de esta carrera para poder vivir de lo que me gusta. | ![Foto Andre]()                                                                                                                            |
+| Arroyo Ormeño, André Alonso (202114714) | Soy estudiante de la carrera de Ingeniería de Software en la UPC. Me considero una persona responsable, estudioso y disciplinado. Desde pequeño siempre he tenido ese interés por la tecnología y dicha curiosidad me ha llevado a elegir esta carrera. Espero en el futuro adquirir los conocimientos necesarios de esta carrera para poder vivir de lo que me gusta. | <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterI-images/andre%20image.png" width=auto height="130"> |
 | Castilla Pachas, César Antonio (202218735)| Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además, me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos. | <img src="https://github.com/Aplicaciones-Web-Grupo-CodeRush/Informe-Final/raw/Chapter-01/assets/imgs/cesar.png" width=auto height="130"> |
 | Cortés Casas, Joaquin Marcelo (202114545) | Soy Joaquín Marcelo Cortés Casas, estudiante de la carrera Ingeniería de Software en la UPC. Tengo experiencia previa liderando múltiples equipos de trabajo, buscando el compromiso y enfoque en la calidad del producto final. Cada día actualizo mis conocimientos de software probando distintas tecnologías innovadoras. | <img src="ChapterI-images/JoaquinPerfil.jpg" width=auto height="130">|
 | Diaz Silva, Fernando Josué (202112722)    | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Fernando]()                                                                                                                         |
@@ -1094,14 +1096,14 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
   Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.<br><br>
 </div>
 
-![user persona de propietario de estacionamiento](chapterII-images/UserPersona-Propietario.png)
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Propietario.png" alt="user persona de propietario de estacionamiento">
 
 **Segmento Conductor:** <br>
 <div align="justify">
   Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.<br><br>
 </div>
 
-![user persona de conductor](chapterII-images/UserPersona-Conductor.png)
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png" alt="user persona de conductor">
 
 #### 2.3.2. User Task Matrix
 
@@ -1318,7 +1320,6 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 - Acceso a datos analíticos facilita la toma de decisiones y mejora la rentabilidad.
 
 **Segmento Conductor:** <br>
-![emphaty mapping de propietario de estacionamiento](chapterII-images/To-be%20Scenario%20Mapping-conductor.jpg)
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/To-be%20Scenario%20Mapping-conductor.jpg" alt="to be scenario mapping conductor">
 
 **Cambios Claves**
