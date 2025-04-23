@@ -2263,10 +2263,9 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 ![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-###### 4.2.8.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
+![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
+###### 4.2.8.6.2. Bounded Context Database Design Diagram 
+![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
