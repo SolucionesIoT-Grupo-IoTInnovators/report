@@ -504,6 +504,76 @@ La capa de dominio encapsula las entidades y lógica central del sistema de gest
 |ParkingSpot(Parking parking, Integer row, Integer column, String label)|Constructor|Inicializa un nuevo ParkingSpot con datos de ubicación y disponibilidad.|
 |Long getParkingId()|Long|Retorna el ID del estacionamiento asociado.|
 
+**Value Objects**
+
+**OwnerId**
+
+**Descripción:**
+Representa el identificador único de un propietario de estacionamiento. Asegura que el valor sea un número positivo.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|ownerId|Long|Identificador único del propietario, debe ser positivo|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|OwnerId(Long ownerId)|Constructor que valida que el valor sea un número positivo.|
+|OwnerId()|Constructor por defecto que asigna 0L, utilizado para serialización.|
+
+**SpotManager**
+
+**Descripción:**
+Representa el componente encargado de administrar la colección de espacios de estacionamiento (ParkingSpot) de un Parking. Permite agregar, eliminar y consultar espacios de estacionamiento.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|parkingSpots|List<ParkingSpot>|Lista de espacios de estacionamiento asociados al Parking|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|SpotManager()|Constructor por defecto que inicializa la lista de parkingSpots vacía.|
+|addParkingSpot(Parking, Integer, Integer, String)|Agrega un nuevo espacio de estacionamiento a la lista.|
+|removeParkingSpot(UUID)|Elimina un espacio de estacionamiento de la lista según su ID.|
+|getParkingSpotById(UUID)|Obtiene un espacio de estacionamiento de la lista según su ID. Retorna null si no existe.|
+
+**Domain Services**
+
+**Descripción:**
+Los Domain Services en este contexto son **interfaces** que definen operaciones de negocio relacionadas con los aggregates **Parking** y **ParkingSpot**. Permiten separar las reglas de negocio que no pertenecen directamente a una entidad o value object.
+
+**ParkingCommandService**
+
+**Descripción:**
+Interfaz que define operaciones de negocio relacionadas con la creación de estacionamientos y la asignación de espacios de estacionamiento.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<Parking> handle(CreateParkingCommand command)|Procesa el comando para crear un nuevo estacionamiento.|
+|Optional<ParkingSpot> handle(AddParkingSpotCommand command)|Procesa el comando para agregar un nuevo espacio de estacionamiento a un Parking existente.|
+
+**ParkingQueryService**
+
+**Descripción:**
+Interfaz que permite consultar información relacionada con los estacionamientos y sus espacios de estacionamiento.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<Parking> handle(GetParkingByIdQuery query)|Obtiene un estacionamiento por su ID.|
+|List<ParkingSpot> handle(GetParkingSpotsByParkingIdQuery query)|Obtiene todos los espacios de estacionamiento asociados a un estacionamiento.|
+|Optional<ParkingSpot> handle(GetParkingSpotByIdQuery query)|Obtiene un espacio de estacionamiento específico por su ID.|
+
 ##### 4.2.3.2. Interface Layer
 Esta capa define los puntos de entrada externos para interactuar con los estacionamientos. A través de controladores REST, se exponen operaciones para registrar estacionamientos y recuperar información.
 
@@ -1015,19 +1085,155 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 #### 4.10.1. Bounded Context: Payment
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
 
 ##### 4.2.10.1. Domain Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+La capa de dominio encapsula los conceptos clave y reglas de negocio del sistema de pagos. Aquí se encuentran los agregados SubscriptionPayment y ReservationPayment, los cuales representan los pagos realizados por suscripciones mensuales y por reservas individuales, respectivamente.
+
+**Aggregates:** SubscriptionPayment
+
+**Descripción:** Representa un pago realizado por una suscripción.
+
+|**Atributo**|**Descripción**|**Tipo**|
+| :- | :- | :- |
+|subscriptionId|ID de la suscripción asociada.|Integer|
+|amount|Monto pagado.|Double|
+|paidAt|Fecha y hora del pago.|LocalDateTime|
+|status|Estado del pago (PAID, PENDING, FAILED).|String|
+
+**Método**
+
+|**Método**|**Descripción**|
+| :- | :- |
+|isPaid()|Retorna true si el pago está marcado como PAID.|
+|isPending()|Retorna true si el pago está marcado como PENDING.|
+|markAsPaid()|Marca el pago como PAID y actualiza la fecha de pago.|
+|markAsFailed()|Marca el pago como FAILED.|
+|markAsPending()|Marca el pago como PENDING.|
+
+**Aggregate:** ReservationPayment
+
+**Descripción:** Representa un pago realizado por la reserva de un espacio.
+
+|**Atributo**|**Descripción**|**Tipo**|
+| :- | :- | :- |
+|reservationId|Identificador de la reserva asociada.|Integer|
+|amount|Monto pagado por la reserva.|Double|
+|paidAt|Fecha y hora en que se realizó el pago.|LocalDateTime|
+|status|Estado del pago (PAID, FAILED).|String (máx. 20)|
+
+**Método**
+
+|**Método**|**Descripción**|
+| :- | :- |
+|isPaid()|Verifica si el pago fue exitoso (status = "PAID").|
+|markAsPaid()|Marca el pago como exitoso y registra la fecha de pago.|
+|markAsFailed()|Marca el estado del pago como fallido.|
+
+**Domain Services**
+
+**SubscriptionPaymentCommandService**
+
+**Descripción:**
+Define las operaciones de negocio para procesar pagos de suscripción, como crear pagos y actualizar su estado.
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<SubscriptionPayment> handle(CreateSubscriptionPaymentCommand command)|Procesa el comando de creación de un pago de suscripción.|
+|Optional<SubscriptionPayment> handle(UpdateSubscriptionPaymentStatusCommand command)|Procesa el comando de actualización de estado de pago de suscripción.|
+
+**ReservationPaymentCommandService**
+
+**Descripción:**
+Define las operaciones de negocio para procesar pagos de reserva, como crear pagos y actualizar su estado.
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<ReservationPayment> handle(CreateReservationPaymentCommand command)|Procesa el comando de creación de un pago de reserva.|
+|Optional<ReservationPayment> handle(UpdateReservationPaymentStatusCommand command)|Procesa el comando de actualización de estado de pago de reserva.|
+
+**PaymentQueryService**
+
+**Descripción:**
+Define las operaciones de consulta para obtener información sobre los pagos, ya sea de suscripción o reserva.
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|List<SubscriptionPayment> handle(GetAllSubscriptionPaymentsQuery query)|Devuelve la lista de pagos de suscripción.|
+|List<ReservationPayment> handle(GetAllReservationPaymentsQuery query)|Devuelve la lista de pagos de reserva.|
 
 ##### 4.2.10.2. Interface Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Esta capa actúa como punto de entrada para operaciones relacionadas con los pagos de suscripción y reserva. A través del controlador REST PaymentController, se exponen endpoints públicos que permiten registrar nuevos pagos, consultar el historial de pagos existentes y actualizar el estado de un pago.
+
+**Controlador:** PaymentController
+
+**Descripción:**
+Gestiona las operaciones expuestas vía API relacionadas con los pagos de suscripción y reserva.
+
+|**Método**|**Descripción**|**HTTP**|**Respuesta**|
+| :- | :- | :- | :- |
+|createSubscriptionPayment(CreateSubscriptionPaymentResource resource)|Permite registrar un pago de suscripción.|POST /api/v1/payments/subscriptions|Recurso de pago creado.|
+|getAllSubscriptionPayments()|Devuelve todos los pagos de suscripción registrados.|GET /api/v1/payments/subscriptions|Lista de recursos de pago.|
+|updateSubscriptionPaymentStatus(Integer subscriptionPaymentId, UpdatePaymentStatusResource resource)|Actualiza el estado de un pago de suscripción.|PUT /api/v1/payments/subscriptions/{subscriptionPaymentId}/status|Recurso de pago actualizado.|
+|createReservationPayment(CreateReservationPaymentResource resource)|Permite registrar un pago de reserva.|POST /api/v1/payments/reservations|Recurso de pago creado.|
+|getAllReservationPayments()|Devuelve todos los pagos de reserva registrados.|GET /api/v1/payments/reservations|Lista de recursos de pago.|
+|updateReservationPaymentStatus(Integer reservationPaymentId, UpdatePaymentStatusResource resource)|Actualiza el estado de un pago de reserva.|PUT /api/v1/payments/reservations/{reservationPaymentId}/status|Recurso de pago actualizado.|
 
 ##### 4.2.10.3. Application Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Esta capa contiene la lógica de aplicación relacionada con la creación, actualización y recuperación de pagos, tanto de suscripción como de reserva. Las clases de servicio SubscriptionPaymentCommandServiceImpl, ReservationPaymentCommandServiceImpl y PaymentQueryServiceImpl manejan los comandos y consultas enviados desde la capa de interfaz, coordinando la ejecución de operaciones a través del dominio y los repositorios.
+
+**SubscriptionPaymentCommandServiceImpl**
+
+**Descripción:**
+Implementación del SubscriptionPaymentCommandService que maneja la creación y actualización de pagos de suscripción.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(CreateSubscriptionPaymentCommand)|Maneja la creación de un pago de suscripción.|
+|handle(UpdateSubscriptionPaymentStatusCommand)|Maneja la actualización de estado de un pago de suscripción.|
+
+**ReservationPaymentCommandServiceImpl**
+
+**Descripción:**
+Implementación del ReservationPaymentCommandService que maneja la creación y actualización de pagos de reserva.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(CreateReservationPaymentCommand)|Maneja la creación de un pago de reserva.|
+|handle(UpdateReservationPaymentStatusCommand)|Maneja la actualización de estado de un pago de reserva.|
+
+**PaymentQueryServiceImpl**
+
+**Descripción:**
+Implementación del PaymentQueryService que maneja las consultas de pagos, tanto de suscripción como de reserva.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(GetAllSubscriptionPaymentsQuery)|Devuelve la lista de pagos de suscripción.|
+|handle(GetAllReservationPaymentsQuery)|Devuelve la lista de pagos de reserva.|
 
 ##### 4.2.10.4. Infrastructure Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Esta capa proporciona las implementaciones de persistencia para los agregados SubscriptionPayment y ReservationPayment. A través de los repositorios SubscriptionPaymentRepository y ReservationPaymentRepository, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
+
+**SubscriptionPaymentRepository**
+
+**Descripción:**
+Repositorio encargado de gestionar las operaciones de persistencia para el aggregate SubscriptionPayment.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|findById(Integer id)|Encuentra un pago de suscripción por su ID.|
+|findAll()|Devuelve todos los pagos de suscripción registrados.|
+
+**ReservationPaymentRepository**
+
+**Descripción:**
+Repositorio encargado de gestionar las operaciones de persistencia para el aggregate ReservationPayment.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|findById(Integer id)|Encuentra un pago de reserva por su ID.|
+|findAll()|Devuelve todos los pagos de reserva registrados.|
 
 ##### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams
 
