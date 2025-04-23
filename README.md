@@ -745,17 +745,18 @@ Repositorio del agregado Reservation.
 |findAll()|Devuelve todas las reservas almacenadas.|
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+El diagrama de componentes muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
+!["Reservation Component Diagram"](ChapterIV-images/Bounded_context_reservations.png)
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+El diagrama de clases muestra la relación entre las entidades Reservation y ReservationPayment, así como los objetos de valor asociados a ellas.
+!["Reservation Class Diagram"](ChapterIV-images/class-diagram-reservation.png)
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
-
+El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
+!["Reservation Database Diagram"](ChapterIV-images/database-diagram-reservations.png)
 
 #### 4.2.5. Bounded Context: Subscription 
 El Bounded Context **Subscription** se encarga de gestionar el estado de suscripción de los usuarios. Define si un usuario posee un plan gratuito (FREE) o ha adquirido una suscripción de pago. También se registran los pagos asociados a la suscripción, permitiendo verificar el historial, estado de pagos y fechas clave como el inicio y la renovación.
