@@ -555,17 +555,21 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+![""](ChapterIV-images/)
+
 
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+![""](ChapterIV-images/)
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+![""](ChapterIV-images/)
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
+![""](ChapterIV-images/)
 
 #### 4.2.4. Bounded Context: Reservation
 El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
@@ -776,16 +780,18 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 |findByUserId(Integer userId)|Retorna la suscripción del usuario.|
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+![""](ChapterIV-images/)
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+![""](ChapterIV-images/)
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+![""](ChapterIV-images/)
 
 
 #### 4.2.7. Bounded Context: Review
@@ -1005,3 +1011,35 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 ###### 4.2.9.6.2. Bounded Context Database Design Diagram
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+#### 4.10.1. Bounded Context: Payment
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.10.1. Domain Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.10.2. Interface Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.10.3. Application Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.10.4. Infrastructure Layer
+Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+##### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams
+
+##### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams
+En el diagrama de código presenta las clases y sus relaciones dentro del contexto de Payment. 
+
+!["Payment Component Diagram"](ChapterIV-images/PaymentComponentDiagram.png)
+
+###### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
+
+!["Payment Class Diagram"](ChapterIV-images/PaymentClassDiagram.png)
+
+###### 4.2.10.6.2. Bounded Context Database Design Diagram
+El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
+
+!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabaseDiagram.png)
