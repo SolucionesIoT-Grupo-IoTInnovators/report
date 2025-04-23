@@ -435,17 +435,20 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+El diagrama de componentes muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
+!["Profile Management Component Diagram"](ChapterIV-images/Bounded_context_profile.png)
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
+!["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
+!["Profile Management Database Diagram"](ChapterIV-images/database-diagram-profile.png)
 
 #### 4.2.3. Bounded Context: Parking Management
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
