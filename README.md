@@ -193,11 +193,11 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-
-##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de IAM. 
+El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de IAM.
 
 !["IAM Component Diagram"](ChapterIV-images/IAMComponentDiagram.png)
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
@@ -435,14 +435,15 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de componentes muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
+El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
+
 !["Profile Management Component Diagram"](ChapterIV-images/Bounded_context_profile.png)
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
-
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
+
 !["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
 
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
@@ -628,11 +629,11 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
-
-##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
+El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
 
 !["Parking Management Component Diagram"](ChapterIV-images/ParkingmanagementComponentDiagram.png)
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases se observa la relación entre las entidades Parking y ParkingSpot, así como los objetos de valor asociados a ellas.
@@ -745,17 +746,20 @@ Repositorio del agregado Reservation.
 |findAll()|Devuelve todas las reservas almacenadas.|
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de componentes muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
+
+El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
 !["Reservation Component Diagram"](ChapterIV-images/Bounded_context_reservations.png)
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Reservation y ReservationPayment, así como los objetos de valor asociados a ellas.
+
 !["Reservation Class Diagram"](ChapterIV-images/class-diagram-reservation.png)
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
+
 !["Reservation Database Diagram"](ChapterIV-images/database-diagram-reservations.png)
 
 #### 4.2.5. Bounded Context: Subscription 
@@ -854,11 +858,11 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 |findByUserId(Integer userId)|Retorna la suscripción del usuario.|
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Subscription.
+
+!["Subscription Architecture Component Level Diagram"](ChapterIV-images/SubscriptionComponentDiagram.png)
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
-El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de Subscription.
-
-!["Subscription Component Diagram"](ChapterIV-images/SubscriptionComponentDiagram.png)
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases se observa la relación entre las entidades Subscription y SubscriptionPayment, así como los objetos de valor asociados a ellas.
@@ -1240,11 +1244,11 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 |findAll()|Devuelve todos los pagos de reserva registrados.|
 
 ##### 4.2.10.5. Bounded Context Software Architecture Component Level Diagrams
+En el diagrama de arquitectura de nivel componente, se presenta las clases y sus relaciones dentro del contexto de Payment.
 
-##### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams
-En el diagrama de código presenta las clases y sus relaciones dentro del contexto de Payment. 
+!["Payment Architecture Component Level Diagram"](ChapterIV-images/PaymentComponentDiagram.png)
 
-!["Payment Component Diagram"](ChapterIV-images/PaymentComponentDiagram.png)
+##### 4.2.10.6. Bounded Context Software Architecture Code Level Diagrams11
 
 ###### 4.2.10.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
