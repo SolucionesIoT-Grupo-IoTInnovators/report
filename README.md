@@ -2224,13 +2224,43 @@ La capa de dominio de Notifications encapsula la lógica para la gestión de los
 
 ---
 ##### 4.2.8.2. Interface Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+Expone los endpoints HTTP para gestionar la conexion de las entidades.
+
+| **Controlador**: `IoTDeviceController`                                                                            |
+|-------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Gestiona las operaciones CRUD de los dispositivos IoT                                            |
+
+| **Método**               | **Ruta**                                       | **Descripción**                                            |
+|--------------------------|------------------------------------------------|------------------------------------------------------------|
+| `getAllStatus`           | `GET /api/v1/users/status`                     | Obtiene el estado de todos los espacios de estacionamiento.|
+| `getStatus`              | `GET /api/v1/users/{parkingSpotId}/status`     | Obtiene el estado del espacio de estacionamiento.          |
+| `setAvailability`        | `POST /api/v1/users/{parkingSpotId}/available` | Define la disponibilidad del espacio de estacionamiento.   |
+
+---
 ##### 4.2.8.3. Application Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+| **Servicio**: `IoTDeviceQueryServiceImpl`                                        |
+|-------------------------------------------------------------------------------------|
+| **Descripción**: Maneja la lógica de estado.                                        |
+
+| **Método**                             | **Descripción**                                             |
+|----------------------------------------|-------------------------------------------------------------|
+| `handle(GetAllStatus q)`               | Recupera todos los estados en el estacionamiento.           |
+| `handle(GetStatusByIdQuery q)`         | Recupera el estado de un estacionamiento dadoio dado.       |
+| `handle(SetAvailabiltyByIdQuery q)`    | Establece la disponibilidad de un estacionamiento dado.     |
+
+---
 ##### 4.2.8.4. Infrastructure Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+| **Repositorio**: `IoTDeviceRepository`                                                                           |
+|----------------------------------------------------------------------------------------------------------------------|
+| **Descripción**: Interfaz para persistencia de `IoT Device` (extiende `JpaRepository<Notification, Long>`).      |
+
+| **Método**                      | **Descripción**                                                  |
+|---------------------------------|------------------------------------------------------------------|
+| `List<IoTDevice> allStatus()`   | Obtiene el estado de todos los espacios.                         |
+| `String findById(Long id)`      | Busca el estado de un espacio de estacionamiento por ID.         |
+| `void setAvailability()`        | Establecer la disponibilidad de un espacio                       |
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
