@@ -32,20 +32,20 @@
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  | **Autor**                                                                                                                              | **Descripción de Modificación**                                                                                                                  |
-|-------------|------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                          | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                         | Adición del Startup Profile.                                                                                                                     |
-| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                    | Adición del Solution Profile y Competidores.                                                                                                     |
-| 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                          | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                  |
-| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                            | Adición del To-Be Scenario Mapping.                                                                                                              |
-| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                         | Adición de User Stories.                                                                                                                         |
-| 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                    | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.          |
-| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                         | Adición del segmento objetivo.                                                                                                                   |
-| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                     | Adición de diagramas de Software Architecture.                                                                                                   |
+| **Versión** | **Fecha**  | **Autor**                                                                                                                               | **Descripción de Modificación**                                                                                                                  |
+|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                           | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                          | Adición del Startup Profile.                                                                                                                     |
+| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                     | Adición del Solution Profile y Competidores.                                                                                                     |
+| 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                           | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                  |
+| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                             | Adición del To-Be Scenario Mapping.                                                                                                              |
+| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                          | Adición de User Stories.                                                                                                                         |
+| 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                     | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.          |
+| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                          | Adición del segmento objetivo.                                                                                                                   |
+| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                      | Adición de diagramas de Software Architecture.                                                                                                   |
 | 1.9         | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                 |
-| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                     | Adición de Bounded Context Canvases para todos los bounded contexts y avance de Conclusiones y Recomendaciones.                                  |
-
+| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                      | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                             |
+| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto | Correción del menú y puntos faltantes en el documento |
 
 ---
 
@@ -59,11 +59,11 @@
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Castilla Pachas, César Antonio:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
-- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas, Diagramas de Arquitectura de Software, los Bounded Context Canvases, los Bounded Context Software Architecture Component & Code Level Diagrams y un avance de conclusiones & recomendaciones.
+- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas y Diagramas de Arquitectura de Software.
 - **Diaz Silva, Fernando Josué:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Godoy, Johan Príncipe:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Tafur Gonzales, Josty Gerardo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
-- **Zarate Caceres, Victor Ernesto:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
@@ -79,64 +79,145 @@
 - [Student Outcome](#student-outcome)
 
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2. Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 
 - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-        - [4.1.1. EventStorming](#411-eventstorming)
-            - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-            - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-            - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-        - [4.1.2. Context Mapping](#412-context-mapping)
-        - [4.1.3. Software Architecture](#413-software-architecture)
-            - [4.1.3.1. System Quality Attributes](#4131-system-quality-attributes)
-            - [4.1.3.2. Architectural Design Backlog](#4132-architectural-design-backlog)
-            - [4.1.3.3. Software Architecture System Landscape Diagram](#4133-software-architecture-system-landscape-diagram)
-            - [4.1.3.4. Software Architecture Context Level Diagrams](#4134-software-architecture-context-level-diagrams)
-            - [4.1.3.5. Software Architecture Container Level Diagrams](#4135-software-architecture-container-level-diagrams)
-            - [4.1.3.6. Software Architecture Deployment Diagrams](#4136-software-architecture-deployment-diagrams)
-    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-        - [4.2.1. Bounded Context: ](#421-bounded-context-)
-            - [4.2.1.1. Domain Layer](#4211-domain-layer)
-            - [4.2.1.2. Interface Layer](#4212-interface-layer)
-            - [4.2.1.3. Application Layer](#4213-application-layer)
-            - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-            - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
-            - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
-                - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-                - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1. EventStorming](#411-eventstorming)
+      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2. Context Mapping](#412-context-mapping)
+    - [4.1.3. Software Architecture](#413-software-architecture)
+      - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+      - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+      - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+      - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.1. Bounded Context: Identity and Access Management ](#421-bounded-context-identity-and-access-management)
+      - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
+        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
+    - [4.2.2. Bounded Context: Profile Management](#422-bounded-context-profile-management)
+      - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+        - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
+
+    - [4.2.3. Bounded Context: Parking Management](#423-bounded-context-parking-management)
+      - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+        - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+
+    - [4.2.4. Bounded Context: Reservation](#424-bounded-context-reservation)
+      - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+        - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+
+    - [4.2.5. Bounded Context: Subscription](#425-bounded-context-subscription)
+      - [4.2.5.1. Domain Layer](#4251-domain-layer)
+      - [4.2.5.2. Interface Layer](#4252-interface-layer)
+      - [4.2.5.3. Application Layer](#4253-application-layer)
+      - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+      - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+        - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+
+    - [4.2.6. Bounded Context: Review](#426-bounded-context-review)
+      - [4.2.6.1. Domain Layer](#4261-domain-layer)
+      - [4.2.6.2. Interface Layer](#4262-interface-layer)
+      - [4.2.6.3. Application Layer](#4263-application-layer)
+      - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+      - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+        - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
+
+    - [4.2.7. Bounded Context: Notification](#427-bounded-context-notification)
+      - [4.2.7.1. Domain Layer](#4271-domain-layer)
+      - [4.2.7.2. Interface Layer](#4272-interface-layer)
+      - [4.2.7.3. Application Layer](#4273-application-layer)
+      - [4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)
+      - [4.2.7.5. Bounded Context Software Architecture Component Level Diagrams](#4275-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
+        - [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
+
+    - [4.2.8. Bounded Context: IoT Management](#428-bounded-context-iot-management)
+      - [4.2.8.1. Domain Layer](#4281-domain-layer)
+      - [4.2.8.2. Interface Layer](#4282-interface-layer)
+      - [4.2.8.3. Application Layer](#4283-application-layer)
+      - [4.2.8.4. Infrastructure Layer](#4284-infrastructure-layer)
+      - [4.2.8.5. Bounded Context Software Architecture Component Level Diagrams](#4285-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
+        - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
+
+    - [4.2.9. Bounded Context: Payment](#429-bounded-context-payment)
+      - [4.2.9.1. Domain Layer](#4291-domain-layer)
+      - [4.2.9.2. Interface Layer](#4292-interface-layer)
+      - [4.2.9.3. Application Layer](#4293-application-layer)
+      - [4.2.9.4. Infrastructure Layer](#4294-infrastructure-layer)
+      - [4.2.9.5. Bounded Context Software Architecture Component Level Diagrams](#4295-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)
+        - [4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografia)
+- [Anexos](#anexos)
+
 
 ## Student Outcome
 
@@ -274,14 +355,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 #### 1.1.2. Perfiles de integrantes del equipo
 Los integrantes que conforman la startup son:
 
-| Integrante | Perfil                                                                                                                                                                                                                                                                                                                        | Foto                                                                                                                                       |
+| Integrante | Perfil | Foto | 
 | :--------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Arroyo Ormeño, André Alonso (202114714)   | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Andre]()                                                                                                                            |
-| Castilla Pachas, César Antonio (202218735)| Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además, me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos. | <img src="https://github.com/Aplicaciones-Web-Grupo-CodeRush/Informe-Final/raw/Chapter-01/assets/imgs/cesar.png" width="125" height="130"> |
-| Cortés Casas, Joaquin Marcelo (202114545) | Soy Joaquín Marcelo Cortés Casas, estudiante de la carrera Ingeniería de Software en la UPC. Tengo experiencia previa liderando múltiples equipos de trabajo, buscando el compromiso y enfoque en la calidad del producto final. Cada día actualizo mis conocimientos de software probando distintas tecnologías innovadoras. | ![Foto Joaquin](ChapterI-images/JoaquinPerfil.jpg)                                                                                         |
+| Castilla Pachas, César Antonio (202218735)| Tengo 21 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además, me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos. | <img src="https://github.com/Aplicaciones-Web-Grupo-CodeRush/Informe-Final/raw/Chapter-01/assets/imgs/cesar.png" width=auto height="130"> |
+| Cortés Casas, Joaquin Marcelo (202114545) | Soy Joaquín Marcelo Cortés Casas, estudiante de la carrera Ingeniería de Software en la UPC. Tengo experiencia previa liderando múltiples equipos de trabajo, buscando el compromiso y enfoque en la calidad del producto final. Cada día actualizo mis conocimientos de software probando distintas tecnologías innovadoras. | <img src="ChapterI-images/JoaquinPerfil.jpg" width=auto height="130">|
 | Diaz Silva, Fernando Josué (202112722)    | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Fernando]()                                                                                                                         |
 | Godoy, Johan Príncipe (202014511)         | Perfil                                                                                                                                                                                                                                                                                                                        | ![Foto Johan]()                                                                                                                            |
-| Tafur Gonzales, Josty Gerardo (20201c069) | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                             | ![Foto Josty](ChapterI-images/JostyTafur.png)                                                                                              |
+| Tafur Gonzales, Josty Gerardo (20201c069) | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                             | <img src="ChapterI-images/JostyTafur.png" width=auto height="130">                       |
 | Zarate Caceres, Victor Ernesto (202112907)| Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado                                | ![Foto Ernesto](ChapterI-images/ernesto.png)                                                                                               |
 
 ### 1.2. Solution Profile
@@ -1790,9 +1871,19 @@ Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cóm
 
 !["Deployment Diagram"](ChapterIV-images/DeploymentDiagram.png)
 
+### 4.2. Tactical-Level Domain-Driven Design
+#### 4.2.1. Bounded Context: Identity and Access Management
+##### 4.2.1.1. Domain Layer.
+##### 4.2.1.2. Interface Layer.
+##### 4.2.1.3. Application Layer.
+##### 4.2.1.4. Infrastructure Layer.
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+###### 4.2.1.6.2. Bounded Context Database Design Diagram
+
 #### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
-
 ##### 4.2.2.1. Domain Layer
 La capa de dominio encapsula las entidades centrales del sistema de perfiles y contiene la lógica de validación de atributos mediante objetos de valor. Las entidades principales son Driver y ParkingOwner, las cuales heredan de un agregado raíz auditable. Se usan objetos de valor como Phone, Dni y Ruc para encapsular lógica específica y validación.
 
@@ -1942,7 +2033,6 @@ Interfaz que permite consultar información relacionada con un ParkingOwner.
 |**Nombre**|**Descripción**|
 | :- | :- |
 |Optional<ParkingOwner> handle(GetParkingOwnerByUserIdAsyncQuery query)|Obtiene un ParkingOwner asociado a un User mediante su userId.|
-
 ##### 4.2.2.2. Interface Layer
 Esta capa actúa como punto de entrada para consultas externas relacionadas con los perfiles. A través de los controladores REST, los clientes pueden consultar el perfil de un conductor o un propietario de estacionamiento por su userId.
 
@@ -1954,7 +2044,6 @@ Esta capa actúa como punto de entrada para consultas externas relacionadas con 
 | :-: | :-: | :-: | :-: |
 |getDriverProfile(Long userId)|Devuelve el perfil de un conductor por su userId|GET /profiles/driver/{userId}|Recurso del conductor|
 |getParkingOwnerProfile(Long userId)|Devuelve el perfil de un propietario por su userId|GET /profiles/parking-owner/{userId}|Recurso del propietario|
-
 ##### 4.2.2.3. Application Layer
 Esta capa contiene la lógica de aplicación, incluyendo la validación de unicidad para campos clave y el manejo de comandos y consultas. Coordina la creación y recuperación de perfiles utilizando servicios específicos para cada tipo de usuario.
 
@@ -1989,7 +2078,6 @@ Esta capa contiene la lógica de aplicación, incluyendo la validación de unici
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handle(GetParkingOwnerByUserIdQuery)|Recupera un propietario por su userId.|
-
 ##### 4.2.2.4. Infrastructure Layer
 La capa de infraestructura proporciona la implementación de persistencia para los perfiles, permitiendo operaciones CRUD y búsquedas específicas. Los repositorios se basan en Spring Data JPA.
 
@@ -2014,19 +2102,15 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByRuc_Ruc(String)|Verifica si existe un propietario con un RUC dado.|
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
-
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
 
 !["Profile Management Component Diagram"](ChapterIV-images/Bounded_context_profile.png)
-
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
-
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
 
 !["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
-
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
@@ -2918,18 +3002,12 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 | `String findById(Long id)`      | Busca el estado de un espacio de estacionamiento por ID.         |
 | `void setAvailability()`        | Establecer la disponibilidad de un espacio                       |
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
-
 ![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
-
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
-
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
-
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram
-
 ![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
-
 
 #### 4.2.9. Bounded Context: Payment
 Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
@@ -3088,7 +3166,6 @@ En el diagrama de arquitectura de nivel componente, se presenta las clases y sus
 !["Payment Architecture Component Level Diagram"](ChapterIV-images/PaymentComponentDiagram.png)
 
 ##### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11
-
 ###### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
 
@@ -3102,21 +3179,18 @@ El diagrama de base muestra la tabla payments y payment_methods, así como la re
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
-#### Conclusiones
-
-- El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
-
-- El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
-
-- La lógica de negocio de Subscription, Reservation y Parking Management está correctamente aislada y responde a escenarios reales y frecuentes de usuarios y operadores.
-
-- El enfoque Event-Driven facilita la comunicación desacoplada y asincrónica entre módulos, mejorando la resiliencia del sistema.
-
-- El uso de técnicas como **Domain-Driven Design**, **Context Mapping** y **C4 Model** permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
-
-#### Recomendaciones
-
-- Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
+<div align="justify">
+  <ul>
+    <li>Conclusiones</li>
+    <ul>
+      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    </ul>
+    <li>Recomendaciones</li>
+    <ul>
+      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+    </ul>
+  </ul>
+</div>
 
 ## Bibliografia
 <div align="justify">
