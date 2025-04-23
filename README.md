@@ -1845,7 +1845,42 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 ---
 
 ##### 4.1.1.3. Canvases de Bounded Contexts
-Enlace a los canvases de Bounded Contexts: [Canvases de Bounded Contexts](https://miro.com/welcomeonboard/RXgxMUFMNWFOZWFtNWNhQjNxczhNbUsxaGlnQUVSQnJrakliQ1FjelErbEc3NEEzSUtnR3RFcURNNDgyaU9JWXVPTmNVQUF0WmRFMlZlZ0NUcTRGQXhFY0ZuVy9OVG10UCtDbTNtTW9hdTRsSVNFeS96bjZtaDZQSXlMWXVDQk5hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=817576519150)
+1. IAM
+
+![Canvas de Bounded Context - IAM](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.1.%20Bounded%20Context_%20IAM.jpg)
+
+2. Profile
+
+![Canvas de Bounded Context - Profile](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.2.%20Bounded%20Context_%20Profile.jpg)
+
+3. Parking Management
+
+![Canvas de Bounded Context - Parking Management](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.3%20Bounded%20Context_%20Parking%20Management.jpg)
+
+4. Reservation
+
+![Canvas de Bounded Context - Reservation](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.4.%20Bounded%20Context_%20Reservation.jpg)
+
+5. Payment
+
+![Canvas de Bounded Context - Payment](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.5.%20Bounded%20Context_%20Payment.jpg)
+
+6. Review
+
+![Canvas de Bounded Context - Review](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.6.%20Bounded%20Context_%20Review.jpg)
+
+7. Notification
+
+![Canvas de Bounded Context - Notification](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.7.%20Bounded%20Context_%20Notification.jpg)
+
+8. IoT Management
+
+![Canvas de Bounded Context - IoT Management](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.8.%20Bounded%20Context_%20IoT%20Management.jpg)
+
+9. Subscription
+
+![Canvas de Bounded Context - Subscription](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.9.%20Bounded%20Context_%20Subscription.jpg)
+
 
 #### 4.1.2. Context Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
