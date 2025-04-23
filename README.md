@@ -1764,26 +1764,7 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 ---
 
 ##### 4.1.1.3. Canvases de Bounded Contexts
-
-Finalmente, agrupamos todos los eventos y reglas de negocio dentro de Bounded Contexts, que son como límites naturales que separan responsabilidades dentro del sistema. Quedaron así:
-
-- **Contexto: Gestión de Estacionamientos**
-    - Responsabilidad: configuración de precios, horarios y monitoreo.
-    - Eventos clave: `TarifaModificada`, `EspacioActualizado`, `ReporteGenerado`.
-
-- **Contexto: Reservas y Pagos**
-    - Responsabilidad: manejar reservas, pagos, tiempos límite y cancelaciones.
-    - Eventos clave: `ReservaConfirmada`, `PagoExitoso`, `ReservaVencida`.
-
-- **Contexto: Sensado IoT**
-    - Responsabilidad: leer datos de sensores, detectar ocupación o fallas.
-    - Eventos clave: `VehiculoDetectado`, `SensorDesconectado`, `EspacioLiberado`.
-
-- **Contexto: Usuarios y Notificaciones**
-    - Responsabilidad: autenticación, registro, envío de notificaciones a usuarios.
-    - Eventos clave: `UsuarioRegistrado`, `NotificacionEnviada`.
-
-Con estos contextos bien definidos, será mucho más fácil construir una arquitectura limpia, escalable y mantenible.
+Enlace a los canvases de Bounded Contexts: [Canvases de Bounded Contexts](https://miro.com/welcomeonboard/RXgxMUFMNWFOZWFtNWNhQjNxczhNbUsxaGlnQUVSQnJrakliQ1FjelErbEc3NEEzSUtnR3RFcURNNDgyaU9JWXVPTmNVQUF0WmRFMlZlZ0NUcTRGQXhFY0ZuVy9OVG10UCtDbTNtTW9hdTRsSVNFeS96bjZtaDZQSXlMWXVDQk5hWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=817576519150)
 
 #### 4.1.2. Context Mapping
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
