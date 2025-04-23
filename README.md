@@ -195,10 +195,19 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de IAM. 
+
+!["IAM Component Diagram"](ChapterIV-images/IAMComponentDiagram.png)
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
+
+!["IAM Class Diagram"](ChapterIV-images/IAMClassDiagram.png)
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
+En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
+
+!["IAM Database Diagram"](ChapterIV-images/IAMDatabaseDiagram.png)
 
 #### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
