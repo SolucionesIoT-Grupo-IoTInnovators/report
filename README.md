@@ -193,16 +193,12 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 
 #### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
