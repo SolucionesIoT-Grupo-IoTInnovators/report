@@ -121,12 +121,10 @@
             - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
         - [4.1.2. Context Mapping](#412-context-mapping)
         - [4.1.3. Software Architecture](#413-software-architecture)
-            - [4.1.3.1. System Quality Attributes](#4131-system-quality-attributes)
-            - [4.1.3.2. Architectural Design Backlog](#4132-architectural-design-backlog)
-            - [4.1.3.3. Software Architecture System Landscape Diagram](#4133-software-architecture-system-landscape-diagram)
-            - [4.1.3.4. Software Architecture Context Level Diagrams](#4134-software-architecture-context-level-diagrams)
-            - [4.1.3.5. Software Architecture Container Level Diagrams](#4135-software-architecture-container-level-diagrams)
-            - [4.1.3.6. Software Architecture Deployment Diagrams](#4136-software-architecture-deployment-diagrams)
+            - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
+            - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
+            - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
+            - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
     - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
         - [4.2.1. Bounded Context: ](#421-bounded-context-)
             - [4.2.1.1. Domain Layer](#4211-domain-layer)
@@ -1790,9 +1788,19 @@ Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cóm
 
 !["Deployment Diagram"](ChapterIV-images/DeploymentDiagram.png)
 
+### 4.2. Tactical-Level Domain-Driven Design
+#### 4.2.1. Bounded Context: Identity and Access Management
+##### 4.2.1.1. Domain Layer.
+##### 4.2.1.2. Interface Layer.
+##### 4.2.1.3. Application Layer.
+##### 4.2.1.4. Infrastructure Layer.
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+###### 4.2.1.6.2. Bounded Context Database Design Diagram
+
 #### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
-
 ##### 4.2.2.1. Domain Layer
 La capa de dominio encapsula las entidades centrales del sistema de perfiles y contiene la lógica de validación de atributos mediante objetos de valor. Las entidades principales son Driver y ParkingOwner, las cuales heredan de un agregado raíz auditable. Se usan objetos de valor como Phone, Dni y Ruc para encapsular lógica específica y validación.
 
@@ -1942,7 +1950,6 @@ Interfaz que permite consultar información relacionada con un ParkingOwner.
 |**Nombre**|**Descripción**|
 | :- | :- |
 |Optional<ParkingOwner> handle(GetParkingOwnerByUserIdAsyncQuery query)|Obtiene un ParkingOwner asociado a un User mediante su userId.|
-
 ##### 4.2.2.2. Interface Layer
 Esta capa actúa como punto de entrada para consultas externas relacionadas con los perfiles. A través de los controladores REST, los clientes pueden consultar el perfil de un conductor o un propietario de estacionamiento por su userId.
 
@@ -1954,7 +1961,6 @@ Esta capa actúa como punto de entrada para consultas externas relacionadas con 
 | :-: | :-: | :-: | :-: |
 |getDriverProfile(Long userId)|Devuelve el perfil de un conductor por su userId|GET /profiles/driver/{userId}|Recurso del conductor|
 |getParkingOwnerProfile(Long userId)|Devuelve el perfil de un propietario por su userId|GET /profiles/parking-owner/{userId}|Recurso del propietario|
-
 ##### 4.2.2.3. Application Layer
 Esta capa contiene la lógica de aplicación, incluyendo la validación de unicidad para campos clave y el manejo de comandos y consultas. Coordina la creación y recuperación de perfiles utilizando servicios específicos para cada tipo de usuario.
 
@@ -1989,7 +1995,6 @@ Esta capa contiene la lógica de aplicación, incluyendo la validación de unici
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handle(GetParkingOwnerByUserIdQuery)|Recupera un propietario por su userId.|
-
 ##### 4.2.2.4. Infrastructure Layer
 La capa de infraestructura proporciona la implementación de persistencia para los perfiles, permitiendo operaciones CRUD y búsquedas específicas. Los repositorios se basan en Spring Data JPA.
 
@@ -2014,19 +2019,15 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByRuc_Ruc(String)|Verifica si existe un propietario con un RUC dado.|
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
-
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
 
 !["Profile Management Component Diagram"](ChapterIV-images/Bounded_context_profile.png)
-
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
-
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
 
 !["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
-
 ###### 4.2.2.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
