@@ -3179,18 +3179,21 @@ El diagrama de base muestra la tabla payments y payment_methods, así como la re
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
-<div align="justify">
-  <ul>
-    <li>Conclusiones</li>
-    <ul>
-      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
-    </ul>
-    <li>Recomendaciones</li>
-    <ul>
-      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
-    </ul>
-  </ul>
-</div>
+#### ✅ Conclusiones
+
+- El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
+
+- El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
+
+- La lógica de negocio de Subscription, Reservation y Parking Management está correctamente aislada y responde a escenarios reales y frecuentes de usuarios y operadores.
+
+- El enfoque Event-Driven facilita la comunicación desacoplada y asincrónica entre módulos, mejorando la resiliencia del sistema.
+
+- El uso de técnicas como Domain-Driven Design, Context Mapping y C4 Model permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
+
+#### 💡 Recomendaciones
+
+- Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
 
 ## Bibliografia
 <div align="justify">
