@@ -3002,18 +3002,12 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 | `String findById(Long id)`      | Busca el estado de un espacio de estacionamiento por ID.         |
 | `void setAvailability()`        | Establecer la disponibilidad de un espacio                       |
 ##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
-
 ![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
-
 ##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 ###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
-
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
-
 ###### 4.2.8.6.2. Bounded Context Database Design Diagram
-
 ![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
-
 
 #### 4.2.9. Bounded Context: Payment
 Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
