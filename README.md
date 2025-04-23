@@ -22,6 +22,76 @@ El **Domain Layer** es responsable de representar el núcleo del sistema de gest
 |addRoles(List<Role> roles)|Añade un conjunto de roles al usuario.|
 |getSerializedRoles()|Devuelve los roles del usuario como una lista de nombres serializados.|
 
+**Entity: Role**
+
+**Descripción:** Representa un rol dentro del sistema, asociado a un value object Roles y utilizado para definir permisos de usuario.
+
+|**Atributo**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|id|Long|Identificador único del rol|
+|name|Roles|Nombre del rol (value object)|
+
+|**Método**|**Descripción**|
+| :- | :- |
+|getStringName()|Obtiene el nombre del rol como string|
+|getDefaultRole()|Retorna el rol por defecto (ROLE\_ADMIN)|
+|toRoleFromName(String name)|Crea un rol a partir de su nombre string|
+|validateRoleSet(List<Role> roles)|Valida una lista de roles y asigna un rol por defecto si está vacía|
+
+**Value Objects**
+
+**Roles**
+
+**Descripción:** Enumeración que representa los roles disponibles en el sistema.
+
+|**Valor**|**Descripción**|
+| :-: | :-: |
+|ROLE_ADMIN|Administrador del sistema|
+|ROLE_PARKING\_OWNER|Propietario de estacionamiento|
+|ROLE_DRIVER|Conductor|
+
+**Domain Services**
+
+Los Domain Services en el bounded context IAM son interfaces que definen operaciones y reglas de negocio que no pertenecen naturalmente a una única entidad o aggregate, pero que son esenciales para mantener la lógica del dominio. Estas interfaces abstraen comportamientos relacionados con la gestión de usuarios y roles, como la autenticación, el registro, consultas y operaciones de inicialización de datos.
+
+**RoleCommandService**
+
+**Descripción:** Interfaz que define el contrato para los comandos relacionados con la gestión de roles dentro del dominio. Permite establecer las operaciones necesarias para crear o modificar roles sin acoplarse a una implementación específica.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(SeedRolesCommand command)|Maneja la creación inicial de roles en el sistema|
+
+**RoleQueryService**
+
+**Descripción:** Interfaz que define las operaciones de consulta para obtener información sobre los roles registrados en el sistema. Aísla la lógica de consulta respecto de su implementación.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(GetAllRolesQuery query)|Obtiene todos los roles registrados|
+|handle(GetRoleByNameQuery query)|Busca un rol por su nombre|
+
+**UserCommandService**
+
+**Descripción:** Interfaz que establece el contrato para los comandos de gestión de usuarios dentro del dominio. Define las operaciones necesarias para registrar usuarios, autenticarlos y realizar cambios relacionados.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(SignInCommand command)|Autentica a un usuario y devuelve su información junto con el token|
+|handle(SignUpDriverCommand command)|Registra a un nuevo conductor|
+|handle(SignUpParkingOwnerCommand command)|Registra a un nuevo propietario de estacionamiento|
+
+**UserQueryService**
+
+**Descripción:** Interfaz que define las operaciones de consulta relacionadas con los usuarios del sistema. Permite obtener información y verificar la existencia de usuarios de forma desacoplada.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(GetAllUsersQuery query)|Obtiene todos los usuarios registrados|
+|handle(GetUserByIdQuery query)|Busca un usuario por su ID|
+|handle(GetUserByUsernameQuery query)|Busca un usuario por su nombre de usuario|
+|handle(CheckUserByIdQuery query)|Verifica si existe un usuario con un ID específico|
+
 ##### 4.2.1.2. Interface Layer
 El **Interface Layer** sirve como la capa de comunicación entre el mundo exterior (como los controladores HTTP) y la lógica del dominio. Este nivel contiene los controladores responsables de gestionar las solicitudes de los usuarios, como el inicio de sesión, registro y obtención de información de usuarios.
 
@@ -182,6 +252,110 @@ La capa de dominio encapsula las entidades centrales del sistema de perfiles y c
 |ParkingOwner|ParkingOwner(CreateParkingOwnerCommand command, Long userId)|Constructor que crea un perfil de propietario.|
 |ParkingOwner|String getPhone()|Devuelve el número telefónico del propietario.|
 |ParkingOwner|String getRuc()|Devuelve el RUC de la empresa del propietario.|
+
+**Value Objects**
+
+**Dni**
+
+**Descripción:**
+Representa el Documento Nacional de Identidad (DNI) de un usuario. Asegura que el valor sea un número positivo de exactamente 8 dígitos.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|dni|String|Número de DNI con exactamente 8 dígitos|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Dni(String dni)|Constructor que valida que el valor tenga exactamente 8 dígitos.|
+|Dni()|Constructor por defecto que asigna "00000000".|
+
+**Phone**
+
+**Descripción:**
+Representa un número de teléfono válido, de exactamente 9 dígitos.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|phone|String|Número telefónico con exactamente 9 dígitos|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Phone(String phone)|Constructor que valida que el valor tenga exactamente 9 dígitos.|
+|Phone()|Constructor por defecto que asigna "000000000".|
+
+**Ruc**
+
+**Descripción:**
+Representa un Registro Único de Contribuyente (RUC), válido con exactamente 11 dígitos.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|ruc|String|Número de RUC con exactamente 11 dígitos|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Ruc(String ruc)|Constructor que valida que el valor tenga exactamente 11 dígitos.|
+|Ruc()|Constructor por defecto que asigna "00000000000".|
+
+**Domain Services**
+
+Los Domain Services en este contexto son interfaces que definen operaciones de negocio relacionadas con los aggregates Driver y ParkingOwner. Permiten separar las reglas de negocio que no pertenecen directamente a una entidad o value object.
+
+**DriverCommandService**
+
+**Descripción:**
+Interfaz que define operaciones de negocio relacionadas con la creación de un Driver.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<Driver> handle(CreateDriverCommand command, Long userId)|Procesa el comando de creación de un conductor, asociándolo a un User existente mediante su userId.|
+
+**DriverQueryService**
+
+**Descripción:**
+Interfaz que permite consultar información relacionada con un Driver.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<Driver> handle(GetDriverByUserIdAsyncQuery query)|Obtiene un Driver asociado a un User mediante su userId.|
+
+**ParkingOwnerCommandService**
+
+**Descripción:**
+Interfaz que define operaciones de negocio relacionadas con la creación de un ParkingOwner.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<ParkingOwner> handle(CreateParkingOwnerCommand command, Long userId)|Procesa el comando de creación de un propietario de estacionamiento, asociándolo a un User existente mediante su userId.|
+
+**ParkingOwnerQueryService**
+
+**Descripción:**
+Interfaz que permite consultar información relacionada con un ParkingOwner.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<ParkingOwner> handle(GetParkingOwnerByUserIdAsyncQuery query)|Obtiene un ParkingOwner asociado a un User mediante su userId.|
 
 ##### 4.2.2.2. Interface Layer
 Esta capa actúa como punto de entrada para consultas externas relacionadas con los perfiles. A través de los controladores REST, los clientes pueden consultar el perfil de un conductor o un propietario de estacionamiento por su userId.
@@ -633,6 +807,31 @@ El Domain Layer contiene el agregado principal Review, que representa una reseñ
 |updateRating(int)|Actualiza la calificación de la reseña.|
 |updateComment(String)|Actualiza el comentario de la reseña.|
 
+**Domain Services**
+
+Los Domain Services en este contexto son interfaces que definen operaciones de negocio relacionadas con el aggregate Review. Permiten separar las reglas de negocio que no pertenecen directamente a una entidad o value object.
+
+**ReviewCommandService**
+
+**Descripción:**
+Interfaz que define operaciones de negocio relacionadas con la creación y modificación de reseñas.
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<Review> handle(CreateReviewCommand command)|Procesa el comando de creación de una reseña|
+|Optional<Review> handle(UpdateReviewRatingCommand command)|Procesa el comando para actualizar la calificación de una reseña|
+|Optional<Review> handle(UpdateReviewTextCommand command)|Procesa el comando para actualizar el comentario de una reseña|
+
+**ReviewQueryService**
+
+**Descripción:**
+Interfaz que permite consultar información relacionada con reseñas.
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|List<Review> handle(GetReviewsByParkingIdQuery query)|Obtiene todas las reseñas de un estacionamiento|
+|List<Review> handle(GetReviewsByUserIdQuery query)|Obtiene todas las reseñas hechas por un usuario|
+
 ##### 4.2.7.2. Interface Layer
 El Interface Layer expone las operaciones disponibles a través de una API HTTP. Permite a los conductores crear una reseña (review) y consultar el promedio de calificaciones de un estacionamiento.
 
@@ -642,8 +841,11 @@ El Interface Layer expone las operaciones disponibles a través de una API HTTP.
 
 |**Método**|**Descripción**|**HTTP**|**Respuesta**|
 | :-: | :-: | :-: | :-: |
-|createReview(CreateReviewResource resource)|Permite a un usuario dejar una reseña.|POST /reviews|Recurso de reseña creada.|
-|getReviewsByParkingId(Integer parkingId)|Obtiene todas las reseñas para un estacionamiento.|GET /reviews/parking/{parkingId}|Lista de recursos de reseñas.|
+|createReview(CreateReviewResource resource)|Permite a un usuario dejar una reseña.|POST /api/v1/reviews|Recurso de reseña creada.|
+|getReviewsByParkingId(Integer parkingId)|Obtiene todas las reseñas para un estacionamiento.|GET /api/v1/reviews/parking/{parkingId}|Lista de recursos de reseñas.|
+|getReviewsByUserId(Integer userId)|Obtiene todas las reseñas de un usuario.|GET /api/v1/reviews/user/{userId}|Lista de recursos de reseñas.|
+|editRating(Integer reviewId, UpdateReviewRatingResource resource)|Permite editar la calificación de una reseña.|PUT /api/v1/reviews/{reviewId}/rating|Recurso de reseña actualizada.|
+|editText(Integer reviewId, UpdateReviewTextResource resource)|Permite editar el texto de una reseña.|PUT /api/v1/reviews/{reviewId}/text|Recurso de reseña actualizada.|
 
 ##### 4.2.7.3. Application Layer
 La capa de aplicación coordina la ejecución de la lógica de negocio y delega las operaciones al dominio y a la infraestructura. Se divide en dos servicios: uno para comandos (crear y actualizar) y otro para consultas.
