@@ -558,14 +558,17 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
+
 !["Parking Management Component Diagram"](ChapterIV-images/ParkingmanagementComponentDiagram.png)
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases se observa la relación entre las entidades Parking y ParkingSpot, así como los objetos de valor asociados a ellas.
+
 !["Parking Management Class Diagram"](ChapterIV-images/ParkingmanagementClassDiagram.png)
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
+
 !["Parking Management Database Design Diagram"](ChapterIV-images/ParkingmanagementDatabaseDiagram.png)
 
 #### 4.2.4. Bounded Context: Reservation
@@ -779,17 +782,19 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de Subscription.
 
-![""](ChapterIV-images/)
+!["Subscription Component Diagram"](ChapterIV-images/SubscriptionComponentDiagram.png)
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+En el diagrama de clases se observa la relación entre las entidades Subscription y SubscriptionPayment, así como los objetos de valor asociados a ellas.
 
-![""](ChapterIV-images/)
+!["Subscription Class Diagram"](ChapterIV-images/SubscriptionClassDiagram.png)
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
+El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
-![""](ChapterIV-images/)
-
+!["Subscription Database Design Diagram"](ChapterIV-images/SubscriptionDatabaseDiagram.png)
 
 #### 4.2.7. Bounded Context: Review
 El Bounded Context de **Review** permite a los usuarios calificar un estacionamiento y visualizar las calificaciones existentes. Esta funcionalidad contribuye a la toma de decisiones por parte de otros usuarios al seleccionar un lugar para estacionarse, promoviendo la transparencia y confianza dentro de la aplicación. Los usuarios pueden dejar una puntuación del 1 al 5 acompañada de un comentario, y consultar todas las calificaciones asociadas a un estacionamiento específico.
