@@ -556,20 +556,17 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 
 ##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-![""](ChapterIV-images/)
-
-
 ##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
-
-![""](ChapterIV-images/)
+El diagrama de código muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
+!["Parking Management Component Diagram"](ChapterIV-images/ParkingmanagementComponentDiagram.png)
 
 ###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
-
-![""](ChapterIV-images/)
+En el diagrama de clases se observa la relación entre las entidades Parking y ParkingSpot, así como los objetos de valor asociados a ellas.
+!["Parking Management Class Diagram"](ChapterIV-images/ParkingmanagementClassDiagram.png)
 
 ###### 4.2.3.6.2. Bounded Context Database Design Diagram
-
-![""](ChapterIV-images/)
+El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
+!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingmanagementDatabaseDiagram.png)
 
 #### 4.2.4. Bounded Context: Reservation
 El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
