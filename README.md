@@ -32,19 +32,19 @@
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  | **Autor**                                                                                                                               | **Descripción de Modificación**                                                                                                                  |
-|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                           | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                          | Adición del Startup Profile.                                                                                                                     |
-| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                     | Adición del Solution Profile y Competidores.                                                                                                     |
-| 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                           | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                  |
-| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                             | Adición del To-Be Scenario Mapping.                                                                                                              |
-| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                          | Adición de User Stories.                                                                                                                         |
-| 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                     | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.          |
-| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                          | Adición del segmento objetivo.                                                                                                                   |
-| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                      | Adición de diagramas de Software Architecture.                                                                                                   |
+| **Versión** | **Fecha**  | **Autor**                                                                                                                              | **Descripción de Modificación**                                                                                                                  |
+|-------------|------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                          | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable. |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                         | Adición del Startup Profile.                                                                                                                     |
+| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                    | Adición del Solution Profile y Competidores.                                                                                                     |
+| 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                          | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                  |
+| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                            | Adición del To-Be Scenario Mapping.                                                                                                              |
+| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                         | Adición de User Stories.                                                                                                                         |
+| 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                    | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.          |
+| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                         | Adición del segmento objetivo.                                                                                                                   |
+| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                     | Adición de diagramas de Software Architecture.                                                                                                   |
 | 1.9         | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                 |
-| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                      | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                             |
+| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                     | Adición de Bounded Context Canvases para todos los bounded contexts y avance de Conclusiones y Recomendaciones.                                  |
 
 
 ---
@@ -59,7 +59,7 @@
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Castilla Pachas, César Antonio:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
-- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas y Diagramas de Arquitectura de Software.
+- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas, Diagramas de Arquitectura de Software, los Bounded Context Canvases, los Bounded Context Software Architecture Component & Code Level Diagrams y un avance de conclusiones & recomendaciones.
 - **Diaz Silva, Fernando Josué:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Godoy, Johan Príncipe:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Tafur Gonzales, Josty Gerardo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
@@ -3102,18 +3102,21 @@ El diagrama de base muestra la tabla payments y payment_methods, así como la re
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
-<div align="justify">
-  <ul>
-    <li>Conclusiones</li>
-    <ul>
-      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
-    </ul>
-    <li>Recomendaciones</li>
-    <ul>
-      <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
-    </ul>
-  </ul>
-</div>
+#### Conclusiones
+
+- El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
+
+- El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
+
+- La lógica de negocio de Subscription, Reservation y Parking Management está correctamente aislada y responde a escenarios reales y frecuentes de usuarios y operadores.
+
+- El enfoque Event-Driven facilita la comunicación desacoplada y asincrónica entre módulos, mejorando la resiliencia del sistema.
+
+- El uso de técnicas como **Domain-Driven Design**, **Context Mapping** y **C4 Model** permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
+
+#### Recomendaciones
+
+- Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
 
 ## Bibliografia
 <div align="justify">
