@@ -1806,7 +1806,6 @@ Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adi
 
 
 #### 4.2.6 Bounded Context: Review
-
 ##### 4.2.6.1. Domain Layer
 
 La capa de dominio de Review encapsula la lógica de negocio para la creación y gestión de reseñas de parkings.
@@ -1903,7 +1902,6 @@ La capa de dominio de Review encapsula la lógica de negocio para la creación y
 | `getName()`        | Retorna el `name`.                     |
 
 ---
-
 ##### 4.2.6.2. Interface Layer
 
 Expone los endpoints HTTP para el manejo de reseñas.
@@ -1927,7 +1925,6 @@ Expone los endpoints HTTP para el manejo de reseñas.
 - `ReviewResourceFromEntityAssembler`
 
 ---
-
 ##### 4.2.6.3. Application Layer
 
 Orquesta comandos y consultas de reseñas.
@@ -1963,7 +1960,6 @@ Orquesta comandos y consultas de reseñas.
 - `ReviewRepository`
 
 ---
-
 ##### 4.2.6.4. Infrastructure Layer
 
 Persiste y recupera reseñas de la base de datos.
@@ -1981,7 +1977,6 @@ Persiste y recupera reseñas de la base de datos.
 | `boolean existsById(Long id)`          | Verifica existencia de reseña.                                        |
 
 ---
-
 ##### 4.2.6.6. Component Level Diagram (estructura)
 
 El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
@@ -1989,13 +1984,10 @@ El diagrama representa una arquitectura monolítica del bounded context de rese�
 ![Review Context Component Diagram](ChapterIV-images/ReviewBoundedContextComponentDiagram.png)
 
 ---
-
 ##### 4.2.6.7. Bounded Context Software Architecture Code Level Diagrams
-
 ###### 4.2.6.7.1. Domain Layer Class Diagram
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
 ![Review Context Class Diagram](ChapterIV-images/ReviewBoundedContextClassDiagram.png)
-
 ###### 4.2.6.7.2. Database Design Diagram
 
 El diagrama de base de datos del bounded context **Review** muestra tres tablas principales:  
@@ -2168,7 +2160,69 @@ La clave foránea `notifications.user_id` asegura que cada notificación esté a
 
 #### 4.2.8. Bounded Context: IoT Management
 ##### 4.2.8.1. Domain Layer
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+La capa de dominio de Notifications encapsula la lógica para la gestión de los dispositivos IoT.
+
+**Propósito:** Modelar el agregado raíz **IoTDevice** junto con su relación a **ParkingSpot**, asegurando uan relación de 1 a 1.
+
+| **Aggregate**: `IoTDevice`                                                                        |
+|---------------------------------------------------------------------------------------------------|
+| **Descripción**: Representa una dispositivo instalado en un **ParkingSpot** de un estacionamiento |
+
+| **Atributo**    | **Tipo**           | **Descripción**                                         |
+|-----------------|--------------------|---------------------------------------------------------|
+| `id`            | `Long`             | Identificador único del dispositivo                     |
+| `parkingSpotId` | `UUID`             | Identificador del espacio de estacionamiento            |
+| `serialNumber`  | `String`           | Número de serie del dispositivo IoT                     |
+| `model`         | `String`           | Modelo del dispositvo IoT                               |
+| `type`          | `String`           | Tipo del dispositivo (sensor)                           |
+| `batery`        | `Integer`          | Nivel de batería del dispositivo                        |
+| `lastCheckIn`   | `LocalDateTime`    | Último registro del espacio ocupado                     |
+
+| **Método**                                  | **Descripción**                                        |
+|---------------------------------------------|--------------------------------------------------------|
+| `IoTDevice(Long id, String serialNumber, String status, Integer batery, LocalDateTime lastCheckIn)` | Constructor que valida el dispositivo.|
+| `connect()`                                 | Conecta el dispotivo al sistema.                       |
+| `disconnect()`                              | Desconecta el dispotivo al sistema.                    |
+| `getStatus()`                               | Obtener estado de disponibilidad del espacio.          |
+
+---
+
+| **Value Object**: `Status`                              |
+|---------------------------------------------------------|
+| **Descripción**: Valida el estado des estacionamiento.  |
+
+| **Atributo** | **Tipo** | **Descripción**                |
+|--------------|----------|--------------------------------|
+| `status`     | `String` | Estado actual del dispositivo. |
+
+| **Método**                  | **Descripción**                                 |
+|-----------------------------|-------------------------------------------------|
+| `getStatus()`               | Obtener estado de disponibilidad del espacio.   |
+
+---
+
+| **Entity**: `ParkingSpot`                                  |
+|------------------------------------------------------------|
+| **Descripción**: Representa el espacio de estacionamiento. |
+
+| **Atributo**     | **Tipo**   | **Descripción**                               |
+|------------------|------------|-----------------------------------------------|
+| `id`             | `UUID`     | Identificador único.                          |
+| `parkingId`      | `Long`     | Identificador del estacionamiento             |
+| `available`      | `Boolean`  | Disponibilidad del espacio                    |
+| `rowIndex`       | `Integer`  | Ubicación en el eje y del estacionamiento     |
+| `columnIndex`    | `Integer`  | Ubicación en el eje x del estacionamiento     |
+| `label`          | `String`   | Etiqueta del espacio de estacionamiento       |
+
+| **Método**                       | **Descripción**                        |
+|----------------------------------|----------------------------------------|
+| `ParkingSpot(parkingId: Long, rowIndex: Integer, columnIndex: Integer, label: String)`|
+| `getId()`                        |: Retorna el valor de `id`              |
+| `getParkingId()`                 |: Retorna el valor de `parkingId`       |
+| `getLabel()`                     |: Retorna el valor de `label`           |
+| `setAvailability(state: Boolean)`|: Define el valor de `available`        |
+
+---
 ##### 4.2.8.2. Interface Layer
 Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
 ##### 4.2.8.3. Application Layer
