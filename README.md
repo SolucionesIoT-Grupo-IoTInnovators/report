@@ -727,12 +727,12 @@ Nuestros competidores principales seran los siguientes:
 ## Competitive Analysis Landscape
 
 ### Competidores 
-| Competidor   | Descripción     |
-|--------------|-----------------|
-| SmartParking | Image Sample 01 |
-| iPark        | Image Sample 02 |
-| ACCIST       | Image Sample 03 |
-| Smelpro      | Image Sample 04 |
+| Competidor   | Descripción                                              |
+|--------------|----------------------------------------------------------|
+| SmartParking | ![SmartParking Icon]()                                   |
+| iPark        | ![iPark Icon](ChapterII-images/Competidor-iPark.png)     |
+| ACCIST       | ![ACCIST Icon](ChapterII-images/Competidor-Accist.jpg)   |
+| Smelpro      | ![Smelpro Icon](ChapterII-images/Competidor-Smelpro.jpg) |
 
 ### ¿Por qué llevar a cabo este análisis?
 
