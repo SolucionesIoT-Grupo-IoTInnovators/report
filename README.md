@@ -1888,18 +1888,131 @@ Cada aggregate encapsula consistencia y reglas de negocio en su propio contexto.
 
 ![Aggregates](ChapterIV-images/Aggregates.PNG)
 
-##### 4.1.1.1. Descubrimiento de Contextos Candidatos
+##### 4.1.1.1. Candidate Context Discovery
 
-A partir del EventStorming, identificamos los siguientes contextos principales (áreas funcionales del sistema):
+### - Bounded Context: IAM
 
-- **Gestión de estacionamientos:** donde los propietarios pueden configurar tarifas, ver estadísticas, y monitorear espacios en tiempo real.
-- **Reservas y pagos:** todo lo relacionado con el bloqueo de espacios, el cobro automatizado, y la validación de reservas.
-- **Comunicación con sensores IoT:** conexión con los sensores físicos que detectan si un espacio está libre u ocupado.
-- **Usuarios y notificaciones:** incluye el registro, inicio de sesión, envío de alertas y notificaciones tanto a conductores como a propietarios.
+Este contexto gestiona el ciclo de vida de los usuarios, desde el registro, autenticación y autorización de acceso a la plataforma. Define los roles que tendrá cada usuario (como conductor o propietario).
 
-Cada uno de estos contextos tiene su propia lógica y responsabilidades, lo cual nos ayudará a separarlos correctamente cuando definamos los Bounded Contexts en las siguientes etapas.
+**Posibles responsabilidades:**
+- Validar credenciales de usuarios.
+- Emitir tokens seguros de acceso (JWT).
+- Registrar roles asociados al usuario.
+- Controlar el acceso según las capacidades del perfil.
+
+![Canvas de Bounded Context - IAM](ChapterIV-images/iam-discovery.jpg)
 
 ---
+
+### - Bounded Context: Profile
+
+Este contexto permite a los usuarios completar o modificar su perfil según el rol (conductor o propietario), registrando datos personales, de contacto y validando requisitos mínimos.
+
+**Posibles responsabilidades:**
+- Crear perfiles de conductores y propietarios.
+- Consultar información del perfil desde otros contextos (reservas, parkings).
+- Validar información personal según el rol.
+- Gestionar actualizaciones del perfil.
+
+![Canvas de Bounded Context - Profile](ChapterIV-images/profile-discovery.jpg)
+
+---
+
+### - Bounded Context: Reservations
+
+Encargado de gestionar las reservas de espacios de estacionamiento. Permite crear, consultar y actualizar el estado de una reserva, asociándola a un conductor y un estacionamiento.
+
+**Posibles responsabilidades:**
+- Generar una nueva reserva.
+- Asociar pagos a reservas.
+- Consultar disponibilidad de espacios.
+- Cambiar el estado de la reserva (creada, pagada, cancelada).
+
+![Canvas de Bounded Context - Reservation](ChapterIV-images/reservation-discovery.jpg)
+
+---
+
+### - Bounded Context: Parking Management
+
+Responsable del registro, actualización y consulta de estacionamientos y sus espacios. Cada estacionamiento tiene un propietario y una estructura definida por filas y columnas.
+
+**Posibles responsabilidades:**
+- Crear nuevos estacionamientos.
+- Administrar espacios (ParkingSpots).
+- Establecer tarifas por hora.
+- Asociar estacionamientos a propietarios.
+
+![Canvas de Bounded Context - Parking Management](ChapterIV-images/packing-managment-discovery.jpg)
+
+---
+
+### - Bounded Context: Subscription
+
+Este contexto define el modelo de suscripciones de los usuarios. Administra si un usuario tiene acceso a beneficios mediante un plan gratuito o de pago, y registra los pagos de suscripción.
+
+**Posibles responsabilidades:**
+- Crear y renovar suscripciones.
+- Validar el estado (activo, cancelado).
+- Asociar suscripciones a usuarios.
+- Registrar pagos realizados.
+
+![Canvas de Bounded Context - Subscription](ChapterIV-images/suscription-discovery.jpg)
+
+---
+
+### - Bounded Context: Review
+
+Permite a los usuarios calificar y comentar sobre los estacionamientos luego de usarlos. Las reseñas pueden ser consultadas por otros usuarios como referencia de calidad.
+
+**Posibles responsabilidades:**
+- Crear nuevas reseñas vinculadas a reservas.
+- Validar rating (1–5) y longitud del comentario.
+- Consultar reseñas por parking.
+- Actualizar o eliminar reseñas.
+
+![Canvas de Bounded Context - Review](ChapterIV-images/review-discovery.jpg)
+
+---
+
+###  - Bounded Context: IoT Management
+
+Gestiona los dispositivos IoT instalados en cada espacio de estacionamiento, permitiendo reportar en tiempo real la disponibilidad de espacios.
+
+**Posibles responsabilidades:**
+- Registrar y asociar dispositivos IoT a espacios.
+- Establecer estados de ocupación (libre/ocupado).
+- Consultar disponibilidad desde reservas o frontends.
+- Validar funcionamiento y batería del dispositivo.
+
+![Canvas de Bounded Context - IoT Management](ChapterIV-images/iot-managment-discovery.jpg)
+
+---
+
+### - Bounded Context: Payment
+
+Centraliza la gestión de pagos realizados por usuarios, tanto por reservas como por suscripciones. Registra montos, fechas y estado del pago.
+
+**Posibles responsabilidades:**
+- Crear pagos de reserva y suscripción.
+- Validar el estado del pago (PAID, FAILED).
+- Asociar pagos a sus contextos correspondientes.
+- Consultar historial de pagos.
+
+![Canvas de Bounded Context - Payment](ChapterIV-images/payment-discovery.jpg)
+
+---
+
+### - Bounded Context: Notification
+
+Permite enviar notificaciones a los usuarios del sistema, relacionadas con el estado de pagos, reservas, suscripciones u otros eventos clave.
+
+**Posibles responsabilidades:**
+- Crear notificaciones personalizadas.
+- Asociar mensajes a usuarios específicos.
+- Notificar eventos como éxito/fallo en pago o reserva.
+- Consultar historial de notificaciones por usuario.
+
+![Canvas de Bounded Context - Notification](ChapterIV-images/notification-discovery.jpg)
 
 ##### 4.1.1.2. Modelado de flujos de mensajes del dominio
 
