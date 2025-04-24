@@ -1832,10 +1832,58 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 ## Capítulo IV: Solution Software Design
 ### 4.1. Strategic-Level Domain-Driven Design
 #### 4.1.1. EventStorming
+### -  Unstructured Exploration
+En esta etapa inicial, se identificaron libremente eventos clave del sistema sin estructura definida. Se exploraron acciones como la creación de cuentas, registro de estacionamientos, realización de reservas, actualización de sensores IoT y validaciones de pagos. Esta fase sirvió para reconocer los eventos más relevantes dentro del dominio.
 
-Para diseñar de manera eficiente la solución SmartParking, utilizamos la técnica de EventStorming, que nos ayudó a entender a fondo cómo se comportan los usuarios, los sensores IoT y el sistema en general. Esta técnica consiste en mapear todos los eventos importantes que ocurren en el dominio (como reservas, pagos, detección de vehículos, etc.), con el fin de organizar bien la lógica del sistema desde el inicio.
+![Unstructured Exploration](ChapterIV-images/Unstructured%20Exploration.PNG)
 
-Durante el proceso, trabajamos con distintos tipos de tarjetas de colores (eventos, comandos, decisiones, etc.) para visualizar cómo fluye la información y qué decisiones se toman en cada parte del sistema. Esta herramienta fue clave para alinear al equipo, detectar posibles errores o conflictos, y definir claramente los distintos módulos que tendrá la solución.
+### - Timelines
+Se organizaron los eventos en secuencias lógicas por subdominios: Registro y autenticación, Gestión de Estacionamientos, Reserva de Espacios, Pago de Reserva, Reseña y Suscripción. Cada línea temporal muestra caminos positivos y negativos, reflejando los flujos exitosos y sus posibles fallos.
+
+![Timelines](ChapterIV-images/Timelines.PNG)
+
+### - Pain Points
+Se mapearon los caminos felices (Happy Path) y no felices (Unhappy Path) para detectar áreas problemáticas. Por ejemplo, el registro de estacionamientos fallido por información incompleta, espacios ocupados duplicados, o sensores con datos inconsistentes. Esta etapa permitió identificar riesgos funcionales y de validación.
+
+![Pain Points](ChapterIV-images/Pain%20Points.PNG)
+
+### - Pivotal Points
+Se identificaron los puntos clave que cambian el flujo de la aplicación, como la validación de duplicados de nombre/dirección, el chequeo de disponibilidad de espacios, o la validación de coordenadas. Estos momentos decisivos afectan decisiones de negocio importantes.
+
+![Pivotal Points](ChapterIV-images/Pivotal%20Points.PNG)
+
+### - Commands
+Se definieron los comandos como intenciones del usuario o del sistema: CreateParkingCommand, AddParkingSpotCommand, UpdateParkingDetailsCommand, ValidateParkingAvailabilityCommand. Cada uno con sus posibles resultados positivos o errores relacionados (validaciones fallidas, datos duplicados, rangos inválidos).
+
+![Commands](ChapterIV-images/Commands.PNG)
+
+### - Policies
+Se establecieron políticas de negocio automáticas que responden a ciertos eventos. Ejemplos: política de validación de spots duplicados, asignación de rol por tipo de usuario, validación de espacio disponible antes de confirmar reserva o validación de monto pagado.
+
+![Policies](ChapterIV-images/Policies.PNG)
+
+### - Read Models
+Se identificaron las proyecciones de datos utilizadas por la interfaz de usuario: página de detalles de estacionamiento, lista de espacios, perfil del conductor o propietario, historial de reservas. Cada read model responde a una política que define qué información mostrar y cómo.
+
+![Read Models](ChapterIV-images/Read%20Models.PNG)
+
+### - External Systems
+Se reconocieron sistemas externos como:
+- *Google Maps API* para geolocalización de estacionamientos.
+- *Firebase Cloud Messaging* para envío de notificaciones push.
+Estos sistemas interactúan con el sistema principal para expandir capacidades fuera del dominio core.
+
+![External Systems](ChapterIV-images/External%20Systems.PNG)
+
+
+### - Aggregates
+Se modelaron los aggregates clave:
+- ParkingOwner: crea y gestiona estacionamientos y sus espacios.
+- Driver: consulta estacionamientos disponibles.
+- Sistema: valida la disponibilidad general de espacios.
+Cada aggregate encapsula consistencia y reglas de negocio en su propio contexto.
+
+![Aggregates](ChapterIV-images/Aggregates.PNG)
 
 ##### 4.1.1.1. Descubrimiento de Contextos Candidatos
 
