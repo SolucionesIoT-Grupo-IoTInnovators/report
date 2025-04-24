@@ -1304,7 +1304,20 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Ojalá no me multen o remolquen:** Hay que investigar si los usuarios verifican la legalidad del lugar donde estacionan o si simplemente arriesgan por falta de tiempo o información.
 
 ### 2.4. Ubiquitous Language
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+
+Se presenta el ubiquitous language definido en el proyecto:
+
+| Término                | Definición                                                                                     |
+|------------------------|-----------------------------------------------------------------------------------------------|
+| **Usuario**            | Persona que accede al sistema para buscar o gestionar estacionamientos.                      |
+| **Propietario**        | Actor que administra los espacios de estacionamiento ofrecidos en la plataforma.             |
+| **Estacionamiento**    | Entidad física administrada por un propietario, compuesta por espacios disponibles.           |
+| **Espacio (Spot)**     | Unidad mínima dentro de un estacionamiento, que puede estar disponible u ocupado.            |
+| **Reserva**            | Acción realizada por un usuario para apartar un espacio durante un tiempo determinado.       |
+| **Suscripción**        | Plan adquirido por un usuario que brinda beneficios o acceso extendido a funcionalidades.     |
+| **Pago**               | Transacción monetaria realizada por un usuario, vinculada a una reserva o suscripción.       |
+| **Notificación**       | Mensaje enviado automáticamente al usuario como respuesta a un evento relevante.             |
+| **Sensor IoT**         | Dispositivo que detecta la ocupación de un espacio y comunica su estado en tiempo real.      |
 
 ---
 
