@@ -1999,14 +1999,215 @@ Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cóm
 
 ### 4.2. Tactical-Level Domain-Driven Design
 #### 4.2.1. Bounded Context: Identity and Access Management
-##### 4.2.1.1. Domain Layer.
-##### 4.2.1.2. Interface Layer.
-##### 4.2.1.3. Application Layer.
-##### 4.2.1.4. Infrastructure Layer.
-##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
-##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
-###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
+El **Bounded Context de IAM (Identity and Access Management)** está diseñado para manejar la autenticación, autorización y gestión de usuarios dentro de la aplicación. Este contexto gestiona tanto el registro como la autenticación de usuarios, así como la asignación y gestión de roles. En esta sección, se definen los componentes claves como las entidades User y Role, los controladores para la interacción con estos recursos y los servicios de aplicación y consulta que gestionan las operaciones relacionadas.
+
+##### 4.2.1.1. Domain Layer
+El **Domain Layer** es responsable de representar el núcleo del sistema de gestión de usuarios y roles. Contiene las entidades principales (como User) y su lógica de negocio, con las relaciones que gestionan la interacción con los roles y otras entidades dentro del sistema.
+
+**Aggregate:** User
+
+**Descripción:** Representa el agregado raíz "Usuario", que contiene los datos de la cuenta y su rol. Se mapea a la tabla users en la base de datos.
+
+|**Atributo**|**Descripción**|**Tipo**|
+| :- | :- | :- |
+|email|Correo electrónico del usuario.|String|
+|password|Contraseña del usuario.|String|
+|roles|Conjunto de roles asociados al usuario.|Set<Role>|
+
+**Métodos**
+
+|**Método**|**Descripción**|
+| :- | :- |
+|addRole(Role role)|Añade un rol al usuario.|
+|addRoles(List<Role> roles)|Añade un conjunto de roles al usuario.|
+|getSerializedRoles()|Devuelve los roles del usuario como una lista de nombres serializados.|
+
+**Entity: Role**
+
+**Descripción:** Representa un rol dentro del sistema, asociado a un value object Roles y utilizado para definir permisos de usuario.
+
+|**Atributo**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|id|Long|Identificador único del rol|
+|name|Roles|Nombre del rol (value object)|
+
+|**Método**|**Descripción**|
+| :- | :- |
+|getStringName()|Obtiene el nombre del rol como string|
+|getDefaultRole()|Retorna el rol por defecto (ROLE\_ADMIN)|
+|toRoleFromName(String name)|Crea un rol a partir de su nombre string|
+|validateRoleSet(List<Role> roles)|Valida una lista de roles y asigna un rol por defecto si está vacía|
+
+**Value Objects**
+
+**Roles**
+
+**Descripción:** Enumeración que representa los roles disponibles en el sistema.
+
+|**Valor**|**Descripción**|
+| :-: | :-: |
+|ROLE_ADMIN|Administrador del sistema|
+|ROLE_PARKING\_OWNER|Propietario de estacionamiento|
+|ROLE_DRIVER|Conductor|
+
+**Domain Services**
+
+Los Domain Services en el bounded context IAM son interfaces que definen operaciones y reglas de negocio que no pertenecen naturalmente a una única entidad o aggregate, pero que son esenciales para mantener la lógica del dominio. Estas interfaces abstraen comportamientos relacionados con la gestión de usuarios y roles, como la autenticación, el registro, consultas y operaciones de inicialización de datos.
+
+**RoleCommandService**
+
+**Descripción:** Interfaz que define el contrato para los comandos relacionados con la gestión de roles dentro del dominio. Permite establecer las operaciones necesarias para crear o modificar roles sin acoplarse a una implementación específica.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(SeedRolesCommand command)|Maneja la creación inicial de roles en el sistema|
+
+**RoleQueryService**
+
+**Descripción:** Interfaz que define las operaciones de consulta para obtener información sobre los roles registrados en el sistema. Aísla la lógica de consulta respecto de su implementación.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(GetAllRolesQuery query)|Obtiene todos los roles registrados|
+|handle(GetRoleByNameQuery query)|Busca un rol por su nombre|
+
+**UserCommandService**
+
+**Descripción:** Interfaz que establece el contrato para los comandos de gestión de usuarios dentro del dominio. Define las operaciones necesarias para registrar usuarios, autenticarlos y realizar cambios relacionados.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(SignInCommand command)|Autentica a un usuario y devuelve su información junto con el token|
+|handle(SignUpDriverCommand command)|Registra a un nuevo conductor|
+|handle(SignUpParkingOwnerCommand command)|Registra a un nuevo propietario de estacionamiento|
+
+**UserQueryService**
+
+**Descripción:** Interfaz que define las operaciones de consulta relacionadas con los usuarios del sistema. Permite obtener información y verificar la existencia de usuarios de forma desacoplada.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(GetAllUsersQuery query)|Obtiene todos los usuarios registrados|
+|handle(GetUserByIdQuery query)|Busca un usuario por su ID|
+|handle(GetUserByUsernameQuery query)|Busca un usuario por su nombre de usuario|
+|handle(CheckUserByIdQuery query)|Verifica si existe un usuario con un ID específico|
+
+##### 4.2.1.2. Interface Layer
+El **Interface Layer** sirve como la capa de comunicación entre el mundo exterior (como los controladores HTTP) y la lógica del dominio. Este nivel contiene los controladores responsables de gestionar las solicitudes de los usuarios, como el inicio de sesión, registro y obtención de información de usuarios.
+
+**Controlador AuthenticationController**
+
+**Descripción**:
+El controlador AuthenticationController se encarga de manejar las solicitudes relacionadas con la autenticación de los usuarios. A través de sus métodos, permite realizar el inicio de sesión y registro de usuarios, ya sea conductores o propietarios de estacionamientos.
+
+|**Método**|**Descripción**|**HTTP**|**Respuesta**|
+| :- | :- | :- | :- |
+|signIn(SignInResource signInResource)|Maneja la solicitud de inicio de sesión.|POST /sign-in|Devuelve el recurso de usuario autenticado.|
+|signUpDriver(SignUpDriverResource signUpDriverResource)|Maneja la solicitud de registro para conductores.|POST /sign-up/driver|Devuelve el recurso del usuario creado.|
+|signUpParkingOwner(SignUpParkingOwnerResource signUpParkingOwnerResource)|Maneja la solicitud de registro para propietarios de estacionamientos.|POST /sign-up/parking-owner|Devuelve el recurso del usuario creado.|
+
+**Controlador RolesController**
+
+**Descripción**:
+El controlador RolesController permite obtener la lista de todos los roles disponibles en el sistema.
+
+|**Método**|**Descripción**|**HTTP**|**Respuesta**|
+| :- | :- | :- | :- |
+|getAllRoles()|Devuelve todos los roles.|GET /roles|Lista de recursos de roles.|
+
+**Controlador UsersController**
+
+**Descripción**:
+El controlador UsersController gestiona las solicitudes para obtener información sobre los usuarios registrados en el sistema.
+
+|**Método**|**Descripción**|**HTTP**|**Respuesta**|
+| :- | :- | :- | :- |
+|getAllUsers()|Devuelve todos los usuarios.|GET /users|Lista de recursos de usuarios.|
+|getUserById(Long userId)|Devuelve un usuario por su ID.|GET /users/{userId}|Recurso de usuario por ID.|
+
+##### 4.2.1.3. Application Layer
+El **Application Layer** contiene la lógica necesaria para procesar las operaciones relacionadas con las entidades, como la creación de roles y usuarios, y la gestión de sus acciones. Esta capa maneja la lógica del negocio que no forma parte del dominio central, sino que orquesta las acciones entre diferentes componentes del sistema.
+
+**Clase RoleCommandServiceImpl**
+
+**Descripción**:
+La clase RoleCommandServiceImpl se encarga de manejar los comandos relacionados con los roles. Proporciona lógica para crear roles si no existen previamente en el sistema.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(SeedRolesCommand command)|Maneja el comando para crear roles si no existen.|
+
+**Clase UserCommandServiceImpl**
+
+**Descripción**:
+La clase UserCommandServiceImpl maneja los comandos relacionados con las operaciones de los usuarios, como iniciar sesión y registrar nuevos usuarios.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(SignInCommand command)|Maneja el comando para iniciar sesión de un usuario.|
+|handle(SignUpDriverCommand command)|Maneja el comando para registrar un conductor.|
+|handle(SignUpParkingOwnerCommand command)|Maneja el comando para registrar un propietario de estacionamiento.|
+
+**Clase RoleQueryServiceImpl**
+
+**Descripción**:
+La clase RoleQueryServiceImpl maneja las consultas relacionadas con los roles.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(GetAllRolesQuery query)|Devuelve todos los roles.|
+|handle(GetRoleByNameQuery query)|Devuelve un rol por su nombre.|
+
+**Clase UserQueryServiceImpl**
+
+**Descripción**:
+La clase UserQueryServiceImpl maneja las consultas relacionadas con los usuarios.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|handle(GetAllUsersQuery query)|Devuelve todos los usuarios.|
+|handle(GetUserByIdQuery query)|Devuelve un usuario por su ID.|
+|handle(GetUserByUsernameQuery query)|Devuelve un usuario por su correo electrónico.|
+|handle(CheckUserByIdQuery query)|Verifica si un usuario existe por su ID.|
+
+##### 4.2.1.4. Infrastructure Layer
+La capa de infraestructura se encarga de la interacción con fuentes externas de datos, como bases de datos, APIs de terceros, o cualquier recurso que esté fuera del ámbito de la lógica de negocio del sistema. En este caso, los repositorios UserRepository y RoleRepository son responsables de la persistencia de los datos relacionados con los usuarios y roles, proporcionando métodos para validar la existencia de entidades y realizar búsquedas en la base de datos.
+
+**Repositorio: UserRepository**
+
+**Descripción**: Repositorio que maneja las operaciones de persistencia relacionadas con los usuarios en la base de datos.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|findByEmail(String email)|Busca un usuario en la base de datos utilizando su correo electrónico. Devuelve un Optional<User>.|
+|existsByEmail(String email)|Verifica si un usuario con el correo electrónico especificado ya existe. Devuelve un boolean.|
+|existsById(Long userId)|Verifica si un usuario con el ID especificado ya existe. Devuelve un boolean.|
+
+**Repositorio: RoleRepository**
+
+**Descripción**: Repositorio encargado de gestionar la persistencia de los roles del sistema.
+
+|**Método**|**Descripción**|
+| :- | :- |
+|findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
+|existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
+
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de IAM.
+
+!["IAM Component Diagram"](ChapterIV-images/IAMComponentDiagram.png)
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
+
+!["IAM Class Diagram"](ChapterIV-images/IAMClassDiagram.png)
+
 ###### 4.2.1.6.2. Bounded Context Database Design Diagram
+En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
+
+!["IAM Database Diagram"](ChapterIV-images/IAMDatabaseDiagram.png)
 
 #### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
