@@ -1953,8 +1953,29 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 
 #### 4.1.2. Context Mapping
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+### Descripción de Relaciones
 
+- *IAM → Profile / Reservations / Subscription / Notification / Payment*  
+  El contexto de Identidad y Acceso permite que el usuario acceda a las funcionalidades del sistema.
+
+- *Profile → Parking / Reservations*  
+  El contexto de perfil provee información del usuario (rol, datos personales) que se reutiliza en la gestión de reservas o estacionamientos.
+
+- *Reservations ↔ Parking*  
+  Se comunica para consultar disponibilidad y reservar espacios.
+
+- *Reservations ↔ Payment ↔ Subscription*  
+  La reserva requiere validación de pagos; las suscripciones también dependen del sistema de pagos.
+
+- *Payment → Notification*  
+  Notifica al usuario el resultado de su pago.
+
+- *IoT → Parking*  
+  Proporciona la información en tiempo real de los espacios disponibles.
+
+- *Reservations → Review*  
+  Los conductores dejan una reseña tras utilizar un espacio reservado.
+![Context Mapping](ChapterIV-images/CONTEXTMAPING.jpeg)
 #### 4.1.3. Software Architecture
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
