@@ -58,7 +58,7 @@
 
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** Me encargue de realizar la creacion de los user persona, emphaty map, as is scenario mapping, to be scenario mapping y en la elaboracion de la documentacion de los domain, interface, application, infrastrcuture layer de los bounded context
-- **Castilla Pachas, César Antonio:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Castilla Pachas, César Antonio:** He colaborado con la creacion de los competidores, product backlog, tambien en la creacion de los bounded context de profile y reservations, por ultimo ayude con la creacion de candidate context discovery.
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas, Diagramas de Arquitectura de Software y de arquitectura de los bounded contexts.
 - **Diaz Silva, Fernando Josué:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
 - **Godoy, Johan Príncipe:** Para esta entrega, realicé la creación de los diagramas de clase y base de datos de los bounded contexts, así como la creación de los diagramas de arquitectura de software.
@@ -255,7 +255,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
-        TB1:<br>
+        TB1:<br> En grupo pudimos repartirnos correctamente las partss del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br>
         <br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -301,7 +301,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
-        TB1:<br>
+        TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br>
         <br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
