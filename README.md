@@ -1,4 +1,4 @@
-# Informe de Trabajo Final - TB1
+# Informe de Trabajo Final - TP
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
@@ -7,7 +7,7 @@
     <strong>Ciclo: 07</strong><br><br>
     <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
     <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
-    <strong>INFORME DE TRABAJO FINAL - TB1 </strong> 
+    <strong>INFORME DE TRABAJO FINAL - TP </strong> 
 </p>
 <p align="center">
     <strong>Startup: IoT Innovators </strong><br>
@@ -26,7 +26,7 @@
 | Tafur Gonzales, Josty Gerardo  | u20201c069 |
 | Zarate Caceres, Victor Ernesto | u202112907 |
 
-**Marzo, 2025**
+**Mayo, 2025**
 
 ---
 
@@ -47,6 +47,7 @@
 | 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                      | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                             |
 | 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto | Correción del menú y puntos faltantes en el documento |
 | 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto | Correciones de enlaces y Student Outcome |
+| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto | Añadir títulos para la entrega parcial (TP) |
 
 ---
 
@@ -56,7 +57,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 
 ### Actividades de elaboración del informe
 #### TB1:
-
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** Me encargue de realizar la creacion de los user persona, emphaty map, as is scenario mapping, to be scenario mapping y en la elaboracion de la documentacion de los domain, interface, application, infrastrcuture layer de los bounded context
 - **Castilla Pachas, César Antonio:** He colaborado con la creacion de los competidores, product backlog, tambien en la creacion de los bounded context de profile y reservations, por ultimo ayude con la creacion de candidate context discovery.
@@ -67,8 +67,20 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-
 ![Captura de analíticos de colaboración de GitHub - 1](insights/CollaborationTB1.png)
+
+#### TP:
+**Descripción de las actividades realizadas:**
+- **Arroyo Ormeño, André Alonso:**
+- **Castilla Pachas, César Antonio:**
+- **Cortés Casas, Joaquin Marcelo:**
+- **Diaz Silva, Fernando Josué:**
+- **Godoy, Johan Príncipe:**
+- **Tafur Gonzales, Josty Gerardo:**
+- **Zarate Caceres, Victor Ernesto:**
+
+**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+![Captura de analíticos de colaboración de GitHub - 1](insights/CollaborationTP.png)
 
 ---
 
@@ -214,6 +226,42 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)
         - [4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui/ux-design)
+  - [5.1. Style Guidelines](#51-style-guidelines)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems](#521-organization-systems)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems](#524-searching-systems)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-&-deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+  - [6.2.1. Sprint 1](#621-sprint-1)
+    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografia)
 - [Anexos](#anexos)
@@ -252,34 +300,50 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
         En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
+        TP:<br>
+        <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br> En grupo pudimos repartirnos correctamente las partss del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br><br>
+        TP:<br>
+        <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
         Asumi la responsabilidad de coordinar al equipo en la asignación de las primeras tareas y resolución de dudas. De esta manera, fomenté el liderazgo promoviendo la participación y aporte de todos los miembros del grupo.<br><br>
+        TP:<br>
+        <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Nuestro equipo logró ejercer un liderazgo compartido mediante la asignación equitativa de responsabilidades y la promoción activa del diálogo entre nosotros. Se evidenció una coordinación efectiva durante las reuniones, así como la iniciativa de varios integrantes para guiar y orientar al grupo, lo cual permitió un trabajo organizado, colaborativo y enfocado en resultados comunes.<br><br>
+        TP:<br>
+        <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
         TB1:<br>
         En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
+        TP:<br>
+        <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
         De manera grupal, pudimos organizarnos correctamente para poder realizar el trabajo, asignando tareas a cada uno de los integrantes del grupo. Se realizaron reuniones para coordinar las tareas a realizar y se utilizó Github para poder ver el avance de cada uno de los integrantes.<br><br>
+        TP:<br>
+        <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
         Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.<br><br>
+        TP:<br>
+        <br><br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
         TB1:<br>
-        Logramos una organización eficiente, distribuyendo tareas de manera equitativa y utilizando herramientas como GitHub para mantener un seguimiento transparente del avance. Aportamos ideas, resolvimos dudas en conjunto y mantuvimos una comunicación constante mediante reuniones de coordinación. Asumimos un liderazgo compartido, donde cada miembro contribuyó activamente. Esta experiencia reforzó nuestras habilidades colaborativas y demostró la importancia de la planificación y el trabajo en equipo para alcanzar objetivos comunes.
+        Logramos una organización eficiente, distribuyendo tareas de manera equitativa y utilizando herramientas como GitHub para mantener un seguimiento transparente del avance. Aportamos ideas, resolvimos dudas en conjunto y mantuvimos una comunicación constante mediante reuniones de coordinación. Asumimos un liderazgo compartido, donde cada miembro contribuyó activamente. Esta experiencia reforzó nuestras habilidades colaborativas y demostró la importancia de la planificación y el trabajo en equipo para alcanzar objetivos comunes.<br><br>
+        TP:<br>
+        <br><br>
       </td>
     </tr>
     <!--Segundo Criterio-->
@@ -293,29 +357,43 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
         Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
+        TP:<br>
+        <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
+        TP:<br>
+        <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
         Me he encargado de definir metas semanales para todos los integrantes del grupo, facilitando un ambiente colaborativo por medio de reuniones periódicas y revisión conjunta de avances realizados.<br><br>
+        TP:<br>
+        <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Se logró establecer un entorno de trabajo inclusivo y respetuoso, con metas claras y planificación consensuada. A través del uso de herramientas colaborativas como GitHub y canales de comunicación constantes, el grupo demostró capacidad de organización, responsabilidad compartida y cumplimiento efectivo de los objetivos planteados en la entrega.<br><br>
+        TP:<br>
+        <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
         TB1:<br>
         Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
+        TP:<br>
+        <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
         Se coordinó en equipo las tareas que debia resolver cada uno de los miembros y la metodología que se seguiría para la correcta realización del reporte mediante Github.<br><br>
+        TP:<br>
+        <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
         TB1:<br>
         Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br>
+        TP:<br>
+        <br><br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -328,7 +406,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 ## Capítulo I: Introducción
-
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 <div align="justify">
@@ -681,7 +758,6 @@ En relación con la propuesta descrita en la sección "Descripción de la Startu
 ---
 
 ## Capítulo II: Requirements Elicitation & Analysis
-
 ### 2.1. Competidores
 Nuestros competidores principales seran los siguientes:
 
@@ -3606,6 +3682,50 @@ El diagrama de base muestra la tabla payments y payment_methods, así como la re
 
 !["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabaseDiagram.png)
 
+## Capítulo V: Solution UI/UX Design
+
+### 5.1. Style Guidelines
+#### 5.1.1. General Style Guidelines
+#### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+### 5.2. Information Architecture
+#### 5.2.1. Organization Systems
+#### 5.2.2. Labeling Systems
+#### 5.2.3. SEO Tags and Meta Tags
+#### 5.2.4. Searching Systems
+#### 5.2.5. Navigation Systems
+
+### 5.3. Landing Page UI Design
+#### 5.3.1. Landing Page Wireframe
+#### 5.3.2. Landing Page Mock-up
+
+### 5.4. Applications UX/UI Design
+#### 5.4.1. Applications Wireframes
+#### 5.4.2. Applications Wireflow Diagrams
+#### 5.4.3. Applications Mock-ups
+#### 5.4.4. Applications User Flow Diagrams
+
+### 5.5. Applications Prototyping
+
+## Capítulo VI: Product Implementation, Validation & Deployment
+
+### 6.1. Software Configuration Management
+#### 6.1.1. Software Development Environment Configuration
+#### 6.1.2. Source Code Management
+#### 6.1.3. Source Code Style Guide & Conventions
+#### 6.1.4. Software Deployment Configuration
+
+### 6.2. Landing Page, Services & Applications Implementation
+#### 6.2.1. Sprint 1
+##### 6.2.1.1. Sprint Planning 1
+##### 6.2.1.2. Aspect Leaders and Collaborators
+##### 6.2.1.3. Sprint Backlog 1
+##### 6.2.1.4. Development Evidence for Sprint Review
+##### 6.2.1.5. Testing Suite Evidence for Sprint Review
+##### 6.2.1.6. Execution Evidence for Sprint Review
+##### 6.2.1.7. Services Documentation Evidence for Sprint Review
+##### 6.2.1.8. Software Deployment Evidence for Sprint Review
+##### 6.2.1.9. Team Collaboration Insights during Sprint
 
 ## Conclusiones
 ### Conclusiones y recomendaciones
@@ -3643,11 +3763,15 @@ El diagrama de base muestra la tabla payments y payment_methods, así como la re
 	<tr>
 		<td>Exposición</td>
 		<td>
-			Cantidad de videos: 1<br><br>
+			Cantidad de videos: 2<br><br>
 			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tb1<br>
 			Formato: .mp4<br>
+			Duración: 25:54<br>
+			Enlace: https://shorturl.at/l4wAk<br><br>
+      Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tp<br>
+			Formato: .mp4<br>
 			Duración:<br>
-			Enlace: <br>
+			Enlace: <br><br>
 		</td>
 	</tr>
 	<tr>
