@@ -68,8 +68,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
-![Captura de analíticos de colaboración de GitHub - 1](insights/xxx.jpg)
-![Captura de commits de GitHub - 1](insights/xxx.jpg)
+![Captura de analíticos de colaboración de GitHub - 1](insights/CollaborationTB1.png)
 
 ---
 
