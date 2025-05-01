@@ -3781,11 +3781,63 @@ El emulador de Wokwi se utiliza para simular la interacción con dispositivos Io
 **Interacción con el Usuario:** Las interacciones con los sensores deben ser sencillas, permitiendo a los usuarios ver rápidamente el estado actual de los espacios
 
 ### 5.2. Information Architecture
+
 #### 5.2.1. Organization Systems
+
+SmartParking emplea distintos sistemas de organización para asegurar que tanto conductores como propietarios de estacionamientos encuentren y utilicen las funciones principales de manera rápida e intuitiva.
+
+**Jerárquico:**
+En la aplicación web y móvil, los elementos están organizados con una clara jerarquía visual basada en tamaños de fuente (h1 a h3) y contrastes de color de la paleta azul personalizada. Este enfoque facilita a los usuarios identificar lo más importante en cada pantalla, como botones de reservar, guardar o ver disponibilidad.
+
+**Secuencial:**
+Los flujos como el registro de un nuevo estacionamiento (para propietarios) o el proceso de reserva (para conductores) siguen una lógica paso a paso que guía al usuario desde el inicio hasta la confirmación, optimizando la experiencia.
+
+**Matricial:**
+En módulos de búsqueda avanzada o filtros de estacionamientos, se usa una organización matricial para que los usuarios puedan navegar por tipo (cubierto/descubierto), precios, distancia o puntuación, adaptándose a sus preferencias.
+
 #### 5.2.2. Labeling Systems
+
+Usamos un sistema de etiquetas simples, claras y reconocibles para evitar ambigüedad. Se usan términos directos como:
+
+- Inicio, Reservar, Mis Reservas, Estacionamientos, Perfil, Soporte, Cerrar Sesión
+
+- Iconos universales acompañan a las etiquetas (guardar, email, check, alerta) para mejorar el reconocimiento visual.
+
+- Las acciones clave están representadas por verbos de una sola palabra y botones destacados.
+
 #### 5.2.3. SEO Tags and Meta Tags
+
+<!-- Landing Page -->
+**Title:** SmartParking - Encuentra tu estacionamiento al instante  
+**Meta Description:** SmartParking te permite reservar estacionamientos disponibles cerca de ti en segundos. Rápido, seguro y eficiente.  
+**Meta Keywords:** estacionamiento, parking, app de parqueo, reserva de parqueo, SmartParking  
+**Meta Author:** SmartParking Team
+
+<!-- Web App -->
+**Title:** SmartParking App  
+**Meta Description:** Accede a tu cuenta SmartParking, administra reservas o registra tu estacionamiento fácilmente.
+
 #### 5.2.4. Searching Systems
+
+- **¿Qué se puede buscar?**
+Conductores pueden buscar estacionamientos por dirección, cercanía o precio. Propietarios pueden buscar sus espacios registrados, reservas activas o historial.
+
+- **¿Qué filtros hay?**
+Tipo de estacionamiento, cobertura, horario, precios, distancia, valoración.
+
+- **¿Cómo se muestran los resultados?**
+En tarjetas con iconos, colores y botones rápidos (reservar, ver detalles), ordenadas por relevancia o cercanía.
+
 #### 5.2.5. Navigation Systems
+
+- **Navegación Jerárquica:**
+Desde la página principal, se accede a las secciones más importantes mediante una barra de navegación (web) o un menú inferior (móvil).
+
+- **Navegación Global:**
+El menú principal está siempre disponible para cambiar entre funcionalidades como "Reservar", "Mis reservas", "Mi perfil" o "Estacionamientos registrados".
+
+- **Navegación Local:**
+Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta”, se incluyen submenús para acciones específicas: editar, eliminar, ver historial, etc.
 
 ### 5.3. Landing Page UI Design
 #### 5.3.1. Landing Page Wireframe
