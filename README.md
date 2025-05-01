@@ -3685,8 +3685,100 @@ El diagrama de base muestra la tabla payments y payment_methods, así como la re
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Style Guidelines
+
+En SmartParking, buscamos una experiencia visual moderna, clara y coherente en todos los dispositivos. Estas pautas garantizan una identidad unificada en la plataforma web, móvil e incluso en su interacción con el sistema IoT. Nos apoyamos en principios de diseño centrados en la simplicidad, accesibilidad y consistencia visual.
 #### 5.1.1. General Style Guidelines
+
+**Branding**
+
+El branding de SmartParking se enfoca en transmitir confianza y accesibilidad a través de una paleta de colores basada en tonos azules. Estos tonos reflejan profesionalismo, tecnología y tranquilidad, creando una atmósfera agradable tanto en la web como en la app móvil.
+
+<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350" style="align-content: center;"/>
+
+**Tipography**
+
+La tipografía empleada en SmartParking está basada en la fuente Roboto, que es legible y moderna. El uso de diferentes pesos y tamaños permite establecer una jerarquía visual clara.
+
+Tamaños y Estilos:
+
+H1: 28px, Roboto, color primario (usando el azul más oscuro de la paleta)
+
+H2: 24px, Roboto, color primario
+
+H3: 20px, Roboto, color primario
+
+Párrafo (p): 16px, Roboto, color gris oscuro para asegurar buena legibilidad
+
+<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/typography.png?raw=true" alt="Typography"/>
+
+**Colors**
+
+La paleta de colores de ParkingApp está basada en distintos tonos de azul, proporcionando una experiencia coherente y limpia a lo largo de todas las plataformas.
+
+| Color Name      | Hex Code | Uso Principal                             |
+|-----------------|----------|-------------------------------------------|
+| Azul Claro      | #60A5FA  | Fondo de la interfaz, áreas secundarias   |
+| Azul Primario   | #2563EB  | Elementos destacados, botones principales |
+| Azul Medio      | #1D4ED8  | Botones, enlaces, elementos destacados    |
+| Azul Oscuro     | #1E40AF  | Encabezados, textos primarios             |
+| Azul Muy Oscuro | #1E3A8A  | Fondos principales, barra de navegación   |
+
+<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/colors.png?raw=true" alt="Colors" />
+
+**Spacing**
+
+El espaciado sigue una escala de 8px para mantener un ritmo visual ordenado:
+
+Margen y Padding: 8px, 16px, 32px
+
+Separación entre bloques mayores: 64px
+
+Este sistema ayuda a mantener interfaces limpias, balanceadas y fáciles de navegar.
+
+**Iconos**
+
+Los iconos en SmartParking son simples y fácilmente reconocibles, adecuados para acciones frecuentes como guardar, reservar, etc. Los iconos están basados en los estándares de Material Design, garantizando consistencia visual.
+
+Guardar: Icono estándar de guardar en color Azul Medio.
+
+Reservar: Icono de calendario o reserva en Azul Oscuro.
+
+Email: Icono de sobre en color Azul Medio.
+
+**Tone of Voice**
+
+El tono de comunicación de SmartParking es casual-formal, respetuoso y sereno. Se busca mantener una relación de confianza con el usuario, transmitiendo orden, claridad y profesionalismo sin dejar de ser cercano.
+
+
 #### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+**Web Style Guidelines**
+
+SmartParking debe proporcionar una experiencia fluida en todos los dispositivos de escritorio, adaptándose a diferentes tamaños de pantalla:
+
+**Diseño Responsivo:** Se prioriza un diseño flexible que se ajuste a pantallas de diferentes tamaños, siguiendo el esquema de escaneo visual en F para facilitar la lectura.
+
+**Navegación:** Se emplea un navbar en la parte superior con enlaces claros a las secciones principales (Inicio, Reservas, Ayuda, etc.). En pantallas más pequeñas, la navegación será accesible mediante un botón hamburguesa para una mejor organización.
+
+**Accesibilidad:** Las interacciones deben ser intuitivas, con iconos claros y bien espaciados. Los botones tienen un contraste alto para mejorar la visibilidad.
+
+**Mobile Style Guidelines**
+
+En la versión móvil de SmartParking, el enfoque está en la facilidad de uso, manteniendo la coherencia visual con la web pero adaptando la interfaz a pantallas más pequeñas:
+
+**Botones y Elementos Interactivos:** Se emplean botones grandes y espacios generosos para facilitar la interacción con pantallas táctiles.
+
+**Disposición de Elementos:** Los elementos en la pantalla deben estar dispuestos de manera que el usuario pueda navegar sin esfuerzo, priorizando las funciones más usadas como la reserva de espacios.
+
+**Adaptación del Contenido:** El contenido se adapta de manera eficiente, asegurando que la información más relevante esté siempre a la vista.
+
+**IoT Style Guidelines**
+
+El emulador de Wokwi se utiliza para simular la interacción con dispositivos IoT como sensores de movimiento. Esto permite a la app mostrar información sobre la disponibilidad de espacios de estacionamiento en tiempo real.
+
+**Simulación de Sensores:** La app debe mostrar una representación visual clara del estado de los sensores, indicando si un espacio de estacionamiento está ocupado o disponible.
+
+**Interacción con el Usuario:** Las interacciones con los sensores deben ser sencillas, permitiendo a los usuarios ver rápidamente el estado actual de los espacios
 
 ### 5.2. Information Architecture
 #### 5.2.1. Organization Systems
