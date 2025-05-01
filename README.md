@@ -794,17 +794,17 @@ Nuestros competidores principales seran los siguientes:
 ## Competitive Analysis Landscape
 
 ### Competidores 
-| Competidor   | Descripción                                              |
-|--------------|----------------------------------------------------------|
-| SmartParking | ![SmartParking Icon]()                                   |
-| iPark        | ![iPark Icon](ChapterII-images/Competidor-iPark.png)     |
-| ACCIST       | ![ACCIST Icon](ChapterII-images/Competidor-Accist.jpg)   |
-| Smelpro      | ![Smelpro Icon](ChapterII-images/Competidor-Smelpro.jpg) |
+| Competidor   | Descripción                                                                                                                                                                       |
+|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SmartParking | <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/> |
+| iPark        | <img src="https://i0.wp.com/ipark.pe/wp-content/uploads/2024/01/Posts-IG-iPark-1-1.png?fit=1080%2C1080&ssl=1?raw=true" alt="Logo iPark" width="350" />                            |
+| ACCIST       | <img src="https://d18dfix3ul3fjv.cloudfront.net/images/upload/1227/sml/64b6d9be5202d2.62984617.png?raw=true" alt="Logo ACCIST" width="350" />                                     |
+| Smelpro      | <img src="https://avatars.githubusercontent.com/u/9160835?v=4?raw=true" alt="Logo Smelpro" width="350" />                                                                         |
 
 ### ¿Por qué llevar a cabo este análisis?
 
-| Objetivo |
-|----------|
+| Objetivo                                                                                                                                                |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Para entender el panorama competitivo actual, descubrir oportunidades de mercado y tomar decisiones informadas sobre producto, marketing y crecimiento. |
 
 ---
@@ -813,12 +813,12 @@ Nuestros competidores principales seran los siguientes:
 
 ### Perfil - Overview
 
-| Empresa       | Overview |
-|---------------|----------|
-| SmartParking  | SmartParking es una plataforma inteligente que conecta conductores con estacionamientos disponibles mediante una app móvil, y brinda a propietarios herramientas web para gestionar, analizar y monetizar sus espacios de forma eficiente. |
-| iPark         | Sistema digital para gestión de estacionamientos en la nube con app móvil, QR y panel de administración. |
-| ACCIST        | Empresa peruana con más de 20 años en soluciones de asistencia, control de acceso y seguridad electrónica. |
-| Smelpro       | Empresa tecnológica enfocada en soluciones IoT, IA e Industria 4.0 para sectores como energía, agua, agricultura y logística. |
+| Empresa      | Overview                                                                                                                                                                                                                                   |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| SmartParking | SmartParking es una plataforma inteligente que conecta conductores con estacionamientos disponibles mediante una app móvil, y brinda a propietarios herramientas web para gestionar, analizar y monetizar sus espacios de forma eficiente. |
+| iPark        | Sistema digital para gestión de estacionamientos en la nube con app móvil, QR y panel de administración.                                                                                                                                   |
+| ACCIST       | Empresa peruana con más de 20 años en soluciones de asistencia, control de acceso y seguridad electrónica.                                                                                                                                 |
+| Smelpro      | Empresa tecnológica enfocada en soluciones IoT, IA e Industria 4.0 para sectores como energía, agua, agricultura y logística.                                                                                                              |
 
 ---
 
@@ -826,30 +826,30 @@ Nuestros competidores principales seran los siguientes:
 
 #### Ventaja competitiva
 
-| Empresa       | Ventaja competitiva |
-|---------------|----------------------|
-| SmartParking  | Acceso en tiempo real a disponibilidad, precios dinámicos y reserva desde app móvil; más analítica avanzada para propietarios. |
-| iPark         | Optimiza ingresos y eficiencia en la operación de estacionamientos con sistemas inteligentes. |
-| ACCIST        | Soluciones personalizadas en control de acceso, asistencia y seguridad para empresas de distintos tamaños. |
-| Smelpro       | Soluciones integrales de monitoreo y control en tiempo real con conectividad inalámbrica y plataformas propias. |
+| Empresa      | Ventaja competitiva                                                                                                            |
+|--------------|--------------------------------------------------------------------------------------------------------------------------------|
+| SmartParking | Acceso en tiempo real a disponibilidad, precios dinámicos y reserva desde app móvil; más analítica avanzada para propietarios. |
+| iPark        | Optimiza ingresos y eficiencia en la operación de estacionamientos con sistemas inteligentes.                                  |
+| ACCIST       | Soluciones personalizadas en control de acceso, asistencia y seguridad para empresas de distintos tamaños.                     |
+| Smelpro      | Soluciones integrales de monitoreo y control en tiempo real con conectividad inalámbrica y plataformas propias.                |
 
 #### Mercado objetivo
 
-| Empresa       | Mercado objetivo |
-|---------------|------------------|
-| SmartParking  | Conductores urbanos que buscan estacionamiento optimizado y propietarios de estacionamientos en zonas de alta rotación. |
-| iPark         | Empresas que administran estacionamientos públicos o privados. |
-| ACCIST        | Instituciones, empresas privadas, entidades educativas y de salud que necesiten controlar accesos y personal. |
-| Smelpro       | Industria, agricultura, transporte, energía y empresas que requieren automatización y sensores inteligentes. |
+| Empresa      | Mercado objetivo                                                                                                        |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+| SmartParking | Conductores urbanos que buscan estacionamiento optimizado y propietarios de estacionamientos en zonas de alta rotación. |
+| iPark        | Empresas que administran estacionamientos públicos o privados.                                                          |
+| ACCIST       | Instituciones, empresas privadas, entidades educativas y de salud que necesiten controlar accesos y personal.           |
+| Smelpro      | Industria, agricultura, transporte, energía y empresas que requieren automatización y sensores inteligentes.            |
 
 #### Estrategias de marketing
 
-| Empresa       | Estrategias de marketing |
-|---------------|--------------------------|
-| SmartParking  | Alianzas con comercios, integración con apps de navegación, descuentos promocionales y campañas digitales geolocalizadas. |
-| iPark         | Modelo SaaS escalable, con soporte técnico incluido y enfoque en retorno de inversión. |
-| ACCIST        | Relaciones comerciales directas, demostraciones personalizadas y atención postventa. |
-| Smelpro       | Casos de éxito, enfoque consultivo, propuesta a medida y acompañamiento técnico completo. |
+| Empresa      | Estrategias de marketing                                                                                                  |
+|--------------|---------------------------------------------------------------------------------------------------------------------------|
+| SmartParking | Alianzas con comercios, integración con apps de navegación, descuentos promocionales y campañas digitales geolocalizadas. |
+| iPark        | Modelo SaaS escalable, con soporte técnico incluido y enfoque en retorno de inversión.                                    |
+| ACCIST       | Relaciones comerciales directas, demostraciones personalizadas y atención postventa.                                      |
+| Smelpro      | Casos de éxito, enfoque consultivo, propuesta a medida y acompañamiento técnico completo.                                 |
 
 ---
 
@@ -857,30 +857,30 @@ Nuestros competidores principales seran los siguientes:
 
 #### Productos & Servicios
 
-| Empresa       | Productos & Servicios |
-|---------------|------------------------|
-| SmartParking  | App móvil para búsqueda y reserva; panel web de gestión; sensores IoT; reportes analíticos; alertas dinámicas. |
-| iPark         | App móvil, pagos QR, cámaras ANPR, kioscos de pago, dashboard online. |
-| ACCIST        | Controles biométricos, molinetes, cámaras, sistemas de asistencia, impresoras de fotochecks. |
-| Smelpro       | Diseño electrónico, impresión 3D, software embebido, dashboards, sensores, redes LoRa/IoT. |
+| Empresa      | Productos & Servicios                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------|
+| SmartParking | App móvil para búsqueda y reserva; panel web de gestión; sensores IoT; reportes analíticos; alertas dinámicas. |
+| iPark        | App móvil, pagos QR, cámaras ANPR, kioscos de pago, dashboard online.                                          |
+| ACCIST       | Controles biométricos, molinetes, cámaras, sistemas de asistencia, impresoras de fotochecks.                   |
+| Smelpro      | Diseño electrónico, impresión 3D, software embebido, dashboards, sensores, redes LoRa/IoT.                     |
 
 #### Precios & Costos
 
-| Empresa       | Precios & Costos |
-|---------------|------------------|
-| SmartParking  | Modelo SaaS mensual o anual para propietarios; venta de hardware IoT por unidad; planes freemium para conductores. |
-| iPark         | Planes desde $150 a $650 mensuales según cantidad de transacciones. |
-| ACCIST        | Precios varían según personalización, productos a medida. |
-| Smelpro       | Costos según proyecto; soluciones completamente adaptadas. |
+| Empresa      | Precios & Costos                                                                                                   |
+|--------------|--------------------------------------------------------------------------------------------------------------------|
+| SmartParking | Modelo SaaS mensual o anual para propietarios; venta de hardware IoT por unidad; planes freemium para conductores. |
+| iPark        | Planes desde $150 a $650 mensuales según cantidad de transacciones.                                                |
+| ACCIST       | Precios varían según personalización, productos a medida.                                                          |
+| Smelpro      | Costos según proyecto; soluciones completamente adaptadas.                                                         |
 
 #### Canales de distribución
 
-| Empresa       | Canales de distribución (Web y/o Móvil) |
-|---------------|------------------------------------------|
-| SmartParking  | App móvil, portal web, atención en línea, redes sociales y soporte técnico remoto. |
-| iPark         | App Android, panel web de gestión, soporte remoto. |
-| ACCIST        | Sitio web, contacto comercial directo, atención personalizada. |
-| Smelpro       | Sitio web, redes sociales, contacto directo, soporte técnico propio. |
+| Empresa      | Canales de distribución (Web y/o Móvil)                                            |
+|--------------|------------------------------------------------------------------------------------|
+| SmartParking | App móvil, portal web, atención en línea, redes sociales y soporte técnico remoto. |
+| iPark        | App Android, panel web de gestión, soporte remoto.                                 |
+| ACCIST       | Sitio web, contacto comercial directo, atención personalizada.                     |
+| Smelpro      | Sitio web, redes sociales, contacto directo, soporte técnico propio.               |
 
 ---
 
@@ -888,39 +888,39 @@ Nuestros competidores principales seran los siguientes:
 
 #### Fortalezas
 
-| Empresa       | Fortalezas |
-|---------------|------------|
-| SmartParking  | Doble enfoque (usuario + propietario), funcionalidades completas, visión escalable. |
-| iPark         | Modelo SaaS claro, app moderna, soporte técnico. |
-| ACCIST        | Experiencia de 20+ años, soluciones variadas, soporte. |
-| Smelpro       | Alta innovación, integración tecnológica completa. |
+| Empresa      | Fortalezas                                                                          |
+|--------------|-------------------------------------------------------------------------------------|
+| SmartParking | Doble enfoque (usuario + propietario), funcionalidades completas, visión escalable. |
+| iPark        | Modelo SaaS claro, app moderna, soporte técnico.                                    |
+| ACCIST       | Experiencia de 20+ años, soluciones variadas, soporte.                              |
+| Smelpro      | Alta innovación, integración tecnológica completa.                                  |
 
 #### Debilidades
 
-| Empresa       | Debilidades |
-|---------------|-------------|
-| SmartParking  | Se requiere adopción tecnológica de propietarios, inversión inicial en hardware. |
-| iPark         | Público objetivo limitado a estacionamientos. |
-| ACCIST        | Dependencia de hardware específico. |
-| Smelpro       | Soluciones técnicas requieren conocimiento especializado del cliente. |
+| Empresa      | Debilidades                                                                      |
+|--------------|----------------------------------------------------------------------------------|
+| SmartParking | Se requiere adopción tecnológica de propietarios, inversión inicial en hardware. |
+| iPark        | Público objetivo limitado a estacionamientos.                                    |
+| ACCIST       | Dependencia de hardware específico.                                              |
+| Smelpro      | Soluciones técnicas requieren conocimiento especializado del cliente.            |
 
 #### Oportunidades
 
-| Empresa       | Oportunidades |
-|---------------|---------------|
-| SmartParking  | Demanda creciente de soluciones sostenibles y reducción de congestión vehicular. |
-| iPark         | Expansión a edificios corporativos y malls. |
-| ACCIST        | Integrarse a plataformas de RRHH o ERP. |
-| Smelpro       | Aplicaciones en smart cities y gestión pública. |
+| Empresa      | Oportunidades                                                                    |
+|--------------|----------------------------------------------------------------------------------|
+| SmartParking | Demanda creciente de soluciones sostenibles y reducción de congestión vehicular. |
+| iPark        | Expansión a edificios corporativos y malls.                                      |
+| ACCIST       | Integrarse a plataformas de RRHH o ERP.                                          |
+| Smelpro      | Aplicaciones en smart cities y gestión pública.                                  |
 
 #### Amenazas
 
-| Empresa       | Amenazas |
-|---------------|----------|
-| SmartParking  | Competidores con infraestructura ya instalada, resistencia al cambio en operadores tradicionales. |
-| iPark         | Competencia con soluciones genéricas más baratas. |
-| ACCIST        | Importaciones informales de equipos sin soporte. |
-| Smelpro       | Avance rápido de nuevas tecnologías internacionales. |
+| Empresa      | Amenazas                                                                                          |
+|--------------|---------------------------------------------------------------------------------------------------|
+| SmartParking | Competidores con infraestructura ya instalada, resistencia al cambio en operadores tradicionales. |
+| iPark        | Competencia con soluciones genéricas más baratas.                                                 |
+| ACCIST       | Importaciones informales de equipos sin soporte.                                                  |
+| Smelpro      | Avance rápido de nuevas tecnologías internacionales.                                              |
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 Nuestras estrategias y tácticas para hacer frente a nuestros competidores serían las siguientes:
@@ -3694,7 +3694,7 @@ En SmartParking, buscamos una experiencia visual moderna, clara y coherente en t
 
 El branding de SmartParking se enfoca en transmitir confianza y accesibilidad a través de una paleta de colores basada en tonos azules. Estos tonos reflejan profesionalismo, tecnología y tranquilidad, creando una atmósfera agradable tanto en la web como en la app móvil.
 
-<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350" style="align-content: center;"/>
+<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/>
 
 **Tipography**
 
