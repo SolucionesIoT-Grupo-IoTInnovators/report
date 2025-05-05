@@ -2073,22 +2073,22 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
 
-!["System Landscape Diagram"](ChapterIV-images/SystemLandscapeDiagram.png)
+!["System Landscape Diagram"](ChapterIV-images/c4-landscape.png)
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
-!["System Context Diagram"](ChapterIV-images/SystemContextDiagram.png)
+!["System Context Diagram"](ChapterIV-images/c4-context.png)
 
 ##### 4.1.3.3. Software Architecture Container Level Diagrams
 Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
 
-!["Container Diagram"](ChapterIV-images/ContainerDiagram.png)
+!["Container Diagram"](ChapterIV-images/c4-container.png)
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams
 Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
 
-!["Deployment Diagram"](ChapterIV-images/DeploymentDiagram.png)
+!["Deployment Diagram"](ChapterIV-images/c4-deployment.png)
 
 ### 4.2. Tactical-Level Domain-Driven Design
 #### 4.2.1. Bounded Context: Identity and Access Management
