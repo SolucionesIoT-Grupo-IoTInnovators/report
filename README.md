@@ -1289,19 +1289,18 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
 
 ### 2.4. Ubiquitous Language
 
-Se presenta el ubiquitous language definido en el proyecto:
+Se presenta una tabla que contiene los términos específicos del dominio del negocio:
 
-| Término                | Definición                                                                                     |
-|------------------------|-----------------------------------------------------------------------------------------------|
-| **Usuario**            | Persona que accede al sistema para buscar o gestionar estacionamientos.                      |
-| **Propietario**        | Actor que administra los espacios de estacionamiento ofrecidos en la plataforma.             |
-| **Estacionamiento**    | Entidad física administrada por un propietario, compuesta por espacios disponibles.           |
-| **Espacio (Spot)**     | Unidad mínima dentro de un estacionamiento, que puede estar disponible u ocupado.            |
-| **Reserva**            | Acción realizada por un usuario para apartar un espacio durante un tiempo determinado.       |
-| **Suscripción**        | Plan adquirido por un usuario que brinda beneficios o acceso extendido a funcionalidades.     |
-| **Pago**               | Transacción monetaria realizada por un usuario, vinculada a una reserva o suscripción.       |
-| **Notificación**       | Mensaje enviado automáticamente al usuario como respuesta a un evento relevante.             |
-| **Sensor IoT**         | Dispositivo que detecta la ocupación de un espacio y comunica su estado en tiempo real.      |
+| **Término**     | **Definición** |
+|----------------------|---------------------|
+| **Parking Owner**    | Persona natural o empresa que administra uno o más estacionamientos y los publica en la plataforma para obtener ingresos. |
+| **Parking Spot**     | Unidad física individual dentro de un estacionamiento donde un vehículo puede ser ubicado. |
+| **Reservation**      | Acción realizada por un conductor para asegurar la disponibilidad de un espacio por un tiempo determinado. |
+| **Driver**           | Persona que utiliza la plataforma para buscar, reservar y utilizar espacios de estacionamiento. |
+| **Availability**     | Estado en tiempo real de un espacio de estacionamiento que indica si está libre o ocupado. |
+| **Check-in**         | Momento en el que el conductor accede físicamente al espacio reservado. |
+| **Check-out**        | Momento en el que el conductor abandona el espacio de estacionamiento reservado. |
+| **Occupancy Rate**   | Porcentaje de tiempo en que los espacios están siendo utilizados en un periodo determinado. |
 
 ---
 
