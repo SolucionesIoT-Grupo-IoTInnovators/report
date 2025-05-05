@@ -837,8 +837,9 @@ Nuestros competidores principales seran los siguientes:
 | Smelpro      | Avance rápido de nuevas tecnologías internacionales.                                              |
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
-Nuestras estrategias y tácticas para hacer frente a nuestros competidores serían las siguientes:
-- Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. A su vez, anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
+<div align="justify">
+  Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. A su vez, anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
+</div>
 
 ### 2.2. Entrevistas
 #### 2.2.1. Diseño de entrevistas
@@ -877,15 +878,18 @@ Bloque 1: Contexto y hábitos
 4. ¿Has dejado de ir a algún lugar por no encontrar parqueo?
 
 Bloque 2: Problemas y frustraciones
+
 5. ¿Qué es lo que más te molesta al buscar estacionamiento?
 6. ¿Qué haces cuando no encuentras espacio fácilmente?
 7. ¿Has recibido multas o sanciones por estacionar en lugares inadecuados?
 
 Bloque 3: Soluciones actuales
+
 8. ¿Usas alguna app o tecnología actualmente para ayudarte con el estacionamiento?
 9. ¿Qué tan confiables te han parecido esas soluciones?
 
 Bloque 4: Validación de propuesta
+
 10. Si existiera una app que te muestre los espacios disponibles en tiempo real y te permita reservarlos, ¿la usarías? ¿Por qué?
 11. ¿Estarías dispuesto a pagar por este tipo de servicio? ¿Cuánto considerarías razonable?
 12. ¿Qué funciones te gustaría que tuviera una app como esta?
@@ -898,11 +902,13 @@ Bloque 1: Contexto del negocio
 3. ¿Cuáles son tus horarios pico y cómo manejas esa demanda?
 
 Bloque 2: Problemas y oportunidades
+
 4. ¿Qué dificultades enfrentas con la gestión actual del estacionamiento?
 5. ¿Qué tanto control tienes sobre los ingresos diarios?
 6. ¿Has considerado implementar tecnología para optimizar tu operación?
 
 Bloque 3: Validación de propuesta
+
 7. ¿Te interesaría un sistema que automatice la detección de espacios libres?
 8. ¿Qué información sería más útil para ti en una plataforma de gestión?
 9. ¿Qué funcionalidades considerarías imprescindibles en una solución tecnológica?
@@ -1067,7 +1073,13 @@ Medio de aplicación
 </div>
 
 #### 2.2.3. Análisis de entrevistas
-Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+<div align="justify">
+  <ul>
+    <li>Segmento 1:</li>
+    <li>Segmento 2:</li>
+    <li>Conclusiones:</li>
+  </ul>
+</div>
 
 ### 2.3. Needfinding
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
