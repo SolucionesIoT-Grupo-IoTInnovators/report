@@ -2073,7 +2073,7 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
 
-!["System Landscape Diagram"](ChapterIV-images/c4-landscape.png)
+!["System Landscape Diagram"](ChapterIV-images/c4-landscape-fix.png)
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
