@@ -1003,14 +1003,45 @@ Medio de aplicación
     <tr>
       <td>Entrevista 1: </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Mauricio Oliveira Paucar <br>
+        Edad: 24 <br>
+        Distrito: Surco <br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        
+La entrevista se ha realizado a **Mauricio Oliveira Poch**, de **24 años**, quien cuenta con más de **3 años de experiencia conduciendo**. Mauricio utiliza **Windows** como sistema operativo en su computadora y **Android** en su celular. Sus navegadores preferidos son **Google Chrome** y ocasionalmente **Bing**.
+
+Actualmente conduce entre **3 a 4 veces por semana**, principalmente para asistir a clases y reuniones sociales. Menciona que tiene mayor dificultad para estacionar en **lugares nuevos** debido al desconocimiento de la zona y en el **Centro de Lima**, donde los precios suelen ser altos. Por ello, suele buscar alternativas como **centros comerciales** o **supermercados cercanos** que cuenten con estacionamiento.
+
+En promedio, si se ve obligado a buscar estacionamiento sin planificarlo, le toma alrededor de **10 minutos** encontrar un espacio libre. Mauricio ha evitado dejar de ir a algún lugar por falta de estacionamiento, ya que **prefiere planificar con anticipación**. Sin embargo, lo que más le incomoda al buscar estacionamiento es que:
+
+- Los espacios no siempre están cerca del lugar de destino.
+- Suelen estar llenos.
+- Son muy caros.
+
+Cuando no encuentra espacio, **intenta seguir buscando** o, en casos extremos, **dejar el auto afuera del establecimiento**. Hasta el momento no ha recibido multas, aunque sí advertencias informales.
+
+En cuanto al uso de tecnología, **actualmente no usa una aplicación especializada en estacionamientos**. Solo recurre a **Google Maps** para buscar cocheras cercanas, aunque reconoce que **no todas están registradas**.
+
+Mauricio considera que sería útil contar con una **aplicación que muestre en tiempo real los espacios disponibles y que permita reservar un espacio**. Le interesaría usarla especialmente para **lugares desconocidos** y para **comparar opciones**. Estaría dispuesto a pagar por el servicio dependiendo de la zona y modalidad de cobro, considerando razonable un precio de **4 a 5 soles por hora**.
+
+**Funcionalidades deseadas para una app de estacionamientos:**
+
+- Facilidad para **encontrar estacionamientos cercanos**.
+- Mostrar **disponibilidad de espacios en tiempo real**.
+- **Precio actualizado** de cada cochera.
+- **Respuesta rápida** de la app al buscar opciones.
+
+Mauricio aclara que **no pagaría una suscripción mensual**, ya que no la utilizaría con suficiente frecuencia, pero podría considerar **pagos por uso puntual** si la situación lo amerita.
+
+**Características observadas:**
+
+- **Personalidad:** Previsor, organizado y pragmático. Prefiere planificar con anticipación para evitar contratiempos.
+- **Influencias:** Limitado por la falta de información actualizada sobre estacionamientos en zonas nuevas y altos precios en áreas céntricas.
+- **Canales de interacción:** Utiliza principalmente Google Maps, y navegadores como Google Chrome y Bing.
+- **Dispositivos:** Usa computadora con Windows y celular con Android.
       </td>
     </tr>
     <tr>
