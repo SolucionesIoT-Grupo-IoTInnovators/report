@@ -705,9 +705,9 @@ Nuestros competidores principales seran los siguientes:
 
 #### 2.1.1. Análisis competitivo
 
-## Competitive Analysis Landscape
+##### Competitive Analysis Landscape
 
-### Competidores 
+###### Competidores 
 | Competidor   | Descripción                                                                                                                                                                       |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SmartParking | <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/> |
@@ -715,7 +715,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | <img src="https://d18dfix3ul3fjv.cloudfront.net/images/upload/1227/sml/64b6d9be5202d2.62984617.png?raw=true" alt="Logo ACCIST" width="350" />                                     |
 | Smelpro      | <img src="https://avatars.githubusercontent.com/u/9160835?v=4?raw=true" alt="Logo Smelpro" width="350" />                                                                         |
 
-### ¿Por qué llevar a cabo este análisis?
+###### ¿Por qué llevar a cabo este análisis?
 
 | Objetivo                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -723,9 +723,9 @@ Nuestros competidores principales seran los siguientes:
 
 ---
 
-## Competidores: SmartParking, iPark, ACCIST, Smelpro
+##### Competidores: SmartParking, iPark, ACCIST, Smelpro
 
-### Perfil - Overview
+###### Perfil - Overview
 
 | Empresa      | Overview                                                                                                                                                                                                                                   |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -736,9 +736,9 @@ Nuestros competidores principales seran los siguientes:
 
 ---
 
-### Perfil de Marketing
+##### Perfil de Marketing
 
-#### Ventaja competitiva
+###### Ventaja competitiva
 
 | Empresa      | Ventaja competitiva                                                                                                            |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -747,7 +747,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Soluciones personalizadas en control de acceso, asistencia y seguridad para empresas de distintos tamaños.                     |
 | Smelpro      | Soluciones integrales de monitoreo y control en tiempo real con conectividad inalámbrica y plataformas propias.                |
 
-#### Mercado objetivo
+###### Mercado objetivo
 
 | Empresa      | Mercado objetivo                                                                                                        |
 |--------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -756,7 +756,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Instituciones, empresas privadas, entidades educativas y de salud que necesiten controlar accesos y personal.           |
 | Smelpro      | Industria, agricultura, transporte, energía y empresas que requieren automatización y sensores inteligentes.            |
 
-#### Estrategias de marketing
+###### Estrategias de marketing
 
 | Empresa      | Estrategias de marketing                                                                                                  |
 |--------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -767,9 +767,9 @@ Nuestros competidores principales seran los siguientes:
 
 ---
 
-### Perfil de Producto
+##### Perfil de Producto
 
-#### Productos & Servicios
+###### Productos & Servicios
 
 | Empresa      | Productos & Servicios                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------|
@@ -778,7 +778,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Controles biométricos, molinetes, cámaras, sistemas de asistencia, impresoras de fotochecks.                   |
 | Smelpro      | Diseño electrónico, impresión 3D, software embebido, dashboards, sensores, redes LoRa/IoT.                     |
 
-#### Precios & Costos
+###### Precios & Costos
 
 | Empresa      | Precios & Costos                                                                                                   |
 |--------------|--------------------------------------------------------------------------------------------------------------------|
@@ -787,7 +787,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Precios varían según personalización, productos a medida.                                                          |
 | Smelpro      | Costos según proyecto; soluciones completamente adaptadas.                                                         |
 
-#### Canales de distribución
+###### Canales de distribución
 
 | Empresa      | Canales de distribución (Web y/o Móvil)                                            |
 |--------------|------------------------------------------------------------------------------------|
@@ -798,9 +798,9 @@ Nuestros competidores principales seran los siguientes:
 
 ---
 
-### Análisis SWOT
+##### Análisis SWOT
 
-#### Fortalezas
+###### Fortalezas
 
 | Empresa      | Fortalezas                                                                          |
 |--------------|-------------------------------------------------------------------------------------|
@@ -809,7 +809,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Experiencia de 20+ años, soluciones variadas, soporte.                              |
 | Smelpro      | Alta innovación, integración tecnológica completa.                                  |
 
-#### Debilidades
+###### Debilidades
 
 | Empresa      | Debilidades                                                                      |
 |--------------|----------------------------------------------------------------------------------|
@@ -818,7 +818,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Dependencia de hardware específico.                                              |
 | Smelpro      | Soluciones técnicas requieren conocimiento especializado del cliente.            |
 
-#### Oportunidades
+###### Oportunidades
 
 | Empresa      | Oportunidades                                                                    |
 |--------------|----------------------------------------------------------------------------------|
@@ -827,7 +827,7 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Integrarse a plataformas de RRHH o ERP.                                          |
 | Smelpro      | Aplicaciones en smart cities y gestión pública.                                  |
 
-#### Amenazas
+###### Amenazas
 
 | Empresa      | Amenazas                                                                                          |
 |--------------|---------------------------------------------------------------------------------------------------|
@@ -950,7 +950,7 @@ Medio de aplicación
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista1.png"></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista1.png" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -972,7 +972,7 @@ Medio de aplicación
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista2.png"></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista2.png" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -994,7 +994,7 @@ Medio de aplicación
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista3.png"></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista3.png" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1016,42 +1016,41 @@ Medio de aplicación
     </tr>
     <tr>
       <td colspan="2">
-        
-La entrevista se ha realizado a **Mauricio Oliveira Paucar**, de **24 años**, quien cuenta con más de **3 años de experiencia conduciendo**. Mauricio utiliza **Windows** como sistema operativo en su computadora y **Android** en su celular. Sus navegadores preferidos son **Google Chrome** y ocasionalmente **Bing**.
+  La entrevista se ha realizado a **Mauricio Oliveira Paucar**, de **24 años**, quien cuenta con más de **3 años de experiencia conduciendo**. Mauricio utiliza **Windows** como sistema operativo en su computadora y **Android** en su celular. Sus navegadores preferidos son **Google Chrome** y ocasionalmente **Bing**.
 
-Actualmente conduce entre **3 a 4 veces por semana**, principalmente para asistir a clases y reuniones sociales. Menciona que tiene mayor dificultad para estacionar en **lugares nuevos** debido al desconocimiento de la zona y en el **Centro de Lima**, donde los precios suelen ser altos. Por ello, suele buscar alternativas como **centros comerciales** o **supermercados cercanos** que cuenten con estacionamiento.
+  Actualmente conduce entre **3 a 4 veces por semana**, principalmente para asistir a clases y reuniones sociales. Menciona que tiene mayor dificultad para estacionar en **lugares nuevos** debido al desconocimiento de la zona y en el **Centro de Lima**, donde los precios suelen ser altos. Por ello, suele buscar alternativas como **centros comerciales** o **supermercados cercanos** que cuenten con estacionamiento.
 
-En promedio, si se ve obligado a buscar estacionamiento sin planificarlo, le toma alrededor de **10 minutos** encontrar un espacio libre. Mauricio ha evitado dejar de ir a algún lugar por falta de estacionamiento, ya que **prefiere planificar con anticipación**. Sin embargo, lo que más le incomoda al buscar estacionamiento es que:
+  En promedio, si se ve obligado a buscar estacionamiento sin planificarlo, le toma alrededor de **10 minutos** encontrar un espacio libre. Mauricio ha evitado dejar de ir a algún lugar por falta de estacionamiento, ya que **prefiere planificar con anticipación**. Sin embargo, lo que más le incomoda al buscar estacionamiento es que:
 
-- Los espacios no siempre están cerca del lugar de destino.
-- Suelen estar llenos.
-- Son muy caros.
+  - Los espacios no siempre están cerca del lugar de destino.
+  - Suelen estar llenos.
+  - Son muy caros.
 
-Cuando no encuentra espacio, **intenta seguir buscando** o, en casos extremos, **dejar el auto afuera del establecimiento**. Hasta el momento no ha recibido multas, aunque sí advertencias informales.
+  Cuando no encuentra espacio, **intenta seguir buscando** o, en casos extremos, **dejar el auto afuera del establecimiento**. Hasta el momento no ha recibido multas, aunque sí advertencias informales.
 
-En cuanto al uso de tecnología, **actualmente no usa una aplicación especializada en estacionamientos**. Solo recurre a **Google Maps** para buscar cocheras cercanas, aunque reconoce que **no todas están registradas**.
+  En cuanto al uso de tecnología, **actualmente no usa una aplicación especializada en estacionamientos**. Solo recurre a **Google Maps** para buscar cocheras cercanas, aunque reconoce que **no todas están registradas**.
 
-Mauricio considera que sería útil contar con una **aplicación que muestre en tiempo real los espacios disponibles y que permita reservar un espacio**. Le interesaría usarla especialmente para **lugares desconocidos** y para **comparar opciones**. Estaría dispuesto a pagar por el servicio dependiendo de la zona y modalidad de cobro, considerando razonable un precio de **4 a 5 soles por hora**.
+  Mauricio considera que sería útil contar con una **aplicación que muestre en tiempo real los espacios disponibles y que permita reservar un espacio**. Le interesaría usarla especialmente para **lugares desconocidos** y para **comparar opciones**. Estaría dispuesto a pagar por el servicio dependiendo de la zona y modalidad de cobro, considerando razonable un precio de **4 a 5 soles por hora**.
 
-**Funcionalidades deseadas para una app de estacionamientos:**
+  **Funcionalidades deseadas para una app de estacionamientos:**
 
-- Facilidad para **encontrar estacionamientos cercanos**.
-- Mostrar **disponibilidad de espacios en tiempo real**.
-- **Precio actualizado** de cada cochera.
-- **Respuesta rápida** de la app al buscar opciones.
+  - Facilidad para **encontrar estacionamientos cercanos**.
+  - Mostrar **disponibilidad de espacios en tiempo real**.
+  - **Precio actualizado** de cada cochera.
+  - **Respuesta rápida** de la app al buscar opciones.
 
-Mauricio aclara que **no pagaría una suscripción mensual**, ya que no la utilizaría con suficiente frecuencia, pero podría considerar **pagos por uso puntual** si la situación lo amerita.
+  Mauricio aclara que **no pagaría una suscripción mensual**, ya que no la utilizaría con suficiente frecuencia, pero podría considerar **pagos por uso puntual** si la situación lo amerita.
 
-**Características observadas:**
+  **Características observadas:**
 
-- **Personalidad:** Previsor, organizado y pragmático. Prefiere planificar con anticipación para evitar contratiempos.
-- **Influencias:** Limitado por la falta de información actualizada sobre estacionamientos en zonas nuevas y altos precios en áreas céntricas.
-- **Canales de interacción:** Utiliza principalmente Google Maps, y navegadores como Google Chrome y Bing.
-- **Dispositivos:** Usa computadora con Windows y celular con Android.
+  - **Personalidad:** Previsor, organizado y pragmático. Prefiere planificar con anticipación para evitar contratiempos.
+  - **Influencias:** Limitado por la falta de información actualizada sobre estacionamientos en zonas nuevas y altos precios en áreas céntricas.
+  - **Canales de interacción:** Utiliza principalmente Google Maps, y navegadores como Google Chrome y Bing.
+  - **Dispositivos:** Usa computadora con Windows y celular con Android.
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/7406bb9b8894ad60830432f6c9809f4bf228aacd/ChapterII-images/Entrevista-conductor-Mauricio.png?raw=true"></td>
+      <td colspan="2"><img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/7406bb9b8894ad60830432f6c9809f4bf228aacd/ChapterII-images/Entrevista-conductor-Mauricio.png?raw=true" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1073,7 +1072,7 @@ Mauricio aclara que **no pagaría una suscripción mensual**, ya que no la utili
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista2.png"></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista2.png" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1095,7 +1094,7 @@ Mauricio aclara que **no pagaría una suscripción mensual**, ya que no la utili
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista3.png"></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista3.png" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1153,11 +1152,11 @@ En esta sección se presenta el **User Task Matrix**, que concentra las tareas q
 | Verificar disponibilidad en tiempo real  | -                                  | -               | High           | High            |
 | Gestionar historial de reservas/pagos    | Medium                             | Medium          | Medium         | Medium          |
 
-### Explicación
+##### Explicación
 
 Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y **conductores**, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
 
-#### Tareas con Mayor Frecuencia e Importancia
+###### Tareas con Mayor Frecuencia e Importancia
 
 1. **Establecer horarios y tarifas** (propietarios): Es esencial para gestionar correctamente su espacio y maximizar ingresos. Tiene alta frecuencia, especialmente si los precios varían según el día o la demanda.
 
@@ -1167,12 +1166,12 @@ Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y
 
 4. **Evaluar seguridad del lugar** (conductores): La percepción de seguridad influye fuertemente en la elección del estacionamiento.
 
-#### Principales Diferencias
+###### Principales Diferencias
 
 - Los **propietarios** están enfocados en la **gestión operativa y financiera** del estacionamiento (tarifas, disponibilidad, pagos).
 - Los **conductores** están enfocados en **localizar, evaluar y asegurar** su experiencia al aparcar.
 
-#### Coincidencias
+###### Coincidencias
 
 Ambos perfiles realizan la tarea de **coordinar con clientes** (por ejemplo, para resolver inconvenientes o dar indicaciones) y **gestionar historial** (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
 
@@ -1348,7 +1347,6 @@ Se presenta una tabla que contiene los términos específicos del dominio del ne
 ---
 
 ## Capítulo III: Requirements Specification
-
 ### 3.1. To-Be Scenario Mapping
 En esta sección se presentan los To-Be Scenario Mapping para cada segmento objetivo donde se reflejarán, a partir de los As-is Scenario Mapping, la experiencia de usuario ideal si se resuelven los puntos de dolor y necesidades. La herramienta empleada para su desarrollo ha sido Miro.
 
