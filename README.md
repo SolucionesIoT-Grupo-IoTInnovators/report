@@ -1011,7 +1011,7 @@ Medio de aplicación
     <tr>
       <td colspan="2">
         
-La entrevista se ha realizado a **Mauricio Oliveira Poch**, de **24 años**, quien cuenta con más de **3 años de experiencia conduciendo**. Mauricio utiliza **Windows** como sistema operativo en su computadora y **Android** en su celular. Sus navegadores preferidos son **Google Chrome** y ocasionalmente **Bing**.
+La entrevista se ha realizado a **Mauricio Oliveira Paucar**, de **24 años**, quien cuenta con más de **3 años de experiencia conduciendo**. Mauricio utiliza **Windows** como sistema operativo en su computadora y **Android** en su celular. Sus navegadores preferidos son **Google Chrome** y ocasionalmente **Bing**.
 
 Actualmente conduce entre **3 a 4 veces por semana**, principalmente para asistir a clases y reuniones sociales. Menciona que tiene mayor dificultad para estacionar en **lugares nuevos** debido al desconocimiento de la zona y en el **Centro de Lima**, donde los precios suelen ser altos. Por ello, suele buscar alternativas como **centros comerciales** o **supermercados cercanos** que cuenten con estacionamiento.
 
@@ -1045,7 +1045,7 @@ Mauricio aclara que **no pagaría una suscripción mensual**, ya que no la utili
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista1.png"></td>
+      <td colspan="2"><img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/7406bb9b8894ad60830432f6c9809f4bf228aacd/ChapterII-images/Entrevista-conductor-Mauricio.png?raw=true"></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1113,14 +1113,14 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
   Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.<br><br>
 </div>
 
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Propietario.png" alt="user persona de propietario de estacionamiento">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Propietario.png?raw=true" alt="user persona de propietario de estacionamiento">
 
 **Segmento Conductor:** <br>
 <div align="justify">
   Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.<br><br>
 </div>
 
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png" alt="user persona de conductor">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png?raw=true" alt="user persona de conductor">
 
 #### 2.3.2. User Task Matrix
 
@@ -1188,11 +1188,11 @@ En esta sección se presentan los Empathy Maps para cada User Persona, que ayuda
 
 **Segmento Propietario de Estacionamiento:** <br>
 Alejandro Torres es propietario de varios estacionamientos en la ciudad y busca maximizar la rentabilidad de su negocio. Aunque tiene experiencia en gestión, enfrenta desafíos como baja ocupación en horarios específicos y la falta de datos sobre el comportamiento de los clientes. Le interesa implementar herramientas tecnológicas que le permitan automatizar reservas y pagos, así como obtener reportes detallados que le ayuden a tomar mejores decisiones. Su principal frustración es la dificultad de administrar los espacios de manera eficiente sin una plataforma digital que optimice la operación. Su objetivo es mejorar la ocupación de sus estacionamientos, aumentar sus ingresos y ofrecer una mejor experiencia a sus clientes.
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20propietario%20de%20estacionamiento.png" alt="emphaty mapping de propietario de estacionamiento">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20propietario%20de%20estacionamiento.png?raw=true" alt="emphaty mapping de propietario de estacionamiento">
 
 **Segmento Conductor:** <br>
 Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asistir a reuniones. Su apretada agenda hace que encontrar estacionamiento sea un problema frecuente, especialmente en zonas de alta demanda. Se frustra al perder tiempo buscando un espacio disponible, enfrentarse a tarifas imprevistas o no tener información en tiempo real sobre la disponibilidad. Como usuario de tecnología, busca soluciones que optimicen su tiempo y le brinden mayor comodidad, como aplicaciones móviles que le permitan reservar espacios con antelación y recibir notificaciones sobre estacionamientos cercanos y sus costos. Su objetivo principal es reducir el estrés de encontrar estacionamiento y asegurarse de que su vehículo esté seguro mientras realiza su trabajo.
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20conductor.png" alt="emphaty mapping de conductor">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20conductor.png?raw=true" alt="emphaty mapping de conductor">
 
 **Proceso de Elaboración** <br>
 1. **Preparación y Enfoque en el User Persona** <br>
@@ -1290,7 +1290,7 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
 
 #### 2.3.5. As-is Scenario Mapping
 **Segmento Propietario de Estacionamiento:** <br>
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg" alt="as is scenario mapping propietario de estacionamiento">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg?raw=true" alt="as is scenario mapping propietario de estacionamiento">
 
 - **Positive points**:
     - **Cobra en efectivo o por app según el cliente:** Ofrece flexibilidad de pago, lo que facilita la experiencia del cliente.
@@ -1305,7 +1305,7 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Podría ganar más si tuviera más reservas anticipadas:** Es importante investigar si Alejandro está dispuesto a adoptar un sistema de reservas online y qué barreras percibe.
 
 **Segmento Conductor:** <br>
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/As%20is%20Scenario%20Mapping-conductor.jpg" alt="as is scenario mapping conductor">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/As%20is%20Scenario%20Mapping-conductor.jpg?raw=true" alt="as is scenario mapping conductor">
 
 - **Positive points**:
     - **Usa apps como Google Maps o Waze para planear su ruta:** Diego confía en la tecnología para planificar sus trayectos, lo que le permite evitar zonas con tráfico y llegar más rápido a sus destinos.
@@ -1342,7 +1342,7 @@ Se presenta el ubiquitous language definido en el proyecto:
 En esta sección se presentan los To-Be Scenario Mapping para cada segmento objetivo donde se reflejarán, a partir de los As-is Scenario Mapping, la experiencia de usuario ideal si se resuelven los puntos de dolor y necesidades. La herramienta empleada para su desarrollo ha sido Miro.
 
 **Segmento Propietario de Estacionamiento:** <br>
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/To-be%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg" alt="to be scenario mapping propietario de estacionamiento">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/To-be%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg?raw=true" alt="to be scenario mapping propietario de estacionamiento">
 
 **Cambios Claves**
 - Eliminación del registro manual gracias a paneles automáticos y visualización en tiempo real.
@@ -1350,7 +1350,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 - Acceso a datos analíticos facilita la toma de decisiones y mejora la rentabilidad.
 
 **Segmento Conductor:** <br>
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/To-be%20Scenario%20Mapping-conductor.jpg" alt="to be scenario mapping conductor">
+<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/To-be%20Scenario%20Mapping-conductor.jpg?raw=true" alt="to be scenario mapping conductor">
 
 **Cambios Claves**
 - La incertidumbre por la disponibilidad y precios desaparece gracias a la reserva previa y visibilidad en tiempo real.
