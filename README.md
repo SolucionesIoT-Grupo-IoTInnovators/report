@@ -1332,19 +1332,18 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
 
 ### 2.4. Ubiquitous Language
 
-Se presenta el ubiquitous language definido en el proyecto:
+Se presenta una tabla que contiene los términos específicos del dominio del negocio:
 
-| Término                | Definición                                                                                     |
-|------------------------|-----------------------------------------------------------------------------------------------|
-| **Usuario**            | Persona que accede al sistema para buscar o gestionar estacionamientos.                      |
-| **Propietario**        | Actor que administra los espacios de estacionamiento ofrecidos en la plataforma.             |
-| **Estacionamiento**    | Entidad física administrada por un propietario, compuesta por espacios disponibles.           |
-| **Espacio (Spot)**     | Unidad mínima dentro de un estacionamiento, que puede estar disponible u ocupado.            |
-| **Reserva**            | Acción realizada por un usuario para apartar un espacio durante un tiempo determinado.       |
-| **Suscripción**        | Plan adquirido por un usuario que brinda beneficios o acceso extendido a funcionalidades.     |
-| **Pago**               | Transacción monetaria realizada por un usuario, vinculada a una reserva o suscripción.       |
-| **Notificación**       | Mensaje enviado automáticamente al usuario como respuesta a un evento relevante.             |
-| **Sensor IoT**         | Dispositivo que detecta la ocupación de un espacio y comunica su estado en tiempo real.      |
+| **Término**     | **Definición** |
+|----------------------|---------------------|
+| **Parking Owner**    | Persona natural o empresa que administra uno o más estacionamientos y los publica en la plataforma para obtener ingresos. |
+| **Parking Spot**     | Unidad física individual dentro de un estacionamiento donde un vehículo puede ser ubicado. |
+| **Reservation**      | Acción realizada por un conductor para asegurar la disponibilidad de un espacio por un tiempo determinado. |
+| **Driver**           | Persona que utiliza la plataforma para buscar, reservar y utilizar espacios de estacionamiento. |
+| **Availability**     | Estado en tiempo real de un espacio de estacionamiento que indica si está libre o ocupado. |
+| **Check-in**         | Momento en el que el conductor accede físicamente al espacio reservado. |
+| **Check-out**        | Momento en el que el conductor abandona el espacio de estacionamiento reservado. |
+| **Occupancy Rate**   | Porcentaje de tiempo en que los espacios están siendo utilizados en un periodo determinado. |
 
 ---
 
@@ -2116,22 +2115,22 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 ##### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
 
-!["System Landscape Diagram"](ChapterIV-images/SystemLandscapeDiagram.png)
+!["System Landscape Diagram"](ChapterIV-images/c4-landscape-fix.png)
 
 ##### 4.1.3.2. Software Architecture Context Level Diagrams
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
-!["System Context Diagram"](ChapterIV-images/SystemContextDiagram.png)
+!["System Context Diagram"](ChapterIV-images/c4-context.png)
 
 ##### 4.1.3.3. Software Architecture Container Level Diagrams
 Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
 
-!["Container Diagram"](ChapterIV-images/ContainerDiagram.png)
+!["Container Diagram"](ChapterIV-images/c4-container.png)
 
 ##### 4.1.3.4. Software Architecture Deployment Diagrams
 Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
 
-!["Deployment Diagram"](ChapterIV-images/DeploymentDiagram.png)
+!["Deployment Diagram"](ChapterIV-images/c4-deployment.png)
 
 ### 4.2. Tactical-Level Domain-Driven Design
 #### 4.2.1. Bounded Context: Identity and Access Management
