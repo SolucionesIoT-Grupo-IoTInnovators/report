@@ -1392,8 +1392,13 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Mostrar espacios disponibles en el mapa<br>
         Given que el usuario ha iniciado sesión en la aplicación móvil<br>
         When accede a la pantalla de mapa<br>
-        Then los espacios disponibles se deben mostrar en color verde<br>
+        Then los espacios disponibles se deben mostrar en color azul<br>
         And los espacios ocupados deben mostrarse en color rojo
+        <br><br>
+        Scenario: Mostrar espacios durante reserva<br>
+        Given que el usuario ha seleccionado un espacio<br>
+        When el usuario desea realizar una reserva<br>
+        Then el espacio adquiere un color amarillo
       </td>
       <td>EP01</td>
     </tr>
@@ -1403,9 +1408,15 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       <td>Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.</td>
       <td>
         Scenario: Actualización automática del mapa<br>
-        Given que el propietarios está visualizando el mapa de estacionamientos<br>
+        Given que el propietario está visualizando el mapa de estacionamientos<br>
         When pasan 30 segundos<br>
         Then el sistema debe actualizar automáticamente la disponibilidad de los espacios sin recargar la vista
+        <br><br>
+        Scenario: Reserva de otro usuario<br>
+        Given que un usuario esta realizando una reserva<br>
+        When otro usuario esta realizando la reserva<br>
+        Then el sistema pone el espacio como ocupado<br>
+        And evita que las reservas se superpongan.
       </td>
       <td>EP01</td>
     </tr>
@@ -1419,6 +1430,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         And se encuentra a menos de 300 metros de un estacionamiento<br>
         When un espacio se libera<br>
         Then el sistema debe enviar una notificación indicando la disponibilidad y ubicación
+        <br><br>
+        Scenario: No notificar fuera de rango<br>
+        Given que el usuario está a más de 300 m del estacionamiento<br>
+        When un espacio se libera<br>
+        Then el sistema no envía ninguna notificación
       </td>
       <td>EP01</td>
     </tr>
@@ -1430,7 +1446,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Mostrar visualización de disponibilidad en tiempo real<br>
         Given que el visitante accede a la landing page<br>
         When la sección de disponibilidad es visible<br>
-        Then debe mostrarse un mapa interactivo con la cantidad de espacios disponibles en tiempo real<br><br>
+        Then debe mostrarse un mapa interactivo con la cantidad de espacios disponibles en tiempo real
+        <br><br>
         Scenario: Datos actualizados en tiempo real<br>
         Given que hay cambios en la ocupación de los estacionamientos<br>
         When el sistema detecta estos cambios<br>
@@ -1447,6 +1464,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el usuario visualiza un espacio disponible en el mapa<br>
         When toca un marcador de espacio<br>
         Then se debe mostrar un panel con información sobre el precio, duración máxima permitida y tipo de espacio
+        <br><br>
+        Scenario: Panel con detalles desaparece al cerrar<br>
+        Given que el panel de detalles del espacio está visible<br>
+        When el usuario toca el botón de cerrar<br>
+        Then el panel de información debe desaparecer de la vista
       </td>
       <td>EP01</td>
     </tr>
@@ -1468,6 +1490,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         When selecciona el espacio y presiona "Reservar"<br>
         Then el sistema debe bloquear el espacio durante un tiempo determinado<br>
         And debe mostrar un mensaje de confirmación con el tiempo límite para llegar
+        <br><br>
+        Scenario: No reservar espacio ya bloqueado<br>
+        Given que el espacio ya está reservado por otro usuario<br>
+        When un usuario intenta reservarlo<br>
+        Then el sistema rechaza la solicitud con un error de "espacio no disponible"
       </td>
       <td>EP02</td>
     </tr>
@@ -1481,6 +1508,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         When presiona el botón "Cancelar reserva"<br>
         Then el espacio debe quedar liberado inmediatamente<br>
         And debe mostrarse una notificación de cancelación exitosa
+        <br><br>
+        Scenario: No cancelar reserva expirada<br>
+        Given que la reserva ha expirado automáticamente<br>
+        When el usuario intenta cancelarla<br>
+        Then el sistema indica que no existe reserva activa
       </td>
       <td>EP02</td>
     </tr>
@@ -1494,6 +1526,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         When accede a la opción de pago y confirma el monto<br>
         Then el sistema debe procesar el pago de forma segura<br>
         And debe mostrar un comprobante digital de la transacción
+        <br><br>
+        Scenario: Fallo en el proceso de pago<br>
+        Given que el usuario confirma un pago<br>
+        When el proveedor de pagos rechaza la transacción<br>
+        Then el sistema debe mostrar un mensaje de error e indicar que el pago no se ha realizado
       </td>
       <td>EP02</td>
     </tr>
@@ -1507,6 +1544,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         When introduce los datos de su tarjeta y guarda la información<br>
         Then el sistema debe validar y guardar el método de pago de forma segura<br>
         And debe estar disponible para próximos pagos
+        <br><br>
+        Scenario: Validación fallida del método de pago<br>
+        Given que el usuario introduce datos de tarjeta inválidos<br>
+        When intenta guardarlos<br>
+        Then el sistema rechaza el registro y muestra una notificación de error
       </td>
       <td>EP02</td>
     </tr>
@@ -1519,6 +1561,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el usuario está en la sección de "Mis pagos"<br>
         When selecciona una fecha o rango de fechas<br>
         Then debe mostrarse una lista de pagos realizados con detalles como fecha, monto y estacionamiento
+        <br><br>
+        Scenario: Sin pagos registrados<br>
+        Given que el usuario accede al historial de pagos<br>
+        When no se han realizado transacciones<br>
+        Then el sistema debe mostrar un mensaje indicando que no hay pagos registrados
       </td>
       <td>EP02</td>
     </tr>
@@ -1540,6 +1587,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         When accede al panel principal<br>
         Then debe visualizar un gráfico con el porcentaje de ocupación actual<br>
         And una lista con los espacios ocupados y disponibles en tiempo real
+        <br><br>
+        Scenario: Datos consistentes con sensores<br>
+        Given que un sensor reporta un cambio de estado<br>
+        When el panel consulta el servicio de estado<br>
+        Then el porcentaje de ocupación refleja inmediatamente el cambio
       </td>
       <td>EP03</td>
     </tr>
@@ -1551,9 +1603,13 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Modificar tarifa base por hora<br>
         Given que el propietario está en el panel de tarifas<br>
         When edita el valor en el campo “Tarifa por hora”<br>
-        And selecciona "Guardar cambios"<br>
         Then la tarifa actualizada debe reflejarse en la plataforma<br>
         And debe mostrarse un mensaje de confirmación
+        <br><br>
+        Scenario: Evitar tarifas inválidas<br>
+        Given que el propietario ingresa una tarifa negativa o no numérica<br>
+        When intenta guardar los cambios<br>
+        Then el sistema rechaza el valor ingresado y muestra una notificación de validación
       </td>
       <td>EP03</td>
     </tr>
@@ -1566,6 +1622,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el propietario accede a la sección de reportes<br>
         When selecciona un rango de fechas<br>
         Then el sistema debe generar un archivo PDF o Excel con los datos de ocupación e ingresos
+        <br><br>
+        Scenario: Descargar reporte sin datos<br>
+        Given que no hay datos disponibles para el rango de fechas seleccionado<br>
+        When el propietario intenta generar el reporte<br>
+        Then el sistema muestra una notificación indicando que no hay datos en ese período
       </td>
       <td>EP03</td>
     </tr>
@@ -1577,7 +1638,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Mostrar tabla comparativa<br>
         Given que el visitante accede a la landing page<br>
         When selecciona ¿Por qué SmartParking?”<br>
-        Then debe aparecer una tabla que compare: tiempo de gestión, precisión, ingresos estimados y herramientas disponibles<br><br>
+        Then debe aparecer una tabla que compare: tiempo de gestión, precisión, ingresos estimados y herramientas disponibles
+        <br><br>
         Scenario: Mostrar CTA al final de la tabla<br>
         Given que el visitante revisa la tabla<br>
         When llega al final<br>
@@ -1593,7 +1655,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Ver listado de estacionamientos registrados<br>
         Given que el propietario tiene más de un estacionamiento<br>
         When accede al panel de gestión<br>
-        Then debe visualizar una lista con todos sus estacionamientos registrados<br><br>
+        Then debe visualizar una lista con todos sus estacionamientos registrados
+        <br><br>
         Scenario: Ver detalles por cada estacionamiento<br>
         Given que el propietario está en el panel<br>
         When selecciona un estacionamiento de la lista<br>
@@ -1618,6 +1681,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el administrador está autenticado en la plataforma<br>
         When agrega un sensor proporcionando su ID y ubicación<br>
         Then el sistema confirma el registro y lo muestra en el panel de control
+        <br><br>
+        Scenario: Rechazo de sensor duplicado<br>
+        Given que un sensor con ese mismo ID ya está registrado<br>
+        When intenta volver a registrarlo<br>
+        Then el sistema rechaza la solicitud con un error de “ID duplicado”
       </td>
       <td>EP04</td>
     </tr>
@@ -1629,7 +1697,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Mostrar sección sobre sensores IoT<br>
         Given que el visitante navega en la landing page<br>
         When llega a la sección “¿Cómo funciona?”<br>
-        Then debe visualizar una explicación animada de cómo los sensores detectan ocupación y envían datos a la plataforma<br><br>
+        Then debe visualizar una explicación animada de cómo los sensores detectan ocupación y envían datos a la plataforma
+        <br><br>
         Scenario: Garantía de precisión<br>
         Given que el visitante revisa la confiabilidad del sistema<br>
         When selecciona “Leer más sobre confiabilidad”<br>
@@ -1646,6 +1715,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que un sensor no envía datos por más de 60 segundos<br>
         When el sistema detecta esta inactividad<br>
         Then se envía una notificación al propietario indicando el sensor afectado
+        <br><br>
+        Scenario: Registro de inactividad del sensor<br>
+        Given que un sensor no responde durante un período determinado<br>
+        When se detecta una posible falla<br>
+        Then el sistema registra un evento de error en el historial del sensor para seguimiento posterior
       </td>
       <td>EP04</td>
     </tr>
@@ -1658,6 +1732,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el administrador selecciona uno o más sensores<br>
         When selecciona “Actualizar firmware”<br>
         Then el sistema despliega la actualización de manera remota y muestra un mensaje de éxito o error
+        <br><br>
+        Scenario: Validación de versión de firmware<br>
+        Given que la actualización de firmware se ha completado<br>
+        When el sistema consulta la versión del firmware del sensor<br>
+        Then debe coincidir con la versión esperada en la última actualización
       </td>
       <td>EP04</td>
     </tr>
@@ -1670,10 +1749,15 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el sistema recibe datos de los sensores<br>
         When detecta una discrepancia con los datos mostrados en la interfaz<br>
         Then genera una alerta y actualiza automáticamente el estado correcto
+        <br><br>
+        Scenario: Registro de inconsistencias detectadas<br>
+        Given que se produce una inconsistencia entre el sensor y la plataforma<br>
+        When se ejecuta la validación<br>
+        Then el sistema guarda un registro detallado del incidente para su revisión
       </td>
       <td>EP04</td>
     </tr>
-    <!--Epica 05-->
+    <!--Épica 05-->
     <tr>
       <td>EP05</td>
       <td>Estrategia de Adopción y Crecimiento</td>
@@ -1687,9 +1771,14 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       <td>Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.</td>
       <td>
         Scenario: Registro desde enlace de invitación<br>
-        Given que recibo un enlace de invitación generado por otro usuario<br>
-        When accedo al enlace y completo el registro<br>
-        Then el sistema registra al usuario como referido y lo vincula con quien lo invitó
+        Given que recibe un enlace de invitación válido<br>
+        When completa el registro usando ese enlace<br>
+        Then el sistema lo asocia con el usuario que envió la invitación
+        <br><br>
+        Scenario: Enlace expirado<br>
+        Given que el enlace de invitación ha expirado<br>
+        When el usuario intenta registrarse con ese enlace<br>
+        Then el sistema rechaza el registro indicando “enlace inválido o expirado”
       </td>
       <td>EP05</td>
     </tr>
@@ -1702,6 +1791,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que invito a un nuevo usuario usando mi enlace personalizado<br>
         When ese usuario se registra y realiza su primera reserva<br>
         Then recibo una recompensa en mi cuenta
+        <br><br>
+        Scenario: Recompensa única por referido<br>
+        Given que un mismo referido realiza múltiples reservas<br>
+        When ya se ha otorgado una recompensa por su primer uso<br>
+        Then el sistema no otorga recompensas adicionales por ese mismo referido
       </td>
       <td>EP05</td>
     </tr>
@@ -1713,7 +1807,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Mostrar formulario de registro visible<br>
         Given que el visitante accede a la landing page<br>
         When selecciona “Empieza ahora”<br>
-        Then debe desplegarse un formulario breve con campos de nombre, correo y tipo de usuario<br><br>
+        Then debe desplegarse un formulario breve con campos de nombre, correo y tipo de usuario
+        <br><br>
         Scenario: Confirmación tras registro exitoso<br>
         Given que el visitante llena el formulario correctamente<br>
         When presiona “Registrarse”<br>
@@ -1730,6 +1825,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que he usado la app durante más de 7 días<br>
         When abro la app en ese periodo<br>
         Then se me presenta una encuesta de satisfacción de forma automática
+        <br><br>
+        Scenario: Encuesta no enviada si ya fue respondida<br>
+        Given que el usuario ya ha completado la encuesta de satisfacción<br>
+        When vuelve a abrir la app dentro del mismo periodo<br>
+        Then el sistema no vuelve a mostrar la encuesta
       </td>
       <td>EP05</td>
     </tr>
@@ -1742,9 +1842,15 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que soy un administrador de la plataforma<br>
         When accedo al panel de métricas<br>
         Then puedo ver datos como cantidad de referidos, usuarios activos y conversiones por invitación
+        <br><br>
+        Scenario: Actualización automática de métricas<br>
+        Given que se generan nuevos registros a través de referidos<br>
+        When el sistema recibe la información<br>
+        Then el panel actualiza automáticamente los valores correspondientes sin intervención manual
       </td>
       <td>EP05</td>
     </tr>
+    <!-- Technical Stories -->
     <tr>
       <td>TS01</td>
       <td>Integrar sensores IoT al backend</td>
@@ -1754,6 +1860,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que un sensor envía un POST con su estado (ocupado o libre)<br>
         When el backend recibe la solicitud<br>
         Then el estado del espacio de estacionamiento se actualiza correctamente en la base de datos
+        <br><br>
+        Scenario: Respuesta al sensor<br>
+        Given que el backend procesa correctamente el estado<br>
+        When termina la operación de persistencia<br>
+        Then el endpoint devuelve HTTP 200 OK
       </td>
       <td>-</td>
     </tr>
@@ -1766,6 +1877,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que un usuario envía sus credenciales al endpoint de login<br>
         When las credenciales son válidas<br>
         Then se devuelve un JWT válido que puede ser usado para acceder a recursos protegidos
+        <br><br>
+        Scenario: Rechazo de credenciales inválidas<br>
+        Given que un usuario envía credenciales incorrectas<br>
+        When el sistema valida las credenciales<br>
+        Then el endpoint devuelve HTTP 401 Unauthorized
       </td>
       <td>-</td>
     </tr>
@@ -1778,6 +1894,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el estado de un espacio cambia (de libre a ocupado o viceversa)<br>
         When el cambio es detectado por el backend<br>
         Then la interfaz web actualiza automáticamente el estado visual de ese espacio sin recargar la página
+        <br><br>
+        Scenario: Recuperación inicial de datos<br>
+        Given que un propietario abre el panel por primera vez<br>
+        When la página carga los datos iniciales<br>
+        Then el sistema devuelve la lista completa de estados de espacios con HTTP 200 OK
       </td>
       <td>-</td>
     </tr>
@@ -1791,6 +1912,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         When selecciona el espacio y confirma la reserva<br>
         Then el espacio se marca como reservado en el backend<br>
         And la reserva queda vinculada al usuario
+        <br><br>
+        Scenario: Response de reserva<br>
+        Given que la solicitud de reserva llega al backend<br>
+        When la operación es exitosa<br>
+        Then el endpoint devuelve HTTP 201 Created con el ID de reserva
       </td>
       <td>-</td>
     </tr>
@@ -1803,6 +1929,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Given que el usuario ha reservado un espacio<br>
         When accede a la opción de pagar y completa el proceso con su tarjeta<br>
         Then el sistema confirma el pago y lo registra asociado a la reserva
+        <br><br>
+        Scenario: Manejo de error de pago<br>
+        Given que el proveedor de pago rechaza la transacción<br>
+        When el backend recibe el error<br>
+        Then el endpoint devuelve HTTP 402 Payment Required
       </td>
       <td>-</td>
     </tr>
