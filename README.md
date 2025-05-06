@@ -3940,6 +3940,36 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 
 ### 6.1. Software Configuration Management
 #### 6.1.1. Software Development Environment Configuration
+**Project Management:**
+* Discord: Utilizamos Discord como plataforma de aopoyo durante el trabajo conjunto entre los miembros del equipo de desarrollo. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto. 
+* WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto constante entre los miembros del equipo.
+* GitFlow: Utilizamos GitFlow para mejorar la eficiencia y organización del equipo. GitFlow proporciona una estructura clara para manejar ramas, facilita la colaboración en equipo, mejora el control de versiones, y asegura la calidad del código. 
+* Trello: Trello nos sirvio para identificar los aspectos que deben ser antendidos, considerando cuales ya se hicieron, cuales se pueden mejorar y cuales de haran en un próximo entregable.
+
+**Requirements Management:**
+* Miro: En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave.
+* Lucidchart: Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación. 
+
+**Product UX/UI Design:**  
+* Figma: Empleamos Figma para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de SmartParking. Figma permitió la creación de prototipos, wireframes y diseños visuales que guiarán el desarrollo del producto final.  
+* UXPressia: Utilizamos UXPressia como herramienta especializada en la creación de mapas de experiencia de usuario, perfiles de clientes y otros elementos relacionados. UXPressia nos permitió visualizar y comprender la experiencia del usuario en profundidad, ayudando a mejorar la usabilidad y el diseño de la aplicación. 
+
+**Software Development:** 
+* IDE (Entorno de Desarrollo Integrado): Utilizamos distintas IDE que se adecuaban al apartado del proyecto que se trabajaba. Estos fueron:
+  * Visual Studio Code: Documentación del proyecto y realización del informe.
+  * WebStorm: IDE principal debido a su capacidad para facilitar el desarrollo web moderno y eficiente. Se utilizo al desarrollar la Landing Page y la aplicación web.
+  * IntelliJ: Creación de los web services (Backend)
+  * Android Studio: Creación de la aplicación móvil.
+* HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+* CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML.
+* JavaScript: Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación
+* Vue.js: Framework basado en JavaScript para la creación de aplicaciones web.
+* Java: Lenguaje de programación de propósito general, orientado a objetos. Se caracteriza por ser multiplataforma, seguro y robusto, lo que lo convierte en una opción popular para desarrollar aplicaciones web, móviles, empresariales y mucho más. 
+* Flutter Dart: Desarrollo de la aplicación móvil multiplataforma. Flutter permite crear una aplicación nativa con un solo código base, lo que mejora la eficiencia en el desarrollo y el mantenimiento.
+
+**Software Documentation:** 
+* GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
+* Structurizr: La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
 #### 6.1.2. Source Code Management
 #### 6.1.3. Source Code Style Guide & Conventions
 #### 6.1.4. Software Deployment Configuration
