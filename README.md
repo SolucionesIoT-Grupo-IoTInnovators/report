@@ -32,31 +32,32 @@
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                                                                    |
-|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                   |
+|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del Startup Profile.                                                                                                                       |
-| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                                                   | Adición del Solution Profile y Competidores.                                                                                                       |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del Startup                                                                               |
+| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                                                   | Adición del Solution Profile y Competidores.                                                      |
 | 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                                                         | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
-| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Adición del To-Be Scenario Mapping.                                                                                                                |
-| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición de User Stories.                                                                                                                           |
+| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Adición del To-Be Scenario Mapping.                                                               |
+| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición de User Stories.                                                                          |
 | 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                                                   | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
-| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del segmento objetivo.                                                                                                                     |
-| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                                                                     |
-| 1.9         | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
-| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
-| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correción del menú y puntos faltantes en el documento                                                                                              |
-| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correciones de enlaces y Student Outcome                                                                                                           |
-| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Añadir títulos para la entrega parcial (TP)                                                                                                        |
-| 2.0.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir style guidelines for app web, mobile and iot                                                                                                |
-| 2.0.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
-| 2.0.3       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements                                                  |
-| 2.0.4       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
+| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del segmento objetivo.                                                                    |
+| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                    |
+| 1.9         | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                  |
+| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                              |
+| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correción del menú y puntos faltantes en el documento                                             |
+| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correciones de enlaces y Student Outcome                                                          |
+| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Añadir títulos para la entrega parcial (TP)                                                       |
+| 2.1.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir style guidelines for app web, mobile and iot                                               |
+| 2.2.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
+| 2.2.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements |
+| 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement           |
+| 2.2.3       | 06/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de |
 ---
 
 ## Project Report Collaboration Insights
 ### URL del repositorio en la organización GitHub
-Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/tree/feature-version-registration
+Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md
 
 ### Actividades de elaboración del informe
 #### TB1:
@@ -70,7 +71,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-![Captura de analíticos de colaboración de GitHub - 1](insights/CollaborationTB1.png)
+![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTB1.png)
 
 #### TP:
 **Descripción de las actividades realizadas:**
@@ -83,7 +84,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:**
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-![Captura de analíticos de colaboración de GitHub - 1](insights/CollaborationTP.png)
+![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP.png)
 
 ---
 
@@ -339,7 +340,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.<br><br>
         TP:<br>
-        <br><br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -396,7 +396,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br>
         TP:<br>
-        <br><br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -412,8 +411,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 <div align="justify">
-    SmartParking nace como respuesta ante la falta de eficiencia en la gestión de estacionamientos en espacios públicos de alto tráfico. En muchas ciudades, los conductores pierden un tiempo considerable buscando espacios de estacionamiento disponibles, lo que genera congestión vehicular, aumenta la contaminación ambiental y reduce la satisfacción del usuario.
-    Nuestra solución utiliza tecnología IoT para optimizar la administración de grandes estacionamientos, permitiendo la detección en tiempo real de espacios libres, la reserva de estacionamientos a través de una aplicación móvil y la integración con sistemas de pago automatizados. Con SmartParking, buscamos mejorar la movilidad urbana y hacer que el uso de los estacionamientos sea más eficiente y sostenible.<br>
+    IotInnovators es una startup peruana orientada a desarrollar soluciones innovadoras, enfocada en el uso de tecnología Internet of Things (IoT) para lograrlo. Su principal producto es SmartParking, que nace como respuesta ante la ineficiente gestión de estacionamientos en espacios públicos de alto tráfico. En muchas ciudades, los conductores pierden un tiempo considerable buscando espacios de estacionamiento disponibles, lo que genera congestión vehicular, aumenta la contaminación ambiental y reduce la satisfacción del usuario.
+    Nuestra solución utiliza tecnología IoT para optimizar la administración de grandes estacionamientos, permitiendo la detección en tiempo real de espacios libres, la reserva de estacionamientos a través de una aplicación móvil y la integración con sistemas de pago automatizados. <br>
+    Con SmartParking buscamos optimizar el uso de los estacionamientos, para que sean más eficientes y sostenibles, mejorando la movilidad urbana, y facilitando el día a día de conductores y propietarios de los estacionamientos.
     <ul>
       <li>
         <b>Misión:</b>
