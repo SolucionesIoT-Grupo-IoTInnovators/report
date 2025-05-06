@@ -3971,6 +3971,54 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 * GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
 * Structurizr: La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
 #### 6.1.2. Source Code Management
+El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github.
+
+**Organization:** https://github.com/SolucionesIoT-Grupo-IoTInnovators
+
+**Landing Page Repository:**
+**Frontend Web Application :** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-frontend
+
+En cada repositorio, se tenían 2 ramas principales:
+- **main:** En esta rama almacenaremos las versiones oficiales de nuestro repositorio que ya deben pasar a producción.
+- **develop:** Esta rama se utilizará como rama de integración para las “feature” branches. 
+
+**Ramas auxiliares:**
+- **feature:** Estas son las características funcionales que piden los usuarios tanto en landing page y web application.
+- **fix:** Estas ramas tendran la finalidad de dar la oprtunidad de ocrregir errores en el código, sin afectar el desarrollo de otros apartados.
+- **hotfix:** La utilizaremos cuando nuestra última versión en la rama “master” necesite corregir un error o bug crítico que no puede esperar a un siguiente lanzamiento para solucionarse.
+
+Convención de nombres: `[rama]/[nombre-descriptivo]`
+
+**Commit Conventions:**
+El formato de nuestros commits sigue la estructura de los “Conventional Commits” en su versión 1.0.0. Por ello seguimos el siguiente formato:
+`< type >[optional scope]: < description >`
+
+Donde:**
+- **type:** Especifica el tipo de cambio realizado, únicamente puede ser feat, fix, docs, etc.
+- **scope:** Es el alcance que tiene nuestro commit.
+- **description:** Es un breve resumen de los cambios de código.
+
+**Semantic Versioning:**
+El equipo aplicará Versionado Semántico para las versiones de lanzamiento del software. Este sistema de versionado sigue el formato `vX.X.X`:
+
+- **X.**: Para cambios mayores que incluyen modificaciones significativas que no son compatibles con versiones anteriores.
+- **.X**: Para nuevas funcionalidades que no rompen la compatibilidad con versiones anteriores.
+- **.X**: Para correcciones de errores y pequeñas mejoras.
+
+**Conventional Commits:**
+Esta convención asegura que cada mensaje de commit refleje de forma precisa el tipo de cambio realizado en el código. Los tipos de commit son los siguientes:
+
+- **feat**: Para la adición de una nueva funcionalidad.
+- **fix**: Para corrección de errores.
+- **docs**: Para cambios en la documentación.
+- **style**: Para cambios que no afectan la lógica del código, como ajustes de formato.
+- **refactor**: Para reestructuración del código que no añade nuevas funcionalidades ni corrige errores.
+- **chore**: Para tareas rutinarias que no sean específicas de una feature o un error como por ejemplo añadir contenido al fichero .gitignore o instalar una dependencia.
+- **test:** Si añadimos o arreglamos tests.
+- **build:** cuando el cambio afecta al compilado del proyecto.
+- **ci:** el cambio afecta a ficheros de configuración y scripts relacionados con la integración continua.
+- **perf:** usado para mejoras de rendimiento.
+- **revert:** si el commit revierte un commit anterior. Debería indicarse el hash del commit que se revierte.
 #### 6.1.3. Source Code Style Guide & Conventions
 #### 6.1.4. Software Deployment Configuration
 
