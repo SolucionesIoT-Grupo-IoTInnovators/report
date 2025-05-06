@@ -1523,7 +1523,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Modificar tarifa base por hora<br>
         Given que el propietario está en el panel de tarifas<br>
         When edita el valor en el campo “Tarifa por hora”<br>
-        And hace clic en "Guardar cambios"<br>
+        And selecciona "Guardar cambios"<br>
         Then la tarifa actualizada debe reflejarse en la plataforma<br>
         And debe mostrarse un mensaje de confirmación
       </td>
@@ -1537,7 +1537,6 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Descargar reporte mensual<br>
         Given que el propietario accede a la sección de reportes<br>
         When selecciona un rango de fechas<br>
-        And hace clic en "Descargar reporte"<br>
         Then el sistema debe generar un archivo PDF o Excel con los datos de ocupación e ingresos
       </td>
       <td>EP03</td>
@@ -1549,7 +1548,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       <td>
         Scenario: Mostrar tabla comparativa<br>
         Given que el visitante accede a la landing page<br>
-        When hace clic en “¿Por qué SmartParking?”<br>
+        When selecciona ¿Por qué SmartParking?”<br>
         Then debe aparecer una tabla que compare: tiempo de gestión, precisión, ingresos estimados y herramientas disponibles<br><br>
         Scenario: Mostrar CTA al final de la tabla<br>
         Given que el visitante revisa la tabla<br>
@@ -1605,7 +1604,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Then debe visualizar una explicación animada de cómo los sensores detectan ocupación y envían datos a la plataforma<br><br>
         Scenario: Garantía de precisión<br>
         Given que el visitante revisa la confiabilidad del sistema<br>
-        When hace clic en “Leer más sobre confiabilidad”<br>
+        When selecciona “Leer más sobre confiabilidad”<br>
         Then debe mostrarse una ventana emergente o nueva página con datos técnicos y métricas de precisión (&#60 5% error)<br>
       </td>
       <td>EP04</td>
@@ -1629,7 +1628,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       <td>
         Scenario: Actualización remota de firmware<br>
         Given que el administrador selecciona uno o más sensores<br>
-        When hace clic en “Actualizar firmware”<br>
+        When selecciona “Actualizar firmware”<br>
         Then el sistema despliega la actualización de manera remota y muestra un mensaje de éxito o error
       </td>
       <td>EP04</td>
@@ -1674,7 +1673,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
         Scenario: Recompensa por recomendación exitosa<br>
         Given que invito a un nuevo usuario usando mi enlace personalizado<br>
         When ese usuario se registra y realiza su primera reserva<br>
-        Then recibo una recompensa en mi cuenta (ej. crédito o cupón)
+        Then recibo una recompensa en mi cuenta
       </td>
       <td>EP05</td>
     </tr>
@@ -1685,7 +1684,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       <td>
         Scenario: Mostrar formulario de registro visible<br>
         Given que el visitante accede a la landing page<br>
-        When hace clic en “Empieza ahora”<br>
+        When selecciona “Empieza ahora”<br>
         Then debe desplegarse un formulario breve con campos de nombre, correo y tipo de usuario<br><br>
         Scenario: Confirmación tras registro exitoso<br>
         Given que el visitante llena el formulario correctamente<br>
