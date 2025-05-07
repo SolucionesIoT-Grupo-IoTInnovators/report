@@ -30,7 +30,7 @@
 
 ---
 
-## Registro de Versiones del Informe
+# Registro de Versiones del Informe
 
 | **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                   |
 |-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
@@ -55,11 +55,11 @@
 | 2.2.3       | 06/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de |
 ---
 
-## Project Report Collaboration Insights
-### URL del repositorio en la organización GitHub
+# Project Report Collaboration Insights
+**URL del repositorio en la organización GitHub**
 Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md
 
-### Actividades de elaboración del informe
+**Actividades de elaboración del informe**
 #### TB1:
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** Me encargue de realizar la creacion de los user persona, emphaty map, as is scenario mapping, to be scenario mapping y en la elaboracion de la documentacion de los domain, interface, application, infrastrcuture layer de los bounded context
@@ -88,7 +88,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 
 ---
 
-## Contenido
+# Contenido
 
 **Tabla de contenidos**
 
@@ -106,7 +106,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -122,13 +121,11 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-
 - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
   - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. EventStorming](#411-eventstorming)
@@ -266,12 +263,12 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
     - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
     - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
-- [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografia)
 - [Anexos](#anexos)
 
 
-## Student Outcome
+# Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
@@ -407,9 +404,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 </div>
 
 
-## Capítulo I: Introducción
-### 1.1. Startup Profile
-#### 1.1.1. Descripción de la Startup
+# Capítulo I: Introducción
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
 <div align="justify">
     IotInnovators es una startup peruana orientada a desarrollar soluciones innovadoras, enfocada en el uso de tecnología Internet of Things (IoT) para lograrlo. Su principal producto es SmartParking, que nace como respuesta ante la ineficiente gestión de estacionamientos en espacios públicos de alto tráfico. En muchas ciudades, los conductores pierden un tiempo considerable buscando espacios de estacionamiento disponibles, lo que genera congestión vehicular, aumenta la contaminación ambiental y reduce la satisfacción del usuario.
     Nuestra solución utiliza tecnología IoT para optimizar la administración de grandes estacionamientos, permitiendo la detección en tiempo real de espacios libres, la reserva de estacionamientos a través de una aplicación móvil y la integración con sistemas de pago automatizados. <br>
@@ -426,7 +423,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     </ul>
 </div>
 
-#### 1.1.2. Perfiles de integrantes del equipo
+### 1.1.2. Perfiles de integrantes del equipo
 Los integrantes que conforman la startup son:
 
 | Integrante                                 | Perfil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Foto                                                                                                                                                                                     | 
@@ -439,8 +436,8 @@ Los integrantes que conforman la startup son:
 | Tafur Gonzales, Josty Gerardo (20201c069)  | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                                                                                                                                                                                                                                                                       | <img src="ChapterI-images/JostyTafur.png" width=auto height="130">                                                                                                                       |
 | Zarate Caceres, Victor Ernesto (202112907) | Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado                                                                                                                                                                                                                                                                          | <img src="ChapterI-images/ernesto.png" width="250" height="130">                                                                                                                         |
 
-### 1.2. Solution Profile
-#### 1.2.1. Antecedentes y problemática
+## 1.2. Solution Profile
+### 1.2.1. Antecedentes y problemática
 <div align="justify">
   <ul>
     <li>
@@ -488,8 +485,8 @@ Los integrantes que conforman la startup son:
   </ul>
 </div>
 
-#### 1.2.2. Lean UX Process
-##### 1.2.2.1. Lean UX Problem Statements
+### 1.2.2. Lean UX Process
+#### 1.2.2.1. Lean UX Problem Statements
 
 **Domain**  
 El dominio de este proyecto es la gestión inteligente de estacionamientos urbanos, facilitando la búsqueda, reserva y administración de espacios de parqueo mediante una aplicación móvil y web que conecta conductores con espacios disponibles en tiempo real.
@@ -519,8 +516,7 @@ Brindar una solución digital que:
 - **Propietarios de parqueos en zonas de alta demanda** (comerciales o residenciales) interesados en monetizar su espacio disponible.
 
 
-##### 1.2.2.2. Lean UX Assumptions
-
+#### 1.2.2.2. Lean UX Assumptions
 ###### Business Assumptions
 
 - **La solución IoT mejorará la eficiencia de los estacionamientos**: Se asume que al integrar sensores IoT para detectar la disponibilidad de espacios y realizar reservas automáticas, los tiempos de búsqueda de estacionamiento disminuirán significativamente, mejorando la eficiencia de los usuarios.
@@ -554,8 +550,7 @@ Brindar una solución digital que:
 - **Interfaz de administración centralizada para propietarios**: Un panel centralizado permitirá a los propietarios de estacionamientos monitorear en tiempo real la disponibilidad de sus espacios, gestionar tarifas y hacer ajustes rápidos.
 - **Integración con sistemas de pago**: El sistema IoT se conectará con plataformas de pago para permitir que los conductores paguen por su espacio de estacionamiento directamente a través de la aplicación.
 
-
-##### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
 ###### Hipótesis 1:
 Creemos que los conductores adoptarán SmartParking si ofrecemos una plataforma fácil de usar para encontrar y reservar estacionamiento en tiempo real.
@@ -583,97 +578,97 @@ Creemos que el soporte técnico y la educación sobre el uso de la plataforma me
 Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los nuevos usuarios alcance el 90% y la tasa de abandono sea menor al 15% en los primeros tres meses.
 
 
-##### 1.2.2.4. Lean UX Canvas
+#### 1.2.2.4. Lean UX Canvas
 <div align="justify">
   <table width="100%" border="1" cellpadding="10" cellspacing="0">
-      <tr>
-          <td width="33%" valign="top">
-              <h4>Business Problem</h4>
-              <ul>
-                <li>Alta demanda de estacionamientos en zonas urbanas con congestión vehicular y falta de disponibilidad de espacios.</li>
-                <li>Procesos manuales y poco eficientes en la gestión de estacionamientos por parte de propietarios, lo que genera baja ocupación y pérdida de ingresos.</li>
-                <li>Los conductores pierden tiempo buscando estacionamiento, lo que incrementa el tráfico y el estrés urbano.</li>
-              </ul>
-          </td>
-          <td rowspan="2" width="33%" valign="top">
-              <h4>Solutions</h4>
-              <ul>
-                <li>Aplicación móvil para conductores con búsqueda, reserva y pago de estacionamiento.</li>
-                <li>Plataforma web para propietarios con monitoreo de ocupación, estadísticas y gestión de ingresos.</li>
-                <li>Integración de dispositivos IoT para monitoreo en tiempo real de espacios disponibles.</li>
-                <li>Sistema de notificaciones sobre disponibilidad, precios y vencimiento de reservas.</li>
-                <li>Visualización de espacios libres mediante geolocalización en tiempo real.</li>
-              </ul>
-          </td>
-          <td width="33%" valign="top">
-              <h4>Business Outcomes</h4>
-              <ul>
-                <li>Aumento en la ocupación de estacionamientos al optimizar el uso de los espacios disponibles.</li>
-                <li>Reducción del tiempo de búsqueda de estacionamiento para conductores.</li>
-                <li>
-                Mayor eficiencia en la gestión de estacionamientos para los propietarios mediante herramientas de análisis y monitoreo en tiempo real.</li>
-                <li>Monetización efectiva mediante suscripciones, comisiones por transacción y venta de dispositivos IoT.</li>
-              </ul>
-          </td>
-      </tr>
-      <tr>
-          <td valign="top">
-              <h4>Users</h4>
-              <ul>
-                <li>Conductores que buscan estacionamiento de forma rápida y eficiente.</li>
-                <li>Propietarios de estacionamientos que desean maximizar la ocupación y optimizar la gestión de sus espacios.</li>
-              </ul>
-          </td>
-          <td valign="top">
-              <h4>User Outcomes & Benefits</h4>
-              <ul>
-                <li>Menor tiempo de búsqueda de estacionamiento para los conductores.</li>
-                <li>Incremento en la ocupación de espacios para los propietarios.</li>
-                <li>Interacción fluida y en tiempo real a través de la app móvil y la plataforma web.</li>
-                <li>Proceso de pago automatizado y seguro.</li>
-              </ul>
-          </td>
-      </tr>
-      <tr>
-          <td valign="top">
-              <h4>Hypotheses</h4>
-              <ul>
-                <li>Creemos que ofrecer información en tiempo real sobre la disponibilidad de estacionamientos permitirá a los conductores reducir el tiempo de búsqueda en un 30%. Sabremos que hemos tenido éxito cuando veamos una reducción del tiempo promedio de búsqueda registrada en la app.</li>
-                <li>Creemos que la implementación de un sistema de gestión centralizado aumentará la ocupación de estacionamientos en un 20%. Sabremos que tuvimos éxito cuando los propietarios reporten un aumento significativo en el uso de sus espacios.</li>
-                <li>Creemos que ofrecer un sistema automatizado de pagos mejorará la experiencia del usuario, reduciendo los errores y tiempos de procesamiento. Sabremos que tuvimos éxito cuando el 90% de los pagos se realicen a través de la app.</li>
-                <li>Creemos que una experiencia positiva de uso fomentará recomendaciones orgánicas, aumentando el número de usuarios. Sabremos que tuvimos éxito cuando al menos el 30% de los nuevos registros provengan de referencias.</li>
-              </ul>
-          </td>
-          <td valign="top">
-              <h4>What's the most important thing we need to learn first?</h4>
-              <ul>
-                <li>Identificar los principales puntos de dolor de los conductores al buscar estacionamiento en zonas congestionadas.</li>
-                <li>Analizar los métodos actuales de gestión utilizados por los propietarios de estacionamientos.</li>
-                <li>Conocer el comportamiento de los usuarios respecto al uso de aplicaciones similares en el mercado.</li>
-                <li>Validar el interés de los propietarios en adoptar tecnología IoT para el monitoreo de espacios.</li>
-              </ul>
-          </td>
-          <td valign="top">
-              <h4>What's the least amount of work we need to do to learn the next most important thing?</h4>
-              <ul>
-                <li>Realizar encuestas a conductores sobre problemas comunes al buscar estacionamiento.</li>
-                <li>Entrevistar a propietarios sobre su interés en digitalizar la gestión de sus espacios.</li>
-                <li>Implementar un prototipo funcional con las características esenciales para evaluar su aceptación.</li>
-                <li>Realizar pruebas piloto en zonas urbanas con alta demanda de estacionamiento para validar el impacto del sistema.</li>
-              </ul>
-          </td>
-      </tr>
-    </table>
+    <tr>
+      <td width="33%" valign="top">
+        <h4>Business Problem</h4>
+        <ul>
+          <li>Alta demanda de estacionamientos en zonas urbanas con congestión vehicular y falta de disponibilidad de espacios.</li>
+          <li>Procesos manuales y poco eficientes en la gestión de estacionamientos por parte de propietarios, lo que genera baja ocupación y pérdida de ingresos.</li>
+          <li>Los conductores pierden tiempo buscando estacionamiento, lo que incrementa el tráfico y el estrés urbano.</li>
+        </ul>
+      </td>
+      <td rowspan="2" width="33%" valign="top">
+        <h4>Solutions</h4>
+        <ul>
+          <li>Aplicación móvil para conductores con búsqueda, reserva y pago de estacionamiento.</li>
+          <li>Plataforma web para propietarios con monitoreo de ocupación, estadísticas y gestión de ingresos.</li>
+          <li>Integración de dispositivos IoT para monitoreo en tiempo real de espacios disponibles.</li>
+          <li>Sistema de notificaciones sobre disponibilidad, precios y vencimiento de reservas.</li>
+          <li>Visualización de espacios libres mediante geolocalización en tiempo real.</li>
+        </ul>
+      </td>
+      <td width="33%" valign="top">
+        <h4>Business Outcomes</h4>
+        <ul>
+          <li>Aumento en la ocupación de estacionamientos al optimizar el uso de los espacios disponibles.</li>
+          <li>Reducción del tiempo de búsqueda de estacionamiento para conductores.</li>
+          <li>
+          Mayor eficiencia en la gestión de estacionamientos para los propietarios mediante herramientas de análisis y monitoreo en tiempo real.</li>
+          <li>Monetización efectiva mediante suscripciones, comisiones por transacción y venta de dispositivos IoT.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <h4>Users</h4>
+        <ul>
+          <li>Conductores que buscan estacionamiento de forma rápida y eficiente.</li>
+          <li>Propietarios de estacionamientos que desean maximizar la ocupación y optimizar la gestión de sus espacios.</li>
+        </ul>
+      </td>
+      <td valign="top">
+        <h4>User Outcomes & Benefits</h4>
+        <ul>
+          <li>Menor tiempo de búsqueda de estacionamiento para los conductores.</li>
+          <li>Incremento en la ocupación de espacios para los propietarios.</li>
+          <li>Interacción fluida y en tiempo real a través de la app móvil y la plataforma web.</li>
+          <li>Proceso de pago automatizado y seguro.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">
+        <h4>Hypotheses</h4>
+        <ul>
+          <li>Creemos que ofrecer información en tiempo real sobre la disponibilidad de estacionamientos permitirá a los conductores reducir el tiempo de búsqueda en un 30%. Sabremos que hemos tenido éxito cuando veamos una reducción del tiempo promedio de búsqueda registrada en la app.</li>
+          <li>Creemos que la implementación de un sistema de gestión centralizado aumentará la ocupación de estacionamientos en un 20%. Sabremos que tuvimos éxito cuando los propietarios reporten un aumento significativo en el uso de sus espacios.</li>
+          <li>Creemos que ofrecer un sistema automatizado de pagos mejorará la experiencia del usuario, reduciendo los errores y tiempos de procesamiento. Sabremos que tuvimos éxito cuando el 90% de los pagos se realicen a través de la app.</li>
+          <li>Creemos que una experiencia positiva de uso fomentará recomendaciones orgánicas, aumentando el número de usuarios. Sabremos que tuvimos éxito cuando al menos el 30% de los nuevos registros provengan de referencias.</li>
+        </ul>
+      </td>
+      <td valign="top">
+        <h4>What's the most important thing we need to learn first?</h4>
+        <ul>
+          <li>Identificar los principales puntos de dolor de los conductores al buscar estacionamiento en zonas congestionadas.</li>
+          <li>Analizar los métodos actuales de gestión utilizados por los propietarios de estacionamientos.</li>
+          <li>Conocer el comportamiento de los usuarios respecto al uso de aplicaciones similares en el mercado.</li>
+          <li>Validar el interés de los propietarios en adoptar tecnología IoT para el monitoreo de espacios.</li>
+        </ul>
+      </td>
+      <td valign="top">
+        <h4>What's the least amount of work we need to do to learn the next most important thing?</h4>
+        <ul>
+          <li>Realizar encuestas a conductores sobre problemas comunes al buscar estacionamiento.</li>
+          <li>Entrevistar a propietarios sobre su interés en digitalizar la gestión de sus espacios.</li>
+          <li>Implementar un prototipo funcional con las características esenciales para evaluar su aceptación.</li>
+          <li>Realizar pruebas piloto en zonas urbanas con alta demanda de estacionamiento para validar el impacto del sistema.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
 </div>
 
-### 1.3. Segmentos objetivo
+## 1.3. Segmentos objetivo
 | **Tipo de usuario**                  | **Geográfico**                                                                                                                                                                                   | **Psicográfico**                                                                                                                                                                                                                                                       | **Demográfico**                                                                                                                                                            |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Propietarios de Estacionamientos** | Propietarios o administradores de estacionamientos ubicados en zonas urbanas o áreas de alta demanda de estacionamiento, tanto públicas como privadas.                                           | Motivados por la optimización de su espacio, la automatización de cobros y la mejora de la eficiencia operativa. Buscan una solución que les ayude a aumentar la rentabilidad de sus operaciones mediante el monitoreo en tiempo real y la automatización de procesos. | - **Edad:** Entre 30 y 55 años. <br> - **Educación:** Formación en administración de negocios, ingeniería industrial o áreas relacionadas con la gestión de instalaciones. |
 | **Conductores**                      | Conductores urbanos que frecuentemente buscan estacionamiento en zonas con alta densidad de tráfico y poca disponibilidad de espacios, tanto en centros comerciales como en áreas residenciales. | Buscan soluciones que les ahorren tiempo, reduzcan el estrés y les ayuden a evitar la frustración de encontrar estacionamiento. Valoran la conveniencia de encontrar, reservar y pagar estacionamientos a través de una plataforma digital fácil de usar.              | - **Edad:** Entre 18 y 50 años. <br> - **Educación:** Variada, desde estudiantes universitarios hasta profesionales con formación técnica o superior.                      |
 
-## Capítulo II: Requirements Elicitation & Analysis
-### 2.1. Competidores
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
 Nuestros competidores principales seran los siguientes:
 
 <table border="1" cellspacing="0" cellpadding="8">
@@ -703,7 +698,7 @@ Nuestros competidores principales seran los siguientes:
   </tr>
 </table>
 
-#### 2.1.1. Análisis competitivo
+### 2.1.1. Análisis competitivo
 
 ##### Competitive Analysis Landscape
 
@@ -836,13 +831,13 @@ Nuestros competidores principales seran los siguientes:
 | ACCIST       | Importaciones informales de equipos sin soporte.                                                  |
 | Smelpro      | Avance rápido de nuevas tecnologías internacionales.                                              |
 
-#### 2.1.2. Estrategias y tácticas frente a competidores
+### 2.1.2. Estrategias y tácticas frente a competidores
 <div align="justify">
   Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. A su vez, anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
 </div>
 
-### 2.2. Entrevistas
-#### 2.2.1. Diseño de entrevistas
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
 **Objetivo:**
 
 Identificar con claridad las necesidades, frustraciones y comportamientos actuales de los usuarios en relación con la gestión y disponibilidad de espacios de parqueo en zonas urbanas. Esto permitirá validar las hipótesis planteadas en el enfoque Lean UX y orientar el desarrollo de la solución IoT SmartParking hacia una verdadera propuesta de valor.
@@ -931,8 +926,8 @@ Medio de aplicación
 - Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
 
 
-#### 2.2.2. Registro de entrevistas
-##### Segmento 1:
+### 2.2.2. Registro de entrevistas
+**Segmento 1:**
 <div align="justify">
   <!--Entrevista 1-->
   <table>
@@ -1002,7 +997,7 @@ Medio de aplicación
   </table>
 </div>
 
-##### Segmento 2:
+**Segmento 2:**
 <div align="justify">
   <!--Entrevista 1-->
   <table>
@@ -1102,7 +1097,7 @@ Medio de aplicación
   </table>
 </div>
 
-#### 2.2.3. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 <div align="justify">
   <ul>
     <li>Segmento 1:</li>
@@ -1111,10 +1106,10 @@ Medio de aplicación
   </ul>
 </div>
 
-### 2.3. Needfinding
+## 2.3. Needfinding
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
 
-#### 2.3.1. User Personas
+### 2.3.1. User Personas
 <div align="justify">
   En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.<br><br>
 </div>
@@ -1133,7 +1128,7 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png?raw=true" alt="user persona de conductor">
 
-#### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
 
 En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los **User Personas** realizan para cumplir sus objetivos. Se consideran dos segmentos: **propietarios de estacionamiento** y **conductores**. Las tareas identificadas representan actividades que los usuarios deben realizar independientemente de la existencia de una solución de software.
 
@@ -1152,11 +1147,11 @@ En esta sección se presenta el **User Task Matrix**, que concentra las tareas q
 | Verificar disponibilidad en tiempo real  | -                                  | -               | High           | High            |
 | Gestionar historial de reservas/pagos    | Medium                             | Medium          | Medium         | Medium          |
 
-##### Explicación
+###### Explicación
 
 Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y **conductores**, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
 
-###### Tareas con Mayor Frecuencia e Importancia
+**Tareas con Mayor Frecuencia e Importancia**
 
 1. **Establecer horarios y tarifas** (propietarios): Es esencial para gestionar correctamente su espacio y maximizar ingresos. Tiene alta frecuencia, especialmente si los precios varían según el día o la demanda.
 
@@ -1166,18 +1161,18 @@ Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y
 
 4. **Evaluar seguridad del lugar** (conductores): La percepción de seguridad influye fuertemente en la elección del estacionamiento.
 
-###### Principales Diferencias
+**Principales Diferencias**
 
 - Los **propietarios** están enfocados en la **gestión operativa y financiera** del estacionamiento (tarifas, disponibilidad, pagos).
 - Los **conductores** están enfocados en **localizar, evaluar y asegurar** su experiencia al aparcar.
 
-###### Coincidencias
+**Coincidencias**
 
 Ambos perfiles realizan la tarea de **coordinar con clientes** (por ejemplo, para resolver inconvenientes o dar indicaciones) y **gestionar historial** (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
 
 Estas diferencias y coincidencias subrayan la necesidad de una solución que contemple tanto la eficiencia operativa para los propietarios como la conveniencia y seguridad para los conductores.
 
-#### 2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping
 
 La sección de User Journey Maps muestra el recorrido completo de los usuarios de la app de parking, desde que conocen por primera vez la solución hasta el momento en que la dejan de utilizar. El mapeo evidencia las acciones, metas, emociones y problemas experimentados por los dos segmentos clave: propietarios de estacionamiento y conductores. Además, se identifican oportunidades de mejora que pueden guiar el desarrollo de nuevas funcionalidades o ajustes en la experiencia del usuario.
 
@@ -1194,7 +1189,7 @@ El journey de los **Conductores** comienza al descubrir la app como una solució
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/165729b4a8060773766191d14f61a13c0b8669df/ChapterII-images/user_journey_mapping_conductor.png?raw=true" alt="Segmento Conductor">
 
-#### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping
 En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
 
 **Segmento Propietario de Estacionamiento:** <br>
@@ -1299,7 +1294,7 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
             - Falta de información en tiempo real sobre precios y disponibilidad.
             - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
 
-#### 2.3.5. As-is Scenario Mapping
+### 2.3.5. As-is Scenario Mapping
 **Segmento Propietario de Estacionamiento:** <br>
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg?raw=true" alt="as is scenario mapping propietario de estacionamiento">
 
@@ -1329,7 +1324,7 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **¿Habrá estacionamiento disponible cuando llegue?:** Se requiere entender mejor cómo los conductores manejan la incertidumbre de disponibilidad al momento de planear su viaje.
     - **Ojalá no me multen o remolquen:** Hay que investigar si los usuarios verifican la legalidad del lugar donde estacionan o si simplemente arriesgan por falta de tiempo o información.
 
-### 2.4. Ubiquitous Language
+## 2.4. Ubiquitous Language
 
 Se presenta una tabla que contiene los términos específicos del dominio del negocio:
 
@@ -1346,8 +1341,8 @@ Se presenta una tabla que contiene los términos específicos del dominio del ne
 
 ---
 
-## Capítulo III: Requirements Specification
-### 3.1. To-Be Scenario Mapping
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping
 En esta sección se presentan los To-Be Scenario Mapping para cada segmento objetivo donde se reflejarán, a partir de los As-is Scenario Mapping, la experiencia de usuario ideal si se resuelven los puntos de dolor y necesidades. La herramienta empleada para su desarrollo ha sido Miro.
 
 **Segmento Propietario de Estacionamiento:** <br>
@@ -1366,7 +1361,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 - Se eliminan las vueltas innecesarias y el estrés por llegar tarde.
 - Mejora la confianza y seguridad, tanto en el trayecto como en el uso del espacio reservado.
 
-### 3.2. User Stories
+## 3.2. User Stories
 <div align="justify">
   <table>
     <tr>
@@ -1940,7 +1935,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
   </table>
 </div>
 
-### 3.3. Impact Mapping
+## 3.3. Impact Mapping
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
 
 - Segmento 1: Propietarios de estacionamientos:
@@ -1948,7 +1943,7 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 - Segmento 2: Conductores
   !["Impact Mapping - Segmento 2"](ChapterIII-images/ImpactMap2.png)
 
-### 3.4. Product Backlog
+## 3.4. Product Backlog
 | # Orden | User Story Id | Título                                                         | Descripción                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
 |:-------:|:-------------:|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 |   01    |     US04      | Información en Tiempo Real de Disponibilidad de Espacios       | Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.                                                                     | 1                                |
@@ -1983,45 +1978,45 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 |   30    |     US25      | Panel de métricas de crecimiento orgánico (Admin)              | Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.                                                       | 5                                |
 ---
 
-## Capítulo IV: Solution Software Design
-### 4.1. Strategic-Level Domain-Driven Design
-#### 4.1.1. EventStorming
-### -  Unstructured Exploration
+# Capítulo IV: Solution Software Design
+## 4.1. Strategic-Level Domain-Driven Design
+### 4.1.1. EventStorming
+- **Unstructured Exploration**
 En esta etapa inicial, se identificaron libremente eventos clave del sistema sin estructura definida. Se exploraron acciones como la creación de cuentas, registro de estacionamientos, realización de reservas, actualización de sensores IoT y validaciones de pagos. Esta fase sirvió para reconocer los eventos más relevantes dentro del dominio.
 
 ![Unstructured Exploration](ChapterIV-images/Unstructured%20Exploration.PNG)
 
-### - Timelines
+- **Timelines**
 Se organizaron los eventos en secuencias lógicas por subdominios: Registro y autenticación, Gestión de Estacionamientos, Reserva de Espacios, Pago de Reserva, Reseña y Suscripción. Cada línea temporal muestra caminos positivos y negativos, reflejando los flujos exitosos y sus posibles fallos.
 
 ![Timelines](ChapterIV-images/Timelines.PNG)
 
-### - Pain Points
+- **Pain Points**
 Se mapearon los caminos felices (Happy Path) y no felices (Unhappy Path) para detectar áreas problemáticas. Por ejemplo, el registro de estacionamientos fallido por información incompleta, espacios ocupados duplicados, o sensores con datos inconsistentes. Esta etapa permitió identificar riesgos funcionales y de validación.
 
 ![Pain Points](ChapterIV-images/Pain%20Points.PNG)
 
-### - Pivotal Points
+- **Pivotal Points**
 Se identificaron los puntos clave que cambian el flujo de la aplicación, como la validación de duplicados de nombre/dirección, el chequeo de disponibilidad de espacios, o la validación de coordenadas. Estos momentos decisivos afectan decisiones de negocio importantes.
 
 ![Pivotal Points](ChapterIV-images/Pivotal%20Points.PNG)
 
-### - Commands
+- **Commands**
 Se definieron los comandos como intenciones del usuario o del sistema: CreateParkingCommand, AddParkingSpotCommand, UpdateParkingDetailsCommand, ValidateParkingAvailabilityCommand. Cada uno con sus posibles resultados positivos o errores relacionados (validaciones fallidas, datos duplicados, rangos inválidos).
 
 ![Commands](ChapterIV-images/Commands.PNG)
 
-### - Policies
+- **Policies**
 Se establecieron políticas de negocio automáticas que responden a ciertos eventos. Ejemplos: política de validación de spots duplicados, asignación de rol por tipo de usuario, validación de espacio disponible antes de confirmar reserva o validación de monto pagado.
 
 ![Policies](ChapterIV-images/Policies.PNG)
 
-### - Read Models
+- **Read Models**
 Se identificaron las proyecciones de datos utilizadas por la interfaz de usuario: página de detalles de estacionamiento, lista de espacios, perfil del conductor o propietario, historial de reservas. Cada read model responde a una política que define qué información mostrar y cómo.
 
 ![Read Models](ChapterIV-images/Read%20Models.PNG)
 
-### - External Systems
+- **External Systems**
 Se reconocieron sistemas externos como:
 - *Google Maps API* para geolocalización de estacionamientos.
 - *Firebase Cloud Messaging* para envío de notificaciones push.
@@ -2030,7 +2025,7 @@ Estos sistemas interactúan con el sistema principal para expandir capacidades f
 ![External Systems](ChapterIV-images/External%20Systems.PNG)
 
 
-### - Aggregates
+- **Aggregates**
 Se modelaron los aggregates clave:
 - ParkingOwner: crea y gestiona estacionamientos y sus espacios.
 - Driver: consulta estacionamientos disponibles.
@@ -2039,9 +2034,8 @@ Cada aggregate encapsula consistencia y reglas de negocio en su propio contexto.
 
 ![Aggregates](ChapterIV-images/Aggregates.PNG)
 
-##### 4.1.1.1. Candidate Context Discovery
-
-### - Bounded Context: IAM
+#### 4.1.1.1. Candidate Context Discovery
+- **Bounded Context: IAM**
 
 Este contexto gestiona el ciclo de vida de los usuarios, desde el registro, autenticación y autorización de acceso a la plataforma. Define los roles que tendrá cada usuario (como conductor o propietario).
 
@@ -2055,7 +2049,7 @@ Este contexto gestiona el ciclo de vida de los usuarios, desde el registro, aute
 
 ---
 
-### - Bounded Context: Profile
+- **Bounded Context: Profile**
 
 Este contexto permite a los usuarios completar o modificar su perfil según el rol (conductor o propietario), registrando datos personales, de contacto y validando requisitos mínimos.
 
@@ -2069,7 +2063,7 @@ Este contexto permite a los usuarios completar o modificar su perfil según el r
 
 ---
 
-### - Bounded Context: Reservations
+- **Bounded Context: Reservations**
 
 Encargado de gestionar las reservas de espacios de estacionamiento. Permite crear, consultar y actualizar el estado de una reserva, asociándola a un conductor y un estacionamiento.
 
@@ -2083,7 +2077,7 @@ Encargado de gestionar las reservas de espacios de estacionamiento. Permite crea
 
 ---
 
-### - Bounded Context: Parking Management
+- **Bounded Context: Parking Management**
 
 Responsable del registro, actualización y consulta de estacionamientos y sus espacios. Cada estacionamiento tiene un propietario y una estructura definida por filas y columnas.
 
@@ -2097,7 +2091,7 @@ Responsable del registro, actualización y consulta de estacionamientos y sus es
 
 ---
 
-### - Bounded Context: Subscription
+- **Bounded Context: Subscription**
 
 Este contexto define el modelo de suscripciones de los usuarios. Administra si un usuario tiene acceso a beneficios mediante un plan gratuito o de pago, y registra los pagos de suscripción.
 
@@ -2111,7 +2105,7 @@ Este contexto define el modelo de suscripciones de los usuarios. Administra si u
 
 ---
 
-### - Bounded Context: Review
+- **Bounded Context: Review**
 
 Permite a los usuarios calificar y comentar sobre los estacionamientos luego de usarlos. Las reseñas pueden ser consultadas por otros usuarios como referencia de calidad.
 
@@ -2125,7 +2119,7 @@ Permite a los usuarios calificar y comentar sobre los estacionamientos luego de 
 
 ---
 
-###  - Bounded Context: IoT Management
+- **Bounded Context: IoT Management**
 
 Gestiona los dispositivos IoT instalados en cada espacio de estacionamiento, permitiendo reportar en tiempo real la disponibilidad de espacios.
 
@@ -2139,7 +2133,7 @@ Gestiona los dispositivos IoT instalados en cada espacio de estacionamiento, per
 
 ---
 
-### - Bounded Context: Payment
+- **Bounded Context: Payment**
 
 Centraliza la gestión de pagos realizados por usuarios, tanto por reservas como por suscripciones. Registra montos, fechas y estado del pago.
 
@@ -2153,7 +2147,7 @@ Centraliza la gestión de pagos realizados por usuarios, tanto por reservas como
 
 ---
 
-### - Bounded Context: Notification
+- **Bounded Context: Notification
 
 Permite enviar notificaciones a los usuarios del sistema, relacionadas con el estado de pagos, reservas, suscripciones u otros eventos clave.
 
@@ -2165,7 +2159,7 @@ Permite enviar notificaciones a los usuarios del sistema, relacionadas con el es
 
 ![Canvas de Bounded Context - Notification](ChapterIV-images/notification-discovery.jpg)
 
-##### 4.1.1.2. Modelado de flujos de mensajes del dominio
+#### 4.1.1.2. Modelado de flujos de mensajes del dominio
 
 Aquí mapeamos cómo se comunican los distintos actores y partes del sistema entre sí. Por ejemplo:
 
@@ -2178,7 +2172,7 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 ---
 
-##### 4.1.1.3. Canvases de Bounded Contexts
+#### 4.1.1.3. Canvases de Bounded Contexts
 1. IAM
 
 ![Canvas de Bounded Context - IAM](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.1.%20Bounded%20Context_%20IAM.jpg)
@@ -2216,8 +2210,8 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 ![Canvas de Bounded Context - Subscription](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.9.%20Bounded%20Context_%20Subscription.jpg)
 
 
-#### 4.1.2. Context Mapping
-### Descripción de Relaciones
+### 4.1.2. Context Mapping
+**Descripción de Relaciones**
 
 - *IAM → Profile / Reservations / Subscription / Notification / Payment*  
   El contexto de Identidad y Acceso permite que el usuario acceda a las funcionalidades del sistema.
@@ -2240,32 +2234,31 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 - *Reservations → Review*  
   Los conductores dejan una reseña tras utilizar un espacio reservado.
 ![Context Mapping](ChapterIV-images/CONTEXTMAPING.jpeg)
-#### 4.1.3. Software Architecture
-##### 4.1.3.1. Software Architecture System Landscape Diagram
+### 4.1.3. Software Architecture
+#### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
 
 !["System Landscape Diagram"](ChapterIV-images/c4-landscape-fix.png)
 
-##### 4.1.3.2. Software Architecture Context Level Diagrams
+#### 4.1.3.2. Software Architecture Context Level Diagrams
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
 !["System Context Diagram"](ChapterIV-images/c4-context.png)
 
-##### 4.1.3.3. Software Architecture Container Level Diagrams
+#### 4.1.3.3. Software Architecture Container Level Diagrams
 Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
 
 !["Container Diagram"](ChapterIV-images/c4-container.png)
 
-##### 4.1.3.4. Software Architecture Deployment Diagrams
+#### 4.1.3.4. Software Architecture Deployment Diagrams
 Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
 
 !["Deployment Diagram"](ChapterIV-images/c4-deployment.png)
 
-### 4.2. Tactical-Level Domain-Driven Design
-#### 4.2.1. Bounded Context: Identity and Access Management
+## 4.2. Tactical-Level Domain-Driven Design
+### 4.2.1. Bounded Context: Identity and Access Management
 El **Bounded Context de IAM (Identity and Access Management)** está diseñado para manejar la autenticación, autorización y gestión de usuarios dentro de la aplicación. Este contexto gestiona tanto el registro como la autenticación de usuarios, así como la asignación y gestión de roles. En esta sección, se definen los componentes claves como las entidades User y Role, los controladores para la interacción con estos recursos y los servicios de aplicación y consulta que gestionan las operaciones relacionadas.
-
-##### 4.2.1.1. Domain Layer
+#### 4.2.1.1. Domain Layer
 El **Domain Layer** es responsable de representar el núcleo del sistema de gestión de usuarios y roles. Contiene las entidades principales (como User) y su lógica de negocio, con las relaciones que gestionan la interacción con los roles y otras entidades dentro del sistema.
 
 **Aggregate:** User
@@ -2355,8 +2348,7 @@ Los Domain Services en el bounded context IAM son interfaces que definen operaci
 |handle(GetUserByIdQuery query)|Busca un usuario por su ID|
 |handle(GetUserByUsernameQuery query)|Busca un usuario por su nombre de usuario|
 |handle(CheckUserByIdQuery query)|Verifica si existe un usuario con un ID específico|
-
-##### 4.2.1.2. Interface Layer
+#### 4.2.1.2. Interface Layer
 El **Interface Layer** sirve como la capa de comunicación entre el mundo exterior (como los controladores HTTP) y la lógica del dominio. Este nivel contiene los controladores responsables de gestionar las solicitudes de los usuarios, como el inicio de sesión, registro y obtención de información de usuarios.
 
 **Controlador AuthenticationController**
@@ -2388,8 +2380,7 @@ El controlador UsersController gestiona las solicitudes para obtener informació
 | :- | :- | :- | :- |
 |getAllUsers()|Devuelve todos los usuarios.|GET /users|Lista de recursos de usuarios.|
 |getUserById(Long userId)|Devuelve un usuario por su ID.|GET /users/{userId}|Recurso de usuario por ID.|
-
-##### 4.2.1.3. Application Layer
+#### 4.2.1.3. Application Layer
 El **Application Layer** contiene la lógica necesaria para procesar las operaciones relacionadas con las entidades, como la creación de roles y usuarios, y la gestión de sus acciones. Esta capa maneja la lógica del negocio que no forma parte del dominio central, sino que orquesta las acciones entre diferentes componentes del sistema.
 
 **Clase RoleCommandServiceImpl**
@@ -2433,8 +2424,7 @@ La clase UserQueryServiceImpl maneja las consultas relacionadas con los usuarios
 |handle(GetUserByIdQuery query)|Devuelve un usuario por su ID.|
 |handle(GetUserByUsernameQuery query)|Devuelve un usuario por su correo electrónico.|
 |handle(CheckUserByIdQuery query)|Verifica si un usuario existe por su ID.|
-
-##### 4.2.1.4. Infrastructure Layer
+#### 4.2.1.4. Infrastructure Layer
 La capa de infraestructura se encarga de la interacción con fuentes externas de datos, como bases de datos, APIs de terceros, o cualquier recurso que esté fuera del ámbito de la lógica de negocio del sistema. En este caso, los repositorios UserRepository y RoleRepository son responsables de la persistencia de los datos relacionados con los usuarios y roles, proporcionando métodos para validar la existencia de entidades y realizar búsquedas en la base de datos.
 
 **Repositorio: UserRepository**
@@ -2455,27 +2445,23 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 | :- | :- |
 |findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
-
-##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de IAM.
 
 !["IAM Component Diagram"](ChapterIV-images/IAMComponentDiagram.png)
-
-##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
-
-###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
 
 !["IAM Class Diagram"](ChapterIV-images/IAMClassDiagram.png)
-
-###### 4.2.1.6.2. Bounded Context Database Design Diagram
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
 !["IAM Database Diagram"](ChapterIV-images/IAMDatabaseDiagram.png)
 
-#### 4.2.2. Bounded Context: Profile Management
+### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
-##### 4.2.2.1. Domain Layer
+#### 4.2.2.1. Domain Layer
 La capa de dominio encapsula las entidades centrales del sistema de perfiles y contiene la lógica de validación de atributos mediante objetos de valor. Las entidades principales son Driver y ParkingOwner, las cuales heredan de un agregado raíz auditable. Se usan objetos de valor como Phone, Dni y Ruc para encapsular lógica específica y validación.
 
 **Aggregate:** Driver
@@ -2624,7 +2610,7 @@ Interfaz que permite consultar información relacionada con un ParkingOwner.
 |**Nombre**|**Descripción**|
 | :- | :- |
 |Optional<ParkingOwner> handle(GetParkingOwnerByUserIdAsyncQuery query)|Obtiene un ParkingOwner asociado a un User mediante su userId.|
-##### 4.2.2.2. Interface Layer
+#### 4.2.2.2. Interface Layer
 Esta capa actúa como punto de entrada para consultas externas relacionadas con los perfiles. A través de los controladores REST, los clientes pueden consultar el perfil de un conductor o un propietario de estacionamiento por su userId.
 
 **Controlador: ProfilesController**
@@ -2635,7 +2621,7 @@ Esta capa actúa como punto de entrada para consultas externas relacionadas con 
 | :-: | :-: | :-: | :-: |
 |getDriverProfile(Long userId)|Devuelve el perfil de un conductor por su userId|GET /profiles/driver/{userId}|Recurso del conductor|
 |getParkingOwnerProfile(Long userId)|Devuelve el perfil de un propietario por su userId|GET /profiles/parking-owner/{userId}|Recurso del propietario|
-##### 4.2.2.3. Application Layer
+#### 4.2.2.3. Application Layer
 Esta capa contiene la lógica de aplicación, incluyendo la validación de unicidad para campos clave y el manejo de comandos y consultas. Coordina la creación y recuperación de perfiles utilizando servicios específicos para cada tipo de usuario.
 
 **Clase: DriverCommandServiceImpl**
@@ -2669,7 +2655,7 @@ Esta capa contiene la lógica de aplicación, incluyendo la validación de unici
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handle(GetParkingOwnerByUserIdQuery)|Recupera un propietario por su userId.|
-##### 4.2.2.4. Infrastructure Layer
+#### 4.2.2.4. Infrastructure Layer
 La capa de infraestructura proporciona la implementación de persistencia para los perfiles, permitiendo operaciones CRUD y búsquedas específicas. Los repositorios se basan en Spring Data JPA.
 
 **Repositorio: DriverRepository**
@@ -2693,24 +2679,24 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByRuc_Ruc(String)|Verifica si existe un propietario con un RUC dado.|
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
-##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
 
 !["Profile Management Component Diagram"](ChapterIV-images/Bounded_context_profile.png)
-##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
-###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
 
 !["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
-###### 4.2.2.6.2. Bounded Context Database Design Diagram
+##### 4.2.2.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
 !["Profile Management Database Diagram"](ChapterIV-images/database-diagram-profile.png)
 
-#### 4.2.3. Bounded Context: Parking Management
+### 4.2.3. Bounded Context: Parking Management
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
 
-##### 4.2.3.1. Domain Layer
+#### 4.2.3.1. Domain Layer
 La capa de dominio encapsula las entidades y lógica central del sistema de gestión de estacionamientos. El agregado raíz es Parking, que contiene información sobre la ubicación, tarifa, imagen, y distribución de los espacios de estacionamiento. La entidad ParkingSpot representa un espacio individual. Se utilizan objetos de valor como SpotManager para encapsular lógica y referencias específicas.
 
 **Aggregate:** Parking
@@ -2834,7 +2820,7 @@ Interfaz que permite consultar información relacionada con los estacionamientos
 |List<ParkingSpot> handle(GetParkingSpotsByParkingIdQuery query)|Obtiene todos los espacios de estacionamiento asociados a un estacionamiento.|
 |Optional<ParkingSpot> handle(GetParkingSpotByIdQuery query)|Obtiene un espacio de estacionamiento específico por su ID.|
 
-##### 4.2.3.2. Interface Layer
+#### 4.2.3.2. Interface Layer
 Esta capa define los puntos de entrada externos para interactuar con los estacionamientos. A través de controladores REST, se exponen operaciones para registrar estacionamientos y recuperar información.
 
 **Controlador: ParkingController**
@@ -2848,7 +2834,7 @@ Esta capa define los puntos de entrada externos para interactuar con los estacio
 |getAllParkings()|Lista todos los estacionamientos disponibles|GET /parkings|Lista de estacionamientos|
 |getParkingSpots(Long parkingId)|Lista los espacios de un estacionamiento específico|GET /parkings/{parkingId}/spots|Lista de espacios|
 
-##### 4.2.3.3. Application Layer
+#### 4.2.3.3. Application Layer
 La capa de aplicación contiene la lógica de negocio que orquesta la creación y consulta de estacionamientos y espacios. Coordina comandos y consultas entre la capa de interfaz y la de dominio.
 
 **Clase: ParkingCommandServiceImpl**
@@ -2870,7 +2856,7 @@ La capa de aplicación contiene la lógica de negocio que orquesta la creación 
 |handle(GetAllParkingsQuery)|Recupera todos los estacionamientos disponibles|
 |handle(GetParkingSpotsQuery)|Recupera los espacios de un estacionamiento dado|
 
-##### 4.2.3.4. Infrastructure Layer
+#### 4.2.3.4. Infrastructure Layer
 La capa de infraestructura implementa los mecanismos de persistencia para los estacionamientos. Utiliza Spring Data JPA para operaciones CRUD.
 
 **Repositorio: ParkingRepository**
@@ -2884,27 +2870,27 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |existsByNameAndOwnerId(String, Long)|Verifica si existe un estacionamiento con el mismo nombre para un propietario.|
 |existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
 
-##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
 
 !["Parking Management Component Diagram"](ChapterIV-images/ParkingmanagementComponentDiagram.png)
 
-##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
-###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases se observa la relación entre las entidades Parking y ParkingSpot, así como los objetos de valor asociados a ellas.
 
 !["Parking Management Class Diagram"](ChapterIV-images/ParkingmanagementClassDiagram.png)
 
-###### 4.2.3.6.2. Bounded Context Database Design Diagram
+##### 4.2.3.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
 !["Parking Management Database Design Diagram"](ChapterIV-images/ParkingmanagementDatabaseDiagram.png)
 
-#### 4.2.4. Bounded Context: Reservation
+### 4.2.4. Bounded Context: Reservation
 El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
 
-##### 4.2.4.1. Domain Layer
+#### 4.2.4.1. Domain Layer
 El Domain Layer encapsula la lógica de negocio para la gestión de reservas. Incluye el agregado Reservation, el cual contiene la entidad ReservationPayment. El agregado gestiona el ciclo de vida de una reserva y su relación con el pago.
 
 **Aggregate:** Reservation
@@ -2948,7 +2934,7 @@ Entidad que representa el pago realizado por una reserva. Está contenida dentro
 |markAsPaid()|Marca el pago como exitoso y registra la fecha de pago.|
 |markAsFailed()|Marca el estado del pago como fallido.|
 
-##### 4.2.4.2. Interface Layer
+#### 4.2.4.2. Interface Layer
 Este layer contiene el controlador ReservationsController, el cual expone los endpoints necesarios para interactuar con el agregado Reservation. Las acciones incluyen la creación de reservas, consulta de reservas existentes y registro de pagos.
 
 **Controlador: ReservationsController**
@@ -2963,7 +2949,7 @@ Controlador REST que gestiona las operaciones del agregado Reservation.
 |getReservationById(Long reservationId)|Devuelve una reserva específica por su ID|GET /reservations/{id}|Recurso de reserva|
 |payForReservation(Long reservationId, CreateReservationPaymentResource resource)|Registra un pago para una reserva|POST /reservations/{id}/payment|Recurso actualizado de la reserva|
 
-##### 4.2.4.3. Application Layer
+#### 4.2.4.3. Application Layer
 Este layer contiene los servicios de aplicación responsables de ejecutar los comandos y consultas relacionadas con el agregado Reservation. Coordina la lógica del dominio para garantizar que las reglas de negocio se apliquen correctamente.
 
 **ReservationCommandServiceImpl**
@@ -2987,7 +2973,7 @@ Servicio de aplicación que gestiona las consultas relacionadas con el agregado 
 |handle(GetReservationByIdQuery query)|Devuelve una reserva específica por su ID.|
 |handle(CheckReservationExistsByIdQuery query)|Verifica si una reserva existe por su ID.|
 
-##### 4.2.4.4. Infrastructure Layer
+#### 4.2.4.4. Infrastructure Layer
 Esta capa proporciona acceso a la persistencia de datos del agregado Reservation. Define el repositorio que permite almacenar, consultar y verificar la existencia de reservas en el sistema.
 
 **Repositorio: ReservationRepository**
@@ -3001,27 +2987,27 @@ Repositorio del agregado Reservation.
 |existsById(Long reservationId)|Verifica si existe una reserva por su ID. Devuelve un boolean.|
 |findAll()|Devuelve todas las reservas almacenadas.|
 
-##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
 !["Reservation Component Diagram"](ChapterIV-images/Bounded_context_reservations.png)
 
-##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
-###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Reservation y ReservationPayment, así como los objetos de valor asociados a ellas.
 
 !["Reservation Class Diagram"](ChapterIV-images/class-diagram-reservation.png)
 
-###### 4.2.4.6.2. Bounded Context Database Design Diagram
+##### 4.2.4.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
 !["Reservation Database Diagram"](ChapterIV-images/database-diagram-reservations.png)
 
-#### 4.2.5. Bounded Context: Subscription
+### 4.2.5. Bounded Context: Subscription
 El Bounded Context **Subscription** se encarga de gestionar el estado de suscripción de los usuarios. Define si un usuario posee un plan gratuito (FREE) o ha adquirido una suscripción de pago. También se registran los pagos asociados a la suscripción, permitiendo verificar el historial, estado de pagos y fechas clave como el inicio y la renovación.
 
-##### 4.2.5.1. Domain Layer
+#### 4.2.5.1. Domain Layer
 Incluye el agregado Subscription que modela los datos y comportamientos clave del estado de suscripción del usuario, y la entidad SubscriptionPayment, que representa los pagos realizados por el usuario.
 
 **Aggregate:** Subscription
@@ -3067,7 +3053,7 @@ Incluye el agregado Subscription que modela los datos y comportamientos clave de
 |markAsFailed()|Marca el pago como FAILED.|
 |markAsPending()|Marca el pago como PENDING.|
 
-##### 4.2.5.2. Interface Layer
+#### 4.2.5.2. Interface Layer
 Esta capa expone los endpoints REST necesarios para gestionar las suscripciones del sistema. Se encarga de recibir solicitudes HTTP, validar datos y delegar la lógica al Application Layer.
 
 **Controlador: SubscriptionController**
@@ -3081,7 +3067,7 @@ Esta capa expone los endpoints REST necesarios para gestionar las suscripciones 
 |renewSubscription(Integer userId)|Renueva la suscripción del usuario.|PATCH /subscriptions/{userId}/renew|Estado actualizado.|
 |cancelSubscription(Integer userId)|Cancela la suscripción del usuario.|PATCH /subscriptions/{userId}/cancel|Estado actualizado.|
 
-##### 4.2.5.3. Application Layer
+#### 4.2.5.3. Application Layer
 Esta capa orquesta las operaciones de negocio entre la capa de interfaz y el dominio. Aquí se manejan los comandos y consultas para crear, cancelar, renovar y obtener suscripciones. Esta lógica aplica validaciones de flujo, no de reglas de dominio.
 
 **Clase: SubscriptionCommandServiceImpl**
@@ -3102,7 +3088,7 @@ Esta capa orquesta las operaciones de negocio entre la capa de interfaz y el dom
 | :-: | :-: |
 |handle(GetSubscriptionByUserIdQuery)|Retorna la suscripción de un usuario específico.|
 
-##### 4.2.5.4. Infrastructure Layer
+#### 4.2.5.4. Infrastructure Layer
 Esta capa proporciona la implementación de persistencia del agregado Subscription. Define el repositorio que interactúa con la base de datos usando JPA
 
 **Repositorio: SubscriptionRepository**
@@ -3113,25 +3099,25 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 | :-: | :-: |
 |findByUserId(Integer userId)|Retorna la suscripción del usuario.|
 
-##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Subscription.
 
 !["Subscription Architecture Component Level Diagram"](ChapterIV-images/SubscriptionComponentDiagram.png)
 
-##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
-###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases se observa la relación entre las entidades Subscription y SubscriptionPayment, así como los objetos de valor asociados a ellas.
 
 !["Subscription Class Diagram"](ChapterIV-images/SubscriptionClassDiagram.png)
 
-###### 4.2.5.6.2. Bounded Context Database Design Diagram
+##### 4.2.5.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
 !["Subscription Database Design Diagram"](ChapterIV-images/SubscriptionDatabaseDiagram.png)
 
-#### 4.2.6 Bounded Context: Review
-##### 4.2.6.1. Domain Layer
+### 4.2.6 Bounded Context: Review
+#### 4.2.6.1. Domain Layer
 
 La capa de dominio de Review encapsula la lógica de negocio para la creación y gestión de reseñas de parkings.
 
@@ -3227,7 +3213,7 @@ La capa de dominio de Review encapsula la lógica de negocio para la creación y
 | `getName()`        | Retorna el `name`.                     |
 
 ---
-##### 4.2.6.2. Interface Layer
+#### 4.2.6.2. Interface Layer
 
 Expone los endpoints HTTP para el manejo de reseñas.
 
@@ -3250,7 +3236,7 @@ Expone los endpoints HTTP para el manejo de reseñas.
 - `ReviewResourceFromEntityAssembler`
 
 ---
-##### 4.2.6.3. Application Layer
+#### 4.2.6.3. Application Layer
 
 Orquesta comandos y consultas de reseñas.
 
@@ -3285,7 +3271,7 @@ Orquesta comandos y consultas de reseñas.
 - `ReviewRepository`
 
 ---
-##### 4.2.6.4. Infrastructure Layer
+#### 4.2.6.4. Infrastructure Layer
 
 Persiste y recupera reseñas de la base de datos.
 
@@ -3302,20 +3288,20 @@ Persiste y recupera reseñas de la base de datos.
 | `boolean existsById(Long id)`          | Verifica existencia de reseña.                                        |
 
 ---
-##### 4.2.6.6. Component Level Diagram (estructura)
+#### 4.2.6.5. Component Level Diagram (estructura)
 
 El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
 
 ![Review Context Component Diagram](ChapterIV-images/ReviewBoundedContextComponentDiagram.png)
 
 ---
-##### 4.2.6.7. Bounded Context Software Architecture Code Level Diagrams
-###### 4.2.6.7.1. Domain Layer Class Diagram
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.6.6.1. Domain Layer Class Diagram
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
 
 ![Review Context Class Diagram](ChapterIV-images/ReviewBoundedContextClassDiagram.png)
 
-###### 4.2.6.7.2. Database Design Diagram
+##### 4.2.6.6.2. Database Design Diagram
 
 El diagrama de base de datos del bounded context **Review** muestra tres tablas principales:
 - **reviews**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `parking_id` (BIGINT, clave foránea a `parkings.id`), `rating` (INT), `comment` (VARCHAR(500)), `created_at` y `updated_at` (TIMESTAMP).
@@ -3327,8 +3313,8 @@ Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apu
 ![Review Context Database Diagram](ChapterIV-images/ReviewBoundedContextDatabaseDiagram.png)
 
 
-#### 4.2.7. Bounded Context: Notification
-##### 4.2.7.1. Domain Layer
+### 4.2.7. Bounded Context: Notification
+#### 4.2.7.1. Domain Layer
 La capa de dominio de Notifications encapsula la lógica de negocio para la creación y gestión de notificaciones dirigidas a un usuario.
 
 **Propósito:** Modelar el agregado raíz **Notification** junto con su relación a **User**, asegurando las invariantes del dominio (por ejemplo, tipo y mensaje no vacíos).
@@ -3400,7 +3386,7 @@ La capa de dominio de Notifications encapsula la lógica de negocio para la crea
 | `getEmail()`     | Retorna el `email`.                    |
 
 ---
-##### 4.2.7.2. Interface Layer
+#### 4.2.7.2. Interface Layer
 Expone los endpoints HTTP para la gestión de notificaciones.
 
 | **Controlador**: `NotificationController`                                                                            |
@@ -3421,7 +3407,7 @@ Expone los endpoints HTTP para la gestión de notificaciones.
 - `NotificationResourceFromEntityAssembler`
 
 ---
-##### 4.2.7.3. Application Layer
+#### 4.2.7.3. Application Layer
 Orquesta los comandos y consultas de notificaciones.
 
 | **Servicio**: `NotificationCommandServiceImpl`                                                                  |
@@ -3452,7 +3438,7 @@ Orquesta los comandos y consultas de notificaciones.
 - `NotificationRepository`
 
 ---
-##### 4.2.7.4. Infrastructure Layer
+#### 4.2.7.4. Infrastructure Layer
 Interacción con la base de datos de notificaciones.
 
 | **Repositorio**: `NotificationRepository`                                                                           |
@@ -3468,20 +3454,17 @@ Interacción con la base de datos de notificaciones.
 | `boolean existsById(Long id)`                   | Verifica existencia de notificación.                             |
 
 ---
-##### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama muestra la arquitectura monolítica del bounded context de notificaciones. Las peticiones REST llegan al NotificationController, que a su vez invoca al NotificationCommandService para crear o eliminar notificaciones y al NotificationQueryService para obtenerlas. Antes de crear una notificación, el NotificationCommandService valida la existencia del usuario consultando al UserQueryService. Tanto los comandos como las consultas utilizan el NotificationRepository para leer y escribir en la base de datos MySQL dedicada a notificaciones.
 
 ![Notification Context Component Diagram](ChapterIV-images/NotificationBoundedContextComponentDiagram.png)
-
-##### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
-
-###### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
 
 ![Notification Context Class Diagram](ChapterIV-images/NotificationBoundedContextClassDiagram.png)
-
-###### 4.2.7.6.2. Bounded Context Database Design Diagram
+##### 4.2.7.6.2. Bounded Context Database Design Diagram
 El diagrama de base de datos del bounded context **Notifications** muestra dos tablas principales:
 - **notifications**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `type` (VARCHAR(50)), `message` (VARCHAR(500)), `created_at` (TIMESTAMP).
 - **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).
@@ -3491,8 +3474,8 @@ La clave foránea `notifications.user_id` asegura que cada notificación esté a
 ![Notification Context Database Diagram](ChapterIV-images/NotificationBoundedContextDatabaseDiagram.png)
 
 
-#### 4.2.8. Bounded Context: IoT Management
-##### 4.2.8.1. Domain Layer
+### 4.2.8. Bounded Context: IoT Management
+#### 4.2.8.1. Domain Layer
 La capa de dominio de Notifications encapsula la lógica para la gestión de los dispositivos IoT.
 
 **Propósito:** Modelar el agregado raíz **IoTDevice** junto con su relación a **ParkingSpot**, asegurando uan relación de 1 a 1.
@@ -3556,7 +3539,7 @@ La capa de dominio de Notifications encapsula la lógica para la gestión de los
 | `setAvailability(state: Boolean)`|: Define el valor de `available`        |
 
 ---
-##### 4.2.8.2. Interface Layer
+#### 4.2.8.2. Interface Layer
 Expone los endpoints HTTP para gestionar la conexion de las entidades.
 
 | **Controlador**: `IoTDeviceController`                                                                            |
@@ -3570,7 +3553,7 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 | `setAvailability`        | `POST /api/v1/users/{parkingSpotId}/available` | Define la disponibilidad del espacio de estacionamiento.   |
 
 ---
-##### 4.2.8.3. Application Layer
+#### 4.2.8.3. Application Layer
 | **Servicio**: `IoTDeviceQueryServiceImpl`                                        |
 |-------------------------------------------------------------------------------------|
 | **Descripción**: Maneja la lógica de estado.                                        |
@@ -3582,7 +3565,7 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 | `handle(SetAvailabiltyByIdQuery q)`    | Establece la disponibilidad de un estacionamiento dado.     |
 
 ---
-##### 4.2.8.4. Infrastructure Layer
+#### 4.2.8.4. Infrastructure Layer
 | **Repositorio**: `IoTDeviceRepository`                                                                           |
 |----------------------------------------------------------------------------------------------------------------------|
 | **Descripción**: Interfaz para persistencia de `IoT Device` (extiende `JpaRepository<Notification, Long>`).      |
@@ -3592,18 +3575,18 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 | `List<IoTDevice> allStatus()`   | Obtiene el estado de todos los espacios.                         |
 | `String findById(Long id)`      | Busca el estado de un espacio de estacionamiento por ID.         |
 | `void setAvailability()`        | Establecer la disponibilidad de un espacio                       |
-##### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 ![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
-##### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
-###### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
-###### 4.2.8.6.2. Bounded Context Database Design Diagram
+##### 4.2.8.6.2. Bounded Context Database Design Diagram
 ![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
 
-#### 4.2.9. Bounded Context: Payment
+### 4.2.9. Bounded Context: Payment
 Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
 
-##### 4.2.9.1. Domain Layer
+#### 4.2.9.1. Domain Layer
 La capa de dominio encapsula los conceptos clave y reglas de negocio del sistema de pagos. Aquí se encuentran los agregados SubscriptionPayment y ReservationPayment, los cuales representan los pagos realizados por suscripciones mensuales y por reservas individuales, respectivamente.
 
 **Aggregates:** SubscriptionPayment
@@ -3677,8 +3660,7 @@ Define las operaciones de consulta para obtener información sobre los pagos, ya
 | :- | :- |
 |List<SubscriptionPayment> handle(GetAllSubscriptionPaymentsQuery query)|Devuelve la lista de pagos de suscripción.|
 |List<ReservationPayment> handle(GetAllReservationPaymentsQuery query)|Devuelve la lista de pagos de reserva.|
-
-##### 4.2.9.2. Interface Layer
+#### 4.2.9.2. Interface Layer
 Esta capa actúa como punto de entrada para operaciones relacionadas con los pagos de suscripción y reserva. A través del controlador REST PaymentController, se exponen endpoints públicos que permiten registrar nuevos pagos, consultar el historial de pagos existentes y actualizar el estado de un pago.
 
 **Controlador:** PaymentController
@@ -3694,8 +3676,7 @@ Gestiona las operaciones expuestas vía API relacionadas con los pagos de suscri
 |createReservationPayment(CreateReservationPaymentResource resource)|Permite registrar un pago de reserva.|POST /api/v1/payments/reservations|Recurso de pago creado.|
 |getAllReservationPayments()|Devuelve todos los pagos de reserva registrados.|GET /api/v1/payments/reservations|Lista de recursos de pago.|
 |updateReservationPaymentStatus(Integer reservationPaymentId, UpdatePaymentStatusResource resource)|Actualiza el estado de un pago de reserva.|PUT /api/v1/payments/reservations/{reservationPaymentId}/status|Recurso de pago actualizado.|
-
-##### 4.2.9.3. Application Layer
+#### 4.2.9.3. Application Layer
 Esta capa contiene la lógica de aplicación relacionada con la creación, actualización y recuperación de pagos, tanto de suscripción como de reserva. Las clases de servicio SubscriptionPaymentCommandServiceImpl, ReservationPaymentCommandServiceImpl y PaymentQueryServiceImpl manejan los comandos y consultas enviados desde la capa de interfaz, coordinando la ejecución de operaciones a través del dominio y los repositorios.
 
 **SubscriptionPaymentCommandServiceImpl**
@@ -3727,8 +3708,7 @@ Implementación del PaymentQueryService que maneja las consultas de pagos, tanto
 | :- | :- |
 |handle(GetAllSubscriptionPaymentsQuery)|Devuelve la lista de pagos de suscripción.|
 |handle(GetAllReservationPaymentsQuery)|Devuelve la lista de pagos de reserva.|
-
-##### 4.2.9.4. Infrastructure Layer
+#### 4.2.9.4. Infrastructure Layer
 Esta capa proporciona las implementaciones de persistencia para los agregados SubscriptionPayment y ReservationPayment. A través de los repositorios SubscriptionPaymentRepository y ReservationPaymentRepository, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
 
 **SubscriptionPaymentRepository**
@@ -3750,29 +3730,24 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 | :- | :- |
 |findById(Integer id)|Encuentra un pago de reserva por su ID.|
 |findAll()|Devuelve todos los pagos de reserva registrados.|
-
-##### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
 En el diagrama de arquitectura de nivel componente, se presenta las clases y sus relaciones dentro del contexto de Payment.
 
 !["Payment Architecture Component Level Diagram"](ChapterIV-images/PaymentComponentDiagram.png)
-
-##### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11
-###### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
+#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11
+##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
 
 !["Payment Class Diagram"](ChapterIV-images/PaymentClassDiagram.png)
-
-###### 4.2.9.6.2. Bounded Context Database Design Diagram
+##### 4.2.9.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
 !["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabaseDiagram.png)
 
-## Capítulo V: Solution UI/UX Design
-
-### 5.1. Style Guidelines
-
+# Capítulo V: Solution UI/UX Design
+## 5.1. Style Guidelines
 En SmartParking, buscamos una experiencia visual moderna, clara y coherente en todos los dispositivos. Estas pautas garantizan una identidad unificada en la plataforma web, móvil e incluso en su interacción con el sistema IoT. Nos apoyamos en principios de diseño centrados en la simplicidad, accesibilidad y consistencia visual.
-#### 5.1.1. General Style Guidelines
+### 5.1.1. General Style Guidelines
 
 **Branding**
 
@@ -3834,11 +3809,8 @@ Email: Icono de sobre en color Azul Medio.
 
 El tono de comunicación de SmartParking es casual-formal, respetuoso y sereno. Se busca mantener una relación de confianza con el usuario, transmitiendo orden, claridad y profesionalismo sin dejar de ser cercano.
 
-
-#### 5.1.2. Web, Mobile and IoT Style Guidelines
-
+### 5.1.2. Web, Mobile and IoT Style Guidelines
 **Web Style Guidelines**
-
 SmartParking debe proporcionar una experiencia fluida en todos los dispositivos de escritorio, adaptándose a diferentes tamaños de pantalla:
 
 **Diseño Responsivo:** Se prioriza un diseño flexible que se ajuste a pantallas de diferentes tamaños, siguiendo el esquema de escaneo visual en F para facilitar la lectura.
@@ -3865,10 +3837,8 @@ El emulador de Wokwi se utiliza para simular la interacción con dispositivos Io
 
 **Interacción con el Usuario:** Las interacciones con los sensores deben ser sencillas, permitiendo a los usuarios ver rápidamente el estado actual de los espacios
 
-### 5.2. Information Architecture
-
-#### 5.2.1. Organization Systems
-
+## 5.2. Information Architecture
+### 5.2.1. Organization Systems
 SmartParking emplea distintos sistemas de organización para asegurar que tanto conductores como propietarios de estacionamientos encuentren y utilicen las funciones principales de manera rápida e intuitiva.
 
 **Jerárquico:**
@@ -3880,17 +3850,14 @@ Los flujos como el registro de un nuevo estacionamiento (para propietarios) o el
 **Matricial:**
 En módulos de búsqueda avanzada o filtros de estacionamientos, se usa una organización matricial para que los usuarios puedan navegar por tipo (cubierto/descubierto), precios, distancia o puntuación, adaptándose a sus preferencias.
 
-#### 5.2.2. Labeling Systems
-
+### 5.2.2. Labeling Systems
 Usamos un sistema de etiquetas simples, claras y reconocibles para evitar ambigüedad. Se usan términos directos como:
 
 - Inicio, Reservar, Mis Reservas, Estacionamientos, Perfil, Soporte, Cerrar Sesión
-
 - Iconos universales acompañan a las etiquetas (guardar, email, check, alerta) para mejorar el reconocimiento visual.
-
 - Las acciones clave están representadas por verbos de una sola palabra y botones destacados.
 
-#### 5.2.3. SEO Tags and Meta Tags
+### 5.2.3. SEO Tags and Meta Tags
 
 <!-- Landing Page -->
 **Title:** SmartParking - Encuentra tu estacionamiento al instante  
@@ -3902,8 +3869,7 @@ Usamos un sistema de etiquetas simples, claras y reconocibles para evitar ambig�
 **Title:** SmartParking App  
 **Meta Description:** Accede a tu cuenta SmartParking, administra reservas o registra tu estacionamiento fácilmente.
 
-#### 5.2.4. Searching Systems
-
+### 5.2.4. Searching Systems
 - **¿Qué se puede buscar?**
 Conductores pueden buscar estacionamientos por dirección, cercanía o precio. Propietarios pueden buscar sus espacios registrados, reservas activas o historial.
 
@@ -3913,8 +3879,7 @@ Tipo de estacionamiento, cobertura, horario, precios, distancia, valoración.
 - **¿Cómo se muestran los resultados?**
 En tarjetas con iconos, colores y botones rápidos (reservar, ver detalles), ordenadas por relevancia o cercanía.
 
-#### 5.2.5. Navigation Systems
-
+### 5.2.5. Navigation Systems
 - **Navegación Jerárquica:**
 Desde la página principal, se accede a las secciones más importantes mediante una barra de navegación (web) o un menú inferior (móvil).
 
@@ -3924,57 +3889,51 @@ El menú principal está siempre disponible para cambiar entre funcionalidades c
 - **Navegación Local:**
 Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta”, se incluyen submenús para acciones específicas: editar, eliminar, ver historial, etc.
 
-### 5.3. Landing Page UI Design
-#### 5.3.1. Landing Page Wireframe
-#### 5.3.2. Landing Page Mock-up
+## 5.3. Landing Page UI Design
+### 5.3.1. Landing Page Wireframe
+### 5.3.2. Landing Page Mock-up
 
-### 5.4. Applications UX/UI Design
-#### 5.4.1. Applications Wireframes
-#### 5.4.2. Applications Wireflow Diagrams
-#### 5.4.3. Applications Mock-ups
-#### 5.4.4. Applications User Flow Diagrams
+## 5.4. Applications UX/UI Design
+### 5.4.1. Applications Wireframes
+### 5.4.2. Applications Wireflow Diagrams
+### 5.4.3. Applications Mock-ups
+### 5.4.4. Applications User Flow Diagrams
 
-### 5.5. Applications Prototyping
+## 5.5. Applications Prototyping
 
-## Capítulo VI: Product Implementation, Validation & Deployment
+# Capítulo VI: Product Implementation, Validation & Deployment
 
-### 6.1. Software Configuration Management
-#### 6.1.1. Software Development Environment Configuration
-#### 6.1.2. Source Code Management
-#### 6.1.3. Source Code Style Guide & Conventions
-#### 6.1.4. Software Deployment Configuration
+## 6.1. Software Configuration Management
+### 6.1.1. Software Development Environment Configuration
+### 6.1.2. Source Code Management
+### 6.1.3. Source Code Style Guide & Conventions
+### 6.1.4. Software Deployment Configuration
 
-### 6.2. Landing Page, Services & Applications Implementation
-#### 6.2.1. Sprint 1
-##### 6.2.1.1. Sprint Planning 1
-##### 6.2.1.2. Aspect Leaders and Collaborators
-##### 6.2.1.3. Sprint Backlog 1
-##### 6.2.1.4. Development Evidence for Sprint Review
-##### 6.2.1.5. Testing Suite Evidence for Sprint Review
-##### 6.2.1.6. Execution Evidence for Sprint Review
-##### 6.2.1.7. Services Documentation Evidence for Sprint Review
-##### 6.2.1.8. Software Deployment Evidence for Sprint Review
-##### 6.2.1.9. Team Collaboration Insights during Sprint
+## 6.2. Landing Page, Services & Applications Implementation
+### 6.2.1. Sprint 1
+#### 6.2.1.1. Sprint Planning 1
+#### 6.2.1.2. Aspect Leaders and Collaborators
+#### 6.2.1.3. Sprint Backlog 1
+#### 6.2.1.4. Development Evidence for Sprint Review
+#### 6.2.1.5. Testing Suite Evidence for Sprint Review
+#### 6.2.1.6. Execution Evidence for Sprint Review
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review
+#### 6.2.1.8. Software Deployment Evidence for Sprint Review
+#### 6.2.1.9. Team Collaboration Insights during Sprint
 
-## Conclusiones
-### Conclusiones y recomendaciones
-#### ✅ Conclusiones
+# Conclusiones y recomendaciones
+## ✅ Conclusiones
 
 - El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
-
 - El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
-
 - La lógica de negocio de Subscription, Reservation y Parking Management está correctamente aislada y responde a escenarios reales y frecuentes de usuarios y operadores.
-
 - El enfoque Event-Driven facilita la comunicación desacoplada y asincrónica entre módulos, mejorando la resiliencia del sistema.
-
 - El uso de técnicas como Domain-Driven Design, Context Mapping y C4 Model permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
 
-#### 💡 Recomendaciones
-
+## 💡 Recomendaciones
 - Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
 
-## Bibliografia
+# Bibliografia
 <div align="justify">
   <ul>
     <li>Asociación Automotriz del Perú. (2023). <em>INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024.</em> Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 02 de abril de 2025]</li>
@@ -3983,7 +3942,7 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
   </ul>
 </div>
 
-## Anexos
+# Anexos
 <table>
 	<tr>
 		<td>Sección</td>
