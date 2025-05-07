@@ -4019,7 +4019,88 @@ Esta convención asegura que cada mensaje de commit refleje de forma precisa el 
 - **ci:** el cambio afecta a ficheros de configuración y scripts relacionados con la integración continua.
 - **perf:** usado para mejoras de rendimiento.
 - **revert:** si el commit revierte un commit anterior. Debería indicarse el hash del commit que se revierte.
+
 #### 6.1.3. Source Code Style Guide & Conventions
+**General:**
+Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatura:
+- **Convención en inglés**: Todos los nombres de variables, funciones, métodos, clases y archivos se nombrarán en inglés.
+- **Convención de nombres**:
+  - **CamelCase**: Para nombres de variables, funciones y métodos.  
+  - **PascalCase**: Para nombres de clases y componentes.  
+  - **snake_case**: Para nombres de archivos.  
+
+**HTML:** [https://www.w3schools.com/html/html5_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
+**Convenciones de HTML:**
+- Declarar el tipo de documento en la primera línea.
+- Usar nombres de etiquetas en minúsculas.
+- Usar nombres de atributos en minúsculas.
+- Cerrar todas las etiquetas correctamente.
+- Usar comillas en los valores de los atributos.
+- No dejar espacios alrededor del signo igual en los atributos.
+- Especificar los atributos `alt`, `width` y `height` en las imágenes.
+- No omitir las etiquetas `<html>`, `<head>`, `<body>` y `<title>`.
+- Usar el atributo `lang` para declarar el idioma del documento.
+- Incluir la metaetiqueta para definir la codificación del documento.
+- Usar títulos precisos y significativos en la etiqueta `<title>`.
+- Evitar líneas de código excesivamente largas.
+- Usar sintaxis clara y sencilla para enlaces y scripts externos.
+
+**CSS:** [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+**Convenciones de CSS**
+- Usar el protocolo HTTPS para archivos externos.
+- Utilizar minúsculas en todo el código (propiedades, atributos, valores, etc.).
+- Los nombres de clases deben ser breves, descriptivos y reflejar su propósito.
+- Separar palabras en nombres de clases e IDs con guiones.
+- Usar propiedades abreviadas cuando sea posible.
+- Preferir notación hexadecimal de 3 caracteres cuando aplique.
+- Ordenar las propiedades CSS alfabéticamente dentro de cada regla.
+- Incluir punto y coma al final de cada declaración.
+- Agregar un espacio después de los dos puntos en cada propiedad.
+- Agregar un espacio antes de la llave de apertura del bloque de declaraciones.
+- Usar comillas simples para atributos y valores de propiedades que las requieran.
+- Agrupar reglas relacionadas y separarlas con una línea en blanco para mayor legibilidad.
+
+**Java:** [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+**Convenciones de Java:**
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas.
+- El nombre de las variables debe ser en minúsculas y usar camel case.
+- Para las sentencias if,else,for,do y while se deben usar “ { } “.
+- Los nombres de variables que son Constantes deben ir en mayúsculas
+
+**JavaScript:** [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+**Convenciones de JavaScript:**
+- Usar camelCase para variables y funciones.
+- Usar PascalCase para clases y constructores.
+- Usar MAYÚSCULAS_CON_GUIONES_BAJOS para constantes.
+- Usar let y const para declarar variables (evitar var).
+- Declarar las variables al inicio de su ámbito.
+- Incluir punto y coma al final de cada instrucción.
+- Usar // para comentarios de una línea y /* */ para bloques de comentarios.
+- Escribir comentarios descriptivos en componentes, servicios y secciones complejas.
+- Aplicar principios de programación reactiva y patrones de diseño adecuados.
+
+**Vue.js:**[https://vuejs.org/style-guide/](https://vuejs.org/style-guide/)
+**Convenciones de Vue.js:**
+- Nombres de componentes: Se debe usar PascalCase para los nombres de componentes, por ejemplo, UserProfile.
+- Nombres de archivos: Los archivos de componentes deben nombrarse usando PascalCase y tener la extensión .vue, por ejemplo, UserProfile.vue.
+- Nombres de props: Se debe usar camelCase para declarar las props en JavaScript y kebab-case al usarlas en las plantillas.
+- Prefijos en componentes: Los componentes que se utilizan una sola vez deben tener el prefijo The, por ejemplo, TheHeader. Los componentes base reutilizables deben tener el prefijo Base, como BaseButton.
+- Uso de v-for: Siempre se debe proporcionar una clave única (key) al usar v-for para mantener el estado interno del componente.
+- Evitar v-if con v-for: No se debe usar v-if en el mismo elemento que v-for. En su lugar, se debe usar una estructura template para separar las condiciones.
+- Funciones de data: La propiedad data en los componentes debe ser una función que retorne un objeto, para evitar compartir el estado entre instancias.
+
+**Flutter (Dart):**[https://dart.dev/effective-dart/style](https://dart.dev/effective-dart/style)
+**Convenciones de Flutter:**
+- Nombres de clases y tipos: Se debe usar UpperCamelCase para los nombres de clases, tipos, enums y typedefs, por ejemplo, UserProfile.
+- Nombres de variables y funciones: Se debe usar lowerCamelCase para los nombres de variables, funciones y parámetros, por ejemplo, userProfile.
+- Nombres de constantes: Se debe usar lowerCamelCase para las constantes, por ejemplo, defaultTimeout.
+- Nombres de archivos: Los nombres de archivos deben estar en minúsculas y usar guiones bajos para separar las palabras, por ejemplo, user_profile.dart.
+- Comentarios de documentación: Se debe usar /// para comentarios de documentación y // para comentarios de una sola línea.
+- Uso de const y final: Se debe usar const para valores inmutables en tiempo de compilación y final para valores inmutables en tiempo de ejecución.
+- Funciones cortas: Se recomienda usar la sintaxis de flecha (=>) para funciones de una sola expresión.
+- Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
+
 #### 6.1.4. Software Deployment Configuration
 
 ### 6.2. Landing Page, Services & Applications Implementation
@@ -4056,8 +4137,15 @@ Esta convención asegura que cada mensaje de commit refleje de forma precisa el 
 <div align="justify">
   <ul>
     <li>Asociación Automotriz del Perú. (2023). <em>INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024.</em> Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>Chamorro, A. (2022). <em>Conventional Commits - Qué es y por qué deberías empezar a utilizarlo.</em> Recuperado de: https://dev.to/achamorro_dev/conventional-commits-que-es-y-por-que-deberias-empezar-a-utilizarlo-23an [Consulta: 06 de mayo de 2025]</li>
     <li>INEI. (2022). <em>Estadísticas de transporte urbano en el Perú. </em>Recuperado de: https://m.inei.gob.pe/prensa/noticias/movimiento-de-vehiculos-a-nivel-nacional-aumento-39-en-febrero-de-2024-15125/ [Consulta: 02 de abril de 2025]</li>
     <li>Lima Cómo Vamos. (2023). <em>Reporte de movilidad urbana 2023.</em> Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>Dart. (s.f.)<em> Effective Dart: Style.</em>Recuperado de: https://dart.dev/effective-dart/style [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google HTML/CSS Style Guide.</em> Recuperado de:https://google.github.io/styleguide/htmlcssguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google Java Style Guide.</em>Recuperado de: https://google.github.io/styleguide/javaguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google JavaScript Style Guide.</em>Recuperado de: https://google.github.io/styleguide/jsguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Vue.js. (s.f.) <em>Style Guide.</em>Recuperado de: https://vuejs.org/style-guide/ [Consulta: 06 de mayo de 2025]</li>
+    <li>W3Schools. (s.f.) <em>HTML Style Guide.</em>Recuperado de: https://www.w3schools.com/html/html5_syntax.asp [Consulta: 06 de mayo de 2025]</li>
   </ul>
 </div>
 
