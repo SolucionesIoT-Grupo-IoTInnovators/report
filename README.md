@@ -4102,6 +4102,21 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 - Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
 
 #### 6.1.4. Software Deployment Configuration
+**Landing Page**
+
+- **Proceso de Despliegue:**
+
+**Web Application**
+
+- **Proceso de Despliegue:**
+
+**Mobile Application**
+
+- **Proceso de Despliegue:**
+
+**Web Services (Backend)**
+
+- **Proceso de Despliegue:**
 
 ### 6.2. Landing Page, Services & Applications Implementation
 #### 6.2.1. Sprint 1
