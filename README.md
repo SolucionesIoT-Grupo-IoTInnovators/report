@@ -1417,36 +1417,38 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US03</td>
-      <td>Notificación de disponibilidad cercana</td>
-      <td>Como conductor, quiero recibir una notificación cuando un espacio cercano quede libre para poder decidir si tomarlo o no.</td>
+      <td>Sección hero de landing page</td>
+      <td>Como visitante quiero visualizar una sección hero en el landing page para tener una idea sobre lo que ofrece la aplicación</td>
       <td>
-        Scenario: Notificación de espacio disponible cercano<br>
-        Given que el usuario tiene activadas las notificaciones<br>
-        And se encuentra a menos de 300 metros de un estacionamiento<br>
-        When un espacio se libera<br>
-        Then el sistema debe enviar una notificación indicando la disponibilidad y ubicación
+        Scenario: Visualización de la presentación de la aplicación<br>
+        Given que el visitante está en el landing page<br>
+        When se encuentra en la sección de Inicio<br>
+        Then observa una presentación clara de la aplicación.
         <br><br>
-        Scenario: No notificar fuera de rango<br>
-        Given que el usuario está a más de 300 m del estacionamiento<br>
-        When un espacio se libera<br>
-        Then el sistema no envía ninguna notificación
+        Scenario: Acceso a la sección inicio del producto<br>
+        Given que el visitante está en el landing page<br>
+        And utiliza la barra de navegación<br>
+        When selecciona el logo<br>
+        Then accede a la sección hero del producto.
       </td>
       <td>EP01</td>
     </tr>
     <tr>
       <td>US04</td>
-      <td>Información en Tiempo Real de Disponibilidad de Espacios</td>
-      <td>Como visitante de la Landing Page, quiero conocer cómo funciona el sistema de monitoreo antes de registrarme.</td>
+      <td>Barra de navegación en landing page</td>
+      <td>Como visitante quiero una barra de navegación de landing page para tener accesos directos a la información de la aplicación </td>
       <td>
-        Scenario: Mostrar visualización de disponibilidad en tiempo real<br>
-        Given que el visitante accede a la landing page<br>
-        When la sección de disponibilidad es visible<br>
-        Then debe mostrarse un mapa interactivo con la cantidad de espacios disponibles en tiempo real
+        Scenario: Acceso a la sección Nosotros<br>
+        Given que el visitante está en el landing page<br>
+        And utiliza la barra de navegación<br>
+        When selecciona "Contacto"<br>
+        Then accede a la sección de contacto del producto.
         <br><br>
-        Scenario: Datos actualizados en tiempo real<br>
-        Given que hay cambios en la ocupación de los estacionamientos<br>
-        When el sistema detecta estos cambios<br>
-        Then la visualización del mapa se actualiza automáticamente sin recargar la página
+        Scenario: Acceso a la sección Propietarios<br>
+        Given que el visitante está en el landing page<br>
+        And utiliza la barra de navegación<br>
+        When selecciona “Beneficios”<br>
+        Then accede a la sección que muestra los beneficios del producto.
       </td>
       <td>EP01</td>
     </tr>
@@ -1627,18 +1629,18 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US14</td>
-      <td>Comparativa con métodos tradicionales</td>
-      <td>Como propietario potencial, quiero ver una comparativa clara entre usar SmartParking y métodos manuales, para entender los beneficios económicos y operativos de la plataforma.</td>
+      <td>Diseñar y distribuir espacios de estacionamiento</td>
+      <td>Como propietario, quiero poder diseñar y organizar los espacios de estacionamiento desde la aplicación web, para optimizar su distribución y gestión.</td>
       <td>
-        Scenario: Mostrar tabla comparativa<br>
-        Given que el visitante accede a la landing page<br>
-        When selecciona ¿Por qué SmartParking?”<br>
-        Then debe aparecer una tabla que compare: tiempo de gestión, precisión, ingresos estimados y herramientas disponibles
+        Scenario: Acceder al módulo de diseño<br>
+        Given que el propietario inicia sesión en la plataforma<br>
+        When accede a la sección "Crear estacionamiento"<br>
+        Then se muestra una interfaz gráfica para añadir, mover y eliminar espacios de estacionamiento
         <br><br>
-        Scenario: Mostrar CTA al final de la tabla<br>
-        Given que el visitante revisa la tabla<br>
-        When llega al final<br>
-        Then debe mostrarse un botón “Empezar gratis”<br>
+        Scenario: Guardar distribución personalizada<br>
+        Given que el propietario realiza cambios en el diseño<br>
+        When selecciona "Guardar distribución"<br>
+        Then el sistema guarda la nueva distribución y muestra un mensaje de confirmación
       </td>
       <td>EP03</td>
     </tr>
@@ -1779,35 +1781,49 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
     </tr>
     <tr>
       <td>US22</td>
-      <td>Incentivo por recomendación exitosa</td>
-      <td>Como usuario registrado, quiero recibir recompensas cuando mis referidos usen la app, para motivarme a compartirla.</td>
+      <td>Calificar estacionamientos utilizados</td>
+      <td>Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.</td>
       <td>
-        Scenario: Recompensa por recomendación exitosa<br>
-        Given que invito a un nuevo usuario usando mi enlace personalizado<br>
-        When ese usuario se registra y realiza su primera reserva<br>
-        Then recibo una recompensa en mi cuenta
+        Scenario: Mostrar opción de calificación después del uso<br>
+        Given que el conductor ha completado el tiempo de estacionamiento<br>
+        When accede al resumen de la reserva<br>
+        Then se muestra la opción para calificar el estacionamiento con una puntuación y un comentario
         <br><br>
-        Scenario: Recompensa única por referido<br>
-        Given que un mismo referido realiza múltiples reservas<br>
-        When ya se ha otorgado una recompensa por su primer uso<br>
-        Then el sistema no otorga recompensas adicionales por ese mismo referido
+        Scenario: Registrar calificación con éxito<br>
+        Given que el conductor ingresa una puntuación y comentario<br>
+        When presiona "Enviar calificación"<br>
+        Then el sistema guarda la calificación y muestra un mensaje de confirmación
+        <br><br>
+        Scenario: Ver calificaciones anteriores<br>
+        Given que el conductor encuentra un estacionamiento<br>
+        When accede a ver sus detalles<br>
+        Then puede ver una calificación en general<br>
+        And calificaciones de otros usuarios.
       </td>
       <td>EP05</td>
     </tr>
     <tr>
       <td>US23</td>
       <td>Registro Rápido desde Landing Page</td>
-      <td>Como visitante interesado, quiero poder registrarme en la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.</td>
+      <td>Como visitante interesado, quiero poder acceder a la plataforma directamente desde la landing page, para empezar a usar los servicios</td>
       <td>
         Scenario: Mostrar formulario de registro visible<br>
         Given que el visitante accede a la landing page<br>
         When selecciona “Empieza ahora”<br>
-        Then debe desplegarse un formulario breve con campos de nombre, correo y tipo de usuario
+        Then debe redireccionar a la aplicación web
+        And desplegar formulario de registro
         <br><br>
-        Scenario: Confirmación tras registro exitoso<br>
+        Scenario: Confirmación para usuario Propietario<br>
         Given que el visitante llena el formulario correctamente<br>
-        When presiona “Registrarse”<br>
-        Then debe ver un mensaje de confirmación con un botón para ir a la app web o descargar la app móvil
+        When es usuario "Propietario"<br>
+        Then debe ser redirigido a la app web<br>
+        And empezar a usar SmartParking
+        <br><br>
+        Scenario: Confirmación para usuario Chofer<br>
+        Given que el visitante llena el formulario correctamente<br>
+        When es usuario "Chofer"<br>
+        Then debe ser redirigido a App Store o Google Play<br>
+        And descargar la aplicación movil
       </td>
       <td>EP05</td>
     </tr>
