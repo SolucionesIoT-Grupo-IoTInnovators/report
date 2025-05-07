@@ -52,7 +52,7 @@
 | 2.2.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
 | 2.2.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements |
 | 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement           |
-| 2.2.3       | 06/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de |
+| 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog |
 ---
 
 # Project Report Collaboration Insights
@@ -81,7 +81,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
 - **Tafur Gonzales, Josty Gerardo:**
-- **Zarate Caceres, Victor Ernesto:**
+- **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 ![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP.png)
