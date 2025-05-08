@@ -1948,6 +1948,307 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       </td>
       <td>-</td>
     </tr>
+    <!--Epica 06-->
+    <tr>
+      <td>EP06</td>
+      <td>Backend API</td>
+      <td>Como desarrollador quiero utilizar un backend API para que los usuarios puedan interactuar con la aplicación.</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Crear Parking Owner a través de RESTful API</td>
+      <td>Como desarrollador quiero registrar un Parking Owner a través de la API para que pueda autenticar usuarios propietarios de estacionamientos en la plataforma.</td>
+      <td>
+        Scenario: Crear Parking Owner con datos válidos<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone, companyName y ruc correctamente formateados y únicos<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Crear Parking Owner con email duplicado<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con un email ya registrado<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el email ya está en uso.
+        <br><br>
+        Scenario: Crear Parking Owner con teléfono inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.
+        <br><br>
+        Scenario: Crear Parking Owner con RUC inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con un ruc que no tiene 11 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el RUC debe tener exactamente 11 dígitos.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Crear Driver a través de RESTful API</td>
+      <td>Como desarrollador quiero registrar un Driver a través de la API para que pueda autenticar conductores en la plataforma.</td>
+      <td>
+        Scenario: Crear Driver con datos válidos<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone y dni correctamente formateados y únicos<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Crear Driver con email duplicado<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con un email ya registrado<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el email ya está en uso.
+        <br><br>
+        Scenario: Crear Driver con teléfono inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.
+        <br><br>
+        Scenario: Crear Driver con DNI inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con un dni que no tiene 8 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el DNI debe tener exactamente 8 dígitos.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Sign In de usuario a través de RESTful API</td>
+      <td>Como desarrollador quiero permitir a los usuarios autenticarse en la aplicación para que puedan acceder a funcionalidades protegidas mediante un token.</td>
+      <td>
+        Scenario: Autenticación exitosa<br>
+        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
+        When se envía una solicitud POST con email y password válidos<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, email, token y roles en el cuerpo de la respuesta.<br><br>
+        Scenario: Email no registrado<br>
+        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
+        When se envía una solicitud POST con un email que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el email no existe.
+        <br><br>
+        Scenario: Contraseña incorrecta<br>
+        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
+        When se envía una solicitud POST con un email válido y una password incorrecta<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que la contraseña es incorrecta.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Obtener perfil de Parking Owner por userId a través de RESTful API</td>
+      <td>Como desarrollador quiero obtener la información de perfil de un Parking Owner mediante su userId para mostrar los datos completos en la aplicación.</td>
+      <td>
+        Scenario: Obtener perfil de Parking Owner con userId válido<br>
+        Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>
+        And que existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con dicho userId<br>
+        Then se recibe una respuesta con estado 200<br>
+        And se incluye un recurso con los valores de userId, parkingOwnerId, fullName, city, country, phone, companyName y ruc en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Obtener perfil de Parking Owner con userId inexistente<br>
+        Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>
+        And que no existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con ese userId<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el userId no existe.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Obtener perfil de Driver por userId a través de RESTful API</td>
+      <td>Como desarrollador quiero obtener la información de perfil de un Driver mediante su userId para mostrar los datos completos en la aplicación.</td>
+      <td>
+        Scenario: Obtener perfil de Driver con userId válido<br>
+        Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>
+        And que existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con dicho userId<br>
+        Then se recibe una respuesta con estado 200<br>
+        And se incluye un recurso con los valores de userId, driverId, fullName, city, country, phone y dni en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Obtener perfil de Driver con userId inexistente<br>
+        Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>
+        And que no existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con ese userId<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el userId no existe.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Obtener todos los parkings registrados</td>
+      <td>Como desarrollador quiero obtener la lista de todos los parkings registrados para poder mostrarlos en la aplicación a los usuarios.</td>
+      <td>
+        Scenario: Existen parkings registrados<br>
+        Given que el endpoint /api/v1/parkings está disponible y hay parkings registrados en el sistema<br>
+        When realizo una solicitud GET a /api/v1/parkings<br>
+        Then recibo una respuesta con estado 200<br>
+        And un arreglo de parkings, donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: No existen parkings registrados<br>
+        Given que el endpoint /api/v1/parkings está disponible y no hay parkings registrados en el sistema<br>
+        When realizo una solicitud GET a /api/v1/parkings<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no existen parkings registrados.
+      </td>
+      <td>EP06</td>
+   </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Crear un nuevo parking</td>
+      <td>Como desarrollador quiero registrar un nuevo parking en el sistema para que un propietario pueda ofrecer espacios de estacionamiento.</td>
+      <td>
+        Scenario: Crear parking con ownerId válido<br>
+        Given que el endpoint /api/v1/parkings está disponible y existe un ownerId válido<br>
+        When envío una solicitud POST a /api/v1/parkings con los datos válidos en el cuerpo como ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots y pricePerHour<br>
+        Then recibo una respuesta con estado 201<br>
+        And el recurso creado con los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: Crear parking con ownerId inexistente<br>
+        Given que el endpoint /api/v1/parkings está disponible y el ownerId no existe<br>
+        When envío una solicitud POST a /api/v1/parkings con ese ownerId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el propietario.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Obtener todos los spots de un parking por su parkingId</td>
+      <td>Como desarrollador quiero obtener todos los espacios (spots) de un parking usando su parkingId para que pueda mostrarlos en el layout del estacionamiento.</td>
+      <td>
+        Scenario: parkingId válido<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 200<br>
+        And una lista de spots donde cada spot contiene los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.
+        <br><br>
+        Scenario: parkingId inexistente<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el parking.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Agregar un spot a un parking</td>
+      <td>Como desarrollador quiero registrar un nuevo espacio (spot) en un parking para que se puedan administrar los espacios disponibles.</td>
+      <td>
+        Scenario: parkingId válido<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>
+        When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId y con los datos del spot en el cuerpo como spotNumber, isAvailable, isReserved y spotType<br>
+        Then recibo una respuesta con estado 201<br>
+        And el recurso creado con los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.
+        <br><br>
+        Scenario: parkingId inexistente<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>
+        When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el parking.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS15</td>
+      <td>Obtener parking por parkingId</td>
+      <td>Como desarrollador quiero obtener los detalles de un parking usando su parkingId para que pueda mostrar su información detallada en la app.</td>
+      <td>
+        Scenario: parkingId válido<br>
+        Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 200<br>
+        And los datos del parking que contienen los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: parkingId inexistente<br>
+        Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId no existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el parking.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Obtener todos los parkings por ownerId</td>
+      <td>Como desarrollador quiero obtener todos los parkings asociados a un ownerId para que los propietarios puedan gestionar sus parkings.</td>
+      <td>
+        Scenario: ownerId válido<br>
+        Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>
+        Then recibo una respuesta con estado 200<br>
+        And una lista de parkings donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: ownerId inexistente<br>
+        Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId no existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el propietario.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Crear Reserva a través de RESTful API</td>
+      <td>Como desarrollador quiero registrar una reserva a través de la API para que un conductor pueda apartar un espacio de estacionamiento en una fecha y horario específico.</td>
+      <td>
+        Scenario: Crear reserva con datos válidos<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con los valores de driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime y endTime correctamente formateados y los identificadores existen en el sistema<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Crear reserva con driverId inexistente<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con un driverId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el driverId no se encontró.
+        <br><br>
+        Scenario: Crear reserva con parkingId inexistente<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con un parkingId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el parkingId no se encontró.
+        <br><br>
+        Scenario: Crear reserva con parkingSpotId inexistente<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con un parkingSpotId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el parkingSpotId no se encontró.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Obtener Reservas por ParkingId</td>
+      <td>Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.</td>
+      <td>
+        Scenario: Obtener reservas con parkingId válido<br>
+        Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>
+        And el parkingId existe en el sistema<br>
+        When se envía una solicitud GET con el parámetro parkingId válido<br>
+        Then se recibe una respuesta con estado 200<br>
+        And se incluye una lista de recursos, donde cada recurso contiene los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Obtener reservas con parkingId inexistente<br>
+        Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>
+        When se envía una solicitud GET con un parkingId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el parkingId no se encontró.
+      </td>
+      <td>EP06</td>
+    </tr>
   </table>
 </div>
 
