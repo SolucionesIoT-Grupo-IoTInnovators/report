@@ -4090,25 +4090,207 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 
 - **Proceso de Despliegue:**
 
-**Mobile Application**
-
-- **Proceso de Despliegue:**
-
-**Web Services (Backend)**
-
-- **Proceso de Despliegue:**
-
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
+<table align="justify">
+  <tr> 
+    <th> Sprint # </th>
+    <th> Sprint 1 </th>
+  </tr>
+  <tr> 
+    <td style="font-weight: bold;" colspan="2"> Sprint Planing Background</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Date </td>
+    <td> 05/05/2025 </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Time </td>
+    <td> 22:00 horas (GMT-5) </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Location </td>
+    <td> Reunión remota a través de Discord </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Prepared By </td>
+    <td> IoTInnovators </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Attendees (to planning meeting) </td>
+    <td> 
+      Arroyo Ormeño, André Alonso<br>
+      Castilla Pachas, César Antonio<br>
+      Cortés Casas, Joaquin Marcelo<br>
+      Diaz Silva, Fernando Josué<br>
+      Godoy, Johan Príncipe<br>
+      Tafur Gonzales, Josty Gerardo<br>
+      Zarate Caceres, Victor Ernesto
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 0 Review Summary </td>
+    <td> No existe Sprint anterior</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 0 Retrospective Summary </td>
+    <td> Dado a que nos encontramos en nuestro primer sprint, aun no identifcamos planes de mejora.</td>
+  </tr>
+  <tr> 
+    <td style="font-weight: bold;" colspan="2"> Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Goal</td>
+    <td>
+      Nos enfocamos en crear y desplegar la Landing Page y la Aplicación Web.<br>
+      Creemos que esto permitirá a los propietarios conocer y comenzar a usar la plataforma.<br>
+      Lo confirmaremos cuando puedan registrarse, acceder al panel web y crear sus espacios
+    </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sprint 1 Velocity </td>
+    <td>  </td>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;"> Sum of Story Points </td>
+    <td>  </td>
+  </tr>
+</table>
+
 #### 6.2.1.2. Aspect Leaders and Collaborators
+<!--
+  TODO:
+  - Definir aspectos
+  - Cambiar Aspect Name por Aspectod Decididos
+  - Añadir descripción por aspecto
+ -->
+- **Aspect Name 1:**
+- **Aspect Name 2:**
+- **Aspect Name 3:**
+- **Aspect Name 4:**
+- **Aspect Name 5:**
+
+|           Team Member         | GitHub Username | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Apect Name 4 | Aspect Name 5 |
+| ------------------------------|-----------------|---------------|---------------|---------------|--------------|---------------|
+| Arroyo Ormeño, André Alonso   |    anonimat0    |               |               |               |              |               |	
+| Castilla Pachas, César Antonio|	   CesarrAnn    |               |               |               |              |               |	
+| Cortés Casas, Joaquin Marcelo |	   U202114545   |               |               |               |              |               |	
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo |               |               |               |              |               |	
+| Godoy, Johan Príncipe	        |     JP19-03     |               |               |               |              |               |	
+| Tafur Gonzales, Josty Gerardo |	   JostyTafur   |               |               |               |              |               |	
+| Zarate Caceres, Victor        |     ern23zc     |               |               |               |              |               |	
+
 #### 6.2.1.3. Sprint Backlog 1
+<!-- TODO: Añadir introducción que resuma el objetivo principal del Sprint -->
+
+![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
+
+Enlace a Trello:
+<table>
+  <tr>
+    <b>
+      <th colspan="2" valign="top">SPRINT</th>
+      <th colspan="6" valign="top">SPRINT 1</th>
+    </b>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"></td>
+    <td colspan="6" valign="top"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <b>
+      <td valign="top">User Story ID</td>
+      <td valign="top">Title</td>
+      <td valign="top">id</td>
+      <td valign="top">Title</td>
+      <td valign="top">Description</td>
+      <td valign="top">Tiempo (horas)</td>
+      <td valign="top">Assigned to</td>
+      <td valign="top">Status (To-Do/In process/To review/Done)</td>
+    </b>
+  </tr>
+  <!-- User Story -->
+  <tr>
+    <td rowspan="2" valign="top">US</td>
+    <td rowspan="2" valign="top"></td>
+    <td valign="top">T1</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">T2</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+  <!-- User Story -->
+  <tr>
+    <td rowspan="2" valign="top">US</td>
+    <td rowspan="2" valign="top"></td>
+    <td valign="top">T3</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">T4</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+</table>
+
 #### 6.2.1.4. Development Evidence for Sprint Review
+<!-- TODO: Añadir introducción que resume los principales avances en la implementación -->
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
 #### 6.2.1.6. Execution Evidence for Sprint Review
+<!-- TODO: 
+  - Añadir resumen que explique lo alcanzado en este Sprint
+  - Screenshots de las principales vistas implementadas
+  - Enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint
+-->
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot1.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot2.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot3.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot4.png)
+
+Enlace:
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence1.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence2.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence3.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence4.png)
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+<!-- TODO: Explicar cómo se han desarrollado las actividades de implementación -->
+![Analiticos de Colaboracion - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Analytics.png)
+![Commits - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Commits.png)
 
 # Conclusiones y recomendaciones
 ## ✅ Conclusiones
