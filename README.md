@@ -932,20 +932,21 @@ Medio de aplicación
   <!--Entrevista 1-->
   <table>
     <tr>
-      <td>Entrevista 1: </td>
+      <td>Entrevista 1: 
+      <a href="https://tinyurl.com/2corev5e"> https://tinyurl.com/2corev5e</a></td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Jhon Gutierrez Lopez<br>
+        Edad: 42 años<br>
+        Distrito: Los Olivos<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        En esta entrevista, el dueño de dos locales de parking Jhon Gutierrez menciona que lleva el control de los espacios de sus parkings de manera manual, por medio de personas encargadas de esta labor. Asimismo, menciona que en las horas pico, suele tener ciertos problemas, ya que algunos autos se pueden ir sin antes pagar por el servicio brindado. Actualmente, Jhon maneja la gestión del almacenamiento de manera tradicional, realizando apuntes en cuadernos y manejando una "caja chica", pero menciona que le gustaría implementar tecnologia que ha podido observar en otros estacionamientos de centros comerciales. Relata que debido a la manera en la que maneja de sus ingresos, este sufrio de una estafa por modalidad de "Yape falso". Por otra parte, menciona que le interesaría una aplicación que le ayude con la trazabilidad de su negocio y la toma de decisiones, tanto a nivel económico como de gestión. Menciona que algunas funcionalidades necesarias en la aplicación sería la implementación de reportes y que la solución ofrecida le parece interesante.
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista1.png" height=300px></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Interview1.png"></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1045,7 +1046,7 @@ Medio de aplicación
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/7406bb9b8894ad60830432f6c9809f4bf228aacd/ChapterII-images/Entrevista-conductor-Mauricio.png?raw=true" height=300px></td>
+      <td colspan="2"><img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/7406bb9b8894ad60830432f6c9809f4bf228aacd/ChapterII-images/Segmento2-Interview1.png?raw=true" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
