@@ -31,28 +31,29 @@
 ---
 
 # Registro de Versiones del Informe
-
-| **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                   |
-|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                                                                    |
+|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0         | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
-| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del Startup                                                                               |
-| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                                                   | Adición del Solution Profile y Competidores.                                                      |
+| 1.1         | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del Startup                                                                                                                                |
+| 1.2         | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                                                   | Adición del Solution Profile y Competidores.                                                                                                       |
 | 1.3         | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                                                         | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
-| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Adición del To-Be Scenario Mapping.                                                               |
-| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición de User Stories.                                                                          |
+| 1.4         | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Adición del To-Be Scenario Mapping.                                                                                                                |
+| 1.5         | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición de User Stories.                                                                                                                           |
 | 1.6         | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                                                   | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
-| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del segmento objetivo.                                                                    |
-| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                    |
-| 1.9         | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                  |
-| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                              |
-| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correción del menú y puntos faltantes en el documento                                             |
-| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correciones de enlaces y Student Outcome                                                          |
-| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Añadir títulos para la entrega parcial (TP)                                                       |
-| 2.1.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir style guidelines for app web, mobile and iot                                               |
+| 1.7         | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del segmento objetivo.                                                                                                                     |
+| 1.8         | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                                                                     |
+| 1.9         | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
+| 1.10        | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
+| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correción del menú y puntos faltantes en el documento                                                                                              |
+| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correciones de enlaces y Student Outcome                                                                                                           |
+| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Añadir títulos para la entrega parcial (TP)                                                                                                        |
+| 2.1.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir style guidelines for app web, mobile and iot                                                                                                |
 | 2.2.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
-| 2.2.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements |
-| 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement           |
-| 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog |
+| 2.2.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements                                                  |
+| 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
+| 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
+| 2.2.4       | 10/05/2025 | Arroyo Ormeño, André Alonso </br> Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
+| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                       | Corrección de User Stories and Product Backlog |
 ---
 
 # Project Report Collaboration Insights
@@ -932,20 +933,21 @@ Medio de aplicación
   <!--Entrevista 1-->
   <table>
     <tr>
-      <td>Entrevista 1: </td>
+      <td>Entrevista 1: 
+      <a href="https://tinyurl.com/2corev5e"> https://tinyurl.com/2corev5e</a></td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Jhon Gutierrez Lopez<br>
+        Edad: 42 años<br>
+        Distrito: Los Olivos<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        En esta entrevista, el dueño de dos locales de parking Jhon Gutierrez menciona que lleva el control de los espacios de sus parkings de manera manual, por medio de personas encargadas de esta labor. Asimismo, menciona que en las horas pico, suele tener ciertos problemas, ya que algunos autos se pueden ir sin antes pagar por el servicio brindado. Actualmente, Jhon maneja la gestión del almacenamiento de manera tradicional, realizando apuntes en cuadernos y manejando una "caja chica", pero menciona que le gustaría implementar tecnologia que ha podido observar en otros estacionamientos de centros comerciales. Relata que debido a la manera en la que maneja de sus ingresos, este sufrio de una estafa por modalidad de "Yape falso". Por otra parte, menciona que le interesaría una aplicación que le ayude con la trazabilidad de su negocio y la toma de decisiones, tanto a nivel económico como de gestión. Menciona que algunas funcionalidades necesarias en la aplicación sería la implementación de reportes y que la solución ofrecida le parece interesante.
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento1-Entrevista1.png" height=300px></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento1-Interview1.png"></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1045,7 +1047,7 @@ Medio de aplicación
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/7406bb9b8894ad60830432f6c9809f4bf228aacd/ChapterII-images/Entrevista-conductor-Mauricio.png?raw=true" height=300px></td>
+      <td colspan="2"><img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterII-images/Segmento2-Interview1.png" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1948,8 +1950,310 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
       </td>
       <td>-</td>
     </tr>
+    <!--Epica 06-->
+    <tr>
+      <td>EP06</td>
+      <td>Backend API</td>
+      <td>Como desarrollador quiero utilizar un backend API para que los usuarios puedan interactuar con la aplicación.</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>TS06</td>
+      <td>Crear Parking Owner a través de RESTful API</td>
+      <td>Como desarrollador quiero registrar un Parking Owner a través de la API para que pueda autenticar usuarios propietarios de estacionamientos en la plataforma.</td>
+      <td>
+        Scenario: Crear Parking Owner con datos válidos<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone, companyName y ruc correctamente formateados y únicos<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Crear Parking Owner con email duplicado<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con un email ya registrado<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el email ya está en uso.
+        <br><br>
+        Scenario: Crear Parking Owner con teléfono inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.
+        <br><br>
+        Scenario: Crear Parking Owner con RUC inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
+        When se envía una solicitud POST con un ruc que no tiene 11 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el RUC debe tener exactamente 11 dígitos.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS07</td>
+      <td>Crear Driver a través de RESTful API</td>
+      <td>Como desarrollador quiero registrar un Driver a través de la API para que pueda autenticar conductores en la plataforma.</td>
+      <td>
+        Scenario: Crear Driver con datos válidos<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone y dni correctamente formateados y únicos<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Crear Driver con email duplicado<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con un email ya registrado<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el email ya está en uso.
+        <br><br>
+        Scenario: Crear Driver con teléfono inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.
+        <br><br>
+        Scenario: Crear Driver con DNI inválido<br>
+        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
+        When se envía una solicitud POST con un dni que no tiene 8 dígitos<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el DNI debe tener exactamente 8 dígitos.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS08</td>
+      <td>Sign In de usuario a través de RESTful API</td>
+      <td>Como desarrollador quiero permitir a los usuarios autenticarse en la aplicación para que puedan acceder a funcionalidades protegidas mediante un token.</td>
+      <td>
+        Scenario: Autenticación exitosa<br>
+        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
+        When se envía una solicitud POST con email y password válidos<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, email, token y roles en el cuerpo de la respuesta.<br><br>
+        Scenario: Email no registrado<br>
+        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
+        When se envía una solicitud POST con un email que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el email no existe.
+        <br><br>
+        Scenario: Contraseña incorrecta<br>
+        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
+        When se envía una solicitud POST con un email válido y una password incorrecta<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que la contraseña es incorrecta.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS09</td>
+      <td>Obtener perfil de Parking Owner por userId a través de RESTful API</td>
+      <td>Como desarrollador quiero obtener la información de perfil de un Parking Owner mediante su userId para mostrar los datos completos en la aplicación.</td>
+      <td>
+        Scenario: Obtener perfil de Parking Owner con userId válido<br>
+        Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>
+        And que existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con dicho userId<br>
+        Then se recibe una respuesta con estado 200<br>
+        And se incluye un recurso con los valores de userId, parkingOwnerId, fullName, city, country, phone, companyName y ruc en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Obtener perfil de Parking Owner con userId inexistente<br>
+        Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>
+        And que no existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con ese userId<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el userId no existe.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS10</td>
+      <td>Obtener perfil de Driver por userId a través de RESTful API</td>
+      <td>Como desarrollador quiero obtener la información de perfil de un Driver mediante su userId para mostrar los datos completos en la aplicación.</td>
+      <td>
+        Scenario: Obtener perfil de Driver con userId válido<br>
+        Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>
+        And que existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con dicho userId<br>
+        Then se recibe una respuesta con estado 200<br>
+        And se incluye un recurso con los valores de userId, driverId, fullName, city, country, phone y dni en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Obtener perfil de Driver con userId inexistente<br>
+        Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>
+        And que no existe un usuario con el userId especificado<br>
+        When se realiza una solicitud GET al endpoint con ese userId<br>
+        Then se recibe una respuesta con estado 400<br>
+        And un mensaje de error indicando que el userId no existe.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS11</td>
+      <td>Obtener todos los parkings registrados</td>
+      <td>Como desarrollador quiero obtener la lista de todos los parkings registrados para poder mostrarlos en la aplicación a los usuarios.</td>
+      <td>
+        Scenario: Existen parkings registrados<br>
+        Given que el endpoint /api/v1/parkings está disponible y hay parkings registrados en el sistema<br>
+        When realizo una solicitud GET a /api/v1/parkings<br>
+        Then recibo una respuesta con estado 200<br>
+        And un arreglo de parkings, donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: No existen parkings registrados<br>
+        Given que el endpoint /api/v1/parkings está disponible y no hay parkings registrados en el sistema<br>
+        When realizo una solicitud GET a /api/v1/parkings<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no existen parkings registrados.
+      </td>
+      <td>EP06</td>
+   </tr>
+    <tr>
+      <td>TS12</td>
+      <td>Crear un nuevo parking</td>
+      <td>Como desarrollador quiero registrar un nuevo parking en el sistema para que un propietario pueda ofrecer espacios de estacionamiento.</td>
+      <td>
+        Scenario: Crear parking con ownerId válido<br>
+        Given que el endpoint /api/v1/parkings está disponible y existe un ownerId válido<br>
+        When envío una solicitud POST a /api/v1/parkings con los datos válidos en el cuerpo como ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots y pricePerHour<br>
+        Then recibo una respuesta con estado 201<br>
+        And el recurso creado con los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: Crear parking con ownerId inexistente<br>
+        Given que el endpoint /api/v1/parkings está disponible y el ownerId no existe<br>
+        When envío una solicitud POST a /api/v1/parkings con ese ownerId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el propietario.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS13</td>
+      <td>Obtener todos los spots de un parking por su parkingId</td>
+      <td>Como desarrollador quiero obtener todos los espacios (spots) de un parking usando su parkingId para que pueda mostrarlos en el layout del estacionamiento.</td>
+      <td>
+        Scenario: parkingId válido<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 200<br>
+        And una lista de spots donde cada spot contiene los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.
+        <br><br>
+        Scenario: parkingId inexistente<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el parking.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS14</td>
+      <td>Agregar un spot a un parking</td>
+      <td>Como desarrollador quiero registrar un nuevo espacio (spot) en un parking para que se puedan administrar los espacios disponibles.</td>
+      <td>
+        Scenario: parkingId válido<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>
+        When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId y con los datos del spot en el cuerpo como spotNumber, isAvailable, isReserved y spotType<br>
+        Then recibo una respuesta con estado 201<br>
+        And el recurso creado con los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.
+        <br><br>
+        Scenario: parkingId inexistente<br>
+        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>
+        When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el parking.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS15</td>
+      <td>Obtener parking por parkingId</td>
+      <td>Como desarrollador quiero obtener los detalles de un parking usando su parkingId para que pueda mostrar su información detallada en la app.</td>
+      <td>
+        Scenario: parkingId válido<br>
+        Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 200<br>
+        And los datos del parking que contienen los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: parkingId inexistente<br>
+        Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId no existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el parking.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS16</td>
+      <td>Obtener todos los parkings por ownerId</td>
+      <td>Como desarrollador quiero obtener todos los parkings asociados a un ownerId para que los propietarios puedan gestionar sus parkings.</td>
+      <td>
+        Scenario: ownerId válido<br>
+        Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>
+        Then recibo una respuesta con estado 200<br>
+        And una lista de parkings donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
+        <br><br>
+        Scenario: ownerId inexistente<br>
+        Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId no existe<br>
+        When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>
+        Then recibo una respuesta con estado 400<br>
+        And un mensaje de error indicando que no se encontró el propietario.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS17</td>
+      <td>Crear Reserva a través de RESTful API</td>
+      <td>Como desarrollador quiero registrar una reserva a través de la API para que un conductor pueda apartar un espacio de estacionamiento en una fecha y horario específico.</td>
+      <td>
+        Scenario: Crear reserva con datos válidos<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con los valores de driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime y endTime correctamente formateados y los identificadores existen en el sistema<br>
+        Then se recibe una respuesta con estado 201<br>
+        And se incluye un recurso con los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Crear reserva con driverId inexistente<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con un driverId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el driverId no se encontró.
+        <br><br>
+        Scenario: Crear reserva con parkingId inexistente<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con un parkingId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el parkingId no se encontró.
+        <br><br>
+        Scenario: Crear reserva con parkingSpotId inexistente<br>
+        Given que el endpoint /api/v1/reservations está disponible<br>
+        When se envía una solicitud POST con un parkingSpotId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el parkingSpotId no se encontró.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>TS18</td>
+      <td>Obtener Reservas por ParkingId</td>
+      <td>Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.</td>
+      <td>
+        Scenario: Obtener reservas con parkingId válido<br>
+        Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>
+        And el parkingId existe en el sistema<br>
+        When se envía una solicitud GET con el parámetro parkingId válido<br>
+        Then se recibe una respuesta con estado 200<br>
+        And se incluye una lista de recursos, donde cada recurso contiene los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.
+        <br><br>
+        Scenario: Obtener reservas con parkingId inexistente<br>
+        Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>
+        When se envía una solicitud GET con un parkingId que no existe en el sistema<br>
+        Then se recibe una respuesta con estado 400<br>
+        And se incluye un mensaje de error indicando que el parkingId no se encontró.
+      </td>
+      <td>EP06</td>
+    </tr>
   </table>
 </div>
+
 
 ## 3.3. Impact Mapping
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
@@ -1965,33 +2269,46 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 |   01    |     US04      | Barra de navegación en landing page                           | Como visitante quiero una barra de navegación de landing page para tener accesos directos a la información de la aplicación                                                      | 1                                |
 |   02    |     US23      | Registro Rápido desde Landing Page                            | Como visitante interesado, quiero poder acceder a la plataforma directamente desde la landing page, para empezar a usar los servicios sin buscar otra sección.                   | 1                                |
 |   03    |     US03      | Sección hero de landing page                                  | Como visitante quiero visualizar una sección hero en el landing page para tener una idea sobre lo que ofrece la aplicación                                                       | 3                                |
-|   04    |     US14      | Diseñar y distribuir espacios de estacionamiento              | Como propietario, quiero poder diseñar y organizar los espacios de estacionamiento desde la aplicación web, para optimizar su distribución y gestión.                            | 3                                |
-|   05    |     US15      | Gestionar múltiples estacionamientos desde un solo panel      | Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.                                | 8                                |
-|   06    |     TS03      | Visualización en tiempo real en la aplicación web             | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.                     | 5                                |
-|   07    |     US11      | Visualizar ocupación en tiempo real                           | Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.                | 3                                |
-|   08    |     US02      | Actualización automática de disponibilidad                    | Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.   | 5                                |
-|   09    |     US01      | Visualización de espacios disponibles en el mapa              | Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.                          | 3                                |
-|   10    |     US05      | Visualizar detalles de un espacio disponible                  | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.               | 2                                |
-|   11    |     US13      | Descargar reportes de uso                                     | Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.                    | 5                                ||   06    |     TS02      | Autenticación con JWT en Web y App                            | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.                | 5                                ||   06    |     TS02      | Autenticación con JWT en Web y App                            | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.                | 5                                |
-|   12    |     TS02      | Autenticación con JWT en Web y App                            | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.                | 5                                |
-|   13    |     US12      | Modificar tarifas de estacionamiento                          | Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.                                     | 2                                |
-|   14    |     US07      | Cancelar una reserva activa                                   | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.                                                 | 3                                |
-|   15    |     TS04      | Implementar sistema de reservas en la App Móvil               | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.                                  | 3                                |
-|   16    |     US06      | Reservar un espacio disponible desde la app                   | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.                                                      | 5                                |
-|   17    |     US16      | Registro de sensores en la plataforma                         | Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.                                                        | 3                                |
-|   18    |     TS01      | Integrar sensores IoT al backend                              | Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios. | 5                                |
-|   19    |     US17      | Seguridad y Confiabilidad del Sistema                         | Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.| 1                                |
-|   20    |     US20      | Validación de consistencia entre sensores y estado del sistema| Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.                                                    | 5                                |
-|   21    |     US18      | Alertas ante fallas en los sensores                           | Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.                                                             | 3                                |
-|   22    |     US19      | Actualización remota del firmware de sensores                 | Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.                                           | 5                                |
-|   23    |     US10      | Ver historial de pagos realizados                             | Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.                                            | 3                                |
-|   24    |     US21      | Registro mediante enlace de invitación                        | Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.                              | 5                                |
-|   25    |     US22      | Calificar estacionamientos utilizados exitosa                 | Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.                                        | 3                                |
-|   26    |     US24      | Encuesta de satisfacción automática                           | Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.                                                       | 3                                |
-|   27    |     US25      | Panel de métricas de crecimiento orgánico (Admin)             | Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.                                                      | 5                                |
-|   28    |     TS05      | Implementar sistema de pagos en línea                         | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.                                      | 8                                |
-|   29    |     US08      | Realizar pago desde la app                                    | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.                                                 | 5                                |
-|   30    |     US09      | Registro de método de pago en el perfil                       | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                       | 3                                |
+|   04    |     TS06      | Crear Parking Owner vía API                                   | Como desarrollador, quiero registrar un Parking Owner vía RESTful API para autenticar propietarios en la plataforma.                                                             | 3                                |
+|   05    |     TS07      | Crear Driver vía API                                          | Como desarrollador, quiero registrar un Driver vía RESTful API para autenticar conductores en la plataforma.                                                                     | 3                                |
+|   16    |     TS02      | Autenticación con JWT en Web y App                            | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.                | 5                                |
+|   07    |     TS08      | Sign In de usuario vía API                                    | Como desarrollador, quiero permitir a los usuarios autenticarse para acceder a funcionalidades protegidas mediante token.                                                        | 3                                |
+|   08    |     TS12      | Crear un nuevo parking                                        | Como desarrollador, quiero registrar un nuevo parking para que un propietario pueda ofrecer espacios.                                                                            | 3                                |
+|   09    |     TS13      | Obtener spots por parkingId                                   | Como desarrollador, quiero obtener todos los espacios (spots) de un parking según su parkingId.                                                                                  | 2                                |
+|   10    |     TS14      | Agregar un spot a un parking                                  | Como desarrollador, quiero registrar un nuevo espacio en un parking para administrar los disponibles.                                                                            | 2                                |
+|   11    |     US14      | Diseñar y distribuir espacios de estacionamiento              | Como propietario, quiero poder diseñar y organizar los espacios de estacionamiento desde la aplicación web, para optimizar su distribución y gestión.                            | 3                                |
+|   12    |     TS11      | Obtener todos los parkings registrados                        | Como desarrollador, quiero obtener todos los parkings registrados para mostrarlos en la app.                                                                                     | 2                                |
+|   13    |     US15      | Gestionar múltiples estacionamientos desde un solo panel      | Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.                                | 8                                |
+|   14    |     TS15      | Obtener parking por parkingId                                 | Como desarrollador, quiero obtener los detalles de un parking por su ID para mostrarlos en la app.                                                                               | 2                                |
+|   15    |     TS16      | Obtener parkings por ownerId                                  | Como desarrollador, quiero obtener todos los parkings asociados a un ownerId para gestión del propietario.                                                                       | 2                                |
+|   16    |     TS03      | Visualización en tiempo real en la aplicación web             | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.                     | 5                                |
+|   17    |     US11      | Visualizar ocupación en tiempo real                           | Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.                | 3                                |
+|   18    |     US02      | Actualización automática de disponibilidad                    | Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.   | 5                                |
+|   19    |     US01      | Visualización de espacios disponibles en el mapa              | Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.                          | 3                                |
+|   20    |     US05      | Visualizar detalles de un espacio disponible                  | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.               | 2                                |
+|   21    |     TS09      | Obtener perfil de Parking Owner por userId                    | Como desarrollador, quiero obtener los datos de perfil de un Parking Owner por su userId.                                                                                        | 2                                |
+|   22    |     TS10      | Obtener perfil de Driver por userId                           | Como desarrollador, quiero obtener los datos de perfil de un Driver por su userId.                                                                                               | 2                                |
+|   23    |     US13      | Descargar reportes de uso                                     | Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.                    | 5                                |
+|   24    |     US12      | Modificar tarifas de estacionamiento                          | Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.                                     | 2                                |
+|   25    |     TS04      | Implementar sistema de reservas en la App Móvil               | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.                                  | 3                                |
+|   26    |     TS17      | Crear reserva vía API                                         | Como desarrollador, quiero registrar una reserva vía RESTful API para que un conductor pueda apartar un espacio en fecha y hora específicas.                                     | 3                                |
+|   27    |     TS18      | Obtener reservas por parkingId                                | Como desarrollador, quiero obtener todas las reservas de un parking por su ID para permitir la gestión al propietario.                                                           | 2                                | 
+|   28    |     US06      | Reservar un espacio disponible desde la app                   | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.                                                      | 5                                |
+|   29    |     US07      | Cancelar una reserva activa                                   | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.                                                 | 3                                |
+|   30    |     US16      | Registro de sensores en la plataforma                         | Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.                                                        | 3                                |
+|   31    |     TS01      | Integrar sensores IoT al backend                              | Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios. | 5                                |
+|   32    |     US17      | Seguridad y Confiabilidad del Sistema                         | Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.| 1                                |
+|   33    |     US20      | Validación de consistencia entre sensores y estado del sistema| Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.                                                    | 5                                |
+|   34    |     US18      | Alertas ante fallas en los sensores                           | Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.                                                             | 3                                |
+|   35    |     US19      | Actualización remota del firmware de sensores                 | Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.                                           | 5                                |
+|   36    |     US10      | Ver historial de pagos realizados                             | Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.                                            | 3                                |
+|   37    |     US21      | Registro mediante enlace de invitación                        | Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.                              | 5                                |
+|   38    |     US22      | Calificar estacionamientos utilizados exitosa                 | Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.                                        | 3                                |
+|   39    |     US24      | Encuesta de satisfacción automática                           | Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.                                                       | 3                                |
+|   40    |     US25      | Panel de métricas de crecimiento orgánico (Admin)             | Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.                                                      | 5                                |
+|   41    |     TS05      | Implementar sistema de pagos en línea                         | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.                                      | 8                                |
+|   42    |     US08      | Realizar pago desde la app                                    | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.                                                 | 5                                |
+|   43    |     US09      | Registro de método de pago en el perfil                       | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                       | 3                                |
 ---
 
 # Capítulo IV: Solution Software Design
