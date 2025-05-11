@@ -956,16 +956,20 @@ Medio de aplicación
   <!--Entrevista 2-->
   <table>
     <tr>
-      <td>Entrevista 2: </td>
+      <td>Entrevista 2: <a href="https://acortar.link/i0BqY4">https://acortar.link/i0BqY4</a> </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Lizet Antonia Pachas Torres<br>
+        Edad: 42 <br>
+        Distrito: Surco<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        La entrevista se ha realizado a Lizet Antonia, de 42 años, propietaria de una cochera privada en el distrito de Surco, Lima. Lizet gestiona 36 espacios de estacionamiento, principalmente atendiendo a clientes por hora y a residentes de la zona. Actualmente administra su negocio de forma manual, utilizando registros escritos y señalizaciones físicas.
+
+Su mayor dificultad radica en el control preciso del flujo de vehículos y la verificación de ingresos, pues admite que hay errores humanos y posibles pérdidas cuando se delega la gestión. Aunque ha considerado soluciones tecnológicas anteriormente, las ofertas disponibles no se adaptaron a sus necesidades o resultaron costosas.
+
+Lizet mostró interés en adoptar una solución como SmartParking, siempre que esta incluya funcionalidades como la detección automática de espacios libres, visualización en tiempo real, control financiero diario y registro automatizado de entradas y salidas. En cuanto a lo que considera imprescindible, explicó que necesita poder visualizar en cualquier momento qué espacios están libres, registrar automáticamente los ingresos, recibir notificaciones si el estacionamiento está por llenarse, y brindar a los clientes frecuentes la posibilidad de reservar su espacio desde la plataforma, todo accesible desde su celular o laptop. Considera que una herramienta así podría mejorar su operación, reducir pérdidas y atraer nuevos clientes al visibilizar su cochera digitalmente.. 
       </td>
     </tr>
     <tr>
