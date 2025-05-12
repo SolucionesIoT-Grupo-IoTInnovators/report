@@ -4692,26 +4692,7 @@ En este primer Sprint se crearon las versiones iniciales de la Landing Page y We
 |            |        |           |                |                     |                    |
 |            |        |           |                |                     |                    |
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-
 #### 6.2.1.6. Execution Evidence for Sprint Review
-<!-- TODO: 
-  - Añadir resumen que explique lo alcanzado en este Sprint
-  - Screenshots de las principales vistas implementadas
-  - Enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint
--->
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot1.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot2.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot3.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot4.png)
-
-Enlace:
-
 <!-- TODO: 
   - Añadir resumen que explique lo alcanzado en este Sprint
   - Screenshots de las principales vistas implementadas
