@@ -4565,7 +4565,9 @@ Durante este sprint, se trabajó en las funcionalidades iniciales de la platafor
 - El diseño y desarrollo de la Landing Page.
 - La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
 
-La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: https://shorturl.at/example123
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
+
+https://trello.com/b/4jpMjzDd
 
 ![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
 
