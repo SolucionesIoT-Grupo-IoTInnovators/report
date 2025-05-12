@@ -1,4 +1,5 @@
 # Informe de Trabajo Final - TP
+
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
@@ -8,6 +9,7 @@
     <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
     <strong>INFORME DE TRABAJO FINAL - TP </strong> 
 </p>
+
 <p align="center">
     <strong>Startup: IoT Innovators </strong><br>
     <strong>Producto:  SmartParking </strong>
@@ -54,6 +56,7 @@
 | 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
 | 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
 | 2.3.4       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
+
 ---
 
 # Project Report Collaboration Insights
@@ -85,7 +88,13 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP.png)
+#### TB1:
+
+![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTP.png)
+
+#### TP1:
+
+![Captura de analíticos de colaboración de GitHub - TP1]()
 
 ---
 
