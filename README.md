@@ -4249,7 +4249,83 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
+
+En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
+
+| Sprint # | Sprint 1 |
+|----------|----------|
+| **Sprint Planning Background** |
+| **Date** | 01/05/2025 |
+| **Time** | 21:00 horas (GMT-5) |
+| **Location** |  |
+| **Prepared By** | IoT Innovators |
+| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
+| **Sprint 0 – 1 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
+| **Sprint 0 – 1 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
+
+#### Sprint 1 Goal
+
+> **Our focus is** on delivering a publicly accessible Landing Page and the initial web app interface for SmartParking.  
+> **We believe it delivers** early user engagement and foundational infrastructure for stakeholder validation.  
+> **This will be confirmed when** users can access the landing page, view the product and team info, and navigate the web app’s home page from deployed environments.
+
+Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+
+#### Sprint 1 Velocity
+
+**60 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+
+#### Sum of Story Points
+
+**50 Story Points en total**, agrupando las siguientes historias de usuario:
+
+| ID | Historia de Usuario |
+|----|---------------------|
+| US03 | Sección hero de landing page |
+| US04 | Barra de navegación en landing page	 |
+| US15 | Gestionar múltiples estacionamientos desde un solo panel	 |
+| US23 | Registro Rápido desde Landing Page	 |
+| TS02 | Autenticación con JWT en Web y App	 |
+| TS06	 | Crear Parking Owner a través de RESTful API		 |
+| TS07 | Crear Driver a través de RESTful API	 |
+| TS08 | Sign In de usuario a través de RESTful API	 |
+| TS09 | Obtener perfil de Parking Owner por userId a través de RESTful API	 |
+| TS10 | Obtener perfil de Driver por userId a través de RESTful API	 |
+| TS11	 | Obtener todos los parkings registrados		 |
+| TS12 | Crear un nuevo parking	 |
+| TS13 | Obtener todos los spots de un parking por su parkingId	 |
+| TS14 | Agregar un spot a un parking	 |
+| TS15 | Obtener parking por parkingId	 |
+| TS16	 | Obtener todos los parkings por ownerId		 |
+| TS17 | Crear Reserva a través de RESTful API	 |
+| TS178 | Obtener Reservas por ParkingId |
+
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
+Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
+
+En esta primera iteración, se abordaron los siguientes aspectos clave:
+
+- **Diseño e implementación de la Landing Page**  
+- **Desarrollo de la interfaz web para el conductor y propietario**  
+- **Configuración de backend y endpoints básicos**  
+- **Despliegue de frontend y backend**  
+- **Aplicación de guías de estilo y prototipos UI**  
+
+La siguiente tabla resume la distribución de responsabilidades del equipo en esta etapa:
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (L/C) | Web App (L/C) | Backend Config (L/C) | Deployment (L/C) |
+|-------------------------------------|------------------|---------------------|----------------|-----------------------|------------------|
+| Cortés Casas, Joaquín Marcelo       | a        | C                   | -              | -                     | -                |
+| Castilla Pachas, César Antonio      | a       | -                   | -              | -                     | -                |
+| Godoy, Johan Príncipe               | a       | -                   | -              | -                     | -                |
+| Diaz Silva, Fernando Josué          | a   | L                   | -              | -                     | -                |
+| Arroyo Ormeño, André Alonso         | a   | -                   | -              | -                     | -                |
+| Tafur Gonzales, Josty Gerardo       | a          | -                   | -              | -                     | -                |
+| Zarate Caceres, Victor Ernesto      | a         | -                   | -              | -                     | -                |
+
+---
+
 #### 6.2.1.3. Sprint Backlog 1
 #### 6.2.1.4. Development Evidence for Sprint Review
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
