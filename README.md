@@ -4093,7 +4093,7 @@ En SmartParking, buscamos una experiencia visual moderna, clara y coherente en t
 **Branding**
 El branding de SmartParking se enfoca en transmitir confianza, accesibilidad y sostenibilidad. Se utiliza una paleta de colores basada en tonos azules y verdes, reflejando tecnología, profesionalismo, movilidad y respeto ambiental. Esto crea una atmósfera moderna, confiable y en sintonía con el propósito del producto.
 
-
+!["Smart Parking Logo"](ChapterIV-images/smartparking-logo.jpg)
 
 **Tipography**
 La tipografía empleada en SmartParking está basada en fuentes de tipo Sans Serif, por su legibilidad, disponibilidad multiplataforma y estilo limpio.
@@ -4120,7 +4120,9 @@ La paleta de colores de SmartParking integra tonos de azul y verde. Esta combina
 | Verde Medio        | #00CC77  | Elementos complementarios, etiquetas o chips             |
 | Verde Oscuro       | #007F48  | Indicadores de seguridad, acciones críticas o estados ON |
 
+!["Smart Parking Color Palette 1"](ChapterIV-images/color-palette-1.jpg)
 
+!["Smart Parking Color Palette 2"](ChapterIV-images/color-palette-2.jpg)
 
 **Spacing**
 El espaciado sigue una escala de 8px para mantener un ritmo visual ordenado:
