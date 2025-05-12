@@ -981,14 +981,16 @@ Lizet mostró interés en adoptar una solución como SmartParking, siempre que e
     <tr>
       <td>Entrevista 3: </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Armando Arturo Navarrete Caballero<br>
+        Edad: 59 <br>
+        Distrito: San Isidro<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        Armando administra tres cocheras privadas en un entorno de oficina, sin aplicar tecnología para su control. Las cocheras están numeradas, los usuarios respetan su espacio, y no hay rotación alta ni conflictos. No realiza un seguimiento de ingresos ni ocupación diaria. Las horas de mayor uso son de 9 a.m. a 5 p.m., pero esto no representa una carga operativa.
+
+Percibe que implementar tecnología no es necesario actualmente, salvo para negocios de alta rotación. Sin embargo, considera que funciones como sensores para detectar si una cochera está libre u ocupada, y monitorear entradas/salidas, podrían ser valiosas para seguridad. Cree que herramientas como SmartParking serían útiles si se enfocan en visualización clara de ocupación y control para propietarios, más que en funciones de reserva.. 
       </td>
     </tr>
     <tr>
@@ -1059,14 +1061,18 @@ Lizet mostró interés en adoptar una solución como SmartParking, siempre que e
     <tr>
       <td>Entrevista 2: </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Rocío María Casas Lucich<br>
+        Edad: 49<br>
+        Distrito: San Isidro<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        Rocío conduce regularmente de lunes a viernes, principalmente en zonas como San Isidro y Miraflores, donde encontrar estacionamiento es muy complicado, especialmente entre las 9 a.m. y 6 p.m. Debido a la escasez y alto costo de cocheras, a menudo ha optado por dejar el auto y tomar taxi, lo que representa una clara frustración como usuaria. 
+
+Describe como molestia principal el tener que dar vueltas sin encontrar espacios disponibles o tener que usar cocheras lejanas al destino. No ha recibido multas y se muestra respetuosa de las normas de tránsito. No conocía la existencia de aplicaciones para este problema, pero se muestra muy receptiva a la idea de una app tipo “Waze de cocheras”, que le indique disponibilidad cercana en tiempo real.
+
+Estaría dispuesta a pagar por el servicio, siempre que el precio sea razonable, y considera imprescindible la función de reserva previa incluso si esta tiene un costo adicional, ya que desea seguridad al saber que encontrará espacio al llegar.. 
       </td>
     </tr>
     <tr>
@@ -4085,33 +4091,38 @@ En SmartParking, buscamos una experiencia visual moderna, clara y coherente en t
 ### 5.1.1. General Style Guidelines
 
 **Branding**
-El branding de SmartParking se enfoca en transmitir confianza y accesibilidad a través de una paleta de colores basada en tonos azules. Estos tonos reflejan profesionalismo, tecnología y tranquilidad, creando una atmósfera agradable tanto en la web como en la app móvil.
+El branding de SmartParking se enfoca en transmitir confianza, accesibilidad y sostenibilidad. Se utiliza una paleta de colores basada en tonos azules y verdes, reflejando tecnología, profesionalismo, movilidad y respeto ambiental. Esto crea una atmósfera moderna, confiable y en sintonía con el propósito del producto.
 
-<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/>
+!["Smart Parking Logo"](ChapterIV-images/smartparking-logo.jpg)
 
 **Tipography**
-La tipografía empleada en SmartParking está basada en la fuente Roboto, que es legible y moderna. El uso de diferentes pesos y tamaños permite establecer una jerarquía visual clara.
+La tipografía empleada en SmartParking está basada en fuentes de tipo Sans Serif, por su legibilidad, disponibilidad multiplataforma y estilo limpio.
 
 Tamaños y Estilos:
-- H1: 28px, Roboto, color primario (usando el azul más oscuro de la paleta)
-- H2: 24px, Roboto, color primario
-- H3: 20px, Roboto, color primario
-- Párrafo (p): 16px, Roboto, color gris oscuro para asegurar buena legibilidad
-
-<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/typography.png?raw=true" alt="Typography"/>
+- H1: 28px, Sans Serif, color primario (usando el azul más oscuro de la paleta)
+- H2: 24px, Sans Serif, color primario
+- H3: 20px, Sans Serif, color primario
+- Párrafo (p): 16px, Sans Serif, color gris oscuro para asegurar buena legibilidad
 
 **Colors**
-La paleta de colores de ParkingApp está basada en distintos tonos de azul, proporcionando una experiencia coherente y limpia a lo largo de todas las plataformas.
+La paleta de colores de SmartParking integra tonos de azul y verde. Esta combinación representa confiabilidad y sostenibilidad / eficiencia:
 
-| Color Name      | Hex Code | Uso Principal                             |
-|-----------------|----------|-------------------------------------------|
-| Azul Claro      | #60A5FA  | Fondo de la interfaz, áreas secundarias   |
-| Azul Primario   | #2563EB  | Elementos destacados, botones principales |
-| Azul Medio      | #1D4ED8  | Botones, enlaces, elementos destacados    |
-| Azul Oscuro     | #1E40AF  | Encabezados, textos primarios             |
-| Azul Muy Oscuro | #1E3A8A  | Fondos principales, barra de navegación   |
+| Color Name         | Hex Code | Uso Principal                                            |
+| ------------------ | -------- | -------------------------------------------------------- |
+| Azul Claro         | #60A5FA  | Fondo de la interfaz, áreas secundarias                  |
+| Azul Primario      | #2563EB  | Elementos destacados, botones principales                |
+| Azul Medio         | #1D4ED8  | Botones, enlaces, elementos destacados                   |
+| Azul Oscuro        | #1E40AF  | Encabezados, textos primarios                            |
+| Azul Muy Oscuro    | #1E3A8A  | Fondos principales, barra de navegación                  |
+| Verde Pastel Claro | #7FFEC7  | Fondos de tarjetas o elementos secundarios suaves        |
+| Verde Claro        | #33FFA6  | Elementos de énfasis con buena visibilidad               |
+| Verde Fluorescente | #00FF90  | Botones destacados o íconos de confirmación              |
+| Verde Medio        | #00CC77  | Elementos complementarios, etiquetas o chips             |
+| Verde Oscuro       | #007F48  | Indicadores de seguridad, acciones críticas o estados ON |
 
-<img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/colors.png?raw=true" alt="Colors" />
+!["Smart Parking Color Palette 1"](ChapterIV-images/color-palette-1.jpg)
+
+!["Smart Parking Color Palette 2"](ChapterIV-images/color-palette-2.jpg)
 
 **Spacing**
 El espaciado sigue una escala de 8px para mantener un ritmo visual ordenado:
