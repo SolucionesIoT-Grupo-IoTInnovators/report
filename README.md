@@ -88,13 +88,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-#### TB1:
-
-![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTP.png)
-
-#### TP1:
-
-![Captura de analíticos de colaboración de GitHub - TP1]()
+![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP.png)
 
 ---
 
@@ -4595,13 +4589,65 @@ https://trello.com/b/4jpMjzDd
 | TS18       | Ver reservas por parking |            | GET para consultar reservas de un estacionamiento    |                           | 4h                     |                          |                                                    |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
-<!-- TODO: Añadir introducción que resume los principales avances en la implementación -->
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
+En este primer Sprint se crearon las versiones iniciales de la Landing Page y Web Appilcation de SmartParking. Los avances específicos son:
+- **Landing Page:**
+  - Creación de Sección hero
+  - Navbar landing
+  - Registro rápido         
+- **Web Application:**
+  - Diseño de espacios      
+  - Panel múltiple parkings 
+  - Calificación 
+
+
+|      Repository       |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :-------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+| smartparking-frontend |           master           | e92f50dae3ab9259a127876882c78d450cae71a8 | feat: add switching languages.                                                       |                     |     12/05/2025     |
+| smartparking-frontend |           master           | e303e810256474ee22ae24e0de49490ba75a6d2d | feat: add language switcher to toolbar.                                              |                     |     12/05/2025     |
+| smartparking-frontend |           master           | 3cdf971ebf8b6736a25802a5ad92126548b87f61 | feat: add select button component.                                                   |                     |     12/05/2025     |
+| smartparking-frontend |           master           | 1d8fab8165efda1a89a01b37deeb109ef45a2042 | feat: add link to sign-up page in sign-up form.                                      |                     |     12/05/2025     |
+| smartparking-frontend |           master           | dd18e737562eb605215e382db29f7d6d6b4ad5f8 | feat(auth): add sign-up page.                                                        |                     |     12/05/2025     |
+| smartparking-frontend |           master           | a179bde294e5eb32ddaef6bafc7dfc9426b61b3c | feat(auth): add sign up page.                                                        |                     |     12/05/2025     |
+| smartparking-frontend |           master           | df0dc3675eb5e1872b51a7835829965fd3e9ecf7 | feat: add radio button and password component from primevue.                         |                     |     12/05/2025     |
+| smartparking-frontend |           master           | a0c8c189e5b69ecbfce9bb1fe92d3cf039b17dfb | feat: add general background color.                                                  |                     |     12/05/2025     |
+| smartparking-frontend |           master           | 120fb93f4ab7164794d0864d7679a9d58bd8c04c | chore: small change.                                                                 |                     |     12/05/2025     |
+| smartparking-frontend |           master           | d7d2c258896f6e5e34cf91ee3d1f0b187bc35e42 | feat(public): add reviews link in sidenav                                            |                     |     12/05/2025     |
+| smartparking-frontend | feature/parking-management | 4e57fa8646f0d58a9755c398a8af5ced35e764eb | feat(parking-management): add parking summary card.                                  |                     |     12/05/2025     |
+| smartparking-frontend | feature/parking-management | a3cda61ae355e251ee87547190677374a3987d2c | chore: update attributes in sidenav and parking spot viewer component.               |                     |     08/05/2025     |
+| smartparking-frontend |       feature/review       | fbfc609d613c6ca5f0a838c76ba211a97c9cdad7 | fix: change value to v-model propertie in pv-rating.                                 |                     |     08/05/2025     |
+| smartparking-frontend |       feature/review       | c14ff65bb51066084b4df3ff302b634f3816ee2c | feat(reviews): add review feed component.                                            |                     |     07/05/2025     |
+| smartparking-frontend |       feature/review       | d4992a654abc221d303d82c75164995ec2afc1ad | feat(reviews): add review card list component.                                       |                     |     07/05/2025     |
+| smartparking-frontend |       feature/review       | efa551f60fe2c85b4c67e4070cfb6a44ad7803fd | feat(reviews): add review card component.                                            |                     |     07/05/2025     |
+| smartparking-frontend |       feature/review       | 94a6f10e3e0dc7fc091503250a9876a22852c47d | feat(reviews): add review service.                                                   |                     |     07/05/2025     |
+| smartparking-frontend |       feature/review       | f669b985fe15d4b2f9606fd12d41a122a955ccb3 | feat(reviews): add review entity.                                                    |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | 7fde5d5f4895b6a0cd002629b3796d79e896e345 | feat(reservations): add styles to status.                                            |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | ce1af174e2acd11db8ab6af2f23f297ba2dd4a29 | feat(reservations): add global filter to reservation data table.                     |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | d7cfe11af08fcdd85c94b45c75e6243bcc1b5e15 | fix: update conflicts in sidenav styles.                                             |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | 27199eadf2fd4434845da1136b6b783ad128c2e5 | feat: add input icon and icon field components from primevue.                        |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | 90f730ab805f3d63bb2f0e574d0e559f2b0fba60 | fix: update styles in side-nav component.                                            |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | 1402cf03d2fb7f71d2535a960197e9a77d6ccc04 | feat(reservations): add reservation data table.                                      |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | cd9e56815b956335cae8d8d1ea5ce688287403c7 | feat: add current parking id to store.                                               |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | aa4cd74c0cbd203cc2759f453d1ca81c29aecd0d | chore: update spots colors.                                                          |                     |     07/05/2025     |
+| smartparking-frontend |    feature/reservations    | 93c393768aef7ae3b25a7050a4f1ce10c3e4a69c | feat: add reservations route to index router.                                        |                     |     06/05/2025     |
+| smartparking-frontend |    feature/reservations    | 68ddcbff82e104151b3dfb38301fed37e9b8cf70 | feat: add side-nav component.                                                        |                     |     06/05/2025     |
+| smartparking-frontend |    feature/reservations    | a28eb5e3121bdbc160ddbaa3beb44438b172c108 | feat: add drawer component from primevue.                                            |                     |     06/05/2025     |   
+| smartparking-frontend |    feature/reservations    | 93aa1388c6b995491413712cbf20008443fb491f | feat: add auth layout.                                                               |                     |     06/05/2025     | 
+| smartparking-frontend |    feature/reservations    | 06a4bd6eaa21549b5fb148f5186976096c40f987 | feat(reservations): add data-table and column components from primevue.              |                     |     06/05/2025     |   
+| smartparking-frontend |    feature/reservations    | 61f91c68d65996d2795b4cdaf39c2e5297274871 | feat(reservations): add reservation service.                                         |                     |     06/05/2025     |
+| smartparking-frontend |    feature/reservations    | d2e5b1faae8f2b496e112a1e2193fbc01a4c0173 | feat(reservations): add reservation entity.                                          |                     |     06/05/2025     |
+| smartparking-frontend |           master           | 59d0c2630cfd63dec8f3e86a7e67624608a86044 | chore: update smart parking logo.                                                    |                     |     06/05/2025     |
+| smartparking-frontend |           master           | ea47bea3472898a94aef562b8c20ec5f7cea4b01 | feat: update index.js                                                                |                     |     04/05/2025     |
+| smartparking-frontend |           master           | af27d34d2da0acc458ce282dadabe94d1a3d068d | feat: add parking-management and iam related components.                             |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 6bfe0e01b48364ff3592bf09236cd6f095c8620f | feat(parking-management): add parking-management layout.                             |                     |     03/05/2025     |
+| smartparking-frontend |           master           | ff107a94954548a4b5ec1823c6d18053c1b2796e | chore: configure axios-based networking base url and default header parameters.      |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 99e0f712c01718921c6aceb31c6e827322b08413 | chore: configure router instance.                                                    |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 7766d7fd2841dd0c0b73cf4744e1ec83dbf3abe8 | chore: configure app instance.                                                       |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 5c31ab15ad3bb817de0134682767a23dd3b57981 | feat: add project dependencies.                                                      |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 163de43c6432aa79162a1bd8477984386e0d08dc | feat: define general styles.                                                         |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 50ffefa32a52971a6e00d1c1eb10b667cf1c5be1 | feat: add app logo.                                                                  |                     |     03/05/2025     |
+| smartparking-frontend |           master           | 50ffefa32a52971a6e00d1c1eb10b667cf1c5be1 | feat: add new features.                                                              |                     |     17/04/2025     |
+| smartparking-frontend |           master           | 342af00380f15f8d18b535011c587d1ca0b8e8b9 | remove .env.development from repo and add to .gitignore                              |                     |     17/04/2025     |
+| smartparking-frontend |           master           | 5b9b0cefef70cbfc03bbf2a49ecf0a46a0a1612a | add parking-management bounded context, project dependencies and primevue components |                     |     16/04/2025     |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
