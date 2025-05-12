@@ -4501,12 +4501,14 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 
 ### 6.1.4. Software Deployment Configuration
 **Landing Page**
-
 - **Proceso de Despliegue:**
+  - 
+  - 
 
 **Web Application**
-
 - **Proceso de Despliegue:**
+  - 
+  - 
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
@@ -4576,13 +4578,13 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 
 |           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
 |-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Arroyo Ormeño, André Alonso   | anonimat0        |               |               |               |               |               |
-| Castilla Pachas, César Antonio| CesarrAnn        |               |               |               |               |               |
-| Cortés Casas, Joaquin Marcelo | U202114545       |   C           |               |               |               |               |
-| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |    L          |               |               |               |               |
-| Godoy, Johan Príncipe         | JP19-03          |               |               |               |               |               |
-| Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |               |
-| Zarate Caceres, Victor        | ern23zc          |               |               |               |               |               |
+| Arroyo Ormeño, André Alonso   | anonimat0        |       C       |       C       |       C       |      L        |       C       |
+| Castilla Pachas, César Antonio| CesarrAnn        |       C       |       C       |       C       |      C        |       C       |
+| Cortés Casas, Joaquin Marcelo | U202114545       |       C       |       C       |       C       |      C        |       C       |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |       L       |       C       |       C       |      C        |       C       |
+| Godoy, Johan Príncipe         | JP19-03          |       C       |       L       |       C       |      C        |       C       |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |       C       |       C       |       C       |      C        |       C       |
+| Zarate Caceres, Victor        | ern23zc          |       C       |       C       |       C       |      C        |       L       |
 
 #### 6.2.1.3. Sprint Backlog 1
 Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
@@ -4598,30 +4600,30 @@ https://trello.com/b/4jpMjzDd
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint #  ||                                                                                                               Sprint 1                                                                                                      ||||||
-|------------| -------------------------|------------|------------------------------------------------------|---------------------------|------------------------|--------------------------|----------------------------------------------------|
-|             **User Story**            ||                                                                                   **Work-Item / Task**                                                                                           ||||||
-| **Id**     | **Title**                | **Id**     | **Title**                                            | **Description**           | **Estimation (Hours)** | **Assigned To**          | **Status (To-do / In-Process / To-Review / Done)** |
-| US03       | Sección hero             | 01         | Diseñar e implementar hero visual en landing page    |                           | 6h                     |                          |                                                    |
-| US04       | Navbar landing           |            | Barra navegable con enlaces                          |                           | 2h                     |                          |                                                    |
-| US14       | Diseño de espacios       |            | UI para organizar zonas de parqueo                   |                           | 6h                     |                          |                                                    |
-| US15       | Panel múltiple parkings  |            | Vista centralizada para gestión de cocheras          |                           | 12h                    |                          |                                                    |
-| US22       | Calificación             |            | Interfaz para dejar y ver reseñas de estacionamientos|                           | 6h                     |                          |                                                    |
-| US23       | Registro rápido          |            | Formulario desde landing page                        |                           | 2h                     |                          |                                                    |
-| TS02       | Autenticación JWT        |            | Login basado en tokens para Web y App                |                           | 10h                    |                          |                                                    |
-| TS06       | Crear Owner API          |            | POST para registrar propietario                      |                           | 6h                     |                          |                                                    |
-| TS07       | Crear Driver API         |            | POST para registrar conductor                        |                           | 6h                     |                          |                                                    |
-| TS08       | Login API                |            | POST para autenticación y retorno de token JWT       |                           | 6h                     |                          |                                                    |
-| TS09       | Perfil Owner API         |            | GET para obtener datos por userId (propietario)      |                           | 4h                     |                          |                                                    |
-| TS10       | Perfil Driver API        |            | GET para obtener datos por userId (conductor)        |                           | 4h                     |                          |                                                    |
-| TS11       | Obtener parkings         |            | GET general de parkings registrados                  |                           | 4h                     |                          |                                                    |
-| TS12       | Crear parking            |            | POST para agregar nuevo parking                      |                           | 6h                     |                          |                                                    |
-| TS13       | Ver spots por parkingId  |            | GET para listar espacios de un parking               |                           | 4h                     |                          |                                                    |
-| TS14       | Agregar spot             |            | POST para crear nuevo espacio                        |                           | 4h                     |                          |                                                    |
-| TS15       | Obtener parking por ID   |            | GET específico de un parking                         |                           | 4h                     |                          |                                                    |
-| TS16       | Parkings por ownerId     |            | GET para listar los parkings de un propietario       |                           | 4h                     |                          |                                                    |
-| TS17       | Crear reserva            |            | POST para registrar una reserva con validaciones     |                           | 6h                     |                          |                                                    |
-| TS18       | Ver reservas por parking |            | GET para consultar reservas de un estacionamiento    |                           | 4h                     |                          |                                                    |
+|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
+|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
+|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
+| **Id**    | **Title**                                                          | **Id**     | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
+| US03      | Sección hero de landing page                                       |     01     | Seccion Hero                        | Diseñar e implementar hero visual en landing page    | 6h                     | Diaz Silva, Fernando Josué     | Done                                               |
+| US04      | Barra de navegación en landing page                                |     02     | Barra de navegación en landing page | Barra navegable con enlaces                          | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
+| US14      | Diseñar y distribuir espacios de estacionamiento                   |     03     | Diseño de espacios                  | UI para organizar zonas de parqueo                   | 6h                     | Príncipe Godoy, Johan          | Done                                               |
+| US15      | Gestionar múltiples estacionamientos desde un solo panel           |     04     | Panel múltiple parkings             | Vista centralizada para gestión de cocheras          | 12h                    | Zarate Caceres, Victor Ernesto | Done                                               |
+| US22      | Calificar estacionamientos utilizados                              |     05     | Calificación                        | Interfaz para dejar y ver reseñas de estacionamientos| 6h                     | Castilla Pachas, César Antonio | Done                                               |
+| US23      | Registro Rápido desde Landing Page                                 |     06     | Registro rápido                     | Formulario desde landing page                        | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
+| TS02      | Autenticación con JWT en Web y App                                 |     07     | Autenticación                       | Login basado en tokens para Web y App                | 10h                    | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS06      | Crear Parking Owner a través de RESTful API                        |     08     | Crear Owner API                     | POST para registrar propietario                      | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS07      | Crear Driver a través de RESTful API                               |     09     | Crear Driver API                    | POST para registrar conductor                        | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS08      | Sign In de usuario a través de RESTful API                         |     10     | Login API                           | POST para autenticación y retorno de token JWT       | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS09      | Obtener perfil de Parking Owner por userId a través de RESTful API |     11     | Perfil Owner API                    | GET para obtener datos por userId (propietario)      | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+| TS10      | Obtener perfil de Driver por userId a través de RESTful API        |     12     | Perfil Driver API                   | GET para obtener datos por userId (conductor)        | 4h                     | Castilla Pachas, César Antonio | Done                                               |
+| TS11      | Obtener todos los parkings registrados                             |     13     | Obtener parkings                    | GET general de parkings registrados                  | 4h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS12      | Crear un nuevo parking                                             |     14     | Crear parking                       | POST para agregar nuevo parking                      | 6h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS13      | Obtener todos los spots de un parking por su parkingId             |     15     | Ver spots por parkingId             | GET para listar espacios de un parking               | 4h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS14      | Agregar un spot a un parking                                       |     16     | Agregar spot                        | POST para crear nuevo espacio                        | 4h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS15      | Obtener parking por parkingId                                      |     17     | Obtener parking por ID              | GET específico de un parking                         | 4h                     | Castilla Pachas, César Antonio | Done                                               |
+| TS16      | Obtener todos los parkings por ownerId                             |     18     | Parkings por ownerId                | GET para listar los parkings de un propietario       | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+| TS17      | Crear Reserva a través de RESTful API                              |     19     | Crear reserva                       | POST para registrar una reserva con validaciones     | 6h                     | Cortés Casas, Joaquin Marcelo  | Done                                               |
+| TS18      | Obtener Reservas por ParkingId                                     |     20     | Ver reservas por parking            | GET para consultar reservas de un estacionamiento    | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 En este primer Sprint se crearon las versiones iniciales de la Landing Page y Web Appilcation de SmartParking. Los avances específicos son:
