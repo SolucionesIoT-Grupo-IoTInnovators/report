@@ -4250,6 +4250,7 @@ El usuario ingresa su nombre, correo, contraseña, elige su rol y acepta los té
 Pantalla principal con un mapa que muestra estacionamientos cercanos donde el usuario puede buscar por su dirección actual.
 
 ![Home](ChapterV-images/home-driver.png)
+
 ![Home](ChapterV-images/details-driver.png)
 
 **Crear reserva**
@@ -4263,6 +4264,7 @@ Pantalla donde el usuario puede crear su reservas de estacionamiento.
 Pantalla donde el usuario puede pagar su reserva de estacionamiento.
 
 ![Pagar reserva](ChapterV-images/Payment-driver.png)
+
 ![Pagar reserva](ChapterV-images/successfull-reservation-driver.png)
 
 **Mis reservas**
@@ -4280,6 +4282,7 @@ Pantalla donde el usuario puede ver los detalles de su reserva.
 Pantalla donde el usuario puede ver y editar su perfil.
 
 ![Perfil](ChapterV-images/profile-driver.png)
+
 ![Editar perfil](ChapterV-images/change-password-driver.png)
 
 **Suscripciones**
@@ -4291,6 +4294,7 @@ Pantalla donde el usuario puede ver sus suscripciones activas.
 Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 
 ![Reseñas](ChapterV-images/Reviews-driver.png)
+
 ![Crear reseña](ChapterV-images/create-review-driver.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
