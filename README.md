@@ -981,14 +981,16 @@ Lizet mostró interés en adoptar una solución como SmartParking, siempre que e
     <tr>
       <td>Entrevista 3: </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Armando Arturo Navarrete Caballero<br>
+        Edad: 59 <br>
+        Distrito: San Isidro<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        Armando administra tres cocheras privadas en un entorno de oficina, sin aplicar tecnología para su control. Las cocheras están numeradas, los usuarios respetan su espacio, y no hay rotación alta ni conflictos. No realiza un seguimiento de ingresos ni ocupación diaria. Las horas de mayor uso son de 9 a.m. a 5 p.m., pero esto no representa una carga operativa.
+
+Percibe que implementar tecnología no es necesario actualmente, salvo para negocios de alta rotación. Sin embargo, considera que funciones como sensores para detectar si una cochera está libre u ocupada, y monitorear entradas/salidas, podrían ser valiosas para seguridad. Cree que herramientas como SmartParking serían útiles si se enfocan en visualización clara de ocupación y control para propietarios, más que en funciones de reserva.. 
       </td>
     </tr>
     <tr>
@@ -1059,14 +1061,18 @@ Lizet mostró interés en adoptar una solución como SmartParking, siempre que e
     <tr>
       <td>Entrevista 2: </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Rocío María Casas Lucich<br>
+        Edad: 49<br>
+        Distrito: San Isidro<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        Rocío conduce regularmente de lunes a viernes, principalmente en zonas como San Isidro y Miraflores, donde encontrar estacionamiento es muy complicado, especialmente entre las 9 a.m. y 6 p.m. Debido a la escasez y alto costo de cocheras, a menudo ha optado por dejar el auto y tomar taxi, lo que representa una clara frustración como usuaria. 
+
+Describe como molestia principal el tener que dar vueltas sin encontrar espacios disponibles o tener que usar cocheras lejanas al destino. No ha recibido multas y se muestra respetuosa de las normas de tránsito. No conocía la existencia de aplicaciones para este problema, pero se muestra muy receptiva a la idea de una app tipo “Waze de cocheras”, que le indique disponibilidad cercana en tiempo real.
+
+Estaría dispuesta a pagar por el servicio, siempre que el precio sea razonable, y considera imprescindible la función de reserva previa incluso si esta tiene un costo adicional, ya que desea seguridad al saber que encontrará espacio al llegar.. 
       </td>
     </tr>
     <tr>
