@@ -331,6 +331,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.<br><br>
         TP:<br>
+        Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -387,6 +388,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br>
         TP:<br>
+        Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
