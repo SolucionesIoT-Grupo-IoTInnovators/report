@@ -4687,25 +4687,33 @@ En este primer Sprint se crearon las versiones iniciales de la Landing Page y We
 | smartparking-frontend |           master           | 5b9b0cefef70cbfc03bbf2a49ecf0a46a0a1612a | add parking-management bounded context, project dependencies and primevue components |                     |     16/04/2025     |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
+Se llevaron a cabo pruebas preliminares para verificar la correcta visualización y funcionamiento de la landing page en diferentes dispositivos y navegadores.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
-<!-- TODO: 
-  - Añadir resumen que explique lo alcanzado en este Sprint
-  - Screenshots de las principales vistas implementadas
-  - Enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint
--->
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot1.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot2.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot3.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot4.png)
+Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
 
-Enlace:
+- El diseño y desarrollo de la Landing Page.
+- La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
+
+**Landing Page**
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-4.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-5.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-6.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-7.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-8.png)
+
+**Web Application**
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-4.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-5.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-6.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-7.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-8.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
@@ -4716,9 +4724,13 @@ Enlace:
 ![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence4.png)
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
-<!-- TODO: Explicar cómo se han desarrollado las actividades de implementación -->
-![Analiticos de Colaboracion - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Analytics.png)
-![Commits - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Commits.png)
+**Landing Page**
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Commits.png)
+
+**Web Application**
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Commits.png)
 
 ---
 
