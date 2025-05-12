@@ -4325,6 +4325,50 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 | Zarate Caceres, Victor        | ern23zc          |                |                |                |                |                |
 
 #### 6.2.1.3. Sprint Backlog 1
+
+### 6.2.1.3 Sprint Backlog 1
+
+Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
+
+- El diseño y desarrollo de la Landing Page.
+- La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público:
+
+https://shorturl.at/example123
+📸 **Captura del board:** *(insertar imagen del tablero Trello aquí)*
+
+---
+
+#### Tabla de control de estado del Sprint
+
+| Sprint # | Sprint 1 |
+|------------|------------------|
+
+| User Story | Work-Item / Task | | | | | |
+|------------|------------------|---------------------------|------------------------|--------------------------|---------------------------|---------------------------|
+| **Id**     | **Title**        | **Description**           | **Estimation (Hours)** | **Assigned To**          | **Status (To-do / In-Process / To-Review / Done)** |
+| US03       | Sección hero             | Diseñar e implementar hero visual en landing page   | 6h                  |                    |                                                 |
+| US04       | Navbar landing           | Barra navegable con enlaces                         | 2h                  |                    |                                                 |
+| US14       | Diseño de espacios       | UI para organizar zonas de parqueo                  | 6h                  |                    |                                                 |
+| US15       | Panel múltiple parkings  | Vista centralizada para gestión de cocheras         | 12h                 |                    |                                                 |
+| US22       | Calificación             | Interfaz para dejar y ver reseñas de estacionamientos| 6h                  |                    |                                                 |
+| US23       | Registro rápido          | Formulario desde landing page                       | 2h                  |                    |                                                 |
+| TS02       | Autenticación JWT        | Login basado en tokens para Web y App               | 10h                 |                    |                                                 |
+| TS06       | Crear Owner API          | POST para registrar propietario                     | 6h                  |                    |                                                 |
+| TS07       | Crear Driver API         | POST para registrar conductor                       | 6h                  |                    |                                                 |
+| TS08       | Login API                | POST para autenticación y retorno de token JWT      | 6h                  |                    |                                                 |
+| TS09       | Perfil Owner API         | GET para obtener datos por userId (propietario)     | 4h                  |                    |                                                 |
+| TS10       | Perfil Driver API        | GET para obtener datos por userId (conductor)       | 4h                  |                    |                                                 |
+| TS11       | Obtener parkings         | GET general de parkings registrados                 | 4h                  |                    |                                                 |
+| TS12       | Crear parking            | POST para agregar nuevo parking                     | 6h                  |                    |                                                 |
+| TS13       | Ver spots por parkingId  | GET para listar espacios de un parking              | 4h                  |                    |                                                 |
+| TS14       | Agregar spot             | POST para crear nuevo espacio                       | 4h                  |                    |                                                 |
+| TS15       | Obtener parking por ID   | GET específico de un parking                        | 4h                  |                    |                                                 |
+| TS16       | Parkings por ownerId     | GET para listar los parkings de un propietario      | 4h                  |                    |                                                 |
+| TS17       | Crear reserva            | POST para registrar una reserva con validaciones    | 6h                  |                    |                                                 |
+| TS18       | Ver reservas por parking | GET para consultar reservas de un estacionamiento   | 4h                  |                    |                                                 |
+
 #### 6.2.1.4. Development Evidence for Sprint Review
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 #### 6.2.1.6. Execution Evidence for Sprint Review
