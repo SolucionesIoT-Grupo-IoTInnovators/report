@@ -1,5 +1,4 @@
 # Informe de Trabajo Final - TP
-
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
@@ -15,7 +14,6 @@
 </p>
 
 ### Relación de integrantes
-
 |      Apellidos y Nombres       |   Código   |
 |:------------------------------:|:----------:|
 |  Arroyo Ormeño, André Alonso   | u202114714 |
@@ -53,7 +51,9 @@
 | 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
 | 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
 | 2.2.4       | 10/05/2025 | Arroyo Ormeño, André Alonso </br> Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
-| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                       | Corrección de User Stories and Product Backlog |
+| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
+| 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
+| 2.3.4       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
 ---
 
 # Project Report Collaboration Insights
@@ -90,7 +90,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 ---
 
 # Contenido
-
 **Tabla de contenidos**
 
 - [Student Outcome](#student-outcome)
@@ -254,27 +253,26 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
-    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
-    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
-    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
-    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
-    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografia)
 - [Anexos](#anexos)
 
+---
 
 # Student Outcome
-
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 5**
-
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
@@ -667,6 +665,8 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Propietarios de Estacionamientos** | Propietarios o administradores de estacionamientos ubicados en zonas urbanas o áreas de alta demanda de estacionamiento, tanto públicas como privadas.                                           | Motivados por la optimización de su espacio, la automatización de cobros y la mejora de la eficiencia operativa. Buscan una solución que les ayude a aumentar la rentabilidad de sus operaciones mediante el monitoreo en tiempo real y la automatización de procesos. | - **Edad:** Entre 30 y 55 años. <br> - **Educación:** Formación en administración de negocios, ingeniería industrial o áreas relacionadas con la gestión de instalaciones. |
 | **Conductores**                      | Conductores urbanos que frecuentemente buscan estacionamiento en zonas con alta densidad de tráfico y poca disponibilidad de espacios, tanto en centros comerciales como en áreas residenciales. | Buscan soluciones que les ahorren tiempo, reduzcan el estrés y les ayuden a evitar la frustración de encontrar estacionamiento. Valoran la conveniencia de encontrar, reservar y pagar estacionamientos a través de una plataforma digital fácil de usar.              | - **Edad:** Entre 18 y 50 años. <br> - **Educación:** Variada, desde estudiantes universitarios hasta profesionales con formación técnica o superior.                      |
+
+---
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
@@ -1331,7 +1331,7 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Ojalá no me multen o remolquen:** Hay que investigar si los usuarios verifican la legalidad del lugar donde estacionan o si simplemente arriesgan por falta de tiempo o información.
 
 ## 2.4. Ubiquitous Language
-
+<!-- TODO: Fix Ubiquitous Language -->
 Se presenta una tabla que contiene los términos específicos del dominio del negocio:
 
 | **Término**     | **Definición** |
@@ -2571,6 +2571,7 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 - *Reservations → Review*  
   Los conductores dejan una reseña tras utilizar un espacio reservado.
 ![Context Mapping](ChapterIV-images/CONTEXTMAPING.jpeg)
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
@@ -4087,29 +4088,22 @@ En SmartParking, buscamos una experiencia visual moderna, clara y coherente en t
 ### 5.1.1. General Style Guidelines
 
 **Branding**
-
 El branding de SmartParking se enfoca en transmitir confianza y accesibilidad a través de una paleta de colores basada en tonos azules. Estos tonos reflejan profesionalismo, tecnología y tranquilidad, creando una atmósfera agradable tanto en la web como en la app móvil.
 
 <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/>
 
 **Tipography**
-
 La tipografía empleada en SmartParking está basada en la fuente Roboto, que es legible y moderna. El uso de diferentes pesos y tamaños permite establecer una jerarquía visual clara.
 
 Tamaños y Estilos:
-
-H1: 28px, Roboto, color primario (usando el azul más oscuro de la paleta)
-
-H2: 24px, Roboto, color primario
-
-H3: 20px, Roboto, color primario
-
-Párrafo (p): 16px, Roboto, color gris oscuro para asegurar buena legibilidad
+- H1: 28px, Roboto, color primario (usando el azul más oscuro de la paleta)
+- H2: 24px, Roboto, color primario
+- H3: 20px, Roboto, color primario
+- Párrafo (p): 16px, Roboto, color gris oscuro para asegurar buena legibilidad
 
 <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/typography.png?raw=true" alt="Typography"/>
 
 **Colors**
-
 La paleta de colores de ParkingApp está basada en distintos tonos de azul, proporcionando una experiencia coherente y limpia a lo largo de todas las plataformas.
 
 | Color Name      | Hex Code | Uso Principal                             |
@@ -4123,27 +4117,18 @@ La paleta de colores de ParkingApp está basada en distintos tonos de azul, prop
 <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/colors.png?raw=true" alt="Colors" />
 
 **Spacing**
-
 El espaciado sigue una escala de 8px para mantener un ritmo visual ordenado:
-
-Margen y Padding: 8px, 16px, 32px
-
-Separación entre bloques mayores: 64px
-
-Este sistema ayuda a mantener interfaces limpias, balanceadas y fáciles de navegar.
+- Margen y Padding: 8px, 16px, 32px
+- Separación entre bloques mayores: 64px
+- Este sistema ayuda a mantener interfaces limpias, balanceadas y fáciles de navegar.
 
 **Iconos**
-
 Los iconos en SmartParking son simples y fácilmente reconocibles, adecuados para acciones frecuentes como guardar, reservar, etc. Los iconos están basados en los estándares de Material Design, garantizando consistencia visual.
-
-Guardar: Icono estándar de guardar en color Azul Medio.
-
-Reservar: Icono de calendario o reserva en Azul Oscuro.
-
-Email: Icono de sobre en color Azul Medio.
+- Guardar: Icono estándar de guardar en color Azul Medio.
+- Reservar: Icono de calendario o reserva en Azul Oscuro.
+- Email: Icono de sobre en color Azul Medio.
 
 **Tone of Voice**
-
 El tono de comunicación de SmartParking es casual-formal, respetuoso y sereno. Se busca mantener una relación de confianza con el usuario, transmitiendo orden, claridad y profesionalismo sin dejar de ser cercano.
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
@@ -4228,6 +4213,8 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
+
+
 ### 5.3.2. Landing Page Mock-up
 
 ## 5.4. Applications UX/UI Design
@@ -4237,20 +4224,17 @@ Prototipos de las pantallas principales de la aplicación, incluyendo la página
 Aplicacion Movil - Conductores:
 
 **SignIn**
-
 Para iniciar sesión, el usuario ingresa su correo y contraseña. Si no tiene cuenta, puede registrarse.
 
 ![SignIn](ChapterV-images/sign-in-driver.png)
 
 
 **SignUp**
-
 El usuario ingresa su nombre, correo, contraseña, elige su rol y acepta los términos de uso.
 
 ![SignUp](ChapterV-images/sign-up-driver.png)
 
 **Home**
-
 Pantalla principal con un mapa que muestra estacionamientos cercanos donde el usuario puede buscar por su dirección actual.
 
 ![Home](ChapterV-images/Home-driver.png)
@@ -4302,10 +4286,14 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 ![Crear reseña](ChapterV-images/create-review-driver.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
+
 ### 5.4.3. Applications Mock-ups
+
 ### 5.4.4. Applications User Flow Diagrams
 
 ## 5.5. Applications Prototyping
+
+---
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
@@ -4484,7 +4472,6 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
-
 En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
 
 | Sprint # | Sprint 1 |
@@ -4638,6 +4625,8 @@ Enlace:
 <!-- TODO: Explicar cómo se han desarrollado las actividades de implementación -->
 ![Analiticos de Colaboracion - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Analytics.png)
 ![Commits - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Commits.png)
+
+---
 
 # Conclusiones y recomendaciones
 ## ✅ Conclusiones
