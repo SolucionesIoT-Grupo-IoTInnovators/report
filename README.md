@@ -4228,6 +4228,71 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
+Prototipos de las pantallas principales de la aplicación, incluyendo la página de inicio, la lista de estacionamientos y la página de reservas.
+
+Aplicacion Movil - Conductores:
+
+**SignIn**
+
+Para iniciar sesión, el usuario ingresa su correo y contraseña. Si no tiene cuenta, puede registrarse.
+
+![SignIn](ChapterV-images/sign-in-driver.png)
+
+
+**SignUp**
+
+El usuario ingresa su nombre, correo, contraseña, elige su rol y acepta los términos de uso.
+
+![SignUp](ChapterV-images/sign-up-driver.png)
+
+**Home**
+
+Pantalla principal con un mapa que muestra estacionamientos cercanos donde el usuario puede buscar por su dirección actual.
+
+![Home](ChapterV-images/home-driver.png)
+![Home](ChapterV-images/details-driver.png)
+
+**Crear reserva**
+
+Pantalla donde el usuario puede crear su reservas de estacionamiento.
+
+![Reservas](ChapterV-images/Reservation-driver.png)
+
+**Pagar reserva**
+
+Pantalla donde el usuario puede pagar su reserva de estacionamiento.
+
+![Pagar reserva](ChapterV-images/Payment-driver.png)
+![Pagar reserva](ChapterV-images/successfull-reservation-driver.png)
+
+**Mis reservas**
+
+Pantalla donde el usuario puede ver sus reservas activas
+
+![Mis reservas](ChapterV-images/Reservation-2-driver.png)
+
+**Detalle de reserva**
+Pantalla donde el usuario puede ver los detalles de su reserva.
+
+![Detalle de reserva](ChapterV-images/Reservation-3-driver.png)
+
+**Perfil**
+Pantalla donde el usuario puede ver y editar su perfil.
+
+![Perfil](ChapterV-images/profile-driver.png)
+![Editar perfil](ChapterV-images/change-password-driver.png)
+
+**Suscripciones**
+Pantalla donde el usuario puede ver sus suscripciones activas.
+
+![Suscripciones](ChapterV-images/Subscription-driver.png)
+
+**Reseñas**
+Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
+
+![Reseñas](ChapterV-images/Reviews-driver.png)
+![Crear reseña](ChapterV-images/create-review-driver.png)
+
 ### 5.4.2. Applications Wireflow Diagrams
 ### 5.4.3. Applications Mock-ups
 ### 5.4.4. Applications User Flow Diagrams
