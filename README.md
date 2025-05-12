@@ -4249,7 +4249,7 @@ El usuario ingresa su nombre, correo, contraseña, elige su rol y acepta los té
 
 Pantalla principal con un mapa que muestra estacionamientos cercanos donde el usuario puede buscar por su dirección actual.
 
-![Home](ChapterV-images/home-driver.png)
+![Home](ChapterV-images/Home-driver.png)
 
 ![Home2](ChapterV-images/details-driver.png)
 
