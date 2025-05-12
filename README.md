@@ -4239,12 +4239,177 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 ## 5.5. Applications Prototyping
 
 # Capítulo VI: Product Implementation, Validation & Deployment
+### 6.1. Software Configuration Management
+#### 6.1.1. Software Development Environment Configuration
+**Project Management:**
+* Discord: Utilizamos Discord como plataforma de aopoyo durante el trabajo conjunto entre los miembros del equipo de desarrollo. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto. 
+* WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto constante entre los miembros del equipo.
+* GitFlow: Utilizamos GitFlow para mejorar la eficiencia y organización del equipo. GitFlow proporciona una estructura clara para manejar ramas, facilita la colaboración en equipo, mejora el control de versiones, y asegura la calidad del código. 
+* Trello: Trello nos sirvio para identificar los aspectos que deben ser antendidos, considerando cuales ya se hicieron, cuales se pueden mejorar y cuales de haran en un próximo entregable.
 
-## 6.1. Software Configuration Management
-### 6.1.1. Software Development Environment Configuration
-### 6.1.2. Source Code Management
-### 6.1.3. Source Code Style Guide & Conventions
-### 6.1.4. Software Deployment Configuration
+**Requirements Management:**
+* Miro: En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave.
+* Lucidchart: Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación. 
+
+**Product UX/UI Design:**  
+* Figma: Empleamos Figma para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de SmartParking. Figma permitió la creación de prototipos, wireframes y diseños visuales que guiarán el desarrollo del producto final.  
+* UXPressia: Utilizamos UXPressia como herramienta especializada en la creación de mapas de experiencia de usuario, perfiles de clientes y otros elementos relacionados. UXPressia nos permitió visualizar y comprender la experiencia del usuario en profundidad, ayudando a mejorar la usabilidad y el diseño de la aplicación. 
+
+**Software Development:** 
+* IDE (Entorno de Desarrollo Integrado): Utilizamos distintas IDE que se adecuaban al apartado del proyecto que se trabajaba. Estos fueron:
+  * Visual Studio Code: Documentación del proyecto y realización del informe.
+  * WebStorm: IDE principal debido a su capacidad para facilitar el desarrollo web moderno y eficiente. Se utilizo al desarrollar la Landing Page y la aplicación web.
+  * IntelliJ: Creación de los web services (Backend)
+  * Android Studio: Creación de la aplicación móvil.
+* HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+* CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML.
+* JavaScript: Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación
+* Vue.js: Framework basado en JavaScript para la creación de aplicaciones web.
+* Java: Lenguaje de programación de propósito general, orientado a objetos. Se caracteriza por ser multiplataforma, seguro y robusto, lo que lo convierte en una opción popular para desarrollar aplicaciones web, móviles, empresariales y mucho más. 
+* Flutter Dart: Desarrollo de la aplicación móvil multiplataforma. Flutter permite crear una aplicación nativa con un solo código base, lo que mejora la eficiencia en el desarrollo y el mantenimiento.
+
+**Software Documentation:** 
+* GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
+* Structurizr: La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
+#### 6.1.2. Source Code Management
+El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github.
+
+**Organization:** https://github.com/SolucionesIoT-Grupo-IoTInnovators
+
+**Landing Page Repository:**
+**Frontend Web Application :** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-frontend
+
+En cada repositorio, se tenían 2 ramas principales:
+- **main:** En esta rama almacenaremos las versiones oficiales de nuestro repositorio que ya deben pasar a producción.
+- **develop:** Esta rama se utilizará como rama de integración para las “feature” branches. 
+
+**Ramas auxiliares:**
+- **feature:** Estas son las características funcionales que piden los usuarios tanto en landing page y web application.
+- **fix:** Estas ramas tendran la finalidad de dar la oprtunidad de ocrregir errores en el código, sin afectar el desarrollo de otros apartados.
+- **hotfix:** La utilizaremos cuando nuestra última versión en la rama “master” necesite corregir un error o bug crítico que no puede esperar a un siguiente lanzamiento para solucionarse.
+
+Convención de nombres: `[rama]/[nombre-descriptivo]`
+
+**Commit Conventions:**
+El formato de nuestros commits sigue la estructura de los “Conventional Commits” en su versión 1.0.0. Por ello seguimos el siguiente formato:
+`< type >[optional scope]: < description >`
+
+Donde:**
+- **type:** Especifica el tipo de cambio realizado, únicamente puede ser feat, fix, docs, etc.
+- **scope:** Es el alcance que tiene nuestro commit.
+- **description:** Es un breve resumen de los cambios de código.
+
+**Semantic Versioning:**
+El equipo aplicará Versionado Semántico para las versiones de lanzamiento del software. Este sistema de versionado sigue el formato `vX.X.X`:
+
+- **X.**: Para cambios mayores que incluyen modificaciones significativas que no son compatibles con versiones anteriores.
+- **.X**: Para nuevas funcionalidades que no rompen la compatibilidad con versiones anteriores.
+- **.X**: Para correcciones de errores y pequeñas mejoras.
+
+**Conventional Commits:**
+Esta convención asegura que cada mensaje de commit refleje de forma precisa el tipo de cambio realizado en el código. Los tipos de commit son los siguientes:
+
+- **feat**: Para la adición de una nueva funcionalidad.
+- **fix**: Para corrección de errores.
+- **docs**: Para cambios en la documentación.
+- **style**: Para cambios que no afectan la lógica del código, como ajustes de formato.
+- **refactor**: Para reestructuración del código que no añade nuevas funcionalidades ni corrige errores.
+- **chore**: Para tareas rutinarias que no sean específicas de una feature o un error como por ejemplo añadir contenido al fichero .gitignore o instalar una dependencia.
+- **test:** Si añadimos o arreglamos tests.
+- **build:** cuando el cambio afecta al compilado del proyecto.
+- **ci:** el cambio afecta a ficheros de configuración y scripts relacionados con la integración continua.
+- **perf:** usado para mejoras de rendimiento.
+- **revert:** si el commit revierte un commit anterior. Debería indicarse el hash del commit que se revierte.
+
+#### 6.1.3. Source Code Style Guide & Conventions
+**General:**
+Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatura:
+- **Convención en inglés**: Todos los nombres de variables, funciones, métodos, clases y archivos se nombrarán en inglés.
+- **Convención de nombres**:
+  - **CamelCase**: Para nombres de variables, funciones y métodos.  
+  - **PascalCase**: Para nombres de clases y componentes.  
+  - **snake_case**: Para nombres de archivos.  
+
+**HTML:** [https://www.w3schools.com/html/html5_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
+**Convenciones de HTML:**
+- Declarar el tipo de documento en la primera línea.
+- Usar nombres de etiquetas en minúsculas.
+- Usar nombres de atributos en minúsculas.
+- Cerrar todas las etiquetas correctamente.
+- Usar comillas en los valores de los atributos.
+- No dejar espacios alrededor del signo igual en los atributos.
+- Especificar los atributos `alt`, `width` y `height` en las imágenes.
+- No omitir las etiquetas `<html>`, `<head>`, `<body>` y `<title>`.
+- Usar el atributo `lang` para declarar el idioma del documento.
+- Incluir la metaetiqueta para definir la codificación del documento.
+- Usar títulos precisos y significativos en la etiqueta `<title>`.
+- Evitar líneas de código excesivamente largas.
+- Usar sintaxis clara y sencilla para enlaces y scripts externos.
+
+**CSS:** [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+**Convenciones de CSS**
+- Usar el protocolo HTTPS para archivos externos.
+- Utilizar minúsculas en todo el código (propiedades, atributos, valores, etc.).
+- Los nombres de clases deben ser breves, descriptivos y reflejar su propósito.
+- Separar palabras en nombres de clases e IDs con guiones.
+- Usar propiedades abreviadas cuando sea posible.
+- Preferir notación hexadecimal de 3 caracteres cuando aplique.
+- Ordenar las propiedades CSS alfabéticamente dentro de cada regla.
+- Incluir punto y coma al final de cada declaración.
+- Agregar un espacio después de los dos puntos en cada propiedad.
+- Agregar un espacio antes de la llave de apertura del bloque de declaraciones.
+- Usar comillas simples para atributos y valores de propiedades que las requieran.
+- Agrupar reglas relacionadas y separarlas con una línea en blanco para mayor legibilidad.
+
+**Java:** [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+**Convenciones de Java:**
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas.
+- El nombre de las variables debe ser en minúsculas y usar camel case.
+- Para las sentencias if,else,for,do y while se deben usar “ { } “.
+- Los nombres de variables que son Constantes deben ir en mayúsculas
+
+**JavaScript:** [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+**Convenciones de JavaScript:**
+- Usar camelCase para variables y funciones.
+- Usar PascalCase para clases y constructores.
+- Usar MAYÚSCULAS_CON_GUIONES_BAJOS para constantes.
+- Usar let y const para declarar variables (evitar var).
+- Declarar las variables al inicio de su ámbito.
+- Incluir punto y coma al final de cada instrucción.
+- Usar // para comentarios de una línea y /* */ para bloques de comentarios.
+- Escribir comentarios descriptivos en componentes, servicios y secciones complejas.
+- Aplicar principios de programación reactiva y patrones de diseño adecuados.
+
+**Vue.js:**[https://vuejs.org/style-guide/](https://vuejs.org/style-guide/)
+**Convenciones de Vue.js:**
+- Nombres de componentes: Se debe usar PascalCase para los nombres de componentes, por ejemplo, UserProfile.
+- Nombres de archivos: Los archivos de componentes deben nombrarse usando PascalCase y tener la extensión .vue, por ejemplo, UserProfile.vue.
+- Nombres de props: Se debe usar camelCase para declarar las props en JavaScript y kebab-case al usarlas en las plantillas.
+- Prefijos en componentes: Los componentes que se utilizan una sola vez deben tener el prefijo The, por ejemplo, TheHeader. Los componentes base reutilizables deben tener el prefijo Base, como BaseButton.
+- Uso de v-for: Siempre se debe proporcionar una clave única (key) al usar v-for para mantener el estado interno del componente.
+- Evitar v-if con v-for: No se debe usar v-if en el mismo elemento que v-for. En su lugar, se debe usar una estructura template para separar las condiciones.
+- Funciones de data: La propiedad data en los componentes debe ser una función que retorne un objeto, para evitar compartir el estado entre instancias.
+
+**Flutter (Dart):**[https://dart.dev/effective-dart/style](https://dart.dev/effective-dart/style)
+**Convenciones de Flutter:**
+- Nombres de clases y tipos: Se debe usar UpperCamelCase para los nombres de clases, tipos, enums y typedefs, por ejemplo, UserProfile.
+- Nombres de variables y funciones: Se debe usar lowerCamelCase para los nombres de variables, funciones y parámetros, por ejemplo, userProfile.
+- Nombres de constantes: Se debe usar lowerCamelCase para las constantes, por ejemplo, defaultTimeout.
+- Nombres de archivos: Los nombres de archivos deben estar en minúsculas y usar guiones bajos para separar las palabras, por ejemplo, user_profile.dart.
+- Comentarios de documentación: Se debe usar /// para comentarios de documentación y // para comentarios de una sola línea.
+- Uso de const y final: Se debe usar const para valores inmutables en tiempo de compilación y final para valores inmutables en tiempo de ejecución.
+- Funciones cortas: Se recomienda usar la sintaxis de flecha (=>) para funciones de una sola expresión.
+- Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
+
+#### 6.1.4. Software Deployment Configuration
+**Landing Page**
+
+- **Proceso de Despliegue:**
+
+**Web Application**
+
+- **Proceso de Despliegue:**
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
@@ -4325,6 +4490,74 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 | Zarate Caceres, Victor        | ern23zc          |                |                |                |                |                |
 
 #### 6.2.1.3. Sprint Backlog 1
+<!-- TODO: Añadir introducción que resuma el objetivo principal del Sprint -->
+
+![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
+
+Enlace a Trello:
+<table>
+  <tr>
+    <b>
+      <th colspan="2" valign="top">SPRINT</th>
+      <th colspan="6" valign="top">SPRINT 1</th>
+    </b>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"></td>
+    <td colspan="6" valign="top"><b>Work-Item / Task</b></td>
+  </tr>
+  <tr>
+    <b>
+      <td valign="top">User Story ID</td>
+      <td valign="top">Title</td>
+      <td valign="top">id</td>
+      <td valign="top">Title</td>
+      <td valign="top">Description</td>
+      <td valign="top">Tiempo (horas)</td>
+      <td valign="top">Assigned to</td>
+      <td valign="top">Status (To-Do/In process/To review/Done)</td>
+    </b>
+  </tr>
+  <!-- User Story -->
+  <tr>
+    <td rowspan="2" valign="top">US</td>
+    <td rowspan="2" valign="top"></td>
+    <td valign="top">T1</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">T2</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+  <!-- User Story -->
+  <tr>
+    <td rowspan="2" valign="top">US</td>
+    <td rowspan="2" valign="top"></td>
+    <td valign="top">T3</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+  <tr>
+    <td valign="top">T4</td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+    <td valign="top"></td>
+  </tr>
+</table>
+
 
 ### 6.2.1.3 Sprint Backlog 1
 
@@ -4370,11 +4603,46 @@ https://shorturl.at/example123
 | TS18       | Ver reservas por parking | GET para consultar reservas de un estacionamiento   | 4h                  |                    |                                                 |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
+<!-- TODO: Añadir introducción que resume los principales avances en la implementación -->
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
 #### 6.2.1.6. Execution Evidence for Sprint Review
+<!-- TODO: 
+  - Añadir resumen que explique lo alcanzado en este Sprint
+  - Screenshots de las principales vistas implementadas
+  - Enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint
+-->
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot1.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot2.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot3.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot4.png)
+
+Enlace:
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence1.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence2.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence3.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence4.png)
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+<!-- TODO: Explicar cómo se han desarrollado las actividades de implementación -->
+![Analiticos de Colaboracion - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Analytics.png)
+![Commits - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Commits.png)
 
 # Conclusiones y recomendaciones
 ## ✅ Conclusiones
@@ -4392,8 +4660,15 @@ https://shorturl.at/example123
 <div align="justify">
   <ul>
     <li>Asociación Automotriz del Perú. (2023). <em>INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024.</em> Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>Chamorro, A. (2022). <em>Conventional Commits - Qué es y por qué deberías empezar a utilizarlo.</em> Recuperado de: https://dev.to/achamorro_dev/conventional-commits-que-es-y-por-que-deberias-empezar-a-utilizarlo-23an [Consulta: 06 de mayo de 2025]</li>
     <li>INEI. (2022). <em>Estadísticas de transporte urbano en el Perú. </em>Recuperado de: https://m.inei.gob.pe/prensa/noticias/movimiento-de-vehiculos-a-nivel-nacional-aumento-39-en-febrero-de-2024-15125/ [Consulta: 02 de abril de 2025]</li>
     <li>Lima Cómo Vamos. (2023). <em>Reporte de movilidad urbana 2023.</em> Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>Dart. (s.f.)<em> Effective Dart: Style.</em>Recuperado de: https://dart.dev/effective-dart/style [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google HTML/CSS Style Guide.</em> Recuperado de:https://google.github.io/styleguide/htmlcssguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google Java Style Guide.</em>Recuperado de: https://google.github.io/styleguide/javaguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google JavaScript Style Guide.</em>Recuperado de: https://google.github.io/styleguide/jsguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Vue.js. (s.f.) <em>Style Guide.</em>Recuperado de: https://vuejs.org/style-guide/ [Consulta: 06 de mayo de 2025]</li>
+    <li>W3Schools. (s.f.) <em>HTML Style Guide.</em>Recuperado de: https://www.w3schools.com/html/html5_syntax.asp [Consulta: 06 de mayo de 2025]</li>
   </ul>
 </div>
 
