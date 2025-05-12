@@ -54,7 +54,8 @@
 | 2.2.4       | 10/05/2025 | Arroyo Ormeño, André Alonso </br> Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
 | 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
 | 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
-| 2.3.4       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
+| 2.3.2       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
+| 2.4.0       | 12/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Applications User Flow Diagrams                                                                                                             |
 ---
 
 # Project Report Collaboration Insights
@@ -93,15 +94,8 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 # Contenido
 **Tabla de contenidos**
 
-- [Informe de Trabajo Final - TP](#informe-de-trabajo-final---tp)
-    - [Relación de integrantes](#relación-de-integrantes)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [| 2.3.4       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |](#-234--------12052025--castilla-pachas-césar-antonio-----------------------------------------------------------------------------------------------------------------------------------------añadir-applications-wireframes---------------------------------------------------------------------------------------------------------------------)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-      - [TB1:](#tb1)
-      - [TP:](#tp)
-- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
+
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -111,40 +105,12 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-          - [Business Assumptions](#business-assumptions)
-          - [Business Outcome Assumptions](#business-outcome-assumptions)
-          - [User Assumptions](#user-assumptions)
-          - [User Outcome Assumptions](#user-outcome-assumptions)
-          - [Feature Assumptions](#feature-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-          - [Hipótesis 1:](#hipótesis-1)
-          - [Hipótesis 2:](#hipótesis-2)
-          - [Hipótesis 3:](#hipótesis-3)
-          - [Hipótesis 4:](#hipótesis-4)
-          - [Hipótesis 5:](#hipótesis-5)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [Competitive Analysis Landscape](#competitive-analysis-landscape)
-          - [Competidores](#competidores)
-          - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
-        - [Competidores: SmartParking, iPark, ACCIST, Smelpro](#competidores-smartparking-ipark-accist-smelpro)
-          - [Perfil - Overview](#perfil---overview)
-        - [Perfil de Marketing](#perfil-de-marketing)
-          - [Ventaja competitiva](#ventaja-competitiva)
-          - [Mercado objetivo](#mercado-objetivo)
-          - [Estrategias de marketing](#estrategias-de-marketing)
-        - [Perfil de Producto](#perfil-de-producto)
-          - [Productos \& Servicios](#productos--servicios)
-          - [Precios \& Costos](#precios--costos)
-          - [Canales de distribución](#canales-de-distribución)
-        - [Análisis SWOT](#análisis-swot)
-          - [Fortalezas](#fortalezas)
-          - [Debilidades](#debilidades)
-          - [Oportunidades](#oportunidades)
-          - [Amenazas](#amenazas)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
@@ -153,7 +119,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
-          - [Explicación](#explicación)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
@@ -163,13 +128,12 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-  - [|   43    |     US09      | Registro de método de pago en el perfil                       | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                       | 3                                |](#---43---------us09-------registro-de-método-de-pago-en-el-perfil------------------------como-conductor-quiero-guardar-mis-datos-de-tarjeta-en-mi-perfil-para-que-el-proceso-de-pago-sea-más-rápido-y-cómodo-en-futuras-ocasiones----------------------------------------3--------------------------------)
 - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
   - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. EventStorming](#411-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Modelado de flujos de mensajes del dominio](#4112-modelado-de-flujos-de-mensajes-del-dominio)
-      - [4.1.1.3. Canvases de Bounded Contexts](#4113-canvases-de-bounded-contexts)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -222,15 +186,15 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
         - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
-    - [4.2.6 Bounded Context: Review](#426-bounded-context-review)
+    - [4.2.6. Bounded Context: Review](#426-bounded-context-review)
       - [4.2.6.1. Domain Layer](#4261-domain-layer)
       - [4.2.6.2. Interface Layer](#4262-interface-layer)
       - [4.2.6.3. Application Layer](#4263-application-layer)
       - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
       - [4.2.6.5. Component Level Diagram (estructura)](#4265-component-level-diagram-estructura)
       - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.6.6.1. Domain Layer Class Diagram](#42661-domain-layer-class-diagram)
-        - [4.2.6.6.2. Database Design Diagram](#42662-database-design-diagram)
+        - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
+        - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
     - [4.2.7. Bounded Context: Notification](#427-bounded-context-notification)
       - [4.2.7.1. Domain Layer](#4271-domain-layer)
       - [4.2.7.2. Interface Layer](#4272-interface-layer)
@@ -255,7 +219,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.9.3. Application Layer](#4293-application-layer)
       - [4.2.9.4. Infrastructure Layer](#4294-infrastructure-layer)
       - [4.2.9.5. Bounded Context Software Architecture Component Level Diagrams](#4295-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11](#4296-bounded-context-software-architecture-code-level-diagrams11)
+      - [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)
         - [4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
@@ -276,13 +240,12 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
-      - [Mobile App User Flow Diagrams](#mobile-app-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
-- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-&-deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
     - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
   - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
     - [6.2.1. Sprint 1](#621-sprint-1)
@@ -296,12 +259,9 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [✅ Conclusiones](#-conclusiones)
-  - [💡 Recomendaciones](#-recomendaciones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
 
----
 ---
 
 # Student Outcome
@@ -4325,7 +4285,7 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 ### 5.4.3. Applications Mock-ups
 
 ### 5.4.4. Applications User Flow Diagrams
-#### Mobile App User Flow Diagrams
+##### Mobile App User Flow Diagrams
 **Visualización de espacios disponibles en el mapa**
 User goal: Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.
 Descripción: El usuario visualiza el mapa al ingresar la aplicación, al seleccionar alguno de los puntos, se abre una pestaña mue muestra los detalles del local de parking, en esta, selecciona Reserve Now para visualizar los espacios disponibles.
