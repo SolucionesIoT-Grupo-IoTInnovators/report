@@ -4273,17 +4273,19 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 
 #### Sprint 1 Velocity
 
-**60 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+**80 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
 
 #### Sum of Story Points
 
-**50 Story Points en total**, agrupando las siguientes historias de usuario:
+**55 Story Points en total**, agrupando las siguientes historias de usuario:
 
 | ID | Historia de Usuario |
 |----|---------------------|
 | US03 | Sección hero de landing page |
 | US04 | Barra de navegación en landing page	 |
+| US14 | Diseñar y distribuir espacios de estacionamiento	 |
 | US15 | Gestionar múltiples estacionamientos desde un solo panel	 |
+| US22 | Calificar estacionamientos utilizados	 |
 | US23 | Registro Rápido desde Landing Page	 |
 | TS02 | Autenticación con JWT en Web y App	 |
 | TS06	 | Crear Parking Owner a través de RESTful API		 |
@@ -4298,7 +4300,7 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 | TS15 | Obtener parking por parkingId	 |
 | TS16	 | Obtener todos los parkings por ownerId		 |
 | TS17 | Crear Reserva a través de RESTful API	 |
-| TS178 | Obtener Reservas por ParkingId |
+| TS18 | Obtener Reservas por ParkingId |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators
 
@@ -4306,25 +4308,21 @@ Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas
 
 En esta primera iteración, se abordaron los siguientes aspectos clave:
 
-- **Diseño e implementación de la Landing Page**  
-- **Desarrollo de la interfaz web para el conductor y propietario**  
-- **Configuración de backend y endpoints básicos**  
-- **Despliegue de frontend y backend**  
-- **Aplicación de guías de estilo y prototipos UI**  
+- **Aspect Name 1:** Landing Page UI  
+- **Aspect Name 2:** Web App Frontend (Conductores y Propietarios)  
+- **Aspect Name 3:** RESTful API - Backend Básico  
+- **Aspect Name 4:** Infraestructura y Despliegue (Azure, Vercel)  
+- **Aspect Name 5:** Documentación, QA y Coordinación Scrum  
 
-La siguiente tabla resume la distribución de responsabilidades del equipo en esta etapa:
-
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page (L/C) | Web App (L/C) | Backend Config (L/C) | Deployment (L/C) |
-|-------------------------------------|------------------|---------------------|----------------|-----------------------|------------------|
-| Cortés Casas, Joaquín Marcelo       | a        | C                   | -              | -                     | -                |
-| Castilla Pachas, César Antonio      | a       | -                   | -              | -                     | -                |
-| Godoy, Johan Príncipe               | a       | -                   | -              | -                     | -                |
-| Diaz Silva, Fernando Josué          | a   | L                   | -              | -                     | -                |
-| Arroyo Ormeño, André Alonso         | a   | -                   | -              | -                     | -                |
-| Tafur Gonzales, Josty Gerardo       | a          | -                   | -              | -                     | -                |
-| Zarate Caceres, Victor Ernesto      | a         | -                   | -              | -                     | -                |
-
----
+|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+|-------------------------------|------------------|----------------|----------------|----------------|----------------|----------------|
+| Arroyo Ormeño, André Alonso   | anonimat0        |                |                |                |                |                |
+| Castilla Pachas, César Antonio| CesarrAnn        |                |                |                |                |                |
+| Cortés Casas, Joaquin Marcelo | U202114545       |    C            |                |                |                |                |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |     L           |                |                |                |                |
+| Godoy, Johan Príncipe         | JP19-03          |                |                |                |                |                |
+| Tafur Gonzales, Josty Gerardo | JostyTafur        |                |                |                |                |                |
+| Zarate Caceres, Victor        | ern23zc          |                |                |                |                |                |
 
 #### 6.2.1.3. Sprint Backlog 1
 #### 6.2.1.4. Development Evidence for Sprint Review
