@@ -1,5 +1,4 @@
 # Informe de Trabajo Final - TP
-
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
@@ -15,7 +14,6 @@
 </p>
 
 ### Relación de integrantes
-
 |      Apellidos y Nombres       |   Código   |
 |:------------------------------:|:----------:|
 |  Arroyo Ormeño, André Alonso   | u202114714 |
@@ -53,7 +51,9 @@
 | 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
 | 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
 | 2.2.4       | 10/05/2025 | Arroyo Ormeño, André Alonso </br> Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
-| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                       | Corrección de User Stories and Product Backlog |
+| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
+| 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
+| 2.3.4       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
 ---
 
 # Project Report Collaboration Insights
@@ -90,11 +90,17 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 ---
 
 # Contenido
-
 **Tabla de contenidos**
 
+- [Informe de Trabajo Final - TP](#informe-de-trabajo-final---tp)
+    - [Relación de integrantes](#relación-de-integrantes)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [| 2.3.4       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |](#-234--------12052025--castilla-pachas-césar-antonio-----------------------------------------------------------------------------------------------------------------------------------------añadir-applications-wireframes---------------------------------------------------------------------------------------------------------------------)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+      - [TB1:](#tb1)
+      - [TP:](#tp)
+- [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
@@ -104,12 +110,40 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+          - [Business Assumptions](#business-assumptions)
+          - [Business Outcome Assumptions](#business-outcome-assumptions)
+          - [User Assumptions](#user-assumptions)
+          - [User Outcome Assumptions](#user-outcome-assumptions)
+          - [Feature Assumptions](#feature-assumptions)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+          - [Hipótesis 1:](#hipótesis-1)
+          - [Hipótesis 2:](#hipótesis-2)
+          - [Hipótesis 3:](#hipótesis-3)
+          - [Hipótesis 4:](#hipótesis-4)
+          - [Hipótesis 5:](#hipótesis-5)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+        - [Competitive Analysis Landscape](#competitive-analysis-landscape)
+          - [Competidores](#competidores)
+          - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
+        - [Competidores: SmartParking, iPark, ACCIST, Smelpro](#competidores-smartparking-ipark-accist-smelpro)
+          - [Perfil - Overview](#perfil---overview)
+        - [Perfil de Marketing](#perfil-de-marketing)
+          - [Ventaja competitiva](#ventaja-competitiva)
+          - [Mercado objetivo](#mercado-objetivo)
+          - [Estrategias de marketing](#estrategias-de-marketing)
+        - [Perfil de Producto](#perfil-de-producto)
+          - [Productos \& Servicios](#productos--servicios)
+          - [Precios \& Costos](#precios--costos)
+          - [Canales de distribución](#canales-de-distribución)
+        - [Análisis SWOT](#análisis-swot)
+          - [Fortalezas](#fortalezas)
+          - [Debilidades](#debilidades)
+          - [Oportunidades](#oportunidades)
+          - [Amenazas](#amenazas)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
@@ -118,6 +152,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
+          - [Explicación](#explicación)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
@@ -127,12 +162,13 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
+  - [|   43    |     US09      | Registro de método de pago en el perfil                       | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                       | 3                                |](#---43---------us09-------registro-de-método-de-pago-en-el-perfil------------------------como-conductor-quiero-guardar-mis-datos-de-tarjeta-en-mi-perfil-para-que-el-proceso-de-pago-sea-más-rápido-y-cómodo-en-futuras-ocasiones----------------------------------------3--------------------------------)
 - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
   - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
     - [4.1.1. EventStorming](#411-eventstorming)
       - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [4.1.1.2. Modelado de flujos de mensajes del dominio](#4112-modelado-de-flujos-de-mensajes-del-dominio)
+      - [4.1.1.3. Canvases de Bounded Contexts](#4113-canvases-de-bounded-contexts)
     - [4.1.2. Context Mapping](#412-context-mapping)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
@@ -140,7 +176,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
       - [4.1.3.4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context: Identity and Access Management ](#421-bounded-context-identity-and-access-management)
+    - [4.2.1. Bounded Context: Identity and Access Management](#421-bounded-context-identity-and-access-management)
       - [4.2.1.1. Domain Layer](#4211-domain-layer)
       - [4.2.1.2. Interface Layer](#4212-interface-layer)
       - [4.2.1.3. Application Layer](#4213-application-layer)
@@ -158,7 +194,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
         - [4.2.2.6.2. Bounded Context Database Design Diagram](#42262-bounded-context-database-design-diagram)
-
     - [4.2.3. Bounded Context: Parking Management](#423-bounded-context-parking-management)
       - [4.2.3.1. Domain Layer](#4231-domain-layer)
       - [4.2.3.2. Interface Layer](#4232-interface-layer)
@@ -168,7 +203,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
         - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-
     - [4.2.4. Bounded Context: Reservation](#424-bounded-context-reservation)
       - [4.2.4.1. Domain Layer](#4241-domain-layer)
       - [4.2.4.2. Interface Layer](#4242-interface-layer)
@@ -178,7 +212,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
         - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
-
     - [4.2.5. Bounded Context: Subscription](#425-bounded-context-subscription)
       - [4.2.5.1. Domain Layer](#4251-domain-layer)
       - [4.2.5.2. Interface Layer](#4252-interface-layer)
@@ -188,17 +221,15 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
         - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
-
-    - [4.2.6. Bounded Context: Review](#426-bounded-context-review)
+    - [4.2.6 Bounded Context: Review](#426-bounded-context-review)
       - [4.2.6.1. Domain Layer](#4261-domain-layer)
       - [4.2.6.2. Interface Layer](#4262-interface-layer)
       - [4.2.6.3. Application Layer](#4263-application-layer)
       - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
-      - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams](#4265-bounded-context-software-architecture-component-level-diagrams)
+      - [4.2.6.5. Component Level Diagram (estructura)](#4265-component-level-diagram-estructura)
       - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams](#4266-bounded-context-software-architecture-code-level-diagrams)
-        - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams](#42661-bounded-context-domain-layer-class-diagrams)
-        - [4.2.6.6.2. Bounded Context Database Design Diagram](#42662-bounded-context-database-design-diagram)
-
+        - [4.2.6.6.1. Domain Layer Class Diagram](#42661-domain-layer-class-diagram)
+        - [4.2.6.6.2. Database Design Diagram](#42662-database-design-diagram)
     - [4.2.7. Bounded Context: Notification](#427-bounded-context-notification)
       - [4.2.7.1. Domain Layer](#4271-domain-layer)
       - [4.2.7.2. Interface Layer](#4272-interface-layer)
@@ -208,7 +239,6 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams](#4276-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams](#42761-bounded-context-domain-layer-class-diagrams)
         - [4.2.7.6.2. Bounded Context Database Design Diagram](#42762-bounded-context-database-design-diagram)
-
     - [4.2.8. Bounded Context: IoT Management](#428-bounded-context-iot-management)
       - [4.2.8.1. Domain Layer](#4281-domain-layer)
       - [4.2.8.2. Interface Layer](#4282-interface-layer)
@@ -218,17 +248,16 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
       - [4.2.8.6. Bounded Context Software Architecture Code Level Diagrams](#4286-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.8.6.1. Bounded Context Domain Layer Class Diagrams](#42861-bounded-context-domain-layer-class-diagrams)
         - [4.2.8.6.2. Bounded Context Database Design Diagram](#42862-bounded-context-database-design-diagram)
-
     - [4.2.9. Bounded Context: Payment](#429-bounded-context-payment)
       - [4.2.9.1. Domain Layer](#4291-domain-layer)
       - [4.2.9.2. Interface Layer](#4292-interface-layer)
       - [4.2.9.3. Application Layer](#4293-application-layer)
       - [4.2.9.4. Infrastructure Layer](#4294-infrastructure-layer)
       - [4.2.9.5. Bounded Context Software Architecture Component Level Diagrams](#4295-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams](#4296-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11](#4296-bounded-context-software-architecture-code-level-diagrams11)
         - [4.2.9.6.1. Bounded Context Domain Layer Class Diagrams](#42961-bounded-context-domain-layer-class-diagrams)
         - [4.2.9.6.2. Bounded Context Database Design Diagram](#42962-bounded-context-database-design-diagram)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-ui/ux-design)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1. Style Guidelines](#51-style-guidelines)
     - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
@@ -246,35 +275,37 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
     - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
     - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+      - [Mobile App User Flow Diagrams](#mobile-app-user-flow-diagrams)
   - [5.5. Applications Prototyping](#55-applications-prototyping)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation-&-deployment)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
   - [6.1. Software Configuration Management](#61-software-configuration-management)
     - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
     - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
     - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2. Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-  - [6.2.1. Sprint 1](#621-sprint-1)
-    - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-    - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
-    - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
-    - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
-    - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
-    - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
-    - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
-    - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
-    - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+  - [6.2. Landing Page, Services \& Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Aspect Leaders and Collaborators](#6212-aspect-leaders-and-collaborators)
+      - [6.2.1.3. Sprint Backlog 1](#6213-sprint-backlog-1)
+      - [6.2.1.4. Development Evidence for Sprint Review](#6214-development-evidence-for-sprint-review)
+      - [6.2.1.5. Testing Suite Evidence for Sprint Review](#6215-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.6. Execution Evidence for Sprint Review](#6216-execution-evidence-for-sprint-review)
+      - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Bibliografía](#bibliografia)
+  - [✅ Conclusiones](#-conclusiones)
+  - [💡 Recomendaciones](#-recomendaciones)
+- [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
 
+---
 
 # Student Outcome
-
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
 **ABET – EAC - Student Outcome 5**
-
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
 
@@ -668,6 +699,8 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 | **Propietarios de Estacionamientos** | Propietarios o administradores de estacionamientos ubicados en zonas urbanas o áreas de alta demanda de estacionamiento, tanto públicas como privadas.                                           | Motivados por la optimización de su espacio, la automatización de cobros y la mejora de la eficiencia operativa. Buscan una solución que les ayude a aumentar la rentabilidad de sus operaciones mediante el monitoreo en tiempo real y la automatización de procesos. | - **Edad:** Entre 30 y 55 años. <br> - **Educación:** Formación en administración de negocios, ingeniería industrial o áreas relacionadas con la gestión de instalaciones. |
 | **Conductores**                      | Conductores urbanos que frecuentemente buscan estacionamiento en zonas con alta densidad de tráfico y poca disponibilidad de espacios, tanto en centros comerciales como en áreas residenciales. | Buscan soluciones que les ahorren tiempo, reduzcan el estrés y les ayuden a evitar la frustración de encontrar estacionamiento. Valoran la conveniencia de encontrar, reservar y pagar estacionamientos a través de una plataforma digital fácil de usar.              | - **Edad:** Entre 18 y 50 años. <br> - **Educación:** Variada, desde estudiantes universitarios hasta profesionales con formación técnica o superior.                      |
 
+---
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 Nuestros competidores principales seran los siguientes:
@@ -956,16 +989,20 @@ Medio de aplicación
   <!--Entrevista 2-->
   <table>
     <tr>
-      <td>Entrevista 2: </td>
+      <td>Entrevista 2: <a href="https://acortar.link/i0BqY4">https://acortar.link/i0BqY4</a> </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Lizet Antonia Pachas Torres<br>
+        Edad: 42 <br>
+        Distrito: Surco<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        La entrevista se ha realizado a Lizet Antonia, de 42 años, propietaria de una cochera privada en el distrito de Surco, Lima. Lizet gestiona 36 espacios de estacionamiento, principalmente atendiendo a clientes por hora y a residentes de la zona. Actualmente administra su negocio de forma manual, utilizando registros escritos y señalizaciones físicas.
+
+Su mayor dificultad radica en el control preciso del flujo de vehículos y la verificación de ingresos, pues admite que hay errores humanos y posibles pérdidas cuando se delega la gestión. Aunque ha considerado soluciones tecnológicas anteriormente, las ofertas disponibles no se adaptaron a sus necesidades o resultaron costosas.
+
+Lizet mostró interés en adoptar una solución como SmartParking, siempre que esta incluya funcionalidades como la detección automática de espacios libres, visualización en tiempo real, control financiero diario y registro automatizado de entradas y salidas. En cuanto a lo que considera imprescindible, explicó que necesita poder visualizar en cualquier momento qué espacios están libres, registrar automáticamente los ingresos, recibir notificaciones si el estacionamiento está por llenarse, y brindar a los clientes frecuentes la posibilidad de reservar su espacio desde la plataforma, todo accesible desde su celular o laptop. Considera que una herramienta así podría mejorar su operación, reducir pérdidas y atraer nuevos clientes al visibilizar su cochera digitalmente.. 
       </td>
     </tr>
     <tr>
@@ -1327,7 +1364,7 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Ojalá no me multen o remolquen:** Hay que investigar si los usuarios verifican la legalidad del lugar donde estacionan o si simplemente arriesgan por falta de tiempo o información.
 
 ## 2.4. Ubiquitous Language
-
+<!-- TODO: Fix Ubiquitous Language -->
 Se presenta una tabla que contiene los términos específicos del dominio del negocio:
 
 | **Término**     | **Definición** |
@@ -2567,6 +2604,7 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 - *Reservations → Review*  
   Los conductores dejan una reseña tras utilizar un espacio reservado.
 ![Context Mapping](ChapterIV-images/CONTEXTMAPING.jpeg)
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
@@ -4083,29 +4121,22 @@ En SmartParking, buscamos una experiencia visual moderna, clara y coherente en t
 ### 5.1.1. General Style Guidelines
 
 **Branding**
-
 El branding de SmartParking se enfoca en transmitir confianza y accesibilidad a través de una paleta de colores basada en tonos azules. Estos tonos reflejan profesionalismo, tecnología y tranquilidad, creando una atmósfera agradable tanto en la web como en la app móvil.
 
 <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/>
 
 **Tipography**
-
 La tipografía empleada en SmartParking está basada en la fuente Roboto, que es legible y moderna. El uso de diferentes pesos y tamaños permite establecer una jerarquía visual clara.
 
 Tamaños y Estilos:
-
-H1: 28px, Roboto, color primario (usando el azul más oscuro de la paleta)
-
-H2: 24px, Roboto, color primario
-
-H3: 20px, Roboto, color primario
-
-Párrafo (p): 16px, Roboto, color gris oscuro para asegurar buena legibilidad
+- H1: 28px, Roboto, color primario (usando el azul más oscuro de la paleta)
+- H2: 24px, Roboto, color primario
+- H3: 20px, Roboto, color primario
+- Párrafo (p): 16px, Roboto, color gris oscuro para asegurar buena legibilidad
 
 <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/typography.png?raw=true" alt="Typography"/>
 
 **Colors**
-
 La paleta de colores de ParkingApp está basada en distintos tonos de azul, proporcionando una experiencia coherente y limpia a lo largo de todas las plataformas.
 
 | Color Name      | Hex Code | Uso Principal                             |
@@ -4119,27 +4150,18 @@ La paleta de colores de ParkingApp está basada en distintos tonos de azul, prop
 <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/colors.png?raw=true" alt="Colors" />
 
 **Spacing**
-
 El espaciado sigue una escala de 8px para mantener un ritmo visual ordenado:
-
-Margen y Padding: 8px, 16px, 32px
-
-Separación entre bloques mayores: 64px
-
-Este sistema ayuda a mantener interfaces limpias, balanceadas y fáciles de navegar.
+- Margen y Padding: 8px, 16px, 32px
+- Separación entre bloques mayores: 64px
+- Este sistema ayuda a mantener interfaces limpias, balanceadas y fáciles de navegar.
 
 **Iconos**
-
 Los iconos en SmartParking son simples y fácilmente reconocibles, adecuados para acciones frecuentes como guardar, reservar, etc. Los iconos están basados en los estándares de Material Design, garantizando consistencia visual.
-
-Guardar: Icono estándar de guardar en color Azul Medio.
-
-Reservar: Icono de calendario o reserva en Azul Oscuro.
-
-Email: Icono de sobre en color Azul Medio.
+- Guardar: Icono estándar de guardar en color Azul Medio.
+- Reservar: Icono de calendario o reserva en Azul Oscuro.
+- Email: Icono de sobre en color Azul Medio.
 
 **Tone of Voice**
-
 El tono de comunicación de SmartParking es casual-formal, respetuoso y sereno. Se busca mantener una relación de confianza con el usuario, transmitiendo orden, claridad y profesionalismo sin dejar de ser cercano.
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines
@@ -4224,6 +4246,8 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
+
+
 ### 5.3.2. Landing Page Mock-up
 
 ## 5.4. Applications UX/UI Design
@@ -4233,20 +4257,17 @@ Prototipos de las pantallas principales de la aplicación, incluyendo la página
 Aplicacion Movil - Conductores:
 
 **SignIn**
-
 Para iniciar sesión, el usuario ingresa su correo y contraseña. Si no tiene cuenta, puede registrarse.
 
 ![SignIn](ChapterV-images/sign-in-driver.png)
 
 
 **SignUp**
-
 El usuario ingresa su nombre, correo, contraseña, elige su rol y acepta los términos de uso.
 
 ![SignUp](ChapterV-images/sign-up-driver.png)
 
 **Home**
-
 Pantalla principal con un mapa que muestra estacionamientos cercanos donde el usuario puede buscar por su dirección actual.
 
 ![Home](ChapterV-images/Home-driver.png)
@@ -4298,30 +4319,391 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 ![Crear reseña](ChapterV-images/create-review-driver.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
+
 ### 5.4.3. Applications Mock-ups
+
 ### 5.4.4. Applications User Flow Diagrams
+#### Mobile App User Flow Diagrams
+**Visualización de espacios disponibles en el mapa**
+User goal: Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.
+Descripción: El usuario visualiza el mapa al ingresar la aplicación, al seleccionar alguno de los puntos, se abre una pestaña mue muestra los detalles del local de parking, en esta, selecciona Reserve Now para visualizar los espacios disponibles.
+
+![User flow 1](ChapterV-images/UserFlow1.png)
+
+**Visualizar detalles de un espacio disponible**
+User goal: Como conductor, quiero ver los detalles de un espacio disponible (precio, rating, sitios disponibles) al tocarlo en el mapa para tomar una decisión informada.
+Descripción: El usuario visualiza el mapa al ingresar la aplicación, al seleccionar alguno de los puntos, se abre una pestaña mue muestra los detalles del local de parking con los detalles necesarios.
+
+![User flow 2](ChapterV-images/UserFlow2.png)
+
+**Reservar un espacio disponible desde la app**
+User Goal: Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.
+Descripción: El usuario accede a la app, selecciona un parking y presiona en el botón Reserve Now, para luego seleccionar todas las opciones requeridas para reservar el espacio. Por ultimo, se dirige hacia la vista Pay, de esta manera, pagando el espacio y el sistema le mostrará un modal de confirmación.
+
+![User Flow 3](ChapterV-images/UserFlow3.png)
+
+**Cancelar una reserva activa**
+User goal: Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.	
+Descripción: El usuario, desde la vista principal de la app, ingresa por medio del menú inferior a la pestaña de Reservations, en la cua podrá visualizar sus reservaciones actuales. En esta selecciona Cancel sobre la reserva que desea cancelar. Le aparecerá un modal de advertencia y luego un modal de confirmación de la acción realizada.
+
+![User Flow 4](ChapterV-images/UserFlow4.png)
+
+**Realizar pago desde la app**
+User goal: Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.	
+Descripción: El usuario, selecciona un parking desde la vista principal de la aplicación. Luego en la pestaña de detalles, selecciona Reserve Now. Configura los datos para reservar el parking. Luego, se le redirige a la pestaña Payment, en la cual el usuario ingresará los datos de su tarjeta para realizar el pago. Una vez realizado el pago, se le notificará por medio de un modal de confirmación.
+
+![User Flow 5](ChapterV-images/UserFlow5.png)
+
+**Ver historial de pagos realizados**
+User goal: Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.
+Descripción: El usuario ingresa a la pestaña de Reservations desde el menú inferior, desde ahi, puede visualizar sus reservaciones pasadas y ver el detalle de pago de las mismas.
+
+![User Flow 6](ChapterV-images/UserFlow6.png)
+
+**Calificar estacionamientos utilizados**
+User goal: Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.	
+Descripción: El usuario selecciona un parking que haya visitado desde el mapa, luego selecciona en la opción View Reviews. Esta opción le abrirá una ventana en la que podrá visualizar los comentarios de otras personas y realizar uno propio en base a su experiencia, seleccionando la opción Make a Review, el cual le abrirá un modal en el que podrá colocar una calificiación en estrellas y un comentario.
+
+![User Flow 7](ChapterV-images/UserFlow7.png)
 
 ## 5.5. Applications Prototyping
 
-# Capítulo VI: Product Implementation, Validation & Deployment
+---
 
+# Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration
+**Project Management:**
+* Discord: Utilizamos Discord como plataforma de aopoyo durante el trabajo conjunto entre los miembros del equipo de desarrollo. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto. 
+* WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto constante entre los miembros del equipo.
+* GitFlow: Utilizamos GitFlow para mejorar la eficiencia y organización del equipo. GitFlow proporciona una estructura clara para manejar ramas, facilita la colaboración en equipo, mejora el control de versiones, y asegura la calidad del código. 
+* Trello: Trello nos sirvio para identificar los aspectos que deben ser antendidos, considerando cuales ya se hicieron, cuales se pueden mejorar y cuales de haran en un próximo entregable.
+
+**Requirements Management:**
+* Miro: En Miro, creamos mapas mentales y diagramas que ayudaron a visualizar y organizar los requisitos del proyecto, incluyendo características, funcionalidades y objetivos clave.
+* Lucidchart: Además, utilizamos Lucidchart como herramienta para realizar diagramas y documentación. 
+
+**Product UX/UI Design:**  
+* Figma: Empleamos Figma para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de SmartParking. Figma permitió la creación de prototipos, wireframes y diseños visuales que guiarán el desarrollo del producto final.  
+* UXPressia: Utilizamos UXPressia como herramienta especializada en la creación de mapas de experiencia de usuario, perfiles de clientes y otros elementos relacionados. UXPressia nos permitió visualizar y comprender la experiencia del usuario en profundidad, ayudando a mejorar la usabilidad y el diseño de la aplicación. 
+
+**Software Development:** 
+* IDE (Entorno de Desarrollo Integrado): Utilizamos distintas IDE que se adecuaban al apartado del proyecto que se trabajaba. Estos fueron:
+  * Visual Studio Code: Documentación del proyecto y realización del informe.
+  * WebStorm: IDE principal debido a su capacidad para facilitar el desarrollo web moderno y eficiente. Se utilizo al desarrollar la Landing Page y la aplicación web.
+  * IntelliJ: Creación de los web services (Backend)
+  * Android Studio: Creación de la aplicación móvil.
+* HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+* CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML.
+* JavaScript: Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico. Se utilizará para elaborar la interfaz de usuario dentro de la aplicación
+* Vue.js: Framework basado en JavaScript para la creación de aplicaciones web.
+* Java: Lenguaje de programación de propósito general, orientado a objetos. Se caracteriza por ser multiplataforma, seguro y robusto, lo que lo convierte en una opción popular para desarrollar aplicaciones web, móviles, empresariales y mucho más. 
+* Flutter Dart: Desarrollo de la aplicación móvil multiplataforma. Flutter permite crear una aplicación nativa con un solo código base, lo que mejora la eficiencia en el desarrollo y el mantenimiento.
+
+**Software Documentation:** 
+* GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
+* Structurizr: La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
+
 ### 6.1.2. Source Code Management
+El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github.
+
+**Organization:** https://github.com/SolucionesIoT-Grupo-IoTInnovators
+
+**Landing Page Repository:**
+**Frontend Web Application :** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-frontend
+
+En cada repositorio, se tenían 2 ramas principales:
+- **main:** En esta rama almacenaremos las versiones oficiales de nuestro repositorio que ya deben pasar a producción.
+- **develop:** Esta rama se utilizará como rama de integración para las “feature” branches. 
+
+**Ramas auxiliares:**
+- **feature:** Estas son las características funcionales que piden los usuarios tanto en landing page y web application.
+- **fix:** Estas ramas tendran la finalidad de dar la oprtunidad de ocrregir errores en el código, sin afectar el desarrollo de otros apartados.
+- **hotfix:** La utilizaremos cuando nuestra última versión en la rama “master” necesite corregir un error o bug crítico que no puede esperar a un siguiente lanzamiento para solucionarse.
+
+Convención de nombres: `[rama]/[nombre-descriptivo]`
+
+**Commit Conventions:**
+El formato de nuestros commits sigue la estructura de los “Conventional Commits” en su versión 1.0.0. Por ello seguimos el siguiente formato:
+`< type >[optional scope]: < description >`
+
+Donde:**
+- **type:** Especifica el tipo de cambio realizado, únicamente puede ser feat, fix, docs, etc.
+- **scope:** Es el alcance que tiene nuestro commit.
+- **description:** Es un breve resumen de los cambios de código.
+
+**Semantic Versioning:**
+El equipo aplicará Versionado Semántico para las versiones de lanzamiento del software. Este sistema de versionado sigue el formato `vX.X.X`:
+
+- **X.**: Para cambios mayores que incluyen modificaciones significativas que no son compatibles con versiones anteriores.
+- **.X**: Para nuevas funcionalidades que no rompen la compatibilidad con versiones anteriores.
+- **.X**: Para correcciones de errores y pequeñas mejoras.
+
+**Conventional Commits:**
+Esta convención asegura que cada mensaje de commit refleje de forma precisa el tipo de cambio realizado en el código. Los tipos de commit son los siguientes:
+
+- **feat**: Para la adición de una nueva funcionalidad.
+- **fix**: Para corrección de errores.
+- **docs**: Para cambios en la documentación.
+- **style**: Para cambios que no afectan la lógica del código, como ajustes de formato.
+- **refactor**: Para reestructuración del código que no añade nuevas funcionalidades ni corrige errores.
+- **chore**: Para tareas rutinarias que no sean específicas de una feature o un error como por ejemplo añadir contenido al fichero .gitignore o instalar una dependencia.
+- **test:** Si añadimos o arreglamos tests.
+- **build:** cuando el cambio afecta al compilado del proyecto.
+- **ci:** el cambio afecta a ficheros de configuración y scripts relacionados con la integración continua.
+- **perf:** usado para mejoras de rendimiento.
+- **revert:** si el commit revierte un commit anterior. Debería indicarse el hash del commit que se revierte.
+
 ### 6.1.3. Source Code Style Guide & Conventions
+**General:**
+Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatura:
+- **Convención en inglés**: Todos los nombres de variables, funciones, métodos, clases y archivos se nombrarán en inglés.
+- **Convención de nombres**:
+  - **CamelCase**: Para nombres de variables, funciones y métodos.  
+  - **PascalCase**: Para nombres de clases y componentes.  
+  - **snake_case**: Para nombres de archivos.  
+
+**HTML:** [https://www.w3schools.com/html/html5_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
+**Convenciones de HTML:**
+- Declarar el tipo de documento en la primera línea.
+- Usar nombres de etiquetas en minúsculas.
+- Usar nombres de atributos en minúsculas.
+- Cerrar todas las etiquetas correctamente.
+- Usar comillas en los valores de los atributos.
+- No dejar espacios alrededor del signo igual en los atributos.
+- Especificar los atributos `alt`, `width` y `height` en las imágenes.
+- No omitir las etiquetas `<html>`, `<head>`, `<body>` y `<title>`.
+- Usar el atributo `lang` para declarar el idioma del documento.
+- Incluir la metaetiqueta para definir la codificación del documento.
+- Usar títulos precisos y significativos en la etiqueta `<title>`.
+- Evitar líneas de código excesivamente largas.
+- Usar sintaxis clara y sencilla para enlaces y scripts externos.
+
+**CSS:** [https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+**Convenciones de CSS**
+- Usar el protocolo HTTPS para archivos externos.
+- Utilizar minúsculas en todo el código (propiedades, atributos, valores, etc.).
+- Los nombres de clases deben ser breves, descriptivos y reflejar su propósito.
+- Separar palabras en nombres de clases e IDs con guiones.
+- Usar propiedades abreviadas cuando sea posible.
+- Preferir notación hexadecimal de 3 caracteres cuando aplique.
+- Ordenar las propiedades CSS alfabéticamente dentro de cada regla.
+- Incluir punto y coma al final de cada declaración.
+- Agregar un espacio después de los dos puntos en cada propiedad.
+- Agregar un espacio antes de la llave de apertura del bloque de declaraciones.
+- Usar comillas simples para atributos y valores de propiedades que las requieran.
+- Agrupar reglas relacionadas y separarlas con una línea en blanco para mayor legibilidad.
+
+**Java:** [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html)
+**Convenciones de Java:**
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas.
+- El nombre de las variables debe ser en minúsculas y usar camel case.
+- Para las sentencias if,else,for,do y while se deben usar “ { } “.
+- Los nombres de variables que son Constantes deben ir en mayúsculas
+
+**JavaScript:** [https://google.github.io/styleguide/jsguide.html](https://google.github.io/styleguide/jsguide.html)
+**Convenciones de JavaScript:**
+- Usar camelCase para variables y funciones.
+- Usar PascalCase para clases y constructores.
+- Usar MAYÚSCULAS_CON_GUIONES_BAJOS para constantes.
+- Usar let y const para declarar variables (evitar var).
+- Declarar las variables al inicio de su ámbito.
+- Incluir punto y coma al final de cada instrucción.
+- Usar // para comentarios de una línea y /* */ para bloques de comentarios.
+- Escribir comentarios descriptivos en componentes, servicios y secciones complejas.
+- Aplicar principios de programación reactiva y patrones de diseño adecuados.
+
+**Vue.js:**[https://vuejs.org/style-guide/](https://vuejs.org/style-guide/)
+**Convenciones de Vue.js:**
+- Nombres de componentes: Se debe usar PascalCase para los nombres de componentes, por ejemplo, UserProfile.
+- Nombres de archivos: Los archivos de componentes deben nombrarse usando PascalCase y tener la extensión .vue, por ejemplo, UserProfile.vue.
+- Nombres de props: Se debe usar camelCase para declarar las props en JavaScript y kebab-case al usarlas en las plantillas.
+- Prefijos en componentes: Los componentes que se utilizan una sola vez deben tener el prefijo The, por ejemplo, TheHeader. Los componentes base reutilizables deben tener el prefijo Base, como BaseButton.
+- Uso de v-for: Siempre se debe proporcionar una clave única (key) al usar v-for para mantener el estado interno del componente.
+- Evitar v-if con v-for: No se debe usar v-if en el mismo elemento que v-for. En su lugar, se debe usar una estructura template para separar las condiciones.
+- Funciones de data: La propiedad data en los componentes debe ser una función que retorne un objeto, para evitar compartir el estado entre instancias.
+
+**Flutter (Dart):**[https://dart.dev/effective-dart/style](https://dart.dev/effective-dart/style)
+**Convenciones de Flutter:**
+- Nombres de clases y tipos: Se debe usar UpperCamelCase para los nombres de clases, tipos, enums y typedefs, por ejemplo, UserProfile.
+- Nombres de variables y funciones: Se debe usar lowerCamelCase para los nombres de variables, funciones y parámetros, por ejemplo, userProfile.
+- Nombres de constantes: Se debe usar lowerCamelCase para las constantes, por ejemplo, defaultTimeout.
+- Nombres de archivos: Los nombres de archivos deben estar en minúsculas y usar guiones bajos para separar las palabras, por ejemplo, user_profile.dart.
+- Comentarios de documentación: Se debe usar /// para comentarios de documentación y // para comentarios de una sola línea.
+- Uso de const y final: Se debe usar const para valores inmutables en tiempo de compilación y final para valores inmutables en tiempo de ejecución.
+- Funciones cortas: Se recomienda usar la sintaxis de flecha (=>) para funciones de una sola expresión.
+- Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
+
 ### 6.1.4. Software Deployment Configuration
+**Landing Page**
+
+- **Proceso de Despliegue:**
+
+**Web Application**
+
+- **Proceso de Despliegue:**
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1
+En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
+
+| Sprint # | Sprint 1 |
+|----------|----------|
+| **Sprint Planning Background** |
+| **Date** | 01/05/2025 |
+| **Time** | 21:00 horas (GMT-5) |
+| **Location** |  |
+| **Prepared By** | IoT Innovators |
+| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
+| **Sprint 0 – 1 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
+| **Sprint 0 – 1 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
+
+**Sprint 1 Goal**
+
+> **Our focus is** on delivering a publicly accessible Landing Page and the initial web app interface for SmartParking.  
+> **We believe it delivers** early user engagement and foundational infrastructure for stakeholder validation.  
+> **This will be confirmed when** users can access the landing page, view the product and team info, and navigate the web app’s home page from deployed environments.
+
+Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+
+**Sprint 1 Velocity**
+
+**80 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+
+**Sum of Story Points**
+
+**55 Story Points en total**, agrupando las siguientes historias de usuario:
+
+| ID | Historia de Usuario |
+|----|---------------------|
+| US03 | Sección hero de landing page |
+| US04 | Barra de navegación en landing page	 |
+| US14 | Diseñar y distribuir espacios de estacionamiento	 |
+| US15 | Gestionar múltiples estacionamientos desde un solo panel	 |
+| US22 | Calificar estacionamientos utilizados	 |
+| US23 | Registro Rápido desde Landing Page	 |
+| TS02 | Autenticación con JWT en Web y App	 |
+| TS06	 | Crear Parking Owner a través de RESTful API		 |
+| TS07 | Crear Driver a través de RESTful API	 |
+| TS08 | Sign In de usuario a través de RESTful API	 |
+| TS09 | Obtener perfil de Parking Owner por userId a través de RESTful API	 |
+| TS10 | Obtener perfil de Driver por userId a través de RESTful API	 |
+| TS11	 | Obtener todos los parkings registrados		 |
+| TS12 | Crear un nuevo parking	 |
+| TS13 | Obtener todos los spots de un parking por su parkingId	 |
+| TS14 | Agregar un spot a un parking	 |
+| TS15 | Obtener parking por parkingId	 |
+| TS16	 | Obtener todos los parkings por ownerId		 |
+| TS17 | Crear Reserva a través de RESTful API	 |
+| TS18 | Obtener Reservas por ParkingId |
+
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
+Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
+
+En esta primera iteración, se abordaron los siguientes aspectos clave:
+
+- **Aspect Name 1:** Landing Page UI  
+- **Aspect Name 2:** Web App Frontend (Conductores y Propietarios)  
+- **Aspect Name 3:** RESTful API - Backend Básico  
+- **Aspect Name 4:** Infraestructura y Despliegue (Azure, Vercel)  
+- **Aspect Name 5:** Documentación, QA y Coordinación Scrum  
+
+|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+|-------------------------------|------------------|----------------|----------------|----------------|----------------|----------------|
+| Arroyo Ormeño, André Alonso   | anonimat0        |                |                |                |                |                |
+| Castilla Pachas, César Antonio| CesarrAnn        |                |                |                |                |                |
+| Cortés Casas, Joaquin Marcelo | U202114545       |    C            |                |                |                |                |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |     L           |                |                |                |                |
+| Godoy, Johan Príncipe         | JP19-03          |                |                |                |                |                |
+| Tafur Gonzales, Josty Gerardo | JostyTafur        |                |                |                |                |                |
+| Zarate Caceres, Victor        | ern23zc          |                |                |                |                |                |
+
 #### 6.2.1.3. Sprint Backlog 1
+Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
+
+- El diseño y desarrollo de la Landing Page.
+- La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
+
+https://trello.com/b/4jpMjzDd
+
+![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
+
+**Tabla de control de estado del Sprint**
+
+|  Sprint #  ||                                                                                                               Sprint 1                                                                                                      ||||||
+|------------| -------------------------|------------|------------------------------------------------------|---------------------------|------------------------|--------------------------|----------------------------------------------------|
+|             **User Story**            ||                                                                                   **Work-Item / Task**                                                                                           ||||||
+| **Id**     | **Title**                | **Id**     | **Title**                                            | **Description**           | **Estimation (Hours)** | **Assigned To**          | **Status (To-do / In-Process / To-Review / Done)** |
+| US03       | Sección hero             | 01         | Diseñar e implementar hero visual en landing page    |                           | 6h                     |                          |                                                    |
+| US04       | Navbar landing           |            | Barra navegable con enlaces                          |                           | 2h                     |                          |                                                    |
+| US14       | Diseño de espacios       |            | UI para organizar zonas de parqueo                   |                           | 6h                     |                          |                                                    |
+| US15       | Panel múltiple parkings  |            | Vista centralizada para gestión de cocheras          |                           | 12h                    |                          |                                                    |
+| US22       | Calificación             |            | Interfaz para dejar y ver reseñas de estacionamientos|                           | 6h                     |                          |                                                    |
+| US23       | Registro rápido          |            | Formulario desde landing page                        |                           | 2h                     |                          |                                                    |
+| TS02       | Autenticación JWT        |            | Login basado en tokens para Web y App                |                           | 10h                    |                          |                                                    |
+| TS06       | Crear Owner API          |            | POST para registrar propietario                      |                           | 6h                     |                          |                                                    |
+| TS07       | Crear Driver API         |            | POST para registrar conductor                        |                           | 6h                     |                          |                                                    |
+| TS08       | Login API                |            | POST para autenticación y retorno de token JWT       |                           | 6h                     |                          |                                                    |
+| TS09       | Perfil Owner API         |            | GET para obtener datos por userId (propietario)      |                           | 4h                     |                          |                                                    |
+| TS10       | Perfil Driver API        |            | GET para obtener datos por userId (conductor)        |                           | 4h                     |                          |                                                    |
+| TS11       | Obtener parkings         |            | GET general de parkings registrados                  |                           | 4h                     |                          |                                                    |
+| TS12       | Crear parking            |            | POST para agregar nuevo parking                      |                           | 6h                     |                          |                                                    |
+| TS13       | Ver spots por parkingId  |            | GET para listar espacios de un parking               |                           | 4h                     |                          |                                                    |
+| TS14       | Agregar spot             |            | POST para crear nuevo espacio                        |                           | 4h                     |                          |                                                    |
+| TS15       | Obtener parking por ID   |            | GET específico de un parking                         |                           | 4h                     |                          |                                                    |
+| TS16       | Parkings por ownerId     |            | GET para listar los parkings de un propietario       |                           | 4h                     |                          |                                                    |
+| TS17       | Crear reserva            |            | POST para registrar una reserva con validaciones     |                           | 6h                     |                          |                                                    |
+| TS18       | Ver reservas por parking |            | GET para consultar reservas de un estacionamiento    |                           | 4h                     |                          |                                                    |
+
 #### 6.2.1.4. Development Evidence for Sprint Review
+<!-- TODO: Añadir introducción que resume los principales avances en la implementación -->
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+|            |        |           |                |                     |                    |
+
 #### 6.2.1.6. Execution Evidence for Sprint Review
+<!-- TODO: 
+  - Añadir resumen que explique lo alcanzado en este Sprint
+  - Screenshots de las principales vistas implementadas
+  - Enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint
+-->
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot1.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot2.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot3.png)
+![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot4.png)
+
+Enlace:
+
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence1.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence2.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence3.png)
+![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence4.png)
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
+<!-- TODO: Explicar cómo se han desarrollado las actividades de implementación -->
+![Analiticos de Colaboracion - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Analytics.png)
+![Commits - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Commits.png)
+
+---
 
 # Conclusiones y recomendaciones
 ## ✅ Conclusiones
@@ -4339,8 +4721,15 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 <div align="justify">
   <ul>
     <li>Asociación Automotriz del Perú. (2023). <em>INFORME DEL SECTOR AUTOMOTOR: Diciembre 2024.</em> Recuperado de: https://aap.org.pe/informes-estadisticos/diciembre-2024/Informe-Diciembre-2024.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>Chamorro, A. (2022). <em>Conventional Commits - Qué es y por qué deberías empezar a utilizarlo.</em> Recuperado de: https://dev.to/achamorro_dev/conventional-commits-que-es-y-por-que-deberias-empezar-a-utilizarlo-23an [Consulta: 06 de mayo de 2025]</li>
     <li>INEI. (2022). <em>Estadísticas de transporte urbano en el Perú. </em>Recuperado de: https://m.inei.gob.pe/prensa/noticias/movimiento-de-vehiculos-a-nivel-nacional-aumento-39-en-febrero-de-2024-15125/ [Consulta: 02 de abril de 2025]</li>
     <li>Lima Cómo Vamos. (2023). <em>Reporte de movilidad urbana 2023.</em> Recuperado de: https://www.limacomovamos.org/wp-content/uploads/2022/06/Reporte-%C2%BFCo%CC%81mo-nos-movemos__LCV-LE-2022_compressed.pdf [Consulta: 02 de abril de 2025]</li>
+    <li>Dart. (s.f.)<em> Effective Dart: Style.</em>Recuperado de: https://dart.dev/effective-dart/style [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google HTML/CSS Style Guide.</em> Recuperado de:https://google.github.io/styleguide/htmlcssguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google Java Style Guide.</em>Recuperado de: https://google.github.io/styleguide/javaguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Google. (s.f.) <em>Google JavaScript Style Guide.</em>Recuperado de: https://google.github.io/styleguide/jsguide.html [Consulta: 06 de mayo de 2025]</li>
+    <li>Vue.js. (s.f.) <em>Style Guide.</em>Recuperado de: https://vuejs.org/style-guide/ [Consulta: 06 de mayo de 2025]</li>
+    <li>W3Schools. (s.f.) <em>HTML Style Guide.</em>Recuperado de: https://www.w3schools.com/html/html5_syntax.asp [Consulta: 06 de mayo de 2025]</li>
   </ul>
 </div>
 
