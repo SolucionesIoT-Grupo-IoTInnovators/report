@@ -4251,7 +4251,7 @@ Pantalla principal con un mapa que muestra estacionamientos cercanos donde el us
 
 ![Home](ChapterV-images/home-driver.png)
 
-![Home](ChapterV-images/details-driver.png)
+![Home2](ChapterV-images/details-driver.png)
 
 **Crear reserva**
 
