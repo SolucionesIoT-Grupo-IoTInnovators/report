@@ -4239,8 +4239,8 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 ## 5.5. Applications Prototyping
 
 # Capítulo VI: Product Implementation, Validation & Deployment
-### 6.1. Software Configuration Management
-#### 6.1.1. Software Development Environment Configuration
+## 6.1. Software Configuration Management
+### 6.1.1. Software Development Environment Configuration
 **Project Management:**
 * Discord: Utilizamos Discord como plataforma de aopoyo durante el trabajo conjunto entre los miembros del equipo de desarrollo. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto. 
 * WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto constante entre los miembros del equipo.
@@ -4271,7 +4271,8 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 **Software Documentation:** 
 * GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
 * Structurizr: La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
-#### 6.1.2. Source Code Management
+
+### 6.1.2. Source Code Management
 El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github.
 
 **Organization:** https://github.com/SolucionesIoT-Grupo-IoTInnovators
@@ -4321,7 +4322,7 @@ Esta convención asegura que cada mensaje de commit refleje de forma precisa el 
 - **perf:** usado para mejoras de rendimiento.
 - **revert:** si el commit revierte un commit anterior. Debería indicarse el hash del commit que se revierte.
 
-#### 6.1.3. Source Code Style Guide & Conventions
+### 6.1.3. Source Code Style Guide & Conventions
 **General:**
 Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatura:
 - **Convención en inglés**: Todos los nombres de variables, funciones, métodos, clases y archivos se nombrarán en inglés.
@@ -4402,7 +4403,7 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 - Funciones cortas: Se recomienda usar la sintaxis de flecha (=>) para funciones de una sola expresión.
 - Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
 
-#### 6.1.4. Software Deployment Configuration
+### 6.1.4. Software Deployment Configuration
 **Landing Page**
 
 - **Proceso de Despliegue:**
@@ -4428,7 +4429,7 @@ En el siguiente sprint planning se definen las tareas y objetivos del primer spr
 | **Sprint 0 – 1 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
 | **Sprint 0 – 1 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
 
-#### Sprint 1 Goal
+**Sprint 1 Goal**
 
 > **Our focus is** on delivering a publicly accessible Landing Page and the initial web app interface for SmartParking.  
 > **We believe it delivers** early user engagement and foundational infrastructure for stakeholder validation.  
@@ -4436,11 +4437,11 @@ En el siguiente sprint planning se definen las tareas y objetivos del primer spr
 
 Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
 
-#### Sprint 1 Velocity
+**Sprint 1 Velocity**
 
 **80 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
 
-#### Sum of Story Points
+**Sum of Story Points**
 
 **55 Story Points en total**, agrupando las siguientes historias de usuario:
 
@@ -4490,117 +4491,41 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 | Zarate Caceres, Victor        | ern23zc          |                |                |                |                |                |
 
 #### 6.2.1.3. Sprint Backlog 1
-<!-- TODO: Añadir introducción que resuma el objetivo principal del Sprint -->
-
-![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
-
-Enlace a Trello:
-<table>
-  <tr>
-    <b>
-      <th colspan="2" valign="top">SPRINT</th>
-      <th colspan="6" valign="top">SPRINT 1</th>
-    </b>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top"></td>
-    <td colspan="6" valign="top"><b>Work-Item / Task</b></td>
-  </tr>
-  <tr>
-    <b>
-      <td valign="top">User Story ID</td>
-      <td valign="top">Title</td>
-      <td valign="top">id</td>
-      <td valign="top">Title</td>
-      <td valign="top">Description</td>
-      <td valign="top">Tiempo (horas)</td>
-      <td valign="top">Assigned to</td>
-      <td valign="top">Status (To-Do/In process/To review/Done)</td>
-    </b>
-  </tr>
-  <!-- User Story -->
-  <tr>
-    <td rowspan="2" valign="top">US</td>
-    <td rowspan="2" valign="top"></td>
-    <td valign="top">T1</td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-  </tr>
-  <tr>
-    <td valign="top">T2</td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-  </tr>
-  <!-- User Story -->
-  <tr>
-    <td rowspan="2" valign="top">US</td>
-    <td rowspan="2" valign="top"></td>
-    <td valign="top">T3</td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-  </tr>
-  <tr>
-    <td valign="top">T4</td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-    <td valign="top"></td>
-  </tr>
-</table>
-
-
-### 6.2.1.3 Sprint Backlog 1
-
 Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
 
 - El diseño y desarrollo de la Landing Page.
 - La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
 
-La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público:
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: https://shorturl.at/example123
 
-https://shorturl.at/example123
-📸 **Captura del board:** *(insertar imagen del tablero Trello aquí)*
+![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
 
----
+**Tabla de control de estado del Sprint**
 
-#### Tabla de control de estado del Sprint
-
-| Sprint # | Sprint 1 |
-|------------|------------------|
-
-| User Story | Work-Item / Task | | | | | |
-|------------|------------------|---------------------------|------------------------|--------------------------|---------------------------|---------------------------|
-| **Id**     | **Title**        | **Description**           | **Estimation (Hours)** | **Assigned To**          | **Status (To-do / In-Process / To-Review / Done)** |
-| US03       | Sección hero             | Diseñar e implementar hero visual en landing page   | 6h                  |                    |                                                 |
-| US04       | Navbar landing           | Barra navegable con enlaces                         | 2h                  |                    |                                                 |
-| US14       | Diseño de espacios       | UI para organizar zonas de parqueo                  | 6h                  |                    |                                                 |
-| US15       | Panel múltiple parkings  | Vista centralizada para gestión de cocheras         | 12h                 |                    |                                                 |
-| US22       | Calificación             | Interfaz para dejar y ver reseñas de estacionamientos| 6h                  |                    |                                                 |
-| US23       | Registro rápido          | Formulario desde landing page                       | 2h                  |                    |                                                 |
-| TS02       | Autenticación JWT        | Login basado en tokens para Web y App               | 10h                 |                    |                                                 |
-| TS06       | Crear Owner API          | POST para registrar propietario                     | 6h                  |                    |                                                 |
-| TS07       | Crear Driver API         | POST para registrar conductor                       | 6h                  |                    |                                                 |
-| TS08       | Login API                | POST para autenticación y retorno de token JWT      | 6h                  |                    |                                                 |
-| TS09       | Perfil Owner API         | GET para obtener datos por userId (propietario)     | 4h                  |                    |                                                 |
-| TS10       | Perfil Driver API        | GET para obtener datos por userId (conductor)       | 4h                  |                    |                                                 |
-| TS11       | Obtener parkings         | GET general de parkings registrados                 | 4h                  |                    |                                                 |
-| TS12       | Crear parking            | POST para agregar nuevo parking                     | 6h                  |                    |                                                 |
-| TS13       | Ver spots por parkingId  | GET para listar espacios de un parking              | 4h                  |                    |                                                 |
-| TS14       | Agregar spot             | POST para crear nuevo espacio                       | 4h                  |                    |                                                 |
-| TS15       | Obtener parking por ID   | GET específico de un parking                        | 4h                  |                    |                                                 |
-| TS16       | Parkings por ownerId     | GET para listar los parkings de un propietario      | 4h                  |                    |                                                 |
-| TS17       | Crear reserva            | POST para registrar una reserva con validaciones    | 6h                  |                    |                                                 |
-| TS18       | Ver reservas por parking | GET para consultar reservas de un estacionamiento   | 4h                  |                    |                                                 |
+|  Sprint #  ||                                                                                                               Sprint 1                                                                                                      ||||||
+|------------| -------------------------|------------|------------------------------------------------------|---------------------------|------------------------|--------------------------|----------------------------------------------------|
+|             **User Story**            ||                                                                                   **Work-Item / Task**                                                                                           ||||||
+| **Id**     | **Title**                | **Id**     | **Title**                                            | **Description**           | **Estimation (Hours)** | **Assigned To**          | **Status (To-do / In-Process / To-Review / Done)** |
+| US03       | Sección hero             | 01         | Diseñar e implementar hero visual en landing page    |                           | 6h                     |                          |                                                    |
+| US04       | Navbar landing           |            | Barra navegable con enlaces                          |                           | 2h                     |                          |                                                    |
+| US14       | Diseño de espacios       |            | UI para organizar zonas de parqueo                   |                           | 6h                     |                          |                                                    |
+| US15       | Panel múltiple parkings  |            | Vista centralizada para gestión de cocheras          |                           | 12h                    |                          |                                                    |
+| US22       | Calificación             |            | Interfaz para dejar y ver reseñas de estacionamientos|                           | 6h                     |                          |                                                    |
+| US23       | Registro rápido          |            | Formulario desde landing page                        |                           | 2h                     |                          |                                                    |
+| TS02       | Autenticación JWT        |            | Login basado en tokens para Web y App                |                           | 10h                    |                          |                                                    |
+| TS06       | Crear Owner API          |            | POST para registrar propietario                      |                           | 6h                     |                          |                                                    |
+| TS07       | Crear Driver API         |            | POST para registrar conductor                        |                           | 6h                     |                          |                                                    |
+| TS08       | Login API                |            | POST para autenticación y retorno de token JWT       |                           | 6h                     |                          |                                                    |
+| TS09       | Perfil Owner API         |            | GET para obtener datos por userId (propietario)      |                           | 4h                     |                          |                                                    |
+| TS10       | Perfil Driver API        |            | GET para obtener datos por userId (conductor)        |                           | 4h                     |                          |                                                    |
+| TS11       | Obtener parkings         |            | GET general de parkings registrados                  |                           | 4h                     |                          |                                                    |
+| TS12       | Crear parking            |            | POST para agregar nuevo parking                      |                           | 6h                     |                          |                                                    |
+| TS13       | Ver spots por parkingId  |            | GET para listar espacios de un parking               |                           | 4h                     |                          |                                                    |
+| TS14       | Agregar spot             |            | POST para crear nuevo espacio                        |                           | 4h                     |                          |                                                    |
+| TS15       | Obtener parking por ID   |            | GET específico de un parking                         |                           | 4h                     |                          |                                                    |
+| TS16       | Parkings por ownerId     |            | GET para listar los parkings de un propietario       |                           | 4h                     |                          |                                                    |
+| TS17       | Crear reserva            |            | POST para registrar una reserva con validaciones     |                           | 6h                     |                          |                                                    |
+| TS18       | Ver reservas por parking |            | GET para consultar reservas de un estacionamiento    |                           | 4h                     |                          |                                                    |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 <!-- TODO: Añadir introducción que resume los principales avances en la implementación -->
@@ -4633,6 +4558,7 @@ https://shorturl.at/example123
 Enlace:
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 ![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence1.png)
 ![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence2.png)
