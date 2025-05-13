@@ -4304,7 +4304,7 @@ User Personas: Conductor
 
 Descripción: Desde el detalle del estacionamiento, el usuario presiona “Reserve now” y accede a la pantalla de reserva. Aquí puede seleccionar la fecha, hora de inicio, hora de fin y espacio específico en un mapa interno del local. Al seleccionar un espacio disponible y confirmar, pasa a la pantalla de pago. Una vez realizado el pago, se muestra una pantalla de confirmación exitosa y se registra la reserva en la sección “Reservations”.
 
-![Reservar un espacio disponible](ChapterV-images/Crear-reservacion-driver.png)
+![Reservar un espacio disponible](ChapterV-images/Crear-reservacion-Driver.png)
 
 **Cancelar una reserva activa**
 
