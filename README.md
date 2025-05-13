@@ -4365,6 +4365,21 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 
 ### 5.3.2. Landing Page Mock-up
 
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-Hero.png)
+
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-AbouttheProduct.png)
+
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-Driver-1.jpg)
+
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-Driver-2.png)
+
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-Owner-1.png)
+
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-Owner-2.jpg)
+
+![](ChapterV-images/Landing Page Figma/Mockup-Landing-AbouttheTeam.png)
+
+
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
 Prototipos de las pantallas principales de la aplicación, incluyendo la página de inicio, la lista de estacionamientos y la página de reservas.
