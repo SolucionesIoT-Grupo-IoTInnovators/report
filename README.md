@@ -4423,7 +4423,8 @@ El manejo y la organización de las diferentes modificaciones se llevaron a cabo
 
 **Organization:** https://github.com/SolucionesIoT-Grupo-IoTInnovators
 
-**Landing Page Repository:**
+**Landing Page Repository:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-landingpage
+
 **Frontend Web Application :** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-frontend
 
 En cada repositorio, se tenían 2 ramas principales:
@@ -4683,7 +4684,6 @@ En este primer Sprint se crearon las versiones iniciales de la Landing Page y We
   - Diseño de espacios      
   - Panel múltiple parkings 
   - Calificación 
-
 
 |      Repository       |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
 | :-------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
