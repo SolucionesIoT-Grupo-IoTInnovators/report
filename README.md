@@ -1104,18 +1104,22 @@ Estaría dispuesta a pagar por el servicio, siempre que el precio sea razonable,
     <tr>
       <td>Entrevista 3: </td>
       <td>
-        Nombre: <br>
-        Edad: <br>
-        Distrito: <br>
+        Nombre: Marcelo Scerpella<br>
+        Edad: 30<br>
+        Distrito: San Isidro<br>
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et semper tortor. Pellentesque ac quam at dui tristique pharetra. Nunc rhoncus nisi lacus, eget dapibus metus tempor sit amet. Ut laoreet maximus ipsum, quis gravida felis pulvinar id. Nulla efficitur varius accumsan. Donec sed interdum nunc. 
+        La entrevista se ha realizado a Marcelo Scerpella de 30 años, se dedica a hacer ventas por lo que maneja bastante por la ciudad para poder vender sus productos, donde frecuenta manejar de lunes a sábado.
+
+La mayor dificultad que se le presenta a la hora de vender sus producto es al momento de buscar donde estacionarse ya que los estacionamientos están muy escondidas y no sabe donde encontrarlas, además de que demora alrededor de 15 a 30 minutos encontrar uno por lo que eso le quita demasiado tiempo para poder entregar el pedido.
+
+Marcelo mostro un gran interés en usar la solución e SmartParking, donde uno de los puntos que pide es que se visualize un mapa donde pueda ver los estacionamientos que están cerca a su ubicación y asi poder reservar con mayor facilidad. Finalmente el considera que la herramienta le ayudaría mucho a ahorrar tiempo perdido al momento de buscar un estacionamiento y asi poder entregar muchos mas pedidos en un dia. 
       </td>
     </tr>
     <tr>
-      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista3.png" height=300px></td>
+      <td colspan="2"><img src="./ChapterII-images/Segmento2-Entrevista3.jpg" height=300px></td>
     </tr>
     <tr>
       <td colspan="2">Tiempo en el video: 00:00</td>
@@ -1126,9 +1130,75 @@ Estaría dispuesta a pagar por el servicio, siempre que el precio sea razonable,
 ### 2.2.3. Análisis de entrevistas
 <div align="justify">
   <ul>
-    <li>Segmento 1:</li>
-    <li>Segmento 2:</li>
-    <li>Conclusiones:</li>
+    <li>Segmento 1:<br>
+    Perfil general del segmento
+Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
+
+###  Características objetivas 
+
+| Característica                                                   | Frecuencia estimada | Fuente de entrevistas                     |
+|------------------------------------------------------------------|----------------------|--------------------------------------------|
+| Administra más de un estacionamiento                             | 66.7%                | Jhon (2 locales), Armando (3 cocheras)     |
+| Utiliza gestión manual (cuaderno, registro físico)               | 100%                 | Jhon, Lizet, Armando                       |
+| No realiza seguimiento automático de ingresos o reservas         | 100%                 | Todos                                      |
+| Ha tenido pérdidas o problemas por gestión ineficiente           | 66.7%                | Jhon (Yape falso), Lizet (errores humanos) |
+| No utiliza actualmente sensores ni tecnologías IoT               | 100%                 | Todos                                      |
+| Muestra interés por adoptar tecnología si es accesible y útil    | 66.7%                | Jhon, Lizet                                |
+| Opera en zonas con horarios pico o alta rotación                 | 66.7%                | Jhon, Lizet                                |
+
+###  Características subjetivas comunes
+
+| Característica percibida                         | Evidencia                                                   |
+|--------------------------------------------------|-------------------------------------------------------------|
+| Deseo de trazabilidad y control sobre los ingresos | Jhon y Lizet desean reportes e historial automatizado       |
+| Preocupación por errores humanos                 | Lizet menciona delegación y errores; Jhon tuvo fraude       |
+| Aceptación tecnológica si hay beneficios claros  | Jhon y Lizet muestran apertura si se adapta a su realidad   |
+| Priorizan funciones de monitoreo sobre reservas  | Armando prefiere control y seguridad sobre funciones de reserva |
+
+
+</li>
+    <li>Segmento 2:<br>
+    Perfil general del segmento
+Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
+
+### Características objetivas
+
+| Característica                                                    | Frecuencia estimada | Evidencia en entrevistas                      |
+|-------------------------------------------------------------------|----------------------|-----------------------------------------------|
+| Conduce entre 3 a 6 días a la semana                              | 100%                 | Mauricio, Rocío, Marcelo                      |
+| Tiene dificultades para encontrar estacionamiento                 | 100%                 | Todos                                         |
+| Usa dispositivos con Android / Windows                            | 100%                 | Mauricio (confirmado), Marcelo (probable)     |
+| No ha usado aplicaciones específicas para estacionamiento         | 100%                 | Todos                                         |
+| Le toma más de 10 min conseguir cochera en zonas difíciles        | 100%                 | Mauricio (10 min), Marcelo (15–30 min)        |
+| Está dispuesto a pagar por una app si resuelve el problema        | 100%                 | Mauricio, Rocío, Marcelo                      |
+| Prefiere modalidad de pago por uso y no suscripción               | 66.7%                | Mauricio, Rocío                               |
+| Ha dejado de usar el auto por problemas de estacionamiento        | 33.3%                | Rocío                                         |
+
+###  Características subjetivas comunes
+
+| Característica percibida                     | Evidencia                                                  |
+|----------------------------------------------|------------------------------------------------------------|
+| Planifican rutas o estacionamiento con anticipación | Mauricio evita ir sin haber buscado antes             |
+| Se frustran ante la pérdida de tiempo        | Marcelo menciona que esto afecta directamente su trabajo   |
+| Buscan control y seguridad al estacionar     | Rocío menciona que necesita reservar para evitar vueltas   |
+| Abiertos a tecnología si es útil             | Todos muestran disposición clara a probar una app          |
+
+</li>
+    <li>Conclusiones: <br>
+    El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking. 
+
+Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.
+
+Por otro lado, los conductores expresan frustración constante por la dificultad de encontrar estacionamiento disponible, especialmente en zonas concurridas. Son usuarios con una alta disposición tecnológica y valoran sobre todo la eficiencia, la anticipación y la posibilidad de reservar espacios desde el móvil. Prefieren soluciones ágiles con pago por uso, sin compromisos recurrentes.
+
+Ambos segmentos coinciden en valorar funcionalidades como:
+- Visualización clara de disponibilidad en tiempo real.
+- Información actualizada sobre ubicación y precios.
+- Reservas anticipadas que brinden seguridad y ahorro de tiempo.
+- Reportes o trazabilidad, en el caso de los propietarios.
+
+Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
+</li>
   </ul>
 </div>
 
