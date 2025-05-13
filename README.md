@@ -4512,8 +4512,9 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 
 ### 6.1.4. Software Deployment Configuration
 - **Landing Page**
-  - 
-  - 
+  - Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+  - Subir los archivos compilados al servidor web
+  - Actualizar el archivo de configuración
 
 - **Web Application**
   - **Clonar Repositorio:** Creamos un nuevo proyecto en [Vercel](https://vercel.com/)
@@ -4647,7 +4648,6 @@ En este primer Sprint se crearon las versiones iniciales de la Landing Page y We
   - Panel múltiple parkings 
   - Calificación 
 
-
 |      Repository       |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
 | :-------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
 | smartparking-frontend |           master           | e92f50dae3ab9259a127876882c78d450cae71a8 | feat: add switching languages.                                                       |                     |     12/05/2025     |
@@ -4730,22 +4730,29 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 **Landing Page**
-- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
-![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.jpg)
+- Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.png)
 
-- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
-![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
+- Subir los archivos compilados al servidor web
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.png)
 
-- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
-![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
-
-- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
-![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence4.jpg)
-![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence5.jpg)
+- Actualizar el archivo de configuración
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.png)
 
 **Web App**
--
-![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.png)
+
+- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
+
+- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
+
+- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
+
+- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 **Landing Page**
