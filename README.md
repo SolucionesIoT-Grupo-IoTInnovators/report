@@ -4330,54 +4330,54 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Hero.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Hero.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-AboutTheProduct.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-AboutTheProduct.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Drivers-1.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Drivers-1.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Drivers-2.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Drivers-2.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Owners-1.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Owners-1.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Owners-2.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Owners-2.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-AboutTheTeam.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-AboutTheTeam.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Hero.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Hero.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Sidebar.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Sidebar.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-AboutTheProuct.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-AboutTheProuct.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Drivers-1.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Drivers-1.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Drivers-2.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Drivers-2.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Owners-1.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Owners-1.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Owners-2.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Owners-2.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-AboutTheTeam-1.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-AboutTheTeam-1.png)
 
-![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-AboutTheTeam-2.png)
+![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-AboutTheTeam-2.png)
 
 
 ### 5.3.2. Landing Page Mock-up
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-Hero.png)
+![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Hero.png)
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-AbouttheProduct.png)
+![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-AbouttheProduct.png)
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-Driver-1.jpg)
+![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Driver-1.jpg)
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-Driver-2.png)
+![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Driver-2.png)
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-Owner-1.png)
+![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Owner-1.png)
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-Owner-2.jpg)
+![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Owner-2.jpg)
 
-![](ChapterV-images/Landing Page Figma/Mockup-Landing-AbouttheTeam.png)
+![About the team](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-AbouttheTeam.png)
 
 
 ## 5.4. Applications UX/UI Design
