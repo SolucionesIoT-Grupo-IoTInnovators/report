@@ -4310,7 +4310,7 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 
 Pantalla de inicio de sesión donde el propietario ingresa su correo y contraseña.
 
-![SignIn](ChapterV-images/Register-Parking-owner-Wireframe.png)
+![SignIn](ChapterV-images/Register-Parking-Owner-Wireframe.png)
 
 **SignUp**
 
@@ -4425,13 +4425,13 @@ Pantalla donde el usuario puede pagar su reserva de estacionamiento. Llena los d
 
 ![Pagar reserva](ChapterV-images/Payment-mock.png)
 
-![Pagar reserva](ChapterV-images/successfull-reservation-mock.png)
+![Pagar reserva](ChapterV-images/Successfull-reservation-mock.png)
 
 **Mis reservas**
 
 Pantalla donde el usuario puede ver sus reservas activas. Puede cancelar o ver los detalles de cada reserva.
 
-![Mis reservas](ChapterV-images/Reservation-view-mock.png)
+![Mis reservas](ChapterV-images/Reservation-vIew-mock.png)
 
 ![Mis reservas](ChapterV-images/Reservation-cancel-mock.png)
 
