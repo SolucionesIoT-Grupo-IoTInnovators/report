@@ -4626,13 +4626,13 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 
 |           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
 |-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Arroyo Ormeño, André Alonso   | anonimat0        |               |               |               |               |               |
-| Castilla Pachas, César Antonio| CesarrAnn        |               |               |               |               |               |
-| Cortés Casas, Joaquin Marcelo | U202114545       |   C           |               |               |               |               |
-| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |    L          |               |               |               |               |
-| Godoy, Johan Príncipe         | JP19-03          |               |               |               |               |               |
-| Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |               |
-| Zarate Caceres, Victor        | ern23zc          |               |               |               |               |               |
+| Arroyo Ormeño, André Alonso   | anonimat0        |       C       |       C       |       L       |       C       |       C       |
+| Castilla Pachas, César Antonio| CesarrAnn        |       C       |       C       |       C       |       C       |       C       |
+| Cortés Casas, Joaquin Marcelo | U202114545       |       L       |       C       |       C       |       C       |       C       |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |       C       |       C       |       C       |       L       |       C       |
+| Godoy, Johan Príncipe         | JP19-03          |       C       |       L       |       C       |       C       |       C       |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |       C       |       C       |       C       |       C       |       L       |
+| Zarate Caceres, Victor        | ern23zc          |       C       |       C       |       C       |       C       |       C       |
 
 #### 6.2.1.3. Sprint Backlog 1
 Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
