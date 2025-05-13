@@ -2597,6 +2597,7 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 - *Reservations → Review*  
   Los conductores dejan una reseña tras utilizar un espacio reservado.
+
 ![Context Mapping](ChapterIV-images/CONTEXTMAPING.jpeg)
 
 ### 4.1.3. Software Architecture
@@ -4867,6 +4868,7 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
 
 - El diseño y desarrollo de la Landing Page.
+
 - La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
@@ -4904,13 +4906,21 @@ https://trello.com/b/4jpMjzDd
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 En este primer Sprint se crearon las versiones iniciales de la Landing Page y Web Appilcation de SmartParking. Los avances específicos son:
+
 - **Landing Page:**
+
   - Creación de Sección hero
+
   - Navbar landing
+
   - Registro rápido         
+
 - **Web Application:**
+
   - Diseño de espacios      
+
   - Panel múltiple parkings 
+
   - Calificación 
 
 |        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
@@ -4984,43 +4994,62 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 - La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
 
 **Landing Page**
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-1.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-2.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-3.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-4.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-5.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-6.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-7.png)
+
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-8.png)
 
 **Web Application**
 - Login
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-1.png)
 
 - Register Driver
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-2.png)
 
 - Register Owner (parkingowner)
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-3.png)
 
 - Creation of parking
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-4.png)
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-5.png)
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-6.png)
 
 - Confirm Creation of parking
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-7.png)
 
 - Parking home
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-8.png)
 
 - Review Parking
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-9.png)
 
 - Reservation Data Parking
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-10.png)
 
 - Parking List
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
@@ -5028,37 +5057,50 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 **Landing Page**
+
 - Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+
 ![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.jpg)
 
 - Subir los archivos compilados al servidor web
+
 ![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
 
 - Actualizar el archivo de configuración
+
 ![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
 
 **Web App**
 
 - Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
 
 - Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
 
 - Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
 
 - Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 **Landing Page**
+
 ![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Analytics.png)
+
 ![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Commits.png)
 
 **Web Application**
+
 ![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Analytics.png)
+
 ![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Commits.png)
 
 ---
