@@ -4727,13 +4727,16 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 - Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
 
 ### 6.1.4. Software Deployment Configuration
-**Landing Page**
+- **Landing Page**
+  - Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+  - Subir los archivos compilados al servidor web
+  - Actualizar el archivo de configuración
 
-- **Proceso de Despliegue:**
-
-**Web Application**
-
-- **Proceso de Despliegue:**
+- **Web Application**
+  - **Clonar Repositorio:** Creamos un nuevo proyecto en [Vercel](https://vercel.com/)
+  - **Configuración:** Importamos el repositorio y vinculamos a la rama `master`
+  - **Configurar variables:** Configuramos las variables de entorno pertinentes
+  - **Despliegue Automático:** Validar el despliegue automático desde GitHub, de modo que cada cambio se refleje automáticamente. Adicionalmente, se configurara una rama `develop` para pruebas y validaciones previas al despliegue en producción.
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
@@ -4825,30 +4828,30 @@ https://trello.com/b/4jpMjzDd
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint #  ||                                                                                                               Sprint 1                                                                                                      ||||||
-|------------| -------------------------|------------|------------------------------------------------------|---------------------------|------------------------|--------------------------|----------------------------------------------------|
-|             **User Story**            ||                                                                                   **Work-Item / Task**                                                                                           ||||||
-| **Id**     | **Title**                | **Id**     | **Title**                                            | **Description**           | **Estimation (Hours)** | **Assigned To**          | **Status (To-do / In-Process / To-Review / Done)** |
-| US03       | Sección hero             | 01         | Diseñar e implementar hero visual en landing page    |                           | 6h                     |                          |                                                    |
-| US04       | Navbar landing           |            | Barra navegable con enlaces                          |                           | 2h                     |                          |                                                    |
-| US14       | Diseño de espacios       |            | UI para organizar zonas de parqueo                   |                           | 6h                     |                          |                                                    |
-| US15       | Panel múltiple parkings  |            | Vista centralizada para gestión de cocheras          |                           | 12h                    |                          |                                                    |
-| US22       | Calificación             |            | Interfaz para dejar y ver reseñas de estacionamientos|                           | 6h                     |                          |                                                    |
-| US23       | Registro rápido          |            | Formulario desde landing page                        |                           | 2h                     |                          |                                                    |
-| TS02       | Autenticación JWT        |            | Login basado en tokens para Web y App                |                           | 10h                    |                          |                                                    |
-| TS06       | Crear Owner API          |            | POST para registrar propietario                      |                           | 6h                     |                          |                                                    |
-| TS07       | Crear Driver API         |            | POST para registrar conductor                        |                           | 6h                     |                          |                                                    |
-| TS08       | Login API                |            | POST para autenticación y retorno de token JWT       |                           | 6h                     |                          |                                                    |
-| TS09       | Perfil Owner API         |            | GET para obtener datos por userId (propietario)      |                           | 4h                     |                          |                                                    |
-| TS10       | Perfil Driver API        |            | GET para obtener datos por userId (conductor)        |                           | 4h                     |                          |                                                    |
-| TS11       | Obtener parkings         |            | GET general de parkings registrados                  |                           | 4h                     |                          |                                                    |
-| TS12       | Crear parking            |            | POST para agregar nuevo parking                      |                           | 6h                     |                          |                                                    |
-| TS13       | Ver spots por parkingId  |            | GET para listar espacios de un parking               |                           | 4h                     |                          |                                                    |
-| TS14       | Agregar spot             |            | POST para crear nuevo espacio                        |                           | 4h                     |                          |                                                    |
-| TS15       | Obtener parking por ID   |            | GET específico de un parking                         |                           | 4h                     |                          |                                                    |
-| TS16       | Parkings por ownerId     |            | GET para listar los parkings de un propietario       |                           | 4h                     |                          |                                                    |
-| TS17       | Crear reserva            |            | POST para registrar una reserva con validaciones     |                           | 6h                     |                          |                                                    |
-| TS18       | Ver reservas por parking |            | GET para consultar reservas de un estacionamiento    |                           | 4h                     |                          |                                                    |
+|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
+|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
+|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
+| **Id**    | **Title**                                                          | **Id**     | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
+| US03      | Sección hero de landing page                                       |     01     | Seccion Hero                        | Diseñar e implementar hero visual en landing page    | 6h                     | Diaz Silva, Fernando Josué     | Done                                               |
+| US04      | Barra de navegación en landing page                                |     02     | Barra de navegación en landing page | Barra navegable con enlaces                          | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
+| US14      | Diseñar y distribuir espacios de estacionamiento                   |     03     | Diseño de espacios                  | UI para organizar zonas de parqueo                   | 6h                     | Príncipe Godoy, Johan          | Done                                               |
+| US15      | Gestionar múltiples estacionamientos desde un solo panel           |     04     | Panel múltiple parkings             | Vista centralizada para gestión de cocheras          | 12h                    | Zarate Caceres, Victor Ernesto | Done                                               |
+| US22      | Calificar estacionamientos utilizados                              |     05     | Calificación                        | Interfaz para dejar y ver reseñas de estacionamientos| 6h                     | Castilla Pachas, César Antonio | Done                                               |
+| US23      | Registro Rápido desde Landing Page                                 |     06     | Registro rápido                     | Formulario desde landing page                        | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
+| TS02      | Autenticación con JWT en Web y App                                 |     07     | Autenticación                       | Login basado en tokens para Web y App                | 10h                    | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS06      | Crear Parking Owner a través de RESTful API                        |     08     | Crear Owner API                     | POST para registrar propietario                      | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS07      | Crear Driver a través de RESTful API                               |     09     | Crear Driver API                    | POST para registrar conductor                        | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS08      | Sign In de usuario a través de RESTful API                         |     10     | Login API                           | POST para autenticación y retorno de token JWT       | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
+| TS09      | Obtener perfil de Parking Owner por userId a través de RESTful API |     11     | Perfil Owner API                    | GET para obtener datos por userId (propietario)      | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+| TS10      | Obtener perfil de Driver por userId a través de RESTful API        |     12     | Perfil Driver API                   | GET para obtener datos por userId (conductor)        | 4h                     | Castilla Pachas, César Antonio | Done                                               |
+| TS11      | Obtener todos los parkings registrados                             |     13     | Obtener parkings                    | GET general de parkings registrados                  | 4h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS12      | Crear un nuevo parking                                             |     14     | Crear parking                       | POST para agregar nuevo parking                      | 6h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS13      | Obtener todos los spots de un parking por su parkingId             |     15     | Ver spots por parkingId             | GET para listar espacios de un parking               | 4h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS14      | Agregar un spot a un parking                                       |     16     | Agregar spot                        | POST para crear nuevo espacio                        | 4h                     | Príncipe Godoy, Johan          | Done                                               |
+| TS15      | Obtener parking por parkingId                                      |     17     | Obtener parking por ID              | GET específico de un parking                         | 4h                     | Castilla Pachas, César Antonio | Done                                               |
+| TS16      | Obtener todos los parkings por ownerId                             |     18     | Parkings por ownerId                | GET para listar los parkings de un propietario       | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+| TS17      | Crear Reserva a través de RESTful API                              |     19     | Crear reserva                       | POST para registrar una reserva con validaciones     | 6h                     | Cortés Casas, Joaquin Marcelo  | Done                                               |
+| TS18      | Obtener Reservas por ParkingId                                     |     20     | Ver reservas por parking            | GET para consultar reservas de un estacionamiento    | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 En este primer Sprint se crearon las versiones iniciales de la Landing Page y Web Appilcation de SmartParking. Los avances específicos son:
@@ -4861,88 +4864,153 @@ En este primer Sprint se crearon las versiones iniciales de la Landing Page y We
   - Panel múltiple parkings 
   - Calificación 
 
-|      Repository       |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
-| :-------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
-| smartparking-frontend |           master           | e92f50dae3ab9259a127876882c78d450cae71a8 | feat: add switching languages.                                                       |                     |     12/05/2025     |
-| smartparking-frontend |           master           | e303e810256474ee22ae24e0de49490ba75a6d2d | feat: add language switcher to toolbar.                                              |                     |     12/05/2025     |
-| smartparking-frontend |           master           | 3cdf971ebf8b6736a25802a5ad92126548b87f61 | feat: add select button component.                                                   |                     |     12/05/2025     |
-| smartparking-frontend |           master           | 1d8fab8165efda1a89a01b37deeb109ef45a2042 | feat: add link to sign-up page in sign-up form.                                      |                     |     12/05/2025     |
-| smartparking-frontend |           master           | dd18e737562eb605215e382db29f7d6d6b4ad5f8 | feat(auth): add sign-up page.                                                        |                     |     12/05/2025     |
-| smartparking-frontend |           master           | a179bde294e5eb32ddaef6bafc7dfc9426b61b3c | feat(auth): add sign up page.                                                        |                     |     12/05/2025     |
-| smartparking-frontend |           master           | df0dc3675eb5e1872b51a7835829965fd3e9ecf7 | feat: add radio button and password component from primevue.                         |                     |     12/05/2025     |
-| smartparking-frontend |           master           | a0c8c189e5b69ecbfce9bb1fe92d3cf039b17dfb | feat: add general background color.                                                  |                     |     12/05/2025     |
-| smartparking-frontend |           master           | 120fb93f4ab7164794d0864d7679a9d58bd8c04c | chore: small change.                                                                 |                     |     12/05/2025     |
-| smartparking-frontend |           master           | d7d2c258896f6e5e34cf91ee3d1f0b187bc35e42 | feat(public): add reviews link in sidenav                                            |                     |     12/05/2025     |
-| smartparking-frontend | feature/parking-management | 4e57fa8646f0d58a9755c398a8af5ced35e764eb | feat(parking-management): add parking summary card.                                  |                     |     12/05/2025     |
-| smartparking-frontend | feature/parking-management | a3cda61ae355e251ee87547190677374a3987d2c | chore: update attributes in sidenav and parking spot viewer component.               |                     |     08/05/2025     |
-| smartparking-frontend |       feature/review       | fbfc609d613c6ca5f0a838c76ba211a97c9cdad7 | fix: change value to v-model propertie in pv-rating.                                 |                     |     08/05/2025     |
-| smartparking-frontend |       feature/review       | c14ff65bb51066084b4df3ff302b634f3816ee2c | feat(reviews): add review feed component.                                            |                     |     07/05/2025     |
-| smartparking-frontend |       feature/review       | d4992a654abc221d303d82c75164995ec2afc1ad | feat(reviews): add review card list component.                                       |                     |     07/05/2025     |
-| smartparking-frontend |       feature/review       | efa551f60fe2c85b4c67e4070cfb6a44ad7803fd | feat(reviews): add review card component.                                            |                     |     07/05/2025     |
-| smartparking-frontend |       feature/review       | 94a6f10e3e0dc7fc091503250a9876a22852c47d | feat(reviews): add review service.                                                   |                     |     07/05/2025     |
-| smartparking-frontend |       feature/review       | f669b985fe15d4b2f9606fd12d41a122a955ccb3 | feat(reviews): add review entity.                                                    |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | 7fde5d5f4895b6a0cd002629b3796d79e896e345 | feat(reservations): add styles to status.                                            |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | ce1af174e2acd11db8ab6af2f23f297ba2dd4a29 | feat(reservations): add global filter to reservation data table.                     |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | d7cfe11af08fcdd85c94b45c75e6243bcc1b5e15 | fix: update conflicts in sidenav styles.                                             |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | 27199eadf2fd4434845da1136b6b783ad128c2e5 | feat: add input icon and icon field components from primevue.                        |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | 90f730ab805f3d63bb2f0e574d0e559f2b0fba60 | fix: update styles in side-nav component.                                            |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | 1402cf03d2fb7f71d2535a960197e9a77d6ccc04 | feat(reservations): add reservation data table.                                      |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | cd9e56815b956335cae8d8d1ea5ce688287403c7 | feat: add current parking id to store.                                               |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | aa4cd74c0cbd203cc2759f453d1ca81c29aecd0d | chore: update spots colors.                                                          |                     |     07/05/2025     |
-| smartparking-frontend |    feature/reservations    | 93c393768aef7ae3b25a7050a4f1ce10c3e4a69c | feat: add reservations route to index router.                                        |                     |     06/05/2025     |
-| smartparking-frontend |    feature/reservations    | 68ddcbff82e104151b3dfb38301fed37e9b8cf70 | feat: add side-nav component.                                                        |                     |     06/05/2025     |
-| smartparking-frontend |    feature/reservations    | a28eb5e3121bdbc160ddbaa3beb44438b172c108 | feat: add drawer component from primevue.                                            |                     |     06/05/2025     |   
-| smartparking-frontend |    feature/reservations    | 93aa1388c6b995491413712cbf20008443fb491f | feat: add auth layout.                                                               |                     |     06/05/2025     | 
-| smartparking-frontend |    feature/reservations    | 06a4bd6eaa21549b5fb148f5186976096c40f987 | feat(reservations): add data-table and column components from primevue.              |                     |     06/05/2025     |   
-| smartparking-frontend |    feature/reservations    | 61f91c68d65996d2795b4cdaf39c2e5297274871 | feat(reservations): add reservation service.                                         |                     |     06/05/2025     |
-| smartparking-frontend |    feature/reservations    | d2e5b1faae8f2b496e112a1e2193fbc01a4c0173 | feat(reservations): add reservation entity.                                          |                     |     06/05/2025     |
-| smartparking-frontend |           master           | 59d0c2630cfd63dec8f3e86a7e67624608a86044 | chore: update smart parking logo.                                                    |                     |     06/05/2025     |
-| smartparking-frontend |           master           | ea47bea3472898a94aef562b8c20ec5f7cea4b01 | feat: update index.js                                                                |                     |     04/05/2025     |
-| smartparking-frontend |           master           | af27d34d2da0acc458ce282dadabe94d1a3d068d | feat: add parking-management and iam related components.                             |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 6bfe0e01b48364ff3592bf09236cd6f095c8620f | feat(parking-management): add parking-management layout.                             |                     |     03/05/2025     |
-| smartparking-frontend |           master           | ff107a94954548a4b5ec1823c6d18053c1b2796e | chore: configure axios-based networking base url and default header parameters.      |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 99e0f712c01718921c6aceb31c6e827322b08413 | chore: configure router instance.                                                    |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 7766d7fd2841dd0c0b73cf4744e1ec83dbf3abe8 | chore: configure app instance.                                                       |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 5c31ab15ad3bb817de0134682767a23dd3b57981 | feat: add project dependencies.                                                      |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 163de43c6432aa79162a1bd8477984386e0d08dc | feat: define general styles.                                                         |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 50ffefa32a52971a6e00d1c1eb10b667cf1c5be1 | feat: add app logo.                                                                  |                     |     03/05/2025     |
-| smartparking-frontend |           master           | 50ffefa32a52971a6e00d1c1eb10b667cf1c5be1 | feat: add new features.                                                              |                     |     17/04/2025     |
-| smartparking-frontend |           master           | 342af00380f15f8d18b535011c587d1ca0b8e8b9 | remove .env.development from repo and add to .gitignore                              |                     |     17/04/2025     |
-| smartparking-frontend |           master           | 5b9b0cefef70cbfc03bbf2a49ecf0a46a0a1612a | add parking-management bounded context, project dependencies and primevue components |                     |     16/04/2025     |
+|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+| smartparking-landingpage |             main           | fc984ff3c9d41c18d650ff3b0a1fa75efd783a15 |feat: setup main.js with router and mount App.vue                                     |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | 3442434c37aa0d6b6a3cdbe87a79b7083da2978f |feat: Configure vue-router with main routes                                           |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | 8756f59559d7074cc63e21dc8e765d0082b85fb8 |feat: Add about us view                                                               |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | de15a58d78a1668e27a151c453981fc5e461bdfa |feat: Add about product view                                                          |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | b2b0e5b5426428e62fc1b1bb6ce11f323db41bfb |feat: Add drivers view                                                                |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | ee6319c9df14ec6353548c3bf5186883c9fdfaa1 |feat: Add parking view                                                                |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | fbf059a2d23d6c572b024a3d41b1e8b8252116d8 |feat: add main view                                                                   |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | edd5286726d5ee58f8e09a310d674fba7e948beb |feat: add i18n support                                                                |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | 4ad106b1501b9bac7f93a48a0950f12f10ead590 |style: Add global shared styles                                                       |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | b11453d01e396cc5b7e3910268ab324e6930aa6c |chore: Add vite and javascript project config files                                   |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | 130ac72e9b21c60efd0ceccf190f81ec9d8832cb |chore: Add project dependencies and lock file                                         |                     |     12/05/2025     |
+| smartparking-landingpage |             main           | f062692d6df8efaf7d3f61b31b7466596e1fc735 |feat: Add main HTML template                                                          |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | e92f50dae3ab9259a127876882c78d450cae71a8 | feat: add switching languages.                                                       |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | e303e810256474ee22ae24e0de49490ba75a6d2d | feat: add language switcher to toolbar.                                              |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | 3cdf971ebf8b6736a25802a5ad92126548b87f61 | feat: add select button component.                                                   |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | 1d8fab8165efda1a89a01b37deeb109ef45a2042 | feat: add link to sign-up page in sign-up form.                                      |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | dd18e737562eb605215e382db29f7d6d6b4ad5f8 | feat(auth): add sign-up page.                                                        |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | a179bde294e5eb32ddaef6bafc7dfc9426b61b3c | feat(auth): add sign up page.                                                        |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | df0dc3675eb5e1872b51a7835829965fd3e9ecf7 | feat: add radio button and password component from primevue.                         |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | a0c8c189e5b69ecbfce9bb1fe92d3cf039b17dfb | feat: add general background color.                                                  |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | 120fb93f4ab7164794d0864d7679a9d58bd8c04c | chore: small change.                                                                 |                     |     12/05/2025     |
+|   smartparking-frontend  |            master          | d7d2c258896f6e5e34cf91ee3d1f0b187bc35e42 | feat(public): add reviews link in sidenav                                            |                     |     12/05/2025     |
+|   smartparking-frontend  | feature/parking-management | 4e57fa8646f0d58a9755c398a8af5ced35e764eb | feat(parking-management): add parking summary card.                                  |                     |     12/05/2025     |
+|   smartparking-frontend  | feature/parking-management | a3cda61ae355e251ee87547190677374a3987d2c | chore: update attributes in sidenav and parking spot viewer component.               |                     |     08/05/2025     |
+|   smartparking-frontend  |       feature/review       | fbfc609d613c6ca5f0a838c76ba211a97c9cdad7 | fix: change value to v-model propertie in pv-rating.                                 |                     |     08/05/2025     |
+|   smartparking-frontend  |       feature/review       | c14ff65bb51066084b4df3ff302b634f3816ee2c | feat(reviews): add review feed component.                                            |                     |     07/05/2025     |
+|   smartparking-frontend  |       feature/review       | d4992a654abc221d303d82c75164995ec2afc1ad | feat(reviews): add review card list component.                                       |                     |     07/05/2025     |
+|   smartparking-frontend  |       feature/review       | efa551f60fe2c85b4c67e4070cfb6a44ad7803fd | feat(reviews): add review card component.                                            |                     |     07/05/2025     |
+|   smartparking-frontend  |       feature/review       | 94a6f10e3e0dc7fc091503250a9876a22852c47d | feat(reviews): add review service.                                                   |                     |     07/05/2025     |
+|   smartparking-frontend  |       feature/review       | f669b985fe15d4b2f9606fd12d41a122a955ccb3 | feat(reviews): add review entity.                                                    |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | 7fde5d5f4895b6a0cd002629b3796d79e896e345 | feat(reservations): add styles to status.                                            |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | ce1af174e2acd11db8ab6af2f23f297ba2dd4a29 | feat(reservations): add global filter to reservation data table.                     |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | d7cfe11af08fcdd85c94b45c75e6243bcc1b5e15 | fix: update conflicts in sidenav styles.                                             |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | 27199eadf2fd4434845da1136b6b783ad128c2e5 | feat: add input icon and icon field components from primevue.                        |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | 90f730ab805f3d63bb2f0e574d0e559f2b0fba60 | fix: update styles in side-nav component.                                            |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | 1402cf03d2fb7f71d2535a960197e9a77d6ccc04 | feat(reservations): add reservation data table.                                      |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | cd9e56815b956335cae8d8d1ea5ce688287403c7 | feat: add current parking id to store.                                               |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | aa4cd74c0cbd203cc2759f453d1ca81c29aecd0d | chore: update spots colors.                                                          |                     |     07/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | 93c393768aef7ae3b25a7050a4f1ce10c3e4a69c | feat: add reservations route to index router.                                        |                     |     06/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | 68ddcbff82e104151b3dfb38301fed37e9b8cf70 | feat: add side-nav component.                                                        |                     |     06/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | a28eb5e3121bdbc160ddbaa3beb44438b172c108 | feat: add drawer component from primevue.                                            |                     |     06/05/2025     |   
+|   smartparking-frontend  |    feature/reservations    | 93aa1388c6b995491413712cbf20008443fb491f | feat: add auth layout.                                                               |                     |     06/05/2025     | 
+|   smartparking-frontend  |    feature/reservations    | 06a4bd6eaa21549b5fb148f5186976096c40f987 | feat(reservations): add data-table and column components from primevue.              |                     |     06/05/2025     |   
+|   smartparking-frontend  |    feature/reservations    | 61f91c68d65996d2795b4cdaf39c2e5297274871 | feat(reservations): add reservation service.                                         |                     |     06/05/2025     |
+|   smartparking-frontend  |    feature/reservations    | d2e5b1faae8f2b496e112a1e2193fbc01a4c0173 | feat(reservations): add reservation entity.                                          |                     |     06/05/2025     |
+|   smartparking-frontend  |           master           | 59d0c2630cfd63dec8f3e86a7e67624608a86044 | chore: update smart parking logo.                                                    |                     |     06/05/2025     |
+|   smartparking-frontend  |           master           | ea47bea3472898a94aef562b8c20ec5f7cea4b01 | feat: update index.js                                                                |                     |     04/05/2025     |
+|   smartparking-frontend  |           master           | af27d34d2da0acc458ce282dadabe94d1a3d068d | feat: add parking-management and iam related components.                             |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 6bfe0e01b48364ff3592bf09236cd6f095c8620f | feat(parking-management): add parking-management layout.                             |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | ff107a94954548a4b5ec1823c6d18053c1b2796e | chore: configure axios-based networking base url and default header parameters.      |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 99e0f712c01718921c6aceb31c6e827322b08413 | chore: configure router instance.                                                    |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 7766d7fd2841dd0c0b73cf4744e1ec83dbf3abe8 | chore: configure app instance.                                                       |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 5c31ab15ad3bb817de0134682767a23dd3b57981 | feat: add project dependencies.                                                      |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 163de43c6432aa79162a1bd8477984386e0d08dc | feat: define general styles.                                                         |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 50ffefa32a52971a6e00d1c1eb10b667cf1c5be1 | feat: add app logo.                                                                  |                     |     03/05/2025     |
+|   smartparking-frontend  |           master           | 50ffefa32a52971a6e00d1c1eb10b667cf1c5be1 | feat: add new features.                                                              |                     |     17/04/2025     |
+|   smartparking-frontend  |           master           | 342af00380f15f8d18b535011c587d1ca0b8e8b9 | remove .env.development from repo and add to .gitignore                              |                     |     17/04/2025     |
+|   smartparking-frontend  |           master           | 5b9b0cefef70cbfc03bbf2a49ecf0a46a0a1612a | add parking-management bounded context, project dependencies and primevue components |                     |     16/04/2025     |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--------- | :----- | :-------- | :------------- | :------------------ | :----------------- |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
-|            |        |           |                |                     |                    |
+Se llevaron a cabo pruebas preliminares para verificar la correcta visualización y funcionamiento de la landing page en diferentes dispositivos y navegadores.
 
 #### 6.2.1.6. Execution Evidence for Sprint Review
-<!-- TODO: 
-  - Añadir resumen que explique lo alcanzado en este Sprint
-  - Screenshots de las principales vistas implementadas
-  - Enlace a un video que ilustre y explique la visualización y navegación logrados en este Sprint
--->
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot1.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot2.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot3.png)
-![Vista implementada en Sprint 1](ChapterVI-images/Sprint1/ExecutionEvidenceScreenshot4.png)
+Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
 
-Enlace:
+- El diseño y desarrollo de la Landing Page.
+- La creación de las primeras vistas funcionales de la aplicación web, dirigidas propietarios, incluyendo la infraestructura necesaria para autenticación, gestión de perfiles, parkings y reservas.
+
+**Landing Page**
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-4.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-5.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-6.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-7.png)
+![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-8.png)
+
+**Web Application**
+- Login
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-1.png)
+
+- Register Driver
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-2.png)
+
+- Register Owner (parkingowner)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-3.png)
+
+- Creation of parking
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-4.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-5.png)
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-6.png)
+
+- Confirm Creation of parking
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-7.png)
+
+- Parking home
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-8.png)
+
+- Review Parking
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-9.png)
+
+- Reservation Data Parking
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-10.png)
+
+- Parking List
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
+En este primer Sprint nos enfocamos en crear la Landing Page y la Web Application, sin necesidad de utilizar servicios extra.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence1.png)
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence2.png)
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence3.png)
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence4.png)
+**Landing Page**
+- Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.jpg)
+
+- Subir los archivos compilados al servidor web
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
+
+- Actualizar el archivo de configuración
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
+
+**Web App**
+
+- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
+
+- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
+
+- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
+
+- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
-<!-- TODO: Explicar cómo se han desarrollado las actividades de implementación -->
-![Analiticos de Colaboracion - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Analytics.png)
-![Commits - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsights-Commits.png)
+**Landing Page**
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Commits.png)
+
+**Web Application**
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Commits.png)
 
 ---
 
