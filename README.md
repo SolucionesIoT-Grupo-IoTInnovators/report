@@ -72,8 +72,8 @@
 ---
 
 # Project Report Collaboration Insights
-**URL del repositorio en la organización GitHub**
-Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md
+
+**Enlace al repositorio del informe en GitHub:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md
 
 **Actividades de elaboración del informe**
 #### TB1:
@@ -87,6 +87,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
 ![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTB1.png)
 
 #### TP:
@@ -100,6 +101,7 @@ Enlace al repositorio del informe en GitHub: https://github.com/SolucionesIoT-Gr
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
 ![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP.png)
 
 ---
@@ -4738,6 +4740,11 @@ Descripción: El usuario, desde el panel web de administración, accede a la opc
 
 ## 5.5. Applications Prototyping
 
+Se ha elaborado un único video que consolida el prototipado de ambas interfaces (web y móvil) de SmartParking. 
+El video presenta una simulación navegable de los flujos de usuario más importantes, priorizando las funcionalidades del core business identificadas durante el análisis.
+
+
+
 ---
 
 # Capítulo VI: Product Implementation, Validation & Deployment
@@ -5274,3 +5281,4 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 | **Exposición TP1**                             | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tp1`  <br> Formato: `.mp4` <br> Duración: 24:22        | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EWDAl67_TdpAoBiAHa1OQxUB5fevLpptE56nZ_-F3GZtJQ?e=vLddmX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                |
 | **Needfinding Interviews**                     | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  <br> Formato: `.mp4` <br> Duración: 46:26 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EQ4rQ34NYHlGvEzueV9hB50B6zzVIOKni-ge9qzX-2w_0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pH6iKj                  |
 | **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation` <br> Formato: `.mp4` <br> Duración: 7:48         | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EVAMZaPh71JKoHI3qQrOxYEBJ8CRBfmhpBVSyrciYgpTtQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=m7YabQ                   |
+
