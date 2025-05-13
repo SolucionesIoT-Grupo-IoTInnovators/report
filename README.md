@@ -4294,6 +4294,38 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 ![Crear reseña](ChapterV-images/create-review-driver.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
+Mobile App Wireflow Diagrams
+
+**Reservar un espacio disponible**
+
+User Goal: Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.
+
+User Personas: Conductor
+
+Descripción: Desde el detalle del estacionamiento, el usuario presiona “Reserve now” y accede a la pantalla de reserva. Aquí puede seleccionar la fecha, hora de inicio, hora de fin y espacio específico en un mapa interno del local. Al seleccionar un espacio disponible y confirmar, pasa a la pantalla de pago. Una vez realizado el pago, se muestra una pantalla de confirmación exitosa y se registra la reserva en la sección “Reservations”.
+
+![Reservar un espacio disponible](ChapterV-images/Crear-reservacion-driver.png)
+
+**Cancelar una reserva activa**
+
+User Goal: Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.
+
+User Personas: Conductor
+
+Descripción: Desde la pestaña de “Reservations”, el usuario puede ver sus reservas activas. Al presionar el botón “Cancel”, el sistema solicita confirmación del usuario. Si acepta, la aplicación muestra un mensaje de cancelación exitosa y la reserva se mueve al listado de reservas pasadas.
+
+![Cancelar una reserva activa](ChapterV-images/Cancelar-reservacion-driver.png)
+
+**Agregar reseña a un estacionamiento**
+
+User Goal: Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.
+
+User Personas: Conductor
+
+Descripción: Desde el mapa, el usuario accede al detalle de un estacionamiento y puede seleccionar la opción “View reviews”. Desde esa pantalla, al presionar “Make a review”, se despliega un formulario emergente con un sistema de puntuación con estrellas y un campo para comentarios. Tras enviar la reseña, esta aparece listada entre las opiniones de otros usuarios.
+
+![Agregar reseña a un estacionamiento](ChapterV-images/Agregar-reseña-driver.png)
+
 
 ### 5.4.3. Applications Mock-ups
 
