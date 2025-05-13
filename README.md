@@ -94,7 +94,7 @@
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:**
 - **Castilla Pachas, César Antonio:**
-- **Cortés Casas, Joaquin Marcelo:**
+- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
 - **Tafur Gonzales, Josty Gerardo:**
