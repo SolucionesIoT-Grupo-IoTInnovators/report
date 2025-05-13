@@ -102,7 +102,7 @@
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
-![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP.png)
+![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP1.png)
 
 ---
 
