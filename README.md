@@ -4603,7 +4603,7 @@ User goal: Como desarrollador quiero obtener todas las reservas asociadas a un p
 
 Descripción: El usuario, desde el panel web de administración, accede a la opción para visualizar las reservas activas. En esta vista, se muestra una tabla con todas las reservas activas asociadas al parkingId seleccionado. Cada fila de la tabla incluye información relevante como el nombre del conductor, la placa del vehículo, la duración de la reserva y el precio total.
 
-![User Flow 2](ChapterV-images/ver-reservas-flow.png)
+![User Flow 2](ChapterV-images/Ver-reservas-flow.png)
 
 ## 5.5. Applications Prototyping
 
