@@ -4740,8 +4740,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Commits.png)
 
 **Web Application**
-![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Analytics.png)
-![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Commits.png)
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsWebApp-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsWebApp-Commits.png)
 
 ---
 
