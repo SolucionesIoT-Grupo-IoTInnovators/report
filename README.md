@@ -4717,14 +4717,34 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-8.png)
 
 **Web Application**
+- Login
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-1.png)
+
+- Register Driver
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-2.png)
+
+- Register Owner (parkingowner)
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-3.png)
+
+- Creation of parking
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-4.png)
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-5.png)
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-6.png)
+
+- Confirm Creation of parking
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-7.png)
+
+- Parking home
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-8.png)
+
+- Review Parking
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-9.png)
+
+- Reservation Data Parking
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-10.png)
+
+- Parking List
+![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
