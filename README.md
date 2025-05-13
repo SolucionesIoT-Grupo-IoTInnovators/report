@@ -4799,33 +4799,12 @@ Enlace:
 </div>
 
 # Anexos
-<table>
-	<tr>
-		<td>Sección</td>
-    <td>Características del video</td>
-  </tr>
-	<tr>
-		<td>Exposición</td>
-		<td>
-			Cantidad de videos: 2<br><br>
-			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tb1<br>
-			Formato: .mp4<br>
-			Duración: 25:54<br>
-			Enlace: https://shorturl.at/l4wAk<br><br>
-      Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-expo-tp<br>
-			Formato: .mp4<br>
-			Duración:<br>
-			Enlace: <br><br>
-		</td>
-	</tr>
-	<tr>
-		<td>Entrevistas</td>
-		<td>
-			Cantidad de videos: 1<br><br>
-			Nomenclatura: upc-pre-202510-1asi0572-2971-Iot_Innovators-needfinding<br>
-			Formato: .mp4<br>
-			Duración: <br>
-			Enlace: <br>
-		</td>
-	</tr>
-</table>
+
+A continuación se presentan los videos generados como parte del desarrollo del proyecto.
+
+| **Sección**                                    | **Características del video**                                                                                                                           | **Enlace**                      |
+|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| **Exposición TB1**                             | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb1`  <br> Formato: `.mp4` <br> Duración: 25:54             | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/ERo-O22A_dhImQOjz1_IJGcBYOLw72Usu-j62BXeEkcrhA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RZCVOE |
+| **Exposición TP1**                             | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tp1`  <br> Formato: `.mp4` <br> Duración:                   | *(Pendiente)*                   |
+| **Needfinding Interviews**                     | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  <br> Formato: `.mp4` <br> Duración: 46:26      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EQ4rQ34NYHlGvEzueV9hB50B6zzVIOKni-ge9qzX-2w_0Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pH6iKj                   |
+| **Prototypes Navigation / Product Navigation** | Cantidad de videos: 1  <br> Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-navigation-tp1` <br> Formato: `.mp4` <br> Duración: Por confirmar | *(Pendiente)*                   |
