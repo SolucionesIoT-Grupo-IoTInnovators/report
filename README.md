@@ -4399,6 +4399,24 @@ Descripción: Desde el mapa, el usuario accede al detalle de un estacionamiento 
 
 ![Agregar reseña a un estacionamiento](ChapterV-images/Agregar-reseña-driver.png)
 
+**App Web Wireflow Diagrams**
+
+**Agregar un nuevo estacionamiento**
+
+User Goal: Como desarrollador quiero registrar un nuevo parking en el sistema para que un propietario pueda ofrecer espacios de estacionamiento.
+
+Descripción: Desde la pantalla principal, el propietario selecciona “Add parking” y accede a un formulario donde ingresa la información del estacionamiento. Al completar todos los campos obligatorios y presionar “Yes, save”, el sistema valida la información y muestra un mensaje de éxito. El nuevo estacionamiento aparece en la lista de estacionamientos registrados.
+
+![Agregar un nuevo estacionamiento](ChapterV-images/crear-estacionamiento.png)
+
+**Ver reservas activas**
+
+User Goal: Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.
+
+Descripción: El usuario, desde el panel web, accede a la lista de sus estacionamientos registrados. Al hacer clic en el ícono de menú, se despliega el panel lateral. Desde allí, selecciona la opción "Reservations". Esta acción lo redirige a la pantalla de gestión de reservas, donde puede visualizar una tabla con información detallada como fecha, nombre del conductor, placa del vehículo, hora de inicio, hora de fin, precio total y estado de la reserva. También dispone de un buscador por palabra clave y un botón para refrescar los datos.
+
+![Ver reservas activas](ChapterV-images/ver-reservas.png)
+
 
 ### 5.4.3. Applications Mock-ups
 
@@ -4568,6 +4586,24 @@ User goal: Como conductor, quiero poder calificar los estacionamientos que he ut
 Descripción: El usuario selecciona un parking que haya visitado desde el mapa, luego selecciona en la opción View Reviews. Esta opción le abrirá una ventana en la que podrá visualizar los comentarios de otras personas y realizar uno propio en base a su experiencia, seleccionando la opción Make a Review, el cual le abrirá un modal en el que podrá colocar una calificiación en estrellas y un comentario.
 
 ![User Flow 7](ChapterV-images/UserFlow7.png)
+
+**Application Web User Flow Diagrams**
+
+**Creacion de estacionamiento**
+
+User goal: Como desarrollador quiero registrar un nuevo parking en el sistema para que un propietario pueda ofrecer espacios de estacionamiento.
+
+Descripción: El usuario, desde el panel web de administración, accede a la opción para crear un nuevo estacionamiento. En el primer paso del formulario, completa los datos generales como nombre, descripción, tarifa por hora e imagen del local. Luego, al seleccionar Continue, se le redirige a una vista donde define la ubicación exacta en el mapa. Posteriormente, pasa al tercer paso donde diseña visualmente el layout del estacionamiento arrastrando espacios de parqueo y pasillos. Al hacer clic en Continue, se muestra un modal de confirmación para validar el diseño. Finalmente, al seleccionar Yes, save, se guarda el diseño y se muestra la vista de gestión del estacionamiento, donde puede visualizar y monitorear los espacios disponibles, ocupados o reservados.
+
+![User Flow 1](ChapterV-images/crear-estacionamiento-flowdiagram.png)
+
+**Visualizar reservas activas**
+
+User goal: Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.
+
+Descripción: El usuario, desde el panel web de administración, accede a la opción para visualizar las reservas activas. En esta vista, se muestra una tabla con todas las reservas activas asociadas al parkingId seleccionado. Cada fila de la tabla incluye información relevante como el nombre del conductor, la placa del vehículo, la duración de la reserva y el precio total.
+
+![User Flow 2](ChapterV-images/ver-reservas-flow.png)
 
 ## 5.5. Applications Prototyping
 
