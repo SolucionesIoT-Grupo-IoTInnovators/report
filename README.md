@@ -1334,19 +1334,26 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Ojalá no me multen o remolquen:** Hay que investigar si los usuarios verifican la legalidad del lugar donde estacionan o si simplemente arriesgan por falta de tiempo o información.
 
 ## 2.4. Ubiquitous Language
-<!-- TODO: Fix Ubiquitous Language -->
 Se presenta una tabla que contiene los términos específicos del dominio del negocio:
 
-| **Término**     | **Definición** |
-|----------------------|---------------------|
-| **Parking Owner**    | Persona natural o empresa que administra uno o más estacionamientos y los publica en la plataforma para obtener ingresos. |
-| **Parking Spot**     | Unidad física individual dentro de un estacionamiento donde un vehículo puede ser ubicado. |
-| **Reservation**      | Acción realizada por un conductor para asegurar la disponibilidad de un espacio por un tiempo determinado. |
-| **Driver**           | Persona que utiliza la plataforma para buscar, reservar y utilizar espacios de estacionamiento. |
-| **Availability**     | Estado en tiempo real de un espacio de estacionamiento que indica si está libre o ocupado. |
-| **Check-in**         | Momento en el que el conductor accede físicamente al espacio reservado. |
-| **Check-out**        | Momento en el que el conductor abandona el espacio de estacionamiento reservado. |
-| **Occupancy Rate**   | Porcentaje de tiempo en que los espacios están siendo utilizados en un periodo determinado. |
+| Término            | Definición                                                                                                                                 |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| ParkingOwner       | Persona natural o empresa que administra uno o más estacionamientos y los publica en la plataforma para obtener ingresos.                  |
+| ParkingSpot        | Unidad física individual dentro de un estacionamiento donde un vehículo puede ser ubicado.                                                 |
+| Reservation        | Acción mediante la cual un conductor asegura la disponibilidad de un espacio por un periodo específico.                                   |
+| Driver             | Persona que utiliza la plataforma para buscar, reservar y utilizar espacios de estacionamiento.                                            |
+| Availability       | Estado en tiempo real de un espacio de estacionamiento que indica si está libre u ocupado.                                                 |
+| CheckIn            | Momento en el que el conductor accede físicamente al espacio reservado.                                                                    |
+| CheckOut           | Momento en el que el conductor abandona el espacio de estacionamiento reservado.                                                           |
+| OccupancyRate      | Porcentaje de tiempo en el que los espacios están siendo utilizados en un periodo determinado.                                             |
+| BookingWindow      | Periodo de tiempo permitido para hacer una reserva con anticipación o inmediatez según las reglas del estacionamiento.                    |
+| EntryBarrier       | Dispositivo físico (como una barrera automática) que controla el ingreso al estacionamiento.                                               |
+| ExitBarrier        | Dispositivo que permite la salida del vehículo, generalmente activado por pago o validación de reserva.                                   |
+| ViolationAlert     | Notificación emitida al detectar un uso no autorizado del espacio reservado o acciones sospechosas.                                       |
+| SmartSensor        | Dispositivo IoT instalado en cada espacio que detecta la presencia de un vehículo en tiempo real.                                         |
+| DynamicPricing     | Estrategia de precios variables para las reservas en función de la demanda, horario o condiciones específicas.                            |
+| PlatformFee        | Comisión cobrada por el uso de la plataforma SmartParking, deducida del ingreso del ParkingOwner.                                          |
+
 
 ---
 
