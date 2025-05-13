@@ -4945,7 +4945,7 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 
 https://trello.com/b/4jpMjzDd
 
-![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/SprintBacklog.png)
+![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/Sprint%20Backlog%201%20-%20Trello%20Board.png)
 
 **Tabla de control de estado del Sprint**
 
