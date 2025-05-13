@@ -4317,6 +4317,38 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 ## 5.3. Landing Page UI Design
 ### 5.3.1. Landing Page Wireframe
 
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Hero.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-AboutTheProduct.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Drivers-1.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Drivers-2.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Owners-1.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-Owners-2.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-PC-AboutTheTeam.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Hero.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Sidebar.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-AboutTheProuct.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Drivers-1.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Drivers-2.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Owners-1.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-Owners-2.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-AboutTheTeam-1.png)
+
+![](ChapterV-images/Landing Page Figma/Wireframe-Landing-MOBILE-AboutTheTeam-2.png)
+
 
 ### 5.3.2. Landing Page Mock-up
 
