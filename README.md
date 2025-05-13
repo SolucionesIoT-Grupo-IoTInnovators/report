@@ -4511,15 +4511,15 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 - Evitar funciones y widgets grandes: Se debe dividir funciones y widgets grandes en partes más pequeñas y reutilizables para mejorar la legibilidad y el mantenimiento del código.
 
 ### 6.1.4. Software Deployment Configuration
-**Landing Page**
-- **Proceso de Despliegue:**
+- **Landing Page**
   - 
   - 
 
-**Web Application**
-- **Proceso de Despliegue:**
-  - 
-  - 
+- **Web Application**
+  - **Clonar Repositorio:** Creamos un nuevo proyecto en [Vercel](https://vercel.com/)
+  - **Configuración:** Importamos el repositorio y vinculamos a la rama `master`
+  - **Configurar variables:** Configuramos las variables de entorno pertinentes
+  - **Despliegue Automático:** Validar el despliegue automático desde GitHub, de modo que cada cambio se refleje automáticamente. Adicionalmente, se configurara una rama `develop` para pruebas y validaciones previas al despliegue en producción.
 
 ## 6.2. Landing Page, Services & Applications Implementation
 ### 6.2.1. Sprint 1
@@ -4729,19 +4729,32 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence1.png)
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence2.png)
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence3.png)
-![Proceso de despliegue - Sprint 1](ChapterVI-images/Sprint1/SoftwareDeploymentEvidence4.png)
+**Landing Page**
+- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.jpg)
+
+- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
+
+- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
+
+- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence4.jpg)
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence5.jpg)
+
+**Web App**
+-
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.png)
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 **Landing Page**
-![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Analytics.png)
-![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsLandingPage-Commits.png)
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Commits.png)
 
 **Web Application**
-![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsWebApp-Analytics.png)
-![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/CollaborationInsightsWebApp-Commits.png)
+![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Analytics.png)
+![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Commits.png)
 
 ---
 
