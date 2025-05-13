@@ -4304,6 +4304,54 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 
 ![Crear reseña](ChapterV-images/create-review-driver.png)
 
+**Aplicacion Web - Propietarios:**
+
+**SignIn**
+
+Pantalla de inicio de sesión donde el propietario ingresa su correo y contraseña.
+
+![SignIn](ChapterV-images/Register-Parking-owner-Wireframe.png)
+
+**SignUp**
+
+Pantalla de registro donde el propietario ingresa su nombre, correo, contraseña, ciudad, pais y telefono.
+
+![SignUp](ChapterV-images/SignUpView-Wireframe.png)
+![SignUp](ChapterV-images/Driver-Wireframe.png)
+![SignUp](ChapterV-images/Owner-Wireframe.png)
+
+**Agregar estacionamiento**
+
+Pantalla donde el propietario puede agregar un nuevo espacio de estacionamiento. Debe ingresar información como ubicación, capacidad y precio.
+
+![Agregar estacionamiento](ChapterV-images/Step1-CreateParking-Wireframe.png)
+
+![Agregar estacionamiento](ChapterV-images/Step2-CreateParking-wireframe.png)
+
+![Agregar estacionamiento](ChapterV-images/Step3-CreateParking-wireframe.png)
+
+![Agregar estacionamiento](ChapterV-images/Step4-CreateParking-wireframe.png)
+
+![Agregar estacionamiento](ChapterV-images/Step5-CreateParking-wireframe.png)
+
+**Lista de estacionamientos**
+
+Pantalla donde el propietario puede ver todos sus estacionamientos registrados.
+
+![Lista de estacionamientos](ChapterV-images/Home-ParkingOwner-wireframe.png)
+
+**Reservas activas**
+
+Pantalla donde el propietario puede ver todas las reservas activas en sus estacionamientos.
+
+![Reservas activas](ChapterV-images/Home-ParkingOwner-Reservation-wireframe.png)
+
+**Reseñas**
+
+Pantalla donde el propietario puede ver las reseñas de los usuarios sobre su estacionamiento.
+
+![Reseñas](ChapterV-images/Home-ParkingOwner-Reviews-wireframe.png)
+
 ### 5.4.2. Applications Wireflow Diagrams
 
 Mobile App Wireflow Diagrams
@@ -4384,6 +4432,7 @@ Pantalla donde el usuario puede pagar su reserva de estacionamiento. Llena los d
 Pantalla donde el usuario puede ver sus reservas activas. Puede cancelar o ver los detalles de cada reserva.
 
 ![Mis reservas](ChapterV-images/Reservation-view-mock.png)
+
 ![Mis reservas](ChapterV-images/Reservation-cancel-mock.png)
 
 **Detalle de reserva**
@@ -4397,6 +4446,7 @@ Pantalla donde el usuario puede ver los detalles de su reserva. Incluye informac
 Pantalla donde el usuario puede ver y editar su perfil. Puede cambiar su contraseña y ver su información personal.
 
 ![Perfil](ChapterV-images/My-account-mock.png)
+
 ![Editar perfil](ChapterV-images/change-password-mock.png)
 
 **Suscripciones**
@@ -4410,8 +4460,56 @@ Pantalla donde el usuario puede ver sus suscripciones activas. Puede cancelar o 
 Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos. Puede calificar y dejar comentarios.
 
 ![Reseñas](ChapterV-images/Reviews-mock.png)
+
 ![Crear reseña](ChapterV-images/Make-review-mock.png)
 
+**App Web - Propietario**
+
+**Sign In**
+
+Pantalla de inicio de sesión donde el propietario ingresa su correo y contraseña.
+
+![SignIn](ChapterV-images/SignIn.png)
+
+**Sign Up**
+
+Pantalla de registro donde el propietario ingresa su nombre, correo, contraseña, ciudad, pais y telefono.
+
+![SignUp](ChapterV-images/SignUpView.png)
+![SignUp](ChapterV-images/Driver.png)
+![SignUp](ChapterV-images/Owner.png)
+
+**Agregar estacionamiento**
+
+Pantalla principal donde el propietario de puede agregar su estacionamiento, como el nombre, el lugar y los espacios disponibles.
+
+![Home](ChapterV-images/CreateParking.png)
+
+![Home](ChapterV-images/Step2-CreateParking.png)
+
+![Home](ChapterV-images/Step3-CreateParking.png)
+
+![Home](ChapterV-images/Step4-CreateParking.png)
+
+![Home](ChapterV-images/Step5-CreateParking.png)
+
+**Lista de estacionamientos**
+
+Pantalla principal donde el propietario puede ver sus estacionamientos.
+
+![Home](ChapterV-images/Home-ParkingOwner.png)
+
+**Reservaciones**
+
+Pantalla donde el propietario puede ver las reservas activas para un espacio de su estacionamiento, donde puede ver informacion como nombre del conductor, placa del vehiculo, duracion y precio.
+
+![Reservas](ChapterV-images/Home-ParkingOwner-Reservation.png)
+
+**Reseñas**
+
+Pantalla donde el propietario puede ver las reseñas de su estacionamiento.
+
+![Reseñas](ChapterV-images/Home-ParkingOwner-Reviews.png)
 
 
 ### 5.4.4. Applications User Flow Diagrams
