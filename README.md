@@ -5033,7 +5033,8 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 - El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
 - El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
 - La lógica de negocio de Subscription, Reservation y Parking Management está correctamente aislada y responde a escenarios reales y frecuentes de usuarios y operadores.
-- El enfoque Event-Driven facilita la comunicación desacoplada y asincrónica entre módulos, mejorando la resiliencia del sistema.
+- Las historias de usuario, acompañadas de criterios de aceptación claros y trazables, permitieron un desarrollo centrado en las necesidades del usuario. Estas historias guiaron el diseño UI/UX, visible en la landing page funcional y navegable en entorno web.
+- La implementación de un prototipo de landing page permitió validar visualmente la propuesta de valor, arquitectura de información y experiencia de usuario. Su diseño responsive, documentado a través de Figma, demuestra la aplicabilidad del sistema en contextos reales.
 - El uso de técnicas como Domain-Driven Design, Context Mapping y C4 Model permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
 
 ## 💡 Recomendaciones
