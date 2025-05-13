@@ -4743,7 +4743,7 @@ Descripción: El usuario, desde el panel web de administración, accede a la opc
 Se ha elaborado un único video que consolida el prototipado de ambas interfaces (web y móvil) de SmartParking. 
 El video presenta una simulación navegable de los flujos de usuario más importantes, priorizando las funcionalidades del core business identificadas durante el análisis.
 
-
+![A fragment of application prototyping video](ChapterV-images/prototyping.png)
 
 ---
 
