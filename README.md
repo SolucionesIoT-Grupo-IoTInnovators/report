@@ -4759,6 +4759,7 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
+En este primer Sprint nos enfocamos en crear la Landing Page y la Web Application, sin necesidad de utilizar servicios extra.
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 **Landing Page**
