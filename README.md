@@ -5028,7 +5028,7 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 ---
 
 # Conclusiones y recomendaciones
-## ✅ Conclusiones
+## Conclusiones
 
 - El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
 - El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
@@ -5037,7 +5037,7 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 - La implementación de un prototipo de landing page permitió validar visualmente la propuesta de valor, arquitectura de información y experiencia de usuario. Su diseño responsive, documentado a través de Figma, demuestra la aplicabilidad del sistema en contextos reales.
 - El uso de técnicas como Domain-Driven Design, Context Mapping y C4 Model permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
 
-## 💡 Recomendaciones
+## Recomendaciones
 - Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
 
 # Bibliografia
