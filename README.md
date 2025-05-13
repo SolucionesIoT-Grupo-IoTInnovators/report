@@ -1131,7 +1131,7 @@ Marcelo mostro un gran interés en usar la solución e SmartParking, donde uno d
 <div align="justify">
   <ul>
     <li>Segmento 1:<br>
-    Perfil general del segmento
+    Perfil general del segmento<br>
 Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
 
 ###  Características objetivas 
@@ -1158,7 +1158,7 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 
 </li>
     <li>Segmento 2:<br>
-    Perfil general del segmento
+    Perfil general del segmento<br>
 Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
 
 ### Características objetivas
