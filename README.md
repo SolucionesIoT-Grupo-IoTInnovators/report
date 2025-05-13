@@ -296,11 +296,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
         TP:<br>
+        En el grupo pude aportar en la corrección de errores para la elaboración de los diagramas C4, así como también colaboré en la asignación de tareas.
         <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
-        TB1:<br> En grupo pudimos repartirnos correctamente las partss del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br><br>
+        TB1:<br> En grupo pudimos repartirnos correctamente las partes del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br><br>
         TP:<br>
+        En esta entrega me involucré en las coordinaciones grupales para asegurar el cumplimiento de los entregables. Participé activamente en la validación del diseño de los wireflows y propuse mejoras basadas en los user stories. También ayudé a consolidar los insumos desarrollados por el grupo para integrar el documento final, promoviendo el orden y la claridad del contenido.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -353,11 +355,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
         TP:<br>
+        Para esta entrega parcial se creo un figma colaborativo para el desarrollo de los mockups y wireframe para la landing page, web app, mobile app. Asimismo a traves de canal de whatsapp nos ayudamos unos a otros para mejorar la elaboracion del trabajo.
         <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
         TP:<br>
+        Aporté a la planificación del trabajo colaborativo definiendo fechas para revisar avances internos antes de cada entrega. Apoyé la integración de los diagramas en Figma y el orden de los flujos en base a los objetivos de cada user persona. Además, brindé ayuda a mis compañeros cuando tenían dificultades técnicas con Figma o estructuración del documento, promoviendo así un entorno de ayuda mutua.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -4301,6 +4305,7 @@ Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 ![Crear reseña](ChapterV-images/create-review-driver.png)
 
 ### 5.4.2. Applications Wireflow Diagrams
+
 Mobile App Wireflow Diagrams
 
 **Reservar un espacio disponible**
@@ -4335,6 +4340,79 @@ Descripción: Desde el mapa, el usuario accede al detalle de un estacionamiento 
 
 
 ### 5.4.3. Applications Mock-ups
+
+Para la aplicación de SmartParking, se han diseñado pantallas que reflejan la experiencia del usuario al interactuar con la plataforma. A continuación, se presentan los mock-ups de las principales pantallas de la aplicación.
+
+**App Mobile - Conductor**
+
+**Sign In**
+
+Pantalla de inicio de sesión donde el usuario ingresa su correo y contraseña. Si no tiene cuenta, puede registrarse.
+
+![SignIn](ChapterV-images/Sign-in-mock.png)
+
+**Sign Up**
+
+Pantalla de registro donde el usuario ingresa su nombre, correo, contraseña y acepta los términos de uso.
+
+![SignUp](ChapterV-images/Sign-up-mock.png)
+
+**Home**
+
+Pantalla principal donde el usuario puede ver un mapa con estacionamientos cercanos. Puede buscar por dirección o ver los estacionamientos disponibles.
+
+![Home](ChapterV-images/Home-mock.png)
+
+![Home2](ChapterV-images/Estacionamiento-details.png)
+
+**Crear reserva**
+
+Pantalla donde el usuario puede crear una reserva de estacionamiento. Selecciona la fecha, hora de inicio, hora de fin.
+
+![Crear reserva](ChapterV-images/Reservation-mock.png)
+
+**Pagar reserva**
+
+Pantalla donde el usuario puede pagar su reserva de estacionamiento. Llena los detalles de pago y confirma la transacción.
+
+![Pagar reserva](ChapterV-images/Payment-mock.png)
+
+![Pagar reserva](ChapterV-images/successfull-reservation-mock.png)
+
+**Mis reservas**
+
+Pantalla donde el usuario puede ver sus reservas activas. Puede cancelar o ver los detalles de cada reserva.
+
+![Mis reservas](ChapterV-images/Reservation-view-mock.png)
+![Mis reservas](ChapterV-images/Reservation-cancel-mock.png)
+
+**Detalle de reserva**
+
+Pantalla donde el usuario puede ver los detalles de su reserva. Incluye información sobre el estacionamiento, fecha, hora y ubicación.
+
+![Detalle de reserva](ChapterV-images/Reservations-detail-mock.png)
+
+**Perfil**
+
+Pantalla donde el usuario puede ver y editar su perfil. Puede cambiar su contraseña y ver su información personal.
+
+![Perfil](ChapterV-images/My-account-mock.png)
+![Editar perfil](ChapterV-images/change-password-mock.png)
+
+**Suscripciones**
+
+Pantalla donde el usuario puede ver sus suscripciones activas. Puede cancelar o renovar su suscripción.
+
+![Suscripciones](ChapterV-images/Subscription-mock.png)
+
+**Reseñas**
+
+Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos. Puede calificar y dejar comentarios.
+
+![Reseñas](ChapterV-images/Reviews-mock.png)
+![Crear reseña](ChapterV-images/Make-review-mock.png)
+
+
 
 ### 5.4.4. Applications User Flow Diagrams
 ##### Mobile App User Flow Diagrams
