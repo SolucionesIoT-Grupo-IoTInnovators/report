@@ -957,198 +957,97 @@ Medio de aplicación
 
 
 ### 2.2.2. Registro de entrevistas
-
-  
-
-#### **Segmento 1**
-
-  
-
-----------
-
-  
-
-#### Entrevista 1
-
-  
+##### **Segmento 1**
+###### Entrevista 1
 
 **Nombre:** Jhon Gutierrez Lopez
-
 **Edad:** 42 años
-
 **Distrito:** Los Olivos
 
-  
-
 > En esta entrevista, el dueño de dos locales de parking Jhon Gutierrez menciona que lleva el control de los espacios de sus parkings de manera manual, por medio de personas encargadas de esta labor. Asimismo, menciona que en las horas pico, suele tener ciertos problemas, ya que algunos autos se pueden ir sin antes pagar por el servicio brindado. Actualmente, Jhon maneja la gestión del almacenamiento de manera tradicional, realizando apuntes en cuadernos y manejando una "caja chica", pero menciona que le gustaría implementar tecnología que ha podido observar en otros estacionamientos de centros comerciales. Relata que debido a la manera en la que maneja sus ingresos, este sufrió una estafa por modalidad de "Yape falso". Por otra parte, menciona que le interesaría una aplicación que le ayude con la trazabilidad de su negocio y la toma de decisiones, tanto a nivel económico como de gestión. Menciona que algunas funcionalidades necesarias en la aplicación sería la implementación de reportes y que la solución ofrecida le parece interesante.
-
-  
 
 ![Entrevista 1](./ChapterII-images/Segmento1-Interview1.png)
 
 **Tiempo en el video:** 00:07
 
-  
-
 ----------
 
-  
-
-#### Entrevista 2
-
-  
+###### Entrevista 2
 
 **Nombre:** Lizet Antonia Pachas Torres
-
 **Edad:** 42 años
-
 **Distrito:** Surco
 
-  
-
 > Lizet Antonia, propietaria de una cochera privada en Surco, Lima, gestiona 36 espacios, atendiendo a clientes por hora y residentes. Administra su negocio manualmente, con registros escritos. Su mayor dificultad es el control del flujo de vehículos e ingresos por errores humanos. Ha considerado soluciones tecnológicas, pero no fueron adecuadas o fueron costosas. Le interesaría SmartParking si incluye detección automática de espacios libres, visualización en tiempo real, control financiero diario y reservas. Considera imprescindibles: ver espacios disponibles, registrar ingresos, recibir alertas de ocupación alta y permitir reservas a clientes frecuentes desde celular o laptop.
-
-  
 
 ![Entrevista 2](./ChapterII-images/Segmento1-Entrevista2.png)
 
 **Tiempo en el video:** 16:28
 
-  
-
 ----------
 
-  
-
-#### Entrevista 3
-
-  
+###### Entrevista 3
 
 **Nombre:** Armando Arturo Navarrete Caballero
-
 **Edad:** 59 años
-
 **Distrito:** San Isidro
 
-  
-
 > Armando administra tres cocheras privadas en entornos de oficina sin aplicar tecnología. Usa numeración de espacios sin conflictos ni alta rotación. No registra ingresos u ocupación diaria. Considera que la tecnología no es necesaria salvo para negocios de alta rotación, aunque ve útil contar con sensores para seguridad y monitoreo de ocupación. Cree que SmartParking sería útil si se enfoca en visualización de ocupación y control del propietario más que en reservas.
-
-  
 
 ![Entrevista 3](./ChapterII-images/Segmento1-Entrevista3.png)
 
 **Tiempo en el video:** 21:38
 
-  
-
 ----------
 
-  
-
-#### **Segmento 2**
-
-  
-
-----------
-
-  
-
-#### Entrevista 1
-
-  
+##### **Segmento 2**
+###### Entrevista 1
 
 **Nombre:** Mauricio Oliveira Paucar
-
 **Edad:** 24 años
-
 **Distrito:** Surco
-
-  
 
 > Mauricio tiene más de 3 años conduciendo. Usa Windows y Android, prefiere Google Chrome. Conduce 3-4 veces por semana. Tiene dificultades para estacionar en zonas nuevas y el centro de Lima por precios altos. Busca centros comerciales con estacionamiento. Tarda en promedio 10 minutos en encontrar espacio. No usa apps de estacionamiento, solo Google Maps. Considera útil una app que muestre espacios en tiempo real y permita reservas. No pagaría suscripción mensual, pero sí por uso puntual.
 
-  
-
 **Desea funcionalidades como:**
-
-  
-
 - Buscar estacionamientos cercanos
-
 - Disponibilidad en tiempo real
-
 - Precios actualizados
-
 - Respuesta rápida de la app
 
-  
-
 **Características:**
-
-  
-
 - Personalidad: Previsor y organizado
-
 - Influencias: Falta de info actualizada y precios altos
-
 - Canales: Google Maps, navegadores
-
 - Dispositivos: Windows y Android
-
-  
 
 ![Entrevista Mauricio](https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterII-images/Segmento2-Interview1.png)
 
 **Tiempo en el video:** 27:50
 
-  
-
 ----------
 
-  
-
-#### Entrevista 2
-
-  
+###### Entrevista 2
 
 **Nombre:** Rocío María Casas Lucich
-
 **Edad:** 49 años
-
 **Distrito:** San Isidro
 
-  
-
 > Conduce de lunes a viernes en zonas como San Isidro y Miraflores, donde es difícil estacionar entre las 9 a.m. y 6 p.m. Ha optado por usar taxi por falta de cocheras. Su molestia es dar vueltas sin éxito o usar cocheras lejanas. Le interesa una app tipo “Waze de cocheras” que indique disponibilidad en tiempo real. Pagará si el precio es razonable y la función de reserva está incluida, incluso con costo adicional.
-
-  
 
 ![Entrevista Rocío](./ChapterII-images/Segmento2-Entrevista2.png)
 
 **Tiempo en el video:** 34:51
 
-  
-
 ----------
 
-  
-
-#### Entrevista 3
-
-  
+###### Entrevista 3
 
 **Nombre:** Marcelo Scerpella
-
 **Edad:** 30 años
-
 **Distrito:** San Isidro
 
-  
-
 > Marcelo se dedica a ventas y maneja de lunes a sábado. Su dificultad es encontrar estacionamientos que no estén escondidos; tarda 15-30 minutos en hallar uno. Le interesa SmartParking si puede ver un mapa de estacionamientos cercanos y reservar. Considera que esto le permitiría ahorrar tiempo y entregar más pedidos por día.
-
-  
 
 ![Entrevista Marcelo](./ChapterII-images/Segmento2-Entrevista3.jpg)
 
