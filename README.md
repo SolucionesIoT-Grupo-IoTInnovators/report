@@ -1,4 +1,4 @@
-# Informe de Trabajo Final - TP
+# Informe de Trabajo Final - TB2
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
@@ -6,7 +6,7 @@
     <strong>Ciclo: 07</strong><br><br>
     <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
     <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
-    <strong>INFORME DE TRABAJO FINAL - TP </strong> 
+    <strong>INFORME DE TRABAJO FINAL - TB2 </strong> 
 </p>
 
 <p align="center">
@@ -104,6 +104,19 @@
 
 ![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP1.png)
 
+#### TB2:
+**Descripción de las actividades realizadas:**
+- **Arroyo Ormeño, André Alonso:**
+- **Castilla Pachas, César Antonio:**
+- **Cortés Casas, Joaquin Marcelo:**
+- **Diaz Silva, Fernando Josué:**
+- **Godoy, Johan Príncipe:**
+- **Tafur Gonzales, Josty Gerardo:**
+- **Zarate Caceres, Victor Ernesto:**
+
+**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
+![Captura de analíticos de colaboración de GitHub - TB2](insights/CollaborationTB2.png)
 ---
 
 # Contenido
@@ -273,6 +286,21 @@
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-1)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
@@ -313,11 +341,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         En el grupo pude aportar en la corrección de errores para la elaboración de los diagramas C4, así como también colaboré en la asignación de tareas.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br> En grupo pudimos repartirnos correctamente las partes del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br><br>
         TP:<br>
         En esta entrega me involucré en las coordinaciones grupales para asegurar el cumplimiento de los entregables. Participé activamente en la validación del diseño de los wireflows y propuse mejoras basadas en los user stories. También ayudé a consolidar los insumos desarrollados por el grupo para integrar el documento final, promoviendo el orden y la claridad del contenido.
+        <br><br>
+        TB2:<br>
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -326,12 +358,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Impulsé el liderazgo colaborativo coordinando instancias de validación y asegurándome de que todas las voces fueran escuchadas. Mi enfoque estuvo centrado en fortalecer el trabajo colectivo y mantener la cohesión del grupo.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Nuestro equipo logró ejercer un liderazgo compartido mediante la asignación equitativa de responsabilidades y la promoción activa del diálogo entre nosotros. Se evidenció una coordinación efectiva durante las reuniones, así como la iniciativa de varios integrantes para guiar y orientar al grupo, lo cual permitió un trabajo organizado, colaborativo y enfocado en resultados comunes.<br><br>
         TP:<br>
         Mantuve una actitud proactiva en las coordinaciones grupales, promoviendo el diálogo y la toma de decisiones compartidas. Apoyé a mis compañeros cuando surgían dudas y propicié un ambiente donde todos pudieran aportar al desarrollo conjunto.
+        <br><br>
+        TB2:<br>
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
@@ -340,6 +376,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Ayudé a mantener un liderazgo compartido a través del apoyo constante a mis compañeros y la disposición para colaborar. Estuve presente en las decisiones importantes y promoví el equilibrio en la carga de trabajo grupal.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
@@ -347,12 +385,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Aporté al liderazgo grupal incentivando la responsabilidad de cada miembro, facilitando la organización y promoviendo la coordinación entre nosotros. Siempre estuve dispuesto a escuchar y guiar en caso de dificultades.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
         Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.<br><br>
         TP:<br>
-        Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.
+        Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.<br><br>
+        TB2:<br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -361,6 +402,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Logramos mantener un liderazgo compartido en el grupo, en el que todos los integrantes participaron activamente en la toma de decisiones, la organización de actividades y el apoyo entre pares. Esta dinámica fortaleció nuestras capacidades para liderar en conjunto y nos permitió avanzar de forma cohesionada hacia los objetivos del entregable.
         <br><br>
+        TB2:<br>
       </td>
     </tr>
     <!--Segundo Criterio-->
@@ -377,11 +419,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Para esta entrega parcial se creo un figma colaborativo para el desarrollo de los mockups y wireframe para la landing page, web app, mobile app. Asimismo a traves de canal de whatsapp nos ayudamos unos a otros para mejorar la elaboracion del trabajo.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
         TP:<br>
         Aporté a la planificación del trabajo colaborativo definiendo fechas para revisar avances internos antes de cada entrega. Apoyé la integración de los diagramas en Figma y el orden de los flujos en base a los objetivos de cada user persona. Además, brindé ayuda a mis compañeros cuando tenían dificultades técnicas con Figma o estructuración del documento, promoviendo así un entorno de ayuda mutua.
+        <br><br>
+        TB2:<br>
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -390,12 +436,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Favorecí un entorno colaborativo al coordinar el cumplimiento de metas grupales y fomentar la planificación conjunta de tareas. Me aseguré de que todos los integrantes pudieran involucrarse activamente en el trabajo.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Se logró establecer un entorno de trabajo inclusivo y respetuoso, con metas claras y planificación consensuada. A través del uso de herramientas colaborativas como GitHub y canales de comunicación constantes, el grupo demostró capacidad de organización, responsabilidad compartida y cumplimiento efectivo de los objetivos planteados en la entrega.<br><br>
         TP:<br>
         Establecí un ambiente de trabajo ordenado y respetuoso, impulsando la colaboración continua y el cumplimiento de las tareas acordadas. Promoví el trabajo en equipo de forma equitativa y comprometida.
+        <br><br>
+        TB2:<br>
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
@@ -404,6 +454,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Aporté a un entorno de colaboración constante, facilitando la comunicación y apoyando a mis compañeros en todo momento. Fomenté el respeto mutuo y la planificación grupal para cumplir nuestras metas.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
@@ -411,12 +463,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Apoyé en mantener un entorno de trabajo positivo, en el que la inclusión y el cumplimiento de objetivos fueron prioritarios. Promoví la participación activa y equitativa de todos.
         <br><br>
+        TB2:<br>
+        <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
         TB1:<br>
         Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br>
         TP:<br>
-        Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.
+        Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.<br><br>
+        TB2:<br>
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -426,6 +481,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Logramos mantener un entorno colaborativo e inclusivo, donde todos los integrantes participaron activamente en la planificación y cumplimiento de las metas establecidas. Se promovió el respeto, la escucha activa y la equidad en la participación, permitiendo un desarrollo armónico y efectivo del trabajo en equipo.
         <br><br>
+        TB2:<br><br>
       </td>
     </tr>
   </table>
@@ -1056,11 +1112,11 @@ Medio de aplicación
 ### 2.2.3. Análisis de entrevistas
 <div align="justify">
   <ul>
-    <li>Segmento 1:<br>
-    Perfil general del segmento<br>
-Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
+  <li>Segmento 1:</li>
+  Perfil general del segmento<br>
+  Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
 
-###  Características objetivas 
+####  Características objetivas 
 
 | Característica                                                   | Frecuencia estimada | Fuente de entrevistas                     |
 |------------------------------------------------------------------|----------------------|--------------------------------------------|
@@ -1072,7 +1128,7 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 | Muestra interés por adoptar tecnología si es accesible y útil    | 66.7%                | Jhon, Lizet                                |
 | Opera en zonas con horarios pico o alta rotación                 | 66.7%                | Jhon, Lizet                                |
 
-###  Características subjetivas comunes
+####  Características subjetivas comunes
 
 | Característica percibida                         | Evidencia                                                   |
 |--------------------------------------------------|-------------------------------------------------------------|
@@ -1081,13 +1137,11 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 | Aceptación tecnológica si hay beneficios claros  | Jhon y Lizet muestran apertura si se adapta a su realidad   |
 | Priorizan funciones de monitoreo sobre reservas  | Armando prefiere control y seguridad sobre funciones de reserva |
 
+  <li>Segmento 2:</li>
+  Perfil general del segmento<br>
+  Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
 
-</li>
-    <li>Segmento 2:<br>
-    Perfil general del segmento<br>
-Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
-
-### Características objetivas
+#### Características objetivas
 
 | Característica                                                    | Frecuencia estimada | Evidencia en entrevistas                      |
 |-------------------------------------------------------------------|----------------------|-----------------------------------------------|
@@ -1100,7 +1154,7 @@ Este segmento está conformado por personas que conducen regularmente por la ciu
 | Prefiere modalidad de pago por uso y no suscripción               | 66.7%                | Mauricio, Rocío                               |
 | Ha dejado de usar el auto por problemas de estacionamiento        | 33.3%                | Rocío                                         |
 
-###  Características subjetivas comunes
+####  Características subjetivas comunes
 
 | Característica percibida                     | Evidencia                                                  |
 |----------------------------------------------|------------------------------------------------------------|
@@ -1109,22 +1163,18 @@ Este segmento está conformado por personas que conducen regularmente por la ciu
 | Buscan control y seguridad al estacionar     | Rocío menciona que necesita reservar para evitar vueltas   |
 | Abiertos a tecnología si es útil             | Todos muestran disposición clara a probar una app          |
 
-</li>
-    <li>Conclusiones: <br>
-    El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking. 
+  <li>Conclusiones:</li>
+  El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking.<br>
+  Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.<br>
+  Por otro lado, los conductores expresan frustración constante por la dificultad de encontrar estacionamiento disponible, especialmente en zonas concurridas. Son usuarios con una alta disposición tecnológica y valoran sobre todo la eficiencia, la anticipación y la posibilidad de reservar espacios desde el móvil. Prefieren soluciones ágiles con pago por uso, sin compromisos recurrentes.
 
-Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.
+  Ambos segmentos coinciden en valorar funcionalidades como:
+  - Visualización clara de disponibilidad en tiempo real.
+  - Información actualizada sobre ubicación y precios.
+  - Reservas anticipadas que brinden seguridad y ahorro de tiempo.
+  - Reportes o trazabilidad, en el caso de los propietarios.
 
-Por otro lado, los conductores expresan frustración constante por la dificultad de encontrar estacionamiento disponible, especialmente en zonas concurridas. Son usuarios con una alta disposición tecnológica y valoran sobre todo la eficiencia, la anticipación y la posibilidad de reservar espacios desde el móvil. Prefieren soluciones ágiles con pago por uso, sin compromisos recurrentes.
-
-Ambos segmentos coinciden en valorar funcionalidades como:
-- Visualización clara de disponibilidad en tiempo real.
-- Información actualizada sobre ubicación y precios.
-- Reservas anticipadas que brinden seguridad y ahorro de tiempo.
-- Reportes o trazabilidad, en el caso de los propietarios.
-
-Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
-</li>
+  Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
   </ul>
 </div>
 
@@ -5156,6 +5206,348 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 
 ---
 
+
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| **Sprint Planning Background** |
+| **Date** | 00/00/2025 |
+| **Time** | 00:00 horas (GMT-5) |
+| **Location** |  |
+| **Prepared By** | IoT Innovators |
+| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
+| **Sprint 1 Review Summary** |  |
+| **Sprint 1 Retrospective Summary** | |
+
+**Sprint 2 Goal**
+
+> **Our focus is**
+> **We believe it delivers**  
+> **This will be confirmed when** 
+
+Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+
+**Sprint 2 Velocity**
+
+** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+
+**Sum of Story Points**
+
+** Story Points en total**, agrupando las siguientes historias de usuario:
+
+| ID | Historia de Usuario |
+|----|---------------------|
+|    |                     |
+|    |                     |
+|    |                     |
+|    |                     |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
+
+En esta iteración, se abordaron los siguientes aspectos clave:
+
+- **Aspect Name 1:**  
+- **Aspect Name 2:**  
+- **Aspect Name 3:**
+- **Aspect Name 4:** 
+- **Aspect Name 5:**
+
+|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
+|-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Arroyo Ormeño, André Alonso   | anonimat0        |               |               |               |               |               |
+| Castilla Pachas, César Antonio| CesarrAnn        |               |               |               |               |               |
+| Cortés Casas, Joaquin Marcelo | U202114545       |               |               |               |               |               |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |               |               |               |               |               |
+| Godoy, Johan Príncipe         | JP19-03          |               |               |               |               |               |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |               |
+| Zarate Caceres, Victor        | ern23zc          |               |               |               |               |               |
+
+#### 6.2.2.3. Sprint Backlog 2
+Durante este sprint, se trabajó en:
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
+
+https://trello.com/b/4jpMjzDd
+
+![Captura de pantalla de Sprint 2 en Trello](ChapterVI-images/Sprint2/Sprint%20Backlog%202%20-%20Trello%20Board.png)
+
+**Tabla de control de estado del Sprint**
+
+|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
+|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
+|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
+| **Id**    | **Title**                                                          | **Id**     | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
+| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
+| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
+| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
+| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+Los avances específicos son:
+- **Landing Page:**       
+
+- **Web Application:**
+
+- **Mobile Application:**
+
+- **Web Services:**
+
+- **Edge Application:**
+
+|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+Se trabajó en :
+
+**Landing Page:**
+![Vista implementada en Sprint 2 - Landing Page](ChapterVI-images/Sprint2/Landing/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Landing Page](ChapterVI-images/Sprint2/Landing/ExecutionEvidenceScreenshot-2.png)  
+
+**Web Application:**
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-2.png)
+
+**Mobile Application:**
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-2.png)
+
+**Web Services:**
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-2.png)
+
+**Edge Application:**
+![Vista implementada en Sprint 2 - Edge App](ChapterVI-images/Sprint2/EdgeApp/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Edge App](ChapterVI-images/Sprint2/EdgeApp/ExecutionEvidenceScreenshot-2.png)
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+<!--TO DO:
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. La sección inicia con una introducción en la que se resume los logros alcanzados en relación con Documentación de Web Services para este Sprint. Debe elaborarse una tabla en la que se incluya, para cada Endpoint, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada (o URL local en Sprints previos al despliegue de Web Services). Indicar las acciones soportadas incluyendo para cada acción el verbo http (get, post, put, delete, patch), sintaxis de llamada, especificación de posibles parámetros, así como ejemplo y explicación del response.
+Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacción, utilizando datos de muestra, con la documentación elaborada. Debe incluirse el URL del repositorio de Web Services, junto con los id de los commits relacionados con Documentación para este Sprint. 
+-->
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+**Landing Page**
+
+- Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.jpg)
+
+- Subir los archivos compilados al servidor web
+
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
+
+- Actualizar el archivo de configuración
+
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
+
+**Web App**
+
+- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
+
+- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
+
+- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
+
+- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
+
+**Mobile Application:**
+![Proceso de despliegue en Sprint 1 - Mobile App](ChapterVI-images/Sprint2/MobileApp/SoftwareDeploymentEvidence1.jpg)
+![Proceso de despliegue en Sprint 1 - Mobile App](ChapterVI-images/Sprint2/MobileApp/SoftwareDeploymentEvidence2.jpg)
+![Proceso de despliegue en Sprint 1 - Mobile App](ChapterVI-images/Sprint2/MobileApp/SoftwareDeploymentEvidence3.jpg)
+![Proceso de despliegue en Sprint 1 - Mobile App](ChapterVI-images/Sprint2/MobileApp/SoftwareDeploymentEvidence4.jpg)
+
+**Web Services:**
+![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence1.jpg)
+![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence2.jpg)
+![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence3.jpg)
+![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence4.jpg)
+
+**Edge Application:**
+![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence1.jpg)
+![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence2.jpg)
+![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence3.jpg)
+![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence4.jpg)
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+**Landing Page**
+![Analiticos de Colaboracion: Landing Page - Sprint 2](ChapterVI-images/Sprint2/Landing/CollaborationInsights-Analytics.png)
+![Commits: Landing Page - Sprint 2](ChapterVI-images/Sprint2/Landing/CollaborationInsights-Commits.png)
+
+**Web Application**
+![Analiticos de Colaboracion: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Analytics.png)
+![Commits: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Commits.png)
+
+**Mobile Application:**
+![Analiticos de Colaboracion: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Analytics.png)
+![Commits: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Commits.png)
+
+**Web Services:**
+![Analiticos de Colaboracion: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Analytics.png)
+![Commits: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Commits.png)
+
+**Edge Application:**
+![Analiticos de Colaboracion: Edge App - Sprint 2](ChapterVI-images/Sprint2/EdgeApp/CollaborationInsights-Analytics.png)
+![Commits: Edge App - Sprint 2](ChapterVI-images/Sprint2/EdgeApp/CollaborationInsights-Commits.png)
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+**Objetivo:**
+
+**Perfil del entrevistado:**
+Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
+
+**A. Conductor urbano**
+
+- Dentro de un rango de edad entre los 20 y 60 años.
+- Uso frecuente del automóvil en zonas urbanas.
+- Ha experimentado dificultad para encontrar estacionamiento.
+- Tiene acceso y usa smartphones habitualmente.
+- Dispuesto a utilizar aplicaciones móviles que le faciliten su día a día.
+
+**B. Propietario de estacionamiento**
+- Persona encargada de administrar uno o varios estacionamientos públicos o privados.
+- Con interés en mejorar la eficiencia, visibilidad o rentabilidad de su espacio.
+- Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
+- Tiene contacto diario con la gestión operativa de espacios de parqueo.
+
+**Preguntas guía de la entrevista**
+
+**A. Preguntas para Conductores**
+
+**B. Preguntas para Propietarios de Estacionamiento**
+
+**Justificación de las preguntas**
+Las preguntas fueron diseñadas para:
+
+Duración estimada de la entrevista
+
+- Para conductores: 10 a 20 minutos
+- Para propietarios: 15 a 30 minutos
+
+Medio de aplicación
+- Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
+
+### 6.3.2. Registro de Entrevistas
+##### **Segmento 1**
+###### Entrevista 1
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+>
+
+![Entrevista 1](./ChapterVI-images/Segmento1-Interview1.png)
+
+**Tiempo en el video:**
+
+----------
+
+###### Entrevista 2
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+>
+
+![Entrevista 2](./ChapterVI-images/Segmento1-Interview2.png)
+
+**Tiempo en el video:**
+
+----------
+
+###### Entrevista 3
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+>
+
+![Entrevista 3](./ChapterVI-images/Segmento1-Interview3.png)
+
+**Tiempo en el video:**
+
+----------
+
+##### **Segmento 2**
+###### Entrevista 1
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+>
+
+![Entrevista 1](./ChapterVI-images/Segmento2-Interview1.png)
+
+**Tiempo en el video:**
+
+----------
+
+###### Entrevista 2
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+>
+
+![Entrevista 2](./ChapterVI-images/Segmento2-Interview2.png)
+
+**Tiempo en el video:**
+
+----------
+
+###### Entrevista 3
+
+**Nombre:** 
+**Edad:** 
+**Distrito:** 
+
+>
+
+![Entrevista 3](./ChapterVI-images/Segmento2-Interview3.png)
+
+**Tiempo en el video:**
+
+----------
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Video About-the-Product
+
+---
+
 # Conclusiones y recomendaciones
 ## Conclusiones
 
@@ -5205,6 +5597,14 @@ Duración: 24:22
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EWDAl67_TdpAoBiAHa1OQxUB5fevLpptE56nZ_-F3GZtJQ?e=IMD3Yo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+**Exposición TB2**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb2`  
+Formato: `.mp4`  
+Duración:   
+**Enlace:** 
+
+
+
 **Needfinding Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  
 Formato: `.mp4`  
@@ -5213,10 +5613,31 @@ Duración: 46:26
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EQ4rQ34NYHlGvEzueV9hB50B6zzVIOKni-ge9qzX-2w_0Q?e=rL8DY8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-**Prototypes Navigation / Product Navigation**
+**Validation Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation`  
+Formato: `.mp4`  
+Duración: 
+**Enlace:**  
+
+
+
+**Prototypes Navigation / Product Navigation**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-1`  
 Formato: `.mp4`  
 Duración: 7:48  
 **Enlace:**  
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EVAMZaPh71JKoHI3qQrOxYEBJ8CRBfmhpBVSyrciYgpTtQ?e=8Wt1OC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-2`  
+Formato: `.mp4`  
+Duración:  
+**Enlace:** 
+
+
+
+**About the Product**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2`  
+Formato: `.mp4`  
+Duración:   
+**Enlace:**  
