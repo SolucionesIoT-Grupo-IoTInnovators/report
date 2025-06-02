@@ -1054,13 +1054,12 @@ Medio de aplicación
 **Tiempo en el video:** 41:21
 
 ### 2.2.3. Análisis de entrevistas
-<div align="justify">
-  <ul>
-    <li>Segmento 1:<br>
-    Perfil general del segmento<br>
+
+#### Segmento 1: Perfil general del segmento<br>
+
 Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
 
-###  Características objetivas 
+**Características objetivas**
 
 | Característica                                                   | Frecuencia estimada | Fuente de entrevistas                     |
 |------------------------------------------------------------------|----------------------|--------------------------------------------|
@@ -1072,7 +1071,7 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 | Muestra interés por adoptar tecnología si es accesible y útil    | 66.7%                | Jhon, Lizet                                |
 | Opera en zonas con horarios pico o alta rotación                 | 66.7%                | Jhon, Lizet                                |
 
-###  Características subjetivas comunes
+**Características subjetivas comunes**
 
 | Característica percibida                         | Evidencia                                                   |
 |--------------------------------------------------|-------------------------------------------------------------|
@@ -1081,13 +1080,11 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 | Aceptación tecnológica si hay beneficios claros  | Jhon y Lizet muestran apertura si se adapta a su realidad   |
 | Priorizan funciones de monitoreo sobre reservas  | Armando prefiere control y seguridad sobre funciones de reserva |
 
+#### Segmento 2: Perfil general del segmento<br>
 
-</li>
-    <li>Segmento 2:<br>
-    Perfil general del segmento<br>
 Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
 
-### Características objetivas
+**Características objetivas**
 
 | Característica                                                    | Frecuencia estimada | Evidencia en entrevistas                      |
 |-------------------------------------------------------------------|----------------------|-----------------------------------------------|
@@ -1100,7 +1097,7 @@ Este segmento está conformado por personas que conducen regularmente por la ciu
 | Prefiere modalidad de pago por uso y no suscripción               | 66.7%                | Mauricio, Rocío                               |
 | Ha dejado de usar el auto por problemas de estacionamiento        | 33.3%                | Rocío                                         |
 
-###  Características subjetivas comunes
+**Características subjetivas comunes**
 
 | Característica percibida                     | Evidencia                                                  |
 |----------------------------------------------|------------------------------------------------------------|
@@ -1109,9 +1106,9 @@ Este segmento está conformado por personas que conducen regularmente por la ciu
 | Buscan control y seguridad al estacionar     | Rocío menciona que necesita reservar para evitar vueltas   |
 | Abiertos a tecnología si es útil             | Todos muestran disposición clara a probar una app          |
 
-</li>
-    <li>Conclusiones: <br>
-    El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking. 
+#### Conclusiones:
+
+El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking. 
 
 Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.
 
@@ -1124,9 +1121,6 @@ Ambos segmentos coinciden en valorar funcionalidades como:
 - Reportes o trazabilidad, en el caso de los propietarios.
 
 Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
-</li>
-  </ul>
-</div>
 
 ## 2.3. Needfinding
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
