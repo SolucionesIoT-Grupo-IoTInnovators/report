@@ -731,46 +731,20 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
-Nuestros competidores principales seran los siguientes:
-
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <td><strong>iPark</strong><br>
-      link: <a href="https://ipark.pe/propuesta/">https://ipark.pe/</a>
-    </td>
-    <td>
-      iPark es una plataforma digital orientada a la gestión de estacionamientos. Ofrece soluciones como pago con QR, cámaras ANPR, app móvil para conductores y un panel administrativo para los operadores. Su enfoque está en la automatización y maximización de ingresos.
-    </td>
-  </tr>
-  <tr>
-    <td><strong>ACCIST Perú</strong><br>
-      link: <a href="https://accistperu.com/">https://accistperu.com/</a>
-    </td>
-    <td>
-      ACCIST es una empresa especializada en control de asistencia y acceso. Ofrece soluciones biométricas, molinetes y otros dispositivos de seguridad, que aunque no están centrados en estacionamientos, pueden competir indirectamente en espacios como edificios o universidades.
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Smelpro</strong><br>
-      link: <a href="https://smelpro.com/">https://smelpro.com/</a>
-    </td>
-    <td>
-      Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica.
-    </td>
-  </tr>
-</table>
 
 ### 2.1.1. Análisis competitivo
 
 ##### Competitive Analysis Landscape
 
 ###### Competidores 
-| Competidor   | Descripción                                                                                                                                                                       |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SmartParking | <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/> |
-| iPark        | <img src="https://i0.wp.com/ipark.pe/wp-content/uploads/2024/01/Posts-IG-iPark-1-1.png?fit=1080%2C1080&ssl=1?raw=true" alt="Logo iPark" width="350" />                            |
-| ACCIST       | <img src="https://d18dfix3ul3fjv.cloudfront.net/images/upload/1227/sml/64b6d9be5202d2.62984617.png?raw=true" alt="Logo ACCIST" width="350" />                                     |
-| Smelpro      | <img src="https://avatars.githubusercontent.com/u/9160835?v=4?raw=true" alt="Logo Smelpro" width="350" />                                                                         |
+
+| Competidor   | Imágen | Descripción  | Enlace   |
+|--------------|------|--------------|--------------|
+| iPark        | <img src="https://i0.wp.com/ipark.pe/wp-content/uploads/2024/01/Posts-IG-iPark-1-1.png?fit=1080%2C1080&ssl=1?raw=true" alt="Logo iPark" width="350" />                            | iPark es una plataforma digital orientada a la gestión de estacionamientos. Ofrece soluciones como pago con QR, cámaras ANPR, app móvil para conductores y un panel administrativo para los operadores. Su enfoque está en la automatización y maximización de ingresos. | https://ipark.pe/propuesta/ |
+| ACCIST       | <img src="https://d18dfix3ul3fjv.cloudfront.net/images/upload/1227/sml/64b6d9be5202d2.62984617.png?raw=true" alt="Logo ACCIST" width="350" />                                     | ACCIST es una empresa especializada en control de asistencia y acceso. Ofrece soluciones biométricas, molinetes y otros dispositivos de seguridad, que aunque no están centrados en estacionamientos, pueden competir indirectamente en espacios como edificios o universidades. | https://accistperu.com/ |
+| Smelpro      | <img src="https://avatars.githubusercontent.com/u/9160835?v=4?raw=true" alt="Logo Smelpro" width="350" />                                                                         | Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica. | https://smelpro.com/ |
+
+Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica.
 
 ###### ¿Por qué llevar a cabo este análisis?
 
@@ -894,12 +868,17 @@ Nuestros competidores principales seran los siguientes:
 | Smelpro      | Avance rápido de nuevas tecnologías internacionales.                                              |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-<div align="justify">
-  Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. A su vez, anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
-</div>
+
+Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. 
+
+- Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. 
+- Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. 
+- Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. 
+- Anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
 **Objetivo:**
 
 Identificar con claridad las necesidades, frustraciones y comportamientos actuales de los usuarios en relación con la gestión y disponibilidad de espacios de parqueo en zonas urbanas. Esto permitirá validar las hipótesis planteadas en el enfoque Lean UX y orientar el desarrollo de la solución IoT SmartParking hacia una verdadera propuesta de valor.
@@ -1086,13 +1065,11 @@ Medio de aplicación
 **Tiempo en el video:** 41:21
 
 ### 2.2.3. Análisis de entrevistas
-<div align="justify">
-  <ul>
-  <li>Segmento 1:</li>
-  Perfil general del segmento<br>
-  Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
+#### Segmento 1: Perfil general del segmento
 
-####  Características objetivas 
+Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
+
+**Características objetivas**
 
 | Característica                                                   | Frecuencia estimada | Fuente de entrevistas                     |
 |------------------------------------------------------------------|----------------------|--------------------------------------------|
@@ -1104,7 +1081,7 @@ Medio de aplicación
 | Muestra interés por adoptar tecnología si es accesible y útil    | 66.7%                | Jhon, Lizet                                |
 | Opera en zonas con horarios pico o alta rotación                 | 66.7%                | Jhon, Lizet                                |
 
-####  Características subjetivas comunes
+**Características subjetivas comunes**
 
 | Característica percibida                         | Evidencia                                                   |
 |--------------------------------------------------|-------------------------------------------------------------|
@@ -1113,11 +1090,11 @@ Medio de aplicación
 | Aceptación tecnológica si hay beneficios claros  | Jhon y Lizet muestran apertura si se adapta a su realidad   |
 | Priorizan funciones de monitoreo sobre reservas  | Armando prefiere control y seguridad sobre funciones de reserva |
 
-  <li>Segmento 2:</li>
-  Perfil general del segmento<br>
-  Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
+#### Segmento 2: Perfil general del segmento
 
-#### Características objetivas
+Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
+
+**Características objetivas**
 
 | Característica                                                    | Frecuencia estimada | Evidencia en entrevistas                      |
 |-------------------------------------------------------------------|----------------------|-----------------------------------------------|
@@ -1130,7 +1107,7 @@ Medio de aplicación
 | Prefiere modalidad de pago por uso y no suscripción               | 66.7%                | Mauricio, Rocío                               |
 | Ha dejado de usar el auto por problemas de estacionamiento        | 33.3%                | Rocío                                         |
 
-####  Características subjetivas comunes
+**Características subjetivas comunes**
 
 | Característica percibida                     | Evidencia                                                  |
 |----------------------------------------------|------------------------------------------------------------|
@@ -1139,46 +1116,44 @@ Medio de aplicación
 | Buscan control y seguridad al estacionar     | Rocío menciona que necesita reservar para evitar vueltas   |
 | Abiertos a tecnología si es útil             | Todos muestran disposición clara a probar una app          |
 
-  <li>Conclusiones:</li>
-  El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking.<br>
-  Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.<br>
-  Por otro lado, los conductores expresan frustración constante por la dificultad de encontrar estacionamiento disponible, especialmente en zonas concurridas. Son usuarios con una alta disposición tecnológica y valoran sobre todo la eficiencia, la anticipación y la posibilidad de reservar espacios desde el móvil. Prefieren soluciones ágiles con pago por uso, sin compromisos recurrentes.
+#### Conclusiones:
+El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking.
 
-  Ambos segmentos coinciden en valorar funcionalidades como:
-  - Visualización clara de disponibilidad en tiempo real.
-  - Información actualizada sobre ubicación y precios.
-  - Reservas anticipadas que brinden seguridad y ahorro de tiempo.
-  - Reportes o trazabilidad, en el caso de los propietarios.
+Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.
 
-  Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
-  </ul>
-</div>
+Por otro lado, los conductores expresan frustración constante por la dificultad de encontrar estacionamiento disponible, especialmente en zonas concurridas. Son usuarios con una alta disposición tecnológica y valoran sobre todo la eficiencia, la anticipación y la posibilidad de reservar espacios desde el móvil. Prefieren soluciones ágiles con pago por uso, sin compromisos recurrentes.
+
+Ambos segmentos coinciden en valorar funcionalidades como:
+ - Visualización clara de disponibilidad en tiempo real.
+ - Información actualizada sobre ubicación y precios.
+ - Reservas anticipadas que brinden seguridad y ahorro de tiempo.
+ - Reportes o trazabilidad, en el caso de los propietarios.
+
+ Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
 
 ## 2.3. Needfinding
+
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
 
 ### 2.3.1. User Personas
-<div align="justify">
-  En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.<br><br>
-</div>
 
-**Segmento Propietario de Estacionamiento:** <br>
-<div align="justify">
-  Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.<br><br>
-</div>
+En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
+
+**Segmento Propietario de Estacionamiento:**
+
+Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Propietario.png?raw=true" alt="user persona de propietario de estacionamiento">
 
-**Segmento Conductor:** <br>
-<div align="justify">
-  Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.<br><br>
-</div>
+**Segmento Conductor:**
+
+Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png?raw=true" alt="user persona de conductor">
 
 ### 2.3.2. User Task Matrix
 
-En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los **User Personas** realizan para cumplir sus objetivos. Se consideran dos segmentos: **propietarios de estacionamiento** y **conductores**. Las tareas identificadas representan actividades que los usuarios deben realizar independientemente de la existencia de una solución de software.
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Personas realizan para cumplir sus objetivos. Se consideran dos segmentos: propietarios de estacionamiento y conductores. Las tareas identificadas representan actividades que los usuarios deben realizar independientemente de la existencia de una solución de software.
 
 | **Task**                                 | **Propietario de Estacionamiento** |                 | **Conductor**  |                 |
 |------------------------------------------|------------------------------------|-----------------|----------------|-----------------|
@@ -1197,7 +1172,7 @@ En esta sección se presenta el **User Task Matrix**, que concentra las tareas q
 
 ###### Explicación
 
-Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y **conductores**, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
+Al analizar las tareas de los segmentos de propietarios de estacionamiento y conductores, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
 
 **Tareas con Mayor Frecuencia e Importancia**
 
@@ -1211,12 +1186,12 @@ Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y
 
 **Principales Diferencias**
 
-- Los **propietarios** están enfocados en la **gestión operativa y financiera** del estacionamiento (tarifas, disponibilidad, pagos).
-- Los **conductores** están enfocados en **localizar, evaluar y asegurar** su experiencia al aparcar.
+- Los propietarios están enfocados en la gestión operativa y financiera del estacionamiento (tarifas, disponibilidad, pagos).
+- Los conductores están enfocados en localizar, evaluar y asegurar su experiencia al aparcar.
 
 **Coincidencias**
 
-Ambos perfiles realizan la tarea de **coordinar con clientes** (por ejemplo, para resolver inconvenientes o dar indicaciones) y **gestionar historial** (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
+Ambos perfiles realizan la tarea de coordinar con clientes (por ejemplo, para resolver inconvenientes o dar indicaciones) y gestionar historial (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
 
 Estas diferencias y coincidencias subrayan la necesidad de una solución que contemple tanto la eficiencia operativa para los propietarios como la conveniencia y seguridad para los conductores.
 
@@ -1224,39 +1199,37 @@ Estas diferencias y coincidencias subrayan la necesidad de una solución que con
 
 La sección de User Journey Maps muestra el recorrido completo de los usuarios de la app de parking, desde que conocen por primera vez la solución hasta el momento en que la dejan de utilizar. El mapeo evidencia las acciones, metas, emociones y problemas experimentados por los dos segmentos clave: propietarios de estacionamiento y conductores. Además, se identifican oportunidades de mejora que pueden guiar el desarrollo de nuevas funcionalidades o ajustes en la experiencia del usuario.
 
-Para los **Propietarios de Estacionamiento**, el journey inicia cuando descubren la app como una forma de rentabilizar espacios disponibles. A lo largo del proceso, sus emociones evolucionan desde la curiosidad hasta la confianza, aunque pueden experimentar frustraciones relacionadas con la gestión de clientes o la flexibilidad del servicio. Las oportunidades incluyen mejoras en la personalización, asistencia en la fijación de precios y funciones de pausa del servicio.
+Para los Propietarios de Estacionamiento, el journey inicia cuando descubren la app como una forma de rentabilizar espacios disponibles. A lo largo del proceso, sus emociones evolucionan desde la curiosidad hasta la confianza, aunque pueden experimentar frustraciones relacionadas con la gestión de clientes o la flexibilidad del servicio. Las oportunidades incluyen mejoras en la personalización, asistencia en la fijación de precios y funciones de pausa del servicio.
 
 **Segmento Propietario de Estacionamiento:**
 
-
 ![](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/165729b4a8060773766191d14f61a13c0b8669df/ChapterII-images/user_journey_mapping_owner.png?raw=true)
 
-
-El journey de los **Conductores** comienza al descubrir la app como una solución rápida y confiable para encontrar estacionamiento. A medida que la utilizan, pasan de la expectativa inicial al alivio de evitar pérdidas de tiempo, aunque también pueden encontrar frustraciones si la información está desactualizada o el proceso no es fluido. Las oportunidades detectadas incluyen mejoras en la verificación de parqueos, soporte activo, y opciones para personalizar la experiencia.
+El journey de los Conductores comienza al descubrir la app como una solución rápida y confiable para encontrar estacionamiento. A medida que la utilizan, pasan de la expectativa inicial al alivio de evitar pérdidas de tiempo, aunque también pueden encontrar frustraciones si la información está desactualizada o el proceso no es fluido. Las oportunidades detectadas incluyen mejoras en la verificación de parqueos, soporte activo, y opciones para personalizar la experiencia.
 
 **Segmento Conductor:**
-
-
 
 ![](ChapterII-images/user_journey_mapping_conductor.png?raw=true)
 
 ### 2.3.4. Empathy Mapping
+
 En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
 
-**Segmento Propietario de Estacionamiento:** <br>
+**Segmento Propietario de Estacionamiento:**
 Alejandro Torres es propietario de varios estacionamientos en la ciudad y busca maximizar la rentabilidad de su negocio. Aunque tiene experiencia en gestión, enfrenta desafíos como baja ocupación en horarios específicos y la falta de datos sobre el comportamiento de los clientes. Le interesa implementar herramientas tecnológicas que le permitan automatizar reservas y pagos, así como obtener reportes detallados que le ayuden a tomar mejores decisiones. Su principal frustración es la dificultad de administrar los espacios de manera eficiente sin una plataforma digital que optimice la operación. Su objetivo es mejorar la ocupación de sus estacionamientos, aumentar sus ingresos y ofrecer una mejor experiencia a sus clientes.
+
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20propietario%20de%20estacionamiento.png?raw=true" alt="emphaty mapping de propietario de estacionamiento">
 
-**Segmento Conductor:** <br>
+**Segmento Conductor:**
 Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asistir a reuniones. Su apretada agenda hace que encontrar estacionamiento sea un problema frecuente, especialmente en zonas de alta demanda. Se frustra al perder tiempo buscando un espacio disponible, enfrentarse a tarifas imprevistas o no tener información en tiempo real sobre la disponibilidad. Como usuario de tecnología, busca soluciones que optimicen su tiempo y le brinden mayor comodidad, como aplicaciones móviles que le permitan reservar espacios con antelación y recibir notificaciones sobre estacionamientos cercanos y sus costos. Su objetivo principal es reducir el estrés de encontrar estacionamiento y asegurarse de que su vehículo esté seguro mientras realiza su trabajo.
+
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20conductor.png?raw=true" alt="emphaty mapping de conductor">
 
-**Proceso de Elaboración** <br>
-1. **Preparación y Enfoque en el User Persona** <br>
+**Proceso de Elaboración**
+1. **Preparación y Enfoque en el User Persona**
    Cada mapa comenzó con la identificación del User Persona en el centro:
     - **Alejandro Torres**: Propietario de varios estacionamientos en Santiago, busca optimizar la ocupación de sus espacios y mejorar la rentabilidad de su negocio mediante herramientas digitales.
     - **Diego Ramírez**: Persona que usa su vehículo diariamente y enfrenta dificultades para encontrar estacionamiento de manera rápida y eficiente.
-
 
 2. **Captura de Observaciones**:  
    Para cada User Persona, se recopilaron observaciones del equipo en las secciones del Empathy Map:
@@ -1346,7 +1319,8 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
             - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
 
 ### 2.3.5. As-is Scenario Mapping
-**Segmento Propietario de Estacionamiento:** <br>
+**Segmento Propietario de Estacionamiento:**
+
 ![as is scenario mapping propietario de estacionamiento](ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
 
 - **Positive points**:
@@ -1361,7 +1335,8 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Espero que todos paguen sin problemas:** Habría que analizar qué porcentaje de clientes usa efectivo vs. apps, y si esto genera problemas operativos.
     - **Podría ganar más si tuviera más reservas anticipadas:** Es importante investigar si Alejandro está dispuesto a adoptar un sistema de reservas online y qué barreras percibe.
 
-**Segmento Conductor:** <br>
+**Segmento Conductor:**
+
 ![as is scenario mapping conductor](ChapterII-images/As%20is%20Scenario%20Mapping-conductor.jpg)
 
 - **Positive points**:
@@ -1392,10 +1367,8 @@ Se presenta una tabla que contiene los términos específicos del dominio del ne
 | EntryBarrier       | Dispositivo físico (como una barrera automática) que controla el ingreso al estacionamiento.                                               |
 | ExitBarrier        | Dispositivo que permite la salida del vehículo, generalmente activado por pago o validación de reserva.                                   |
 | ViolationAlert     | Notificación emitida al detectar un uso no autorizado del espacio reservado o acciones sospechosas.                                       |
-| SmartSensor        | Dispositivo IoT instalado en cada espacio que detecta la presencia de un vehículo en tiempo real.                                         |
 | DynamicPricing     | Estrategia de precios variables para las reservas en función de la demanda, horario o condiciones específicas.                            |
 | PlatformFee        | Comisión cobrada por el uso de la plataforma SmartParking, deducida del ingreso del ParkingOwner.                                          |
-
 
 ---
 
