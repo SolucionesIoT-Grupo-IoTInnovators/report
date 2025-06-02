@@ -1366,7 +1366,6 @@ Se presenta una tabla que contiene los términos específicos del dominio del ne
 | EntryBarrier       | Dispositivo físico (como una barrera automática) que controla el ingreso al estacionamiento.                                               |
 | ExitBarrier        | Dispositivo que permite la salida del vehículo, generalmente activado por pago o validación de reserva.                                   |
 | ViolationAlert     | Notificación emitida al detectar un uso no autorizado del espacio reservado o acciones sospechosas.                                       |
-| SmartSensor        | Dispositivo IoT instalado en cada espacio que detecta la presencia de un vehículo en tiempo real.                                         |
 | DynamicPricing     | Estrategia de precios variables para las reservas en función de la demanda, horario o condiciones específicas.                            |
 | PlatformFee        | Comisión cobrada por el uso de la plataforma SmartParking, deducida del ingreso del ParkingOwner.                                          |
 
