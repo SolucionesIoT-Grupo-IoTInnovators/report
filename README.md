@@ -5250,21 +5250,29 @@ Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas
 
 En esta iteración, se abordaron los siguientes aspectos clave:
 
-- **Aspect Name 1:**  
-- **Aspect Name 2:**  
-- **Aspect Name 3:**
-- **Aspect Name 4:** 
-- **Aspect Name 5:**
+#### 6.2.1.2. Aspect Leaders and Collaborators
 
-|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 |
-|-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Arroyo Ormeño, André Alonso   | anonimat0        |               |               |               |               |               |
-| Castilla Pachas, César Antonio| CesarrAnn        |               |               |               |               |               |
-| Cortés Casas, Joaquin Marcelo | U202114545       |               |               |               |               |               |
-| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |               |               |               |               |               |
-| Godoy, Johan Príncipe         | JP19-03          |               |               |               |               |               |
-| Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |               |
-| Zarate Caceres, Victor        | ern23zc          |               |               |               |               |               |
+- **Aspect Name 1:** IAM (Identity and Access Management)
+- **Aspect Name 2:** Profile Management
+- **Aspect Name 3:** Parking Management
+- **Aspect Name 4:** Reservation
+- **Aspect Name 5:** Subscription
+- **Aspect Name 6:** Review
+- **Aspect Name 7:** Notification
+- **Aspect Name 8:** IoT Management
+- **Aspect Name 9:** Payment
+
+
+|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 | Aspect Name 6 | Aspect Name 7 | Aspect Name 8 | Aspect Name 9 |
+|-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Arroyo Ormeño, André Alonso   | anonimat0        |        L      |         L     |        C      |        C      |         C     |          C    |         C     |C|         C     |
+| Castilla Pachas, César Antonio| CesarrAnn        |        C      |         C     |        C      |        C      |         C     |          C    |         L     |C|         C     |
+| Cortés Casas, Joaquin Marcelo | U202114545       |        C      |         C     |        C      |        C      |         L     |          C    |         C     |C|         L     |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |        C      |         C     |        C      |        C      |         C     |          L    |         C     |C|         C     |
+| Godoy, Johan Príncipe         | JP19-03          |        C      |         C     |        L      |        C      |         C     |          C    |         C     |C|         C     |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |         C      |         C     |        C      |        C      |         C     |          C    |         C     |L|         C     |
+| Zarate Caceres, Victor        | ern23zc          |        C      |         C     |        C      |        L      |         C     |          C    |         C     |C|         C     |
+
 
 #### 6.2.2.3. Sprint Backlog 2
 Durante este sprint, se trabajó en:
