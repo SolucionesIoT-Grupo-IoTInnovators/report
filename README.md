@@ -1980,7 +1980,7 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de IAM.
 
-!["IAM Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-IAM.png?raw=true)
+!["IAM Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-IAM.png?raw=true)
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
@@ -2214,7 +2214,7 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
 
-!["Profile Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-Profile.png?raw=true)
+!["Profile Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-Profile.png?raw=true)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
@@ -2405,7 +2405,7 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
 
-!["Parking Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-ParkingManagement.png?raw=true)
+!["Parking Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-ParkingManagement.png?raw=true)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2522,7 +2522,7 @@ Repositorio del agregado Reservation.
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
 El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
-!["Reservation Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-Reservation.png?raw=true)
+!["Reservation Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-Reservation.png?raw=true)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2824,7 +2824,7 @@ Persiste y recupera reseñas de la base de datos.
 
 El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
 
-![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
+![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
 
 ---
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
