@@ -69,6 +69,8 @@
 | 2.10.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Mock-ups App Mobile                                                                                                            |
 | 2.11.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes and Mock-ups Web App                                                                                                |
 | 2.12.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Application wireframess and mock-ups                                                                                                        |
+| 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Corrección de estructura de texto para conversión a PDF                                                                                            |
+| 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
 ---
 
 # Project Report Collaboration Insights
@@ -4710,17 +4712,13 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb1`  
 Formato: `.mp4`  
 Duración: 25:54  
-**Enlace:**  
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/ERo-O22A_dhImQOjz1_IJGcBYOLw72Usu-j62BXeEkcrhA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RZCVOE |
+**Enlace:** https://shorturl.at/8hzHW
 
 **Exposición TP1**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tp1`  
 Formato: `.mp4`  
 Duración: 24:22  
-**Enlace:**  
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EWDAl67_TdpAoBiAHa1OQxUB5fevLpptE56nZ_-F3GZtJQ?e=IMD3Yo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace:** https://shorturl.at/ZecCM  
 
 **Exposición TB2**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb2`  
@@ -4728,15 +4726,11 @@ Formato: `.mp4`
 Duración:   
 **Enlace:** 
 
-
-
 **Needfinding Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  
 Formato: `.mp4`  
 Duración: 46:26  
-**Enlace:**  
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EQ4rQ34NYHlGvEzueV9hB50B6zzVIOKni-ge9qzX-2w_0Q?e=rL8DY8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace:** https://shorturl.at/boTPG  
 
 **Validation Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation`  
@@ -4744,22 +4738,16 @@ Formato: `.mp4`
 Duración: 
 **Enlace:**  
 
-
-
 **Prototypes Navigation / Product Navigation**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-1`  
 Formato: `.mp4`  
 Duración: 7:48  
-**Enlace:**  
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EVAMZaPh71JKoHI3qQrOxYEBJ8CRBfmhpBVSyrciYgpTtQ?e=8Wt1OC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace:** https://shorturl.at/ajXvS  
 
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-2`  
 Formato: `.mp4`  
 Duración:  
 **Enlace:** 
-
-
 
 **About the Product**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2`  
