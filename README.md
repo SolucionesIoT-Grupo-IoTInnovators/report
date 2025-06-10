@@ -4546,6 +4546,7 @@ Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacc
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
 **Objetivo:**
+Validar si la propuesta de valor y funcionalidades de la aplicación cubren las necesidades reales de los propietarios de estacionamientos y conductores urbanos, y recoger insights para mejorar la usabilidad, percepción y utilidad de la solución antes y durante su implementación.
 
 **Perfil del entrevistado:**
 Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
@@ -4567,15 +4568,60 @@ Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a
 **Preguntas guía de la entrevista**
 
 **A. Preguntas para Conductores**
+Bloque A. Primer uso y navegación
+1. ¿Cómo fue tu experiencia al descargar y usar por primera vez la aplicación?
+2. ¿Fue fácil para ti usar la app por primera vez?
+3. ¿Te pareció fácil encontrar estacionamientos disponibles en tu zona?
+
+Bloque B. Usabilidad de la app móvil
+
+4. ¿Qué funcionalidades te parecieron más útiles (mapa, reservas, historial, etc.)?
+5. ¿Has utilizado la función de reservas? ¿Cómo fue tu experiencia?
+6. ¿Has realizado pagos desde la app? ¿Qué tan fluido fue el proceso?
+
+Bloque C. Confianza en la información
+
+7. ¿Qué tan confiable te parece la información sobre disponibilidad en tiempo real?
+8. ¿Te ha sucedido que la app marcaba un espacio como libre, pero no lo estaba?
+
+Bloque D. Valor percibido
+
+9. ¿Qué función adicional te gustaría ver en la app?
+10. ¿Recomendarías esta aplicación a otros conductores? ¿Por qué?
+
 
 **B. Preguntas para Propietarios de Estacionamiento**
+Bloque A. Primer contacto y configuración
+1. ¿Cómo describirías tu experiencia al registrarte y configurar tu estacionamiento por primera vez?
+2. ¿Qué te pareció el proceso de diseño del plano del estacionamiento en la plataforma?
+
+BLoque B. Uso de la plataforma
+
+3. ¿Sientes que puedes controlar fácilmente tus espacios y reservas desde el panel de gestión?
+4. ¿Qué funcionalidades se te hacen más atractivas?
+
+Bloque C. Reservas y pagos
+
+5. ¿Te parece útil que los conductores reserven espacios con anticipación?
+6. ¿El proceso para visualizar reservas te parece claro y ordenado?
+
+Bloque D. Satisfacción general
+
+7. ¿Qué te parece esta aplicación con respecto a tu método de gestion actual?
+8. ¿Qué parte de la experiencia te ha resultado más útil?
+9. ¿Hay algo que te haya generado confusión o frustración?
+10. ¿Qué te gustaría ver en esta aplicación en futuras versiones?
 
 **Justificación de las preguntas**
 Las preguntas fueron diseñadas para:
+- Validar que las funcionalidades diseñadas resuelven problemas reales, no solo imaginados.
+- Evaluar la experiencia de los usuarios en la aplicación.
+- Comprobar la 
+- Medir el grado de satisfacción y disposición a recomendar o pagar, base para el crecimiento orgánico. 
 
 Duración estimada de la entrevista
 
-- Para conductores: 10 a 20 minutos
+- Para conductores: 10 a 25 minutos
 - Para propietarios: 15 a 30 minutos
 
 Medio de aplicación
