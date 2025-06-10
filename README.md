@@ -1978,9 +1978,9 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 |findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de IAM.
+El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
 
-!["IAM Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-IAM.png?raw=true)
+!["IAM Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-IAM.png?raw=true)
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
@@ -2212,9 +2212,9 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
+El Profile Bounded Context centraliza la gestión de la información de perfil de los usuarios, incluyendo su estructura de dominio, lógica de aplicación, almacenamiento persistente e interfaces expuestas vía HTTP. Su arquitectura facilita tanto el acceso directo desde aplicaciones cliente como la colaboración con otros contextos a través de su fachada de contexto, permitiendo así la reutilización controlada de funciones relacionadas con los perfiles sin romper la encapsulación.
 
-!["Profile Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-Profile.png?raw=true)
+!["Profile Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Profile.png?raw=true)
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
@@ -2403,9 +2403,9 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
+El Parking Management Bounded Context se encarga de toda la lógica relacionada con la administración de estacionamientos, desde la definición de espacios disponibles hasta la gestión de su estado. Mediante una separación clara por capas, permite recibir solicitudes externas, procesarlas con lógica de aplicación coordinada, aplicar las reglas de dominio y persistir los datos. Ofrece también una fachada que permite a otros bounded contexts consumir funcionalidades específicas del sistema de gestión de parkings de forma segura y acotada.
 
-!["Parking Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-ParkingManagement.png?raw=true)
+!["Parking Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-ParkingManagement.png?raw=true)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2520,9 +2520,9 @@ Repositorio del agregado Reservation.
 |findAll()|Devuelve todas las reservas almacenadas.|
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+El Reservation Bounded Context permite a los conductores realizar, modificar o cancelar reservas de estacionamiento, conectándose a los sistemas de parqueo y perfil mediante servicios externos. Implementa una arquitectura en capas para organizar la lógica de negocio, persistencia y exposición de servicios vía HTTP, lo que permite una orquestación robusta y modular de las funcionalidades de reserva, manteniendo una clara separación de responsabilidades y promoviendo el desacoplamiento.
 
-El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
-!["Reservation Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-Reservation.png?raw=true)
+!["Reservation Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Reservation.png?raw=true)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2632,9 +2632,9 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 |findByUserId(Integer userId)|Retorna la suscripción del usuario.|
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Subscription.
+El Subscription Bounded Context se ocupa de gestionar las suscripciones que otorgan acceso a funcionalidades especiales o descuentos dentro del ecosistema SmartParking. Su diseño por capas permite procesar comandos y consultas de manera ordenada, aplicar reglas de dominio específicas y mantener la información de suscripciones en la base de datos, con interfaces bien definidas que permiten la interacción con las aplicaciones cliente.
 
-!["Subscription Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-Subscription.png?raw=true)
+!["Subscription Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Subscription.png?raw=true)
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2821,10 +2821,9 @@ Persiste y recupera reseñas de la base de datos.
 
 ---
 #### 4.2.6.5. Component Level Diagram (estructura)
+El Review Bounded Context centraliza la creación, almacenamiento y consulta de reseñas de parkings, integrándose con los bounded contexts de perfil y estacionamiento para enriquecer el contenido y garantizar la autenticidad de las evaluaciones. Gracias a sus capas claramente definidas, puede recibir peticiones HTTP, coordinar la lógica necesaria y persistir los datos, además de interactuar con servicios externos para validar información relacionada con usuarios y parkings.
 
-El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
-
-![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/9fc9e7886b984451ac545d460bad66cf55c6cece/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
+![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
 
 ---
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
@@ -2987,10 +2986,9 @@ Interacción con la base de datos de notificaciones.
 
 ---
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+El Notification Bounded Context es el encargado del manejo de notificaciones dentro del sistema, este contexto permite a los usuarios recibir alertas y mensajes relevantes relacionados con reservas, pagos o eventos. Sus componentes están organizados para aceptar solicitudes, procesar lógica de envío y gestionar la persistencia de notificaciones.
 
-El diagrama muestra la arquitectura monolítica del bounded context de notificaciones. Las peticiones REST llegan al NotificationController, que a su vez invoca al NotificationCommandService para crear o eliminar notificaciones y al NotificationQueryService para obtenerlas. Antes de crear una notificación, el NotificationCommandService valida la existencia del usuario consultando al UserQueryService. Tanto los comandos como las consultas utilizan el NotificationRepository para leer y escribir en la base de datos MySQL dedicada a notificaciones.
-
-![Notification Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-Notification.png?raw=true)
+![Notification Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Notification.png?raw=true)
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
@@ -3263,9 +3261,9 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 |findById(Integer id)|Encuentra un pago de reserva por su ID.|
 |findAll()|Devuelve todos los pagos de reserva registrados.|
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
-En el diagrama de arquitectura de nivel componente, se presenta las clases y sus relaciones dentro del contexto de Payment.
+ Payment Bouded Context es el responsable de gestionar los pagos dentro de SmartParking, este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
 
-!["Payment Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0dee83f592ea256925881086c337b880403726f7/ChapterIV-images/Diagram-component/Diagram-Component-Payment.png?raw=true)
+!["Payment Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Payment.png?raw=true)
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
