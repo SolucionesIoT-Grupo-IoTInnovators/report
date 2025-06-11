@@ -4408,7 +4408,7 @@ https://trello.com/b/4jpMjzDd
 | **Id**    | **Title**    | **Id**     | **Title**       | **Description**    | **Estimation (Hours)** | **Assigned To**   | **Status (To-do / In-Process / To-Review / Done)** |
 | MS01 | Detección de ocupación del espacio | 01 | Sensor de distancia | Programar lectura del sensor de distancia y envío | 8h |    | In-Process |
 | MS03 | Indicador LED según estado del spot | 02 | Lógica de LED | Controlar LED RGB según estado del spot | 4h |    | In-Process |
-| TS01 | Integrar sensores IoT al backend | 05 | Integración MQTT | Conectar sensores al backend mediante protocolo MQTT | 6h |    | Done |
+| TS01 | Integrar sensores IoT al backend | 05 | Integración MQTT | Conectar sensores al edge mediante protocolo MQTT | 6h |    | Done |
 | TS03 | Visualización en tiempo real en la aplicación | 06 | Panel de disponibilidad | Mostrar en tiempo real los estados de los spots | 6h |    | Done |
 | US11 | Visualizar ocupación en tiempo real | 07 | Actualizar visualización | Sincronizar app con el backend usando WebSockets | 5h |    | Done |
 | MS04 | Mostrar nombre del spot en display | 03 | Mostrar ID del spot | Mostrar nombre del spot por comando | 4h |    | In-Process |
