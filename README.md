@@ -4402,15 +4402,26 @@ https://trello.com/b/4jpMjzDd
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
-|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
-|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
-| **Id**    | **Title**                                                          | **Id**     | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
-| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
-| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
-| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
-| US        |                                                                    |     01     |                                     |                                                      |  h                     |                                |                                                    |
-
+|  Sprint # ||   Sprint 2 ||||||
+|-----------| -----------|------------|------------|--------|--------|-----------|----------------|
+|   **User Story**     ||   **Work-Item / Task**     ||||||
+| **Id**    | **Title**    | **Id**     | **Title**       | **Description**    | **Estimation (Hours)** | **Assigned To**   | **Status (To-do / In-Process / To-Review / Done)** |
+| MS01 | Detección de ocupación del espacio | 01 | Sensor de distancia | Programar lectura del sensor de distancia y envío | 8h |    | In-Process |
+| MS03 | Indicador LED según estado del spot | 02 | Lógica de LED | Controlar LED RGB según estado del spot  4h |    | In-Process |
+| TS01 | Integrar sensores IoT al backend | 05 | Integración MQTT | Conectar sensores al backend mediante protocolo MQTT | 6h |    | Done |
+| TS03 | Visualización en tiempo real en la aplicación | 06 | Panel de disponibilidad | Mostrar en tiempo real los estados de los spots | 6h |    | Done |
+| US11 | Visualizar ocupación en tiempo real | 07 | Actualizar visualización | Sincronizar app con el backend usando WebSockets | 5h |    | Done |
+| MS04 | Mostrar nombre del spot en display | 03 | Mostrar ID del spot | Mostrar nombre del spot por comando | 4h |    | In-Process |
+| MS05 | Mostrar MAC para emparejamiento | 04 | Mostrar MAC | Mostrar dirección MAC por comando | 4h |    | In-Process |
+| US01 | Visualización de espacios disponibles en el mapa | 08 | Mapa interactivo | Mostrar mapa de parqueo con disponibilidad por colores | 8h |   | Done |
+| US02 | Actualización automática de disponibilidad | 09 | Refrescar estado automáticamente | Implementar auto-actualización del estado de los spots | 5h |   | Done |
+| US12 | Modificar tarifas de estacionamiento | 10 | CRUD de tarifas | Crear interfaz para gestionar tarifas desde backend | 6h |    | Done |
+| US13 | Descargar reportes de uso | 11 | Reportes de uso | Generar y descargar reportes de uso desde dashboard | 5h |    | Done |
+| TS05 | Implementar sistema de pagos en línea | 12 | Integración pasarela de pago | Conectar con pasarela de pagos en app | 10h |    | Done |
+| US08 | Realizar pago desde la app | 13 | UI de pagos | Interfaz en app para realizar pagos | 6h |     | Done |
+| TS04 | Implementar sistema de reservas en la App móvil | 14 | Backend y lógica de reservas | API + lógica para manejar reservas | 8h |    | Done |
+| US06 | Reservar un espacio disponible desde la app | 15 | UI de reservas | Interfaz para seleccionar y reservar espacios | 6h |    | Done |
+| US10 | Ver historial de reservas | 16 | Historial de reservas | Mostrar historial de reservas realizadas | 5h |    | Done |
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 Los avances específicos son:
