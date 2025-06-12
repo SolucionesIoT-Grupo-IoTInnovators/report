@@ -1980,8 +1980,6 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 |findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
-
 -**Backend**
 
 El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
@@ -1991,6 +1989,11 @@ El IAM Bounded Context gestiona la autenticación y autorización de usuarios, e
 
 El diagrama de componentes del IAM Bounded Context representa los elementos encargados de gestionar la autenticación y registro de usuarios dentro de la aplicación SmartParking, incluyendo componentes de interfaz como Sign In Component y Sign Up Component, que capturan credenciales y datos de registro, y un AuthService que centraliza la lógica de autenticación comunicándose con la API REST y gestionando la transformación de datos mediante el IAMAssembler, garantizando una separación limpia entre la vista, la lógica y la comunicación con los servicios backend.
 !["IAM WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-iam-diagram-component.png?raw=true)
+
+-**mobileApp**
+
+El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
+!["IAM MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-iam-diagram-component.png?raw=true)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2234,6 +2237,11 @@ El Profile Bounded Context centraliza la gestión de la información de perfil d
 El diagrama de componentes del Profile Bounded Context describe la estructura de componentes dedicados a la gestión de perfiles de propietarios de estacionamientos, donde el Owner Car Edit Component permite visualizar y editar información personal, mientras que el OwnerService orquesta las operaciones y coordina con ProfileAssembler para transformar datos entre el frontend y la API RESTful, estableciendo una arquitectura desacoplada que facilita el mantenimiento y la evolución de las funcionalidades de perfil.
 !["Profile Management WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-profile-diagram-component.png?raw=true)
 
+-**MobileApp**
+
+El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
+!["Profile Management MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-profile-diagram-component.png?raw=true)
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
@@ -2434,6 +2442,12 @@ El diagrama de componentes del Parking Management Bounded Context detalla los el
 
 !["Parking Management WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-parking-management-diagram-component.png?raw=true)
 
+-**MobileApp**
+
+El diagrama de componentes del bounded context Parking Management detalla los componentes que permiten a los conductores visualizar y consultar información de los estacionamientos disponibles. Incluye widgets como Parking Card, Parking Info, Parking Map y Parking Spot Viewer, que presentan desde vistas resumidas hasta mapas interactivos y disponibilidad de espacios en tiempo real. Todos los widgets consumen lógica del ParkingService, encargado de coordinar operaciones y transformar datos mediante el ParkingAssembler. Este ensamblador adapta los DTOs del backend a modelos de dominio del frontend, con las solicitudes a la API RESTful realizándose a través de HTTPS y JSON.
+
+!["Parking Management MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-parking-management-diagram-component.png?raw=true)
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
@@ -2558,6 +2572,12 @@ El Reservation Bounded Context permite a los conductores realizar, modificar o c
 El diagrama de componentes del Reservation Bounded Context modela los componentes encargados de gestionar las reservas de estacionamientos, destacando el Reservation Form Dialog para crear y editar reservas y el Reservations Data Table para visualizar listados con filtros y acciones, ambos controlados por el ReservationService, que centraliza la lógica de negocio y coordina la conversión de datos mediante el ReservationAssembler, asegurando una experiencia coherente y eficiente en las operaciones de reservas a través de la API REST.
 
 !["Reservation WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-reservation-diagram-component.png?raw=true)
+
+-**MobileApp**
+
+El diagrama de componentes del bounded context Reservation describe los componentes que gestionan las reservas de estacionamiento realizadas por conductores en la aplicación móvil. Incluye widgets para mostrar tarjetas individuales de reserva y listas filtradas de reservas por estado, ambos conectados a un ReservationService que maneja la lógica de negocio para crear, recuperar y administrar reservas. Un ReservationAssembler se encarga de transformar datos entre DTOs y modelos de dominio, facilitando la presentación adecuada en la aplicación. La API RESTful gestiona las operaciones a través de peticiones seguras JSON sobre HTTPS.
+
+!["Reservation MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-reservation-diagram-component.png?raw=true)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -2865,9 +2885,17 @@ El Review Bounded Context centraliza la creación, almacenamiento y consulta de 
 ![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
 
 -**WebApp**
+
 El diagrama de componentes del Review Bounded Context abarca los elementos responsables de la gestión de reseñas de usuarios sobre estacionamientos y reservas, incluyendo el Review Card Component que muestra reseñas individuales y el Review List Component que permite listar, ordenar y filtrar reseñas, todo gestionado por el ReviewService, el cual administra la lógica y las operaciones de reseñas en conjunto con el ReviewAssembler, encargado de transformar los datos entre backend y frontend para una correcta visualización y manipulación.
 
 ![Review Context WebApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-review-diagram-component.png?raw=true)
+
+-**MobileApp**
+
+El diagrama de componentes del bounded context Review presenta los componentes de la aplicación móvil responsables de la gestión de opiniones y calificaciones de los conductores sobre estacionamientos. Contiene widgets para mostrar reseñas individuales y listados ordenables y filtrables, todos gestionados por el ReviewService, que centraliza la lógica de negocio y la comunicación con el backend. El ReviewAssembler convierte los datos entre estructuras de backend y modelos de presentación, garantizando coherencia y formato adecuado en la aplicación. La interacción con la API RESTful se realiza mediante peticiones HTTPS con contenido en JSON.
+
+![Review Context MobileApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-review-diagram-component.png?raw=true)
+
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.6.6.1. Domain Layer Class Diagram
