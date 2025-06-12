@@ -94,7 +94,7 @@
 
 #### TP:
 **Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:**
+- **Arroyo Ormeño, André Alonso:** He contribuido en la creacion de los wireframes y mockups de la aplicacion web y la creacion de technical stories para el backend.
 - **Castilla Pachas, César Antonio:**
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
 - **Diaz Silva, Fernando Josué:**
@@ -108,7 +108,7 @@
 
 #### TB2:
 **Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:**
+- **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramam de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
 - **Castilla Pachas, César Antonio:**
 - **Cortés Casas, Joaquin Marcelo:**
 - **Diaz Silva, Fernando Josué:**
@@ -339,11 +339,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Andre Alonso-->
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
-        En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
+        En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.
+        <br><br>
         TP:<br>
-        En el grupo pude aportar en la corrección de errores para la elaboración de los diagramas C4, así como también colaboré en la asignación de tareas.
+        En el grupo contribuí activamente a la corrección de errores en la elaboración de los diagramas C4, colaborando además en la asignación de tareas para optimizar el avance del trabajo. Participé en la creación de los wireframes y mockups de la aplicación web, y en la validación de las technical stories para el backend, proponiendo ajustes y mejoras.
         <br><br>
         TB2:<br>
+        Me encargué de revisar y corregir los diagramas de componentes del backend, proponiendo mejoras para garantizar su coherencia y alineación con los requerimientos técnicos. Además, elaboré los diagramas de componentes para la aplicación web y móvil, validándolos en conjunto con el equipo. Promoví espacios de coordinación grupal para consensuar los cambios y asegurar la calidad final de los diagramas.
         <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
@@ -417,11 +419,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Andre Alonso-->
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
-        Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
+        Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.
+        <br><br>
         TP:<br>
-        Para esta entrega parcial se creo un figma colaborativo para el desarrollo de los mockups y wireframe para la landing page, web app, mobile app. Asimismo a traves de canal de whatsapp nos ayudamos unos a otros para mejorar la elaboracion del trabajo.
+        Durante esta entrega fomenté un entorno colaborativo, participando activamente en la creación de wireframes y mockups para la aplicación web, asegurando que las ideas de todos los integrantes fueran consideradas. Asimismo, colaboré en la validación de las technical stories para el backend, proponiendo mejoras y consensuando criterios en equipo.
         <br><br>
         TB2:<br>
+        En esta fase, propicié un ambiente de trabajo inclusivo, promoviendo reuniones de revisión donde todos los integrantes pudieran aportar a las decisiones sobre los diagramas de componentes. Me encargué de corregir los diagramas de componentes del backend y de elaborar los diagramas correspondientes para la aplicación web y móvil.
         <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
