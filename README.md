@@ -114,7 +114,7 @@
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
 - **Tafur Gonzales, Josty Gerardo:**
-- **Zarate Caceres, Victor Ernesto:**
+- **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
@@ -398,6 +398,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.<br><br>
         TB2:<br>
+        Se identificaron puntos importantes a ser mejorados en esta nueva entrega. Además, se organizo un trabajo de manera conjunta para ir evaluando las aplicaciones a medida que se iban desarrollando, para generar resultados sólidos y consistentes con nuestra propuesta inicial.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -478,6 +479,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.<br><br>
         TB2:<br>
+        El trabajo realizado se distribuyo de acuerdo a las capacidades de cada miembro del equipo, para garantizar mejores resultados con mayot rapide y precisión con respecto a los objetivos del curso y de nuestro proyecto.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
