@@ -4760,13 +4760,18 @@ Medio de aplicación
 ##### **Segmento 2**
 ###### Entrevista 1
 
-**Nombre:** 
-**Edad:** 
-**Distrito:** 
+**Nombre:** Mauricio Oliveira Paucar 
+**Edad:** 25 años
+**Distrito:** Surco
 
 >
+Mauricio, conductor con aproximadamente cuatro años de experiencia, participó en una entrevista para probar la aplicación móvil SmartParking, orientada a facilitar la reserva de estacionamientos. Comentó que su experiencia inicial fue positiva, destacando la facilidad de uso y lo intuitivo del mapa para ubicar parkings cercanos.
 
-![Entrevista 1](./ChapterVI-images/Segmento2-Interview1.png)
+Consideró que el mapa y la información de disponibilidad en tiempo real fueron las funciones más útiles, ya que permiten ahorrar tiempo y evitar estacionamientos sin espacios libres. El proceso de reserva le pareció sencillo y rápido, desde la selección del espacio y horario hasta el pago.
+
+Mauricio señaló que la información mostrada fue precisa durante la prueba, aunque sugirió mejorar la flexibilidad de horarios permitiendo reservas de un día para otro, además de incorporar más fotografías de los estacionamientos. Finalmente, afirmó que recomendaría SmartParking a otros conductores por su practicidad, ahorro de tiempo y mayor seguridad al usar parkings asociados.
+
+![Mauricio Driver-Interview](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/fa2290a26154a8b01000b08fcad9f2444e1399d3/ChapterVI-images/validation-interview/app-movil-mauricio.png?raw=true)
 
 **Tiempo en el video:**
 
