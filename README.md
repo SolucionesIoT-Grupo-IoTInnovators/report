@@ -71,6 +71,7 @@
 | 2.12.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Application wireframess and mock-ups                                                                                                        |
 | 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Corrección de estructura de texto para conversión a PDF                                                                                            |
 | 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
+| 3.1.0       | 15/06/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Development Evidence for Sprint Review                                                                                                      |
 ---
 
 # Project Report Collaboration Insights
