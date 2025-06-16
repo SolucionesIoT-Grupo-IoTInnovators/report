@@ -4856,11 +4856,18 @@ Medio de aplicación
 
 ###### Entrevista 2
 
-**Nombre:** 
-**Edad:** 
-**Distrito:** 
+**Nombre:** Lizet Antonia Pachas Torres
+**Edad:** 42 años
+**Distrito:** Surco
 
 >
+Lizet expreso una experiencia positiva al registrarse y configurar su estacionamiento en la plataforma. Destacó la facilidad del proceso inicial y valoró especialmente la herramienta para diseñar el plano, aunque mencionó que al comienzo le generó dudas, lo cual sugiere la necesidad de mejorar el onboarding en esa sección.
+
+En el uso diario indico sentirse en control gracias al panel de gestión, resaltando la utilidad de asignar reservas a clientes frecuentes y la simplicidad de contar con un precio fijo. Aunque aun no se cuenta con funciones como el bloqueo de espacios o reportes, no fueron señaladas como limitantes críticas, sino como posibles mejoras futuras.
+
+La posibilidad de que los conductores reserven con anticipación fue vista como una gran ventaja operativa. El calendario visual también fue bien valorado por su claridad al mostrar disponibilidad de espacios.
+
+En términos generales, el usuario considera que la aplicación ha mejorado significativamente su método de gestión frente al sistema manual que usaba anteriormente. La automatización de reservas y la gestión desde el celular fueron los aspectos más destacados. Como sugerencias, propuso integrar promociones para clientes frecuentes y un canal de comunicación directa con los conductores.
 
 ![Entrevista 2](./ChapterVI-images/Segmento1-Interview2.png)
 
