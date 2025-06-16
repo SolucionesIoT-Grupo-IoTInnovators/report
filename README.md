@@ -4432,10 +4432,7 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
-
 En esta iteración, se abordaron los siguientes aspectos clave:
-
-#### 6.2.1.2. Aspect Leaders and Collaborators
 
 - **Aspect Name 1:** IAM (Identity and Access Management)
 - **Aspect Name 2:** Profile Management
@@ -4932,6 +4929,7 @@ Mauricio señaló que la información mostrada fue precisa durante la prueba, au
 **Tiempo en el video:**
 
 ----------
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 ## 6.4. Video About-the-Product
