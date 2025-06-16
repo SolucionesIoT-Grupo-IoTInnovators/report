@@ -86,7 +86,7 @@
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas, Diagramas de Arquitectura de Software y de arquitectura de los bounded contexts.
 - **Diaz Silva, Fernando Josué:** He colaborado con la creacion del event storming con cada uno de sus puntos en miro y luego pasado a este informe, ademas ayude con la creacion de Context Mapping.
 - **Godoy, Johan Príncipe:** Para esta entrega, realicé la creación de los diagramas de clase y base de datos de los bounded contexts, así como la creación de los diagramas de arquitectura de software.
-- **Tafur Gonzales, Josty Gerardo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Tafur Gonzales, Josty Gerardo:** En esta entrega colabore en desarrollar el Lean Ux Process, identificar el Lenguaje Ubicuo y desarrollar los mapas To-Be y de Impacto.
 - **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
@@ -100,7 +100,7 @@
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
-- **Tafur Gonzales, Josty Gerardo:**
+- **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil y su respectivo prototipado. 
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
@@ -109,12 +109,12 @@
 
 #### TB2:
 **Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramam de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
+- **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramas de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
 - **Castilla Pachas, César Antonio:**
 - **Cortés Casas, Joaquin Marcelo:**
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
-- **Tafur Gonzales, Josty Gerardo:**
+- **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application.
 - **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
@@ -391,6 +391,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Aporté al liderazgo grupal incentivando la responsabilidad de cada miembro, facilitando la organización y promoviendo la coordinación entre nosotros. Siempre estuve dispuesto a escuchar y guiar en caso de dificultades.
         <br><br>
         TB2:<br>
+        El equipo estableció roles rotativos de liderazgo en las reuniones, permitiendo que cada integrante coordinara la planificación de sprints y facilitara la toma de decisiones colectivas. Esto reforzó la responsabilidad compartida y garantizó que las ideas de todos fueran valoradas.
         <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
@@ -472,6 +473,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Apoyé en mantener un entorno de trabajo positivo, en el que la inclusión y el cumplimiento de objetivos fueron prioritarios. Promoví la participación activa y equitativa de todos.
         <br><br>
         TB2:<br>
+        El equipo definió metas semanales claras, asignando tareas según las fortalezas de cada miembro. Este proceso transparente permitió que todos conocieran el progreso global y contribuyeran activamente al cumplimiento de hitos.
         <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
