@@ -4406,8 +4406,8 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 | Sprint # | Sprint 2 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 00/00/2025 |
-| **Time** | 00:00 horas (GMT-5) |
+| **Date** | 02/06/2025 |
+| **Time** | 07:00 horas (GMT-5) |
 | **Location** |  |
 | **Prepared By** | IoT Innovators |
 | **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
@@ -4428,14 +4428,7 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 
 **Sum of Story Points**
 
-** Story Points en total**, agrupando las siguientes historias de usuario:
-
-| ID | Historia de Usuario |
-|----|---------------------|
-|    |                     |
-|    |                     |
-|    |                     |
-|    |                     |
+** Story Points en total**
 
 #### 6.2.2.2. Aspect Leaders and Collaborators
 Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
@@ -4508,15 +4501,150 @@ Los avances específicos son:
 
 - **Web Services:**
 
-- **Edge Application:**
+- **Embedded Application:**
 
-|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
-| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
-|                          |                            |                                          |                                                                                      |                     |                    |
-|                          |                            |                                          |                                                                                      |                     |                    |
-|                          |                            |                                          |                                                                                      |                     |                    |
-|                          |                            |                                          |                                                                                      |                     |                    |
-
+|        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
+| :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-frontend   |           develop          | 808adaa721a00f31f6d53d8ddd027ea4a65d6dc5 | refactor: enhance i18n for parking spot viewer component                                                        |                     |     14/06/2025     |
+|   smartparking-frontend   |           develop          | f1bf9109eecd00d6fd520a00d2ff86844b8331cb | feature: add Excel export functionality to reservations data table                                              |                     |     14/06/2025     |
+|   smartparking-frontend   |           develop          | 8568c3ec2f6095867d82dc7513a742ff265ca121 | feature: add CSV export functionality to reservations data table                                                |                     |     14/06/2025     |
+| smart_parking_edge_server |           develop          | f20464492db2e84fb40c3bd6ce0f7e83f0427d6b | feat: implement backend API client and edge server management                                                   |                     |     14/06/2025     |
+|   smartparking-backend    | feature/device-management  | 7626e0fc2ee253f28e5387e6dd303f76ab89d91e | feat(device-management): enhance device and edge server commands with new attributes and update methods         |                     |     14/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 180ba12cf86403b808fc4798c3c767fe8cfa4d26 | refactor: enhance i18n for parking card component                                                               |                     |     13/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 213ddfeb7a20d720850ed8702c7f8ec74c4ec991 | refactor: enhance i18n for parking creation and edit components                                                 |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| d54c1709d9358cabaf6af097d63600d936703954 | refactor: enhance i18n for average duration chart component                                                     |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| e65d0e8d42098c6ee98fa8a8b01c8f7a0dcec468 | refactor: enhance i18n for monthly income chart component                                                       |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| d070652c6b9754a12c588936817db06b6e36f62c | refactor: enhance i18n for daily usage chart component                                                          |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 252a1580a79f1699056ce86ab5fbe14c032bbe02 | refactor: enhance i18n for hourly usage chart                                                                   |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 5ccc877396f23f5400886a3508aff6c3e16a760c | refactor: enhance i18n for reservation form and data table                                                      |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 0725b849f87db939bd1cd58879e308d3476d41d4 | refactor: enhance i18n for owner card edit component                                                            |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 4ff94188cbbfadbbeb55f41b0e084f20e97d3594 | refactor: update i18n for toolbar items in auth and parking management layouts                                  |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 7c2f3ccd08e7cde37c53eb7bbbfbc3fc2e168757 | refactor: update i18n for Parking Spot Poup                                                                     |                     |     11/06/2025     |
+|   smartparking-backend    | feature/device-management  | c080a228e05d2a0235a8335521de04eed15bb4e2 | feat(device-management): create device management bounded context.                                              |                     |     11/06/2025     |
+|    smartparking-mobile    |    feature/notifications   | 59352a0d9393aab719b3e9d7cf51ba64b5f531b3 | feat(notification): update config notifications                                                                 |                     |     10/06/2025     |
+| smart_parking_edge_server |           develop          | 517665b13bb7b8e595ec07d83e939bb33389df4c | feat(repositories): update test device ID in get_or_create_test_device function                                 |                     |     10/06/2025     |
+| smart_parking_edge_server |           develop          | 85b40052174665ff2d6ea23ba3a7543b9a521c6c | feat: initialize database and register APIs on first request                                                    |                     |     10/06/2025     |
+|    smartparking-mobile    |    feature/notifications   | 7041347732302b000d8f1d0f4c008166cd00661a | feat(notification): add config notifications                                                                    |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 4a93ac89e909022869c195ee242ef956fd4ce6b7 | feat(parking-spot): add API endpoint for creating parking spots                                                 |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 7a53b40a5d0a71837147a49ad830ac0b828b4d9e | feat(parking-spot): implement ParkingSpotApplicationService for managing parking spots                          |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 131d4bde5a1f3083cb88970068ed4f854cfd9ad2 | feat(parking-spot): implement ParkingSpot model and repository for data management                              |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 86ff9cfc02eac7d67813bc2b49a361e9d8fd7915 | feat(parking-spot): validate device ID and MAC address in ParkingSpot creation                                  |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 320edeca477c1af15d916c5f5cb45b28d0aa69d0 | feat(parking-spot): add ParkingSpot and ParkingSpotService for managing parking spots                           |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | 4e27ee9d593e805fd47784c5f106dd12d741120b | feat(iam): add IAM API blueprint and authentication request handler                                             |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | 732f89c1043f76ee43d12dec461f951e31ce7f64 | feat(iam): add AuthApplicationService for device authentication and management                                  |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | ae9ff48e685de9334da55ec1b026f257b4a5d2dc | feat(iam): implement Device model and repository for device management                                          |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | 5f8623ff11f5a5f07584c2f6fcdfb257c82f5c18 | feat(iam): add Device class and AuthService for device authentication                                           |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | a01c654110750e164d514953baacde55f0974afc | feat(notifications): add update files                                                                           |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 861a3b5d9ab56294176ba69eddf1328c0152fc6e | feat(notifications): add controller Notifications                                                               |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | d2abc4102d91d56570fa346c3592935e5dacb06f | feat(notifications): add repository and service Notifications                                                   |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 50f740d197b7163b9416eb154fdd421f7f75ba8b | feat(notifications): add model Notification                                                                     |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | bba84b4d3621354153ea76031a85d9ba77cef04b | feat(notifications): add FirebaseConfig                                                                         |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 9f88dfee3ff8178fa51912152c7ba3b154f4f211 | feat(notifications): add dependencies                                                                           |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| e905c778b008cd4e82f210fef162a896d2777f8d | refactor: enhance i18n for Reservation Data                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| a5daa7def08b530f38fbc1ddbff2e191a22519e6 | refactor: update i18n for sidebar navigation                                                                    |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| f9b58d40f63d9bb5f265734870b7b8888020043b | refactor: update i18n for Parking Home page                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 905e366218943a193e5c897b4d3f881ef6123ecf | refactor: update i18n for Parking Summary Card                                                                  |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 25e408fed36b2b749bc54218bad6c002b3f68079 | refactor: update i18n for Parking List page                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 4b137c6561b75dc89ba5a5986578403a8f27ae8c | feat: save Preferred Language in memory                                                                         |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| f94e44ab6c736e9bffe24562ccfd657164a2dec5 | refactor: update i18n for Sign Up page                                                                          |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 5bf0e689817a584bd36000ee29349065c915fb7a | refactor: update i18n for Sign In Page                                                                          |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| b8229f11e3223de2098d5633d3469823d9630f7a | style: change Title postion                                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | ec201b7d6aed63564a97cd9399a1e426eb271daa | fix: add full width to Password Inputs                                                                          |                     |     04/06/2025     |
+|    smartparking-mobile    |           master           | 1db64db293fef80d7b251462bbc6bf703c08a615 | feat(reservations): add reservations screen with tab navigation and loading states                              |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | e3ea3be2a454cc44acd2ed0f833aae29c020c254 | feat(parking): integrate bottom navigation bar and add reservation fetching method                              |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | 6c12e5620c9b2a6339b23058c63e6281bcfb93bd | feat: add navigator bar                                                                                         |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | fd364c262b196051b2c00a6371f6c3e91b47cb6e | feat(reservation): add spotLabel to reservation entity and update related components                            |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | 55c1e57755e08a4b93c122d11e64d9a7b4cc1da4 | feat(http): add getById method for fetching resource by ID                                                      |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | 5664169b8776114323057ab1c9cd45c48421471f | feat(navigation): add routes for login, reservation payment, and reservations screen                            |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/payment      | 390ec375f52988741eb3e5d3270992eebbc4bbc2 | feat(payments): implement payment creation for reservations and subscriptions                                   |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/payment      | cbafc8ab5673dadb58e945906bdafd2b5e796fb7 | feat(reservations): add spot label retrieval and update reservation creation                                    |                     |     03/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | f9c132e537140e08a3a88c3650ac71411dff164a | style: fix Parking Spot dsiplay                                                                                 |                     |     02/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | dab5471763da03186f708f407d3937d78cfa2f4e | style: add Responsivity to Header                                                                               |                     |     02/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | fdf67a96d9a8aaa5eb608683e9e893ebcb8aa7b1 | style: configure Button Size on toolbar                                                                         |                     |     02/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 14ac39f16018519d9be7f5707743bfe0236ba906 | style: fix display of title                                                                                     |                     |     02/06/2025     |
+|    smartparking-mobile    |           master           | 803ce61dd8a95a4fa43b5180c6570946c49a8e7e | feat(parking): add snackbar notifications for occupied and reserved parking spots                               |                     |     29/05/2025     |
+|    smartparking-mobile    |           master           | 028d92bcbcda5f824199d8a8221c09598e0ff73c | feat(reservation): enhance reservation process with success dialog and navigation to payment                    |                     |     29/05/2025     |
+|    smartparking-mobile    |           master           | 0f624536548c937bd9ab52cc3e63023fdef05320 | feat(reservation): add createReservationPayment method for processing payment requests                          |                     |     29/05/2025     |
+|    smartparking-mobile    |           master           | 2b933de475f84ecde80a9b7169a1023e09a60de0 | feat(dialog): add success dialog component with customizable message and actions                                |                     |     29/05/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 7a385ef83857874342e5b35b8d02a07a353c375c | fix: fix display of Parking Card Image                                                                          |                     |     28/05/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 7025eff033f4b720378597edc8ca639110dc9b34 | feat: add Icon                                                                                                  |                     |     28/05/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 0ea9f05a2ba74f27b5c3b97ddc22fb72ca078079 | fix: change Application Logo                                                                                    |                     |     28/05/2025     |
+|    smartparking-mobile    |           master           | 36baa2389bd3a612658b6fd7f1267f0f1c4a3c54 | feat(reservation): add parking reservation page with time selection and spot reservation functionality          |                     |     27/05/2025     |
+|    smartparking-mobile    |           master           | 51e3447e9de74f62850984057d42641577549a56 | feat(reservation): implement parking reservation page with time selection and spot reservation functionality    |                     |     27/05/2025     |
+|    smartparking-mobile    |           master           | 3b7a7330c0778be3ed7ac2090ab2b003f480350c | feat(parking-card): add navigation to reservation page on button press                                          |                     |     27/05/2025     |
+|    smartparking-mobile    |           master           | f11f025148fcf272c6b3a55eda12e10541cd29de | feat(parking-card): enhance UI with scrollable layout and add favorite functionality                            |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | defa60f5d3ee93151934c96072b0f2ff8d5efefe | fix(log-in): remove unused import for parking card component                                                    |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | 81d6c6509b59b40a62691bcece9558abb54d2eda | feat(parking): add method to fetch parking spots by parking ID                                                  |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | 124fcee5d4896d16be32271bd5660536a5313840 | fix(log-in): update logo asset path and adjust image fit                                                        |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | a06567d0ecb2e1cc601200d9f00810565b1792ab | feat(assets): add SmartParking logo JPEG asset.                                                                 |                     |     26/05/2025     |
+|   smartparking-frontend   |           master           | f078027a28e83e899aab39432a2bc81e457a7f40 | fix: problem in package.json.                                                                                   |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 1feb2875cfb8947a8de0ee4da1b286df33658553 | chore: update responsiveness in review card.                                                                    |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | af9fe0c75969108f674942fc122c29bccbd2f10d | fix: behavior of address input.                                                                                 |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 2c1534e1d991b23465ef426700d43a9672b0b8f6 | fix: change layout in parking registration.                                                                     |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | bb79b1e1c2ab1da51c37b9f1fa20942e941e44b7 | feat: add user profile.                                                                                         |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 32685ac3579b3b72ac1801dae14b37997e4ec2e1 | feat: add parking profile link to sidenav component.                                                            |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | f260e83157b0c51a6467de923ec759e09193e070 | feat: add parking profile component.                                                                            |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 706d2e2731f48dd8dcad0127ff9cb57570aa4144 | feat: add dashboard component to router index.                                                                  |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 5d93f0c6da7f55203d6c22b256c3d6ae14883ff9 | feaat(dashboard): add dashboard page and chart components.                                                      |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 63f8dffe427a35f22f760514ca259cfcb71159b6 | chore: change document background color.                                                                        |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | eebdc6859e77476b671b488ff4373514ce209bae | feat: add chart.js from primevue.                                                                               |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 70680c12545eeaa032bfb5a2a6a3c1341a5e3345 | chore: improve responsiveness in components.                                                                    |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | c25fbdefba84f4fa07c2b85054c40fbbf8606fc1 | feat: improve behavior when creatin a reservation successfully.                                                 |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 0ab4d035a88b8cfd7ab51ebf55c20679ff9e2231 | fix: resolving bugs.                                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | a843208d2f404e796d29ab2e51beefa82b45f378 | chore: change parking image in card.                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 206cb3e81b0c5d987548f7bf4a21b8f898ac6e45 | fix: resolving bugs.                                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | bf2d3b823580e5f7def3ef5dea41a42182fd0731 | feat: fix small bugs.                                                                                           |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | d67ba0ea6a95919ee99dae7790bec410f63df912 | feat: small change in behavior when creating a reservation successfully.                                        |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 66f8b4aeb87f13f9208a6ea9a3d774ca788f80b8 | fix: add missing char.                                                                                          |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 85b73a6502ae8466a1eca8284343d5102bf7375d | feat: add sign-up route to auth guard.                                                                          |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 2490e932bc5bbe9f42e7659da4b82081a022e307 | feat: add reservation form dialog.                                                                              |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | b98a5c2d8987bfa3587881a871bae3bcb0ccca16 | feat: add inputmask component from primevue.                                                                    |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 564901bd4556cf7e6d8d5b50ede01d1936fddf2d | feat: add i18n locales json.                                                                                    |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 18c3d5251352882009f3966f19545586cb0103ba | feat: add i18n to parking design.                                                                               |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | c92f4a86434cdae3088e21110daa9fa4d5ec2739 | feat: add i18n to address picker component.                                                                     |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | d62577de3dee00029cb016defecefbec82edd942 | feat: add i18n to parking register component.                                                                   |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | ec4b3dc0f33733d7b5ff7e14d52501ec98d82964 | feat: add i18n to reviews feed component.                                                                       |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 75557e1943d4100fad72116ffcfa57ff73a49b2a | chore: improve responsiveness for grid system in review list component.                                         |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 5f196cc7cfadad8c08b20c1dd05c4ea9c39d4fd8 | feat: add i18n to reservation table component.                                                                  |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 06259464c1364dc9104965307d6bad69a9e857e2 | feat: add i18n to sidenav component.                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 9551447c7a12489e983262b4200151c3c5f49ecc | feat: add i18n to home page.                                                                                    |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | c80c1a55c0179a29c764fc46bc731986687af93f | feat: add i18n to parking spot viewer component.                                                                |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 6c24a2534cc934a340fe93822ff55fc93a5f129c | feat: add i18n to parking summary card.                                                                         |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | c364a800f585c817f50b7055e19f33fc94c1b812 | feat: add i18n to toolbar.                                                                                      |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 1de49492aaf8306a4daacb9ad18a2f18e55ab3b7 | chore: fix value of rating in parking card.                                                                     |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | bfcdc7e56b11a09a76a0eb6c2267f738f840f699 | feat: add style to language switcher.                                                                           |                     |     12/05/2025     |
+|   smartparking-backend    |       feature/reviews      | f88bb82aa8f760d4013c94b57a79cbd59281ce2e | fix: remove inncesary method and implement the update of attribute behavior.                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eeb34e8ade18e235b3b9be27731a73f1c9e9e3fe | feat(reviews): add review transform and resources types.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 05311974cac92f2b061ac41c0b84bb540f7b709c | feat(reviews): add review command and query service implementations.                                            |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | dd39bde6b2ebb2c82eff8b16e1eedce45259dc42 | feat(reviews): add communication to external services.                                                          |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | bd5b3485f291771eca015d703774c8b1d82bbd7c | feat(parking-management): add method to get parking name by its id.                                             |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | b1dad199602d093fe47cd092bbe3bc49e1a05ac9 | feat(reviews): add review repository.                                                                           |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 86c5b61b3cfc819821e9747cfec77725ab4ef246 | feat(reviews): add review command and query service contracts.                                                  |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | a6e0f2bfb9d0731b37bddbd42f37360ab26512fc | feat(reviews): add command to create review.                                                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 936df6213883dc48411a2bfa5d2f20b291889afc | feat(reviews): add review aggreate class.                                                                       |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 74065e0038ea758c36d5444d21ad51360d6341e5 | feat(reviews): add driverId and parkingId value objects.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eca925e6561b98d30fcb5d7bd28e8342215d846f | feat(parkings): add averageRating and ratingCount attributes to aggregate, and methods to update them in facade.|                     |     07/05/2025     |
+|   smartparking-backend    |           master           | e7609d51813d3476db7c25f8df38c7e7cd3e8200 | feat(reservations): add driver full name to reservation resource.                                               |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | 66e6e6655ced3f0c636b63237df85fcb69771c02 | feat(reservations): add acl communication to get driver full name.                                              |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | d7d54aaf394ea61b4371db5c9a7a764a8d8a74b5 | feat(reservations): add date attribute to reservation class aggregate.                                          |                     |     06/05/2025     |
+|    smartparking-mobile    |           master           |                                          | feat(iam): add SmartParking logo.                                                                               |                     |     05/05/2025     | 
+|   smartparking-backend    |           master           | 04c2ab1ab209f8195addc2f0cf30cde293de4249 | feat(reservations): implement parking acl.                                                                      |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 6b4daceeab463ff2db1d226b65da06df26232483 | feat(parking-management): add anti-corruption layer.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | d7e534beaf36f3be5ccc2078b600fbb5a09603da | feat(parking-management): add queries and commands.                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 65d44e7d5806f967e2d584e5ca5f33218fa12eca | feat(reservations): add reservation inbound service.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | da3e5d156ce7fc3109b13b4ef752e4e97cf0ae7f | feat(reservations): add reservation interface layer resource and transform types.                               |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 66fcdc441dfc8847e64e7c395199440aa8f26087 | feat(reservations): add reservation command and query service implementations.                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 33de4c0aa0f3e76539645e3603d16a340e5e2422 | feat(reservations): add reservation outbound service.                                                           |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | f772e6aa8e157eb94922fb3d9fae7eecadcc2d4e | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 38f4e966c3392bcc6aab65f246a861610c12343f | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 17dde74cc9d515a1c622de939fa58a626fe3f091 | feat(reservations): add reservation value objects.                                                              |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 2b8ffccf7858511458def0d7fe5ba48c122cb27a | feat(reservations): add reservation aggregate.                                                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: few changes.                                                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: change operation summary for parking owner and driver registration.                                      |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | 2a8a74c7a3984fd86754678ba1eab125e82ba257 | chore: add get parking by id query, and add latitude and longitude attributes of parking.                       |                     |     17/04/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 5fbf592e95b044923baf23cdee29b7106b503637 | feat:creation of bounded context iam and profile with DDD approach                                              |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
+|   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 |        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
@@ -4545,9 +4673,9 @@ Se trabajó en :
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-1.png)
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-2.png)
 
-**Edge Application:**
-![Vista implementada en Sprint 2 - Edge App](ChapterVI-images/Sprint2/EdgeApp/ExecutionEvidenceScreenshot-1.png)
-![Vista implementada en Sprint 2 - Edge App](ChapterVI-images/Sprint2/EdgeApp/ExecutionEvidenceScreenshot-2.png)
+**Embedded Application:**
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-2.png)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 <!--TO DO:
@@ -4602,11 +4730,11 @@ Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacc
 ![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence3.jpg)
 ![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence4.jpg)
 
-**Edge Application:**
-![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence1.jpg)
-![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence2.jpg)
-![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence3.jpg)
-![Proceso de despliegue en Sprint 1 - Edge App](ChapterVI-images/Sprint2/EdgeApp/SoftwareDeploymentEvidence4.jpg)
+**Embedded Application:**
+![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence1.jpg)
+![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence2.jpg)
+![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence3.jpg)
+![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence4.jpg)
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 **Landing Page**
@@ -4625,9 +4753,9 @@ Adicionalmente, debe incluirse y explicarse capturas en imágenes de la interacc
 ![Analiticos de Colaboracion: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Analytics.png)
 ![Commits: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Commits.png)
 
-**Edge Application:**
-![Analiticos de Colaboracion: Edge App - Sprint 2](ChapterVI-images/Sprint2/EdgeApp/CollaborationInsights-Analytics.png)
-![Commits: Edge App - Sprint 2](ChapterVI-images/Sprint2/EdgeApp/CollaborationInsights-Commits.png)
+**Embedded Application:**
+![Analiticos de Colaboracion: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Analytics.png)
+![Commits: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Commits.png)
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
