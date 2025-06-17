@@ -4110,8 +4110,8 @@ En el siguiente sprint planning se definen las tareas y objetivos del primer spr
 | **Location** |  |
 | **Prepared By** | IoT Innovators |
 | **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 0 – 1 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
-| **Sprint 0 – 1 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
+| **Sprint 0 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
+| **Sprint 0 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
 
 **Sprint 1 Goal**
 
@@ -4460,7 +4460,6 @@ En esta iteración, se abordaron los siguientes aspectos clave:
 - **Aspect Name 8:** IoT Management
 - **Aspect Name 9:** Payment
 
-
 |           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 | Aspect Name 6 | Aspect Name 7 | Aspect Name 8 | Aspect Name 9 |
 |-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | Arroyo Ormeño, André Alonso   | anonimat0        |        L      |         L     |        C      |        C      |         C     |          C    |         C     |C|         C     |
@@ -4473,11 +4472,9 @@ En esta iteración, se abordaron los siguientes aspectos clave:
 
 
 #### 6.2.2.3. Sprint Backlog 2
-Durante este sprint, se trabajó en:
+Durante este sprint, se trabajó en desarrollar una nueva versión de los entregables pasados, añadiendo nuevas funcionalidades que acerquen nuestros productos al objetivo planteado al inicio del curso.
 
-La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
-
-https://trello.com/b/4jpMjzDd
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: https://trello.com/b/4jpMjzDd
 
 ![Captura de pantalla de Sprint 2 en Trello](ChapterVI-images/Sprint2/Sprint%20Backlog%202%20-%20Trello%20Board.png)
 
@@ -4508,18 +4505,30 @@ https://trello.com/b/4jpMjzDd
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 Los avances específicos son:
-- **Landing Page:**       
 
 - **Web Application:**
+  - Corrección de las funcionalidades responsive.
+  - Implementar el sistema de internacionalización mediante i18n.
 
 - **Mobile Application:**
+  - Creación de la aplicación móvil.
+  - Despliegue de mapa para encontrar estacionamiento.
+  - Implementación del sistema de reservas y notificaciones.
 
 - **Web Services:**
+  - Creación de la base de datos para las aplicaciones web y móvil.
+  - Creación del sistema de reservas.
+  - Creación del sistema de creación de parkings.
+  - Correción del sistema de creación de cuentas.
 
 - **Embedded Application:**
+  - Creación del modelo digital de los sensores ioT.
+  - Creación del servidor Edge.
+  - Conexion a la base de datos desplegada.
 
 |        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
 | :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 1ef38cd70771e8663d6b67a7bcea3a1ef82238a8 | feat(device-management): update device initialization and repository queries for edge server handling           |                     |     16/06/2025     |
 |   smartparking-frontend   |           develop          | 808adaa721a00f31f6d53d8ddd027ea4a65d6dc5 | refactor: enhance i18n for parking spot viewer component                                                        |                     |     14/06/2025     |
 |   smartparking-frontend   |           develop          | f1bf9109eecd00d6fd520a00d2ff86844b8331cb | feature: add Excel export functionality to reservations data table                                              |                     |     14/06/2025     |
 |   smartparking-frontend   |           develop          | 8568c3ec2f6095867d82dc7513a742ff265ca121 | feature: add CSV export functionality to reservations data table                                                |                     |     14/06/2025     |
@@ -4642,7 +4651,7 @@ Los avances específicos son:
 |   smartparking-backend    |           master           | e7609d51813d3476db7c25f8df38c7e7cd3e8200 | feat(reservations): add driver full name to reservation resource.                                               |                     |     07/05/2025     |
 |   smartparking-backend    |           master           | 66e6e6655ced3f0c636b63237df85fcb69771c02 | feat(reservations): add acl communication to get driver full name.                                              |                     |     07/05/2025     |
 |   smartparking-backend    |           master           | d7d54aaf394ea61b4371db5c9a7a764a8d8a74b5 | feat(reservations): add date attribute to reservation class aggregate.                                          |                     |     06/05/2025     |
-|    smartparking-mobile    |           master           |                                          | feat(iam): add SmartParking logo.                                                                               |                     |     05/05/2025     | 
+|    smartparking-mobile    |           master           | 07faf28dc0f98a2e11b7d9d6ab7571a2b8808fae | feat(iam): add SmartParking logo.                                                                               |                     |     05/05/2025     | 
 |   smartparking-backend    |           master           | 04c2ab1ab209f8195addc2f0cf30cde293de4249 | feat(reservations): implement parking acl.                                                                      |                     |     03/05/2025     |
 |   smartparking-backend    |           master           | 6b4daceeab463ff2db1d226b65da06df26232483 | feat(parking-management): add anti-corruption layer.                                                            |                     |     03/05/2025     |
 |   smartparking-backend    |           master           | d7e534beaf36f3be5ccc2078b600fbb5a09603da | feat(parking-management): add queries and commands.                                                             |                     |     03/05/2025     |
