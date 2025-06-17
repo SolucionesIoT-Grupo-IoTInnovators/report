@@ -99,7 +99,7 @@
 - **Castilla Pachas, César Antonio:** Trabaje en diseñar los Wireframe y mockups para la aplicacion web.
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
 - **Diaz Silva, Fernando Josué:** He colaborado en el diseño, desarrollo, despliegue e implementación de la Landing Page.
-- **Godoy, Johan Príncipe:**
+- **Godoy, Johan Príncipe:** Me dedique a diseñar la interfaz de creación de parkings para poder realizar el porceso de despliegue de la aplicación web.
 - **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil, su respectivo prototipado y realice entrevistas de recolección de requisitos. 
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
@@ -113,7 +113,7 @@
 - **Castilla Pachas, César Antonio:** Colabore en levantar las correcciones de los textos e imagenes de los entregables pasados e implementar el sistema de notificaciones en Firebase para las aplicaciones.
 - **Cortés Casas, Joaquin Marcelo:** Me encargue de realizar el registro y la edición de los videos de entrevistas de validacion y definir el Sprint Backlgo de esta entrega.
 - **Diaz Silva, Fernando Josué:** Pude realizar trabajos de desarrollo en el Sprint de esta entrega, garantizando el avance continuo.
-- **Godoy, Johan Príncipe:**
+- **Godoy, Johan Príncipe:** He realizado trabajos de mejora en cada una de las aplicaciones desarrolladas, garantizando su correcto despliegue y coherencia con el sprint Backlog.
 - **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application y el Edge Server.
 - **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
 
@@ -385,6 +385,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Ayudé a mantener un liderazgo compartido a través del apoyo constante a mis compañeros y la disposición para colaborar. Estuve presente en las decisiones importantes y promoví el equilibrio en la carga de trabajo grupal.
         <br><br>
         TB2:<br>
+        Al diseñar la arquitectura de los servicios IoT y la integración con la app móvil, se organizaron proceso de revisión de código y buenas prácticas. Esto fomento la transferencia de conocimiento y fortaleció las habilidades de liderazgo de cada participante.
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
@@ -470,6 +471,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Aporté a un entorno de colaboración constante, facilitando la comunicación y apoyando a mis compañeros en todo momento. Fomenté el respeto mutuo y la planificación grupal para cumplir nuestras metas.
         <br><br>
         TB2:<br>
+        Para la integración de los sensores IoT, el equipo evaluo el desarrollo para mantener objetivos realistas. De esta manera, se cumplió el objetivo de tener una versión candidata lista para pruebas antes del siguiente sprint.
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
