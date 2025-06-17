@@ -111,7 +111,7 @@
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramas de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
 - **Castilla Pachas, César Antonio:** Colabore en levantar las correcciones de los textos e imagenes de los entregables pasados e implementar el sistema de notificaciones en Firebase para las aplicaciones.
-- **Cortés Casas, Joaquin Marcelo:**
+- **Cortés Casas, Joaquin Marcelo:** Me encargue de realizar el registro y la edición de los videos de entrevistas de validacion y definir el Sprint Backlgo de esta entrega.
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
 - **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application y el Edge Server.
@@ -365,6 +365,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Impulsé el liderazgo colaborativo coordinando instancias de validación y asegurándome de que todas las voces fueran escuchadas. Mi enfoque estuvo centrado en fortalecer el trabajo colectivo y mantener la cohesión del grupo.
         <br><br>
         TB2:<br>
+        Se implementó un trabajo de guia conjunta sobre la incorporación y revisión de tareas. Esto promovió un liderazgo distribuido, aceleró la curva de aprendizaje y fortaleció el sentido de pertenencia.
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
@@ -448,6 +449,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Favorecí un entorno colaborativo al coordinar el cumplimiento de metas grupales y fomentar la planificación conjunta de tareas. Me aseguré de que todos los integrantes pudieran involucrarse activamente en el trabajo.
         <br><br>
         TB2:<br>
+        Se mantuvo un canal de comunicación continua, donde cualquier idea era bienvenida. Gracias a esto, se rediseñaron conjuntamente las historias de usuario y se ajustaron las prioridades de backlog de forma colaborativan.
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
