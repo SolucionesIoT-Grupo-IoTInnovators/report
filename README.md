@@ -414,6 +414,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Logramos mantener un liderazgo compartido en el grupo, en el que todos los integrantes participaron activamente en la toma de decisiones, la organización de actividades y el apoyo entre pares. Esta dinámica fortaleció nuestras capacidades para liderar en conjunto y nos permitió avanzar de forma cohesionada hacia los objetivos del entregable.
         <br><br>
         TB2:<br>
+        Se trabajó de forma conjunta con la revisión y mejora de los diagramas, coordinando sesiones grupales para consensuar cambios y garantizar su coherencia con los requerimientos técnicos. Asimismo, se organizaron reuniones de revisión de código y votaciones colaborativas en el diseño de los productos, garantizando que cada propuesta respondiera a las necesidades de los usuarios. Finalmente, se planificaron los objetivos de lanzamiento y se evaluaron continuamente las aplicaciones en desarrollo, permitiendo la obtención de resultados sólidos y alineados con la visión inicial.
       </td>
     </tr>
     <!--Segundo Criterio-->
@@ -486,7 +487,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
         TB1:<br>
-        Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br>
+        Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br><br>
         TP:<br>
         Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.<br><br>
         TB2:<br>
@@ -500,7 +501,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TP:<br>
         Logramos mantener un entorno colaborativo e inclusivo, donde todos los integrantes participaron activamente en la planificación y cumplimiento de las metas establecidas. Se promovió el respeto, la escucha activa y la equidad en la participación, permitiendo un desarrollo armónico y efectivo del trabajo en equipo.
         <br><br>
-        TB2:<br><br>
+        TB2:<br>
+        Se promovió un entorno inclusivo mediante reuniones de revisión abiertas en las que se aportaron ajustes a los diagramas de componentes. Se coordinó la planificación de la documentación y el despliegue, asignando objetivos individuales y globales traducidos en actividades conjuntas y metas semanales alineadas con las fortalezas de cada miembro. Se mantuvo un canal de comunicación constante que permitió la reestructuración colaborativa de las historias de usuario y la priorización dinámica del backlog. Además, se llevaron a cabo entrevistas de validación con usuarios reales para definir acciones correctivas.
       </td>
     </tr>
   </table>
