@@ -98,7 +98,7 @@
 - **Arroyo Ormeño, André Alonso:** He contribuido en la creacion de los wireframes y mockups de la aplicacion web y la creacion de technical stories para el backend.
 - **Castilla Pachas, César Antonio:** Trabaje en diseñar los Wireframe y mockups para la aplicacion web.
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
-- **Diaz Silva, Fernando Josué:**
+- **Diaz Silva, Fernando Josué:** He colaborado en el diseño, desarrollo, despliegue e implementación de la Landing Page.
 - **Godoy, Johan Príncipe:**
 - **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil, su respectivo prototipado y realice entrevistas de recolección de requisitos. 
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
@@ -112,7 +112,7 @@
 - **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramas de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
 - **Castilla Pachas, César Antonio:** Colabore en levantar las correcciones de los textos e imagenes de los entregables pasados e implementar el sistema de notificaciones en Firebase para las aplicaciones.
 - **Cortés Casas, Joaquin Marcelo:** Me encargue de realizar el registro y la edición de los videos de entrevistas de validacion y definir el Sprint Backlgo de esta entrega.
-- **Diaz Silva, Fernando Josué:**
+- **Diaz Silva, Fernando Josué:** Pude realizar trabajos de desarrollo en el Sprint de esta entrega, garantizando el avance continuo.
 - **Godoy, Johan Príncipe:**
 - **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application y el Edge Server.
 - **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
@@ -375,6 +375,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Mantuve una actitud proactiva en las coordinaciones grupales, promoviendo el diálogo y la toma de decisiones compartidas. Apoyé a mis compañeros cuando surgían dudas y propicié un ambiente donde todos pudieran aportar al desarrollo conjunto.
         <br><br>
         TB2:<br>
+        Para la elaboración de la landing page, el equipo tomo decisiones de manera conjunta. Cada propuesta de esquema UI fue votada y iterada, asegurando un producto final alineado con las necesidades de los usuarios.
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
@@ -459,6 +460,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Establecí un ambiente de trabajo ordenado y respetuoso, impulsando la colaboración continua y el cumplimiento de las tareas acordadas. Promoví el trabajo en equipo de forma equitativa y comprometida.
         <br><br>
         TB2:<br>
+        Con las primeras versiones de los productos, se organizaron las entrevistas de validación, donde usuarios reales validaron el trabajo realizado. Este enfoque identificó mejoras de usabilidad y permitió planificar acciones correctivas, cumpliendo con los cronogramas establecidos.
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
