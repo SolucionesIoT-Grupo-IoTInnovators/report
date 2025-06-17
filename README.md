@@ -96,11 +96,11 @@
 #### TP:
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** He contribuido en la creacion de los wireframes y mockups de la aplicacion web y la creacion de technical stories para el backend.
-- **Castilla Pachas, César Antonio:**
+- **Castilla Pachas, César Antonio:** Trabaje en diseñar los Wireframe y mockups para la aplicacion web.
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
-- **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil y su respectivo prototipado. 
+- **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil, su respectivo prototipado y realice entrevistas de recolección de requisitos. 
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
@@ -110,11 +110,11 @@
 #### TB2:
 **Descripción de las actividades realizadas:**
 - **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramas de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
-- **Castilla Pachas, César Antonio:**
+- **Castilla Pachas, César Antonio:** Colabore en levantar las correcciones de los textos e imagenes de los entregables pasados e implementar el sistema de notificaciones en Firebase para las aplicaciones.
 - **Cortés Casas, Joaquin Marcelo:**
 - **Diaz Silva, Fernando Josué:**
 - **Godoy, Johan Príncipe:**
-- **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application.
+- **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application y el Edge Server.
 - **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
@@ -355,6 +355,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En esta entrega me involucré en las coordinaciones grupales para asegurar el cumplimiento de los entregables. Participé activamente en la validación del diseño de los wireflows y propuse mejoras basadas en los user stories. También ayudé a consolidar los insumos desarrollados por el grupo para integrar el documento final, promoviendo el orden y la claridad del contenido.
         <br><br>
         TB2:<br>
+        En la planificación del despliegue, el equipo celebró sesiones para definir objetivos de lanzamiento. Cada integrante lideró una tarea, consolidando un liderazgo compartido en todas las áreas críticas.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -437,6 +438,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Aporté a la planificación del trabajo colaborativo definiendo fechas para revisar avances internos antes de cada entrega. Apoyé la integración de los diagramas en Figma y el orden de los flujos en base a los objetivos de cada user persona. Además, brindé ayuda a mis compañeros cuando tenían dificultades técnicas con Figma o estructuración del documento, promoviendo así un entorno de ayuda mutua.
         <br><br>
         TB2:<br>
+        Previa la última entrega, se planificaron tareas de documentación y despliegue. Cada integrante se comprometió con objetivos individuales y globales, planificando actividades conjuntas para cumplir con la entrega.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
