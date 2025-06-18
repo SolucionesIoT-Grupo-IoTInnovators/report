@@ -4462,13 +4462,13 @@ En esta iteración, se abordaron los siguientes aspectos clave:
 
 |           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 | Aspect Name 6 | Aspect Name 7 | Aspect Name 8 | Aspect Name 9 |
 |-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Arroyo Ormeño, André Alonso   | anonimat0        |        L      |         L     |        C      |        C      |         C     |          C    |         C     |C|         C     |
-| Castilla Pachas, César Antonio| CesarrAnn        |        C      |         C     |        C      |        C      |         C     |          C    |         L     |C|         C     |
-| Cortés Casas, Joaquin Marcelo | U202114545       |        C      |         C     |        C      |        C      |         L     |          C    |         C     |C|         L     |
-| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |        C      |         C     |        C      |        C      |         C     |          L    |         C     |C|         C     |
-| Godoy, Johan Príncipe         | JP19-03          |        C      |         C     |        L      |        C      |         C     |          C    |         C     |C|         C     |
-| Tafur Gonzales, Josty Gerardo | JostyTafur       |         C      |         C     |        C      |        C      |         C     |          C    |         C     |L|         C     |
-| Zarate Caceres, Victor        | ern23zc          |        C      |         C     |        C      |        L      |         C     |          C    |         C     |C|         C     |
+| Arroyo Ormeño, André Alonso   | anonimat0        |        L      |         L     |        C      |        C      |       C       |       C       |       C       |       C       |       C       |
+| Castilla Pachas, César Antonio| CesarrAnn        |        C      |         C     |        C      |        C      |       C       |       C       |       L       |       C       |       C       |
+| Cortés Casas, Joaquin Marcelo | U202114545       |        C      |         C     |        C      |        C      |       L       |       C       |       C       |       C       |       L       |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |        C      |         C     |        C      |        C      |       C       |       L       |       C       |       C       |       C       |
+| Godoy, Johan Príncipe         | JP19-03          |        C      |         C     |        L      |        C      |       C       |       C       |       C       |       C       |       C       |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |        C      |         C     |        C      |        C      |       C       |       C       |       C       |       L       |       C       |
+| Zarate Caceres, Victor        | ern23zc          |        C      |         C     |        C      |        L      |       C       |       C       |       C       |       C       |       C       |
 
 
 #### 6.2.2.3. Sprint Backlog 2
@@ -4523,8 +4523,10 @@ Los avances específicos son:
 
 - **Embedded Application:**
   - Creación del modelo digital de los sensores ioT.
-  - Creación del servidor Edge.
   - Conexion a la base de datos desplegada.
+
+- **Edge Server:**
+  - Creación y despliegue del Edge Server.
 
 |        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
 | :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
@@ -4717,6 +4719,10 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 ![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-1.png)
 ![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-2.png)
 
+**Edge Server:**
+![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/ExecutionEvidenceScreenshot-2.png)
+
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
 - **Link de Web services deplegados:**
@@ -4867,11 +4873,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 ![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence3.jpg)
 ![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence4.jpg)
 
-#### 6.2.2.9. Team Collaboration Insights during Sprint
-**Landing Page**
-![Analiticos de Colaboracion: Landing Page - Sprint 2](ChapterVI-images/Sprint2/Landing/CollaborationInsights-Analytics.png)
-![Commits: Landing Page - Sprint 2](ChapterVI-images/Sprint2/Landing/CollaborationInsights-Commits.png)
+**Edge Server:**
+![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence1.jpg)
+![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence2.jpg)
+![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence3.jpg)
+![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence4.jpg)
 
+#### 6.2.2.9. Team Collaboration Insights during Sprint
 **Web Application**
 ![Analiticos de Colaboracion: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Analytics.png)
 ![Commits: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Commits.png)
@@ -4887,6 +4895,10 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 **Embedded Application:**
 ![Analiticos de Colaboracion: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Analytics.png)
 ![Commits: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Commits.png)
+
+**Edge Server:**
+![Analiticos de Colaboracion: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Analytics.png)
+![Commits: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Commits.png)
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
