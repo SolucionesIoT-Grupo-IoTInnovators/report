@@ -4679,15 +4679,29 @@ Los avances específicos son:
 |                          |                            |                                          |                                                                                      |                     |                    |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
-Se trabajó en :
+En el caso de la Web Application, se trabajo en mejorar los aspectos del entregable pasado, complementando los errores cometido y completando la conexión con los Web Services.
 
-**Landing Page:**
-![Vista implementada en Sprint 2 - Landing Page](ChapterVI-images/Sprint2/Landing/ExecutionEvidenceScreenshot-1.png)
-![Vista implementada en Sprint 2 - Landing Page](ChapterVI-images/Sprint2/Landing/ExecutionEvidenceScreenshot-2.png)  
+Tanto para los Web Services, la Mobile Application y la Embedded Application se trabajo en implementar las primeras versiones funcionales, para ser puestas a prueba frente a los usuarios y recibir feedback de primera mano que no spermita perfeccionar los productos previa la entrega final.
 
 **Web Application:**
+- Mejora de pantalla Sign In
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-1.png)
+
+- Mejora de pantalla Sign Up
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-2.png)
+
+- Mejora de Toolbar Superior
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-3.png)
+
+- Creación de tabla de reservas y boton de exportación
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-4.png)
+
+- Pantalla de creación de Parking
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-5.png)
+
+- Pantalla de gestión de Parking
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-6.png)
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-7.png)
 
 **Mobile Application:**
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-1.png)
@@ -4696,6 +4710,8 @@ Se trabajó en :
 **Web Services:**
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-1.png)
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-4.png)
 
 **Embedded Application:**
 ![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-1.png)
