@@ -5078,15 +5078,15 @@ Medio de aplicación
 ##### **Segmento 1**
 ###### Entrevista 1
 
-**Nombre:** 
+**Nombre:** Jhon Gutierrez Lopez
 **Edad:** 
 **Distrito:** 
 
->
+aa
 
 ![Entrevista 1](./ChapterVI-images/Segmento1-Interview1.png)
 
-**Tiempo en el video:**
+**Tiempo en el video: 0:00:03**
 
 ----------
 
@@ -5107,26 +5107,38 @@ En términos generales, el usuario considera que la aplicación ha mejorado sign
 
 ![Entrevista 2](./ChapterVI-images/Segmento1-Interview2.png)
 
-**Tiempo en el video:**
+**Tiempo en el video: 0:21:04**
 
 ----------
 
 ###### Entrevista 3
 
-**Nombre:** 
-**Edad:** 
-**Distrito:** 
+**Nombre:** Jose Contreras
 
->
+>a
 
 ![Entrevista 3](./ChapterVI-images/Segmento1-Interview3.png)
 
-**Tiempo en el video:**
+**Tiempo en el video: 0:33:05**
+
+----------
+
+###### Entrevista 4
+
+**Nombre:** Armando Arturo Navarrete Caballero 
+**Edad:** 59 años
+**Distrito:**  San Isidro
+
+>a
+
+![Entrevista 3](./ChapterVI-images/Segmento1-Interview3.png)
+
+**Tiempo en el video:** 0:44:52
 
 ----------
 
 ##### **Segmento 2**
-###### Entrevista 1
+###### Entrevista 5
 
 **Nombre:** Mauricio Oliveira Paucar 
 **Edad:** 25 años
@@ -5141,35 +5153,21 @@ Mauricio señaló que la información mostrada fue precisa durante la prueba, au
 
 ![Mauricio Driver-Interview](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/fa2290a26154a8b01000b08fcad9f2444e1399d3/ChapterVI-images/validation-interview/app-movil-mauricio.png?raw=true)
 
-**Tiempo en el video:**
+**Tiempo en el video:** 0:58:39
 
 ----------
 
-###### Entrevista 2
+###### Entrevista 6
 
-**Nombre:** 
-**Edad:** 
-**Distrito:** 
+**Nombre:** Rocio Maria Casas Lucich
+**Edad:** 49 años 
+**Distrito:** San Isidro 
 
->
+a
 
 ![Entrevista 2](./ChapterVI-images/Segmento2-Interview2.png)
 
-**Tiempo en el video:**
-
-----------
-
-###### Entrevista 3
-
-**Nombre:** 
-**Edad:** 
-**Distrito:** 
-
->
-
-![Entrevista 3](./ChapterVI-images/Segmento2-Interview3.png)
-
-**Tiempo en el video:**
+**Tiempo en el video:** 1:06:30
 
 ----------
 
