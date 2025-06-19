@@ -318,6 +318,8 @@ Se presentan los commits realizados en el report durante el periodo de entrega d
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Video About-the-Product](#64-video-about-the-product)
+  - [6.5. Video About-the-Team](#65-video-about-the-team)
+
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
@@ -5079,16 +5081,12 @@ Medio de aplicación
 ###### Entrevista 1
 
 **Nombre:** Jhon Gutierrez Lopez
-**Edad:** 42 años
-**Distrito:** Los Olivos
+**Edad:** 
+**Distrito:** 
 
-Jhon mostro una actitud positiva hacia el aplicativo web, resaltando especialmente la posibilidad de personalizar el diseño del estacionamiento según la forma real del espacio físico, como en su caso, que tiene una disposición en forma de “L”. Esta funcionalidad le pareció clave para adaptar el sistema a las necesidades particulares de su negocio, dandole una sensación de control y precisión.
+aa
 
-Durante su experiencia explorando la plataforma, destaco lo intuitivo que le resultó el proceso de registro y gestión de reservas. Al principio penso que tendría que seguir pasos complicados como ingresar códigos o revisar correos electrónicos, pero se sorprendio al ver que todo era simple y accesible. Esta facilidad de uso, sumada a la posibilidad de dejar atrás registros manuales en cuadernos o libros, le generó confianza en que podrá llevar un control más organizado y eficiente desde el aplicativo web.
-
-Finalmente, valoro positivamente que los conductores puedan reservar espacios con anticipación, siempre que exista un pago de por medio, lo cual considera justo y útil para asegurar el uso del espacio. En general, expresó que el sistema no solo le facilita la gestión diaria, sino que también representa una evolución en su forma de administrar el negocio, ahora con apoyo de sensores IoT y notificaciones automáticas que agilizan el flujo de información entre propietarios y conductores.
-
-![Entrevista 1](./ChapterVI-images/interview-josty.png)
+![Entrevista 1](./ChapterVI-images/validation-interview/app-web-jhon.png)
 
 **Tiempo en el video: 0:00:03**
 
@@ -5117,18 +5115,9 @@ En términos generales, el usuario considera que la aplicación ha mejorado sign
 
 ###### Entrevista 3
 
-**Nombre:** Jose Contreras 
-**Edad:** 20 años
-**Distrito:** San Isidro
+**Nombre:** Jose Contreras
 
->
-Jose indico que actualmente cobra S/15 por hora en su cochera ubicada en San Isidro, la cual tiene capacidad para 15 vehículos. Desde su experiencia destaco con entusiasmo la posibilidad de personalizar los espacios de su estacionamiento dentro del aplicativo web, lo cual le parece una función increíble ya que le permite organizar su espacio de acuerdo a sus propias preferencias y la distribución física del local.
-
-También resalto como muy interesante la opción de que el propietario pueda generar reservas manuales para usuarios frecuentes, lo que considera útil para mantener relaciones con clientes habituales y asegurar ingresos constantes. Esta funcionalidad le ofrece mayor control sobre su negocio y le abre nuevas oportunidades para fidelizar a su clientela sin depender exclusivamente de las reservas automáticas.
-
-Ademas valoro positivamente que el sistema permita realizar pagos con cualquier tipo de tarjeta, lo cual considera clave para facilitar la experiencia del conductor. Por ultimo, mencionó que le parece muy beneficioso recibir notificaciones cada vez que un conductor realiza una reserva, ya que eso le permite estar siempre informado y preparado para gestionar su espacio de forma eficiente y profesional.
-
-
+>a
 
 ![Entrevista 3](./ChapterVI-images/validation-interview/app-web-jose.png)
 
@@ -5142,9 +5131,8 @@ Ademas valoro positivamente que el sistema permita realizar pagos con cualquier 
 **Edad:** 59 años
 **Distrito:**  San Isidro
 
->a
+>
 
-![Entrevista 3](./ChapterVI-images/Segmento1-Interview3.png)
 
 **Tiempo en el video:** 0:44:52
 
@@ -5178,7 +5166,6 @@ Mauricio señaló que la información mostrada fue precisa durante la prueba, au
 
 a
 
-![Entrevista 2](./ChapterVI-images/Segmento2-Interview2.png)
 
 **Tiempo en el video:** 1:06:30
 
@@ -5251,10 +5238,8 @@ Duración: 46:26
 **Enlace:** https://shorturl.at/boTPG  
 
 **Validation Interviews**
-Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation`  
 Formato: `.mp4`  
 Duración: 
-**Enlace:**  https://shorturl.at/JcEEz
 
 **Prototypes Navigation / Product Navigation**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-1`  
