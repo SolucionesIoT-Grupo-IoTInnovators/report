@@ -4573,6 +4573,18 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 | US10 | Ver historial de reservas | 16 | Historial de reservas | Mostrar historial de reservas realizadas | 5h |    | Done |
 | US26 | Registro desde el inicio de sesión | 17 | Registro de usuario | UI de Registro de usuario en app web y conexion con el backend | 5h |  André Arroyo  | Done |
 | US27 | Inicio de sesión | 18<br><br>19 | UI de Login en app movil<br><br> UI de Login en app web | Interfaz de Login en la app movil y conexion con el backend <br><br> Interfaz de Login en la app web y conexion con el backend  | 4h<br><br>4h |  André Arroyo<br><br>André Arroyo  | Done<br><br>Done |
+| MS02       | Bloquear spot reservado             | 19 | Sistema de bloqueo         | Desarrollar lógica para activar/desactivar bloqueo físico                                       | 6h                 |              | To-do                                            |
+| MS06       | Enviar datos al backend             | 20 | Conexión backend           | Implementar lógica para enviar métricas al backend desde IoT                                   | 6h                 |              | To-do                                            |
+| MS07       | Guardar datos sin WiFi              | 21 | Persistencia local         | Guardar datos temporalmente en el edge ante falla de red                                       | 5h                 |              | To-do                                            |
+| MS08       | Sincronizar al volver WiFi          | 22 | Reenvío de datos           | Detectar retorno de red y sincronizar datos pendientes                                         | 5h                 |              | To-do                                            |
+| MS09       | Recibir métricas en backend         | 23 | Endpoint de recepción      | Crear endpoint para recibir métricas desde sensores IoT                                        | 6h                 |              | To-do                                            |
+| MS10       | Procesar ocupación en backend       | 24 | Procesamiento de ocupación | Procesar estado de ocupación a partir de métricas recibidas                                   | 5h                 |              | To-do                                            |
+| MS11       | Generar alertas por sensores        | 25 | Lógica de alertas          | Configurar reglas para generar alertas ante valores críticos                                  | 6h                 |              | To-do                                            |
+| MS12       | Almacenar métricas históricas       | 26 | Histórico de métricas      | Guardar datos históricos y permitir consultas                                                  | 4h                 |              | To-do                                            |
+| US28       | Visualizar parkings en el mapa      | 27 | Mapa interactivo           | Mostrar en mapa los parkings disponibles geolocalizados                                        | 6h                 |              | To-do                                            |
+| US29       | Ver detalles del parking            | 28 | Detalle del parking        | Mostrar información detallada del parking seleccionado                                         | 4h                 |              | To-do                                            |
+| US30       | Ver disponibilidad en tiempo real   | 29 | Disponibilidad en tiempo real | Visualizar spots libres al instante desde detalle del parking                              | 5h                 |              | To-do                                            |
+
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 Los avances específicos son:
