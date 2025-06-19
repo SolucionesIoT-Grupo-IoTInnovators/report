@@ -4908,10 +4908,11 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 ![Proceso de despliegue en Sprint 1 - Mobile App](ChapterVI-images/Sprint2/MobileApp/SoftwareDeploymentEvidence4.jpg)
 
 **Web Services:**
-![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence1.jpg)
-![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence2.jpg)
-![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence3.jpg)
-![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/SoftwareDeploymentEvidence4.jpg)
+- El backend se desplegó en Azure utilizando las configuraciones establecidas, asegurando la compatibilidad con el entorno de ejecución de Java.
+
+
+![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/Deploying%20backend.png?raw=true)
+
 
 **Embedded Application:**
 ![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence1.jpg)
