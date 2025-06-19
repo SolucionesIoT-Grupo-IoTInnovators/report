@@ -5243,7 +5243,11 @@ Mauricio señaló que la información mostrada fue precisa durante la prueba, au
 **Edad:** 49 años 
 **Distrito:** San Isidro 
 
-a
+Rocío percibe la app como sencilla y “amigable”: el proceso de inicio de sesión, búsqueda en el mapa y reserva le resultó claro; valoró especialmente ver el plano detallado de las cocheras, porque le ayuda a elegir espacios con buen patio de maniobras. Afirmó que la función de reserva previa resolvería problemas de puntualidad que vive a diario en Lima, donde suele llegar con tiempo pero pierde minutos dando vueltas.
+
+Planteó dos inquietudes operativas: (1) saber con cuánta antelación puede reservar —quisiera hacerlo desde la mañana para una cita nocturna— y (2) garantizar que la plaza quede libre al llegar; sugirió usar actuadores que bloqueen físicamente el espacio. Además, pidió etiquetar los estacionamientos especiales (discapacidad, embarazadas) para no reservarlos por error.
+
+En materia de confianza, propuso añadir autenticación adicional en el pago (OTP/SMS o 3-D Secure) y más fotos del entorno para evaluar seguridad. Finalmente, indicó que la recomendaría sólo si el modelo no obliga a una suscripción anual: prefiere pagar comisión por uso o, en todo caso, una membresía mensual opcional.
 
 ![Entrevista 2](./ChapterVI-images/validation-interview/app-movil-rocio.png)
 
