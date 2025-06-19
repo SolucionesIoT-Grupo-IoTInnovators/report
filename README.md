@@ -1361,7 +1361,12 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
             - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
 
 ### 2.3.5. As-is Scenario Mapping
+
+Los As-is Scenario Mapping describen la experiencia actual tanto del propietario de estacionamiento como del conductor, identificando puntos positivos (lo que ya aporta valor), negativos (fricciones operativas y de usuario) y áreas en blanco (incertidumbres y necesidades no cubiertas); este mapeo de situaciones reales permite comprender dónde se generan ineficiencias, estrés o pérdida de ingresos y sirve de base para priorizar mejoras en la futura solución.
+
 **Segmento Propietario de Estacionamiento:**
+
+Su jornada se inicia revisando a pie la ocupación; sin automatización, asigna puestos manualmente y confía en que la demanda sea alta. Al cobrar, ofrece efectivo o app —único momento relativamente fluido—, para luego registrar todo en Excel al cierre. Piensa en maximizar reservas y evitar impagos, pero carece de datos en tiempo real; se siente expectante al comienzo, agobiado durante la operación y frustrado al analizar resultados, aunque termina el día reflexivo y dispuesto a optimizar.
 
 ![as is scenario mapping propietario de estacionamiento](ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
 
@@ -1378,6 +1383,8 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Podría ganar más si tuviera más reservas anticipadas:** Es importante investigar si Alejandro está dispuesto a adoptar un sistema de reservas online y qué barreras percibe.
 
 **Segmento Conductor:**
+
+Antes de salir consulta Waze/Google Maps, esperando que haya sitio libre; conduce con tiempo justo y, ya en la zona, da vueltas sin información fiable hasta hallar un espacio caro e inesperado. La incertidumbre de multas y remolques lo acompaña mientras camina al destino. A lo largo del trayecto pasa de ligero optimismo a estrés, frustración, indignación y finalmente inseguridad resignada por la falta de transparencia y control sobre el estacionamiento.
 
 ![as is scenario mapping conductor](ChapterII-images/As%20is%20Scenario%20Mapping-conductor.jpg)
 
@@ -1421,6 +1428,8 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 
 **Segmento Propietario de Estacionamiento:**
 
+En el escenario ideal, el propietario inicia su jornada abriendo un panel que ya muestra reservas y ocupación estimada, gestiona espacios en tiempo real desde la app, y los pagos se procesan automáticamente; durante el día consulta reportes de demanda para ajustar precios y, al cierre, revisa ingresos y rendimiento con un clic. El resultado es una operación ordenada, datos para decisiones estratégicas y un sentimiento constante de control, eficiencia y motivación para seguir optimizando.
+
 ![**Cambios Claves**](ChapterII-images/To-be%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
 
 **Cambios Claves**
@@ -1429,6 +1438,9 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 - Acceso a datos analíticos facilita la toma de decisiones y mejora la rentabilidad.
 
 **Segmento Conductor:**
+
+El conductor planifica su viaje reservando plaza desde la app, conduce guiado por GPS con la ubicación exacta del estacionamiento, ingresa sin demoras mediante QR y llega a su destino sabiendo el tiempo restante; en cada fase pasa de tranquilidad a confianza y satisfacción, eliminando la búsqueda, la incertidumbre de precio y el riesgo de multas, y disfrutando de una experiencia de estacionamiento fluida y sin estrés.
+
 
 ![**Cambios Claves**](ChapterII-images/To-be%20Scenario%20Mapping-conductor.jpg)
 
@@ -1439,6 +1451,7 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 
 ## 3.2. User Stories
 
+La sección de User Stories concentra, en forma tabular, todas las épicas, historias de usuario y técnicas que describen qué necesita cubrir la plataforma. Para cada historia se especifican título, descripción y criterios de aceptación (escenarios Given/When/Then), indicando cómo se valida la funcionalidad y a qué épica pertenece, de modo que el equipo tenga un backlog claro, trazable y orientado a entregar valor al usuario y al negocio.
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |:---------------:|:------:|-------------|-------------------------|---------------------------|
@@ -1448,7 +1461,6 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 | US03 | Sección hero de landing page	 | Como visitante quiero visualizar una sección hero en el landing page para tener una idea sobre lo que ofrece la aplicación	 |  Scenario: Visualización de la presentación de la aplicación<br>Given que el visitante está en el landing page<br>When se encuentra en la sección de Inicio<br>Then observa una presentación clara de la aplicación.<br><br>Scenario: Acceso a la sección inicio del producto<br>Given que el visitante está en el landing page<br>And utiliza la barra de navegación<br>When selecciona el logo<br>Then observa una presentación clara de la aplicación.<br><br>| EP01 |
 | US04 | Barra de navegación en landing page	 | Como visitante quiero una barra de navegación de landing page para tener accesos directos a la información de la aplicación	 | Scenario: Acceso a la sección Nosotros<br>Given que el visitante está en el landing page<br>And utiliza la barra de navegación<br>When selecciona "Contacto"<br>Then accede a la sección de contacto del producto.<br><br>Scenario: Acceso a la sección Propietarios<br>Given que el visitante está en el landing page<br>And utiliza la barra de navegación<br>When selecciona “Beneficios”<br>Then accede a la sección que muestra los beneficios del producto.  | EP01 |
 | US05 | Visualizar detalles de un espacio disponible	 | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.	 | Scenario: Ver detalles de un espacio<br>Given que el usuario visualiza un espacio disponible en el mapa<br>When toca un marcador de espacio<br>Then se debe mostrar un panel con información sobre el precio, duración máxima permitida y tipo de espacio<br><br>Scenario: Panel con detalles desaparece al cerrar<br>Given que el panel de detalles del espacio está visible<br>When el usuario toca el botón de cerrar<br>Then el panel de información debe desaparecer de la vista  | EP01 |
-| US30          | Ver disponibilidad en tiempo real      | Como conductor, quiero ver en tiempo real la disponibilidad de espacios en un parking, para saber si puedo estacionar sin perder tiempo.     | Scenario: Consulta en tiempo real<br>Given que el conductor accede al detalle del parking<br>When hay conexión con el backend<br>Then se deben mostrar los spots disponibles en tiempo real.<br><br>Scenario: Sin conectividad<br>Given que no hay conexión<br>When el conductor accede<br>Then se debe mostrar un mensaje indicando que no hay datos actualizados. | EP01  |
 | EP02 | Sistema de Reserva y Pago Automatizado	 | Desarrollar un sistema integral que permita a los conductores reservar un espacio de estacionamiento y procesar el pago de forma automatizada, ofreciendo una experiencia fluida y sin fricciones.	 | - | - |
 | US06 | Reservar un espacio disponible desde la app	 | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.	 | cenario: Reservar espacio desde la app<br>Given que el usuario visualiza un espacio disponible<br>When selecciona el espacio y presiona "Reservar"<br>Then el sistema debe bloquear el espacio durante un tiempo determinado<br>And debe mostrar un mensaje de confirmación con el tiempo límite para llegar<br><br>Scenario: No reservar espacio ya bloqueado<br>Given que el espacio ya está reservado por otro usuario<br>When un usuario intenta reservarlo<br>Then el sistema rechaza la solicitud con un error de "espacio no disponible"  | EP02 |
 | US07 | Cancelar una reserva activa	 | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.	 | Scenario: Cancelación de reserva<br>Given que el usuario tiene una reserva activa<br>When presiona el botón "Cancelar reserva"<br>Then el espacio debe quedar liberado inmediatamente<br>And debe mostrarse una notificación de cancelación exitosa<br><br>Scenario: No cancelar reserva expirada<br>Given que la reserva ha expirado automáticamente<br>When el usuario intenta cancelarla<br>Then el sistema indica que no existe reserva activa  | EP02 |
@@ -1478,8 +1490,6 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 | TS03 | Visualización en tiempo real en la aplicación web	 | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.	 | Scenario: Actualización en tiempo real del estado de espacios<br>Given que el estado de un espacio cambia (de libre a ocupado o viceversa)<br>When el cambio es detectado por el backend<br>Then la interfaz web actualiza automáticamente el estado visual de ese espacio sin recargar la página<br><br>Scenario: Recuperación inicial de datos<br>Given que un propietario abre el panel por primera vez<br>When la página carga los datos iniciales<br>Then el sistema devuelve la lista completa de estados de espacios con HTTP 200 OK  | EP05 |
 | TS04 | Implementar sistema de reservas en la App Móvil	 | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.	 | Scenario: Reserva de espacio desde la app<br>Given que el usuario tiene sesión activa y un espacio está libre<br>When selecciona el espacio y confirma la reserva<br>Then el espacio se marca como reservado en el backend<br>And la reserva queda vinculada al usuario<br><br>Scenario: Response de reserva<br>Given que la solicitud de reserva llega al backend<br>When la operación es exitosa<br>Then el endpoint devuelve HTTP 201 Created con el ID de reserva  | EP05 |
 | TS05 | Implementar sistema de pagos en línea	 | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.	 | Scenario: Pago exitoso de reserva<br>Given que el usuario ha reservado un espacio<br>When accede a la opción de pagar y completa el proceso con su tarjeta<br>Then el sistema confirma el pago y lo registra asociado a la reserva<br><br>Scenario: Manejo de error de pago<br>Given que el proveedor de pago rechaza la transacción<br>When el backend recibe el error<br>Then el endpoint devuelve HTTP 402 Payment Required  | EP05 |
-| US28          | Visualizar parkings en el mapa         | Como conductor, quiero visualizar en un mapa los estacionamientos disponibles cerca de mi ubicación, para elegir el más conveniente.         | Scenario: Visualización de mapa con parkings<br>Given que el conductor ha iniciado sesión<br>When accede a la vista de mapa<br>Then debe mostrarse un mapa con los parkings cercanos disponibles.<br><br>Scenario: Reubicación de mapa<br>Given que el conductor se desplaza<br>When actualiza su ubicación<br>Then el mapa debe actualizarse. | EP05  |
-| US29          | Ver detalles del parking               | Como conductor, quiero ver los detalles de un estacionamiento seleccionado, para tomar una decisión informada antes de dirigirme.            | Scenario: Consulta de detalles<br>Given que el conductor selecciona un parking del mapa<br>When accede a su vista detallada<br>Then debe mostrarse la dirección, tarifa, horarios y servicios disponibles.<br><br>Scenario: Datos incompletos<br>Given que el parking no completó su perfil<br>When se intenta acceder<br>Then debe mostrarse un mensaje informativo. | EP05  |
 | EP06 | Backend API	 | Como desarrollador quiero utilizar un backend API para que los usuarios puedan interactuar con la aplicación.	 | - | - |
 | TS06 | Crear Parking Owner a través de RESTful API	 | Como desarrollador quiero registrar un Parking Owner a través de la API para que pueda autenticar usuarios propietarios de estacionamientos en la plataforma.	 | Scenario: Crear Parking Owner con datos válidos<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone, companyName y ruc correctamente formateados y únicos<br>Then se recibe una respuesta con estado 201<br>And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.<br><br>Scenario: Crear Parking Owner con email duplicado<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con un email ya registrado<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el email ya está en uso.<br><br>Scenario: Crear Parking Owner con teléfono inválido<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.<br><br>Scenario: Crear Parking Owner con RUC inválido<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con un ruc que no tiene 11 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el RUC debe tener exactamente 11 dígitos.  | EP06 |
 | TS07 | Crear Driver a través de RESTful API	 | Como desarrollador quiero registrar un Driver a través de la API para que pueda autenticar conductores en la plataforma.	 | Scenario: Crear Driver con datos válidos<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone y dni correctamente formateados y únicos<br>Then se recibe una respuesta con estado 201<br>And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.<br><br>Scenario: Crear Driver con email duplicado<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con un email ya registrado<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el email ya está en uso.<br><br>Scenario: Crear Driver con teléfono inválido<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.<br><br>Scenario: Crear Driver con DNI inválido<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con un dni que no tiene 8 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el DNI debe tener exactamente 8 dígitos.  | EP06 |
@@ -1497,20 +1507,6 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 | EP07 | Autenticación y perfil del usuario	 | Como conductor o dueño de estacionamiento, quiero autenticarme y configurar mi perfil de usuario para ingresar a la aplicación.	 | - | - |
 | US26 | Registro desde el inicio de sesión	 | Como usuario, quiero acceder a una opción de registro desde el inicio de sesión para poder crear una cuenta y utilizar la aplicación.	 | Scenario: Visualización del formulario de registro<br>Given que los usuarios ya se encuentran en la sección de inicio de sesión<br>When seleccionan la opción de registrarse<br>Then el sistema muestra el formulario de registro para que los usuarios completen sus datos<br><br>Scenario: Registro exitoso<br>Given que los usuarios ya se encuentran en el formulario de registro<br>When completan todos los campos obligatorios<br>Then el sistema guarda los datos ingresados y crea una nueva cuenta de usuario | EP07 |
 | US27 | Inicio de sesión	 | Como usuario registrado, quiero iniciar sesión con mi cuenta para acceder a las herramientas disponibles en la aplicación.	 | Scenario: Ingreso exitoso<br>Given que los usuarios están en el formulario de inicio de sesión<br>When ingresan su correo electrónico y contraseña correctamente<br>Then acceden exitosamente a la aplicación.<br><br>Scenario: Error en las credenciales<br>Given que los usuarios están en el formulario de inicio de sesión<br>When ingresan un correo electrónico o una contraseña incorrecta<br>Then el sistema les notifica que las credenciales no son válidas y no les permite ingresar | EP07 |
-| EP08 | 	Operación de Dispositivos IoT en Parqueo	 | Como sistema IoT embebido, quiero detectar ocupación, mostrar estado en LED/display y transmitir datos, para asegurar una operación autónoma, confiable y visible del estacionamiento incluso ante fallas temporales de red.	 | - | - |
-| MS01 | Detectar estado de ocupación del spot       | Como sistema IoT embebido, quiero detectar si un spot está ocupado o libre para reportarlo al sistema.                                                 | Scenario 1: Detección de ocupación<br>Given que el vehículo se ubica sobre el sensor<br>When se activa el sensor de distancia<br>Then debe registrarse que el spot está ocupado.<br><br>Scenario 2: Detección de liberación<br>Given que un vehículo sale del spot<br>When el sensor detecta espacio vacío<br>Then se debe actualizar el estado como libre. | EP08   |
-| MS02 | Bloquear spot reservado                     | Como sistema, quiero bloquear un spot cuando está reservado para evitar que otro usuario lo ocupe.                                                     | Scenario 1: Bloqueo automático<br>Given que un spot está reservado<br>When se aproxima un vehículo no autorizado<br>Then se activa el sistema de bloqueo.<br><br>Scenario 2: Validación de reserva<br>Given que un usuario con reserva se aproxima<br>When se valida su identidad<br>Then el bloqueo debe desactivarse automáticamente.               | EP08   |
-| MS03 | Encender LED según estado del spot          | Como conductor, quiero ver una luz LED que indique si el spot está libre, reservado u ocupado.                                                          | Scenario 1: Luz verde para libre<br>Given que el spot está desocupado<br>When el sistema actualiza el estado<br>Then debe encenderse el LED verde.<br><br>Scenario 2: Luz roja para ocupado<br>Given que el spot está ocupado<br>When cambia el estado<br>Then debe encenderse el LED rojo.                                                     | EP08   |
-| MS04 | Mostrar nombre del spot en el display       | Como usuario, quiero ver el nombre del spot en el display del dispositivo para facilitar su identificación.                                            | Scenario 1: Mostrar al iniciar<br>Given que el sistema inicia<br>When carga los datos del spot<br>Then debe mostrarse el nombre en pantalla.<br><br>Scenario 2: Mostrar tras reinicio<br>Given que se reinicia el sistema<br>When el dispositivo vuelve a estar activo<br>Then debe recuperarse y mostrar el nombre del spot.                     | EP08   |
-| MS05 | Mostrar MAC del dispositivo en el display   | Como técnico, quiero ver la MAC del dispositivo para enlazarlo con el spot correspondiente.                                                            | Scenario 1: Visualización inicial<br>Given que se enciende el dispositivo<br>When inicia la pantalla<br>Then debe mostrar la MAC en pantalla.<br><br>Scenario 2: Verificación en mantenimiento<br>Given que un técnico accede al display<br>When pulsa el botón de ver MAC<br>Then la dirección debe aparecer en el display.                      | EP08   |
-| MS06 | Enviar datos al backend desde el dispositivo| Como dispositivo embebido, quiero enviar los datos recogidos al backend para ser procesados.                                                           | Scenario 1: Envío exitoso<br>Given que hay conexión estable<br>When se genera una nueva lectura<br>Then se debe enviar correctamente al backend.<br><br>Scenario 2: Reintento de envío<br>Given que hubo una falla previa<br>When se restablece la conexión<br>Then el dispositivo debe reenviar los datos pendientes.                        | EP08   |
-| MS07 | Guardar datos sin conexión WiFi             | Como sistema IoT, quiero guardar datos localmente si no hay WiFi para no perder lecturas.                                                              | Scenario 1: Falla momentánea<br>Given que la red falla<br>When llega una nueva métrica<br>Then debe guardarse localmente en la memoria.<br><br>Scenario 2: Almacenamiento múltiple<br>Given que hay varias lecturas<br>When la red sigue caída<br>Then todas deben almacenarse secuencialmente.                                               | EP08   |
-| MS08 | Sincronizar datos cuando vuelve la red WiFi | Como sistema IoT, quiero sincronizar los datos almacenados localmente cuando se recupere la red WiFi.                                                  | Scenario 1: Sincronización automática<br>Given que vuelve la red<br>When se detecta conectividad<br>Then los datos guardados deben enviarse al backend.<br><br>Scenario 2: Verificación de sincronización<br>Given que se completó el envío<br>When se confirma recepción<br>Then los datos deben eliminarse de la memoria local.        | EP08   |
-| EP09 | 	Procesamiento Inteligente de Datos IoT en la Nube	 | Como sistema backend, quiero recibir, procesar y almacenar las métricas de los sensores IoT, para habilitar monitoreo en tiempo real, alertas automáticas y análisis históricos que optimicen la gestión del sistema de parqueo.	 | - | - |
-| MS09 | Backend recibe métricas de sensores         | Como backend, quiero recibir las métricas de los sensores para almacenarlas y analizarlas.                                                             | Scenario 1: Recepción en tiempo real<br>Given que un sensor envía datos<br>When el backend recibe la solicitud<br>Then debe persistir la métrica en la base de datos.<br><br>Scenario 2: Validación de formato<br>Given que se recibe una métrica<br>When el backend la procesa<br>Then debe validar su estructura y contenido.                | EP09   |
-| MS10 | Backend procesa datos de ocupación          | Como backend, quiero procesar datos de ocupación para actualizar el estado en el panel.                                                                | Scenario 1: Cambio de estado<br>Given que llega una nueva métrica<br>When se detecta ocupación<br>Then debe actualizarse el estado del spot.<br><br>Scenario 2: Error en los datos<br>Given que llega una métrica anómala<br>When se valida<br>Then el sistema debe descartarla y registrar el error.                                          | EP09   |
-| MS11 | Backend genera alertas por sensores         | Como sistema, quiero que el backend genere alertas si se detectan comportamientos anómalos.                                                            | Scenario 1: Alerta por sobreuso<br>Given que un spot está ocupado por más del tiempo permitido<br>When se alcanza el umbral<br>Then debe generarse una alerta automática.<br><br>Scenario 2: Alerta por desconexión<br>Given que no se reciben datos de un sensor<br>When se detecta inactividad<br>Then debe generarse una alerta de posible falla. | EP09   |
-| MS12 | Backend almacena métricas históricas        | Como administrador, quiero acceder al histórico de métricas para análisis posteriores y reportes.                                                      | Scenario 1: Consulta de histórico<br>Given que un administrador accede al sistema<br>When selecciona un rango de fechas<br>Then debe visualizar las métricas correspondientes.<br><br>Scenario 2: Exportación de datos<br>Given que se ha generado un reporte<br>When el usuario solicita exportar<br>Then el sistema debe generar un archivo.     | EP09   |
 
 ## 3.3. Impact Mapping
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
@@ -1569,22 +1565,6 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 |   41    |     TS05      | Implementar sistema de pagos en línea                         | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.                                      | 8                                |
 |   42    |     US08      | Realizar pago desde la app                                    | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.                                                 | 5                                |
 |   43    |     US09      | Registro de método de pago en el perfil                       | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                       | 3                                |
-| 44      | US28           | Visualizar parkings en el mapa               | Como conductor, quiero visualizar en un mapa los estacionamientos disponibles cerca de mi ubicación para elegir el más conveniente.           | 3                                |
-| 45      | US29           | Ver detalles del parking                     | Como conductor, quiero ver los detalles de un estacionamiento seleccionado para tomar una decisión informada antes de dirigirme.       | 2                                |
-| 46      | US30           | Ver disponibilidad en tiempo real            | Como conductor, quiero ver la disponibilidad de espacios en un parking en tiempo real, para saber si puedo estacionar sin perder tiempo.                     | 5                                |
-| 47      | MS01           | Detectar estado de ocupación del spot      | Como sistema IoT embebido, quiero detectar si un spot está ocupado o libre para reportarlo al sistema.                            | 3                                |
-| 48      | MS02           | Bloquear spot reservado                    | Como sistema, quiero bloquear un spot cuando está reservado para evitar que otro usuario lo ocupe.                                | 5                                |
-| 49      | MS03           | Encender LED según estado del spot         | Como conductor, quiero ver una luz LED que indique si el spot está libre, reservado u ocupado.                                     | 3                                |
-| 50      | MS04           | Mostrar nombre del spot en el display      | Como usuario, quiero ver el nombre del spot en el display del dispositivo para facilitar su identificación.                        | 2                                |
-| 51      | MS05           | Mostrar MAC del dispositivo en el display  | Como técnico, quiero ver la MAC del dispositivo para enlazarlo con el spot correspondiente.                                        | 2                                |
-| 52      | MS06           | Enviar datos al backend desde el dispositivo | Como dispositivo embebido, quiero enviar los datos recogidos al backend para ser procesados.                                       | 3                                |
-| 53      | MS07           | Guardar datos sin conexión WiFi            | Como sistema IoT, quiero guardar datos localmente si no hay WiFi para no perder lecturas.                                          | 3                                |
-| 54      | MS08           | Sincronizar datos cuando vuelve la red WiFi | Como sistema IoT, quiero sincronizar los datos almacenados localmente cuando se recupere la red WiFi.                             | 3                                |
-| 55      | MS09           | Backend recibe métricas de sensores        | Como backend, quiero recibir las métricas de los sensores para almacenarlas y analizarlas.                                         | 2                                |
-| 56      | MS10           | Backend procesa datos de ocupación         | Como backend, quiero procesar datos de ocupación para actualizar el estado en el panel.                                            | 3                                |
-| 57      | MS11           | Backend genera alertas por sensores        | Como sistema, quiero que el backend genere alertas si se detectan comportamientos anómalos.                                        | 5                                |
-| 58      | MS12           | Backend almacena métricas históricas       | Como administrador, quiero acceder al histórico de métricas para análisis posteriores y reportes.                                  | 2                                |
-
 ---
 
 # Capítulo IV: Solution Software Design
@@ -2080,7 +2060,7 @@ El diagrama de clases muestra cómo se relacionan las entidades User y Role, as�
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
-!["IAM Database Diagram"](ChapterIV-images/IAMDatabase-Diagram.png)
+!["IAM Database Diagram"](ChapterIV-images/IAMDatabaseDiagram.png)
 
 ### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
@@ -2327,7 +2307,7 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
-!["Profile Management Database Diagram"](ChapterIV-images/ProfileDatabase-Diagram.png)
+!["Profile Management Database Diagram"](ChapterIV-images/database-diagram-profile.png)
 
 ### 4.2.3. Bounded Context: Parking Management
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
@@ -2535,7 +2515,7 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
-!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingManagmentDatabase-Diagram.png)
+!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingmanagementDatabaseDiagram.png)
 
 ### 4.2.4. Bounded Context: Reservation
 El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
@@ -2666,7 +2646,7 @@ El diagrama de clases muestra la relación entre las entidades Reservation y Res
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
-!["Reservation Database Diagram"](ChapterIV-images/ReservationDatabase-Diagram.png)
+!["Reservation Database Diagram"](ChapterIV-images/database-diagram-reservations.png)
 
 ### 4.2.5. Bounded Context: Subscription
 El Bounded Context **Subscription** se encarga de gestionar el estado de suscripción de los usuarios. Define si un usuario posee un plan gratuito (FREE) o ha adquirido una suscripción de pago. También se registran los pagos asociados a la suscripción, permitiendo verificar el historial, estado de pagos y fechas clave como el inicio y la renovación.
@@ -2780,7 +2760,7 @@ En el diagrama de clases se observa la relación entre las entidades Subscriptio
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
-!["Subscription Database Design Diagram"](ChapterIV-images/SuscriptionDatabase-Diagram.png)
+!["Subscription Database Design Diagram"](ChapterIV-images/SubscriptionDatabaseDiagram.png)
 
 ### 4.2.6 Bounded Context: Review
 #### 4.2.6.1. Domain Layer
@@ -2989,7 +2969,7 @@ El diagrama de base de datos del bounded context **Review** muestra tres tablas 
 
 Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
 
-![Review Context Database Diagram](ChapterIV-images/ReviewsDatabase-Diagram.png)
+![Review Context Database Diagram](ChapterIV-images/ReviewBoundedContextDatabaseDiagram.png)
 
 
 ### 4.2.7. Bounded Context: Notification
@@ -3134,25 +3114,9 @@ Interacción con la base de datos de notificaciones.
 
 ---
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
-
-**- Backend**
-
 El Notification Bounded Context es el encargado del manejo de notificaciones dentro del sistema, este contexto permite a los usuarios recibir alertas y mensajes relevantes relacionados con reservas, pagos o eventos. Sus componentes están organizados para aceptar solicitudes, procesar lógica de envío y gestionar la persistencia de notificaciones.
 
 ![Notification Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Notification.png?raw=true)
-
-
-**- WebApp**
-
-El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
-
-![Notification Context WebApp Component Diagram](/ChapterIV-images/structurizr-webApp-notification.png)
-
-**- MobileApp**
-
-La arquitectura de la aplicación móvil para el contexto de Notificaciones refleja la estructura en capas del frontend Flutter. Comienza con NotificationScreen, el componente de interfaz que presenta las notificaciones al usuario. Esta pantalla delega el control de estado a NotificationBloc, que gestiona los eventos y estados asociados. A su vez, este interactúa con NotificationApiService, el cual comunica con el backend REST y utiliza NotificationAssembler para adaptar los datos.
-
-![Notification Context MobileApp Component Diagram](ChapterIV-images/structurizr-mobile-notification.png)
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
@@ -3165,7 +3129,7 @@ El diagrama de base de datos del bounded context **Notifications** muestra dos t
 
 La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
 
-![Notification Context Database Diagram](ChapterIV-images/NotificationDatabase-Diagram.png)
+![Notification Context Database Diagram](ChapterIV-images/NotificationBoundedContextDatabaseDiagram.png)
 
 
 ### 4.2.8. Bounded Context: IoT Management
@@ -3275,7 +3239,7 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram
-![IoT Management Context Database Diagram](ChapterIV-images/IotDatabase-Diagram.png)
+![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
 
 ### 4.2.9. Bounded Context: Payment
 Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
@@ -3436,7 +3400,7 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
-!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabase-Diagram.png)
+!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabaseDiagram.png)
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
@@ -5276,7 +5240,7 @@ Duración: 46:26
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation`  
 Formato: `.mp4`  
 Duración: 
-**Enlace:**  
+**Enlace:**  https://shorturl.at/JcEEz
 
 **Prototypes Navigation / Product Navigation**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-1`  
