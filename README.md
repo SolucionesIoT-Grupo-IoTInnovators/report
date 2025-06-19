@@ -30,6 +30,10 @@
 ---
 
 # Registro de Versiones del Informe
+
+La tabla de Registro de Versiones del Informe funciona como un historial de control de versiones: lista cronológicamente cada entrega del documento, indicando versión, fecha, autor y resumen del cambio realizado, con el propósito de dar trazabilidad y transparencia a la evolución del informe, mostrando de forma clara quién añadió o corrigió qué y cuándo.
+
+
 | **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                                                                    |
 |-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0.0       | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
@@ -94,6 +98,8 @@
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
+Se presentan los commits realizados en el report durante el periodo de entrega de la TB1.
+
 ![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTB1.png)
 
 #### TP:
@@ -108,6 +114,9 @@
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
+Se presentan los commits realizados en el report durante el periodo de entrega de la TP1.
+
+
 ![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP1.png)
 
 #### TB2:
@@ -121,6 +130,8 @@
 - **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
+Se presentan los commits realizados en el report durante el periodo de entrega de la TB2.
 
 ![Captura de analíticos de colaboración de GitHub - TB2](insights/CollaborationTB2.png)
 ---
