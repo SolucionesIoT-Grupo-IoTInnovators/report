@@ -5488,7 +5488,18 @@ Se presenta la esencia de **SmartParking**: una solución IoT que conecta a cond
 
 ## 6.5. Video About-the-Team
 
+### 6.5 Video About-The-Team
+
+**Nombre del archivo:**
+`upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-team-sprint-2.mp4`
+
+**Duración:** 6 min 25 s  **Formato:** MP4
+
+Se muestra cómo el equipo **IoT Innovators** llevó a cabo el proyecto SmartParking. Empieza con los **testimonios de los integrantes del equipo**, quienes describen sus responsabilidades, los principales *outcomes* obtenidos y las competencias desarrolladas. Cierra con un “behind-the-scenes” de las entrevistas de validación y un llamado a seguir el avance del producto.
+
 ![Screenshot del video](ChapterVI-images/about-the-team.png)
+
+**Enlaces:** https://shorturl.at/85BxU
 
 ---
 
@@ -5540,8 +5551,8 @@ Duración: 24:22
 **Exposición TB2**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb2`  
 Formato: `.mp4`  
-Duración:   
-**Enlace:** 
+Duración: 25:02  
+**Enlace:** https://shorturl.at/5PQoI
 
 **Needfinding Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  
