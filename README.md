@@ -5576,5 +5576,5 @@ Duración: 0:35
 **About the Team**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-team-sprint-2`  
 Formato: `.mp4`  
-Duración:   
-**Enlace:**  
+Duración: 6:25  
+**Enlace:** https://shorturl.at/85BxU
