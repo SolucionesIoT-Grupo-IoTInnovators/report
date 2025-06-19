@@ -5465,8 +5465,20 @@ Integrar OTP o 3-D Secure y exhibir sello “Pago seguro”.
 
 ## 6.4. Video About-the-Product
 
+**Nombre del archivo:**
+`upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2.mp4`
+
+**Duración:** 35 s  **Formato:** MP4
+
+Se presenta la esencia de **SmartParking**: una solución IoT que conecta a conductores con cocheras disponibles y permite a los propietarios gestionar reservas y cobros sin personal. El clip enseña la reserva en la app, el reconocimiento automático de la placa y el actuador que libera la plaza; termina con la voz de un conductor y un propietario resaltando ahorro de tiempo y aumento de ingresos.
+
+![Screenshot del video](ChapterVI-images/video-about-product.png)
+
+**Enlace:** https://shorturl.at/R7qBj
+
 ## 6.5. Video About-the-Team
 
+![Screenshot del video](ChapterVI-images/video-about-team.png)
 
 ---
 
