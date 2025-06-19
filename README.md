@@ -5117,11 +5117,20 @@ En términos generales, el usuario considera que la aplicación ha mejorado sign
 
 ###### Entrevista 3
 
-**Nombre:** Jose Contreras
+**Nombre:** Jose Contreras 
+**Edad:** 20 años
+**Distrito:** San Isidro
 
->a
+>
+Jose indico que actualmente cobra S/15 por hora en su cochera ubicada en San Isidro, la cual tiene capacidad para 15 vehículos. Desde su experiencia destaco con entusiasmo la posibilidad de personalizar los espacios de su estacionamiento dentro del aplicativo web, lo cual le parece una función increíble ya que le permite organizar su espacio de acuerdo a sus propias preferencias y la distribución física del local.
 
-![Entrevista 3](./ChapterVI-images/Segmento1-Interview3.png)
+También resalto como muy interesante la opción de que el propietario pueda generar reservas manuales para usuarios frecuentes, lo que considera útil para mantener relaciones con clientes habituales y asegurar ingresos constantes. Esta funcionalidad le ofrece mayor control sobre su negocio y le abre nuevas oportunidades para fidelizar a su clientela sin depender exclusivamente de las reservas automáticas.
+
+Ademas valoro positivamente que el sistema permita realizar pagos con cualquier tipo de tarjeta, lo cual considera clave para facilitar la experiencia del conductor. Por ultimo, mencionó que le parece muy beneficioso recibir notificaciones cada vez que un conductor realiza una reserva, ya que eso le permite estar siempre informado y preparado para gestionar su espacio de forma eficiente y profesional.
+
+
+
+![Entrevista 3](./ChapterVI-images/validation-interview/app-web-jose.png)
 
 **Tiempo en el video: 0:33:05**
 
