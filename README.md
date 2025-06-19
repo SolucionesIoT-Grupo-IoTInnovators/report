@@ -4915,7 +4915,7 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 
 **Embedded Application:**
-- Se ha realizado el deply del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
+- Se ha realizado el deploy del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
 ![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/deploy-embeddedApp.jpg?raw=true)
 
 
@@ -4924,24 +4924,24 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 **Web Application**
-![Analiticos de Colaboracion: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Analytics.png)
-![Commits: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Commits.png)
+![Analiticos de Colaboracion: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Commits.png?raw=true)
 
 **Mobile Application:**
-![Analiticos de Colaboracion: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Analytics.png)
-![Commits: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Commits.png)
+![Analiticos de Colaboracion: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Commits.png?raw=true)
 
 **Web Services:**
-![Analiticos de Colaboracion: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Analytics.png)
-![Commits: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Commits.png)
+![Analiticos de Colaboracion: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Commits.png?raw=true)
 
 **Embedded Application:**
-![Analiticos de Colaboracion: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Analytics.png)
-![Commits: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Commits.png)
+![Analiticos de Colaboracion: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
 
 **Edge Server:**
-![Analiticos de Colaboracion: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Analytics.png)
-![Commits: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Commits.png)
+![Analiticos de Colaboracion: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Commits.png?raw=true)
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
