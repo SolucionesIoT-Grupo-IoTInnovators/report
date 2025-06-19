@@ -5380,7 +5380,7 @@ Usability – Inclusive Design – Information Architecture
 | *CARRERA*    | Ingeniería de Software                            |
 | -------------- | ------------------------------------------------- |
 | *CURSO*      | Desarrollo de Soluciones IoT                      |
-| *SECCIÓN*    | SI572-2024-2                                    |
+| *SECCIÓN*    | SI572-2025-1                                    |
 | *PROFESORES* | Todos                                           |
 | *AUDITOR*    | Equipo SmartParking                               |
 | *CLIENTE(S)* | Conductores entrevistados (Mauricio L., Rocío M.) |
