@@ -4746,12 +4746,28 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-4.png)
 
 **Embedded Application:**
-![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-1.png)
-![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/ExecutionEvidenceScreenshot-2.png)
+
+- Spot Estado Disponible
+
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20disponible.png?raw=true)
+
+- Spot Estado Ocupado
+
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20ocupado.png?raw=true)
+
+- Spot Estado Reservado
+
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20reservado.png?raw=true)
 
 **Edge Server:**
-![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/ExecutionEvidenceScreenshot-1.png)
-![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/ExecutionEvidenceScreenshot-2.png)
+
+- Añadir Estado Reservado al Spot
+
+![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/añadir%20estado%20reservado.png?raw=true)
+
+- Añadir Estado Disponible al Spot
+
+![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/añadir%20estado%20disponible.png?raw=true)
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
