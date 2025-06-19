@@ -5253,6 +5253,208 @@ a
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+#### UX Heuristics & Principles Evaluation – SmartParking Web App (Panel Propietarios)
+
+Usability – Inclusive Design – Information Architecture
+
+| *CARRERA*    | Ingeniería de Software                                                    |
+| -------------- | ------------------------------------------------------------------------- |
+| *CURSO*      | Desarrollo de Soluciones IoT                                              |
+| *SECCIÓN*    | SI572-2025-1                                                            |
+| *PROFESORES* | Todos                                                                   |
+| *AUDITOR*    | Equipo SmartParking                                                       |
+| *CLIENTE(S)* | Propietarios de cocheras entrevistados (Alejandro G., Lizeth A., José C., Armando R.) |
+
+---
+
+#### SITE / APP A EVALUAR
+
+*SmartParking – Web App (Panel para propietarios)*
+
+---
+
+#### TAREAS A EVALUAR
+
+1. Registro / inicio de sesión
+2. Creación de estacionamiento y diseño del plano
+3. Consulta de ocupación en tiempo real
+4. Alta y anulación de reservas
+5. Modificación de tarifas y descarga de reportes
+6. Revisión de reseñas y comunicación con conductores
+
+---
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                 |
+| ----- | --------------------------------------------------------------------------- |
+| *1* | Problema superficial; arreglar si hay tiempo                                |
+| *2* | Problema menor; prioridad baja para la próxima entrega                      |
+| *3* | Problema mayor; frecuente o bloquea a algunos usuarios                      |
+| *4* | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+
+---
+
+#### TABLA RESUMEN
+
+| # | Problema                                           | Sev. | Heurística / Principio violado           |
+| - | -------------------------------------------------- | ---- | ---------------------------------------- |
+| 1 | Interfaz carga por defecto en inglés               | 3    | Match sistema-mundo real                 |
+| 2 | Editor de plano exige trazar plaza × plaza         | 3    | Flexibilidad & eficiencia · Ayuda & doc. |
+| 3 | Confiabilidad de ocupación en tiempo real incierta | 4    | Visibilidad del estado · Fiabilidad      |
+| 4 | Comisiones de pasarela poco transparentes          | 3    | Ayuda & doc. · Confianza                 |
+| 5 | Sin precio dinámico por franja horaria             | 3    | Compatibilidad con tareas reales         |
+| 6 | Falta chat / promociones a conductores             | 2    | Visibilidad · Experiencias comparables   |
+| 7 | Gestión de sobre-estancia poco clara               | 2    | Prevención de errores                    |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS (≥ 2)
+
+*Problema #1 – Interfaz por defecto en inglés*
+
+Severidad 3 · Match sistema-mundo real
+
+Los cuatro propietarios cambiaron manualmente el idioma.
+
+*Recomendación:* detectar Accept-Language, cargar ES-pe y ofrecer selector persistente.
+
+---
+
+*Problema #2 – Editor de plano tedioso*
+
+Severidad 3 · Flexibilidad & eficiencia
+
+Requiere dibujar cada plaza; curva de aprendizaje alta.
+
+*Recomendaciones:* plantillas (L, U, grid), duplicar filas/columnas, tutorial animado inicial.
+
+---
+
+*Problema #3 – Datos de ocupación poco confiables*
+
+Severidad 4 · Visibilidad del estado
+
+Miedo a llegar y hallar el parking lleno.
+
+*Recomendaciones:* timestamp “Actualizado hace X s”, badge “Aforo completo ≥ 95 %”, alerta sensor > 60 s inactivo.
+
+---
+
+*Problema #4 – Comisiones poco claras*
+
+Severidad 3 · Ayuda & doc.
+
+Añadir desglose tarifa / % / neto en la pantalla de tarifas y en reportes.
+
+---
+
+*Problema #5 – Falta de precios dinámicos*
+
+Severidad 3 · Compatibilidad con tareas reales
+
+Permitir reglas de precio por hora/día y modo “automático según ocupación”.
+
+---
+
+*Problema #6 – Sin canal de chat / promociones*
+
+Severidad 2
+
+Incorporar mensajería in-app y envío de cupones.
+
+---
+
+*Problema #7 – Sobre-estancia sin recargo claro*
+
+Severidad 2
+
+Alertar 10 min antes del vencimiento y aplicar cargo automático por extra-tiempo.
+
+---
+
+#### UX Heuristics & Principles Evaluation – SmartParking Mobile App (Conductores)
+
+Usability – Inclusive Design – Information Architecture
+
+| *CARRERA*    | Ingeniería de Software                            |
+| -------------- | ------------------------------------------------- |
+| *CURSO*      | Desarrollo de Soluciones IoT                      |
+| *SECCIÓN*    | SI572-2024-2                                    |
+| *PROFESORES* | Todos                                           |
+| *AUDITOR*    | Equipo SmartParking                               |
+| *CLIENTE(S)* | Conductores entrevistados (Mauricio L., Rocío M.) |
+
+---
+
+#### SITE / APP A EVALUAR
+
+*SmartParking – Mobile App (Conductores)*
+
+---
+
+#### TAREAS A EVALUAR
+
+1. Login y geolocalización
+2. Búsqueda de estacionamientos cercanos
+3. Selección de plaza y reserva (hora / fecha)
+4. Pago de la reserva
+5. Activar “Estoy aquí” / cancelar
+6. Consulta de historial
+
+---
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                 |
+| ----- | --------------------------------------------------------------------------- |
+| *1* | Problema superficial; arreglar si hay tiempo                                |
+| *2* | Problema menor; prioridad baja para la próxima entrega                      |
+| *3* | Problema mayor; frecuente o bloquea a algunos usuarios                      |
+| *4* | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+
+---
+
+#### TABLA RESUMEN
+
+| # | Problema                                          | Sev. | Heurística violada                |
+| - | ------------------------------------------------- | ---- | --------------------------------- |
+| 1 | Sólo permite reservas dentro del mismo día        | 3    | Flexibilidad & eficiencia         |
+| 2 | Plazas accesibles no etiquetadas / filtro         | 3    | Prevención de errores · Inclusión |
+| 3 | Botones de pago sin feedback / función incompleta | 2    | Visibilidad del estado            |
+| 4 | Pago sin verificación 2-FA / OTP                  | 2    | Seguridad · Prevención de errores |
+| 5 | Fotos del parking insuficientes                   | 1    | Ayuda al reconocimiento           |
+| 6 | Suscripción anual forzosa desincentiva uso        | 1    | Compatibilidad con expectativas   |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS (≥ 2)
+
+*Problema #1 – Reserva solo mismo-día*
+Severidad 3 · Flexibilidad & eficiencia
+Conductores necesitan reservar con uno o más días de anticipación.
+*Recomendaciones:* selector de rango de fechas, mensaje “Reserva hasta Y días antes”, coste estimado inmediato.
+
+---
+
+*Problema #2 – Plazas accesibles no etiquetadas*
+Severidad 3 · Inclusión
+Agregar icono “Accesible” y filtro; alertar si el usuario no tiene permiso.
+
+---
+
+*Problema #3 – Pago sin feedback claro*
+Severidad 2 · Visibilidad del estado
+Deshabilitar botones no implementados y mostrar barra de progreso + mensaje de éxito/error.
+
+---
+
+*Problema #4 – Falta de 2-FA / 3-D Secure*
+Severidad 2 · Seguridad
+Integrar OTP o 3-D Secure y exhibir sello “Pago seguro”.
+
+---
+
 ## 6.4. Video About-the-Product
 
 ## 6.5. Video About-the-Team
