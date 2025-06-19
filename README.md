@@ -5079,12 +5079,16 @@ Medio de aplicación
 ###### Entrevista 1
 
 **Nombre:** Jhon Gutierrez Lopez
-**Edad:** 
-**Distrito:** 
+**Edad:** 42 años
+**Distrito:** Los Olivos
 
-aa
+Jhon mostro una actitud positiva hacia el aplicativo web, resaltando especialmente la posibilidad de personalizar el diseño del estacionamiento según la forma real del espacio físico, como en su caso, que tiene una disposición en forma de “L”. Esta funcionalidad le pareció clave para adaptar el sistema a las necesidades particulares de su negocio, dandole una sensación de control y precisión.
 
-![Entrevista 1](./ChapterVI-images/Segmento1-Interview1.png)
+Durante su experiencia explorando la plataforma, destaco lo intuitivo que le resultó el proceso de registro y gestión de reservas. Al principio penso que tendría que seguir pasos complicados como ingresar códigos o revisar correos electrónicos, pero se sorprendio al ver que todo era simple y accesible. Esta facilidad de uso, sumada a la posibilidad de dejar atrás registros manuales en cuadernos o libros, le generó confianza en que podrá llevar un control más organizado y eficiente desde el aplicativo web.
+
+Finalmente, valoro positivamente que los conductores puedan reservar espacios con anticipación, siempre que exista un pago de por medio, lo cual considera justo y útil para asegurar el uso del espacio. En general, expresó que el sistema no solo le facilita la gestión diaria, sino que también representa una evolución en su forma de administrar el negocio, ahora con apoyo de sensores IoT y notificaciones automáticas que agilizan el flujo de información entre propietarios y conductores.
+
+![Entrevista 1](./ChapterVI-images/interview-josty.png)
 
 **Tiempo en el video: 0:00:03**
 
