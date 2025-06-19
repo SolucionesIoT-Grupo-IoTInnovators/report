@@ -2074,7 +2074,7 @@ El diagrama de clases muestra cómo se relacionan las entidades User y Role, as�
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
-!["IAM Database Diagram"](ChapterIV-images/IAMDatabaseDiagram.png)
+!["IAM Database Diagram"](ChapterIV-images/IAMDatabase-Diagram.png)
 
 ### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
@@ -2321,7 +2321,7 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
-!["Profile Management Database Diagram"](ChapterIV-images/database-diagram-profile.png)
+!["Profile Management Database Diagram"](ChapterIV-images/ProfileDatabase-Diagram.png)
 
 ### 4.2.3. Bounded Context: Parking Management
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
@@ -2529,7 +2529,7 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
-!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingmanagementDatabaseDiagram.png)
+!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingManagmentDatabase-Diagram.png)
 
 ### 4.2.4. Bounded Context: Reservation
 El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
@@ -2660,7 +2660,7 @@ El diagrama de clases muestra la relación entre las entidades Reservation y Res
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
-!["Reservation Database Diagram"](ChapterIV-images/database-diagram-reservations.png)
+!["Reservation Database Diagram"](ChapterIV-images/ReservationDatabase-Diagram.png)
 
 ### 4.2.5. Bounded Context: Subscription
 El Bounded Context **Subscription** se encarga de gestionar el estado de suscripción de los usuarios. Define si un usuario posee un plan gratuito (FREE) o ha adquirido una suscripción de pago. También se registran los pagos asociados a la suscripción, permitiendo verificar el historial, estado de pagos y fechas clave como el inicio y la renovación.
@@ -2774,7 +2774,7 @@ En el diagrama de clases se observa la relación entre las entidades Subscriptio
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
-!["Subscription Database Design Diagram"](ChapterIV-images/SubscriptionDatabaseDiagram.png)
+!["Subscription Database Design Diagram"](ChapterIV-images/SuscriptionDatabase-Diagram.png)
 
 ### 4.2.6 Bounded Context: Review
 #### 4.2.6.1. Domain Layer
@@ -2983,7 +2983,7 @@ El diagrama de base de datos del bounded context **Review** muestra tres tablas 
 
 Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
 
-![Review Context Database Diagram](ChapterIV-images/ReviewBoundedContextDatabaseDiagram.png)
+![Review Context Database Diagram](ChapterIV-images/ReviewsDatabase-Diagram.png)
 
 
 ### 4.2.7. Bounded Context: Notification
@@ -3159,7 +3159,7 @@ El diagrama de base de datos del bounded context **Notifications** muestra dos t
 
 La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
 
-![Notification Context Database Diagram](ChapterIV-images/NotificationBoundedContextDatabaseDiagram.png)
+![Notification Context Database Diagram](ChapterIV-images/NotificationDatabase-Diagram.png)
 
 
 ### 4.2.8. Bounded Context: IoT Management
@@ -3269,7 +3269,7 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram
-![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
+![IoT Management Context Database Diagram](ChapterIV-images/IotDatabase-Diagram.png)
 
 ### 4.2.9. Bounded Context: Payment
 Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
@@ -3430,7 +3430,7 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
-!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabaseDiagram.png)
+!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabase-Diagram.png)
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
