@@ -1,4 +1,4 @@
-# Informe de Trabajo Final - TP
+# Informe de Trabajo Final - TB2
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
@@ -6,7 +6,7 @@
     <strong>Ciclo: 07</strong><br><br>
     <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
     <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
-    <strong>INFORME DE TRABAJO FINAL - TP </strong> 
+    <strong>INFORME DE TRABAJO FINAL - TB2 </strong> 
 </p>
 
 <p align="center">
@@ -30,19 +30,23 @@
 ---
 
 # Registro de Versiones del Informe
+
+La tabla de Registro de Versiones del Informe funciona como un historial de control de versiones: lista cronológicamente cada entrega del documento, indicando versión, fecha, autor y resumen del cambio realizado, con el propósito de dar trazabilidad y transparencia a la evolución del informe, mostrando de forma clara quién añadió o corrigió qué y cuándo.
+
+
 | **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                                                                    |
 |-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0.0       | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
 | 1.1.0       | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del Startup                                                                                                                                |
-| 1.2.0       | 02/04/2025 | Zarate Caceres, Victor Ernesto <br/> Castilla Pachas, César Antonio                                                                                                   | Adición del Solution Profile y Competidores.                                                                                                       |
-| 1.3.0       | 04/04/2025 | Arroyo Ormeño, André Alonso <br/> Godoy, Johan Príncipe <br/>                                                                                                         | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
+| 1.2.0       | 02/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                  | Adición del Solution Profile y Competidores.                                                                                                       |
+| 1.3.0       | 04/04/2025 | Arroyo Ormeño, André Alonso                                                                                                         | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
 | 1.4.0       | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Adición del To-Be Scenario Mapping.                                                                                                                |
 | 1.5.0       | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición de User Stories.                                                                                                                           |
-| 1.6.0       | 14/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Diaz Silva, Fernando Josué                                                                   | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
+| 1.6.0       | 14/04/2025 | Castilla Pachas, César Antonio                                                                 | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
 | 1.7.0       | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del segmento objetivo.                                                                                                                     |
-| 1.8.0       | 20/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                                                                     |
-| 1.9.0       | 22/04/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
-| 1.10.0      | 23/04/2025 | Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
+| 1.8.0       | 20/04/2025 | Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                                                                     |
+| 1.9.0       | 22/04/2025 | Godoy, Johan Príncipe  | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
+| 1.10.0      | 23/04/2025 | Cortés Casas, Joaquín Marcelo                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
 | 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correción del menú y puntos faltantes en el documento                                                                                              |
 | 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correciones de enlaces y Student Outcome                                                                                                           |
 | 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Añadir títulos para la entrega parcial (TP)                                                                                                        |
@@ -51,7 +55,7 @@
 | 2.2.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements                                                  |
 | 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
 | 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
-| 2.2.4       | 10/05/2025 | Arroyo Ormeño, André Alonso </br> Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
+| 2.2.4       | 10/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
 | 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
 | 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
 | 2.3.2       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
@@ -59,16 +63,22 @@
 | 2.5.0       | 12/05/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Añadir Entrevistas faltantes                                                                                                                       |
 | 2.6.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Sprint Backlog 1                                                                                                                                   |
 | 2.6.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Correccion de Style Guidelines Section                                                                                                             |
-| 2.7.0       | 12/05/2025 | Arroyo Ormeño, André Alonso <br/> Cortés Casas, Joaquín Marcelo <br/> Castilla Pachas, César Antonio <br/> Godoy, Johan Príncipe <br/> Zarate Caceres, Victor Ernesto | Añadir Evidencia de Ejecucion de Landing Page                                                                                                      |
+| 2.7.0       | 12/05/2025 | Zarate Caceres, Victor Ernesto | Añadir Evidencia de Ejecucion de Landing Page                                                                                                      |
 | 2.8.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Collaboration Insights                                                                                                                      |
 | 2.9.0       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App                                                              |
 | 2.9.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Correccion de Ubiquitous Language                                                                                                                  |
-| 2.9.2       | 12/05/2025 | Cortés Casas, Joaquín Marcelo </br> Zarate Cáceres, Victor Ernesto                                                                                                    | Correccion de Sprint 1                                                                                                                             |
+| 2.9.2       | 12/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                    | Correccion de Sprint 1                                                                                                                             |
 | 2.9.3       | 13/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Landing Page Deployment Configuration and Evidence                                                                                                 |
 | 2.9.4       | 13/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review                                                     |
 | 2.10.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Mock-ups App Mobile                                                                                                            |
 | 2.11.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes and Mock-ups Web App                                                                                                |
 | 2.12.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Application wireframess and mock-ups                                                                                                        |
+| 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Corrección de estructura de texto para conversión a PDF                                                                                            |
+| 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
+| 3.1.0       | 15/06/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Development Evidence for Sprint Review                                                                                                      |
+| 3.1.1       | 18/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                        | Agregar evaluaciones según heurísticas de las entrevistas de validación                                                                                                      |
+| 3.1.2       | 19/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                        | Agregar video about the video                                                                                                      |
+
 ---
 
 # Project Report Collaboration Insights
@@ -83,27 +93,47 @@
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas, Diagramas de Arquitectura de Software y de arquitectura de los bounded contexts.
 - **Diaz Silva, Fernando Josué:** He colaborado con la creacion del event storming con cada uno de sus puntos en miro y luego pasado a este informe, ademas ayude con la creacion de Context Mapping.
 - **Godoy, Johan Príncipe:** Para esta entrega, realicé la creación de los diagramas de clase y base de datos de los bounded contexts, así como la creación de los diagramas de arquitectura de software.
-- **Tafur Gonzales, Josty Gerardo:** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet facilisis nisi. Fusce aliquet.
+- **Tafur Gonzales, Josty Gerardo:** En esta entrega colabore en desarrollar el Lean Ux Process, identificar el Lenguaje Ubicuo y desarrollar los mapas To-Be y de Impacto.
 - **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
+Se presentan los commits realizados en el report durante el periodo de entrega de la TB1.
 
 ![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTB1.png)
 
 #### TP:
 **Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:**
-- **Castilla Pachas, César Antonio:**
+- **Arroyo Ormeño, André Alonso:** He contribuido en la creacion de los wireframes y mockups de la aplicacion web y la creacion de technical stories para el backend.
+- **Castilla Pachas, César Antonio:** Trabaje en diseñar los Wireframe y mockups para la aplicacion web.
 - **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
-- **Diaz Silva, Fernando Josué:**
-- **Godoy, Johan Príncipe:**
-- **Tafur Gonzales, Josty Gerardo:**
+- **Diaz Silva, Fernando Josué:** He colaborado en el diseño, desarrollo, despliegue e implementación de la Landing Page.
+- **Godoy, Johan Príncipe:** Me dedique a diseñar la interfaz de creación de parkings para poder realizar el porceso de despliegue de la aplicación web.
+- **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil, su respectivo prototipado y realice entrevistas de recolección de requisitos. 
 - **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
 
 **Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
 
+Se presentan los commits realizados en el report durante el periodo de entrega de la TP1.
+
+
 ![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP1.png)
 
+#### TB2:
+**Descripción de las actividades realizadas:**
+- **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramas de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
+- **Castilla Pachas, César Antonio:** Colabore en levantar las correcciones de los textos e imagenes de los entregables pasados e implementar el sistema de notificaciones en Firebase para las aplicaciones.
+- **Cortés Casas, Joaquin Marcelo:** Me encargue de realizar el registro y la edición de los videos de entrevistas de validacion y definir el Sprint Backlgo de esta entrega.
+- **Diaz Silva, Fernando Josué:** Pude realizar trabajos de desarrollo en el Sprint de esta entrega, garantizando el avance continuo.
+- **Godoy, Johan Príncipe:** He realizado trabajos de mejora en cada una de las aplicaciones desarrolladas, garantizando su correcto despliegue y coherencia con el sprint Backlog.
+- **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application y el Edge Server.
+- **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
+
+**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
+Se presentan los commits realizados en el report durante el periodo de entrega de la TB2.
+
+![Captura de analíticos de colaboración de GitHub - TB2](insights/CollaborationTB2.png)
 ---
 
 # Contenido
@@ -273,6 +303,23 @@
       - [6.2.1.7. Services Documentation Evidence for Sprint Review](#6217-services-documentation-evidence-for-sprint-review)
       - [6.2.1.8. Software Deployment Evidence for Sprint Review](#6218-software-deployment-evidence-for-sprint-review)
       - [6.2.1.9. Team Collaboration Insights during Sprint](#6219-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-1)
+      - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
+      - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
+      - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
+  - [6.5. Video About-the-Team](#65-video-about-the-team)
+
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografia](#bibliografia)
 - [Anexos](#anexos)
@@ -309,58 +356,81 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Andre Alonso-->
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
-        En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
-        TP:<br>
-        En el grupo pude aportar en la corrección de errores para la elaboración de los diagramas C4, así como también colaboré en la asignación de tareas.
+        En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.
+        <br><br>
+        TP1:<br>
+        En el grupo contribuí activamente a la corrección de errores en la elaboración de los diagramas C4, colaborando además en la asignación de tareas para optimizar el avance del trabajo. Participé en la creación de los wireframes y mockups de la aplicación web, y en la validación de las technical stories para el backend, proponiendo ajustes y mejoras.
+        <br><br>
+        TB2:<br>
+        Me encargué de revisar y corregir los diagramas de componentes del backend, proponiendo mejoras para garantizar su coherencia y alineación con los requerimientos técnicos. Además, elaboré los diagramas de componentes para la aplicación web y móvil, validándolos en conjunto con el equipo. Promoví espacios de coordinación grupal para consensuar los cambios y asegurar la calidad final de los diagramas.
         <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br> En grupo pudimos repartirnos correctamente las partes del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br><br>
-        TP:<br>
+        TP1:<br>
         En esta entrega me involucré en las coordinaciones grupales para asegurar el cumplimiento de los entregables. Participé activamente en la validación del diseño de los wireflows y propuse mejoras basadas en los user stories. También ayudé a consolidar los insumos desarrollados por el grupo para integrar el documento final, promoviendo el orden y la claridad del contenido.
+        <br><br>
+        TB2:<br>
+        En la planificación del despliegue, el equipo celebró sesiones para definir objetivos de lanzamiento. Cada integrante lideró una tarea, consolidando un liderazgo compartido en todas las áreas críticas.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
         Asumi la responsabilidad de coordinar al equipo en la asignación de las primeras tareas y resolución de dudas. De esta manera, fomenté el liderazgo promoviendo la participación y aporte de todos los miembros del grupo.<br><br>
-        TP:<br>
+        TP1:<br>
         Impulsé el liderazgo colaborativo coordinando instancias de validación y asegurándome de que todas las voces fueran escuchadas. Mi enfoque estuvo centrado en fortalecer el trabajo colectivo y mantener la cohesión del grupo.
+        <br><br>
+        TB2:<br>
+        Se implementó un trabajo de guia conjunta sobre la incorporación y revisión de tareas. Esto promovió un liderazgo distribuido, aceleró la curva de aprendizaje y fortaleció el sentido de pertenencia.
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Nuestro equipo logró ejercer un liderazgo compartido mediante la asignación equitativa de responsabilidades y la promoción activa del diálogo entre nosotros. Se evidenció una coordinación efectiva durante las reuniones, así como la iniciativa de varios integrantes para guiar y orientar al grupo, lo cual permitió un trabajo organizado, colaborativo y enfocado en resultados comunes.<br><br>
-        TP:<br>
+        TP1:<br>
         Mantuve una actitud proactiva en las coordinaciones grupales, promoviendo el diálogo y la toma de decisiones compartidas. Apoyé a mis compañeros cuando surgían dudas y propicié un ambiente donde todos pudieran aportar al desarrollo conjunto.
+        <br><br>
+        TB2:<br>
+        Para la elaboración de la landing page, el equipo tomo decisiones de manera conjunta. Cada propuesta de esquema UI fue votada y iterada, asegurando un producto final alineado con las necesidades de los usuarios.
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
         TB1:<br>
         En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
-        TP:<br>
+        TP1:<br>
         Ayudé a mantener un liderazgo compartido a través del apoyo constante a mis compañeros y la disposición para colaborar. Estuve presente en las decisiones importantes y promoví el equilibrio en la carga de trabajo grupal.
+        <br><br>
+        TB2:<br>
+        Al diseñar la arquitectura de los servicios IoT y la integración con la app móvil, se organizaron proceso de revisión de código y buenas prácticas. Esto fomento la transferencia de conocimiento y fortaleció las habilidades de liderazgo de cada participante.
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
         De manera grupal, pudimos organizarnos correctamente para poder realizar el trabajo, asignando tareas a cada uno de los integrantes del grupo. Se realizaron reuniones para coordinar las tareas a realizar y se utilizó Github para poder ver el avance de cada uno de los integrantes.<br><br>
-        TP:<br>
+        TP1:<br>
         Aporté al liderazgo grupal incentivando la responsabilidad de cada miembro, facilitando la organización y promoviendo la coordinación entre nosotros. Siempre estuve dispuesto a escuchar y guiar en caso de dificultades.
+        <br><br>
+        TB2:<br>
+        El equipo estableció roles rotativos de liderazgo en las reuniones, permitiendo que cada integrante coordinara la planificación de sprints y facilitara la toma de decisiones colectivas. Esto reforzó la responsabilidad compartida y garantizó que las ideas de todos fueran valoradas.
         <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
         Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.<br><br>
-        TP:<br>
-        Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.
+        TP1:<br>
+        Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.<br><br>
+        TB2:<br>
+        Se identificaron puntos importantes a ser mejorados en esta nueva entrega. Además, se organizo un trabajo de manera conjunta para ir evaluando las aplicaciones a medida que se iban desarrollando, para generar resultados sólidos y consistentes con nuestra propuesta inicial.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
         TB1:<br>
         Logramos una organización eficiente, distribuyendo tareas de manera equitativa y utilizando herramientas como GitHub para mantener un seguimiento transparente del avance. Aportamos ideas, resolvimos dudas en conjunto y mantuvimos una comunicación constante mediante reuniones de coordinación. Asumimos un liderazgo compartido, donde cada miembro contribuyó activamente. Esta experiencia reforzó nuestras habilidades colaborativas y demostró la importancia de la planificación y el trabajo en equipo para alcanzar objetivos comunes.<br><br>
-        TP:<br>
+        TP1:<br>
         Logramos mantener un liderazgo compartido en el grupo, en el que todos los integrantes participaron activamente en la toma de decisiones, la organización de actividades y el apoyo entre pares. Esta dinámica fortaleció nuestras capacidades para liderar en conjunto y nos permitió avanzar de forma cohesionada hacia los objetivos del entregable.
         <br><br>
+        TB2:<br>
+        Se trabajó de forma conjunta con la revisión y mejora de los diagramas, coordinando sesiones grupales para consensuar cambios y garantizar su coherencia con los requerimientos técnicos. Asimismo, se organizaron reuniones de revisión de código y votaciones colaborativas en el diseño de los productos, garantizando que cada propuesta respondiera a las necesidades de los usuarios. Finalmente, se planificaron los objetivos de lanzamiento y se evaluaron continuamente las aplicaciones en desarrollo, permitiendo la obtención de resultados sólidos y alineados con la visión inicial.
       </td>
     </tr>
     <!--Segundo Criterio-->
@@ -373,59 +443,82 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Andre Alonso-->
         Arroyo Ormeño, André Alonso: <br>
         TB1:<br>
-        Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
-        TP:<br>
-        Para esta entrega parcial se creo un figma colaborativo para el desarrollo de los mockups y wireframe para la landing page, web app, mobile app. Asimismo a traves de canal de whatsapp nos ayudamos unos a otros para mejorar la elaboracion del trabajo.
+        Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.
+        <br><br>
+        TP1:<br>
+        Durante esta entrega fomenté un entorno colaborativo, participando activamente en la creación de wireframes y mockups para la aplicación web, asegurando que las ideas de todos los integrantes fueran consideradas. Asimismo, colaboré en la validación de las technical stories para el backend, proponiendo mejoras y consensuando criterios en equipo.
+        <br><br>
+        TB2:<br>
+        En esta fase, propicié un ambiente de trabajo inclusivo, promoviendo reuniones de revisión donde todos los integrantes pudieran aportar a las decisiones sobre los diagramas de componentes. Me encargué de corregir los diagramas de componentes del backend y de elaborar los diagramas correspondientes para la aplicación web y móvil.
         <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
-        TP:<br>
+        TP1:<br>
         Aporté a la planificación del trabajo colaborativo definiendo fechas para revisar avances internos antes de cada entrega. Apoyé la integración de los diagramas en Figma y el orden de los flujos en base a los objetivos de cada user persona. Además, brindé ayuda a mis compañeros cuando tenían dificultades técnicas con Figma o estructuración del documento, promoviendo así un entorno de ayuda mutua.
+        <br><br>
+        TB2:<br>
+        Previa la última entrega, se planificaron tareas de documentación y despliegue. Cada integrante se comprometió con objetivos individuales y globales, planificando actividades conjuntas para cumplir con la entrega.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
         Me he encargado de definir metas semanales para todos los integrantes del grupo, facilitando un ambiente colaborativo por medio de reuniones periódicas y revisión conjunta de avances realizados.<br><br>
-        TP:<br>
+        TP1:<br>
         Favorecí un entorno colaborativo al coordinar el cumplimiento de metas grupales y fomentar la planificación conjunta de tareas. Me aseguré de que todos los integrantes pudieran involucrarse activamente en el trabajo.
+        <br><br>
+        TB2:<br>
+        Se mantuvo un canal de comunicación continua, donde cualquier idea era bienvenida. Gracias a esto, se rediseñaron conjuntamente las historias de usuario y se ajustaron las prioridades de backlog de forma colaborativan.
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Se logró establecer un entorno de trabajo inclusivo y respetuoso, con metas claras y planificación consensuada. A través del uso de herramientas colaborativas como GitHub y canales de comunicación constantes, el grupo demostró capacidad de organización, responsabilidad compartida y cumplimiento efectivo de los objetivos planteados en la entrega.<br><br>
-        TP:<br>
+        TP1:<br>
         Establecí un ambiente de trabajo ordenado y respetuoso, impulsando la colaboración continua y el cumplimiento de las tareas acordadas. Promoví el trabajo en equipo de forma equitativa y comprometida.
+        <br><br>
+        TB2:<br>
+        Con las primeras versiones de los productos, se organizaron las entrevistas de validación, donde usuarios reales validaron el trabajo realizado. Este enfoque identificó mejoras de usabilidad y permitió planificar acciones correctivas, cumpliendo con los cronogramas establecidos.
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
         TB1:<br>
         Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
-        TP:<br>
+        TP1:<br>
         Aporté a un entorno de colaboración constante, facilitando la comunicación y apoyando a mis compañeros en todo momento. Fomenté el respeto mutuo y la planificación grupal para cumplir nuestras metas.
+        <br><br>
+        TB2:<br>
+        Para la integración de los sensores IoT, el equipo evaluo el desarrollo para mantener objetivos realistas. De esta manera, se cumplió el objetivo de tener una versión candidata lista para pruebas antes del siguiente sprint.
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
         Se coordinó en equipo las tareas que debia resolver cada uno de los miembros y la metodología que se seguiría para la correcta realización del reporte mediante Github.<br><br>
-        TP:<br>
+        TP1:<br>
         Apoyé en mantener un entorno de trabajo positivo, en el que la inclusión y el cumplimiento de objetivos fueron prioritarios. Promoví la participación activa y equitativa de todos.
+        <br><br>
+        TB2:<br>
+        El equipo definió metas semanales claras, asignando tareas según las fortalezas de cada miembro. Este proceso transparente permitió que todos conocieran el progreso global y contribuyeran activamente al cumplimiento de hitos.
         <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
         TB1:<br>
-        Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br>
-        TP:<br>
-        Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.
+        Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br><br>
+        TP1:<br>
+        Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.<br><br>
+        TB2:<br>
+        El trabajo realizado se distribuyo de acuerdo a las capacidades de cada miembro del equipo, para garantizar mejores resultados con mayot rapide y precisión con respecto a los objetivos del curso y de nuestro proyecto.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
         TB1:<br>
         Trabajamos de manera coordinada, distribuyendo tareas equitativamente y estableciendo metas semanales mediante reuniones periódicas. Utilizamos GitHub y mantuvimos una comunicación constante para resolver dudas, hacer correcciones y revisar avances de forma colaborativa. Fomentamos un ambiente inclusivo donde cada miembro contribuyó con sus ideas, logrando consensos en las decisiones y manteniendo transparencia en todo el proceso. Gracias a esta organización conjunta y al compromiso de todos, logramos cumplir el trabajo en el plazo establecido.
         <br><br>
-        TP:<br>
+        TP1:<br>
         Logramos mantener un entorno colaborativo e inclusivo, donde todos los integrantes participaron activamente en la planificación y cumplimiento de las metas establecidas. Se promovió el respeto, la escucha activa y la equidad en la participación, permitiendo un desarrollo armónico y efectivo del trabajo en equipo.
         <br><br>
+        TB2:<br>
+        Se promovió un entorno inclusivo mediante reuniones de revisión abiertas en las que se aportaron ajustes a los diagramas de componentes. Se coordinó la planificación de la documentación y el despliegue, asignando objetivos individuales y globales traducidos en actividades conjuntas y metas semanales alineadas con las fortalezas de cada miembro. Se mantuvo un canal de comunicación constante que permitió la reestructuración colaborativa de las historias de usuario y la priorización dinámica del backlog. Además, se llevaron a cabo entrevistas de validación con usuarios reales para definir acciones correctivas.
       </td>
     </tr>
   </table>
@@ -435,21 +528,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
-<div align="justify">
-    IotInnovators es una startup peruana orientada a desarrollar soluciones innovadoras, enfocada en el uso de tecnología Internet of Things (IoT) para lograrlo. Su principal producto es SmartParking, que nace como respuesta ante la ineficiente gestión de estacionamientos en espacios públicos de alto tráfico. En muchas ciudades, los conductores pierden un tiempo considerable buscando espacios de estacionamiento disponibles, lo que genera congestión vehicular, aumenta la contaminación ambiental y reduce la satisfacción del usuario.
-    Nuestra solución utiliza tecnología IoT para optimizar la administración de grandes estacionamientos, permitiendo la detección en tiempo real de espacios libres, la reserva de estacionamientos a través de una aplicación móvil y la integración con sistemas de pago automatizados. <br>
-    Con SmartParking buscamos optimizar el uso de los estacionamientos, para que sean más eficientes y sostenibles, mejorando la movilidad urbana, y facilitando el día a día de conductores y propietarios de los estacionamientos.
-    <ul>
-      <li>
-        <b>Misión:</b>
-      </li>
-      Revolucionar la gestión de estacionamientos a través de la tecnología IoT, proporcionando una solución inteligente que optimice el uso del espacio, reduzca el tiempo de búsqueda y mejore la experiencia del usuario.
-      <li>
-        <b>Visión:</b>
-      </li>
-      Ser la plataforma líder de estacionamientos inteligentes a nivel nacional, contribuyendo a la movilidad eficiente, promoviendo soluciones tecnológicas sostenibles.
-    </ul>
-</div>
+IotInnovators es una startup peruana orientada a desarrollar soluciones innovadoras, enfocada en el uso de tecnología Internet of Things (IoT) para lograrlo. Su principal producto es SmartParking, que nace como respuesta ante la ineficiente gestión de estacionamientos en espacios públicos de alto tráfico. En muchas ciudades, los conductores pierden un tiempo considerable buscando espacios de estacionamiento disponibles, lo que genera congestión vehicular, aumenta la contaminación ambiental y reduce la satisfacción del usuario.
+
+Nuestra solución utiliza tecnología IoT para optimizar la administración de grandes estacionamientos, permitiendo la detección en tiempo real de espacios libres, la reserva de estacionamientos a través de una aplicación móvil y la integración con sistemas de pago automatizados.
+
+Con SmartParking buscamos optimizar el uso de los estacionamientos, para que sean más eficientes y sostenibles, mejorando la movilidad urbana, y facilitando el día a día de conductores y propietarios de los estacionamientos.
+
+ - Misión: Revolucionar la gestión de estacionamientos a través de la tecnología IoT, proporcionando una solución inteligente que optimice el uso del espacio, reduzca el tiempo de búsqueda y mejore la experiencia del usuario.
+
+ - Visión: Ser la plataforma líder de estacionamientos inteligentes a nivel nacional, contribuyendo a la movilidad eficiente, promoviendo soluciones tecnológicas sostenibles.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 Los integrantes que conforman la startup son:
@@ -466,52 +553,33 @@ Los integrantes que conforman la startup son:
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-<div align="justify">
-  <ul>
-    <li>
-      <b>What (Qué):</b> Desarrollar una solución IoT para la gestión inteligente de estacionamientos públicos, que permita:
-      <ul>
-        <li>Monitorear en tiempo real la disponibilidad de espacios.</li>
-        <li>Reducir el tiempo de búsqueda de estacionamiento, disminuyendo la congestión vehicular</li>
-        <li>Optimizar el cobro automatizado y la fiscalización mediante sensores y aplicaciones móviles.</li>
-      </ul>
-    </li>
-    <li>
-      <b>When (Cuándo): </b>La congestión por falta de estacionamiento es un problema persistente, pero se ha agravado en la última década debido al crecimiento vehicular. Un informe de la Asociación Automotriz del Perú (2023) señala que Lima un crecimiento de más de 100000 vehículos al año, lo que ocasiona cada vez más tráfico, que empeora durante las horas pico (7:00 - 9:00 AM y 5:00 - 8:00 PM).
-    </li>
-    <li>
-      <b>Where (Dónde): </b>La problemática es crítica en ciudades con alta densidad vehicular, como Lima, Arequipa y Trujillo. Según un estudio de Lima Cómo Vamos (2022), el 60% del tráfico en distritos como Miraflores y San Isidro se debe a vehículos buscando estacionamiento.
-    </li>
-    <li>
-      <b>Who (Quién): </b> La problemática afecta principalmente a conductores que buscan estacionamiento en zonas urbanas congestionadas. Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el movimiento vehicular crecio en un 5,7%, lo que exacerba la demanda de espacios de estacionamiento. Además, las autoridades locales enfrentan desafíos en la fiscalización y gestión eficiente de estos espacios.
-    </li>
-    <li>
-      <b>Why (Por qué): </b>La falta de gestión eficiente de estacionamientos genera:
-      <ul>
-        <li>Pérdidas económicas por tiempo improductivo en búsqueda de estacionamiento</li>
-        <li>Contaminación ambiental debido a emisiones innecesarias.¿</li>
-        <li>Estrés en conductores, reduciendo la calidad de vida urbana</li>
-      </ul>
-    </li>
-    <li>
-      <b>How (Cómo): </b>La solución propuesta integra:
-      <ul>
-        <li>Sensores IoT para detectar ocupación en tiempo real</li>
-        <li>Plataforma centralizada para gestionar datos y procesar pagos digitales</li>
-        <li>App móvil que guíe a los conductores a espacios disponibles</li>
-        <li>Sistema de cobro automatizado para reducir evasión y mejorar ingresos municipales</li>
-      </ul>
-    </li>
-    <li>
-      <b>How Much (Cuánto):</b>
-      <ul>
-        <li>Impacto económico: Reducción del 30% en tiempo de búsqueda de estacionamiento</li>
-        <li>Impacto ambiental: Disminución de emisiones de CO₂ en un 15% al reducir la congestión</li>
-        <li>Retorno de inversión: Las municipalidades podrían aumentar ingresos mediante tarifas dinámicas y multas automatizadas.</li>
-      </ul>
-    </li>
-  </ul>
-</div>
+
+- What (Qué):</b> Desarrollar una solución IoT para la gestión inteligente de estacionamientos públicos, que permita:
+    - Monitorear en tiempo real la disponibilidad de espacios.
+    - Reducir el tiempo de búsqueda de estacionamiento, disminuyendo la congestión vehicular.
+    - Optimizar el cobro automatizado y la fiscalización mediante sensores y aplicaciones móviles.
+
+ - When (Cuándo): La congestión por falta de estacionamiento es un problema persistente, pero se ha agravado en la última década debido al crecimiento vehicular. Un informe de la Asociación Automotriz del Perú (2023) señala que Lima un crecimiento de más de 100000 vehículos al año, lo que ocasiona cada vez más tráfico, que empeora durante las horas pico (7:00 - 9:00 AM y 5:00 - 8:00 PM).
+
+ - Where (Dónde): La problemática es crítica en ciudades con alta densidad vehicular, como Lima, Arequipa y Trujillo. Según un estudio de Lima Cómo Vamos (2022), el 60% del tráfico en distritos como Miraflores y San Isidro se debe a vehículos buscando estacionamiento.
+
+ - Who (Quién): La problemática afecta principalmente a conductores que buscan estacionamiento en zonas urbanas congestionadas. Según el Instituto Nacional de Estadística e Informática (INEI, 2022), el movimiento vehicular crecio en un 5,7%, lo que exacerba la demanda de espacios de estacionamiento. Además, las autoridades locales enfrentan desafíos en la fiscalización y gestión eficiente de estos espacios.
+
+ - Why (Por qué): La falta de gestión eficiente de estacionamientos genera:
+    - Pérdidas económicas por tiempo improductivo en búsqueda de estacionamiento.
+    - Contaminación ambiental debido a emisiones innecesarias.
+    - Estrés en conductores, reduciendo la calidad de vida urbana.
+
+ - How (Cómo): La solución propuesta integra:
+    - Sensores IoT para detectar ocupación en tiempo real.
+    - Plataforma centralizada para gestionar datos y procesar pagos digitales.
+    - App móvil que guíe a los conductores a espacios disponibles.
+    - Sistema de cobro automatizado para reducir evasión y mejorar ingresos municipales.
+
+ - How Much (Cuánto):
+    - Impacto económico: Reducción del 30% en tiempo de búsqueda de estacionamiento.
+    - Impacto ambiental: Disminución de emisiones de CO₂ en un 15% al reducir la congestión. 
+    - Retorno de inversión: Las municipalidades podrían aumentar ingresos mediante tarifas dinámicas y multas automatizadas.
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
@@ -607,6 +675,9 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 
 
 #### 1.2.2.4. Lean UX Canvas
+
+Se condensa, en un solo lienzo, los problemas de negocio detectados, las soluciones propuestas, los resultados esperados para compañía y usuarios, los perfiles de usuario clave, las hipótesis que se deben validar y las acciones mínimas para obtener evidencia; todo ello orientado a alinear al equipo, priorizar el aprendizaje rápido y fundamentar las decisiones de diseño y producto con datos concretos.
+
 <div align="justify">
   <table width="100%" border="1" cellpadding="10" cellspacing="0">
     <tr>
@@ -646,7 +717,7 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
           <li>Conductores que buscan estacionamiento de forma rápida y eficiente.</li>
           <li>Propietarios de estacionamientos que desean maximizar la ocupación y optimizar la gestión de sus espacios.</li>
         </ul>
-      </td>
+      </td>  
       <td valign="top">
         <h4>User Outcomes & Benefits</h4>
         <ul>
@@ -690,6 +761,9 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 </div>
 
 ## 1.3. Segmentos objetivo
+
+Se perfila a los dos públicos clave de la plataforma: (1) propietarios o administradores de estacionamientos urbanos, motivados por optimizar ocupación y automatizar cobros, y (2) conductores que enfrentan alta congestión y valoran la rapidez y conveniencia de reservar y pagar espacios vía app; esta caracterización guía la propuesta de valor y las decisiones de diseño, marketing y producto.
+
 | **Tipo de usuario**                  | **Geográfico**                                                                                                                                                                                   | **Psicográfico**                                                                                                                                                                                                                                                       | **Demográfico**                                                                                                                                                            |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Propietarios de Estacionamientos** | Propietarios o administradores de estacionamientos ubicados en zonas urbanas o áreas de alta demanda de estacionamiento, tanto públicas como privadas.                                           | Motivados por la optimización de su espacio, la automatización de cobros y la mejora de la eficiencia operativa. Buscan una solución que les ayude a aumentar la rentabilidad de sus operaciones mediante el monitoreo en tiempo real y la automatización de procesos. | - **Edad:** Entre 30 y 55 años. <br> - **Educación:** Formación en administración de negocios, ingeniería industrial o áreas relacionadas con la gestión de instalaciones. |
@@ -699,46 +773,22 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
-Nuestros competidores principales seran los siguientes:
-
-<table border="1" cellspacing="0" cellpadding="8">
-  <tr>
-    <td><strong>iPark</strong><br>
-      link: <a href="https://ipark.pe/propuesta/">https://ipark.pe/</a>
-    </td>
-    <td>
-      iPark es una plataforma digital orientada a la gestión de estacionamientos. Ofrece soluciones como pago con QR, cámaras ANPR, app móvil para conductores y un panel administrativo para los operadores. Su enfoque está en la automatización y maximización de ingresos.
-    </td>
-  </tr>
-  <tr>
-    <td><strong>ACCIST Perú</strong><br>
-      link: <a href="https://accistperu.com/">https://accistperu.com/</a>
-    </td>
-    <td>
-      ACCIST es una empresa especializada en control de asistencia y acceso. Ofrece soluciones biométricas, molinetes y otros dispositivos de seguridad, que aunque no están centrados en estacionamientos, pueden competir indirectamente en espacios como edificios o universidades.
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Smelpro</strong><br>
-      link: <a href="https://smelpro.com/">https://smelpro.com/</a>
-    </td>
-    <td>
-      Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica.
-    </td>
-  </tr>
-</table>
 
 ### 2.1.1. Análisis competitivo
+
+El Análisis competitivo muestra el panorama de competidores de SmartParking, siendo iPark, ACCIST y Smelpro. Se comparan sus propuestas, mercados objetivos, estrategias de marketing, modelos de precios, canales de distribución y factores SWOT; con el objetivo de identificar fortalezas, debilidades, oportunidades y amenazas que orienten las decisiones de posicionamiento, diferenciación y crecimiento de la plataforma.
 
 ##### Competitive Analysis Landscape
 
 ###### Competidores 
-| Competidor   | Descripción                                                                                                                                                                       |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| SmartParking | <img src="https://raw.githubusercontent.com/SolucionesIoT-Grupo-IoTInnovators/report/refs/heads/develop/ChapterV-images/smart_parking_logo.PNG?raw=true" alt="Logo" width="350"/> |
-| iPark        | <img src="https://i0.wp.com/ipark.pe/wp-content/uploads/2024/01/Posts-IG-iPark-1-1.png?fit=1080%2C1080&ssl=1?raw=true" alt="Logo iPark" width="350" />                            |
-| ACCIST       | <img src="https://d18dfix3ul3fjv.cloudfront.net/images/upload/1227/sml/64b6d9be5202d2.62984617.png?raw=true" alt="Logo ACCIST" width="350" />                                     |
-| Smelpro      | <img src="https://avatars.githubusercontent.com/u/9160835?v=4?raw=true" alt="Logo Smelpro" width="350" />                                                                         |
+
+| Competidor   | Imágen | Descripción  | Enlace   |
+|--------------|------|--------------|--------------|
+| iPark        | <img src="https://i0.wp.com/ipark.pe/wp-content/uploads/2024/01/Posts-IG-iPark-1-1.png?fit=1080%2C1080&ssl=1?raw=true" alt="Logo iPark" width="350" />                            | iPark es una plataforma digital orientada a la gestión de estacionamientos. Ofrece soluciones como pago con QR, cámaras ANPR, app móvil para conductores y un panel administrativo para los operadores. Su enfoque está en la automatización y maximización de ingresos. | https://ipark.pe/propuesta/ |
+| ACCIST       | <img src="https://d18dfix3ul3fjv.cloudfront.net/images/upload/1227/sml/64b6d9be5202d2.62984617.png?raw=true" alt="Logo ACCIST" width="350" />                                     | ACCIST es una empresa especializada en control de asistencia y acceso. Ofrece soluciones biométricas, molinetes y otros dispositivos de seguridad, que aunque no están centrados en estacionamientos, pueden competir indirectamente en espacios como edificios o universidades. | https://accistperu.com/ |
+| Smelpro      | <img src="https://avatars.githubusercontent.com/u/9160835?v=4?raw=true" alt="Logo Smelpro" width="350" />                                                                         | Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica. | https://smelpro.com/ |
+
+Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artificial para monitoreo en tiempo real. Aunque no enfocado exclusivamente en estacionamientos, sus productos pueden adaptarse a este sector, compitiendo en innovación e integración tecnológica.
 
 ###### ¿Por qué llevar a cabo este análisis?
 
@@ -862,12 +912,17 @@ Nuestros competidores principales seran los siguientes:
 | Smelpro      | Avance rápido de nuevas tecnologías internacionales.                                              |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-<div align="justify">
-  Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. A su vez, anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
-</div>
+
+Para enfrentar a los competidores adoptaremos estrategias enfocadas en la diferenciación tecnológica y la experiencia del usuario para competir con empresas ya posicionadas en el sector. 
+
+- Buscaremos aprovechar oportunidades relacionadas con la digitalización urbana, el auge de las soluciones sin contacto y el crecimiento de las smart cities. 
+- Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. 
+- Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. 
+- Anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
 **Objetivo:**
 
 Identificar con claridad las necesidades, frustraciones y comportamientos actuales de los usuarios en relación con la gestión y disponibilidad de espacios de parqueo en zonas urbanas. Esto permitirá validar las hipótesis planteadas en el enfoque Lean UX y orientar el desarrollo de la solución IoT SmartParking hacia una verdadera propuesta de valor.
@@ -1054,8 +1109,7 @@ Medio de aplicación
 **Tiempo en el video:** 41:21
 
 ### 2.2.3. Análisis de entrevistas
-
-#### Segmento 1: Perfil general del segmento<br>
+#### Segmento 1: Perfil general del segmento
 
 Este segmento está compuesto por propietarios de uno o más estacionamientos en Lima Metropolitana, que actualmente gestionan sus negocios de forma manual o semi-digital. Sus edades oscilan entre los 42 y 59 años, y muestran distintos niveles de adopción tecnológica y necesidades operativas.
 
@@ -1080,7 +1134,7 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 | Aceptación tecnológica si hay beneficios claros  | Jhon y Lizet muestran apertura si se adapta a su realidad   |
 | Priorizan funciones de monitoreo sobre reservas  | Armando prefiere control y seguridad sobre funciones de reserva |
 
-#### Segmento 2: Perfil general del segmento<br>
+#### Segmento 2: Perfil general del segmento
 
 Este segmento está conformado por personas que conducen regularmente por la ciudad, ya sea para asistir a clases, trabajar o realizar entregas. Son personas activas, entre los 24 y 49 años, que valoran el tiempo, la comodidad y la previsión. En su mayoría, no utilizan apps especializadas en estacionamiento, pero manifiestan interés alto en adoptarlas si estas les ofrecen información clara, disponibilidad en tiempo real y la opción de reservar espacios.
 
@@ -1107,46 +1161,43 @@ Este segmento está conformado por personas que conducen regularmente por la ciu
 | Abiertos a tecnología si es útil             | Todos muestran disposición clara a probar una app          |
 
 #### Conclusiones:
-
-El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking. 
+El análisis de los dos segmentos clave, Propietarios de Estacionamientos y Conductores Urbanos, revela una oportunidad clara y validada para el desarrollo de una solución como SmartParking.
 
 Por un lado, los propietarios enfrentan limitaciones operativas derivadas de una gestión manual, falta de trazabilidad y exposición a errores o fraudes. Si bien no todos son nativos digitales, muestran interés en adoptar tecnología siempre que esta sea accesible, simple y les permita mejorar el control y la rentabilidad de sus espacios.
 
 Por otro lado, los conductores expresan frustración constante por la dificultad de encontrar estacionamiento disponible, especialmente en zonas concurridas. Son usuarios con una alta disposición tecnológica y valoran sobre todo la eficiencia, la anticipación y la posibilidad de reservar espacios desde el móvil. Prefieren soluciones ágiles con pago por uso, sin compromisos recurrentes.
 
 Ambos segmentos coinciden en valorar funcionalidades como:
-- Visualización clara de disponibilidad en tiempo real.
-- Información actualizada sobre ubicación y precios.
-- Reservas anticipadas que brinden seguridad y ahorro de tiempo.
-- Reportes o trazabilidad, en el caso de los propietarios.
+ - Visualización clara de disponibilidad en tiempo real.
+ - Información actualizada sobre ubicación y precios.
+ - Reservas anticipadas que brinden seguridad y ahorro de tiempo.
+ - Reportes o trazabilidad, en el caso de los propietarios.
 
-Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
+ Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
 
 ## 2.3. Needfinding
+
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
 
 ### 2.3.1. User Personas
-<div align="justify">
-  En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.<br><br>
-</div>
 
-**Segmento Propietario de Estacionamiento:** <br>
-<div align="justify">
-  Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.<br><br>
-</div>
+En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
+
+**Segmento Propietario de Estacionamiento:**
+
+Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Propietario.png?raw=true" alt="user persona de propietario de estacionamiento">
 
-**Segmento Conductor:** <br>
-<div align="justify">
-  Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.<br><br>
-</div>
+**Segmento Conductor:**
+
+Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png?raw=true" alt="user persona de conductor">
 
 ### 2.3.2. User Task Matrix
 
-En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los **User Personas** realizan para cumplir sus objetivos. Se consideran dos segmentos: **propietarios de estacionamiento** y **conductores**. Las tareas identificadas representan actividades que los usuarios deben realizar independientemente de la existencia de una solución de software.
+En esta sección se presenta el User Task Matrix, que concentra las tareas que los User Personas realizan para cumplir sus objetivos. Se consideran dos segmentos: propietarios de estacionamiento y conductores. Las tareas identificadas representan actividades que los usuarios deben realizar independientemente de la existencia de una solución de software.
 
 | **Task**                                 | **Propietario de Estacionamiento** |                 | **Conductor**  |                 |
 |------------------------------------------|------------------------------------|-----------------|----------------|-----------------|
@@ -1165,7 +1216,7 @@ En esta sección se presenta el **User Task Matrix**, que concentra las tareas q
 
 ###### Explicación
 
-Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y **conductores**, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
+Al analizar las tareas de los segmentos de propietarios de estacionamiento y conductores, se observan diferencias claras en los objetivos y responsabilidades, así como algunas coincidencias importantes.
 
 **Tareas con Mayor Frecuencia e Importancia**
 
@@ -1179,12 +1230,12 @@ Al analizar las tareas de los segmentos de **propietarios de estacionamiento** y
 
 **Principales Diferencias**
 
-- Los **propietarios** están enfocados en la **gestión operativa y financiera** del estacionamiento (tarifas, disponibilidad, pagos).
-- Los **conductores** están enfocados en **localizar, evaluar y asegurar** su experiencia al aparcar.
+- Los propietarios están enfocados en la gestión operativa y financiera del estacionamiento (tarifas, disponibilidad, pagos).
+- Los conductores están enfocados en localizar, evaluar y asegurar su experiencia al aparcar.
 
 **Coincidencias**
 
-Ambos perfiles realizan la tarea de **coordinar con clientes** (por ejemplo, para resolver inconvenientes o dar indicaciones) y **gestionar historial** (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
+Ambos perfiles realizan la tarea de coordinar con clientes (por ejemplo, para resolver inconvenientes o dar indicaciones) y gestionar historial (sea de pagos o reservas), lo cual resalta una necesidad compartida de trazabilidad y buena comunicación.
 
 Estas diferencias y coincidencias subrayan la necesidad de una solución que contemple tanto la eficiencia operativa para los propietarios como la conveniencia y seguridad para los conductores.
 
@@ -1192,39 +1243,37 @@ Estas diferencias y coincidencias subrayan la necesidad de una solución que con
 
 La sección de User Journey Maps muestra el recorrido completo de los usuarios de la app de parking, desde que conocen por primera vez la solución hasta el momento en que la dejan de utilizar. El mapeo evidencia las acciones, metas, emociones y problemas experimentados por los dos segmentos clave: propietarios de estacionamiento y conductores. Además, se identifican oportunidades de mejora que pueden guiar el desarrollo de nuevas funcionalidades o ajustes en la experiencia del usuario.
 
-Para los **Propietarios de Estacionamiento**, el journey inicia cuando descubren la app como una forma de rentabilizar espacios disponibles. A lo largo del proceso, sus emociones evolucionan desde la curiosidad hasta la confianza, aunque pueden experimentar frustraciones relacionadas con la gestión de clientes o la flexibilidad del servicio. Las oportunidades incluyen mejoras en la personalización, asistencia en la fijación de precios y funciones de pausa del servicio.
+Para los Propietarios de Estacionamiento, el journey inicia cuando descubren la app como una forma de rentabilizar espacios disponibles. A lo largo del proceso, sus emociones evolucionan desde la curiosidad hasta la confianza, aunque pueden experimentar frustraciones relacionadas con la gestión de clientes o la flexibilidad del servicio. Las oportunidades incluyen mejoras en la personalización, asistencia en la fijación de precios y funciones de pausa del servicio.
 
 **Segmento Propietario de Estacionamiento:**
 
-
 ![](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/165729b4a8060773766191d14f61a13c0b8669df/ChapterII-images/user_journey_mapping_owner.png?raw=true)
 
-
-El journey de los **Conductores** comienza al descubrir la app como una solución rápida y confiable para encontrar estacionamiento. A medida que la utilizan, pasan de la expectativa inicial al alivio de evitar pérdidas de tiempo, aunque también pueden encontrar frustraciones si la información está desactualizada o el proceso no es fluido. Las oportunidades detectadas incluyen mejoras en la verificación de parqueos, soporte activo, y opciones para personalizar la experiencia.
+El journey de los Conductores comienza al descubrir la app como una solución rápida y confiable para encontrar estacionamiento. A medida que la utilizan, pasan de la expectativa inicial al alivio de evitar pérdidas de tiempo, aunque también pueden encontrar frustraciones si la información está desactualizada o el proceso no es fluido. Las oportunidades detectadas incluyen mejoras en la verificación de parqueos, soporte activo, y opciones para personalizar la experiencia.
 
 **Segmento Conductor:**
-
-
 
 ![](ChapterII-images/user_journey_mapping_conductor.png?raw=true)
 
 ### 2.3.4. Empathy Mapping
+
 En esta sección se presentan los Empathy Maps para cada User Persona, que ayudan a entender sus experiencias y emociones. Se colocó al User Persona en el centro y se recolectaron observaciones del equipo sobre lo que necesita hacer, dice y siente. También se identificaron sus preocupaciones y cómo nuestra solución puede ayudar. A continuación, se incluyen las capturas de los Empathy Maps realizados.
 
-**Segmento Propietario de Estacionamiento:** <br>
+**Segmento Propietario de Estacionamiento:**
 Alejandro Torres es propietario de varios estacionamientos en la ciudad y busca maximizar la rentabilidad de su negocio. Aunque tiene experiencia en gestión, enfrenta desafíos como baja ocupación en horarios específicos y la falta de datos sobre el comportamiento de los clientes. Le interesa implementar herramientas tecnológicas que le permitan automatizar reservas y pagos, así como obtener reportes detallados que le ayuden a tomar mejores decisiones. Su principal frustración es la dificultad de administrar los espacios de manera eficiente sin una plataforma digital que optimice la operación. Su objetivo es mejorar la ocupación de sus estacionamientos, aumentar sus ingresos y ofrecer una mejor experiencia a sus clientes.
+
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20propietario%20de%20estacionamiento.png?raw=true" alt="emphaty mapping de propietario de estacionamiento">
 
-**Segmento Conductor:** <br>
+**Segmento Conductor:**
 Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asistir a reuniones. Su apretada agenda hace que encontrar estacionamiento sea un problema frecuente, especialmente en zonas de alta demanda. Se frustra al perder tiempo buscando un espacio disponible, enfrentarse a tarifas imprevistas o no tener información en tiempo real sobre la disponibilidad. Como usuario de tecnología, busca soluciones que optimicen su tiempo y le brinden mayor comodidad, como aplicaciones móviles que le permitan reservar espacios con antelación y recibir notificaciones sobre estacionamientos cercanos y sus costos. Su objetivo principal es reducir el estrés de encontrar estacionamiento y asegurarse de que su vehículo esté seguro mientras realiza su trabajo.
+
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20conductor.png?raw=true" alt="emphaty mapping de conductor">
 
-**Proceso de Elaboración** <br>
-1. **Preparación y Enfoque en el User Persona** <br>
+**Proceso de Elaboración**
+1. **Preparación y Enfoque en el User Persona**
    Cada mapa comenzó con la identificación del User Persona en el centro:
     - **Alejandro Torres**: Propietario de varios estacionamientos en Santiago, busca optimizar la ocupación de sus espacios y mejorar la rentabilidad de su negocio mediante herramientas digitales.
     - **Diego Ramírez**: Persona que usa su vehículo diariamente y enfrenta dificultades para encontrar estacionamiento de manera rápida y eficiente.
-
 
 2. **Captura de Observaciones**:  
    Para cada User Persona, se recopilaron observaciones del equipo en las secciones del Empathy Map:
@@ -1314,7 +1363,13 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
             - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
 
 ### 2.3.5. As-is Scenario Mapping
-**Segmento Propietario de Estacionamiento:** <br>
+
+Los As-is Scenario Mapping describen la experiencia actual tanto del propietario de estacionamiento como del conductor, identificando puntos positivos (lo que ya aporta valor), negativos (fricciones operativas y de usuario) y áreas en blanco (incertidumbres y necesidades no cubiertas); este mapeo de situaciones reales permite comprender dónde se generan ineficiencias, estrés o pérdida de ingresos y sirve de base para priorizar mejoras en la futura solución.
+
+**Segmento Propietario de Estacionamiento:**
+
+Su jornada se inicia revisando a pie la ocupación; sin automatización, asigna puestos manualmente y confía en que la demanda sea alta. Al cobrar, ofrece efectivo o app —único momento relativamente fluido—, para luego registrar todo en Excel al cierre. Piensa en maximizar reservas y evitar impagos, pero carece de datos en tiempo real; se siente expectante al comienzo, agobiado durante la operación y frustrado al analizar resultados, aunque termina el día reflexivo y dispuesto a optimizar.
+
 ![as is scenario mapping propietario de estacionamiento](ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
 
 - **Positive points**:
@@ -1329,7 +1384,10 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
     - **Espero que todos paguen sin problemas:** Habría que analizar qué porcentaje de clientes usa efectivo vs. apps, y si esto genera problemas operativos.
     - **Podría ganar más si tuviera más reservas anticipadas:** Es importante investigar si Alejandro está dispuesto a adoptar un sistema de reservas online y qué barreras percibe.
 
-**Segmento Conductor:** <br>
+**Segmento Conductor:**
+
+Antes de salir consulta Waze/Google Maps, esperando que haya sitio libre; conduce con tiempo justo y, ya en la zona, da vueltas sin información fiable hasta hallar un espacio caro e inesperado. La incertidumbre de multas y remolques lo acompaña mientras camina al destino. A lo largo del trayecto pasa de ligero optimismo a estrés, frustración, indignación y finalmente inseguridad resignada por la falta de transparencia y control sobre el estacionamiento.
+
 ![as is scenario mapping conductor](ChapterII-images/As%20is%20Scenario%20Mapping-conductor.jpg)
 
 - **Positive points**:
@@ -1363,14 +1421,17 @@ Se presenta una tabla que contiene los términos específicos del dominio del ne
 | DynamicPricing     | Estrategia de precios variables para las reservas en función de la demanda, horario o condiciones específicas.                            |
 | PlatformFee        | Comisión cobrada por el uso de la plataforma SmartParking, deducida del ingreso del ParkingOwner.                                          |
 
-
 ---
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
+
 En esta sección se presentan los To-Be Scenario Mapping para cada segmento objetivo donde se reflejarán, a partir de los As-is Scenario Mapping, la experiencia de usuario ideal si se resuelven los puntos de dolor y necesidades. La herramienta empleada para su desarrollo ha sido Miro.
 
-**Segmento Propietario de Estacionamiento:** <br>
+**Segmento Propietario de Estacionamiento:**
+
+En el escenario ideal, el propietario inicia su jornada abriendo un panel que ya muestra reservas y ocupación estimada, gestiona espacios en tiempo real desde la app, y los pagos se procesan automáticamente; durante el día consulta reportes de demanda para ajustar precios y, al cierre, revisa ingresos y rendimiento con un clic. El resultado es una operación ordenada, datos para decisiones estratégicas y un sentimiento constante de control, eficiencia y motivación para seguir optimizando.
+
 ![**Cambios Claves**](ChapterII-images/To-be%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
 
 **Cambios Claves**
@@ -1378,7 +1439,11 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 - Disminuye la carga operativa y aumenta la eficiencia, lo que permite dedicar más tiempo a la estrategia.
 - Acceso a datos analíticos facilita la toma de decisiones y mejora la rentabilidad.
 
-**Segmento Conductor:** <br>
+**Segmento Conductor:**
+
+El conductor planifica su viaje reservando plaza desde la app, conduce guiado por GPS con la ubicación exacta del estacionamiento, ingresa sin demoras mediante QR y llega a su destino sabiendo el tiempo restante; en cada fase pasa de tranquilidad a confianza y satisfacción, eliminando la búsqueda, la incertidumbre de precio y el riesgo de multas, y disfrutando de una experiencia de estacionamiento fluida y sin estrés.
+
+
 ![**Cambios Claves**](ChapterII-images/To-be%20Scenario%20Mapping-conductor.jpg)
 
 **Cambios Claves**
@@ -1387,903 +1452,95 @@ En esta sección se presentan los To-Be Scenario Mapping para cada segmento obje
 - Mejora la confianza y seguridad, tanto en el trayecto como en el uso del espacio reservado.
 
 ## 3.2. User Stories
-<div align="justify">
-  <table>
-    <tr>
-      <td width="10%">Epic / Story ID</td>
-      <td width="10%">Título</td>
-      <td width="30%">Descripción</td>
-      <td width="40%">Criterios de Aceptación</td>
-      <td width="10%">Relacionado con (Epic ID)</td>
-    </tr>
-    <!--Epica 01-->
-    <tr>
-      <td>EP01</td>
-      <td>Disponibilidad en Tiempo Real</td>
-      <td>Implementar los sensores IoT para que detecten en tiempo real la disponibilidad de espacios en el estacionamiento, de modo que los conductores puedan ver en la app información actualizada al instante.</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US01</td>
-      <td>Visualización de espacios disponibles en el mapa</td>
-      <td>Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.</td>
-      <td>
-        Scenario: Mostrar espacios disponibles en el mapa<br>
-        Given que el usuario ha iniciado sesión en la aplicación móvil<br>
-        When accede a la pantalla de mapa<br>
-        Then los espacios disponibles se deben mostrar en color azul<br>
-        And los espacios ocupados deben mostrarse en color rojo
-        <br><br>
-        Scenario: Mostrar espacios durante reserva<br>
-        Given que el usuario ha seleccionado un espacio<br>
-        When el usuario desea realizar una reserva<br>
-        Then el espacio adquiere un color amarillo
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US02</td>
-      <td>Actualización automática de disponibilidad</td>
-      <td>Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.</td>
-      <td>
-        Scenario: Actualización automática del mapa<br>
-        Given que el propietario está visualizando el mapa de estacionamientos<br>
-        When pasan 30 segundos<br>
-        Then el sistema debe actualizar automáticamente la disponibilidad de los espacios sin recargar la vista
-        <br><br>
-        Scenario: Reserva de otro usuario<br>
-        Given que un usuario esta realizando una reserva<br>
-        When otro usuario esta realizando la reserva<br>
-        Then el sistema pone el espacio como ocupado<br>
-        And evita que las reservas se superpongan.
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US03</td>
-      <td>Sección hero de landing page</td>
-      <td>Como visitante quiero visualizar una sección hero en el landing page para tener una idea sobre lo que ofrece la aplicación</td>
-      <td>
-        Scenario: Visualización de la presentación de la aplicación<br>
-        Given que el visitante está en el landing page<br>
-        When se encuentra en la sección de Inicio<br>
-        Then observa una presentación clara de la aplicación.
-        <br><br>
-        Scenario: Acceso a la sección inicio del producto<br>
-        Given que el visitante está en el landing page<br>
-        And utiliza la barra de navegación<br>
-        When selecciona el logo<br>
-        Then accede a la sección hero del producto.
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US04</td>
-      <td>Barra de navegación en landing page</td>
-      <td>Como visitante quiero una barra de navegación de landing page para tener accesos directos a la información de la aplicación </td>
-      <td>
-        Scenario: Acceso a la sección Nosotros<br>
-        Given que el visitante está en el landing page<br>
-        And utiliza la barra de navegación<br>
-        When selecciona "Contacto"<br>
-        Then accede a la sección de contacto del producto.
-        <br><br>
-        Scenario: Acceso a la sección Propietarios<br>
-        Given que el visitante está en el landing page<br>
-        And utiliza la barra de navegación<br>
-        When selecciona “Beneficios”<br>
-        Then accede a la sección que muestra los beneficios del producto.
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Visualizar detalles de un espacio disponible</td>
-      <td>Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.</td>
-      <td>
-        Scenario: Ver detalles de un espacio<br>
-        Given que el usuario visualiza un espacio disponible en el mapa<br>
-        When toca un marcador de espacio<br>
-        Then se debe mostrar un panel con información sobre el precio, duración máxima permitida y tipo de espacio
-        <br><br>
-        Scenario: Panel con detalles desaparece al cerrar<br>
-        Given que el panel de detalles del espacio está visible<br>
-        When el usuario toca el botón de cerrar<br>
-        Then el panel de información debe desaparecer de la vista
-      </td>
-      <td>EP01</td>
-    </tr>
-    <!--Épica 02-->
-    <tr>
-      <td>EP02</td>
-      <td>Sistema de Reserva y Pago Automatizado</td>
-      <td>Desarrollar un sistema integral que permita a los conductores reservar un espacio de estacionamiento y procesar el pago de forma automatizada, ofreciendo una experiencia fluida y sin fricciones.</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US06</td>
-      <td>Reservar un espacio disponible desde la app</td>
-      <td>Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.</td>
-      <td>
-        Scenario: Reservar espacio desde la app<br>
-        Given que el usuario visualiza un espacio disponible<br>
-        When selecciona el espacio y presiona "Reservar"<br>
-        Then el sistema debe bloquear el espacio durante un tiempo determinado<br>
-        And debe mostrar un mensaje de confirmación con el tiempo límite para llegar
-        <br><br>
-        Scenario: No reservar espacio ya bloqueado<br>
-        Given que el espacio ya está reservado por otro usuario<br>
-        When un usuario intenta reservarlo<br>
-        Then el sistema rechaza la solicitud con un error de "espacio no disponible"
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Cancelar una reserva activa</td>
-      <td>Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.</td>
-      <td>
-        Scenario: Cancelación de reserva<br>
-        Given que el usuario tiene una reserva activa<br>
-        When presiona el botón "Cancelar reserva"<br>
-        Then el espacio debe quedar liberado inmediatamente<br>
-        And debe mostrarse una notificación de cancelación exitosa
-        <br><br>
-        Scenario: No cancelar reserva expirada<br>
-        Given que la reserva ha expirado automáticamente<br>
-        When el usuario intenta cancelarla<br>
-        Then el sistema indica que no existe reserva activa
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Realizar pago desde la app</td>
-      <td>Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.</td>
-      <td>
-        Scenario: Pago exitoso desde la app<br>
-        Given que el usuario ha utilizado un espacio reservado<br>
-        When accede a la opción de pago y confirma el monto<br>
-        Then el sistema debe procesar el pago de forma segura<br>
-        And debe mostrar un comprobante digital de la transacción
-        <br><br>
-        Scenario: Fallo en el proceso de pago<br>
-        Given que el usuario confirma un pago<br>
-        When el proveedor de pagos rechaza la transacción<br>
-        Then el sistema debe mostrar un mensaje de error e indicar que el pago no se ha realizado
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Registro de método de pago en el perfil</td>
-      <td>Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.</td>
-      <td>
-        Scenario: Registrar método de pago<br>
-        Given que el usuario accede a su perfil<br>
-        When introduce los datos de su tarjeta y guarda la información<br>
-        Then el sistema debe validar y guardar el método de pago de forma segura<br>
-        And debe estar disponible para próximos pagos
-        <br><br>
-        Scenario: Validación fallida del método de pago<br>
-        Given que el usuario introduce datos de tarjeta inválidos<br>
-        When intenta guardarlos<br>
-        Then el sistema rechaza el registro y muestra una notificación de error
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Ver historial de pagos realizados</td>
-      <td>Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.</td>
-      <td>
-        Scenario: Visualizar historial de pagos<br>
-        Given que el usuario está en la sección de "Mis pagos"<br>
-        When selecciona una fecha o rango de fechas<br>
-        Then debe mostrarse una lista de pagos realizados con detalles como fecha, monto y estacionamiento
-        <br><br>
-        Scenario: Sin pagos registrados<br>
-        Given que el usuario accede al historial de pagos<br>
-        When no se han realizado transacciones<br>
-        Then el sistema debe mostrar un mensaje indicando que no hay pagos registrados
-      </td>
-      <td>EP02</td>
-    </tr>
-    <!--Épica 03-->
-    <tr>
-      <td>EP03</td>
-      <td>Panel de Gestión para Propietarios</td>
-      <td>Crear una plataforma web para los propietarios de estacionamientos que permita la gestión en tiempo real para optimizar la administración y maximizar ingresos.</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Visualizar ocupación en tiempo real</td>
-      <td>Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.</td>
-      <td>
-        Scenario: Ver ocupación en tiempo real<br>
-        Given que el propietario ha iniciado sesión en la plataforma web<br>
-        When accede al panel principal<br>
-        Then debe visualizar un gráfico con el porcentaje de ocupación actual<br>
-        And una lista con los espacios ocupados y disponibles en tiempo real
-        <br><br>
-        Scenario: Datos consistentes con sensores<br>
-        Given que un sensor reporta un cambio de estado<br>
-        When el panel consulta el servicio de estado<br>
-        Then el porcentaje de ocupación refleja inmediatamente el cambio
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Modificar tarifas de estacionamiento</td>
-      <td>Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.</td>
-      <td>
-        Scenario: Modificar tarifa base por hora<br>
-        Given que el propietario está en el panel de tarifas<br>
-        When edita el valor en el campo “Tarifa por hora”<br>
-        Then la tarifa actualizada debe reflejarse en la plataforma<br>
-        And debe mostrarse un mensaje de confirmación
-        <br><br>
-        Scenario: Evitar tarifas inválidas<br>
-        Given que el propietario ingresa una tarifa negativa o no numérica<br>
-        When intenta guardar los cambios<br>
-        Then el sistema rechaza el valor ingresado y muestra una notificación de validación
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Descargar reportes de uso</td>
-      <td>Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.</td>
-      <td>
-        Scenario: Descargar reporte mensual<br>
-        Given que el propietario accede a la sección de reportes<br>
-        When selecciona un rango de fechas<br>
-        Then el sistema debe generar un archivo PDF o Excel con los datos de ocupación e ingresos
-        <br><br>
-        Scenario: Descargar reporte sin datos<br>
-        Given que no hay datos disponibles para el rango de fechas seleccionado<br>
-        When el propietario intenta generar el reporte<br>
-        Then el sistema muestra una notificación indicando que no hay datos en ese período
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Diseñar y distribuir espacios de estacionamiento</td>
-      <td>Como propietario, quiero poder diseñar y organizar los espacios de estacionamiento desde la aplicación web, para optimizar su distribución y gestión.</td>
-      <td>
-        Scenario: Acceder al módulo de diseño<br>
-        Given que el propietario inicia sesión en la plataforma<br>
-        When accede a la sección "Crear estacionamiento"<br>
-        Then se muestra una interfaz gráfica para añadir, mover y eliminar espacios de estacionamiento
-        <br><br>
-        Scenario: Guardar distribución personalizada<br>
-        Given que el propietario realiza cambios en el diseño<br>
-        When selecciona "Guardar distribución"<br>
-        Then el sistema guarda la nueva distribución y muestra un mensaje de confirmación
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Gestionar múltiples estacionamientos desde un solo panel</td>
-      <td>Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.</td>
-      <td>
-        Scenario: Ver listado de estacionamientos registrados<br>
-        Given que el propietario tiene más de un estacionamiento<br>
-        When accede al panel de gestión<br>
-        Then debe visualizar una lista con todos sus estacionamientos registrados
-        <br><br>
-        Scenario: Ver detalles por cada estacionamiento<br>
-        Given que el propietario está en el panel<br>
-        When selecciona un estacionamiento de la lista<br>
-        Then debe ver un desglose con sus métricas de ocupación, ingresos y alertas
-      </td>
-      <td>EP03</td>
-    </tr>
-    <!--Épica 04-->
-    <tr>
-      <td>EP04</td>
-      <td>Integración y Confiabilidad del Sistema IoT</td>
-      <td>Garantizar una integración robusta y confiable de los dispositivos IoT en el estacionamiento, con un sistema de monitoreo que minimice errores y garantice la exactitud de los datos transmitidos.</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US16</td>
-      <td>Registro de sensores en la plataforma</td>
-      <td>Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.</td>
-      <td>
-        Scenario: Registro exitoso de un nuevo sensor<br>
-        Given que el administrador está autenticado en la plataforma<br>
-        When agrega un sensor proporcionando su ID y ubicación<br>
-        Then el sistema confirma el registro y lo muestra en el panel de control
-        <br><br>
-        Scenario: Rechazo de sensor duplicado<br>
-        Given que un sensor con ese mismo ID ya está registrado<br>
-        When intenta volver a registrarlo<br>
-        Then el sistema rechaza la solicitud con un error de “ID duplicado”
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US17</td>
-      <td>Seguridad y Confiabilidad del Sistema</td>
-      <td>Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.</td>
-      <td>
-        Scenario: Mostrar sección sobre sensores IoT<br>
-        Given que el visitante navega en la landing page<br>
-        When llega a la sección “¿Cómo funciona?”<br>
-        Then debe visualizar una explicación animada de cómo los sensores detectan ocupación y envían datos a la plataforma
-        <br><br>
-        Scenario: Garantía de precisión<br>
-        Given que el visitante revisa la confiabilidad del sistema<br>
-        When selecciona “Leer más sobre confiabilidad”<br>
-        Then debe mostrarse una ventana emergente o nueva página con datos técnicos y métricas de precisión (&#60 5% error)<br>
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US18</td>
-      <td>Alertas ante fallas en los sensores</td>
-      <td>Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.</td>
-      <td>
-        Scenario: Notificación por inactividad del sensor<br>
-        Given que un sensor no envía datos por más de 60 segundos<br>
-        When el sistema detecta esta inactividad<br>
-        Then se envía una notificación al propietario indicando el sensor afectado
-        <br><br>
-        Scenario: Registro de inactividad del sensor<br>
-        Given que un sensor no responde durante un período determinado<br>
-        When se detecta una posible falla<br>
-        Then el sistema registra un evento de error en el historial del sensor para seguimiento posterior
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US19</td>
-      <td>Actualización remota del firmware de sensores</td>
-      <td>Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.</td>
-      <td>
-        Scenario: Actualización remota de firmware<br>
-        Given que el administrador selecciona uno o más sensores<br>
-        When selecciona “Actualizar firmware”<br>
-        Then el sistema despliega la actualización de manera remota y muestra un mensaje de éxito o error
-        <br><br>
-        Scenario: Validación de versión de firmware<br>
-        Given que la actualización de firmware se ha completado<br>
-        When el sistema consulta la versión del firmware del sensor<br>
-        Then debe coincidir con la versión esperada en la última actualización
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Validación de consistencia entre sensores y estado del sistema</td>
-      <td>Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.</td>
-      <td>
-        Scenario: Verificación automática de consistencia<br>
-        Given que el sistema recibe datos de los sensores<br>
-        When detecta una discrepancia con los datos mostrados en la interfaz<br>
-        Then genera una alerta y actualiza automáticamente el estado correcto
-        <br><br>
-        Scenario: Registro de inconsistencias detectadas<br>
-        Given que se produce una inconsistencia entre el sensor y la plataforma<br>
-        When se ejecuta la validación<br>
-        Then el sistema guarda un registro detallado del incidente para su revisión
-      </td>
-      <td>EP04</td>
-    </tr>
-    <!--Épica 05-->
-    <tr>
-      <td>EP05</td>
-      <td>Estrategia de Adopción y Crecimiento</td>
-      <td>Diseñar e implementar funcionalidades que mejoren la experiencia del usuario y aseguren la adopción de la plataforma tanto por conductores como por propietarios, impulsando el crecimiento.</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US21</td>
-      <td>Registro mediante enlace de invitación</td>
-      <td>Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.</td>
-      <td>
-        Scenario: Registro desde enlace de invitación<br>
-        Given que recibe un enlace de invitación válido<br>
-        When completa el registro usando ese enlace<br>
-        Then el sistema lo asocia con el usuario que envió la invitación
-        <br><br>
-        Scenario: Enlace expirado<br>
-        Given que el enlace de invitación ha expirado<br>
-        When el usuario intenta registrarse con ese enlace<br>
-        Then el sistema rechaza el registro indicando “enlace inválido o expirado”
-      </td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US22</td>
-      <td>Calificar estacionamientos utilizados</td>
-      <td>Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.</td>
-      <td>
-        Scenario: Mostrar opción de calificación después del uso<br>
-        Given que el conductor ha completado el tiempo de estacionamiento<br>
-        When accede al resumen de la reserva<br>
-        Then se muestra la opción para calificar el estacionamiento con una puntuación y un comentario
-        <br><br>
-        Scenario: Registrar calificación con éxito<br>
-        Given que el conductor ingresa una puntuación y comentario<br>
-        When presiona "Enviar calificación"<br>
-        Then el sistema guarda la calificación y muestra un mensaje de confirmación
-        <br><br>
-        Scenario: Ver calificaciones anteriores<br>
-        Given que el conductor encuentra un estacionamiento<br>
-        When accede a ver sus detalles<br>
-        Then puede ver una calificación en general<br>
-        And calificaciones de otros usuarios.
-      </td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US23</td>
-      <td>Registro Rápido desde Landing Page</td>
-      <td>Como visitante interesado, quiero poder acceder a la plataforma directamente desde la landing page, para empezar a usar los servicios</td>
-      <td>
-        Scenario: Mostrar formulario de registro visible<br>
-        Given que el visitante accede a la landing page<br>
-        When selecciona “Empieza ahora”<br>
-        Then debe redireccionar a la aplicación web
-        And desplegar formulario de registro
-        <br><br>
-        Scenario: Confirmación para usuario Propietario<br>
-        Given que el visitante llena el formulario correctamente<br>
-        When es usuario "Propietario"<br>
-        Then debe ser redirigido a la app web<br>
-        And empezar a usar SmartParking
-        <br><br>
-        Scenario: Confirmación para usuario Chofer<br>
-        Given que el visitante llena el formulario correctamente<br>
-        When es usuario "Chofer"<br>
-        Then debe ser redirigido a App Store o Google Play<br>
-        And descargar la aplicación movil
-      </td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US24</td>
-      <td>Encuesta de satisfacción automática</td>
-      <td>Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.</td>
-      <td>
-        Scenario: Enviar encuesta de satisfacción automática<br>
-        Given que he usado la app durante más de 7 días<br>
-        When abro la app en ese periodo<br>
-        Then se me presenta una encuesta de satisfacción de forma automática
-        <br><br>
-        Scenario: Encuesta no enviada si ya fue respondida<br>
-        Given que el usuario ya ha completado la encuesta de satisfacción<br>
-        When vuelve a abrir la app dentro del mismo periodo<br>
-        Then el sistema no vuelve a mostrar la encuesta
-      </td>
-      <td>EP05</td>
-    </tr>
-    <tr>
-      <td>US25</td>
-      <td>Panel de métricas de crecimiento orgánico (Admin)</td>
-      <td>Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.</td>
-      <td>
-        Scenario: Visualizar panel de métricas de referidos<br>
-        Given que soy un administrador de la plataforma<br>
-        When accedo al panel de métricas<br>
-        Then puedo ver datos como cantidad de referidos, usuarios activos y conversiones por invitación
-        <br><br>
-        Scenario: Actualización automática de métricas<br>
-        Given que se generan nuevos registros a través de referidos<br>
-        When el sistema recibe la información<br>
-        Then el panel actualiza automáticamente los valores correspondientes sin intervención manual
-      </td>
-      <td>EP05</td>
-    </tr>
-    <!-- Technical Stories -->
-    <tr>
-      <td>TS01</td>
-      <td>Integrar sensores IoT al backend</td>
-      <td>Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.</td>
-      <td>
-        Scenario: Recepción de datos desde sensores IoT<br>
-        Given que un sensor envía un POST con su estado (ocupado o libre)<br>
-        When el backend recibe la solicitud<br>
-        Then el estado del espacio de estacionamiento se actualiza correctamente en la base de datos
-        <br><br>
-        Scenario: Respuesta al sensor<br>
-        Given que el backend procesa correctamente el estado<br>
-        When termina la operación de persistencia<br>
-        Then el endpoint devuelve HTTP 200 OK
-      </td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>TS02</td>
-      <td>Autenticación con JWT en Web y App</td>
-      <td>Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.</td>
-      <td>
-        Scenario: Inicio de sesión con JWT<br>
-        Given que un usuario envía sus credenciales al endpoint de login<br>
-        When las credenciales son válidas<br>
-        Then se devuelve un JWT válido que puede ser usado para acceder a recursos protegidos
-        <br><br>
-        Scenario: Rechazo de credenciales inválidas<br>
-        Given que un usuario envía credenciales incorrectas<br>
-        When el sistema valida las credenciales<br>
-        Then el endpoint devuelve HTTP 401 Unauthorized
-      </td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>TS03</td>
-      <td>Visualización en tiempo real en la aplicación web</td>
-      <td>Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.</td>
-      <td>
-        Scenario: Actualización en tiempo real del estado de espacios<br>
-        Given que el estado de un espacio cambia (de libre a ocupado o viceversa)<br>
-        When el cambio es detectado por el backend<br>
-        Then la interfaz web actualiza automáticamente el estado visual de ese espacio sin recargar la página
-        <br><br>
-        Scenario: Recuperación inicial de datos<br>
-        Given que un propietario abre el panel por primera vez<br>
-        When la página carga los datos iniciales<br>
-        Then el sistema devuelve la lista completa de estados de espacios con HTTP 200 OK
-      </td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>TS04</td>
-      <td>Implementar sistema de reservas en la App Móvil</td>
-      <td>Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.</td>
-      <td>
-        Scenario: Reserva de espacio desde la app<br>
-        Given que el usuario tiene sesión activa y un espacio está libre<br>
-        When selecciona el espacio y confirma la reserva<br>
-        Then el espacio se marca como reservado en el backend<br>
-        And la reserva queda vinculada al usuario
-        <br><br>
-        Scenario: Response de reserva<br>
-        Given que la solicitud de reserva llega al backend<br>
-        When la operación es exitosa<br>
-        Then el endpoint devuelve HTTP 201 Created con el ID de reserva
-      </td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>TS05</td>
-      <td>Implementar sistema de pagos en línea</td>
-      <td>Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.</td>
-      <td>
-        Scenario: Pago exitoso de reserva<br>
-        Given que el usuario ha reservado un espacio<br>
-        When accede a la opción de pagar y completa el proceso con su tarjeta<br>
-        Then el sistema confirma el pago y lo registra asociado a la reserva
-        <br><br>
-        Scenario: Manejo de error de pago<br>
-        Given que el proveedor de pago rechaza la transacción<br>
-        When el backend recibe el error<br>
-        Then el endpoint devuelve HTTP 402 Payment Required
-      </td>
-      <td>-</td>
-    </tr>
-    <!--Epica 06-->
-    <tr>
-      <td>EP06</td>
-      <td>Backend API</td>
-      <td>Como desarrollador quiero utilizar un backend API para que los usuarios puedan interactuar con la aplicación.</td>
-      <td>-</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>TS06</td>
-      <td>Crear Parking Owner a través de RESTful API</td>
-      <td>Como desarrollador quiero registrar un Parking Owner a través de la API para que pueda autenticar usuarios propietarios de estacionamientos en la plataforma.</td>
-      <td>
-        Scenario: Crear Parking Owner con datos válidos<br>
-        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
-        When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone, companyName y ruc correctamente formateados y únicos<br>
-        Then se recibe una respuesta con estado 201<br>
-        And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.
-        <br><br>
-        Scenario: Crear Parking Owner con email duplicado<br>
-        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
-        When se envía una solicitud POST con un email ya registrado<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el email ya está en uso.
-        <br><br>
-        Scenario: Crear Parking Owner con teléfono inválido<br>
-        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
-        When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.
-        <br><br>
-        Scenario: Crear Parking Owner con RUC inválido<br>
-        Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>
-        When se envía una solicitud POST con un ruc que no tiene 11 dígitos<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el RUC debe tener exactamente 11 dígitos.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS07</td>
-      <td>Crear Driver a través de RESTful API</td>
-      <td>Como desarrollador quiero registrar un Driver a través de la API para que pueda autenticar conductores en la plataforma.</td>
-      <td>
-        Scenario: Crear Driver con datos válidos<br>
-        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
-        When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone y dni correctamente formateados y únicos<br>
-        Then se recibe una respuesta con estado 201<br>
-        And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.
-        <br><br>
-        Scenario: Crear Driver con email duplicado<br>
-        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
-        When se envía una solicitud POST con un email ya registrado<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el email ya está en uso.
-        <br><br>
-        Scenario: Crear Driver con teléfono inválido<br>
-        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
-        When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.
-        <br><br>
-        Scenario: Crear Driver con DNI inválido<br>
-        Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>
-        When se envía una solicitud POST con un dni que no tiene 8 dígitos<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el DNI debe tener exactamente 8 dígitos.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS08</td>
-      <td>Sign In de usuario a través de RESTful API</td>
-      <td>Como desarrollador quiero permitir a los usuarios autenticarse en la aplicación para que puedan acceder a funcionalidades protegidas mediante un token.</td>
-      <td>
-        Scenario: Autenticación exitosa<br>
-        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
-        When se envía una solicitud POST con email y password válidos<br>
-        Then se recibe una respuesta con estado 201<br>
-        And se incluye un recurso con los valores de id, email, token y roles en el cuerpo de la respuesta.<br><br>
-        Scenario: Email no registrado<br>
-        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
-        When se envía una solicitud POST con un email que no existe en el sistema<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el email no existe.
-        <br><br>
-        Scenario: Contraseña incorrecta<br>
-        Given que el endpoint /api/v1/authentication/sign-in está disponible<br>
-        When se envía una solicitud POST con un email válido y una password incorrecta<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que la contraseña es incorrecta.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS09</td>
-      <td>Obtener perfil de Parking Owner por userId a través de RESTful API</td>
-      <td>Como desarrollador quiero obtener la información de perfil de un Parking Owner mediante su userId para mostrar los datos completos en la aplicación.</td>
-      <td>
-        Scenario: Obtener perfil de Parking Owner con userId válido<br>
-        Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>
-        And que existe un usuario con el userId especificado<br>
-        When se realiza una solicitud GET al endpoint con dicho userId<br>
-        Then se recibe una respuesta con estado 200<br>
-        And se incluye un recurso con los valores de userId, parkingOwnerId, fullName, city, country, phone, companyName y ruc en el cuerpo de la respuesta.
-        <br><br>
-        Scenario: Obtener perfil de Parking Owner con userId inexistente<br>
-        Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>
-        And que no existe un usuario con el userId especificado<br>
-        When se realiza una solicitud GET al endpoint con ese userId<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el userId no existe.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS10</td>
-      <td>Obtener perfil de Driver por userId a través de RESTful API</td>
-      <td>Como desarrollador quiero obtener la información de perfil de un Driver mediante su userId para mostrar los datos completos en la aplicación.</td>
-      <td>
-        Scenario: Obtener perfil de Driver con userId válido<br>
-        Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>
-        And que existe un usuario con el userId especificado<br>
-        When se realiza una solicitud GET al endpoint con dicho userId<br>
-        Then se recibe una respuesta con estado 200<br>
-        And se incluye un recurso con los valores de userId, driverId, fullName, city, country, phone y dni en el cuerpo de la respuesta.
-        <br><br>
-        Scenario: Obtener perfil de Driver con userId inexistente<br>
-        Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>
-        And que no existe un usuario con el userId especificado<br>
-        When se realiza una solicitud GET al endpoint con ese userId<br>
-        Then se recibe una respuesta con estado 400<br>
-        And un mensaje de error indicando que el userId no existe.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS11</td>
-      <td>Obtener todos los parkings registrados</td>
-      <td>Como desarrollador quiero obtener la lista de todos los parkings registrados para poder mostrarlos en la aplicación a los usuarios.</td>
-      <td>
-        Scenario: Existen parkings registrados<br>
-        Given que el endpoint /api/v1/parkings está disponible y hay parkings registrados en el sistema<br>
-        When realizo una solicitud GET a /api/v1/parkings<br>
-        Then recibo una respuesta con estado 200<br>
-        And un arreglo de parkings, donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
-        <br><br>
-        Scenario: No existen parkings registrados<br>
-        Given que el endpoint /api/v1/parkings está disponible y no hay parkings registrados en el sistema<br>
-        When realizo una solicitud GET a /api/v1/parkings<br>
-        Then recibo una respuesta con estado 400<br>
-        And un mensaje de error indicando que no existen parkings registrados.
-      </td>
-      <td>EP06</td>
-   </tr>
-    <tr>
-      <td>TS12</td>
-      <td>Crear un nuevo parking</td>
-      <td>Como desarrollador quiero registrar un nuevo parking en el sistema para que un propietario pueda ofrecer espacios de estacionamiento.</td>
-      <td>
-        Scenario: Crear parking con ownerId válido<br>
-        Given que el endpoint /api/v1/parkings está disponible y existe un ownerId válido<br>
-        When envío una solicitud POST a /api/v1/parkings con los datos válidos en el cuerpo como ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots y pricePerHour<br>
-        Then recibo una respuesta con estado 201<br>
-        And el recurso creado con los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
-        <br><br>
-        Scenario: Crear parking con ownerId inexistente<br>
-        Given que el endpoint /api/v1/parkings está disponible y el ownerId no existe<br>
-        When envío una solicitud POST a /api/v1/parkings con ese ownerId<br>
-        Then recibo una respuesta con estado 400<br>
-        And un mensaje de error indicando que no se encontró el propietario.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS13</td>
-      <td>Obtener todos los spots de un parking por su parkingId</td>
-      <td>Como desarrollador quiero obtener todos los espacios (spots) de un parking usando su parkingId para que pueda mostrarlos en el layout del estacionamiento.</td>
-      <td>
-        Scenario: parkingId válido<br>
-        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>
-        When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
-        Then recibo una respuesta con estado 200<br>
-        And una lista de spots donde cada spot contiene los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.
-        <br><br>
-        Scenario: parkingId inexistente<br>
-        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>
-        When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
-        Then recibo una respuesta con estado 400<br>
-        And un mensaje de error indicando que no se encontró el parking.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS14</td>
-      <td>Agregar un spot a un parking</td>
-      <td>Como desarrollador quiero registrar un nuevo espacio (spot) en un parking para que se puedan administrar los espacios disponibles.</td>
-      <td>
-        Scenario: parkingId válido<br>
-        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>
-        When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId y con los datos del spot en el cuerpo como spotNumber, isAvailable, isReserved y spotType<br>
-        Then recibo una respuesta con estado 201<br>
-        And el recurso creado con los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.
-        <br><br>
-        Scenario: parkingId inexistente<br>
-        Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>
-        When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>
-        Then recibo una respuesta con estado 400<br>
-        And un mensaje de error indicando que no se encontró el parking.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS15</td>
-      <td>Obtener parking por parkingId</td>
-      <td>Como desarrollador quiero obtener los detalles de un parking usando su parkingId para que pueda mostrar su información detallada en la app.</td>
-      <td>
-        Scenario: parkingId válido<br>
-        Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId existe<br>
-        When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>
-        Then recibo una respuesta con estado 200<br>
-        And los datos del parking que contienen los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
-        <br><br>
-        Scenario: parkingId inexistente<br>
-        Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId no existe<br>
-        When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>
-        Then recibo una respuesta con estado 400<br>
-        And un mensaje de error indicando que no se encontró el parking.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS16</td>
-      <td>Obtener todos los parkings por ownerId</td>
-      <td>Como desarrollador quiero obtener todos los parkings asociados a un ownerId para que los propietarios puedan gestionar sus parkings.</td>
-      <td>
-        Scenario: ownerId válido<br>
-        Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId existe<br>
-        When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>
-        Then recibo una respuesta con estado 200<br>
-        And una lista de parkings donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.
-        <br><br>
-        Scenario: ownerId inexistente<br>
-        Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId no existe<br>
-        When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>
-        Then recibo una respuesta con estado 400<br>
-        And un mensaje de error indicando que no se encontró el propietario.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS17</td>
-      <td>Crear Reserva a través de RESTful API</td>
-      <td>Como desarrollador quiero registrar una reserva a través de la API para que un conductor pueda apartar un espacio de estacionamiento en una fecha y horario específico.</td>
-      <td>
-        Scenario: Crear reserva con datos válidos<br>
-        Given que el endpoint /api/v1/reservations está disponible<br>
-        When se envía una solicitud POST con los valores de driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime y endTime correctamente formateados y los identificadores existen en el sistema<br>
-        Then se recibe una respuesta con estado 201<br>
-        And se incluye un recurso con los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.
-        <br><br>
-        Scenario: Crear reserva con driverId inexistente<br>
-        Given que el endpoint /api/v1/reservations está disponible<br>
-        When se envía una solicitud POST con un driverId que no existe en el sistema<br>
-        Then se recibe una respuesta con estado 400<br>
-        And se incluye un mensaje de error indicando que el driverId no se encontró.
-        <br><br>
-        Scenario: Crear reserva con parkingId inexistente<br>
-        Given que el endpoint /api/v1/reservations está disponible<br>
-        When se envía una solicitud POST con un parkingId que no existe en el sistema<br>
-        Then se recibe una respuesta con estado 400<br>
-        And se incluye un mensaje de error indicando que el parkingId no se encontró.
-        <br><br>
-        Scenario: Crear reserva con parkingSpotId inexistente<br>
-        Given que el endpoint /api/v1/reservations está disponible<br>
-        When se envía una solicitud POST con un parkingSpotId que no existe en el sistema<br>
-        Then se recibe una respuesta con estado 400<br>
-        And se incluye un mensaje de error indicando que el parkingSpotId no se encontró.
-      </td>
-      <td>EP06</td>
-    </tr>
-    <tr>
-      <td>TS18</td>
-      <td>Obtener Reservas por ParkingId</td>
-      <td>Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.</td>
-      <td>
-        Scenario: Obtener reservas con parkingId válido<br>
-        Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>
-        And el parkingId existe en el sistema<br>
-        When se envía una solicitud GET con el parámetro parkingId válido<br>
-        Then se recibe una respuesta con estado 200<br>
-        And se incluye una lista de recursos, donde cada recurso contiene los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.
-        <br><br>
-        Scenario: Obtener reservas con parkingId inexistente<br>
-        Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>
-        When se envía una solicitud GET con un parkingId que no existe en el sistema<br>
-        Then se recibe una respuesta con estado 400<br>
-        And se incluye un mensaje de error indicando que el parkingId no se encontró.
-      </td>
-      <td>EP06</td>
-    </tr>
-  </table>
-</div>
 
+La sección de User Stories concentra, en forma tabular, todas las épicas, historias de usuario y técnicas que describen qué necesita cubrir la plataforma. Para cada historia se especifican título, descripción y criterios de aceptación (escenarios Given/When/Then), indicando cómo se valida la funcionalidad y a qué épica pertenece, de modo que el equipo tenga un backlog claro, trazable y orientado a entregar valor al usuario y al negocio.
+
+
+| Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|:---------------:|:------:|-------------|-------------------------|---------------------------|
+| EP01 | Disponibilidad en Tiempo Real	 | Implementar los sensores IoT para que detecten en tiempo real la disponibilidad de espacios en el estacionamiento, de modo que los conductores puedan ver en la app información actualizada al instante.	 | - | - |
+| US01 | Visualización de espacios disponibles en el mapa	 | Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.	 | Scenario: Mostrar espacios disponibles en el mapa<br>Given que el usuario ha iniciado sesión en la aplicación móvil<br>When accede a la pantalla de mapa<br>Then los espacios disponibles se deben mostrar en color azul<br>And los espacios ocupados deben mostrarse en color rojo<br><br>Scenario: Mostrar espacios durante reserva<br>Given que el usuario ha seleccionado un espacio<br>When el usuario desea realizar una reserva<br>Then el espacio adquiere un color amarillo | EP01 |
+| US02 | Actualización automática de disponibilidad	 | Como propietario, quiero que los espacios disponibles se actualicen automáticamente para asegurar que la información esté siempre al día sin tener que actualizar manualmente.	 | Scenario: Actualización automática del mapa<br>Given que el propietario está visualizando el mapa de estacionamientos<br>When pasan 30 segundos<br>Then el sistema debe actualizar automáticamente la disponibilidad de los espacios sin recargar la vista<br><br>Scenario: Reserva de otro usuario<br>Given que un usuario esta realizando una reserva<br>When otro usuario esta realizando la reserva<br>Then el sistema pone el espacio como ocupado<br>And evita que las reservas se superpongan.  | EP01 |
+| US03 | Sección hero de landing page	 | Como visitante quiero visualizar una sección hero en el landing page para tener una idea sobre lo que ofrece la aplicación	 |  Scenario: Visualización de la presentación de la aplicación<br>Given que el visitante está en el landing page<br>When se encuentra en la sección de Inicio<br>Then observa una presentación clara de la aplicación.<br><br>Scenario: Acceso a la sección inicio del producto<br>Given que el visitante está en el landing page<br>And utiliza la barra de navegación<br>When selecciona el logo<br>Then observa una presentación clara de la aplicación.<br><br>| EP01 |
+| US04 | Barra de navegación en landing page	 | Como visitante quiero una barra de navegación de landing page para tener accesos directos a la información de la aplicación	 | Scenario: Acceso a la sección Nosotros<br>Given que el visitante está en el landing page<br>And utiliza la barra de navegación<br>When selecciona "Contacto"<br>Then accede a la sección de contacto del producto.<br><br>Scenario: Acceso a la sección Propietarios<br>Given que el visitante está en el landing page<br>And utiliza la barra de navegación<br>When selecciona “Beneficios”<br>Then accede a la sección que muestra los beneficios del producto.  | EP01 |
+| US05 | Visualizar detalles de un espacio disponible	 | Como conductor, quiero ver los detalles de un espacio disponible (precio, tiempo máximo, tipo de espacio) al tocarlo en el mapa para tomar una decisión informada.	 | Scenario: Ver detalles de un espacio<br>Given que el usuario visualiza un espacio disponible en el mapa<br>When toca un marcador de espacio<br>Then se debe mostrar un panel con información sobre el precio, duración máxima permitida y tipo de espacio<br><br>Scenario: Panel con detalles desaparece al cerrar<br>Given que el panel de detalles del espacio está visible<br>When el usuario toca el botón de cerrar<br>Then el panel de información debe desaparecer de la vista  | EP01 |
+| US30          | Ver disponibilidad en tiempo real      | Como conductor, quiero ver en tiempo real la disponibilidad de espacios en un parking, para saber si puedo estacionar sin perder tiempo.     | Scenario: Consulta en tiempo real<br>Given que el conductor accede al detalle del parking<br>When hay conexión con el backend<br>Then se deben mostrar los spots disponibles en tiempo real.<br><br>Scenario: Sin conectividad<br>Given que no hay conexión<br>When el conductor accede<br>Then se debe mostrar un mensaje indicando que no hay datos actualizados. | EP01  |
+| EP02 | Sistema de Reserva y Pago Automatizado	 | Desarrollar un sistema integral que permita a los conductores reservar un espacio de estacionamiento y procesar el pago de forma automatizada, ofreciendo una experiencia fluida y sin fricciones.	 | - | - |
+| US06 | Reservar un espacio disponible desde la app	 | Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.	 | cenario: Reservar espacio desde la app<br>Given que el usuario visualiza un espacio disponible<br>When selecciona el espacio y presiona "Reservar"<br>Then el sistema debe bloquear el espacio durante un tiempo determinado<br>And debe mostrar un mensaje de confirmación con el tiempo límite para llegar<br><br>Scenario: No reservar espacio ya bloqueado<br>Given que el espacio ya está reservado por otro usuario<br>When un usuario intenta reservarlo<br>Then el sistema rechaza la solicitud con un error de "espacio no disponible"  | EP02 |
+| US07 | Cancelar una reserva activa	 | Como conductor, quiero poder cancelar mi reserva desde la app si cambio de opinión, para liberar el espacio para otros usuarios.	 | Scenario: Cancelación de reserva<br>Given que el usuario tiene una reserva activa<br>When presiona el botón "Cancelar reserva"<br>Then el espacio debe quedar liberado inmediatamente<br>And debe mostrarse una notificación de cancelación exitosa<br><br>Scenario: No cancelar reserva expirada<br>Given que la reserva ha expirado automáticamente<br>When el usuario intenta cancelarla<br>Then el sistema indica que no existe reserva activa  | EP02 |
+| US08 | Realizar pago desde la app	 | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.	 | Scenario: Pago exitoso desde la app<br>Given que el usuario ha utilizado un espacio reservado<br>When accede a la opción de pago y confirma el monto<br>Then el sistema debe procesar el pago de forma segura<br>And debe mostrar un comprobante digital de la transacción<br><br>Scenario: Fallo en el proceso de pago<br>Given que el usuario confirma un pago<br>When el proveedor de pagos rechaza la transacción<br>Then el sistema debe mostrar un mensaje de error e indicar que el pago no se ha realizado  | EP02 |
+| US09 | Registro de método de pago en el perfil	 | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.	 | Scenario: Registrar método de pago<br>Given que el usuario accede a su perfil<br>When introduce los datos de su tarjeta y guarda la información<br>Then el sistema debe validar y guardar el método de pago de forma segura<br>And debe estar disponible para próximos pagos<br><br>Scenario: Validación fallida del método de pago<br>Given que el usuario introduce datos de tarjeta inválidos<br>When intenta guardarlos<br>Then el sistema rechaza el registro y muestra una notificación de error  | EP02 |
+| US10 | Ver historial de pagos realizados	 | Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.	 | Scenario: Visualizar historial de pagos<br>Given que el usuario está en la sección de "Mis pagos"<br>When selecciona una fecha o rango de fechas<br>Then debe mostrarse una lista de pagos realizados con detalles como fecha, monto y estacionamiento<br><br>Scenario: Sin pagos registrados<br>Given que el usuario accede al historial de pagos<br>When no se han realizado transacciones<br>Then el sistema debe mostrar un mensaje indicando que no hay pagos registrados  | EP02 |
+| EP03 | Panel de Gestión para Propietarios	 | Crear una plataforma web para los propietarios de estacionamientos que permita la gestión en tiempo real para optimizar la administración y maximizar ingresos.	 | - | - |
+| US11 | Visualizar ocupación en tiempo real	 | Como propietario, quiero ver en tiempo real el estado de ocupación de mi estacionamiento, para poder tomar decisiones sobre la capacidad y el flujo de vehículos.	 | Scenario: Ver ocupación en tiempo real<br>Given que el propietario ha iniciado sesión en la plataforma web<br>When accede al panel principal<br>Then debe visualizar un gráfico con el porcentaje de ocupación actual<br>And una lista con los espacios ocupados y disponibles en tiempo real<br><br>Scenario: Datos consistentes con sensores<br>Given que un sensor reporta un cambio de estado<br>When el panel consulta el servicio de estado<br>Then el porcentaje de ocupación refleja inmediatamente el cambio  | EP03 |
+| US12 | Modificar tarifas de estacionamiento	 | Como propietario, quiero poder modificar las tarifas de mis espacios de estacionamiento desde el panel web para ajustarlas según la demanda.	 |  Scenario: Modificar tarifa base por hora<br>Given que el propietario está en el panel de tarifas<br>When edita el valor en el campo “Tarifa por hora”<br>Then la tarifa actualizada debe reflejarse en la plataforma<br>And debe mostrarse un mensaje de confirmación<br><br>Scenario: Evitar tarifas inválidas<br>Given que el propietario ingresa una tarifa negativa o no numérica<br>When intenta guardar los cambios<br>Then el sistema rechaza el valor ingresado y muestra una notificación de validación  | EP03 |
+| US13 | Descargar reportes de uso	 | Como propietario, quiero poder descargar reportes de uso de mi estacionamiento para analizar la ocupación y los ingresos generados en un período determinado.	 | Scenario: Descargar reporte mensual<br>Given que el propietario accede a la sección de reportes<br>When selecciona un rango de fechas<br>Then el sistema debe generar un archivo PDF o Excel con los datos de ocupación e ingresos<br><br>Scenario: Descargar reporte sin datos<br>Given que no hay datos disponibles para el rango de fechas seleccionado<br>When el propietario intenta generar el reporte<br>Then el sistema muestra una notificación indicando que no hay datos en ese período  | EP03 | | EP03 | 
+| US14 | Diseñar y distribuir espacios de estacionamiento	 | Como propietario, quiero poder diseñar y organizar los espacios de estacionamiento desde la aplicación web, para optimizar su distribución y gestión.	 | Scenario: Acceder al módulo de diseño<br>Given que el propietario inicia sesión en la plataforma<br>When accede a la sección "Crear estacionamiento"<br>Then se muestra una interfaz gráfica para añadir, mover y eliminar espacios de estacionamiento<br><br>Scenario: Guardar distribución personalizada<br>Given que el propietario realiza cambios en el diseño<br>When selecciona "Guardar distribución"<br>Then el sistema guarda la nueva distribución y muestra un mensaje de confirmación  | EP03 |
+| US15 | Gestionar múltiples estacionamientos desde un solo panel	 | Como propietario con múltiples estacionamientos, quiero gestionarlos desde un solo panel para tener control centralizado y comparar su desempeño.	 | Scenario: Ver listado de estacionamientos registrados<br>Given que el propietario tiene más de un estacionamiento<br>When accede al panel de gestión<br>Then debe visualizar una lista con todos sus estacionamientos registrados<br><br>Scenario: Ver detalles por cada estacionamiento<br>Given que el propietario está en el panel<br>When selecciona un estacionamiento de la lista<br>Then debe ver un desglose con sus métricas de ocupación, ingresos y alertas  | EP03 |
+| EP04 | Integración y Confiabilidad del Sistema IoT	 | Garantizar una integración robusta y confiable de los dispositivos IoT en el estacionamiento, con un sistema de monitoreo que minimice errores y garantice la exactitud de los datos transmitidos.	 | - | - |
+| US16 | Registro de sensores en la plataforma	 | Como administrador, quiero registrar sensores IoT en la plataforma para poder monitorear los espacios de estacionamiento.	 | Scenario: Registro exitoso de un nuevo sensor<br>Given que el administrador está autenticado en la plataforma<br>When agrega un sensor proporcionando su ID y ubicación<br>Then el sistema confirma el registro y lo muestra en el panel de control<br><br>Scenario: Rechazo de sensor duplicado<br>Given que un sensor con ese mismo ID ya está registrado<br>When intenta volver a registrarlo<br>Then el sistema rechaza la solicitud con un error de “ID duplicado”  | EP04 |
+| US17 | Seguridad y Confiabilidad del Sistema	 | Como visitante de la Landing Page, quiero saber cómo la plataforma utiliza tecnología IoT para asegurar datos precisos, para confiar en la precisión y confiabilidad del sistema.	 | Scenario: Mostrar sección sobre sensores IoT<br>Given que el visitante navega en la landing page<br>When llega a la sección “¿Cómo funciona?”<br>Then debe visualizar una explicación animada de cómo los sensores detectan ocupación y envían datos a la plataforma<br><br>Scenario: Garantía de precisión<br>Given que el visitante revisa la confiabilidad del sistema<br>When selecciona “Leer más sobre confiabilidad”<br>Then debe mostrarse una ventana emergente o nueva página con datos técnicos y métricas de precisión (< 5% error) | EP04 |
+| US18 | Alertas ante fallas en los sensores	 | Como propietario, quiero ser notificado si un sensor deja de funcionar, para tomar acciones correctivas rápidamente.	 | Scenario: Notificación por inactividad del sensor<br>Given que un sensor no envía datos por más de 60 segundos<br>When el sistema detecta esta inactividad<br>Then se envía una notificación al propietario indicando el sensor afectado<br><br>Scenario: Registro de inactividad del sensor<br>Given que un sensor no responde durante un período determinado<br>When se detecta una posible falla<br>Then el sistema registra un evento de error en el historial del sensor para seguimiento posterior  | EP04 |
+| US19 | Actualización remota del firmware de sensores	 | Como administrador, quiero poder actualizar el firmware de los sensores desde la plataforma, para mantener su correcto funcionamiento.	 | Scenario: Actualización remota de firmware<br>Given que el administrador selecciona uno o más sensores<br>When selecciona “Actualizar firmware”<br>Then el sistema despliega la actualización de manera remota y muestra un mensaje de éxito o error<br><br>Scenario: Validación de versión de firmware<br>Given que la actualización de firmware se ha completado<br>When el sistema consulta la versión del firmware del sensor<br>Then debe coincidir con la versión esperada en la última actualización  | EP04 |
+| US20 | Validación de consistencia entre sensores y estado del sistema	 | Como propietario, quiero asegurar que los datos enviados por los sensores coincidan con los datos mostrados en la plataforma.	 | Scenario: Verificación automática de consistencia<br>Given que el sistema recibe datos de los sensores<br>When detecta una discrepancia con los datos mostrados en la interfaz<br>Then genera una alerta y actualiza automáticamente el estado correcto<br><br>Scenario: Registro de inconsistencias detectadas<br>Given que se produce una inconsistencia entre el sensor y la plataforma<br>When se ejecuta la validación<br>Then el sistema guarda un registro detallado del incidente para su revisión  | EP04 |
+| EP05 | Estrategia de Adopción y Crecimiento	 | Diseñar e implementar funcionalidades que mejoren la experiencia del usuario y aseguren la adopción de la plataforma tanto por conductores como por propietarios, impulsando el crecimiento.	 | - | - |
+| US21 | Registro mediante enlace de invitación	 | Como nuevo usuario, quiero poder registrarme a través de un enlace de invitación, para facilitar mi ingreso y vincularme al usuario que me refirió.	 |  Scenario: Registro desde enlace de invitación<br>Given que recibe un enlace de invitación válido<br>When completa el registro usando ese enlace<br>Then el sistema lo asocia con el usuario que envió la invitación<br><br>Scenario: Enlace expirado<br>Given que el enlace de invitación ha expirado<br>When el usuario intenta registrarse con ese enlace<br>Then el sistema rechaza el registro indicando “enlace inválido o expirado”  | EP05 |
+| US22 | Calificar estacionamientos utilizados	 | Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.	 | Scenario: Mostrar opción de calificación después del uso<br>Given que el conductor ha completado el tiempo de estacionamiento<br>When accede al resumen de la reserva<br>Then se muestra la opción para calificar el estacionamiento con una puntuación y un comentario<br><br>Scenario: Registrar calificación con éxito<br>Given que el conductor ingresa una puntuación y comentario<br>When presiona "Enviar calificación"<br>Then el sistema guarda la calificación y muestra un mensaje de confirmación<br><br>Scenario: Ver calificaciones anteriores<br>Given que el conductor encuentra un estacionamiento<br>When accede a ver sus detalles<br>Then puede ver una calificación en general<br>And calificaciones de otros usuarios.  | EP05 |
+| US23 | Registro Rápido desde Landing Page	 | Como visitante interesado, quiero poder acceder a la plataforma directamente desde la landing page, para empezar a usar los servicios	 | Scenario: Mostrar formulario de registro visible<br>Given que el visitante accede a la landing page<br>When selecciona “Empieza ahora”<br>Then debe redireccionar a la aplicación web And desplegar formulario de registro<br><br>Scenario: Confirmación para usuario Propietario<br>Given que el visitante llena el formulario correctamente<br>When es usuario "Propietario"<br>Then debe ser redirigido a la app web<br>And empezar a usar SmartParking<br><br>Scenario: Confirmación para usuario Chofer<br>Given que el visitante llena el formulario correctamente<br>When es usuario "Chofer"<br>Then debe ser redirigido a App Store o Google Play<br>And descargar la aplicación movil  | EP05 |
+| US24 | Encuesta de satisfacción automática	 | Como usuario activo, quiero recibir una encuesta después de un tiempo de uso, para compartir mi experiencia y sugerencias.	 | Scenario: Enviar encuesta de satisfacción automática<br>Given que he usado la app durante más de 7 días<br>When abro la app en ese periodo<br>Then se me presenta una encuesta de satisfacción de forma automática<br><br>Scenario: Encuesta no enviada si ya fue respondida<br>Given que el usuario ya ha completado la encuesta de satisfacción<br>When vuelve a abrir la app dentro del mismo periodo<br>Then el sistema no vuelve a mostrar la encuesta  | EP05 |
+| US25 | Panel de métricas de crecimiento orgánico (Admin)	 | Como administrador, quiero ver métricas de adquisición orgánica, para evaluar el impacto de la estrategia de recomendación.	 | Scenario: Visualizar panel de métricas de referidos<br>Given que soy un administrador de la plataforma<br>When accedo al panel de métricas<br>Then puedo ver datos como cantidad de referidos, usuarios activos y conversiones por invitación<br><br>Scenario: Actualización automática de métricas<br>Given que se generan nuevos registros a través de referidos<br>When el sistema recibe la información<br>Then el panel actualiza automáticamente los valores correspondientes sin intervención manual  | EP05 |
+| TS01 | Integrar sensores IoT al backend	 | Como desarrollador, quiero recibir y almacenar en tiempo real los datos de ocupación enviados por los sensores IoT, para mantener actualizada la disponibilidad de los espacios.	 | Scenario: Recepción de datos desde sensores IoT<br>Given que un sensor envía un POST con su estado (ocupado o libre)<br>When el backend recibe la solicitud<br>Then el estado del espacio de estacionamiento se actualiza correctamente en la base de datos<br><br>Scenario: Respuesta al sensor<br>Given que el backend procesa correctamente el estado<br>When termina la operación de persistencia<br>Then el endpoint devuelve HTTP 200 OK | EP05 |
+| TS02 | Autenticación con JWT en Web y App	 | Como desarrollador, quiero implementar autenticación basada en tokens JWT, para asegurar el acceso a los recursos privados tanto en la aplicación web como móvil.	 |  Scenario: Inicio de sesión con JWT<br>Given que un usuario envía sus credenciales al endpoint de login<br>When las credenciales son válidas<br>Then se devuelve un JWT válido que puede ser usado para acceder a recursos protegidos<br><br>Scenario: Rechazo de credenciales inválidas<br>Given que un usuario envía credenciales incorrectas<br>When el sistema valida las credenciales<br>Then el endpoint devuelve HTTP 401 Unauthorized  | EP05 |
+| TS03 | Visualización en tiempo real en la aplicación web	 | Como desarrollador, quiero mostrar en un panel web los espacios ocupados y libres en tiempo real, para que los propietarios puedan tomar decisiones rápidas.	 | Scenario: Actualización en tiempo real del estado de espacios<br>Given que el estado de un espacio cambia (de libre a ocupado o viceversa)<br>When el cambio es detectado por el backend<br>Then la interfaz web actualiza automáticamente el estado visual de ese espacio sin recargar la página<br><br>Scenario: Recuperación inicial de datos<br>Given que un propietario abre el panel por primera vez<br>When la página carga los datos iniciales<br>Then el sistema devuelve la lista completa de estados de espacios con HTTP 200 OK  | EP05 |
+| TS04 | Implementar sistema de reservas en la App Móvil	 | Como desarrollador, quiero permitir a los usuarios móviles reservar un espacio desde la app, para garantizar disponibilidad al llegar al lugar.	 | Scenario: Reserva de espacio desde la app<br>Given que el usuario tiene sesión activa y un espacio está libre<br>When selecciona el espacio y confirma la reserva<br>Then el espacio se marca como reservado en el backend<br>And la reserva queda vinculada al usuario<br><br>Scenario: Response de reserva<br>Given que la solicitud de reserva llega al backend<br>When la operación es exitosa<br>Then el endpoint devuelve HTTP 201 Created con el ID de reserva  | EP05 |
+| TS05 | Implementar sistema de pagos en línea	 | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.	 | Scenario: Pago exitoso de reserva<br>Given que el usuario ha reservado un espacio<br>When accede a la opción de pagar y completa el proceso con su tarjeta<br>Then el sistema confirma el pago y lo registra asociado a la reserva<br><br>Scenario: Manejo de error de pago<br>Given que el proveedor de pago rechaza la transacción<br>When el backend recibe el error<br>Then el endpoint devuelve HTTP 402 Payment Required  | EP05 |
+| US28          | Visualizar parkings en el mapa         | Como conductor, quiero visualizar en un mapa los estacionamientos disponibles cerca de mi ubicación, para elegir el más conveniente.         | Scenario: Visualización de mapa con parkings<br>Given que el conductor ha iniciado sesión<br>When accede a la vista de mapa<br>Then debe mostrarse un mapa con los parkings cercanos disponibles.<br><br>Scenario: Reubicación de mapa<br>Given que el conductor se desplaza<br>When actualiza su ubicación<br>Then el mapa debe actualizarse. | EP05  |Add commentMore actions
+| US29          | Ver detalles del parking               | Como conductor, quiero ver los detalles de un estacionamiento seleccionado, para tomar una decisión informada antes de dirigirme.            | Scenario: Consulta de detalles<br>Given que el conductor selecciona un parking del mapa<br>When accede a su vista detallada<br>Then debe mostrarse la dirección, tarifa, horarios y servicios disponibles.<br><br>Scenario: Datos incompletos<br>Given que el parking no completó su perfil<br>When se intenta acceder<br>Then debe mostrarse un mensaje informativo. | EP05  |
+| EP06 | Backend API	 | Como desarrollador quiero utilizar un backend API para que los usuarios puedan interactuar con la aplicación.	 | - | - |
+| TS06 | Crear Parking Owner a través de RESTful API	 | Como desarrollador quiero registrar un Parking Owner a través de la API para que pueda autenticar usuarios propietarios de estacionamientos en la plataforma.	 | Scenario: Crear Parking Owner con datos válidos<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone, companyName y ruc correctamente formateados y únicos<br>Then se recibe una respuesta con estado 201<br>And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.<br><br>Scenario: Crear Parking Owner con email duplicado<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con un email ya registrado<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el email ya está en uso.<br><br>Scenario: Crear Parking Owner con teléfono inválido<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.<br><br>Scenario: Crear Parking Owner con RUC inválido<br>Given que el endpoint /api/v1/authentication/sign-up/parking-owner está disponible<br>When se envía una solicitud POST con un ruc que no tiene 11 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el RUC debe tener exactamente 11 dígitos.  | EP06 |
+| TS07 | Crear Driver a través de RESTful API	 | Como desarrollador quiero registrar un Driver a través de la API para que pueda autenticar conductores en la plataforma.	 | Scenario: Crear Driver con datos válidos<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con los valores de email, password, fullName, city, country, phone y dni correctamente formateados y únicos<br>Then se recibe una respuesta con estado 201<br>And se incluye un recurso con los valores de id, email y roles en el cuerpo de la respuesta.<br><br>Scenario: Crear Driver con email duplicado<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con un email ya registrado<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el email ya está en uso.<br><br>Scenario: Crear Driver con teléfono inválido<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con un phone que no tiene 9 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el teléfono debe tener exactamente 9 dígitos.<br><br>Scenario: Crear Driver con DNI inválido<br>Given que el endpoint /api/v1/authentication/sign-up/driver está disponible<br>When se envía una solicitud POST con un dni que no tiene 8 dígitos<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el DNI debe tener exactamente 8 dígitos.  | EP06 |
+| TS08 | Sign In de usuario a través de RESTful API	 | Como desarrollador quiero permitir a los usuarios autenticarse en la aplicación para que puedan acceder a funcionalidades protegidas mediante un token.	 | Scenario: Autenticación exitosa<br>Given que el endpoint /api/v1/authentication/sign-in está disponible<br>When se envía una solicitud POST con email y password válidos<br>Then se recibe una respuesta con estado 201<br>And se incluye un recurso con los valores de id, email, token y roles en el cuerpo de la respuesta.<br><br>Scenario: Email no registrado<br>Given que el endpoint /api/v1/authentication/sign-in está disponible<br>When se envía una solicitud POST con un email que no existe en el sistema<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el email no existe.<br><br>Scenario: Contraseña incorrecta<br>Given que el endpoint /api/v1/authentication/sign-in está disponible<br>When se envía una solicitud POST con un email válido y una password incorrecta<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que la contraseña es incorrecta.  | EP06 |
+| TS09 | Obtener perfil de Parking Owner por userId a través de RESTful API	 | Como desarrollador quiero obtener la información de perfil de un Parking Owner mediante su userId para mostrar los datos completos en la aplicación.	 | Scenario: Obtener perfil de Parking Owner con userId válido<br>Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>And que existe un usuario con el userId especificado<br>When se realiza una solicitud GET al endpoint con dicho userId<br>Then se recibe una respuesta con estado 200<br>And se incluye un recurso con los valores de userId, parkingOwnerId, fullName, city, country, phone, companyName y ruc en el cuerpo de la respuesta.<br><br>Scenario: Obtener perfil de Parking Owner con userId inexistente<br>Given que el endpoint /api/v1/profiles/parking-owner/{userId} está disponible<br>And que no existe un usuario con el userId especificado<br>When se realiza una solicitud GET al endpoint con ese userId<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el userId no existe.  | EP06 |
+| TS10 | Obtener perfil de Driver por userId a través de RESTful API	 | Como desarrollador quiero obtener la información de perfil de un Driver mediante su userId para mostrar los datos completos en la aplicación.	 | Scenario: Obtener perfil de Driver con userId válido<br>Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>And que existe un usuario con el userId especificado<br>When se realiza una solicitud GET al endpoint con dicho userId<br>Then se recibe una respuesta con estado 200<br>And se incluye un recurso con los valores de userId, driverId, fullName, city, country, phone y dni en el cuerpo de la respuesta.<br><br>Scenario: Obtener perfil de Driver con userId inexistente<br>Given que el endpoint /api/v1/profiles/driver/{userId} está disponible<br>And que no existe un usuario con el userId especificado<br>When se realiza una solicitud GET al endpoint con ese userId<br>Then se recibe una respuesta con estado 400<br>And un mensaje de error indicando que el userId no existe.  | EP06 |
+| TS11 | Obtener todos los parkings registrados	 | Como desarrollador quiero obtener la lista de todos los parkings registrados para poder mostrarlos en la aplicación a los usuarios.	 | Scenario: Existen parkings registrados<br>Given que el endpoint /api/v1/parkings está disponible y hay parkings registrados en el sistema<br>When realizo una solicitud GET a /api/v1/parkings<br>Then recibo una respuesta con estado 200<br>And un arreglo de parkings, donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.<br><br>Scenario: No existen parkings registrados<br>Given que el endpoint /api/v1/parkings está disponible y no hay parkings registrados en el sistema<br>When realizo una solicitud GET a /api/v1/parkings<br>Then recibo una respuesta con estado 400<br>And un mensaje de error indicando que no existen parkings registrados.  | EP06 |
+| TS12 | Crear un nuevo parking	 | Como desarrollador quiero registrar un nuevo parking en el sistema para que un propietario pueda ofrecer espacios de estacionamiento.	 | Scenario: Crear parking con ownerId válido<br>Given que el endpoint /api/v1/parkings está disponible y existe un ownerId válido<br>When envío una solicitud POST a /api/v1/parkings con los datos válidos en el cuerpo como ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots y pricePerHour<br>Then recibo una respuesta con estado 201<br>And el recurso creado con los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.<br><br>Scenario: Crear parking con ownerId inexistente<br>Given que el endpoint /api/v1/parkings está disponible y el ownerId no existe<br>When envío una solicitud POST a /api/v1/parkings con ese ownerId<br>Then recibo una respuesta con estado 400<br>And un mensaje de error indicando que no se encontró el propietario.  | EP06 |
+| TS13 | Obtener todos los spots de un parking por su parkingId	 | Como desarrollador quiero obtener todos los espacios (spots) de un parking usando su parkingId para que pueda mostrarlos en el layout del estacionamiento.	 |  Scenario: parkingId válido<br>Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>Then recibo una respuesta con estado 200<br>And una lista de spots donde cada spot contiene los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.<br><br>Scenario: parkingId inexistente<br>Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>When realizo una solicitud GET a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>Then recibo una respuesta con estado 400<br>And un mensaje de error indicando que no se encontró el parking.  | EP06 |
+| TS14 | Agregar un spot a un parking	 | Como desarrollador quiero registrar un nuevo espacio (spot) en un parking para que se puedan administrar los espacios disponibles.	 | Scenario: parkingId válido<br>Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId existe<br>When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId y con los datos del spot en el cuerpo como spotNumber, isAvailable, isReserved y spotType<br>Then recibo una respuesta con estado 201<br>And el recurso creado con los valores de spotId, parkingId, spotNumber, isAvailable, isReserved y spotType.<br><br>Scenario: parkingId inexistente<br>Given que el endpoint /api/v1/parkings/{parkingId}/spots está disponible y el parkingId no existe<br>When envío una solicitud POST a /api/v1/parkings/{parkingId}/spots usando el parámetro parkingId<br>Then recibo una respuesta con estado 400<br>And un mensaje de error indicando que no se encontró el parking.  | EP06 |
+| TS15 | Obtener parking por parkingId	 | Como desarrollador quiero obtener los detalles de un parking usando su parkingId para que pueda mostrar su información detallada en la app.	 | Scenario: parkingId válido<br>Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId existe<br>When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>Then recibo una respuesta con estado 200<br>And los datos del parking que contienen los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.<br><br>Scenario: parkingId inexistente<br>Given que el endpoint /api/v1/parkings/{parkingId} está disponible y el parkingId no existe<br>When realizo una solicitud GET a /api/v1/parkings/{parkingId} usando el parámetro parkingId<br>Then recibo una respuesta con estado 400<br>And un mensaje de error indicando que no se encontró el parking.  | EP06 |
+| TS16 | Obtener todos los parkings por ownerId	 | Como desarrollador quiero obtener todos los parkings asociados a un ownerId para que los propietarios puedan gestionar sus parkings.	 | Scenario: ownerId válido<br>Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId existe<br>When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>Then recibo una respuesta con estado 200<br>And una lista de parkings donde cada parking contiene los valores de parkingId, ownerId, name, address, latitude, longitude, openingTime, closingTime, totalSpots, availableSpots y pricePerHour.<br><br>Scenario: ownerId inexistente<br>Given que el endpoint /api/v1/parkings/owner/{ownerId} está disponible y el ownerId no existe<br>When realizo una solicitud GET a /api/v1/parkings/owner/{ownerId} usando el parámetro ownerId<br>Then recibo una respuesta con estado 400<br>And un mensaje de error indicando que no se encontró el propietario.  | EP06 |
+| TS17 | Crear Reserva a través de RESTful API	 | Como desarrollador quiero registrar una reserva a través de la API para que un conductor pueda apartar un espacio de estacionamiento en una fecha y horario específico.	 |  Scenario: Crear reserva con datos válidos<br>Given que el endpoint /api/v1/reservations está disponible<br>When se envía una solicitud POST con los valores de driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime y endTime correctamente formateados y los identificadores existen en el sistema<br>Then se recibe una respuesta con estado 201<br>And se incluye un recurso con los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.<br><br>Scenario: Crear reserva con driverId inexistente<br>Given que el endpoint /api/v1/reservations está disponible<br>When se envía una solicitud POST con un driverId que no existe en el sistema<br>Then se recibe una respuesta con estado 400<br>And se incluye un mensaje de error indicando que el driverId no se encontró.<br><br>Scenario: Crear reserva con parkingId inexistente<br>Given que el endpoint /api/v1/reservations está disponible<br>When se envía una solicitud POST con un parkingId que no existe en el sistema<br>Then se recibe una respuesta con estado 400<br>And se incluye un mensaje de error indicando que el parkingId no se encontró.<br><br>Scenario: Crear reserva con parkingSpotId inexistente<br>Given que el endpoint /api/v1/reservations está disponible<br>When se envía una solicitud POST con un parkingSpotId que no existe en el sistema<br>Then se recibe una respuesta con estado 400<br>And se incluye un mensaje de error indicando que el parkingSpotId no se encontró.  | EP06 |
+| TS18 | Obtener Reservas por ParkingId	 | Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.	 | Scenario: Obtener reservas con parkingId válido<br>Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>And el parkingId existe en el sistema<br>When se envía una solicitud GET con el parámetro parkingId válido<br>Then se recibe una respuesta con estado 200<br>And se incluye una lista de recursos, donde cada recurso contiene los valores de id, driverId, vehiclePlate, parkingId, parkingSpotId, date, startTime, endTime, totalPrice y status en el cuerpo de la respuesta.<br><br>Scenario: Obtener reservas con parkingId inexistente<br>Given que el endpoint /api/v1/reservations/parking/{parkingId} está disponible<br>When se envía una solicitud GET con un parkingId que no existe en el sistema<br>Then se recibe una respuesta con estado 400<br>And se incluye un mensaje de error indicando que el parkingId no se encontró.  | EP06 |
+| EP07 | Autenticación y perfil del usuario	 | Como conductor o dueño de estacionamiento, quiero autenticarme y configurar mi perfil de usuario para ingresar a la aplicación.	 | - | - |
+| US26 | Registro desde el inicio de sesión	 | Como usuario, quiero acceder a una opción de registro desde el inicio de sesión para poder crear una cuenta y utilizar la aplicación.	 | Scenario: Visualización del formulario de registro<br>Given que los usuarios ya se encuentran en la sección de inicio de sesión<br>When seleccionan la opción de registrarse<br>Then el sistema muestra el formulario de registro para que los usuarios completen sus datos<br><br>Scenario: Registro exitoso<br>Given que los usuarios ya se encuentran en el formulario de registro<br>When completan todos los campos obligatorios<br>Then el sistema guarda los datos ingresados y crea una nueva cuenta de usuario | EP07 |
+| US27 | Inicio de sesión	 | Como usuario registrado, quiero iniciar sesión con mi cuenta para acceder a las herramientas disponibles en la aplicación.	 | Scenario: Ingreso exitoso<br>Given que los usuarios están en el formulario de inicio de sesión<br>When ingresan su correo electrónico y contraseña correctamente<br>Then acceden exitosamente a la aplicación.<br><br>Scenario: Error en las credenciales<br>Given que los usuarios están en el formulario de inicio de sesión<br>When ingresan un correo electrónico o una contraseña incorrecta<br>Then el sistema les notifica que las credenciales no son válidas y no les permite ingresar | EP07 |
+| EP08 | 	Operación de Dispositivos IoT en Parqueo	 | Como sistema IoT embebido, quiero detectar ocupación, mostrar estado en LED/display y transmitir datos, para asegurar una operación autónoma, confiable y visible del estacionamiento incluso ante fallas temporales de red.	 | - | - |
+| MS01 | Detectar estado de ocupación del spot       | Como sistema IoT embebido, quiero detectar si un spot está ocupado o libre para reportarlo al sistema.                                                 | Scenario 1: Detección de ocupación<br>Given que el vehículo se ubica sobre el sensor<br>When se activa el sensor de distancia<br>Then debe registrarse que el spot está ocupado.<br><br>Scenario 2: Detección de liberación<br>Given que un vehículo sale del spot<br>When el sensor detecta espacio vacío<br>Then se debe actualizar el estado como libre. | EP08   |
+| MS02 | Bloquear spot reservado                     | Como sistema, quiero bloquear un spot cuando está reservado para evitar que otro usuario lo ocupe.                                                     | Scenario 1: Bloqueo automático<br>Given que un spot está reservado<br>When se aproxima un vehículo no autorizado<br>Then se activa el sistema de bloqueo.<br><br>Scenario 2: Validación de reserva<br>Given que un usuario con reserva se aproxima<br>When se valida su identidad<br>Then el bloqueo debe desactivarse automáticamente.               | EP08   |
+| MS03 | Encender LED según estado del spot          | Como conductor, quiero ver una luz LED que indique si el spot está libre, reservado u ocupado.                                                          | Scenario 1: Luz verde para libre<br>Given que el spot está desocupado<br>When el sistema actualiza el estado<br>Then debe encenderse el LED verde.<br><br>Scenario 2: Luz roja para ocupado<br>Given que el spot está ocupado<br>When cambia el estado<br>Then debe encenderse el LED rojo.                                                     | EP08   |
+| MS04 | Mostrar nombre del spot en el display       | Como usuario, quiero ver el nombre del spot en el display del dispositivo para facilitar su identificación.                                            | Scenario 1: Mostrar al iniciar<br>Given que el sistema inicia<br>When carga los datos del spot<br>Then debe mostrarse el nombre en pantalla.<br><br>Scenario 2: Mostrar tras reinicio<br>Given que se reinicia el sistema<br>When el dispositivo vuelve a estar activo<br>Then debe recuperarse y mostrar el nombre del spot.                     | EP08   |
+| MS05 | Mostrar MAC del dispositivo en el display   | Como técnico, quiero ver la MAC del dispositivo para enlazarlo con el spot correspondiente.                                                            | Scenario 1: Visualización inicial<br>Given que se enciende el dispositivo<br>When inicia la pantalla<br>Then debe mostrar la MAC en pantalla.<br><br>Scenario 2: Verificación en mantenimiento<br>Given que un técnico accede al display<br>When pulsa el botón de ver MAC<br>Then la dirección debe aparecer en el display.                      | EP08   |
+| MS06 | Enviar datos al backend desde el dispositivo| Como dispositivo embebido, quiero enviar los datos recogidos al backend para ser procesados.                                                           | Scenario 1: Envío exitoso<br>Given que hay conexión estable<br>When se genera una nueva lectura<br>Then se debe enviar correctamente al backend.<br><br>Scenario 2: Reintento de envío<br>Given que hubo una falla previa<br>When se restablece la conexión<br>Then el dispositivo debe reenviar los datos pendientes.                        | EP08   |
+| MS07 | Guardar datos sin conexión WiFi             | Como sistema IoT, quiero guardar datos localmente si no hay WiFi para no perder lecturas.                                                              | Scenario 1: Falla momentánea<br>Given que la red falla<br>When llega una nueva métrica<br>Then debe guardarse localmente en la memoria.<br><br>Scenario 2: Almacenamiento múltiple<br>Given que hay varias lecturas<br>When la red sigue caída<br>Then todas deben almacenarse secuencialmente.                                               | EP08   |
+| MS08 | Sincronizar datos cuando vuelve la red WiFi | Como sistema IoT, quiero sincronizar los datos almacenados localmente cuando se recupere la red WiFi.                                                  | Scenario 1: Sincronización automática<br>Given que vuelve la red<br>When se detecta conectividad<br>Then los datos guardados deben enviarse al backend.<br><br>Scenario 2: Verificación de sincronización<br>Given que se completó el envío<br>When se confirma recepción<br>Then los datos deben eliminarse de la memoria local.        | EP08   |
+| EP09 | 	Procesamiento Inteligente de Datos IoT en la Nube	 | Como sistema backend, quiero recibir, procesar y almacenar las métricas de los sensores IoT, para habilitar monitoreo en tiempo real, alertas automáticas y análisis históricos que optimicen la gestión del sistema de parqueo.	 | - | - |
+| MS09 | Backend recibe métricas de sensores         | Como backend, quiero recibir las métricas de los sensores para almacenarlas y analizarlas.                                                             | Scenario 1: Recepción en tiempo real<br>Given que un sensor envía datos<br>When el backend recibe la solicitud<br>Then debe persistir la métrica en la base de datos.<br><br>Scenario 2: Validación de formato<br>Given que se recibe una métrica<br>When el backend la procesa<br>Then debe validar su estructura y contenido.                | EP09   |
+| MS10 | Backend procesa datos de ocupación          | Como backend, quiero procesar datos de ocupación para actualizar el estado en el panel.                                                                | Scenario 1: Cambio de estado<br>Given que llega una nueva métrica<br>When se detecta ocupación<br>Then debe actualizarse el estado del spot.<br><br>Scenario 2: Error en los datos<br>Given que llega una métrica anómala<br>When se valida<br>Then el sistema debe descartarla y registrar el error.                                          | EP09   |
+| MS11 | Backend genera alertas por sensores         | Como sistema, quiero que el backend genere alertas si se detectan comportamientos anómalos.                                                            | Scenario 1: Alerta por sobreuso<br>Given que un spot está ocupado por más del tiempo permitido<br>When se alcanza el umbral<br>Then debe generarse una alerta automática.<br><br>Scenario 2: Alerta por desconexión<br>Given que no se reciben datos de un sensor<br>When se detecta inactividad<br>Then debe generarse una alerta de posible falla. | EP09   |
+| MS12 | Backend almacena métricas históricas        | Como administrador, quiero acceder al histórico de métricas para análisis posteriores y reportes.                                                      | Scenario 1: Consulta de histórico<br>Given que un administrador accede al sistema<br>When selecciona un rango de fechas<br>Then debe visualizar las métricas correspondientes.<br><br>Scenario 2: Exportación de datos<br>Given que se ha generado un reporte<br>When el usuario solicita exportar<br>Then el sistema debe generar un archivo.     | EP09   |
+| EP10 | Sistema de Notificaciones en Tiempo Real | Como usuario o administrador, quiero recibir notificaciones automáticas y en tiempo real sobre eventos importantes, para mantenerme informado y actuar rápidamente. |-|-|
+| US31 | Conectar servicio de notificaciones Firebase | Como desarrollador, quiero conectar Firebase al backend para enviar notificaciones automáticas desde el servidor. | Scenario 1: Conexión inicial<br>Given que tengo acceso al proyecto Firebase<br>When configuro la clave del servidor en el backend<br>Then debo recibir confirmación de conexión exitosa.<br><br>Scenario 2: Envío de prueba<br>Given que el servicio está conectado<br>When hago un envío manual<br>Then debo recibir la notificación en el dispositivo. | EP10 |
+| US32 | Recibir notificaciones en app móvil | Como conductor, quiero recibir notificaciones en mi app móvil, para estar informado sobre reservas, pagos u otros eventos importantes. | Scenario 1: App conectada a Firebase<br>Given que instalé la app<br>When abro la aplicación<br>Then debo estar suscrito a recibir notificaciones.<br><br>Scenario 2: Notificación de prueba<br>Given que se activa una notificación<br>When el evento ocurre<br>Then la app móvil debe mostrar la alerta en tiempo real. | EP10 |
+| US33 | Recibir notificaciones en app web | Como conductor, quiero recibir notificaciones también en la versión web de la aplicación, para no perder alertas si no uso el móvil. | Scenario 1: Permitir notificaciones<br>Given que accedo desde navegador<br>When acepto permisos<br>Then la aplicación web debe suscribirme a notificaciones.<br><br>Scenario 2: Prueba desde backend<br>Given que envío una notificación desde backend<br>When el usuario está en la web<br>Then debe mostrarse la alerta emergente. | EP10 |
 
 ## 3.3. Impact Mapping
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
 
-- Segmento 1: Propietarios de estacionamientos:
+ - Segmento 1: Propietarios de estacionamientos:
+
   !["Impact Mapping - Segmento 1"](ChapterIII-images/ImpactMap1.png)
-- Segmento 2: Conductores
+
+ - Segmento 2: Conductores
+
   !["Impact Mapping - Segmento 2"](ChapterIII-images/ImpactMap2.png)
 
 ## 3.4. Product Backlog
@@ -2332,6 +1589,25 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 |   41    |     TS05      | Implementar sistema de pagos en línea                         | Como desarrollador, quiero integrar un proveedor de pagos en línea, para permitir a los usuarios pagar su estacionamiento de forma digital.                                      | 8                                |
 |   42    |     US08      | Realizar pago desde la app                                    | Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.                                                 | 5                                |
 |   43    |     US09      | Registro de método de pago en el perfil                       | Como conductor, quiero guardar mis datos de tarjeta en mi perfil para que el proceso de pago sea más rápido y cómodo en futuras ocasiones.                                       | 3                                |
+| 44      | US28           | Visualizar parkings en el mapa               | Como conductor, quiero visualizar en un mapa los estacionamientos disponibles cerca de mi ubicación para elegir el más conveniente.           | 3                                |
+| 45      | US29           | Ver detalles del parking                     | Como conductor, quiero ver los detalles de un estacionamiento seleccionado para tomar una decisión informada antes de dirigirme.       | 2                                |
+| 46      | US30           | Ver disponibilidad en tiempo real            | Como conductor, quiero ver la disponibilidad de espacios en un parking en tiempo real, para saber si puedo estacionar sin perder tiempo.                     | 5                                |Add commentMore actions
+| 47      | MS01           | Detectar estado de ocupación del spot      | Como sistema IoT embebido, quiero detectar si un spot está ocupado o libre para reportarlo al sistema.                            | 3                                |
+| 48      | MS02           | Bloquear spot reservado                    | Como sistema, quiero bloquear un spot cuando está reservado para evitar que otro usuario lo ocupe.                                | 5                                |
+| 49      | MS03           | Encender LED según estado del spot         | Como conductor, quiero ver una luz LED que indique si el spot está libre, reservado u ocupado.                                     | 3                                |
+| 50      | MS04           | Mostrar nombre del spot en el display      | Como usuario, quiero ver el nombre del spot en el display del dispositivo para facilitar su identificación.                        | 2                                |
+| 51      | MS05           | Mostrar MAC del dispositivo en el display  | Como técnico, quiero ver la MAC del dispositivo para enlazarlo con el spot correspondiente.                                        | 2                                |
+| 52      | MS06           | Enviar datos al backend desde el dispositivo | Como dispositivo embebido, quiero enviar los datos recogidos al backend para ser procesados.                                       | 3                                |
+| 53      | MS07           | Guardar datos sin conexión WiFi            | Como sistema IoT, quiero guardar datos localmente si no hay WiFi para no perder lecturas.                                          | 3                                |
+| 54      | MS08           | Sincronizar datos cuando vuelve la red WiFi | Como sistema IoT, quiero sincronizar los datos almacenados localmente cuando se recupere la red WiFi.                             | 3                                |
+| 55      | MS09           | Backend recibe métricas de sensores        | Como backend, quiero recibir las métricas de los sensores para almacenarlas y analizarlas.                                         | 2                                |
+| 56      | MS10           | Backend procesa datos de ocupación         | Como backend, quiero procesar datos de ocupación para actualizar el estado en el panel.                                            | 3                                |
+| 57      | MS11           | Backend genera alertas por sensores        | Como sistema, quiero que el backend genere alertas si se detectan comportamientos anómalos.                                        | 5                                |
+| 58      | MS12           | Backend almacena métricas históricas       | Como administrador, quiero acceder al histórico de métricas para análisis posteriores y reportes.                                  | 2                                |
+| 59 | US31 | Conectar servicio de notificaciones | Como desarrollador, quiero conectar Firebase al backend para enviar notificaciones automáticas desde el servidor. | 3 |
+| 60 | US32 | Recibir notificaciones en app móvil | Como conductor, quiero recibir notificaciones en mi app móvil, para estar informado sobre reservas, pagos u otros eventos importantes. | 5 |
+| 61 | US33 | Recibir notificaciones en app web | Como conductor, quiero recibir notificaciones también en la versión web, para no perder alertas si no uso el móvil. | 5 |
+
 ---
 
 # Capítulo IV: Solution Software Design
@@ -2804,9 +2080,21 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 |findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de IAM.
+-**Backend**
 
-!["IAM Component Diagram"](ChapterIV-images/IAMComponentDiagram.png)
+El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
+!["IAM Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-IAM.png?raw=true)
+
+-**WebApp**
+
+El diagrama de componentes del IAM Bounded Context representa los elementos encargados de gestionar la autenticación y registro de usuarios dentro de la aplicación SmartParking, incluyendo componentes de interfaz como Sign In Component y Sign Up Component, que capturan credenciales y datos de registro, y un AuthService que centraliza la lógica de autenticación comunicándose con la API REST y gestionando la transformación de datos mediante el IAMAssembler, garantizando una separación limpia entre la vista, la lógica y la comunicación con los servicios backend.
+!["IAM WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-iam-diagram-component.png?raw=true)
+
+-**mobileApp**
+
+El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
+!["IAM MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-iam-diagram-component.png?raw=true)
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
@@ -2815,7 +2103,8 @@ El diagrama de clases muestra cómo se relacionan las entidades User y Role, as�
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
-!["IAM Database Diagram"](ChapterIV-images/IAMDatabaseDiagram.png)
+!["IAM Database Diagram"](ChapterIV-images/IAMDatabase-Diagram.png)
+
 
 ### 4.2.2. Bounded Context: Profile Management
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
@@ -3038,9 +2327,22 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Profile Management, incluyendo los controladores, servicios y repositorios.
+-**Backend**
 
-!["Profile Management Component Diagram"](ChapterIV-images/Bounded_context_profile.png)
+El Profile Bounded Context centraliza la gestión de la información de perfil de los usuarios, incluyendo su estructura de dominio, lógica de aplicación, almacenamiento persistente e interfaces expuestas vía HTTP. Su arquitectura facilita tanto el acceso directo desde aplicaciones cliente como la colaboración con otros contextos a través de su fachada de contexto, permitiendo así la reutilización controlada de funciones relacionadas con los perfiles sin romper la encapsulación.
+
+!["Profile Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Profile.png?raw=true)
+
+-**WebApp**
+
+El diagrama de componentes del Profile Bounded Context describe la estructura de componentes dedicados a la gestión de perfiles de propietarios de estacionamientos, donde el Owner Car Edit Component permite visualizar y editar información personal, mientras que el OwnerService orquesta las operaciones y coordina con ProfileAssembler para transformar datos entre el frontend y la API RESTful, estableciendo una arquitectura desacoplada que facilita el mantenimiento y la evolución de las funcionalidades de perfil.
+!["Profile Management WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-profile-diagram-component.png?raw=true)
+
+-**MobileApp**
+
+El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
+!["Profile Management MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-profile-diagram-component.png?raw=true)
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
@@ -3049,7 +2351,9 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
-!["Profile Management Database Diagram"](ChapterIV-images/database-diagram-profile.png)
+!["Profile Management Database Diagram"](ChapterIV-images/ProfileDatabase-Diagram.png)
+
+
 
 ### 4.2.3. Bounded Context: Parking Management
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
@@ -3229,9 +2533,23 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Parking Management.
+-**Backend**
 
-!["Parking Management Component Diagram"](ChapterIV-images/ParkingmanagementComponentDiagram.png)
+El Parking Management Bounded Context se encarga de toda la lógica relacionada con la administración de estacionamientos, desde la definición de espacios disponibles hasta la gestión de su estado. Mediante una separación clara por capas, permite recibir solicitudes externas, procesarlas con lógica de aplicación coordinada, aplicar las reglas de dominio y persistir los datos. Ofrece también una fachada que permite a otros bounded contexts consumir funcionalidades específicas del sistema de gestión de parkings de forma segura y acotada.
+
+!["Parking Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-ParkingManagement.png?raw=true)
+
+-**WebApp**
+
+El diagrama de componentes del Parking Management Bounded Context detalla los elementos encargados de administrar los espacios de estacionamiento, incluyendo componentes visuales como Parking Address Picker, Parking Card, Parking List y Parking Spot Viewer, que permiten interactuar con mapas, listas y tarjetas informativas, coordinados por un ParkingService que gestiona la lógica de negocio y delega la transformación de datos a ParkingAssembler, estableciendo un flujo ordenado de interacción entre UI, lógica de negocio y servicios backend.
+
+!["Parking Management WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-parking-management-diagram-component.png?raw=true)
+
+-**MobileApp**
+
+El diagrama de componentes del bounded context Parking Management detalla los componentes que permiten a los conductores visualizar y consultar información de los estacionamientos disponibles. Incluye widgets como Parking Card, Parking Info, Parking Map y Parking Spot Viewer, que presentan desde vistas resumidas hasta mapas interactivos y disponibilidad de espacios en tiempo real. Todos los widgets consumen lógica del ParkingService, encargado de coordinar operaciones y transformar datos mediante el ParkingAssembler. Este ensamblador adapta los DTOs del backend a modelos de dominio del frontend, con las solicitudes a la API RESTful realizándose a través de HTTPS y JSON.
+
+!["Parking Management MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-parking-management-diagram-component.png?raw=true)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3243,7 +2561,9 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
-!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingmanagementDatabaseDiagram.png)
+!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingManagmentDatabase-Diagram.png)
+
+
 
 ### 4.2.4. Bounded Context: Reservation
 El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
@@ -3346,9 +2666,23 @@ Repositorio del agregado Reservation.
 |findAll()|Devuelve todas las reservas almacenadas.|
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+-**Backend**
 
-El diagrama de arquitectura nivel componente muestra la interacción entre los diferentes componentes del contexto de Reservation, incluyendo los controladores, servicios y repositorios.
-!["Reservation Component Diagram"](ChapterIV-images/Bounded_context_reservations.png)
+El Reservation Bounded Context permite a los conductores realizar, modificar o cancelar reservas de estacionamiento, conectándose a los sistemas de parqueo y perfil mediante servicios externos. Implementa una arquitectura en capas para organizar la lógica de negocio, persistencia y exposición de servicios vía HTTP, lo que permite una orquestación robusta y modular de las funcionalidades de reserva, manteniendo una clara separación de responsabilidades y promoviendo el desacoplamiento.
+
+!["Reservation Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Reservation.png?raw=true)
+
+-**WebApp**
+
+El diagrama de componentes del Reservation Bounded Context modela los componentes encargados de gestionar las reservas de estacionamientos, destacando el Reservation Form Dialog para crear y editar reservas y el Reservations Data Table para visualizar listados con filtros y acciones, ambos controlados por el ReservationService, que centraliza la lógica de negocio y coordina la conversión de datos mediante el ReservationAssembler, asegurando una experiencia coherente y eficiente en las operaciones de reservas a través de la API REST.
+
+!["Reservation WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-reservation-diagram-component.png?raw=true)
+
+-**MobileApp**
+
+El diagrama de componentes del bounded context Reservation describe los componentes que gestionan las reservas de estacionamiento realizadas por conductores en la aplicación móvil. Incluye widgets para mostrar tarjetas individuales de reserva y listas filtradas de reservas por estado, ambos conectados a un ReservationService que maneja la lógica de negocio para crear, recuperar y administrar reservas. Un ReservationAssembler se encarga de transformar datos entre DTOs y modelos de dominio, facilitando la presentación adecuada en la aplicación. La API RESTful gestiona las operaciones a través de peticiones seguras JSON sobre HTTPS.
+
+!["Reservation MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-reservation-diagram-component.png?raw=true)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3360,7 +2694,8 @@ El diagrama de clases muestra la relación entre las entidades Reservation y Res
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
-!["Reservation Database Diagram"](ChapterIV-images/database-diagram-reservations.png)
+!["Reservation Database Diagram"](ChapterIV-images/ReservationDatabase-Diagram.png)
+
 
 ### 4.2.5. Bounded Context: Subscription
 El Bounded Context **Subscription** se encarga de gestionar el estado de suscripción de los usuarios. Define si un usuario posee un plan gratuito (FREE) o ha adquirido una suscripción de pago. También se registran los pagos asociados a la suscripción, permitiendo verificar el historial, estado de pagos y fechas clave como el inicio y la renovación.
@@ -3458,9 +2793,11 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 |findByUserId(Integer userId)|Retorna la suscripción del usuario.|
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
-El diagrama de arquitectura nivel componente muestra la estructura de clases y sus relaciones dentro del contexto de Subscription.
+-**Backend**
 
-!["Subscription Architecture Component Level Diagram"](ChapterIV-images/SubscriptionComponentDiagram.png)
+El Subscription Bounded Context se ocupa de gestionar las suscripciones que otorgan acceso a funcionalidades especiales o descuentos dentro del ecosistema SmartParking. Su diseño por capas permite procesar comandos y consultas de manera ordenada, aplicar reglas de dominio específicas y mantener la información de suscripciones en la base de datos, con interfaces bien definidas que permiten la interacción con las aplicaciones cliente.
+
+!["Subscription Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Subscription.png?raw=true)
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3472,7 +2809,9 @@ En el diagrama de clases se observa la relación entre las entidades Subscriptio
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
-!["Subscription Database Design Diagram"](ChapterIV-images/SubscriptionDatabaseDiagram.png)
+!["Subscription Database Design Diagram"](ChapterIV-images/SuscriptionDatabase-Diagram.png)
+
+
 
 ### 4.2.6 Bounded Context: Review
 #### 4.2.6.1. Domain Layer
@@ -3647,12 +2986,25 @@ Persiste y recupera reseñas de la base de datos.
 
 ---
 #### 4.2.6.5. Component Level Diagram (estructura)
+-**Backend**
 
-El diagrama representa una arquitectura monolítica del bounded context de reseñas (“Review”). La aplicación está compuesta por un contenedor “Review Bounded Context” que expone endpoints REST. Las llamadas entran al ReviewController, que delega las operaciones de creación, actualización y eliminación de reseñas al ReviewCommandService, y las consultas de lectura al ReviewQueryService. Ambos servicios coordinan la validación de usuarios y parkings llamando a UserQueryService y ParkingQueryService, respectivamente, y utilizan el ReviewRepository para persistir o recuperar datos de la base de datos MySQL de reseñas.
+El Review Bounded Context centraliza la creación, almacenamiento y consulta de reseñas de parkings, integrándose con los bounded contexts de perfil y estacionamiento para enriquecer el contenido y garantizar la autenticidad de las evaluaciones. Gracias a sus capas claramente definidas, puede recibir peticiones HTTP, coordinar la lógica necesaria y persistir los datos, además de interactuar con servicios externos para validar información relacionada con usuarios y parkings.
 
-![Review Context Component Diagram](ChapterIV-images/ReviewBoundedContextComponentDiagram.png)
+![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
 
----
+-**WebApp**
+
+El diagrama de componentes del Review Bounded Context abarca los elementos responsables de la gestión de reseñas de usuarios sobre estacionamientos y reservas, incluyendo el Review Card Component que muestra reseñas individuales y el Review List Component que permite listar, ordenar y filtrar reseñas, todo gestionado por el ReviewService, el cual administra la lógica y las operaciones de reseñas en conjunto con el ReviewAssembler, encargado de transformar los datos entre backend y frontend para una correcta visualización y manipulación.
+
+![Review Context WebApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-review-diagram-component.png?raw=true)
+
+-**MobileApp**
+
+El diagrama de componentes del bounded context Review presenta los componentes de la aplicación móvil responsables de la gestión de opiniones y calificaciones de los conductores sobre estacionamientos. Contiene widgets para mostrar reseñas individuales y listados ordenables y filtrables, todos gestionados por el ReviewService, que centraliza la lógica de negocio y la comunicación con el backend. El ReviewAssembler convierte los datos entre estructuras de backend y modelos de presentación, garantizando coherencia y formato adecuado en la aplicación. La interacción con la API RESTful se realiza mediante peticiones HTTPS con contenido en JSON.
+
+![Review Context MobileApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-review-diagram-component.png?raw=true)
+
+
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.6.6.1. Domain Layer Class Diagram
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
@@ -3668,7 +3020,9 @@ El diagrama de base de datos del bounded context **Review** muestra tres tablas 
 
 Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
 
-![Review Context Database Diagram](ChapterIV-images/ReviewBoundedContextDatabaseDiagram.png)
+![Review Context Database Diagram](ChapterIV-images/ReviewsDatabase-Diagram.png)
+
+
 
 
 ### 4.2.7. Bounded Context: Notification
@@ -3814,9 +3168,24 @@ Interacción con la base de datos de notificaciones.
 ---
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
-El diagrama muestra la arquitectura monolítica del bounded context de notificaciones. Las peticiones REST llegan al NotificationController, que a su vez invoca al NotificationCommandService para crear o eliminar notificaciones y al NotificationQueryService para obtenerlas. Antes de crear una notificación, el NotificationCommandService valida la existencia del usuario consultando al UserQueryService. Tanto los comandos como las consultas utilizan el NotificationRepository para leer y escribir en la base de datos MySQL dedicada a notificaciones.
+**- Backend**
 
-![Notification Context Component Diagram](ChapterIV-images/NotificationBoundedContextComponentDiagram.png)
+El Notification Bounded Context es el encargado del manejo de notificaciones dentro del sistema, este contexto permite a los usuarios recibir alertas y mensajes relevantes relacionados con reservas, pagos o eventos. Sus componentes están organizados para aceptar solicitudes, procesar lógica de envío y gestionar la persistencia de notificaciones.
+
+![Notification Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Notification.png?raw=true)
+
+
+**- WebApp**
+
+El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
+
+![Notification Context WebApp Component Diagram](/ChapterIV-images/structurizr-webApp-notification.png)
+
+**- MobileApp**
+
+La arquitectura de la aplicación móvil para el contexto de Notificaciones refleja la estructura en capas del frontend Flutter. Comienza con NotificationScreen, el componente de interfaz que presenta las notificaciones al usuario. Esta pantalla delega el control de estado a NotificationBloc, que gestiona los eventos y estados asociados. A su vez, este interactúa con NotificationApiService, el cual comunica con el backend REST y utiliza NotificationAssembler para adaptar los datos.
+
+![Notification Context MobileApp Component Diagram](ChapterIV-images/structurizr-mobile-notification.png)
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
@@ -3829,7 +3198,9 @@ El diagrama de base de datos del bounded context **Notifications** muestra dos t
 
 La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
 
-![Notification Context Database Diagram](ChapterIV-images/NotificationBoundedContextDatabaseDiagram.png)
+![Notification Context Database Diagram](ChapterIV-images/NotificationDatabase-Diagram.png)
+
+
 
 
 ### 4.2.8. Bounded Context: IoT Management
@@ -3939,7 +3310,9 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram
-![IoT Management Context Database Diagram](ChapterIV-images/IotManagementBoundedContextDatabaseDiagram.png)
+![IoT Management Context Database Diagram](ChapterIV-images/IotDatabase-Diagram.png)
+
+
 
 ### 4.2.9. Bounded Context: Payment
 Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
@@ -4089,9 +3462,9 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 |findById(Integer id)|Encuentra un pago de reserva por su ID.|
 |findAll()|Devuelve todos los pagos de reserva registrados.|
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
-En el diagrama de arquitectura de nivel componente, se presenta las clases y sus relaciones dentro del contexto de Payment.
+ Payment Bouded Context es el responsable de gestionar los pagos dentro de SmartParking, este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
 
-!["Payment Architecture Component Level Diagram"](ChapterIV-images/PaymentComponentDiagram.png)
+!["Payment Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Payment.png?raw=true)
 #### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
@@ -4100,7 +3473,9 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
-!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabaseDiagram.png)
+!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabase-Diagram.png)
+
+
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
@@ -4845,8 +4220,8 @@ En el siguiente sprint planning se definen las tareas y objetivos del primer spr
 | **Location** |  |
 | **Prepared By** | IoT Innovators |
 | **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 0 – 1 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
-| **Sprint 0 – 1 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
+| **Sprint 0 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
+| **Sprint 0 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
 
 **Sprint 1 Goal**
 
@@ -4930,7 +4305,7 @@ https://trello.com/b/4jpMjzDd
 | US03      | Sección hero de landing page                                       |     01     | Seccion Hero                        | Diseñar e implementar hero visual en landing page    | 6h                     | Diaz Silva, Fernando Josué     | Done                                               |
 | US04      | Barra de navegación en landing page                                |     02     | Barra de navegación en landing page | Barra navegable con enlaces                          | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
 | US14      | Diseñar y distribuir espacios de estacionamiento                   |     03     | Diseño de espacios                  | UI para organizar zonas de parqueo                   | 6h                     | Príncipe Godoy, Johan          | Done                                               |
-| US15      | Gestionar múltiples estacionamientos desde un solo panel           |     04     | Panel múltiple parkings             | Vista centralizada para gestión de cocheras          | 12h                    | Zarate Caceres, Victor Ernesto | Done                                               |
+| US15      | Gestionar múltiples estacionamientos desde un solo panel           |     04     | Panel múltiple parkings             | Vista centralizada para gestión de cocheras          | 8h                    | Zarate Caceres, Victor Ernesto | Done                                               |
 | US22      | Calificar estacionamientos utilizados                              |     05     | Calificación                        | Interfaz para dejar y ver reseñas de estacionamientos| 6h                     | Castilla Pachas, César Antonio | Done                                               |
 | US23      | Registro Rápido desde Landing Page                                 |     06     | Registro rápido                     | Formulario desde landing page                        | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
 | TS02      | Autenticación con JWT en Web y App                                 |     07     | Autenticación                       | Login basado en tokens para Web y App                | 10h                    | Arroyo Ormeño, André Alonso    | Done                                               |
@@ -5149,6 +4524,983 @@ En este primer Sprint nos enfocamos en crear la Landing Page y la Web Applicatio
 
 ---
 
+
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| **Sprint Planning Background** |
+| **Date** | 02/06/2025 |
+| **Time** | 07:00 horas (GMT-5) |
+| **Location** |  |
+| **Prepared By** | IoT Innovators |
+| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
+| **Sprint 1 Review Summary** |  |
+| **Sprint 1 Retrospective Summary** | |
+
+**Sprint 2 Goal**
+
+**Our focus is** delivering a prototype of SmartParking that allows drivers and parking owners to experience the complete parking workflow, including discovery, interaction, real-time status updates, and system responsiveness.  
+**We believe it delivers** early validation of the system's usability, real-time data accuracy, and operational effectiveness across both digital and physical components.  
+**This will be confirmed when** the presence of a vehicle on a parking spot is detected through sensor-striggered and edge-processed data forwared to the backend infrastructure to ensure platform-wide consistenty and reflect updated availability across all user interfaces.
+
+Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+
+**Sprint 2 Velocity**
+
+** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+
+**Sum of Story Points**
+
+** Story Points en total**
+
+#### 6.2.2.2. Aspect Leaders and Collaborators
+Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
+En esta iteración, se abordaron los siguientes aspectos clave:
+
+- **Aspect Name 1:** IAM (Identity and Access Management)
+- **Aspect Name 2:** Profile Management
+- **Aspect Name 3:** Parking Management
+- **Aspect Name 4:** Reservation
+- **Aspect Name 5:** Subscription
+- **Aspect Name 6:** Review
+- **Aspect Name 7:** Notification
+- **Aspect Name 8:** IoT Management
+- **Aspect Name 9:** Payment
+
+|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 | Aspect Name 5 | Aspect Name 6 | Aspect Name 7 | Aspect Name 8 | Aspect Name 9 |
+|-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Arroyo Ormeño, André Alonso   | anonimat0        |        L      |         L     |        C      |        C      |       C       |       C       |       C       |       C       |       C       |
+| Castilla Pachas, César Antonio| CesarrAnn        |        C      |         C     |        C      |        C      |       C       |       C       |       L       |       C       |       C       |
+| Cortés Casas, Joaquin Marcelo | U202114545       |        C      |         C     |        C      |        C      |       L       |       C       |       C       |       C       |       L       |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |        C      |         C     |        C      |        C      |       C       |       L       |       C       |       C       |       C       |
+| Godoy, Johan Príncipe         | JP19-03          |        C      |         C     |        L      |        C      |       C       |       C       |       C       |       C       |       C       |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |        C      |         C     |        C      |        C      |       C       |       C       |       C       |       L       |       C       |
+| Zarate Caceres, Victor        | ern23zc          |        C      |         C     |        C      |        L      |       C       |       C       |       C       |       C       |       C       |
+
+
+#### 6.2.2.3. Sprint Backlog 2
+Durante este sprint, se trabajó en desarrollar una nueva versión de los entregables pasados, añadiendo nuevas funcionalidades que acerquen nuestros productos al objetivo planteado al inicio del curso.
+
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: https://trello.com/b/4jpMjzDd
+
+![Captura de pantalla de Sprint 2 en Trello](ChapterVI-images/Sprint2/Sprint%20Backlog%202%20-%20Trello%20Board.png)
+
+https://trello.com/b/jqtsgLac 
+
+**Tabla de control de estado del Sprint**
+
+|  Sprint # ||   Sprint 2 ||||||
+|-----------| -----------|------------|------------|--------|--------|-----------|----------------|
+|   *User Story*     ||   *Work-Item / Task*     ||||||
+| *Id*    | *Title*    | *Id*     | *Title*       | *Description*    | *Estimation (Hours)* | *Assigned To*   | *Status (To-do / In-Process / To-Review / Done)* |
+| MS01 | Detección de ocupación del espacio | 01 | Sensor de distancia | Programar lectura del sensor de distancia y envío | 8h |  Tafur Gonzales, Josty Gerardo  | Done |
+| MS03 | Indicador LED según estado del spot | 02 | Lógica de LED | Controlar LED RGB según estado del spot | 4h |  Zarate Caceres, Victor Ernesto  | Done |
+| TS01 | Integrar sensores IoT al backend | 05 | Integración MQTT | Conectar sensores al edge mediante protocolo MQTT | 6h | Zarate Caceres, Victor Ernesto   | Done |
+| TS03 | Visualización en tiempo real en la aplicación | 06 | Panel de disponibilidad | Mostrar en tiempo real los estados de los spots | 6h |  Cortés Casas, Joaquin Marcelo  | Done |
+| US11 | Visualizar ocupación en tiempo real | 07 | Actualizar visualización | Sincronizar app con el backend usando WebSockets | 5h |  Cortés Casas, Joaquin Marcelo  | Done |
+| MS04 | Mostrar nombre del spot en display | 03 | Mostrar ID del spot | Mostrar nombre del spot por comando | 4h |  Tafur Gonzales, Josty Gerardo  | Done |
+| MS05 | Mostrar MAC para emparejamiento | 04 | Mostrar MAC | Mostrar dirección MAC por comando | 4h | Tafur Gonzales, Josty Gerardo   | Done |
+| US01 | Visualización de espacios disponibles en el mapa | 08 | Mapa interactivo | Mostrar mapa de parqueo con disponibilidad por colores | 8h | Diaz Silva, Fernando Josué  | Done |
+| US02 | Actualización automática de disponibilidad | 09 | Refrescar estado automáticamente | Implementar auto-actualización del estado de los spots | 5h | Zarate Caceres, Victor Ernesto  | Done |
+| US12 | Modificar tarifas de estacionamiento | 10 | CRUD de tarifas | Crear interfaz para gestionar tarifas desde backend | 6h |  Cortés Casas, Joaquin Marcelo  | Done |
+| US13 | Descargar reportes de uso | 11 | Reportes de uso | Generar y descargar reportes de uso desde dashboard | 5h |  Diaz Silva, Fernando Josué  | Done |
+| TS05 | Implementar sistema de pagos en línea | 12 | Integración pasarela de pago | Conectar con pasarela de pagos en app | 8h |  Zarate Caceres, Victor Ernesto  | Done |
+| US08 | Realizar pago desde la app | 13 | UI de pagos | Interfaz en app para realizar pagos | 6h |   Diaz Silva, Fernando Josué  | Done |
+| TS04 | Implementar sistema de reservas en la App móvil | 14 | Backend y lógica de reservas | API + lógica para manejar reservas | 8h |  Cortés Casas, Joaquin Marcelo  | Done |
+| US06 | Reservar un espacio disponible desde la app | 15 | UI de reservas | Interfaz para seleccionar y reservar espacios | 6h |  Castilla Pachas, César Antonio  | Done |
+| US10 | Ver historial de reservas | 16 | Historial de reservas | Mostrar historial de reservas realizadas | 5h |  Diaz Silva, Fernando Josué  | Done |
+| US26 | Registro desde el inicio de sesión | 17 | Registro de usuario | UI de Registro de usuario en app web y conexion con el backend | 5h |  André Arroyo  | Done |
+| US27 | Inicio de sesión | 18<br><br>19 | UI de Login en app movil<br><br> UI de Login en app web | Interfaz de Login en la app movil y conexion con el backend <br><br> Interfaz de Login en la app web y conexion con el backend  | 4h<br><br>4h |  André Arroyo<br><br>André Arroyo  | Done<br><br>Done |
+| MS02       | Bloquear spot reservado             | 19 | Sistema de bloqueo         | Desarrollar lógica para activar/desactivar bloqueo físico                                       | 6h                 |        Tafur Gonzales, Josty Gerardo      | Done                                           |
+| MS06       | Enviar datos al backend             | 20 | Conexión backend           | Implementar lógica para enviar métricas al backend desde IoT                                   | 6h                 |      Zarate Caceres, Victor Ernesto        | Done                                           |
+| MS07       | Guardar datos sin WiFi              | 21 | Persistencia local         | Guardar datos temporalmente en el edge ante falla de red                                       | 5h                 |      Tafur Gonzales, Josty Gerardo        | Done                                            |
+| MS08       | Sincronizar al volver WiFi          | 22 | Reenvío de datos           | Detectar retorno de red y sincronizar datos pendientes                                         | 5h                 |      Zarate Caceres, Victor Ernesto        | Done                                           |
+| MS09       | Recibir métricas en backend         | 23 | Endpoint de recepción      | Crear endpoint para recibir métricas desde sensores IoT                                        | 6h                 |       Tafur Gonzales, Josty Gerardo       | Done                                            |
+| MS10       | Procesar ocupación en backend       | 24 | Procesamiento de ocupación | Procesar estado de ocupación a partir de métricas recibidas                                   | 5h                 |       Tafur Gonzales, Josty Gerardo       | Done                                            |
+| MS11       | Generar alertas por sensores        | 25 | Lógica de alertas          | Configurar reglas para generar alertas ante valores críticos                                  | 6h                 |        Tafur Gonzales, Josty Gerardo      | Done                                            |
+| MS12       | Almacenar métricas históricas       | 26 | Histórico de métricas      | Guardar datos históricos y permitir consultas                                                  | 4h                 |        Tafur Gonzales, Josty Gerardo      | Done                                           |
+| US28       | Visualizar parkings en el mapa      | 27 | Mapa interactivo           | Mostrar en mapa los parkings disponibles geolocalizados                                        | 6h                 |      Godoy, Johan Príncipe        | Done                                            |
+| US29       | Ver detalles del parking            | 28 | Detalle del parking        | Mostrar información detallada del parking seleccionado                                         | 4h                 |     Godoy, Johan Príncipe         | Done                                            |
+| US30       | Ver disponibilidad en tiempo real   | 29 | Disponibilidad en tiempo real | Visualizar spots libres al instante desde detalle del parking                              | 5h                 |     Godoy, Johan Príncipe         | Done                                            |
+| US31 | Conectar servicio de notificaciones         | 30 | Integrar Firebase backend   | Configurar Firebase en el backend y realizar pruebas de envío manual                                | 5h  |      Castilla Pachas, César Antonio        | Done |
+| US32 | Recibir notificaciones en app móvil         | 31 | Configurar FCM en app móvil | Integrar Firebase Messaging en la app móvil y mostrar notificaciones de prueba                       | 3h  |      Castilla Pachas, César Antonio        | Done |
+| US33 | Recibir notificaciones en app web           | 32 | Configurar FCM en app web   | Configurar Firebase Messaging en el cliente web y mostrar notificaciones en el navegador             | 3h  |      Castilla Pachas, César Antonio        | Done |
+
+
+#### 6.2.2.4. Development Evidence for Sprint Review
+Los avances específicos son:
+
+- **Web Application:**
+  - Corrección de las funcionalidades responsive.
+  - Implementar el sistema de internacionalización mediante i18n.
+
+- **Mobile Application:**
+  - Creación de la aplicación móvil.
+  - Despliegue de mapa para encontrar estacionamiento.
+  - Implementación del sistema de reservas y notificaciones.
+
+- **Web Services:**
+  - Creación de la base de datos para las aplicaciones web y móvil.
+  - Creación del sistema de reservas.
+  - Creación del sistema de creación de parkings.
+  - Correción del sistema de creación de cuentas.
+
+- **Embedded Application:**
+  - Creación del modelo digital de los sensores ioT.
+  - Conexion a la base de datos desplegada.
+
+- **Edge Server:**
+  - Creación y despliegue del Edge Server.
+
+|        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
+| :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 1ef38cd70771e8663d6b67a7bcea3a1ef82238a8 | feat(device-management): update device initialization and repository queries for edge server handling           |                     |     16/06/2025     |
+|   smartparking-frontend   |           develop          | 808adaa721a00f31f6d53d8ddd027ea4a65d6dc5 | refactor: enhance i18n for parking spot viewer component                                                        |                     |     14/06/2025     |
+|   smartparking-frontend   |           develop          | f1bf9109eecd00d6fd520a00d2ff86844b8331cb | feature: add Excel export functionality to reservations data table                                              |                     |     14/06/2025     |
+|   smartparking-frontend   |           develop          | 8568c3ec2f6095867d82dc7513a742ff265ca121 | feature: add CSV export functionality to reservations data table                                                |                     |     14/06/2025     |
+| smart_parking_edge_server |           develop          | f20464492db2e84fb40c3bd6ce0f7e83f0427d6b | feat: implement backend API client and edge server management                                                   |                     |     14/06/2025     |
+|   smartparking-backend    | feature/device-management  | 7626e0fc2ee253f28e5387e6dd303f76ab89d91e | feat(device-management): enhance device and edge server commands with new attributes and update methods         |                     |     14/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 180ba12cf86403b808fc4798c3c767fe8cfa4d26 | refactor: enhance i18n for parking card component                                                               |                     |     13/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 213ddfeb7a20d720850ed8702c7f8ec74c4ec991 | refactor: enhance i18n for parking creation and edit components                                                 |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| d54c1709d9358cabaf6af097d63600d936703954 | refactor: enhance i18n for average duration chart component                                                     |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| e65d0e8d42098c6ee98fa8a8b01c8f7a0dcec468 | refactor: enhance i18n for monthly income chart component                                                       |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| d070652c6b9754a12c588936817db06b6e36f62c | refactor: enhance i18n for daily usage chart component                                                          |                     |     12/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 252a1580a79f1699056ce86ab5fbe14c032bbe02 | refactor: enhance i18n for hourly usage chart                                                                   |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 5ccc877396f23f5400886a3508aff6c3e16a760c | refactor: enhance i18n for reservation form and data table                                                      |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 0725b849f87db939bd1cd58879e308d3476d41d4 | refactor: enhance i18n for owner card edit component                                                            |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 4ff94188cbbfadbbeb55f41b0e084f20e97d3594 | refactor: update i18n for toolbar items in auth and parking management layouts                                  |                     |     11/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 7c2f3ccd08e7cde37c53eb7bbbfbc3fc2e168757 | refactor: update i18n for Parking Spot Poup                                                                     |                     |     11/06/2025     |
+|   smartparking-backend    | feature/device-management  | c080a228e05d2a0235a8335521de04eed15bb4e2 | feat(device-management): create device management bounded context.                                              |                     |     11/06/2025     |
+|    smartparking-mobile    |    feature/notifications   | 59352a0d9393aab719b3e9d7cf51ba64b5f531b3 | feat(notification): update config notifications                                                                 |                     |     10/06/2025     |
+| smart_parking_edge_server |           develop          | 517665b13bb7b8e595ec07d83e939bb33389df4c | feat(repositories): update test device ID in get_or_create_test_device function                                 |                     |     10/06/2025     |
+| smart_parking_edge_server |           develop          | 85b40052174665ff2d6ea23ba3a7543b9a521c6c | feat: initialize database and register APIs on first request                                                    |                     |     10/06/2025     |
+|    smartparking-mobile    |    feature/notifications   | 7041347732302b000d8f1d0f4c008166cd00661a | feat(notification): add config notifications                                                                    |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 4a93ac89e909022869c195ee242ef956fd4ce6b7 | feat(parking-spot): add API endpoint for creating parking spots                                                 |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 7a53b40a5d0a71837147a49ad830ac0b828b4d9e | feat(parking-spot): implement ParkingSpotApplicationService for managing parking spots                          |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 131d4bde5a1f3083cb88970068ed4f854cfd9ad2 | feat(parking-spot): implement ParkingSpot model and repository for data management                              |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 86ff9cfc02eac7d67813bc2b49a361e9d8fd7915 | feat(parking-spot): validate device ID and MAC address in ParkingSpot creation                                  |                     |     09/06/2025     |
+| smart_parking_edge_server |           develop          | 320edeca477c1af15d916c5f5cb45b28d0aa69d0 | feat(parking-spot): add ParkingSpot and ParkingSpotService for managing parking spots                           |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | 4e27ee9d593e805fd47784c5f106dd12d741120b | feat(iam): add IAM API blueprint and authentication request handler                                             |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | 732f89c1043f76ee43d12dec461f951e31ce7f64 | feat(iam): add AuthApplicationService for device authentication and management                                  |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | ae9ff48e685de9334da55ec1b026f257b4a5d2dc | feat(iam): implement Device model and repository for device management                                          |                     |     09/06/2025     |
+| smart_parking_edge_server |         feature/iam        | 5f8623ff11f5a5f07584c2f6fcdfb257c82f5c18 | feat(iam): add Device class and AuthService for device authentication                                           |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | a01c654110750e164d514953baacde55f0974afc | feat(notifications): add update files                                                                           |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 861a3b5d9ab56294176ba69eddf1328c0152fc6e | feat(notifications): add controller Notifications                                                               |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | d2abc4102d91d56570fa346c3592935e5dacb06f | feat(notifications): add repository and service Notifications                                                   |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 50f740d197b7163b9416eb154fdd421f7f75ba8b | feat(notifications): add model Notification                                                                     |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | bba84b4d3621354153ea76031a85d9ba77cef04b | feat(notifications): add FirebaseConfig                                                                         |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 9f88dfee3ff8178fa51912152c7ba3b154f4f211 | feat(notifications): add dependencies                                                                           |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| e905c778b008cd4e82f210fef162a896d2777f8d | refactor: enhance i18n for Reservation Data                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| a5daa7def08b530f38fbc1ddbff2e191a22519e6 | refactor: update i18n for sidebar navigation                                                                    |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| f9b58d40f63d9bb5f265734870b7b8888020043b | refactor: update i18n for Parking Home page                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 905e366218943a193e5c897b4d3f881ef6123ecf | refactor: update i18n for Parking Summary Card                                                                  |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 25e408fed36b2b749bc54218bad6c002b3f68079 | refactor: update i18n for Parking List page                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 4b137c6561b75dc89ba5a5986578403a8f27ae8c | feat: save Preferred Language in memory                                                                         |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| f94e44ab6c736e9bffe24562ccfd657164a2dec5 | refactor: update i18n for Sign Up page                                                                          |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| 5bf0e689817a584bd36000ee29349065c915fb7a | refactor: update i18n for Sign In Page                                                                          |                     |     09/06/2025     |
+|   smartparking-frontend   |feature/internationalization| b8229f11e3223de2098d5633d3469823d9630f7a | style: change Title postion                                                                                     |                     |     09/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | ec201b7d6aed63564a97cd9399a1e426eb271daa | fix: add full width to Password Inputs                                                                          |                     |     04/06/2025     |
+|    smartparking-mobile    |           master           | 1db64db293fef80d7b251462bbc6bf703c08a615 | feat(reservations): add reservations screen with tab navigation and loading states                              |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | e3ea3be2a454cc44acd2ed0f833aae29c020c254 | feat(parking): integrate bottom navigation bar and add reservation fetching method                              |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | 6c12e5620c9b2a6339b23058c63e6281bcfb93bd | feat: add navigator bar                                                                                         |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | fd364c262b196051b2c00a6371f6c3e91b47cb6e | feat(reservation): add spotLabel to reservation entity and update related components                            |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | 55c1e57755e08a4b93c122d11e64d9a7b4cc1da4 | feat(http): add getById method for fetching resource by ID                                                      |                     |     03/06/2025     |
+|    smartparking-mobile    |           master           | 5664169b8776114323057ab1c9cd45c48421471f | feat(navigation): add routes for login, reservation payment, and reservations screen                            |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/payment      | 390ec375f52988741eb3e5d3270992eebbc4bbc2 | feat(payments): implement payment creation for reservations and subscriptions                                   |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/payment      | cbafc8ab5673dadb58e945906bdafd2b5e796fb7 | feat(reservations): add spot label retrieval and update reservation creation                                    |                     |     03/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | f9c132e537140e08a3a88c3650ac71411dff164a | style: fix Parking Spot dsiplay                                                                                 |                     |     02/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | dab5471763da03186f708f407d3937d78cfa2f4e | style: add Responsivity to Header                                                                               |                     |     02/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | fdf67a96d9a8aaa5eb608683e9e893ebcb8aa7b1 | style: configure Button Size on toolbar                                                                         |                     |     02/06/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 14ac39f16018519d9be7f5707743bfe0236ba906 | style: fix display of title                                                                                     |                     |     02/06/2025     |
+|    smartparking-mobile    |           master           | 803ce61dd8a95a4fa43b5180c6570946c49a8e7e | feat(parking): add snackbar notifications for occupied and reserved parking spots                               |                     |     29/05/2025     |
+|    smartparking-mobile    |           master           | 028d92bcbcda5f824199d8a8221c09598e0ff73c | feat(reservation): enhance reservation process with success dialog and navigation to payment                    |                     |     29/05/2025     |
+|    smartparking-mobile    |           master           | 0f624536548c937bd9ab52cc3e63023fdef05320 | feat(reservation): add createReservationPayment method for processing payment requests                          |                     |     29/05/2025     |
+|    smartparking-mobile    |           master           | 2b933de475f84ecde80a9b7169a1023e09a60de0 | feat(dialog): add success dialog component with customizable message and actions                                |                     |     29/05/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 7a385ef83857874342e5b35b8d02a07a353c375c | fix: fix display of Parking Card Image                                                                          |                     |     28/05/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 7025eff033f4b720378597edc8ca639110dc9b34 | feat: add Icon                                                                                                  |                     |     28/05/2025     |
+|   smartparking-frontend   |        fix/css-styles      | 0ea9f05a2ba74f27b5c3b97ddc22fb72ca078079 | fix: change Application Logo                                                                                    |                     |     28/05/2025     |
+|    smartparking-mobile    |           master           | 36baa2389bd3a612658b6fd7f1267f0f1c4a3c54 | feat(reservation): add parking reservation page with time selection and spot reservation functionality          |                     |     27/05/2025     |
+|    smartparking-mobile    |           master           | 51e3447e9de74f62850984057d42641577549a56 | feat(reservation): implement parking reservation page with time selection and spot reservation functionality    |                     |     27/05/2025     |
+|    smartparking-mobile    |           master           | 3b7a7330c0778be3ed7ac2090ab2b003f480350c | feat(parking-card): add navigation to reservation page on button press                                          |                     |     27/05/2025     |
+|    smartparking-mobile    |           master           | f11f025148fcf272c6b3a55eda12e10541cd29de | feat(parking-card): enhance UI with scrollable layout and add favorite functionality                            |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | defa60f5d3ee93151934c96072b0f2ff8d5efefe | fix(log-in): remove unused import for parking card component                                                    |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | 81d6c6509b59b40a62691bcece9558abb54d2eda | feat(parking): add method to fetch parking spots by parking ID                                                  |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | 124fcee5d4896d16be32271bd5660536a5313840 | fix(log-in): update logo asset path and adjust image fit                                                        |                     |     26/05/2025     |
+|    smartparking-mobile    |           master           | a06567d0ecb2e1cc601200d9f00810565b1792ab | feat(assets): add SmartParking logo JPEG asset.                                                                 |                     |     26/05/2025     |
+|   smartparking-frontend   |           master           | f078027a28e83e899aab39432a2bc81e457a7f40 | fix: problem in package.json.                                                                                   |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 1feb2875cfb8947a8de0ee4da1b286df33658553 | chore: update responsiveness in review card.                                                                    |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | af9fe0c75969108f674942fc122c29bccbd2f10d | fix: behavior of address input.                                                                                 |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 2c1534e1d991b23465ef426700d43a9672b0b8f6 | fix: change layout in parking registration.                                                                     |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | bb79b1e1c2ab1da51c37b9f1fa20942e941e44b7 | feat: add user profile.                                                                                         |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 32685ac3579b3b72ac1801dae14b37997e4ec2e1 | feat: add parking profile link to sidenav component.                                                            |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | f260e83157b0c51a6467de923ec759e09193e070 | feat: add parking profile component.                                                                            |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 706d2e2731f48dd8dcad0127ff9cb57570aa4144 | feat: add dashboard component to router index.                                                                  |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 5d93f0c6da7f55203d6c22b256c3d6ae14883ff9 | feaat(dashboard): add dashboard page and chart components.                                                      |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 63f8dffe427a35f22f760514ca259cfcb71159b6 | chore: change document background color.                                                                        |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | eebdc6859e77476b671b488ff4373514ce209bae | feat: add chart.js from primevue.                                                                               |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 70680c12545eeaa032bfb5a2a6a3c1341a5e3345 | chore: improve responsiveness in components.                                                                    |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | c25fbdefba84f4fa07c2b85054c40fbbf8606fc1 | feat: improve behavior when creatin a reservation successfully.                                                 |                     |     13/05/2025     |
+|   smartparking-frontend   |           master           | 0ab4d035a88b8cfd7ab51ebf55c20679ff9e2231 | fix: resolving bugs.                                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | a843208d2f404e796d29ab2e51beefa82b45f378 | chore: change parking image in card.                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 206cb3e81b0c5d987548f7bf4a21b8f898ac6e45 | fix: resolving bugs.                                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | bf2d3b823580e5f7def3ef5dea41a42182fd0731 | feat: fix small bugs.                                                                                           |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | d67ba0ea6a95919ee99dae7790bec410f63df912 | feat: small change in behavior when creating a reservation successfully.                                        |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 66f8b4aeb87f13f9208a6ea9a3d774ca788f80b8 | fix: add missing char.                                                                                          |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 85b73a6502ae8466a1eca8284343d5102bf7375d | feat: add sign-up route to auth guard.                                                                          |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 2490e932bc5bbe9f42e7659da4b82081a022e307 | feat: add reservation form dialog.                                                                              |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | b98a5c2d8987bfa3587881a871bae3bcb0ccca16 | feat: add inputmask component from primevue.                                                                    |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 564901bd4556cf7e6d8d5b50ede01d1936fddf2d | feat: add i18n locales json.                                                                                    |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 18c3d5251352882009f3966f19545586cb0103ba | feat: add i18n to parking design.                                                                               |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | c92f4a86434cdae3088e21110daa9fa4d5ec2739 | feat: add i18n to address picker component.                                                                     |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | d62577de3dee00029cb016defecefbec82edd942 | feat: add i18n to parking register component.                                                                   |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | ec4b3dc0f33733d7b5ff7e14d52501ec98d82964 | feat: add i18n to reviews feed component.                                                                       |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 75557e1943d4100fad72116ffcfa57ff73a49b2a | chore: improve responsiveness for grid system in review list component.                                         |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 5f196cc7cfadad8c08b20c1dd05c4ea9c39d4fd8 | feat: add i18n to reservation table component.                                                                  |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 06259464c1364dc9104965307d6bad69a9e857e2 | feat: add i18n to sidenav component.                                                                            |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 9551447c7a12489e983262b4200151c3c5f49ecc | feat: add i18n to home page.                                                                                    |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | c80c1a55c0179a29c764fc46bc731986687af93f | feat: add i18n to parking spot viewer component.                                                                |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | 6c24a2534cc934a340fe93822ff55fc93a5f129c | feat: add i18n to parking summary card.                                                                         |                     |     12/05/2025     |
+|   smartparking-frontend   |           develop          | c364a800f585c817f50b7055e19f33fc94c1b812 | feat: add i18n to toolbar.                                                                                      |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | 1de49492aaf8306a4daacb9ad18a2f18e55ab3b7 | chore: fix value of rating in parking card.                                                                     |                     |     12/05/2025     |
+|   smartparking-frontend   |           master           | bfcdc7e56b11a09a76a0eb6c2267f738f840f699 | feat: add style to language switcher.                                                                           |                     |     12/05/2025     |
+|   smartparking-backend    |       feature/reviews      | f88bb82aa8f760d4013c94b57a79cbd59281ce2e | fix: remove inncesary method and implement the update of attribute behavior.                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eeb34e8ade18e235b3b9be27731a73f1c9e9e3fe | feat(reviews): add review transform and resources types.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 05311974cac92f2b061ac41c0b84bb540f7b709c | feat(reviews): add review command and query service implementations.                                            |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | dd39bde6b2ebb2c82eff8b16e1eedce45259dc42 | feat(reviews): add communication to external services.                                                          |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | bd5b3485f291771eca015d703774c8b1d82bbd7c | feat(parking-management): add method to get parking name by its id.                                             |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | b1dad199602d093fe47cd092bbe3bc49e1a05ac9 | feat(reviews): add review repository.                                                                           |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 86c5b61b3cfc819821e9747cfec77725ab4ef246 | feat(reviews): add review command and query service contracts.                                                  |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | a6e0f2bfb9d0731b37bddbd42f37360ab26512fc | feat(reviews): add command to create review.                                                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 936df6213883dc48411a2bfa5d2f20b291889afc | feat(reviews): add review aggreate class.                                                                       |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 74065e0038ea758c36d5444d21ad51360d6341e5 | feat(reviews): add driverId and parkingId value objects.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eca925e6561b98d30fcb5d7bd28e8342215d846f | feat(parkings): add averageRating and ratingCount attributes to aggregate, and methods to update them in facade.|                     |     07/05/2025     |
+|   smartparking-backend    |           master           | e7609d51813d3476db7c25f8df38c7e7cd3e8200 | feat(reservations): add driver full name to reservation resource.                                               |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | 66e6e6655ced3f0c636b63237df85fcb69771c02 | feat(reservations): add acl communication to get driver full name.                                              |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | d7d54aaf394ea61b4371db5c9a7a764a8d8a74b5 | feat(reservations): add date attribute to reservation class aggregate.                                          |                     |     06/05/2025     |
+|    smartparking-mobile    |           master           | 07faf28dc0f98a2e11b7d9d6ab7571a2b8808fae | feat(iam): add SmartParking logo.                                                                               |                     |     05/05/2025     | 
+|   smartparking-backend    |           master           | 04c2ab1ab209f8195addc2f0cf30cde293de4249 | feat(reservations): implement parking acl.                                                                      |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 6b4daceeab463ff2db1d226b65da06df26232483 | feat(parking-management): add anti-corruption layer.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | d7e534beaf36f3be5ccc2078b600fbb5a09603da | feat(parking-management): add queries and commands.                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 65d44e7d5806f967e2d584e5ca5f33218fa12eca | feat(reservations): add reservation inbound service.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | da3e5d156ce7fc3109b13b4ef752e4e97cf0ae7f | feat(reservations): add reservation interface layer resource and transform types.                               |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 66fcdc441dfc8847e64e7c395199440aa8f26087 | feat(reservations): add reservation command and query service implementations.                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 33de4c0aa0f3e76539645e3603d16a340e5e2422 | feat(reservations): add reservation outbound service.                                                           |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | f772e6aa8e157eb94922fb3d9fae7eecadcc2d4e | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 38f4e966c3392bcc6aab65f246a861610c12343f | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 17dde74cc9d515a1c622de939fa58a626fe3f091 | feat(reservations): add reservation value objects.                                                              |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 2b8ffccf7858511458def0d7fe5ba48c122cb27a | feat(reservations): add reservation aggregate.                                                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: few changes.                                                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: change operation summary for parking owner and driver registration.                                      |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | 2a8a74c7a3984fd86754678ba1eab125e82ba257 | chore: add get parking by id query, and add latitude and longitude attributes of parking.                       |                     |     17/04/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 5fbf592e95b044923baf23cdee29b7106b503637 | feat:creation of bounded context iam and profile with DDD approach                                              |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
+|   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review
+|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review
+En el caso de la Web Application, se trabajo en mejorar los aspectos del entregable pasado, complementando los errores cometido y completando la conexión con los Web Services.
+
+Tanto para los Web Services, la Mobile Application y la Embedded Application se trabajo en implementar las primeras versiones funcionales, para ser puestas a prueba frente a los usuarios y recibir feedback de primera mano que no spermita perfeccionar los productos previa la entrega final.
+
+**Web Application:**
+- Mejora de pantalla Sign In
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-1.png)
+
+- Mejora de pantalla Sign Up
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-2.png)
+
+- Mejora de Toolbar Superior
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-3.png)
+
+- Creación de tabla de reservas y boton de exportación
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-4.png)
+
+- Pantalla de creación de Parking
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-5.png)
+
+- Pantalla de gestión de Parking
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-6.png)
+![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-7.png)
+
+**Mobile Application:**
+
+- Pantalla de Login
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
+
+- Pantalla de inicio - Busqueda de estacionamiento
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-2.png?raw=true)
+
+- Pantalla de detalles del Parking
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-3.png?raw=true)
+
+- Pantalla de reserva de estacionamiento
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-4.png?raw=true)
+
+- Pantalla de confirmacion de reserva
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-5.png?raw=true)
+
+- Pantalla de pago de reserva
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-6.png?raw=true)
+
+- Pantalla de confirmacion de pago de reserva
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-7.png?raw=true)
+
+- Pantalla de lista de reservas
+
+![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-8.png?raw=true)
+
+**Web Services:**
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-4.png)
+
+**Embedded Application:**
+
+- Spot Estado Disponible
+
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20disponible.png?raw=true)
+
+- Spot Estado Ocupado
+
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20ocupado.png?raw=true)
+
+- Spot Estado Reservado
+
+![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20reservado.png?raw=true)
+
+**Edge Server:**
+
+- Añadir Estado Reservado al Spot
+
+![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/añadir%20estado%20reservado.png?raw=true)
+
+- Añadir Estado Disponible al Spot
+
+![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/añadir%20estado%20disponible.png?raw=true)
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review
+- **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
+- **Link de Web services deplegados:**
+
+|    Endpoint    |                                         Details                                        |
+| :------------: | :------------------------------------------------------------------------------------- |
+| Parking        | Gestión completa de estacionamientos.                                                  |
+| Authentication | Registro e inicio de sesión de usuarios.                                               |
+| Edge Server    | Creación y consulta de edge servers asignados a estacionamientos.                      |
+| Review         | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
+| Reservation    | Creación de reservas de espacios y consulta por estacionamiento.                       |
+| Roles          | Obtención de los roles disponibles en el sistema para control de acceso y permisos.    |
+| Payment        | Registro de pagos.                                                                     |
+| Device         | Gestión de dispositivos.                                                               |
+| Users          | Consulta de usuarios registrados en el sistema.                                        |
+| Profiles       | Consulta de perfiles detallados de usuarios.                                           |
+
+|                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
+|:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Parking: Get all parkings                          | GET         | –                                                                                                                                 | `/api/v1/parkings`                                              |
+| Parking: Create new parking                        | POST        | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings`                        |
+| Parking: Get parking spots by ID                   | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Add parking spot                          | POST        | `parkingId`, body: `row`, `column`, `label`                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Get parking by ID                         | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}`                                  |
+| Parking: Get parkings by owner ID                  | GET         | `ownerId`                                                                                                                         | `/api/v1/parkings/owner/{ownerId}`                              |
+| Authentication: Sign up parking owner              | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`                                           | `/api/v1/authentication/sign-up/parking-owner`                  |
+| Authentication: Sign up driver                     | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni`                                                          | `/api/v1/authentication/sign-up/driver`                         |
+| Authentication: Sign in                            | POST        | `email`, `password`                                                                                                               | `/api/v1/authentication/sign-in`                                |
+| Edge Server: Create edge server                    | POST        | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId`                                                            | `/api/v1/edge-servers`                                          |
+| Edge Server: Get edge servers by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/edge-servers/parking/{parkingId}`                      |
+| Review: Create review                              | POST        | body: `driverId`, `parkingId`, `comment`, `rating`                                                                                | `/api/v1/reviews`                                               |
+| Review: Get reviews by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/reviews/parking/{parkingId}`                           |
+| Review: Get reviews by driver ID                   | GET         | `driverId`                                                                                                                        | `/api/v1/reviews/driver/{driverId}`                             |
+| Reservation: Create reservation                    | POST        | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime`                                    | `/api/v1/reservations`                                          |
+| Reservation: Get reservations by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/reservations/parking/{parkingId}`                      |
+| Reservation: Get reservations by driver and status | GET         | `driverId`, `status`                                                                                                              | `/api/v1/reservations/driver/{driverId}/status/{status}`        |
+| Roles: Get all roles                               | GET         | –                                                                                                                                 | `/api/v1/roles`                                                 |
+| Payment: Create subscription payment               | POST        | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                          | `/api/v1/payments/subscription/{subscriptionId}`                |
+| Payment: Create reservation payment                | POST        | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                           | `/api/v1/payments/reservation/{reservationId}`                  |
+| Device: Update device                              | PUT         | `deviceId`, body: `edgeId`, `macAddress`, `type`                                                                                  | `/api/v1/devices/{deviceId}`                                    |
+| Device: Get unassigned devices                     | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/unassigned/{parkingId}`                        |
+| Device: Get devices by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/parking/{parkingId}`                           |
+| Device: Get device by spot ID                      | GET         | `parkingSpotId`                                                                                                                   | `/api/v1/devices/parking-spot/{parkingSpotId}`                  |
+| Device: Get devices by edge server                 | GET         | `edgeServerId`                                                                                                                    | `/api/v1/devices/edge-server/{edgeServerId}`                    |
+| Users: Get all users                               | GET         | –                                                                                                                                 | `/api/v1/users`                                                 |
+| Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
+| Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
+| Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
+
+
+- **Commit details:**
+
+|        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
+| :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 1ef38cd70771e8663d6b67a7bcea3a1ef82238a8 | feat(device-management): update device initialization and repository queries for edge server handling           |                     |     16/06/2025     |
+|   smartparking-backend    | feature/device-management  | 7626e0fc2ee253f28e5387e6dd303f76ab89d91e | feat(device-management): enhance device and edge server commands with new attributes and update methods         |                     |     14/06/2025     |
+|   smartparking-backend    | feature/device-management  | c080a228e05d2a0235a8335521de04eed15bb4e2 | feat(device-management): create device management bounded context.                                              |                     |     11/06/2025     |
+|   smartparking-backend    |    feature/notifications   | a01c654110750e164d514953baacde55f0974afc | feat(notifications): add update files                                                                           |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 861a3b5d9ab56294176ba69eddf1328c0152fc6e | feat(notifications): add controller Notifications                                                               |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | d2abc4102d91d56570fa346c3592935e5dacb06f | feat(notifications): add repository and service Notifications                                                   |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 50f740d197b7163b9416eb154fdd421f7f75ba8b | feat(notifications): add model Notification                                                                     |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | bba84b4d3621354153ea76031a85d9ba77cef04b | feat(notifications): add FirebaseConfig                                                                         |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 9f88dfee3ff8178fa51912152c7ba3b154f4f211 | feat(notifications): add dependencies                                                                           |                     |     09/06/2025     |
+|   smartparking-backend    |       feature/payment      | 390ec375f52988741eb3e5d3270992eebbc4bbc2 | feat(payments): implement payment creation for reservations and subscriptions                                   |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/payment      | cbafc8ab5673dadb58e945906bdafd2b5e796fb7 | feat(reservations): add spot label retrieval and update reservation creation                                    |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/reviews      | f88bb82aa8f760d4013c94b57a79cbd59281ce2e | fix: remove inncesary method and implement the update of attribute behavior.                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eeb34e8ade18e235b3b9be27731a73f1c9e9e3fe | feat(reviews): add review transform and resources types.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 05311974cac92f2b061ac41c0b84bb540f7b709c | feat(reviews): add review command and query service implementations.                                            |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | dd39bde6b2ebb2c82eff8b16e1eedce45259dc42 | feat(reviews): add communication to external services.                                                          |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | bd5b3485f291771eca015d703774c8b1d82bbd7c | feat(parking-management): add method to get parking name by its id.                                             |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | b1dad199602d093fe47cd092bbe3bc49e1a05ac9 | feat(reviews): add review repository.                                                                           |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 86c5b61b3cfc819821e9747cfec77725ab4ef246 | feat(reviews): add review command and query service contracts.                                                  |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | a6e0f2bfb9d0731b37bddbd42f37360ab26512fc | feat(reviews): add command to create review.                                                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 936df6213883dc48411a2bfa5d2f20b291889afc | feat(reviews): add review aggreate class.                                                                       |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 74065e0038ea758c36d5444d21ad51360d6341e5 | feat(reviews): add driverId and parkingId value objects.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eca925e6561b98d30fcb5d7bd28e8342215d846f | feat(parkings): add averageRating and ratingCount attributes to aggregate, and methods to update them in facade.|                     |     07/05/2025     |
+|   smartparking-backend    |           master           | e7609d51813d3476db7c25f8df38c7e7cd3e8200 | feat(reservations): add driver full name to reservation resource.                                               |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | 66e6e6655ced3f0c636b63237df85fcb69771c02 | feat(reservations): add acl communication to get driver full name.                                              |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | d7d54aaf394ea61b4371db5c9a7a764a8d8a74b5 | feat(reservations): add date attribute to reservation class aggregate.                                          |                     |     06/05/2025     |
+|   smartparking-backend    |           master           | 04c2ab1ab209f8195addc2f0cf30cde293de4249 | feat(reservations): implement parking acl.                                                                      |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 6b4daceeab463ff2db1d226b65da06df26232483 | feat(parking-management): add anti-corruption layer.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | d7e534beaf36f3be5ccc2078b600fbb5a09603da | feat(parking-management): add queries and commands.                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 65d44e7d5806f967e2d584e5ca5f33218fa12eca | feat(reservations): add reservation inbound service.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | da3e5d156ce7fc3109b13b4ef752e4e97cf0ae7f | feat(reservations): add reservation interface layer resource and transform types.                               |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 66fcdc441dfc8847e64e7c395199440aa8f26087 | feat(reservations): add reservation command and query service implementations.                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 33de4c0aa0f3e76539645e3603d16a340e5e2422 | feat(reservations): add reservation outbound service.                                                           |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | f772e6aa8e157eb94922fb3d9fae7eecadcc2d4e | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 38f4e966c3392bcc6aab65f246a861610c12343f | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 17dde74cc9d515a1c622de939fa58a626fe3f091 | feat(reservations): add reservation value objects.                                                              |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 2b8ffccf7858511458def0d7fe5ba48c122cb27a | feat(reservations): add reservation aggregate.                                                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: few changes.                                                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: change operation summary for parking owner and driver registration.                                      |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | 2a8a74c7a3984fd86754678ba1eab125e82ba257 | chore: add get parking by id query, and add latitude and longitude attributes of parking.                       |                     |     17/04/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 5fbf592e95b044923baf23cdee29b7106b503637 | feat:creation of bounded context iam and profile with DDD approach                                              |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
+|   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review
+**Landing Page**
+
+- Abrir "Remote Desktop", ingresar la dirección IP y el puerto de la máquina virtual de Microsoft Azure
+
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence1.jpg)
+
+- Subir los archivos compilados al servidor web
+
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
+
+- Actualizar el archivo de configuración
+
+![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
+
+**Web App**
+
+- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
+
+- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
+
+- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
+
+- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
+
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
+
+
+
+**Web Services:**
+- El backend se desplegó en Azure utilizando las configuraciones establecidas, asegurando la compatibilidad con el entorno de ejecución de Java.
+
+
+![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/Deploying%20backend.png?raw=true)
+
+
+**Embedded Application:**
+- Se ha realizado el deploy del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
+![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/deploy-embeddedApp.jpg?raw=true)
+
+
+**Edge Server:**
+- Para esta entrega no se ha realizado deploy del edge serve ya que se requiere un dispositivo fisico para su procedimiento.
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint
+**Web Application**
+![Analiticos de Colaboracion: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Commits.png?raw=true)
+
+**Mobile Application:**
+![Analiticos de Colaboracion: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Commits.png?raw=true)
+
+**Web Services:**
+![Analiticos de Colaboracion: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Commits.png?raw=true)
+
+**Embedded Application:**
+![Analiticos de Colaboracion: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
+
+**Edge Server:**
+![Analiticos de Colaboracion: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Commits.png?raw=true)
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+**Objetivo:**
+Validar si la propuesta de valor y funcionalidades de la aplicación cubren las necesidades reales de los propietarios de estacionamientos y conductores urbanos, y recoger insights para mejorar la usabilidad, percepción y utilidad de la solución antes y durante su implementación.
+
+**Perfil del entrevistado:**
+Se establecen 2 perfiles distintos de usuarios a entrevistar, que corresponden a los segmentos objetivos clave definidos:
+
+**A. Conductor urbano**
+
+- Dentro de un rango de edad entre los 20 y 60 años.
+- Uso frecuente del automóvil en zonas urbanas.
+- Ha experimentado dificultad para encontrar estacionamiento.
+- Tiene acceso y usa smartphones habitualmente.
+- Dispuesto a utilizar aplicaciones móviles que le faciliten su día a día.
+
+**B. Propietario de estacionamiento**
+- Persona encargada de administrar uno o varios estacionamientos públicos o privados.
+- Con interés en mejorar la eficiencia, visibilidad o rentabilidad de su espacio.
+- Puede tener experiencia limitada en tecnología, pero apertura a soluciones digitales.
+- Tiene contacto diario con la gestión operativa de espacios de parqueo.
+
+**Preguntas guía de la entrevista**
+
+**A. Preguntas para Conductores**
+Bloque A. Primer uso y navegación
+1. ¿Cómo fue tu experiencia al descargar y usar por primera vez la aplicación?
+2. ¿Fue fácil para ti usar la app por primera vez?
+3. ¿Te pareció fácil encontrar estacionamientos disponibles en tu zona?
+
+Bloque B. Usabilidad de la app móvil
+
+4. ¿Qué funcionalidades te parecieron más útiles (mapa, reservas, historial, etc.)?
+5. ¿Has utilizado la función de reservas? ¿Cómo fue tu experiencia?
+6. ¿Has realizado pagos desde la app? ¿Qué tan fluido fue el proceso?
+
+Bloque C. Confianza en la información
+
+7. ¿Qué tan confiable te parece la información sobre disponibilidad en tiempo real?
+8. ¿Te ha sucedido que la app marcaba un espacio como libre, pero no lo estaba?
+
+Bloque D. Valor percibido
+
+9. ¿Qué función adicional te gustaría ver en la app?
+10. ¿Recomendarías esta aplicación a otros conductores? ¿Por qué?
+
+
+**B. Preguntas para Propietarios de Estacionamiento**
+Bloque A. Primer contacto y configuración
+1. ¿Cómo describirías tu experiencia al registrarte y configurar tu estacionamiento por primera vez?
+2. ¿Qué te pareció el proceso de diseño del plano del estacionamiento en la plataforma?
+
+BLoque B. Uso de la plataforma
+
+3. ¿Sientes que puedes controlar fácilmente tus espacios y reservas desde el panel de gestión?
+4. ¿Qué funcionalidades se te hacen más atractivas?
+
+Bloque C. Reservas y pagos
+
+5. ¿Te parece útil que los conductores reserven espacios con anticipación?
+6. ¿El proceso para visualizar reservas te parece claro y ordenado?
+
+Bloque D. Satisfacción general
+
+7. ¿Qué te parece esta aplicación con respecto a tu método de gestion actual?
+8. ¿Qué parte de la experiencia te ha resultado más útil?
+9. ¿Hay algo que te haya generado confusión o frustración?
+10. ¿Qué te gustaría ver en esta aplicación en futuras versiones?
+
+**Justificación de las preguntas**
+Las preguntas fueron diseñadas para:
+- Validar que las funcionalidades diseñadas resuelven problemas reales, no solo imaginados.
+- Evaluar la experiencia de los usuarios en la aplicación.
+- Comprobar la 
+- Medir el grado de satisfacción y disposición a recomendar o pagar, base para el crecimiento orgánico. 
+
+Duración estimada de la entrevista
+
+- Para conductores: 10 a 25 minutos
+- Para propietarios: 15 a 30 minutos
+
+Medio de aplicación
+- Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
+
+### 6.3.2. Registro de Entrevistas
+##### **Segmento 1**
+###### Entrevista 1
+
+**Nombre:** Jhon Gutierrez Lopez
+**Edad:** 34 años
+**Distrito:** Los Olivos
+
+
+Jhon mostro una actitud positiva hacia el aplicativo web, resaltando especialmente la posibilidad de personalizar el diseño del estacionamiento según la forma real del espacio físico, como en su caso, que tiene una disposición en forma de “L”. Esta funcionalidad le pareció clave para adaptar el sistema a las necesidades particulares de su negocio, dándole una sensación de control y precisión.
+
+Durante su experiencia explorando la plataforma, destacó lo intuitivo que le resultó el proceso de registro y gestión de reservas. Al principio pensó que tendría que seguir pasos complicados como ingresar códigos o revisar correos electrónicos, pero se sorprendió al ver que todo era simple y accesible. Esta facilidad de uso, sumada a la posibilidad de dejar atrás registros manuales en cuadernos o libros, le generó confianza en que podrá llevar un control más organizado y eficiente desde el aplicativo web.
+
+Finalmente, valoro positivamente que los conductores puedan reservar espacios con anticipación, siempre que exista un pago de por medio, lo cual considera justo y útil para asegurar el uso del espacio. En general, expresó que el sistema no solo le facilita la gestión diaria, sino que también representa una evolución en su forma de administrar el negocio, ahora con apoyo de sensores IoT y notificaciones automáticas que agilizan el flujo de información entre propietarios y conductores.
+
+![Entrevista 1](./ChapterVI-images/validation-interview/app-web-jhon.png)
+
+**Tiempo en el video: 0:00:03**
+
+----------
+
+###### Entrevista 2
+
+**Nombre:** Lizet Antonia Pachas Torres
+**Edad:** 42 años
+**Distrito:** Surco
+
+>
+Lizet expreso una experiencia positiva al registrarse y configurar su estacionamiento en la plataforma. Destacó la facilidad del proceso inicial y valoró especialmente la herramienta para diseñar el plano, aunque mencionó que al comienzo le generó dudas, lo cual sugiere la necesidad de mejorar el onboarding en esa sección.
+
+En el uso diario indico sentirse en control gracias al panel de gestión, resaltando la utilidad de asignar reservas a clientes frecuentes y la simplicidad de contar con un precio fijo. Aunque aun no se cuenta con funciones como el bloqueo de espacios o reportes, no fueron señaladas como limitantes críticas, sino como posibles mejoras futuras.
+
+La posibilidad de que los conductores reserven con anticipación fue vista como una gran ventaja operativa. El calendario visual también fue bien valorado por su claridad al mostrar disponibilidad de espacios.
+
+En términos generales, el usuario considera que la aplicación ha mejorado significativamente su método de gestión frente al sistema manual que usaba anteriormente. La automatización de reservas y la gestión desde el celular fueron los aspectos más destacados. Como sugerencias, propuso integrar promociones para clientes frecuentes y un canal de comunicación directa con los conductores.
+
+![Entrevista 2](./ChapterVI-images/Segmento1-Interview2.png)
+
+**Tiempo en el video: 0:21:04**
+
+----------
+
+###### Entrevista 3
+
+**Nombre:** Jose Contreras
+
+>
+Jose indico que actualmente cobra S/15 por hora en su cochera ubicada en San Isidro, la cual tiene capacidad para 15 vehículos. Desde su experiencia destaco con entusiasmo la posibilidad de personalizar los espacios de su estacionamiento dentro del aplicativo web, lo cual le parece una función increíble ya que le permite organizar su espacio de acuerdo a sus propias preferencias y la distribución física del local.
+
+Tambien resalto como muy interesante la opción de que el propietario pueda generar reservas manuales para usuarios frecuentes, lo que considera útil para mantener relaciones con clientes habituales y asegurar ingresos constantes. Esta funcionalidad le ofrece mayor control sobre su negocio y le abre nuevas oportunidades para fidelizar a su clientela sin depender exclusivamente de las reservas automáticas.
+
+Además, valoro positivamente que el sistema permita realizar pagos con cualquier tipo de tarjeta, lo cual considera clave para facilitar la experiencia del conductor. Por último, mencionó que le parece muy beneficioso recibir notificaciones cada vez que un conductor realiza una reserva, ya que eso le permite estar siempre informado y preparado para gestionar su espacio de forma eficiente y profesional.
+
+
+
+![Entrevista 3](./ChapterVI-images/validation-interview/app-web-jose.png)
+
+**Tiempo en el video: 0:33:05**
+
+----------
+
+###### Entrevista 4
+
+**Nombre:** Armando Arturo Navarrete Caballero 
+**Edad:** 59 años
+**Distrito:**  San Isidro
+
+Armando valora que el registro del estacionamiento y el diseño del plano sean rápidos e intuitivos; considera útil poder fijar un precio por hora y ver en el mapa, en tiempo real, las plazas libres, reservadas u ocupadas. Mencionó que la solución resulta atractiva para llenar horas valle, ya que acerca nuevos clientes cuando la cochera suele estar vacía. También percibe ventaja en digitalizar sus procesos, eliminando “libros y apuntes” y obteniendo datos históricos de ocupación e ingresos.
+
+Le gustaría incorporar un sistema de tarifas dinámicas: bajar el precio en momentos de baja demanda y mantenerlo alto en horas pico para maximizar ingresos. Propone además que el plano muestre el costo de cada espacio para que los conductores comparen rápidamente. Sugiere asignar solo una zona piloto de su cochera a la app mientras evalúa el desempeño, dejando el resto en operación tradicional.
+
+Respecto a la experiencia de uso, detectó como único freno inicial el hecho de que la interfaz aparezca en inglés, aunque agradece el botón para pasar a español. Ve valor en la futura app móvil para conductores, siempre que se garantice el cobro anticipado y la plaza “realmente quede bloqueada”. Concluye que la plataforma le permitirá ordenar reservas, controlar pagos y aumentar la rentabilidad, y está dispuesto a probarla con sus parkings.
+
+![Entrevista 3](./ChapterVI-images/validation-interview/app-web-armando.png)
+
+**Tiempo en el video:** 0:44:52
+
+----------
+
+##### **Segmento 2**
+###### Entrevista 5
+
+**Nombre:** Mauricio Oliveira Paucar 
+**Edad:** 25 años
+**Distrito:** Surco
+
+>
+Mauricio, conductor con aproximadamente cuatro años de experiencia, participó en una entrevista para probar la aplicación móvil SmartParking, orientada a facilitar la reserva de estacionamientos. Comentó que su experiencia inicial fue positiva, destacando la facilidad de uso y lo intuitivo del mapa para ubicar parkings cercanos.
+
+Consideró que el mapa y la información de disponibilidad en tiempo real fueron las funciones más útiles, ya que permiten ahorrar tiempo y evitar estacionamientos sin espacios libres. El proceso de reserva le pareció sencillo y rápido, desde la selección del espacio y horario hasta el pago.
+
+Mauricio señaló que la información mostrada fue precisa durante la prueba, aunque sugirió mejorar la flexibilidad de horarios permitiendo reservas de un día para otro, además de incorporar más fotografías de los estacionamientos. Finalmente, afirmó que recomendaría SmartParking a otros conductores por su practicidad, ahorro de tiempo y mayor seguridad al usar parkings asociados.
+
+![Mauricio Driver-Interview](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/fa2290a26154a8b01000b08fcad9f2444e1399d3/ChapterVI-images/validation-interview/app-movil-mauricio.png?raw=true)
+
+**Tiempo en el video:** 0:58:39
+
+----------
+
+###### Entrevista 6
+
+**Nombre:** Rocio Maria Casas Lucich
+**Edad:** 49 años 
+**Distrito:** San Isidro 
+
+Rocío percibe la app como sencilla y “amigable”: el proceso de inicio de sesión, búsqueda en el mapa y reserva le resultó claro; valoró especialmente ver el plano detallado de las cocheras, porque le ayuda a elegir espacios con buen patio de maniobras. Afirmó que la función de reserva previa resolvería problemas de puntualidad que vive a diario en Lima, donde suele llegar con tiempo pero pierde minutos dando vueltas.
+
+Planteó dos inquietudes operativas: (1) saber con cuánta antelación puede reservar —quisiera hacerlo desde la mañana para una cita nocturna— y (2) garantizar que la plaza quede libre al llegar; sugirió usar actuadores que bloqueen físicamente el espacio. Además, pidió etiquetar los estacionamientos especiales (discapacidad, embarazadas) para no reservarlos por error.
+
+En materia de confianza, propuso añadir autenticación adicional en el pago (OTP/SMS o 3-D Secure) y más fotos del entorno para evaluar seguridad. Finalmente, indicó que la recomendaría sólo si el modelo no obliga a una suscripción anual: prefiere pagar comisión por uso o, en todo caso, una membresía mensual opcional.
+
+![Entrevista 2](./ChapterVI-images/validation-interview/app-movil-rocio.png)
+
+**Tiempo en el video:** 1:06:30
+
+----------
+
+### 6.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation – SmartParking Web App (Panel Propietarios)
+
+Usability – Inclusive Design – Information Architecture
+
+| *CARRERA*    | Ingeniería de Software                                                    |
+| -------------- | ------------------------------------------------------------------------- |
+| *CURSO*      | Desarrollo de Soluciones IoT                                              |
+| *SECCIÓN*    | SI572-2025-1                                                            |
+| *PROFESORES* | Todos                                                                   |
+| *AUDITOR*    | Equipo SmartParking                                                       |
+| *CLIENTE(S)* | Propietarios de cocheras entrevistados (Alejandro G., Lizeth A., José C., Armando R.) |
+
+---
+
+#### SITE / APP A EVALUAR
+
+*SmartParking – Web App (Panel para propietarios)*
+
+---
+
+#### TAREAS A EVALUAR
+
+1. Registro / inicio de sesión
+2. Creación de estacionamiento y diseño del plano
+3. Consulta de ocupación en tiempo real
+4. Alta y anulación de reservas
+5. Modificación de tarifas y descarga de reportes
+6. Revisión de reseñas y comunicación con conductores
+
+---
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                 |
+| ----- | --------------------------------------------------------------------------- |
+| *1* | Problema superficial; arreglar si hay tiempo                                |
+| *2* | Problema menor; prioridad baja para la próxima entrega                      |
+| *3* | Problema mayor; frecuente o bloquea a algunos usuarios                      |
+| *4* | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+
+---
+
+#### TABLA RESUMEN
+
+| # | Problema                                           | Sev. | Heurística / Principio violado           |
+| - | -------------------------------------------------- | ---- | ---------------------------------------- |
+| 1 | Interfaz carga por defecto en inglés               | 3    | Match sistema-mundo real                 |
+| 2 | Editor de plano exige trazar plaza × plaza         | 3    | Flexibilidad & eficiencia · Ayuda & doc. |
+| 3 | Confiabilidad de ocupación en tiempo real incierta | 4    | Visibilidad del estado · Fiabilidad      |
+| 4 | Comisiones de pasarela poco transparentes          | 3    | Ayuda & doc. · Confianza                 |
+| 5 | Sin precio dinámico por franja horaria             | 3    | Compatibilidad con tareas reales         |
+| 6 | Falta chat / promociones a conductores             | 2    | Visibilidad · Experiencias comparables   |
+| 7 | Gestión de sobre-estancia poco clara               | 2    | Prevención de errores                    |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS (≥ 2)
+
+*Problema #1 – Interfaz por defecto en inglés*
+
+Severidad 3 · Match sistema-mundo real
+
+Los cuatro propietarios cambiaron manualmente el idioma.
+
+*Recomendación:* detectar Accept-Language, cargar ES-pe y ofrecer selector persistente.
+
+---
+
+*Problema #2 – Editor de plano tedioso*
+
+Severidad 3 · Flexibilidad & eficiencia
+
+Requiere dibujar cada plaza; curva de aprendizaje alta.
+
+*Recomendaciones:* plantillas (L, U, grid), duplicar filas/columnas, tutorial animado inicial.
+
+---
+
+*Problema #3 – Datos de ocupación poco confiables*
+
+Severidad 4 · Visibilidad del estado
+
+Miedo a llegar y hallar el parking lleno.
+
+*Recomendaciones:* timestamp “Actualizado hace X s”, badge “Aforo completo ≥ 95 %”, alerta sensor > 60 s inactivo.
+
+---
+
+*Problema #4 – Comisiones poco claras*
+
+Severidad 3 · Ayuda & doc.
+
+Añadir desglose tarifa / % / neto en la pantalla de tarifas y en reportes.
+
+---
+
+*Problema #5 – Falta de precios dinámicos*
+
+Severidad 3 · Compatibilidad con tareas reales
+
+Permitir reglas de precio por hora/día y modo “automático según ocupación”.
+
+---
+
+*Problema #6 – Sin canal de chat / promociones*
+
+Severidad 2
+
+Incorporar mensajería in-app y envío de cupones.
+
+---
+
+*Problema #7 – Sobre-estancia sin recargo claro*
+
+Severidad 2
+
+Alertar 10 min antes del vencimiento y aplicar cargo automático por extra-tiempo.
+
+---
+
+#### UX Heuristics & Principles Evaluation – SmartParking Mobile App (Conductores)
+
+Usability – Inclusive Design – Information Architecture
+
+| *CARRERA*    | Ingeniería de Software                            |
+| -------------- | ------------------------------------------------- |
+| *CURSO*      | Desarrollo de Soluciones IoT                      |
+| *SECCIÓN*    | SI572-2025-1                                    |
+| *PROFESORES* | Todos                                           |
+| *AUDITOR*    | Equipo SmartParking                               |
+| *CLIENTE(S)* | Conductores entrevistados (Mauricio L., Rocío M.) |
+
+---
+
+#### SITE / APP A EVALUAR
+
+*SmartParking – Mobile App (Conductores)*
+
+---
+
+#### TAREAS A EVALUAR
+
+1. Login y geolocalización
+2. Búsqueda de estacionamientos cercanos
+3. Selección de plaza y reserva (hora / fecha)
+4. Pago de la reserva
+5. Activar “Estoy aquí” / cancelar
+6. Consulta de historial
+
+---
+
+#### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                 |
+| ----- | --------------------------------------------------------------------------- |
+| *1* | Problema superficial; arreglar si hay tiempo                                |
+| *2* | Problema menor; prioridad baja para la próxima entrega                      |
+| *3* | Problema mayor; frecuente o bloquea a algunos usuarios                      |
+| *4* | Problema crítico; impide completar la tarea; corregir antes del lanzamiento |
+
+---
+
+#### TABLA RESUMEN
+
+| # | Problema                                          | Sev. | Heurística violada                |
+| - | ------------------------------------------------- | ---- | --------------------------------- |
+| 1 | Sólo permite reservas dentro del mismo día        | 3    | Flexibilidad & eficiencia         |
+| 2 | Plazas accesibles no etiquetadas / filtro         | 3    | Prevención de errores · Inclusión |
+| 3 | Botones de pago sin feedback / función incompleta | 2    | Visibilidad del estado            |
+| 4 | Pago sin verificación 2-FA / OTP                  | 2    | Seguridad · Prevención de errores |
+| 5 | Fotos del parking insuficientes                   | 1    | Ayuda al reconocimiento           |
+| 6 | Suscripción anual forzosa desincentiva uso        | 1    | Compatibilidad con expectativas   |
+
+---
+
+#### DESCRIPCIÓN DE PROBLEMAS (≥ 2)
+
+*Problema #1 – Reserva solo mismo-día*
+Severidad 3 · Flexibilidad & eficiencia
+Conductores necesitan reservar con uno o más días de anticipación.
+*Recomendaciones:* selector de rango de fechas, mensaje “Reserva hasta Y días antes”, coste estimado inmediato.
+
+---
+
+*Problema #2 – Plazas accesibles no etiquetadas*
+Severidad 3 · Inclusión
+Agregar icono “Accesible” y filtro; alertar si el usuario no tiene permiso.
+
+---
+
+*Problema #3 – Pago sin feedback claro*
+Severidad 2 · Visibilidad del estado
+Deshabilitar botones no implementados y mostrar barra de progreso + mensaje de éxito/error.
+
+---
+
+*Problema #4 – Falta de 2-FA / 3-D Secure*
+Severidad 2 · Seguridad
+Integrar OTP o 3-D Secure y exhibir sello “Pago seguro”.
+
+---
+
+## 6.4. Video About-the-Product
+
+**Nombre del archivo:**
+`upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2.mp4`
+
+**Duración:** 35 s  **Formato:** MP4
+
+Se presenta la esencia de **SmartParking**: una solución IoT que conecta a conductores con cocheras disponibles y permite a los propietarios gestionar reservas y cobros sin personal. El clip enseña la reserva en la app, el reconocimiento automático de la placa y el actuador que libera la plaza; termina con la voz de un conductor y un propietario resaltando ahorro de tiempo y aumento de ingresos.
+
+![Screenshot del video](ChapterVI-images/about-the-product.png)
+
+**Enlace:** https://shorturl.at/R7qBj
+
+## 6.5. Video About-the-Team
+
+### 6.5 Video About-The-Team
+
+**Nombre del archivo:**
+`upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-team-sprint-2.mp4`
+
+**Duración:** 6 min 25 s  **Formato:** MP4
+
+Se muestra cómo el equipo **IoT Innovators** llevó a cabo el proyecto SmartParking. Empieza con los **testimonios de los integrantes del equipo**, quienes describen sus responsabilidades, los principales *outcomes* obtenidos y las competencias desarrolladas. Cierra con un “behind-the-scenes” de las entrevistas de validación y un llamado a seguir el avance del producto.
+
+![Screenshot del video](ChapterVI-images/about-the-team.png)
+
+**Enlaces:** https://shorturl.at/85BxU
+
+---
+
 # Conclusiones y recomendaciones
 ## Conclusiones
 
@@ -5186,30 +5538,52 @@ A continuación se presentan los videos generados como parte del desarrollo del 
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb1`  
 Formato: `.mp4`  
 Duración: 25:54  
-**Enlace:**  
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/ERo-O22A_dhImQOjz1_IJGcBYOLw72Usu-j62BXeEkcrhA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=RZCVOE |
+**Enlace:** https://shorturl.at/8hzHW
 
 **Exposición TP1**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tp1`  
 Formato: `.mp4`  
 Duración: 24:22  
-**Enlace:**  
+**Enlace:** https://shorturl.at/ZecCM  
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EWDAl67_TdpAoBiAHa1OQxUB5fevLpptE56nZ_-F3GZtJQ?e=IMD3Yo&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Exposición TB2**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb2`  
+Formato: `.mp4`  
+Duración: 25:02  
+**Enlace:** https://shorturl.at/5PQoI
 
 **Needfinding Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  
 Formato: `.mp4`  
 Duración: 46:26  
-**Enlace:**  
+**Enlace:** https://shorturl.at/boTPG  
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EQ4rQ34NYHlGvEzueV9hB50B6zzVIOKni-ge9qzX-2w_0Q?e=rL8DY8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Validation Interviews**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation-tb2`  
+Formato: `.mp4`  
+Duración: 1:23:08  
+**Enlace:**  https://shorturl.at/UWRSS
 
 **Prototypes Navigation / Product Navigation**
-Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation`  
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-1`  
 Formato: `.mp4`  
 Duración: 7:48  
-**Enlace:**  
+**Enlace:** https://shorturl.at/ajXvS  
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/EVAMZaPh71JKoHI3qQrOxYEBJ8CRBfmhpBVSyrciYgpTtQ?e=8Wt1OC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Execution Evidence / Product Navigation 2**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-2`  
+Formato: `.mp4`  
+Duración: 6:19  
+**Enlace:** https://shorturl.at/HblDQ
+
+**About the Product**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2`  
+Formato: `.mp4`  
+Duración: 0:35  
+**Enlace:** https://shorturl.at/R7qBj
+
+**About the Team**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-team-sprint-2`  
+Formato: `.mp4`  
+Duración: 6:25  
+**Enlace:** https://shorturl.at/85BxU
