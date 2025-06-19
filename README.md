@@ -5522,7 +5522,7 @@ Duración: 46:26
 **Validation Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation-tb2`  
 Formato: `.mp4`  
-Duración: 
+Duración: 1:23:08
 **Enlace:**  https://shorturl.at/UWRSS
 
 **Prototypes Navigation / Product Navigation**
@@ -5534,13 +5534,13 @@ Duración: 7:48
 **Execution Evidence / Product Navigation 2**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-2`  
 Formato: `.mp4`  
-Duración:  
+Duración: 6:19
 **Enlace:** https://shorturl.at/HblDQ
 
 **About the Product**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2`  
 Formato: `.mp4`  
-Duración:   
+Duración: 0:35
 **Enlace:** https://shorturl.at/R7qBj
 
 **About the Team**
