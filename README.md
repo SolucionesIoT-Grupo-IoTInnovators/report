@@ -345,7 +345,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.
         <br><br>
-        TP:<br>
+        TP1:<br>
         En el grupo contribuí activamente a la corrección de errores en la elaboración de los diagramas C4, colaborando además en la asignación de tareas para optimizar el avance del trabajo. Participé en la creación de los wireframes y mockups de la aplicación web, y en la validación de las technical stories para el backend, proponiendo ajustes y mejoras.
         <br><br>
         TB2:<br>
@@ -354,7 +354,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br> En grupo pudimos repartirnos correctamente las partes del trabajo, ademas de compartir nuestras ideas y apoyarnos en cada punto de esta entrega, donde pude mejorar mi trabajo en equipo para el desarrollo de este informe aportando ideass y sugerencias.<br><br>
-        TP:<br>
+        TP1:<br>
         En esta entrega me involucré en las coordinaciones grupales para asegurar el cumplimiento de los entregables. Participé activamente en la validación del diseño de los wireflows y propuse mejoras basadas en los user stories. También ayudé a consolidar los insumos desarrollados por el grupo para integrar el documento final, promoviendo el orden y la claridad del contenido.
         <br><br>
         TB2:<br>
@@ -364,7 +364,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
         Asumi la responsabilidad de coordinar al equipo en la asignación de las primeras tareas y resolución de dudas. De esta manera, fomenté el liderazgo promoviendo la participación y aporte de todos los miembros del grupo.<br><br>
-        TP:<br>
+        TP1:<br>
         Impulsé el liderazgo colaborativo coordinando instancias de validación y asegurándome de que todas las voces fueran escuchadas. Mi enfoque estuvo centrado en fortalecer el trabajo colectivo y mantener la cohesión del grupo.
         <br><br>
         TB2:<br>
@@ -374,7 +374,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Nuestro equipo logró ejercer un liderazgo compartido mediante la asignación equitativa de responsabilidades y la promoción activa del diálogo entre nosotros. Se evidenció una coordinación efectiva durante las reuniones, así como la iniciativa de varios integrantes para guiar y orientar al grupo, lo cual permitió un trabajo organizado, colaborativo y enfocado en resultados comunes.<br><br>
-        TP:<br>
+        TP1:<br>
         Mantuve una actitud proactiva en las coordinaciones grupales, promoviendo el diálogo y la toma de decisiones compartidas. Apoyé a mis compañeros cuando surgían dudas y propicié un ambiente donde todos pudieran aportar al desarrollo conjunto.
         <br><br>
         TB2:<br>
@@ -384,7 +384,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Godoy, Johan Príncipe <br>
         TB1:<br>
         En el grupo pude aportar formatos a seguir para completar ciertas secciones aliviando asi sus dudas. Asimismo participe activamente en las llamadas en las cuales nos reuniamos para organizar y avanzar el trabajo.<br><br>
-        TP:<br>
+        TP1:<br>
         Ayudé a mantener un liderazgo compartido a través del apoyo constante a mis compañeros y la disposición para colaborar. Estuve presente en las decisiones importantes y promoví el equilibrio en la carga de trabajo grupal.
         <br><br>
         TB2:<br>
@@ -394,7 +394,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
         De manera grupal, pudimos organizarnos correctamente para poder realizar el trabajo, asignando tareas a cada uno de los integrantes del grupo. Se realizaron reuniones para coordinar las tareas a realizar y se utilizó Github para poder ver el avance de cada uno de los integrantes.<br><br>
-        TP:<br>
+        TP1:<br>
         Aporté al liderazgo grupal incentivando la responsabilidad de cada miembro, facilitando la organización y promoviendo la coordinación entre nosotros. Siempre estuve dispuesto a escuchar y guiar en caso de dificultades.
         <br><br>
         TB2:<br>
@@ -404,7 +404,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
         Se organizaron reuniones para coordinar las tareas a realizar, buscando que estas sean divididas justamente. Además el uso de Github nos permite estar al tanto del avance conjunto, para asi estar al tanto de los avances que se hacen como grupo y poder tomas decisiones que sen transparentes con la integridad del equipo.<br><br>
-        TP:<br>
+        TP1:<br>
         Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.<br><br>
         TB2:<br>
         Se identificaron puntos importantes a ser mejorados en esta nueva entrega. Además, se organizo un trabajo de manera conjunta para ir evaluando las aplicaciones a medida que se iban desarrollando, para generar resultados sólidos y consistentes con nuestra propuesta inicial.
@@ -413,7 +413,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td>
         TB1:<br>
         Logramos una organización eficiente, distribuyendo tareas de manera equitativa y utilizando herramientas como GitHub para mantener un seguimiento transparente del avance. Aportamos ideas, resolvimos dudas en conjunto y mantuvimos una comunicación constante mediante reuniones de coordinación. Asumimos un liderazgo compartido, donde cada miembro contribuyó activamente. Esta experiencia reforzó nuestras habilidades colaborativas y demostró la importancia de la planificación y el trabajo en equipo para alcanzar objetivos comunes.<br><br>
-        TP:<br>
+        TP1:<br>
         Logramos mantener un liderazgo compartido en el grupo, en el que todos los integrantes participaron activamente en la toma de decisiones, la organización de actividades y el apoyo entre pares. Esta dinámica fortaleció nuestras capacidades para liderar en conjunto y nos permitió avanzar de forma cohesionada hacia los objetivos del entregable.
         <br><br>
         TB2:<br>
@@ -432,7 +432,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.
         <br><br>
-        TP:<br>
+        TP1:<br>
         Durante esta entrega fomenté un entorno colaborativo, participando activamente en la creación de wireframes y mockups para la aplicación web, asegurando que las ideas de todos los integrantes fueran consideradas. Asimismo, colaboré en la validación de las technical stories para el backend, proponiendo mejoras y consensuando criterios en equipo.
         <br><br>
         TB2:<br>
@@ -441,7 +441,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
-        TP:<br>
+        TP1:<br>
         Aporté a la planificación del trabajo colaborativo definiendo fechas para revisar avances internos antes de cada entrega. Apoyé la integración de los diagramas en Figma y el orden de los flujos en base a los objetivos de cada user persona. Además, brindé ayuda a mis compañeros cuando tenían dificultades técnicas con Figma o estructuración del documento, promoviendo así un entorno de ayuda mutua.
         <br><br>
         TB2:<br>
@@ -451,7 +451,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
         Me he encargado de definir metas semanales para todos los integrantes del grupo, facilitando un ambiente colaborativo por medio de reuniones periódicas y revisión conjunta de avances realizados.<br><br>
-        TP:<br>
+        TP1:<br>
         Favorecí un entorno colaborativo al coordinar el cumplimiento de metas grupales y fomentar la planificación conjunta de tareas. Me aseguré de que todos los integrantes pudieran involucrarse activamente en el trabajo.
         <br><br>
         TB2:<br>
@@ -461,7 +461,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
         Se logró establecer un entorno de trabajo inclusivo y respetuoso, con metas claras y planificación consensuada. A través del uso de herramientas colaborativas como GitHub y canales de comunicación constantes, el grupo demostró capacidad de organización, responsabilidad compartida y cumplimiento efectivo de los objetivos planteados en la entrega.<br><br>
-        TP:<br>
+        TP1:<br>
         Establecí un ambiente de trabajo ordenado y respetuoso, impulsando la colaboración continua y el cumplimiento de las tareas acordadas. Promoví el trabajo en equipo de forma equitativa y comprometida.
         <br><br>
         TB2:<br>
@@ -471,7 +471,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Godoy, Johan Príncipe <br>
         TB1:<br>
         Se coordino de manera conjunta las tareas a realizar para esta entrega, asi como a traves de los canales de comunicacion nos hemos pudido ayudar unos a otros a solventar dudas o realizar correciones sobre el trabajo realizado.<br><br>
-        TP:<br>
+        TP1:<br>
         Aporté a un entorno de colaboración constante, facilitando la comunicación y apoyando a mis compañeros en todo momento. Fomenté el respeto mutuo y la planificación grupal para cumplir nuestras metas.
         <br><br>
         TB2:<br>
@@ -481,7 +481,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
         Se coordinó en equipo las tareas que debia resolver cada uno de los miembros y la metodología que se seguiría para la correcta realización del reporte mediante Github.<br><br>
-        TP:<br>
+        TP1:<br>
         Apoyé en mantener un entorno de trabajo positivo, en el que la inclusión y el cumplimiento de objetivos fueron prioritarios. Promoví la participación activa y equitativa de todos.
         <br><br>
         TB2:<br>
@@ -491,7 +491,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Zarate Caceres, Victor Ernesto<br>
         TB1:<br>
         Se procuro que la toma de decisiones fuera de manera conjunta, considerando cada punto de vista, para asi tomar las decisiones más justas. Además, el uso de Github nos permitio mantener un entorno de trabajo conjunto y trasnparente.<br><br>
-        TP:<br>
+        TP1:<br>
         Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.<br><br>
         TB2:<br>
         El trabajo realizado se distribuyo de acuerdo a las capacidades de cada miembro del equipo, para garantizar mejores resultados con mayot rapide y precisión con respecto a los objetivos del curso y de nuestro proyecto.
@@ -501,7 +501,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB1:<br>
         Trabajamos de manera coordinada, distribuyendo tareas equitativamente y estableciendo metas semanales mediante reuniones periódicas. Utilizamos GitHub y mantuvimos una comunicación constante para resolver dudas, hacer correcciones y revisar avances de forma colaborativa. Fomentamos un ambiente inclusivo donde cada miembro contribuyó con sus ideas, logrando consensos en las decisiones y manteniendo transparencia en todo el proceso. Gracias a esta organización conjunta y al compromiso de todos, logramos cumplir el trabajo en el plazo establecido.
         <br><br>
-        TP:<br>
+        TP1:<br>
         Logramos mantener un entorno colaborativo e inclusivo, donde todos los integrantes participaron activamente en la planificación y cumplimiento de las metas establecidas. Se promovió el respeto, la escucha activa y la equidad en la participación, permitiendo un desarrollo armónico y efectivo del trabajo en equipo.
         <br><br>
         TB2:<br>
