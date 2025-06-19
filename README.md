@@ -5209,7 +5209,11 @@ Además, valoro positivamente que el sistema permita realizar pagos con cualquie
 **Edad:** 59 años
 **Distrito:**  San Isidro
 
->
+Armando valora que el registro del estacionamiento y el diseño del plano sean rápidos e intuitivos; considera útil poder fijar un precio por hora y ver en el mapa, en tiempo real, las plazas libres, reservadas u ocupadas. Mencionó que la solución resulta atractiva para llenar horas valle, ya que acerca nuevos clientes cuando la cochera suele estar vacía. También percibe ventaja en digitalizar sus procesos, eliminando “libros y apuntes” y obteniendo datos históricos de ocupación e ingresos.
+
+Le gustaría incorporar un sistema de tarifas dinámicas: bajar el precio en momentos de baja demanda y mantenerlo alto en horas pico para maximizar ingresos. Propone además que el plano muestre el costo de cada espacio para que los conductores comparen rápidamente. Sugiere asignar solo una zona piloto de su cochera a la app mientras evalúa el desempeño, dejando el resto en operación tradicional.
+
+Respecto a la experiencia de uso, detectó como único freno inicial el hecho de que la interfaz aparezca en inglés, aunque agradece el botón para pasar a español. Ve valor en la futura app móvil para conductores, siempre que se garantice el cobro anticipado y la plaza “realmente quede bloqueada”. Concluye que la plataforma le permitirá ordenar reservas, controlar pagos y aumentar la rentabilidad, y está dispuesto a probarla con sus parkings.
 
 ![Entrevista 3](./ChapterVI-images/validation-interview/app-web-armando.png)
 
