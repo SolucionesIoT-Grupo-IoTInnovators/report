@@ -4915,16 +4915,12 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 
 **Embedded Application:**
-![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence1.jpg)
-![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence2.jpg)
-![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence3.jpg)
-![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/SoftwareDeploymentEvidence4.jpg)
+- Se ha realizado el deply del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
+![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/deploy-embeddedApp.jpg?raw=true)
+
 
 **Edge Server:**
-![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence1.jpg)
-![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence2.jpg)
-![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence3.jpg)
-![Proceso de despliegue en Sprint 1 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/SoftwareDeploymentEvidence4.jpg)
+- Para esta entrega no se ha realizado deploy del edge serve ya que se requiere un dispositivo fisico para su procedimiento.
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 **Web Application**
