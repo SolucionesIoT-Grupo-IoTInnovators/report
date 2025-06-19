@@ -4588,6 +4588,8 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 
 ![Captura de pantalla de Sprint 2 en Trello](ChapterVI-images/Sprint2/Sprint%20Backlog%202%20-%20Trello%20Board.png)
 
+https://trello.com/b/4jpMjzDd
+
 **Tabla de control de estado del Sprint**
 
 |  Sprint # ||   Sprint 2 ||||||
