@@ -674,6 +674,8 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 
 #### 1.2.2.4. Lean UX Canvas
 
+Se condensa, en un solo lienzo, los problemas de negocio detectados, las soluciones propuestas, los resultados esperados para compañía y usuarios, los perfiles de usuario clave, las hipótesis que se deben validar y las acciones mínimas para obtener evidencia; todo ello orientado a alinear al equipo, priorizar el aprendizaje rápido y fundamentar las decisiones de diseño y producto con datos concretos.
+
 <div align="justify">
   <table width="100%" border="1" cellpadding="10" cellspacing="0">
     <tr>
@@ -713,7 +715,7 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
           <li>Conductores que buscan estacionamiento de forma rápida y eficiente.</li>
           <li>Propietarios de estacionamientos que desean maximizar la ocupación y optimizar la gestión de sus espacios.</li>
         </ul>
-      </td>
+      </td>  
       <td valign="top">
         <h4>User Outcomes & Benefits</h4>
         <ul>
@@ -757,6 +759,9 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 </div>
 
 ## 1.3. Segmentos objetivo
+
+Se perfila a los dos públicos clave de la plataforma: (1) propietarios o administradores de estacionamientos urbanos, motivados por optimizar ocupación y automatizar cobros, y (2) conductores que enfrentan alta congestión y valoran la rapidez y conveniencia de reservar y pagar espacios vía app; esta caracterización guía la propuesta de valor y las decisiones de diseño, marketing y producto.
+
 | **Tipo de usuario**                  | **Geográfico**                                                                                                                                                                                   | **Psicográfico**                                                                                                                                                                                                                                                       | **Demográfico**                                                                                                                                                            |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Propietarios de Estacionamientos** | Propietarios o administradores de estacionamientos ubicados en zonas urbanas o áreas de alta demanda de estacionamiento, tanto públicas como privadas.                                           | Motivados por la optimización de su espacio, la automatización de cobros y la mejora de la eficiencia operativa. Buscan una solución que les ayude a aumentar la rentabilidad de sus operaciones mediante el monitoreo en tiempo real y la automatización de procesos. | - **Edad:** Entre 30 y 55 años. <br> - **Educación:** Formación en administración de negocios, ingeniería industrial o áreas relacionadas con la gestión de instalaciones. |
@@ -768,6 +773,8 @@ Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los n
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+
+El Análisis competitivo muestra el panorama de competidores de SmartParking, siendo iPark, ACCIST y Smelpro. Se comparan sus propuestas, mercados objetivos, estrategias de marketing, modelos de precios, canales de distribución y factores SWOT; con el objetivo de identificar fortalezas, debilidades, oportunidades y amenazas que orienten las decisiones de posicionamiento, diferenciación y crecimiento de la plataforma.
 
 ##### Competitive Analysis Landscape
 
