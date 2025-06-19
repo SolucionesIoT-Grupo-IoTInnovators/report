@@ -3093,9 +3093,25 @@ Interacción con la base de datos de notificaciones.
 
 ---
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+**- Backend**
+
 El Notification Bounded Context es el encargado del manejo de notificaciones dentro del sistema, este contexto permite a los usuarios recibir alertas y mensajes relevantes relacionados con reservas, pagos o eventos. Sus componentes están organizados para aceptar solicitudes, procesar lógica de envío y gestionar la persistencia de notificaciones.
 
 ![Notification Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Notification.png?raw=true)
+
+
+**- WebApp**
+
+El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
+
+![Notification Context WebApp Component Diagram](/ChapterIV-images/structurizr-webApp-notification.png)
+
+**- MobileApp**
+
+La arquitectura de la aplicación móvil para el contexto de Notificaciones refleja la estructura en capas del frontend Flutter. Comienza con NotificationScreen, el componente de interfaz que presenta las notificaciones al usuario. Esta pantalla delega el control de estado a NotificationBloc, que gestiona los eventos y estados asociados. A su vez, este interactúa con NotificationApiService, el cual comunica con el backend REST y utiliza NotificationAssembler para adaptar los datos.
+
+![Notification Context MobileApp Component Diagram](ChapterIV-images/structurizr-mobile-notification.png)
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
