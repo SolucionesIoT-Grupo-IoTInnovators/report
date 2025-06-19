@@ -5133,6 +5133,7 @@ En términos generales, el usuario considera que la aplicación ha mejorado sign
 
 >
 
+![Entrevista 3](./ChapterVI-images/validation-interview/app-web-armando.png)
 
 **Tiempo en el video:** 0:44:52
 
@@ -5166,6 +5167,7 @@ Mauricio señaló que la información mostrada fue precisa durante la prueba, au
 
 a
 
+![Entrevista 2](./ChapterVI-images/validation-interview/app-movil-rocio.png)
 
 **Tiempo en el video:** 1:06:30
 
@@ -5238,8 +5240,10 @@ Duración: 46:26
 **Enlace:** https://shorturl.at/boTPG  
 
 **Validation Interviews**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-validation-tb2`  
 Formato: `.mp4`  
 Duración: 
+**Enlace:**  https://shorturl.at/UWRSS
 
 **Prototypes Navigation / Product Navigation**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-1`  
