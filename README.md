@@ -1,4 +1,4 @@
-# Informe de Trabajo Final - TP
+# Informe de Trabajo Final - TB2
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
