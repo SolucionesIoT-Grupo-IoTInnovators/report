@@ -5175,6 +5175,9 @@ a
 
 ## 6.4. Video About-the-Product
 
+## 6.5. Video About-the-Team
+
+
 ---
 
 # Conclusiones y recomendaciones
@@ -5246,13 +5249,20 @@ Formato: `.mp4`
 Duración: 7:48  
 **Enlace:** https://shorturl.at/ajXvS  
 
+**Execution Evidence / Product Navigation 2**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-product-navigation-sprint-2`  
 Formato: `.mp4`  
 Duración:  
-**Enlace:** 
+**Enlace:** https://shorturl.at/HblDQ
 
 **About the Product**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-product-sprint-2`  
+Formato: `.mp4`  
+Duración:   
+**Enlace:** https://shorturl.at/R7qBj
+
+**About the Team**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-team-sprint-2`  
 Formato: `.mp4`  
 Duración:   
 **Enlace:**  
