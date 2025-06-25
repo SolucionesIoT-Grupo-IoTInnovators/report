@@ -1,4 +1,4 @@
-# Informe de Trabajo Final - TB2
+# Informe de Trabajo Final - TF1
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
@@ -6,7 +6,7 @@
     <strong>Ciclo: 07</strong><br><br>
     <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
     <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
-    <strong>INFORME DE TRABAJO FINAL - TB2 </strong> 
+    <strong>INFORME DE TRABAJO FINAL - TF1 </strong> 
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 | Tafur Gonzales, Josty Gerardo  | u20201c069 |
 | Zarate Caceres, Victor Ernesto | u202112907 |
 
-**Mayo, 2025**
+**Junio, 2025**
 
 ---
 
@@ -34,50 +34,51 @@
 La tabla de Registro de Versiones del Informe funciona como un historial de control de versiones: lista cronológicamente cada entrega del documento, indicando versión, fecha, autor y resumen del cambio realizado, con el propósito de dar trazabilidad y transparencia a la evolución del informe, mostrando de forma clara quién añadió o corrigió qué y cuándo.
 
 
-| **Versión** | **Fecha**  | **Autor**                                                                                                                                                             | **Descripción de Modificación**                                                                                                                    |
-|-------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0.0       | 31/03/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
-| 1.1.0       | 01/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del Startup                                                                                                                                |
-| 1.2.0       | 02/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                  | Adición del Solution Profile y Competidores.                                                                                                       |
-| 1.3.0       | 04/04/2025 | Arroyo Ormeño, André Alonso                                                                                                         | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
-| 1.4.0       | 05/04/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Adición del To-Be Scenario Mapping.                                                                                                                |
-| 1.5.0       | 08/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición de User Stories.                                                                                                                           |
-| 1.6.0       | 14/04/2025 | Castilla Pachas, César Antonio                                                                 | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
-| 1.7.0       | 16/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Adición del segmento objetivo.                                                                                                                     |
-| 1.8.0       | 20/04/2025 | Castilla Pachas, César Antonio                                                                                                    | Adición de diagramas de Software Architecture.                                                                                                     |
-| 1.9.0       | 22/04/2025 | Godoy, Johan Príncipe  | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
-| 1.10.0      | 23/04/2025 | Cortés Casas, Joaquín Marcelo                                                                                                    | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
-| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correción del menú y puntos faltantes en el documento                                                                                              |
-| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Correciones de enlaces y Student Outcome                                                                                                           |
-| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto                                                                                                                                        | Añadir títulos para la entrega parcial (TP)                                                                                                        |
-| 2.1.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir style guidelines for app web, mobile and iot                                                                                                |
-| 2.2.0       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
-| 2.2.1       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements                                                  |
-| 2.2.2       | 30/04/2025 | Principe Godoy, Johan                                                                                                                                                 | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
-| 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
-| 2.2.4       | 10/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                      | Correción de Tachnical Stories and Product Backlog                                                                                                 |
-| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
-| 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Corrección de User Stories and Product Backlog                                                                                                     |
-| 2.3.2       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes                                                                                                                     |
-| 2.4.0       | 12/05/2025 | Tafur Gonzales, Josty Gerardo                                                                                                                                         | Añadir Applications User Flow Diagrams                                                                                                             |
-| 2.5.0       | 12/05/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Añadir Entrevistas faltantes                                                                                                                       |
-| 2.6.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Sprint Backlog 1                                                                                                                                   |
-| 2.6.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Correccion de Style Guidelines Section                                                                                                             |
+| **Versión** | **Fecha**  | **Autor**                      | **Descripción de Modificación**                                                                                                                    |
+|-------------|------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.0       | 31/03/2025 | Cortés Casas, Joaquín Marcelo  | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
+| 1.1.0       | 01/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Startup                                                                                                                                |
+| 1.2.0       | 02/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Solution Profile y Competidores.                                                                                                       |
+| 1.3.0       | 04/04/2025 | Arroyo Ormeño, André Alonso    | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
+| 1.4.0       | 05/04/2025 | Arroyo Ormeño, André Alonso    | Adición del To-Be Scenario Mapping.                                                                                                                |
+| 1.5.0       | 08/04/2025 | Zarate Caceres, Victor Ernesto | Adición de User Stories.                                                                                                                           |
+| 1.6.0       | 14/04/2025 | Castilla Pachas, César Antonio | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
+| 1.7.0       | 16/04/2025 | Zarate Caceres, Victor Ernesto | Adición del segmento objetivo.                                                                                                                     |
+| 1.8.0       | 20/04/2025 | Castilla Pachas, César Antonio | Adición de diagramas de Software Architecture.                                                                                                     |
+| 1.9.0       | 22/04/2025 | Godoy, Johan Príncipe          | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
+| 1.10.0      | 23/04/2025 | Cortés Casas, Joaquín Marcelo  | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
+| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto | Correción del menú y puntos faltantes en el documento                                                                                              |
+| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto | Correciones de enlaces y Student Outcome                                                                                                           |
+| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto | Añadir títulos para la entrega parcial (TP)                                                                                                        |
+| 2.1.0       | 30/04/2025 | Principe Godoy, Johan          | Añadir style guidelines for app web, mobile and iot                                                                                                |
+| 2.2.0       | 30/04/2025 | Principe Godoy, Johan          | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
+| 2.2.1       | 30/04/2025 | Principe Godoy, Johan          | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements                                                  |
+| 2.2.2       | 30/04/2025 | Principe Godoy, Johan          | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
+| 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto | Corrección de User Stories and Product Backlog                                                                                                     |
+| 2.2.4       | 10/05/2025 | Zarate Cáceres, Victor Ernesto | Correción de Tachnical Stories and Product Backlog                                                                                                 |
+| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo  | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
+| 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto | Corrección de User Stories and Product Backlog                                                                                                     |
+| 2.3.2       | 12/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Wireframes                                                                                                                     |
+| 2.4.0       | 12/05/2025 | Tafur Gonzales, Josty Gerardo  | Añadir Applications User Flow Diagrams                                                                                                             |
+| 2.5.0       | 12/05/2025 | Cortés Casas, Joaquín Marcelo  | Añadir Entrevistas faltantes                                                                                                                       |
+| 2.6.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto | Sprint Backlog 1                                                                                                                                   |
+| 2.6.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo  | Correccion de Style Guidelines Section                                                                                                             |
 | 2.7.0       | 12/05/2025 | Zarate Caceres, Victor Ernesto | Añadir Evidencia de Ejecucion de Landing Page                                                                                                      |
-| 2.8.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Collaboration Insights                                                                                                                      |
-| 2.9.0       | 12/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App                                                              |
-| 2.9.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Correccion de Ubiquitous Language                                                                                                                  |
-| 2.9.2       | 12/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                    | Correccion de Sprint 1                                                                                                                             |
-| 2.9.3       | 13/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Landing Page Deployment Configuration and Evidence                                                                                                 |
-| 2.9.4       | 13/05/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review                                                     |
-| 2.10.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Mock-ups App Mobile                                                                                                            |
-| 2.11.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Applications Wireframes and Mock-ups Web App                                                                                                |
-| 2.12.0      | 13/05/2025 | Castilla Pachas, César Antonio                                                                                                                                        | Añadir Application wireframess and mock-ups                                                                                                        |
-| 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                         | Corrección de estructura de texto para conversión a PDF                                                                                            |
-| 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso                                                                                                                                           | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
-| 3.1.0       | 15/06/2025 | Zarate Cáceres, Victor Ernesto                                                                                                                                        | Añadir Development Evidence for Sprint Review                                                                                                      |
-| 3.1.1       | 18/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                        | Agregar evaluaciones según heurísticas de las entrevistas de validación                                                                                                      |
-| 3.1.2       | 19/06/2025 | Cortés Casas, Joaquín Marcelo                                                                                                                                        | Agregar video about the video                                                                                                      |
+| 2.8.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto | Añadir Collaboration Insights                                                                                                                      |
+| 2.9.0       | 12/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App                                                              |
+| 2.9.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo  | Correccion de Ubiquitous Language                                                                                                                  |
+| 2.9.2       | 12/05/2025 | Zarate Cáceres, Victor Ernesto | Correccion de Sprint 1                                                                                                                             |
+| 2.9.3       | 13/05/2025 | Zarate Cáceres, Victor Ernesto | Landing Page Deployment Configuration and Evidence                                                                                                 |
+| 2.9.4       | 13/05/2025 | Zarate Cáceres, Victor Ernesto | Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review                                                     |
+| 2.10.0      | 13/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Mock-ups App Mobile                                                                                                            |
+| 2.11.0      | 13/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Wireframes and Mock-ups Web App                                                                                                |
+| 2.12.0      | 13/05/2025 | Castilla Pachas, César Antonio | Añadir Application wireframess and mock-ups                                                                                                        |
+| 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo  | Corrección de estructura de texto para conversión a PDF                                                                                            |
+| 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso    | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
+| 3.1.0       | 15/06/2025 | Zarate Cáceres, Victor Ernesto | Añadir Development Evidence for Sprint Review                                                                                                      |
+| 3.1.1       | 18/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar evaluaciones según heurísticas de las entrevistas de validación                                                                            |
+| 3.1.2       | 19/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar video about the video                                                                                                                      |
+| 4.0.0       | 25/06/2025 | Zarate Cáceres, Victor Ernesto | Preparación de documento para Final Sprint                                                                                                         |
 
 ---
 
@@ -134,6 +135,22 @@ Se presentan los commits realizados en el report durante el periodo de entrega d
 Se presentan los commits realizados en el report durante el periodo de entrega de la TB2.
 
 ![Captura de analíticos de colaboración de GitHub - TB2](insights/CollaborationTB2.png)
+
+#### TF1:
+**Descripción de las actividades realizadas:**
+- **Arroyo Ormeño, André Alonso:**
+- **Castilla Pachas, César Antonio:**
+- **Cortés Casas, Joaquin Marcelo:**
+- **Diaz Silva, Fernando Josué:**
+- **Godoy, Johan Príncipe:**
+- **Tafur Gonzales, Josty Gerardo:**
+- **Zarate Caceres, Victor Ernesto:** 
+
+**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
+
+Se presentan los commits realizados en el report durante el periodo de entrega del TF1.
+
+![Captura de analíticos de colaboración de GitHub - TF](insights/CollaborationTF1.png)
 ---
 
 # Contenido
@@ -306,13 +323,23 @@ Se presentan los commits realizados en el report durante el periodo de entrega d
     - [6.2.2. Sprint 2](#622-sprint-2)
       - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
       - [6.2.2.2. Aspect Leaders and Collaborators](#6222-aspect-leaders-and-collaborators)
-      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-1)
+      - [6.2.2.3. Sprint Backlog 2](#6223-sprint-backlog-2)
       - [6.2.2.4. Development Evidence for Sprint Review](#6224-development-evidence-for-sprint-review)
       - [6.2.2.5. Testing Suite Evidence for Sprint Review](#6225-testing-suite-evidence-for-sprint-review)
       - [6.2.2.6. Execution Evidence for Sprint Review](#6226-execution-evidence-for-sprint-review)
       - [6.2.2.7. Services Documentation Evidence for Sprint Review](#6227-services-documentation-evidence-for-sprint-review)
       - [6.2.2.8. Software Deployment Evidence for Sprint Review](#6228-software-deployment-evidence-for-sprint-review)
       - [6.2.2.9. Team Collaboration Insights during Sprint](#6229-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Aspect Leaders and Collaborators](#6232-aspect-leaders-and-collaborators)
+      - [6.2.3.3. Sprint Backlog 3](#6233-sprint-backlog-3)
+      - [6.2.3.4. Development Evidence for Sprint Review](#6234-development-evidence-for-sprint-review)
+      - [6.2.3.5. Testing Suite Evidence for Sprint Review](#6235-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.6. Execution Evidence for Sprint Review](#6236-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Services Documentation Evidence for Sprint Review](#6237-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.8. Software Deployment Evidence for Sprint Review](#6238-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.9. Team Collaboration Insights during Sprint](#6239-team-collaboration-insights-during-sprint)
   - [6.3. Validation Interviews](#63-validation-interviews)
     - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)
@@ -5065,6 +5092,264 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 **Edge Server:**
 ![Analiticos de Colaboracion: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
 ![Commits: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Commits.png?raw=true)
+
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 3
+
+| Sprint # | Sprint 3 |
+|----------|----------|
+| **Sprint Planning Background** |
+| **Date** | 00/00/2025 |
+| **Time** | 00:00 horas (GMT-5) |
+| **Location** |  |
+| **Prepared By** | IoT Innovators |
+| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
+| **Sprint 2 Review Summary** |  |
+| **Sprint 2 Retrospective Summary** | |
+
+**Sprint 3 Goal**
+
+**Our focus is**  
+**We believe it delivers**
+**This will be confirmed when**
+
+Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de los productos finales, facilitando su crecimiento futuro.
+
+**Sprint 2 Velocity**
+** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+
+**Sum of Story Points**
+** Story Points en total**
+
+#### 6.2.3.2. Aspect Leaders and Collaborators
+Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
+En esta iteración, se abordaron los siguientes aspectos clave:
+
+- **Aspect Name 1:** 
+- **Aspect Name 2:** 
+- **Aspect Name 3:** 
+- **Aspect Name 4:** 
+
+|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 |
+|-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| Arroyo Ormeño, André Alonso   | anonimat0        |               |               |               |               |
+| Castilla Pachas, César Antonio| CesarrAnn        |               |               |               |               |
+| Cortés Casas, Joaquin Marcelo | U202114545       |               |               |               |               |
+| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |               |               |               |               |
+| Godoy, Johan Príncipe         | JP19-03          |               |               |               |               |
+| Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |
+| Zarate Caceres, Victor        | ern23zc          |               |               |               |               |
+
+
+#### 6.2.3.3. Sprint Backlog 3
+Durante este sprint, se trabajó en
+La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público:
+
+![Captura de pantalla de Sprint 3 en Trello](ChapterVI-images/Sprint3/Sprint-Backlog-2-Trello-Board.png)
+
+**Tabla de control de estado del Sprint**
+
+|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
+|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
+|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
+|   **Id**  | **Title**                                                          |   **Id**   | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
+|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+
+#### 6.2.3.4. Development Evidence for Sprint Review
+Los avances específicos son:
+
+- **Web Application:**
+
+- **Mobile Application:**
+
+- **Web Services:**
+
+- **Embedded Application:**
+
+- **Edge Server:**
+
+|        Repository          |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
+| :------------------------: | :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|                            |                            |                                          |                                                                                                                 |                     |                    |
+|                            |                            |                                          |                                                                                                                 |                     |                    |
+|                            |                            |                                          |                                                                                                                 |                     |                    |
+|                            |                            |                                          |                                                                                                                 |                     |                    |    
+
+#### 6.2.3.5. Testing Suite Evidence for Sprint Review
+|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+|                          |                            |                                          |                                                                                      |                     |                    |
+
+#### 6.2.3.6. Execution Evidence for Sprint Review
+Se trabajo en
+
+**Web Application:**
+![Vista implementada en Sprint 3 - Web App](ChapterVI-images/Sprint3/WebApp/ExecutionEvidenceScreenshot-1.png)
+
+**Mobile Application:**
+![Vista implementada en Sprint 3 - Mobile App](ChapterVI-images/Sprint3/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
+
+**Web Services:**
+![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-1.png)
+
+**Embedded Application:**
+![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/spot-estado%20disponible.png?raw=true)
+
+**Edge Server:**
+![Vista implementada en Sprint 3 - Edge Server](ChapterVI-images/Sprint3/EdgeServer/añadir%20estado%20disponible.png?raw=true)
+
+#### 6.2.3.7. Services Documentation Evidence for Sprint Review
+- **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
+- **Link de Web services deplegados:**
+
+|    Endpoint    |                                         Details                                        |
+| :------------: | :------------------------------------------------------------------------------------- |
+| Parking        | Gestión completa de estacionamientos.                                                  |
+| Authentication | Registro e inicio de sesión de usuarios.                                               |
+| Edge Server    | Creación y consulta de edge servers asignados a estacionamientos.                      |
+| Review         | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
+| Reservation    | Creación de reservas de espacios y consulta por estacionamiento.                       |
+| Roles          | Obtención de los roles disponibles en el sistema para control de acceso y permisos.    |
+| Payment        | Registro de pagos.                                                                     |
+| Device         | Gestión de dispositivos.                                                               |
+| Users          | Consulta de usuarios registrados en el sistema.                                        |
+| Profiles       | Consulta de perfiles detallados de usuarios.                                           |
+
+|                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
+|:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Parking: Get all parkings                          | GET         | –                                                                                                                                 | `/api/v1/parkings`                                              |
+| Parking: Create new parking                        | POST        | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings`                        |
+| Parking: Get parking spots by ID                   | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Add parking spot                          | POST        | `parkingId`, body: `row`, `column`, `label`                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Get parking by ID                         | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}`                                  |
+| Parking: Get parkings by owner ID                  | GET         | `ownerId`                                                                                                                         | `/api/v1/parkings/owner/{ownerId}`                              |
+| Authentication: Sign up parking owner              | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`                                           | `/api/v1/authentication/sign-up/parking-owner`                  |
+| Authentication: Sign up driver                     | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni`                                                          | `/api/v1/authentication/sign-up/driver`                         |
+| Authentication: Sign in                            | POST        | `email`, `password`                                                                                                               | `/api/v1/authentication/sign-in`                                |
+| Edge Server: Create edge server                    | POST        | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId`                                                            | `/api/v1/edge-servers`                                          |
+| Edge Server: Get edge servers by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/edge-servers/parking/{parkingId}`                      |
+| Review: Create review                              | POST        | body: `driverId`, `parkingId`, `comment`, `rating`                                                                                | `/api/v1/reviews`                                               |
+| Review: Get reviews by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/reviews/parking/{parkingId}`                           |
+| Review: Get reviews by driver ID                   | GET         | `driverId`                                                                                                                        | `/api/v1/reviews/driver/{driverId}`                             |
+| Reservation: Create reservation                    | POST        | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime`                                    | `/api/v1/reservations`                                          |
+| Reservation: Get reservations by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/reservations/parking/{parkingId}`                      |
+| Reservation: Get reservations by driver and status | GET         | `driverId`, `status`                                                                                                              | `/api/v1/reservations/driver/{driverId}/status/{status}`        |
+| Roles: Get all roles                               | GET         | –                                                                                                                                 | `/api/v1/roles`                                                 |
+| Payment: Create subscription payment               | POST        | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                          | `/api/v1/payments/subscription/{subscriptionId}`                |
+| Payment: Create reservation payment                | POST        | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                           | `/api/v1/payments/reservation/{reservationId}`                  |
+| Device: Update device                              | PUT         | `deviceId`, body: `edgeId`, `macAddress`, `type`                                                                                  | `/api/v1/devices/{deviceId}`                                    |
+| Device: Get unassigned devices                     | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/unassigned/{parkingId}`                        |
+| Device: Get devices by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/parking/{parkingId}`                           |
+| Device: Get device by spot ID                      | GET         | `parkingSpotId`                                                                                                                   | `/api/v1/devices/parking-spot/{parkingSpotId}`                  |
+| Device: Get devices by edge server                 | GET         | `edgeServerId`                                                                                                                    | `/api/v1/devices/edge-server/{edgeServerId}`                    |
+| Users: Get all users                               | GET         | –                                                                                                                                 | `/api/v1/users`                                                 |
+| Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
+| Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
+| Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
+
+
+- **Commit details:**
+
+|        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
+| :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 1ef38cd70771e8663d6b67a7bcea3a1ef82238a8 | feat(device-management): update device initialization and repository queries for edge server handling           |                     |     16/06/2025     |
+|   smartparking-backend    | feature/device-management  | 7626e0fc2ee253f28e5387e6dd303f76ab89d91e | feat(device-management): enhance device and edge server commands with new attributes and update methods         |                     |     14/06/2025     |
+|   smartparking-backend    | feature/device-management  | c080a228e05d2a0235a8335521de04eed15bb4e2 | feat(device-management): create device management bounded context.                                              |                     |     11/06/2025     |
+|   smartparking-backend    |    feature/notifications   | a01c654110750e164d514953baacde55f0974afc | feat(notifications): add update files                                                                           |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 861a3b5d9ab56294176ba69eddf1328c0152fc6e | feat(notifications): add controller Notifications                                                               |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | d2abc4102d91d56570fa346c3592935e5dacb06f | feat(notifications): add repository and service Notifications                                                   |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 50f740d197b7163b9416eb154fdd421f7f75ba8b | feat(notifications): add model Notification                                                                     |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | bba84b4d3621354153ea76031a85d9ba77cef04b | feat(notifications): add FirebaseConfig                                                                         |                     |     09/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 9f88dfee3ff8178fa51912152c7ba3b154f4f211 | feat(notifications): add dependencies                                                                           |                     |     09/06/2025     |
+|   smartparking-backend    |       feature/payment      | 390ec375f52988741eb3e5d3270992eebbc4bbc2 | feat(payments): implement payment creation for reservations and subscriptions                                   |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/payment      | cbafc8ab5673dadb58e945906bdafd2b5e796fb7 | feat(reservations): add spot label retrieval and update reservation creation                                    |                     |     03/06/2025     |
+|   smartparking-backend    |       feature/reviews      | f88bb82aa8f760d4013c94b57a79cbd59281ce2e | fix: remove inncesary method and implement the update of attribute behavior.                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eeb34e8ade18e235b3b9be27731a73f1c9e9e3fe | feat(reviews): add review transform and resources types.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 05311974cac92f2b061ac41c0b84bb540f7b709c | feat(reviews): add review command and query service implementations.                                            |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | dd39bde6b2ebb2c82eff8b16e1eedce45259dc42 | feat(reviews): add communication to external services.                                                          |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | bd5b3485f291771eca015d703774c8b1d82bbd7c | feat(parking-management): add method to get parking name by its id.                                             |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | b1dad199602d093fe47cd092bbe3bc49e1a05ac9 | feat(reviews): add review repository.                                                                           |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 86c5b61b3cfc819821e9747cfec77725ab4ef246 | feat(reviews): add review command and query service contracts.                                                  |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | a6e0f2bfb9d0731b37bddbd42f37360ab26512fc | feat(reviews): add command to create review.                                                                    |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 936df6213883dc48411a2bfa5d2f20b291889afc | feat(reviews): add review aggreate class.                                                                       |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | 74065e0038ea758c36d5444d21ad51360d6341e5 | feat(reviews): add driverId and parkingId value objects.                                                        |                     |     07/05/2025     |
+|   smartparking-backend    |       feature/reviews      | eca925e6561b98d30fcb5d7bd28e8342215d846f | feat(parkings): add averageRating and ratingCount attributes to aggregate, and methods to update them in facade.|                     |     07/05/2025     |
+|   smartparking-backend    |           master           | e7609d51813d3476db7c25f8df38c7e7cd3e8200 | feat(reservations): add driver full name to reservation resource.                                               |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | 66e6e6655ced3f0c636b63237df85fcb69771c02 | feat(reservations): add acl communication to get driver full name.                                              |                     |     07/05/2025     |
+|   smartparking-backend    |           master           | d7d54aaf394ea61b4371db5c9a7a764a8d8a74b5 | feat(reservations): add date attribute to reservation class aggregate.                                          |                     |     06/05/2025     |
+|   smartparking-backend    |           master           | 04c2ab1ab209f8195addc2f0cf30cde293de4249 | feat(reservations): implement parking acl.                                                                      |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 6b4daceeab463ff2db1d226b65da06df26232483 | feat(parking-management): add anti-corruption layer.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | d7e534beaf36f3be5ccc2078b600fbb5a09603da | feat(parking-management): add queries and commands.                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 65d44e7d5806f967e2d584e5ca5f33218fa12eca | feat(reservations): add reservation inbound service.                                                            |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | da3e5d156ce7fc3109b13b4ef752e4e97cf0ae7f | feat(reservations): add reservation interface layer resource and transform types.                               |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 66fcdc441dfc8847e64e7c395199440aa8f26087 | feat(reservations): add reservation command and query service implementations.                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 33de4c0aa0f3e76539645e3603d16a340e5e2422 | feat(reservations): add reservation outbound service.                                                           |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | f772e6aa8e157eb94922fb3d9fae7eecadcc2d4e | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 38f4e966c3392bcc6aab65f246a861610c12343f | feat(reservations): add reservation command and query contracts.                                                |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 17dde74cc9d515a1c622de939fa58a626fe3f091 | feat(reservations): add reservation value objects.                                                              |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 2b8ffccf7858511458def0d7fe5ba48c122cb27a | feat(reservations): add reservation aggregate.                                                                  |                     |     03/05/2025     |
+|   smartparking-backend    |           master           | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: few changes.                                                                                             |                     |     03/05/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 520912d70f099bd017db3c53ae18559ba6d99d1f | chore: change operation summary for parking owner and driver registration.                                      |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | 2a8a74c7a3984fd86754678ba1eab125e82ba257 | chore: add get parking by id query, and add latitude and longitude attributes of parking.                       |                     |     17/04/2025     |
+|   smartparking-backend    |   feature/iam-and-profile  | 5fbf592e95b044923baf23cdee29b7106b503637 | feat:creation of bounded context iam and profile with DDD approach                                              |                     |     17/04/2025     |
+|   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
+|   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
+
+#### 6.2.3.8. Software Deployment Evidence for Sprint Review
+**Web App**
+- Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
+
+- Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
+
+- Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
+
+- Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
+![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
+
+**Web Services:**
+- El backend se desplegó en Azure utilizando las configuraciones establecidas, asegurando la compatibilidad con el entorno de ejecución de Java.
+![Proceso de despliegue en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/Deploying%20backend.png?raw=true)
+
+**Embedded Application:**
+- Se ha realizado el deploy del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
+![Proceso de despliegue en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/deploy-embeddedApp.jpg?raw=true)
+
+**Edge Server:**
+- Para esta entrega no se ha realizado deploy del edge serve ya que se requiere un dispositivo fisico para su procedimiento.
+
+#### 6.2.3.9. Team Collaboration Insights during Sprint
+**Web Application**
+![Analiticos de Colaboracion: Web App -  Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web App -  Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Commits.png?raw=true)
+
+**Mobile Application:**
+![Analiticos de Colaboracion: Mobile App -  Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Mobile App -  Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Commits.png?raw=true)
+
+**Web Services:**
+![Analiticos de Colaboracion: Web Services -  Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web Services -  Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Commits.png?raw=true)
+
+**Embedded Application:**
+![Analiticos de Colaboracion: Embedded App -  Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Embedded App -  Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
+
+**Edge Server:**
+![Analiticos de Colaboracion: Edge Server -  Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Edge Server -  Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Commits.png?raw=true)
+
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
