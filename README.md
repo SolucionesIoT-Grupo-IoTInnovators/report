@@ -5234,20 +5234,22 @@ Se trabajo en
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
-- **Link de Web services deplegados:**
+- **Link de Web services deplegados:** https://smartparking-backend-d8dnejdze3ggh0bb.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/
 
-|    Endpoint    |                                         Details                                        |
-| :------------: | :------------------------------------------------------------------------------------- |
-| Parking        | Gestión completa de estacionamientos.                                                  |
-| Authentication | Registro e inicio de sesión de usuarios.                                               |
-| Edge Server    | Creación y consulta de edge servers asignados a estacionamientos.                      |
-| Review         | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
-| Reservation    | Creación de reservas de espacios y consulta por estacionamiento.                       |
-| Roles          | Obtención de los roles disponibles en el sistema para control de acceso y permisos.    |
-| Payment        | Registro de pagos.                                                                     |
-| Device         | Gestión de dispositivos.                                                               |
-| Users          | Consulta de usuarios registrados en el sistema.                                        |
-| Profiles       | Consulta de perfiles detallados de usuarios.                                           |
+|        Endpoint         |                                         Details                                          |
+| :---------------------: | :--------------------------------------------------------------------------------------- |
+| Parking                 | Gestión completa de estacionamientos.                                                    |
+| Authentication          | Registro e inicio de sesión de usuarios.                                                 |
+| Edge Server             | Creación y consulta de edge servers asignados a estacionamientos.                        |
+| Review                  | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios.   |
+| Reservation             | Creación de reservas de espacios y consulta por estacionamiento.                         |
+| Roles                   | Obtención de los roles disponibles en el sistema para control de acceso y permisos.      |
+| Payment                 | Registro de pagos.                                                                       |
+| Device                  | Gestión de dispositivos.                                                                 |
+| Users                   | Consulta de usuarios registrados en el sistema.                                          |
+| Profiles                | Consulta de perfiles detallados de usuarios.                                             |
+| Token Controller        | Administra el registro y eliminación de tokens para notificaciones push de los usuarios. |
+| Notification Controller | Permite el envío de notificaciones push a los dispositivos registrados.                  |
 
 |                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
 |:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
@@ -5280,12 +5282,23 @@ Se trabajo en
 | Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
 | Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
 | Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
-
+| Token Controller: Register notification token      | POST        | `userId`, `token`                                                                                                                 | `/api/v1/notifications/register-token`                          |
+| Token Controller: Unregister notification token    | DELETE      | `token`                                                                                                                           | `/api/v1/notifications/unregister-token`                        |
+| Notification Controller: Send notification         | POST        | `token`, `title`, `body`                                                                                                          | `/api/notifications/send`                                       |
 
 - **Commit details:**
 
 |        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
 | :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 2de1ee66cba8b9d61e5ccd80eab8d9a379b250a3 | chore: add JSON configuration file to .gitignore                                                                |                     |     01/07/2025     |
+|   smartparking-backend    |           develop          | 2edc772241eaaeb92c03ff1f5ca943a14d2b3711 | feat(notifications): update firebaseConfig                                                                      |                     |     01/07/2025     |
+|   smartparking-backend    |    feature/notifications   | 6b1adb97cb143525c523a38ad909f4ab99148f09 | feat(notifications): update reservation service and FcmToken                                                    |                     |     01/07/2025     |
+|   smartparking-backend    |           master           | 142600e28a028c069e4ad48933f07e75120c74ab | Add or update the Azure App Service build and deployment workflow config                                        |                     |     18/06/2025     |
+|   smartparking-backend    |           develop          | 144fd9fc5b7f2bfcb2545ba54bb58bba9c5f6548 | feat(database): update datasource configuration for Azure MySQL                                                 |                     |     18/06/2025     |
+|   smartparking-backend    |           develop          | 8b3236fdc54ef4f5b2c4ad1d37cc2139c17dc1db | feat(security): allow PATCH method in CORS configuration                                                        |                     |     18/06/2025     |
+|   smartparking-backend    |           develop          | e61bd3c615a5c3f4a01547402591fc61c37f6ca6 | feat(device-management): add command and controller for updating device MAC address                             |                     |     18/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 6f8ed58086c8cd36ed5690031ad4caf14bdb9b4d | feat(notifications): update reservation service                                                                 |                     |     16/06/2025     |
+|   smartparking-backend    |    feature/notifications   | 0d544c6ed944edf7f911ff000974de407f332587 | feat(notifications): add fcm configuration                                                                      |                     |     16/06/2025     |
 |   smartparking-backend    |           develop          | 1ef38cd70771e8663d6b67a7bcea3a1ef82238a8 | feat(device-management): update device initialization and repository queries for edge server handling           |                     |     16/06/2025     |
 |   smartparking-backend    | feature/device-management  | 7626e0fc2ee253f28e5387e6dd303f76ab89d91e | feat(device-management): enhance device and edge server commands with new attributes and update methods         |                     |     14/06/2025     |
 |   smartparking-backend    | feature/device-management  | c080a228e05d2a0235a8335521de04eed15bb4e2 | feat(device-management): create device management bounded context.                                              |                     |     11/06/2025     |
