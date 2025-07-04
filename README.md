@@ -4534,7 +4534,41 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
-En este primer Sprint nos enfocamos en crear la Landing Page y la Web Application, sin necesidad de utilizar servicios extra.
+- **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
+- **Link de Web services deplegados:**
+
+|    Endpoint    |                                         Details                                        |
+| :------------: | :------------------------------------------------------------------------------------- |
+| Parking        | Gestión completa de estacionamientos.                                                  |
+| Authentication | Registro e inicio de sesión de usuarios.                                               |
+| Review         | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
+| Reservation    | Creación de reservas de espacios y consulta por estacionamiento.                       |
+| Roles          | Obtención de los roles disponibles en el sistema para control de acceso y permisos.    |
+| Users          | Consulta de usuarios registrados en el sistema.                                        |
+| Profiles       | Consulta de perfiles detallados de usuarios.                                           |
+
+| Endpoint | Operaciones | Parámetros | URL |
+|:----------------------------------------------------|:------------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+| Parking: Get all parkings | GET | – | `/api/v1/parkings` |
+| Parking: Create new parking | POST | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings` |
+| Parking: Get parking spots by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}/spots` |
+| Parking: Add parking spot | POST | `parkingId`, body: `row`, `column`, `label` | `/api/v1/parkings/{parkingId}/spots` |
+| Parking: Get parking by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}` |
+| Parking: Get parkings by owner ID | GET | `ownerId` | `/api/v1/parkings/owner/{ownerId}` |
+| Authentication: Sign up parking owner | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc` | `/api/v1/authentication/sign-up/parking-owner` |
+| Authentication: Sign up driver | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni` | `/api/v1/authentication/sign-up/driver` |
+| Authentication: Sign in | POST | `email`, `password` | `/api/v1/authentication/sign-in` |
+| Review: Create review | POST | body: `driverId`, `parkingId`, `comment`, `rating` | `/api/v1/reviews` |
+| Review: Get reviews by parking ID | GET | `parkingId` | `/api/v1/reviews/parking/{parkingId}` |
+| Review: Get reviews by driver ID | GET | `driverId` | `/api/v1/reviews/driver/{driverId}` |
+| Reservation: Create reservation | POST | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime` | `/api/v1/reservations` |
+| Reservation: Get reservations by parking | GET | `parkingId` | `/api/v1/reservations/parking/{parkingId}` |
+| Reservation: Get reservations by driver and status | GET | `driverId`, `status` | `/api/v1/reservations/driver/{driverId}/status/{status}` |
+| Roles: Get all roles | GET | – | `/api/v1/roles` |
+| Users: Get all users | GET | – | `/api/v1/users` |
+| Users: Get user by ID | GET | `userId` | `/api/v1/users/{userId}` |
+| Profiles: Get parking owner profile | GET | `userId` | `/api/v1/profiles/parking-owner/{userId}` |
+| Profiles: Get driver profile | GET | `userId` | `/api/v1/profiles/driver/{userId}` |
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 **Landing Page**
@@ -4975,37 +5009,37 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 | Users          | Consulta de usuarios registrados en el sistema.                                        |
 | Profiles       | Consulta de perfiles detallados de usuarios.                                           |
 
-|                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
-|:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| Parking: Get all parkings                          | GET         | –                                                                                                                                 | `/api/v1/parkings`                                              |
-| Parking: Create new parking                        | POST        | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings`                        |
-| Parking: Get parking spots by ID                   | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
-| Parking: Add parking spot                          | POST        | `parkingId`, body: `row`, `column`, `label`                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
-| Parking: Get parking by ID                         | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}`                                  |
-| Parking: Get parkings by owner ID                  | GET         | `ownerId`                                                                                                                         | `/api/v1/parkings/owner/{ownerId}`                              |
-| Authentication: Sign up parking owner              | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`                                           | `/api/v1/authentication/sign-up/parking-owner`                  |
-| Authentication: Sign up driver                     | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni`                                                          | `/api/v1/authentication/sign-up/driver`                         |
-| Authentication: Sign in                            | POST        | `email`, `password`                                                                                                               | `/api/v1/authentication/sign-in`                                |
-| Edge Server: Create edge server                    | POST        | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId`                                                            | `/api/v1/edge-servers`                                          |
-| Edge Server: Get edge servers by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/edge-servers/parking/{parkingId}`                      |
-| Review: Create review                              | POST        | body: `driverId`, `parkingId`, `comment`, `rating`                                                                                | `/api/v1/reviews`                                               |
-| Review: Get reviews by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/reviews/parking/{parkingId}`                           |
-| Review: Get reviews by driver ID                   | GET         | `driverId`                                                                                                                        | `/api/v1/reviews/driver/{driverId}`                             |
-| Reservation: Create reservation                    | POST        | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime`                                    | `/api/v1/reservations`                                          |
-| Reservation: Get reservations by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/reservations/parking/{parkingId}`                      |
-| Reservation: Get reservations by driver and status | GET         | `driverId`, `status`                                                                                                              | `/api/v1/reservations/driver/{driverId}/status/{status}`        |
-| Roles: Get all roles                               | GET         | –                                                                                                                                 | `/api/v1/roles`                                                 |
-| Payment: Create subscription payment               | POST        | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                          | `/api/v1/payments/subscription/{subscriptionId}`                |
-| Payment: Create reservation payment                | POST        | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                           | `/api/v1/payments/reservation/{reservationId}`                  |
-| Device: Update device                              | PUT         | `deviceId`, body: `edgeId`, `macAddress`, `type`                                                                                  | `/api/v1/devices/{deviceId}`                                    |
-| Device: Get unassigned devices                     | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/unassigned/{parkingId}`                        |
-| Device: Get devices by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/parking/{parkingId}`                           |
-| Device: Get device by spot ID                      | GET         | `parkingSpotId`                                                                                                                   | `/api/v1/devices/parking-spot/{parkingSpotId}`                  |
-| Device: Get devices by edge server                 | GET         | `edgeServerId`                                                                                                                    | `/api/v1/devices/edge-server/{edgeServerId}`                    |
-| Users: Get all users                               | GET         | –                                                                                                                                 | `/api/v1/users`                                                 |
-| Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
-| Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
-| Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
+| Endpoint | Operaciones | Parámetros | URL |
+|:----------------------------------------------------|:------------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+| Parking: Get all parkings | GET | – | `/api/v1/parkings` |
+| Parking: Create new parking | POST | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings` |
+| Parking: Get parking spots by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}/spots` |
+| Parking: Add parking spot | POST | `parkingId`, body: `row`, `column`, `label` | `/api/v1/parkings/{parkingId}/spots` |
+| Parking: Get parking by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}` |
+| Parking: Get parkings by owner ID | GET | `ownerId` | `/api/v1/parkings/owner/{ownerId}` |
+| Authentication: Sign up parking owner | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc` | `/api/v1/authentication/sign-up/parking-owner` |
+| Authentication: Sign up driver | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni` | `/api/v1/authentication/sign-up/driver` |
+| Authentication: Sign in | POST | `email`, `password` | `/api/v1/authentication/sign-in` |
+| Edge Server: Create edge server | POST | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId` | `/api/v1/edge-servers` |
+| Edge Server: Get edge servers by parking | GET | `parkingId` | `/api/v1/edge-servers/parking/{parkingId}` |
+| Review: Create review | POST | body: `driverId`, `parkingId`, `comment`, `rating` | `/api/v1/reviews` |
+| Review: Get reviews by parking ID | GET | `parkingId` | `/api/v1/reviews/parking/{parkingId}` |
+| Review: Get reviews by driver ID | GET | `driverId` | `/api/v1/reviews/driver/{driverId}` |
+| Reservation: Create reservation | POST | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime` | `/api/v1/reservations` |
+| Reservation: Get reservations by parking | GET | `parkingId` | `/api/v1/reservations/parking/{parkingId}` |
+| Reservation: Get reservations by driver and status | GET | `driverId`, `status` | `/api/v1/reservations/driver/{driverId}/status/{status}` |
+| Roles: Get all roles | GET | – | `/api/v1/roles` |
+| Payment: Create subscription payment | POST | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/subscription/{subscriptionId}` |
+| Payment: Create reservation payment | POST | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/reservation/{reservationId}` |
+| Device: Update device | PUT | `deviceId`, body: `edgeId`, `macAddress`, `type` | `/api/v1/devices/{deviceId}` |
+| Device: Get unassigned devices | GET | `parkingId` | `/api/v1/devices/unassigned/{parkingId}` |
+| Device: Get devices by parking ID | GET | `parkingId` | `/api/v1/devices/parking/{parkingId}` |
+| Device: Get device by spot ID | GET | `parkingSpotId` | `/api/v1/devices/parking-spot/{parkingSpotId}` |
+| Device: Get devices by edge server | GET | `edgeServerId` | `/api/v1/devices/edge-server/{edgeServerId}` |
+| Users: Get all users | GET | – | `/api/v1/users` |
+| Users: Get user by ID | GET | `userId` | `/api/v1/users/{userId}` |
+| Profiles: Get parking owner profile | GET | `userId` | `/api/v1/profiles/parking-owner/{userId}` |
+| Profiles: Get driver profile | GET | `userId` | `/api/v1/profiles/driver/{userId}` |
 
 
 - **Commit details:**
@@ -5273,53 +5307,52 @@ Se trabajo en
 
 |        Endpoint         |                                         Details                                          |
 | :---------------------: | :--------------------------------------------------------------------------------------- |
-| Parking                 | Gestión completa de estacionamientos.                                                    |
-| Authentication          | Registro e inicio de sesión de usuarios.                                                 |
-| Edge Server             | Creación y consulta de edge servers asignados a estacionamientos.                        |
-| Review                  | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios.   |
-| Reservation             | Creación de reservas de espacios y consulta por estacionamiento.                         |
-| Roles                   | Obtención de los roles disponibles en el sistema para control de acceso y permisos.      |
-| Payment                 | Registro de pagos.                                                                       |
-| Device                  | Gestión de dispositivos.                                                                 |
-| Users                   | Consulta de usuarios registrados en el sistema.                                          |
-| Profiles                | Consulta de perfiles detallados de usuarios.                                             |
-| Token Controller        | Administra el registro y eliminación de tokens para notificaciones push de los usuarios. |
-| Notification Controller | Permite el envío de notificaciones push a los dispositivos registrados.                  |
+| Parking | Gestión completa de estacionamientos. |
+| Authentication | Registro e inicio de sesión de usuarios. |
+| Edge Server | Creación y consulta de edge servers asignados a estacionamientos. |
+| Review | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
+| Reservation | Creación de reservas de espacios y consulta por estacionamiento. |
+| Roles | Obtención de los roles disponibles en el sistema para control de acceso y permisos. |
+| Payment | Registro de pagos. |
+| Device | Gestión de dispositivos. |
+| Users | Consulta de usuarios registrados en el sistema. |
+| Profiles | Consulta de perfiles detallados de usuarios. |
+| Notification | Permite el envío de notificaciones push a los dispositivos registrados. |
 
-|                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
-|:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
-| Parking: Get all parkings                          | GET         | –                                                                                                                                 | `/api/v1/parkings`                                              |
-| Parking: Create new parking                        | POST        | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings`                        |
-| Parking: Get parking spots by ID                   | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
-| Parking: Add parking spot                          | POST        | `parkingId`, body: `row`, `column`, `label`                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
-| Parking: Get parking by ID                         | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}`                                  |
-| Parking: Get parkings by owner ID                  | GET         | `ownerId`                                                                                                                         | `/api/v1/parkings/owner/{ownerId}`                              |
-| Authentication: Sign up parking owner              | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`                                           | `/api/v1/authentication/sign-up/parking-owner`                  |
-| Authentication: Sign up driver                     | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni`                                                          | `/api/v1/authentication/sign-up/driver`                         |
-| Authentication: Sign in                            | POST        | `email`, `password`                                                                                                               | `/api/v1/authentication/sign-in`                                |
-| Edge Server: Create edge server                    | POST        | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId`                                                            | `/api/v1/edge-servers`                                          |
-| Edge Server: Get edge servers by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/edge-servers/parking/{parkingId}`                      |
-| Review: Create review                              | POST        | body: `driverId`, `parkingId`, `comment`, `rating`                                                                                | `/api/v1/reviews`                                               |
-| Review: Get reviews by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/reviews/parking/{parkingId}`                           |
-| Review: Get reviews by driver ID                   | GET         | `driverId`                                                                                                                        | `/api/v1/reviews/driver/{driverId}`                             |
-| Reservation: Create reservation                    | POST        | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime`                                    | `/api/v1/reservations`                                          |
-| Reservation: Get reservations by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/reservations/parking/{parkingId}`                      |
-| Reservation: Get reservations by driver and status | GET         | `driverId`, `status`                                                                                                              | `/api/v1/reservations/driver/{driverId}/status/{status}`        |
-| Roles: Get all roles                               | GET         | –                                                                                                                                 | `/api/v1/roles`                                                 |
-| Payment: Create subscription payment               | POST        | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                          | `/api/v1/payments/subscription/{subscriptionId}`                |
-| Payment: Create reservation payment                | POST        | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                           | `/api/v1/payments/reservation/{reservationId}`                  |
-| Device: Update device                              | PUT         | `deviceId`, body: `edgeId`, `macAddress`, `type`                                                                                  | `/api/v1/devices/{deviceId}`                                    |
-| Device: Get unassigned devices                     | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/unassigned/{parkingId}`                        |
-| Device: Get devices by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/parking/{parkingId}`                           |
-| Device: Get device by spot ID                      | GET         | `parkingSpotId`                                                                                                                   | `/api/v1/devices/parking-spot/{parkingSpotId}`                  |
-| Device: Get devices by edge server                 | GET         | `edgeServerId`                                                                                                                    | `/api/v1/devices/edge-server/{edgeServerId}`                    |
-| Users: Get all users                               | GET         | –                                                                                                                                 | `/api/v1/users`                                                 |
-| Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
-| Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
-| Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
-| Token Controller: Register notification token      | POST        | `userId`, `token`                                                                                                                 | `/api/v1/notifications/register-token`                          |
-| Token Controller: Unregister notification token    | DELETE      | `token`                                                                                                                           | `/api/v1/notifications/unregister-token`                        |
-| Notification Controller: Send notification         | POST        | `token`, `title`, `body`                                                                                                          | `/api/notifications/send`                                       |
+| Endpoint | Operaciones | Parámetros | URL |
+|:----------------------------------------------------|:------------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
+| Parking: Get all parkings | GET | – | `/api/v1/parkings` |
+| Parking: Create new parking | POST | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings` |
+| Parking: Get parking spots by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}/spots` |
+| Parking: Add parking spot | POST | `parkingId`, body: `row`, `column`, `label` | `/api/v1/parkings/{parkingId}/spots` |
+| Parking: Get parking by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}` |
+| Parking: Get parkings by owner ID | GET | `ownerId` | `/api/v1/parkings/owner/{ownerId}` |
+| Authentication: Sign up parking owner | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc` | `/api/v1/authentication/sign-up/parking-owner` |
+| Authentication: Sign up driver | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni` | `/api/v1/authentication/sign-up/driver` |
+| Authentication: Sign in | POST | `email`, `password` | `/api/v1/authentication/sign-in` |
+| Edge Server: Create edge server | POST | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId` | `/api/v1/edge-servers` |
+| Edge Server: Get edge servers by parking | GET | `parkingId` | `/api/v1/edge-servers/parking/{parkingId}` |
+| Review: Create review | POST | body: `driverId`, `parkingId`, `comment`, `rating` | `/api/v1/reviews` |
+| Review: Get reviews by parking ID | GET | `parkingId` | `/api/v1/reviews/parking/{parkingId}` |
+| Review: Get reviews by driver ID | GET | `driverId` | `/api/v1/reviews/driver/{driverId}` |
+| Reservation: Create reservation | POST | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime` | `/api/v1/reservations` |
+| Reservation: Get reservations by parking | GET | `parkingId` | `/api/v1/reservations/parking/{parkingId}` |
+| Reservation: Get reservations by driver and status | GET | `driverId`, `status` | `/api/v1/reservations/driver/{driverId}/status/{status}` |
+| Roles: Get all roles | GET | – | `/api/v1/roles` |
+| Payment: Create subscription payment | POST | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/subscription/{subscriptionId}` |
+| Payment: Create reservation payment | POST | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/reservation/{reservationId}` |
+| Device: Update device | PUT | `deviceId`, body: `edgeId`, `macAddress`, `type` | `/api/v1/devices/{deviceId}` |
+| Device: Get unassigned devices | GET | `parkingId` | `/api/v1/devices/unassigned/{parkingId}` |
+| Device: Get devices by parking ID | GET | `parkingId` | `/api/v1/devices/parking/{parkingId}` |
+| Device: Get device by spot ID | GET | `parkingSpotId` | `/api/v1/devices/parking-spot/{parkingSpotId}` |
+| Device: Get devices by edge server | GET | `edgeServerId` | `/api/v1/devices/edge-server/{edgeServerId}` |
+| Users: Get all users | GET | – | `/api/v1/users` |
+| Users: Get user by ID | GET | `userId` | `/api/v1/users/{userId}` |
+| Profiles: Get parking owner profile | GET | `userId` | `/api/v1/profiles/parking-owner/{userId}` |
+| Profiles: Get driver profile | GET | `userId` | `/api/v1/profiles/driver/{userId}` |
+| Notification: Register notification token | POST | `userId`, `token` | `/api/v1/notifications/register-token` |
+| Notification: Unregister notification token | DELETE | `token` | `/api/v1/notifications/unregister-token` |
+| Notification: Send notification | POST | `token`, `title`, `body` | `/api/notifications/send` |
 
 - **Commit details:**
 
