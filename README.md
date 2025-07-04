@@ -76,10 +76,14 @@ La tabla de Registro de Versiones del Informe funciona como un historial de cont
 | 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo  | Corrección de estructura de texto para conversión a PDF                                                                                            |
 | 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso    | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
 | 3.1.0       | 15/06/2025 | Zarate Cáceres, Victor Ernesto | Añadir Development Evidence for Sprint Review                                                                                                      |
-| 3.1.1       | 18/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar evaluaciones según heurísticas de las entrevistas de validación |
-| 3.1.2       | 19/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar video about the video |
-| 4.0.0 | 25/06/2025 | Zarate Cáceres, Victor Ernesto | Preparación de documento para Final Sprint |
-| 4.1.0 | 04/07/2025 | Arroyo Ormeño, André Alonso | Actualizaicon de user stories y product backlog |
+| 3.1.1       | 18/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar evaluaciones según heurísticas de las entrevistas de validación                                                                            |
+| 3.1.2       | 19/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar video about the video                                                                                                                      |
+| 4.0.0       | 25/06/2025 | Zarate Cáceres, Victor Ernesto | Preparación de documento para Final Sprint                                                                                                         |
+| 4.1.0       | 30/06/2025 | Zarate Cáceres, Victor Ernesto | Añadir Development Evidence for Final Sprint                                                                                                       |
+| 4.2.0       | 02/07/2025 | Zarate Cáceres, Victor Ernesto | Añadir Services Documentation for Final Sprint                                                                                                     |
+| 4.3.0       | 04/07/2025 | Arroyo Ormeño, André Alonso    | Actualizacion de user stories y product backlog                                                                                                    |
+| 4.3.1       | 04/07/2025 | Zarate Cáceres, Victor Ernesto | Actualizar Sprint 3 y añadir Student Outcome                                                                                                       |
+
 ---
 
 # Project Report Collaboration Insights
@@ -403,6 +407,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB2:<br>
         En la planificación del despliegue, el equipo celebró sesiones para definir objetivos de lanzamiento. Cada integrante lideró una tarea, consolidando un liderazgo compartido en todas las áreas críticas.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
         TB1:<br>
@@ -412,6 +418,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         TB2:<br>
         Se implementó un trabajo de guia conjunta sobre la incorporación y revisión de tareas. Esto promovió un liderazgo distribuido, aceleró la curva de aprendizaje y fortaleció el sentido de pertenencia.
+        <br><br>
+        TF1:<br>
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
@@ -423,6 +431,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB2:<br>
         Para la elaboración de la landing page, el equipo tomo decisiones de manera conjunta. Cada propuesta de esquema UI fue votada y iterada, asegurando un producto final alineado con las necesidades de los usuarios.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
         TB1:<br>
@@ -432,6 +442,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         TB2:<br>
         Al diseñar la arquitectura de los servicios IoT y la integración con la app móvil, se organizaron proceso de revisión de código y buenas prácticas. Esto fomento la transferencia de conocimiento y fortaleció las habilidades de liderazgo de cada participante.
+        <br><br>
+        TF1:<br>
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
@@ -443,6 +455,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB2:<br>
         El equipo estableció roles rotativos de liderazgo en las reuniones, permitiendo que cada integrante coordinara la planificación de sprints y facilitara la toma de decisiones colectivas. Esto reforzó la responsabilidad compartida y garantizó que las ideas de todos fueran valoradas.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
         TB1:<br>
@@ -451,6 +465,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Se realizo un trabajo conjunto para mantener un trabajo continuo y uniforme. El uso de Github nos permitio avanzar de forma conjunto y mantener nuestros avances al alcance de todo el grupo, permitiendo a todos aportar en todo momento.<br><br>
         TB2:<br>
         Se identificaron puntos importantes a ser mejorados en esta nueva entrega. Además, se organizo un trabajo de manera conjunta para ir evaluando las aplicaciones a medida que se iban desarrollando, para generar resultados sólidos y consistentes con nuestra propuesta inicial.
+        <br><br>
+        TF1:<br>
+        Se trabajo de forma grupal para identificar los puntos de mejora y trabajar sobre ellos. Además, se procuro poner a prueba cada producto desarrollado para verificar que funcionen correctamente e intercambienn la información necesaria.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -461,6 +478,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         TB2:<br>
         Se trabajó de forma conjunta con la revisión y mejora de los diagramas, coordinando sesiones grupales para consensuar cambios y garantizar su coherencia con los requerimientos técnicos. Asimismo, se organizaron reuniones de revisión de código y votaciones colaborativas en el diseño de los productos, garantizando que cada propuesta respondiera a las necesidades de los usuarios. Finalmente, se planificaron los objetivos de lanzamiento y se evaluaron continuamente las aplicaciones en desarrollo, permitiendo la obtención de resultados sólidos y alineados con la visión inicial.
+        <br><br>
+        TF1:<br>
       </td>
     </tr>
     <!--Segundo Criterio-->
@@ -484,6 +503,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TF1:<br>
         Propicié un ambiente de trabajo colaborativo al participar en la revisión y mejora de las user stories, escuchando las opiniones del equipo y proponiendo ajustes consensuados. Contribuí en la planificación de tareas al actualizar el product backlog, organizando las prioridades y definiendo objetivos claros para las siguientes etapas del proyecto. Este trabajo permitió que el equipo contara con una visión ordenada y estructurada de las tareas pendientes, facilitando así el cumplimiento de los objetivos establecidos en los plazos acordados.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
@@ -492,6 +513,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         TB2:<br>
         Previa la última entrega, se planificaron tareas de documentación y despliegue. Cada integrante se comprometió con objetivos individuales y globales, planificando actividades conjuntas para cumplir con la entrega.
+        <br><br>
+        TF1:<br>
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -503,6 +526,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB2:<br>
         Se mantuvo un canal de comunicación continua, donde cualquier idea era bienvenida. Gracias a esto, se rediseñaron conjuntamente las historias de usuario y se ajustaron las prioridades de backlog de forma colaborativan.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
         TB1:<br>
@@ -512,6 +537,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         TB2:<br>
         Con las primeras versiones de los productos, se organizaron las entrevistas de validación, donde usuarios reales validaron el trabajo realizado. Este enfoque identificó mejoras de usabilidad y permitió planificar acciones correctivas, cumpliendo con los cronogramas establecidos.
+        <br><br>
+        TF1:<br>
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
@@ -523,6 +550,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB2:<br>
         Para la integración de los sensores IoT, el equipo evaluo el desarrollo para mantener objetivos realistas. De esta manera, se cumplió el objetivo de tener una versión candidata lista para pruebas antes del siguiente sprint.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
         TB1:<br>
@@ -533,6 +562,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TB2:<br>
         El equipo definió metas semanales claras, asignando tareas según las fortalezas de cada miembro. Este proceso transparente permitió que todos conocieran el progreso global y contribuyeran activamente al cumplimiento de hitos.
         <br><br>
+        TF1:<br>
+        <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
         TB1:<br>
@@ -541,6 +572,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Nos organizamos para realizar un trabajo conjunto y recurrente. De esta manera, podiamos estar al tanto de los nuevos cambios, para poder revisarlos, validarlos y aprobarlos cuando cumpliesen con los requisitos esperados.<br><br>
         TB2:<br>
         El trabajo realizado se distribuyo de acuerdo a las capacidades de cada miembro del equipo, para garantizar mejores resultados con mayot rapide y precisión con respecto a los objetivos del curso y de nuestro proyecto.
+        <br><br>
+        TF1:<br>
+        Se cooordinaron acciones para poder dividir el trabajo restante y poder avanzarlo de manera progresiva y coordinada con el fin de cumplir el logro esperado del curso.
       </td>
       <!--Ingresar Conclusion por Entregable-->
       <td>
@@ -552,6 +586,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <br><br>
         TB2:<br>
         Se promovió un entorno inclusivo mediante reuniones de revisión abiertas en las que se aportaron ajustes a los diagramas de componentes. Se coordinó la planificación de la documentación y el despliegue, asignando objetivos individuales y globales traducidos en actividades conjuntas y metas semanales alineadas con las fortalezas de cada miembro. Se mantuvo un canal de comunicación constante que permitió la reestructuración colaborativa de las historias de usuario y la priorización dinámica del backlog. Además, se llevaron a cabo entrevistas de validación con usuarios reales para definir acciones correctivas.
+        <br><br>
+        TF1:<br>
       </td>
     </tr>
   </table>
@@ -4620,8 +4656,6 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 ---
 
-
-
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
 
@@ -5009,38 +5043,37 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 | Users          | Consulta de usuarios registrados en el sistema.                                        |
 | Profiles       | Consulta de perfiles detallados de usuarios.                                           |
 
-| Endpoint | Operaciones | Parámetros | URL |
-|:----------------------------------------------------|:------------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-| Parking: Get all parkings | GET | – | `/api/v1/parkings` |
-| Parking: Create new parking | POST | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings` |
-| Parking: Get parking spots by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}/spots` |
-| Parking: Add parking spot | POST | `parkingId`, body: `row`, `column`, `label` | `/api/v1/parkings/{parkingId}/spots` |
-| Parking: Get parking by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}` |
-| Parking: Get parkings by owner ID | GET | `ownerId` | `/api/v1/parkings/owner/{ownerId}` |
-| Authentication: Sign up parking owner | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc` | `/api/v1/authentication/sign-up/parking-owner` |
-| Authentication: Sign up driver | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni` | `/api/v1/authentication/sign-up/driver` |
-| Authentication: Sign in | POST | `email`, `password` | `/api/v1/authentication/sign-in` |
-| Edge Server: Create edge server | POST | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId` | `/api/v1/edge-servers` |
-| Edge Server: Get edge servers by parking | GET | `parkingId` | `/api/v1/edge-servers/parking/{parkingId}` |
-| Review: Create review | POST | body: `driverId`, `parkingId`, `comment`, `rating` | `/api/v1/reviews` |
-| Review: Get reviews by parking ID | GET | `parkingId` | `/api/v1/reviews/parking/{parkingId}` |
-| Review: Get reviews by driver ID | GET | `driverId` | `/api/v1/reviews/driver/{driverId}` |
-| Reservation: Create reservation | POST | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime` | `/api/v1/reservations` |
-| Reservation: Get reservations by parking | GET | `parkingId` | `/api/v1/reservations/parking/{parkingId}` |
-| Reservation: Get reservations by driver and status | GET | `driverId`, `status` | `/api/v1/reservations/driver/{driverId}/status/{status}` |
-| Roles: Get all roles | GET | – | `/api/v1/roles` |
-| Payment: Create subscription payment | POST | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/subscription/{subscriptionId}` |
-| Payment: Create reservation payment | POST | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/reservation/{reservationId}` |
-| Device: Update device | PUT | `deviceId`, body: `edgeId`, `macAddress`, `type` | `/api/v1/devices/{deviceId}` |
-| Device: Get unassigned devices | GET | `parkingId` | `/api/v1/devices/unassigned/{parkingId}` |
-| Device: Get devices by parking ID | GET | `parkingId` | `/api/v1/devices/parking/{parkingId}` |
-| Device: Get device by spot ID | GET | `parkingSpotId` | `/api/v1/devices/parking-spot/{parkingSpotId}` |
-| Device: Get devices by edge server | GET | `edgeServerId` | `/api/v1/devices/edge-server/{edgeServerId}` |
-| Users: Get all users | GET | – | `/api/v1/users` |
-| Users: Get user by ID | GET | `userId` | `/api/v1/users/{userId}` |
-| Profiles: Get parking owner profile | GET | `userId` | `/api/v1/profiles/parking-owner/{userId}` |
-| Profiles: Get driver profile | GET | `userId` | `/api/v1/profiles/driver/{userId}` |
-
+|                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
+|:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Parking: Get all parkings                          | GET         | –                                                                                                                                 | `/api/v1/parkings`                                              |
+| Parking: Create new parking                        | POST        | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings`                        |
+| Parking: Get parking spots by ID                   | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Add parking spot                          | POST        | `parkingId`, body: `row`, `column`, `label`                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Get parking by ID                         | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}`                                  |
+| Parking: Get parkings by owner ID                  | GET         | `ownerId`                                                                                                                         | `/api/v1/parkings/owner/{ownerId}`                              |
+| Authentication: Sign up parking owner              | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`                                           | `/api/v1/authentication/sign-up/parking-owner`                  |
+| Authentication: Sign up driver                     | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni`                                                          | `/api/v1/authentication/sign-up/driver`                         |
+| Authentication: Sign in                            | POST        | `email`, `password`                                                                                                               | `/api/v1/authentication/sign-in`                                |
+| Edge Server: Create edge server                    | POST        | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId`                                                            | `/api/v1/edge-servers`                                          |
+| Edge Server: Get edge servers by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/edge-servers/parking/{parkingId}`                      |
+| Review: Create review                              | POST        | body: `driverId`, `parkingId`, `comment`, `rating`                                                                                | `/api/v1/reviews`                                               |
+| Review: Get reviews by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/reviews/parking/{parkingId}`                           |
+| Review: Get reviews by driver ID                   | GET         | `driverId`                                                                                                                        | `/api/v1/reviews/driver/{driverId}`                             |
+| Reservation: Create reservation                    | POST        | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime`                                    | `/api/v1/reservations`                                          |
+| Reservation: Get reservations by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/reservations/parking/{parkingId}`                      |
+| Reservation: Get reservations by driver and status | GET         | `driverId`, `status`                                                                                                              | `/api/v1/reservations/driver/{driverId}/status/{status}`        |
+| Roles: Get all roles                               | GET         | –                                                                                                                                 | `/api/v1/roles`                                                 |
+| Payment: Create subscription payment               | POST        | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                          | `/api/v1/payments/subscription/{subscriptionId}`                |
+| Payment: Create reservation payment                | POST        | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                           | `/api/v1/payments/reservation/{reservationId}`                  |
+| Device: Update device                              | PUT         | `deviceId`, body: `edgeId`, `macAddress`, `type`                                                                                  | `/api/v1/devices/{deviceId}`                                    |
+| Device: Get unassigned devices                     | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/unassigned/{parkingId}`                        |
+| Device: Get devices by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/parking/{parkingId}`                           |
+| Device: Get device by spot ID                      | GET         | `parkingSpotId`                                                                                                                   | `/api/v1/devices/parking-spot/{parkingSpotId}`                  |
+| Device: Get devices by edge server                 | GET         | `edgeServerId`                                                                                                                    | `/api/v1/devices/edge-server/{edgeServerId}`                    |
+| Users: Get all users                               | GET         | –                                                                                                                                 | `/api/v1/users`                                                 |
+| Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
+| Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
+| Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
 
 - **Commit details:**
 
@@ -5244,6 +5277,7 @@ Los avances específicos son:
 
 |       Repository          |           Branch           |                 Commit Id                |                                                            Commit Message                                                       | Commit Message Body | Commited on (Date) |
 | :-----------------------: | :------------------------: | :--------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------ | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 103071074a64f8fb59d7a9327d0275598072b7b3 | feat(Notifications): add documentation for endpoints of bounded context Notifications                                           |                     |     03/07/2025     |
 |   smartparking-backend    |           develop          | 2de1ee66cba8b9d61e5ccd80eab8d9a379b250a3 | chore: add JSON configuration file to .gitignore                                                                                |                     |     01/07/2025     |
 |    smartparking-mobile    |   features/notifications   | 3828bb943adc8c45ed6ca9ff19cdf308923b05d3 | chore(gitignore): add google-services.json to .gitignore                                                                        |                     |     01/07/2025     |
 |    smartparking-mobile    |   features/notifications   | cef6660e14b474050d831096ac66413e08348326 | feat(notification): update config notifications                                                                                 |                     |     01/07/2025     |
@@ -5307,57 +5341,59 @@ Se trabajo en
 
 |        Endpoint         |                                         Details                                          |
 | :---------------------: | :--------------------------------------------------------------------------------------- |
-| Parking | Gestión completa de estacionamientos. |
-| Authentication | Registro e inicio de sesión de usuarios. |
-| Edge Server | Creación y consulta de edge servers asignados a estacionamientos. |
-| Review | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios. |
-| Reservation | Creación de reservas de espacios y consulta por estacionamiento. |
-| Roles | Obtención de los roles disponibles en el sistema para control de acceso y permisos. |
-| Payment | Registro de pagos. |
-| Device | Gestión de dispositivos. |
-| Users | Consulta de usuarios registrados en el sistema. |
-| Profiles | Consulta de perfiles detallados de usuarios. |
-| Notification | Permite el envío de notificaciones push a los dispositivos registrados. |
+| Parking                 | Gestión completa de estacionamientos.                                                    |
+| Authentication          | Registro e inicio de sesión de usuarios.                                                 |
+| Edge Server             | Creación y consulta de edge servers asignados a estacionamientos.                        |
+| Review                  | Publicación y obtención de reseñas por estacionamiento con calificación y comentarios.   |
+| Reservation             | Creación de reservas de espacios y consulta por estacionamiento.                         |
+| Roles                   | Obtención de los roles disponibles en el sistema para control de acceso y permisos.      |
+| Payment                 | Registro de pagos.                                                                       |
+| Device                  | Gestión de dispositivos.                                                                 |
+| Users                   | Consulta de usuarios registrados en el sistema.                                          |
+| Profiles                | Consulta de perfiles detallados de usuarios.                                             |
+| Token Controller        | Administra el registro y eliminación de tokens para notificaciones push de los usuarios. |
+| Notification Controller | Permite el envío de notificaciones push a los dispositivos registrados.                  |
 
-| Endpoint | Operaciones | Parámetros | URL |
-|:----------------------------------------------------|:------------:|:----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
-| Parking: Get all parkings | GET | – | `/api/v1/parkings` |
-| Parking: Create new parking | POST | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings` |
-| Parking: Get parking spots by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}/spots` |
-| Parking: Add parking spot | POST | `parkingId`, body: `row`, `column`, `label` | `/api/v1/parkings/{parkingId}/spots` |
-| Parking: Get parking by ID | GET | `parkingId` | `/api/v1/parkings/{parkingId}` |
-| Parking: Get parkings by owner ID | GET | `ownerId` | `/api/v1/parkings/owner/{ownerId}` |
-| Authentication: Sign up parking owner | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc` | `/api/v1/authentication/sign-up/parking-owner` |
-| Authentication: Sign up driver | POST | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni` | `/api/v1/authentication/sign-up/driver` |
-| Authentication: Sign in | POST | `email`, `password` | `/api/v1/authentication/sign-in` |
-| Edge Server: Create edge server | POST | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId` | `/api/v1/edge-servers` |
-| Edge Server: Get edge servers by parking | GET | `parkingId` | `/api/v1/edge-servers/parking/{parkingId}` |
-| Review: Create review | POST | body: `driverId`, `parkingId`, `comment`, `rating` | `/api/v1/reviews` |
-| Review: Get reviews by parking ID | GET | `parkingId` | `/api/v1/reviews/parking/{parkingId}` |
-| Review: Get reviews by driver ID | GET | `driverId` | `/api/v1/reviews/driver/{driverId}` |
-| Reservation: Create reservation | POST | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime` | `/api/v1/reservations` |
-| Reservation: Get reservations by parking | GET | `parkingId` | `/api/v1/reservations/parking/{parkingId}` |
-| Reservation: Get reservations by driver and status | GET | `driverId`, `status` | `/api/v1/reservations/driver/{driverId}/status/{status}` |
-| Roles: Get all roles | GET | – | `/api/v1/roles` |
-| Payment: Create subscription payment | POST | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/subscription/{subscriptionId}` |
-| Payment: Create reservation payment | POST | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate` | `/api/v1/payments/reservation/{reservationId}` |
-| Device: Update device | PUT | `deviceId`, body: `edgeId`, `macAddress`, `type` | `/api/v1/devices/{deviceId}` |
-| Device: Get unassigned devices | GET | `parkingId` | `/api/v1/devices/unassigned/{parkingId}` |
-| Device: Get devices by parking ID | GET | `parkingId` | `/api/v1/devices/parking/{parkingId}` |
-| Device: Get device by spot ID | GET | `parkingSpotId` | `/api/v1/devices/parking-spot/{parkingSpotId}` |
-| Device: Get devices by edge server | GET | `edgeServerId` | `/api/v1/devices/edge-server/{edgeServerId}` |
-| Users: Get all users | GET | – | `/api/v1/users` |
-| Users: Get user by ID | GET | `userId` | `/api/v1/users/{userId}` |
-| Profiles: Get parking owner profile | GET | `userId` | `/api/v1/profiles/parking-owner/{userId}` |
-| Profiles: Get driver profile | GET | `userId` | `/api/v1/profiles/driver/{userId}` |
-| Notification: Register notification token | POST | `userId`, `token` | `/api/v1/notifications/register-token` |
-| Notification: Unregister notification token | DELETE | `token` | `/api/v1/notifications/unregister-token` |
-| Notification: Send notification | POST | `token`, `title`, `body` | `/api/notifications/send` |
+|                         Endpoint                   | Operaciones |                                                                Parámetros                                                         | URL                                                             |
+|:---------------------------------------------------|:-----------:|:----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Parking: Get all parkings                          | GET         | –                                                                                                                                 | `/api/v1/parkings`                                              |
+| Parking: Create new parking                        | POST        | body: `ownerId`, `name`, `description`, `address`, `lat`, `lng`, `ratePerHour`, `totalSpots`, `availableSpots`, `totalRows`, `totalColumns`, `imageUrl` | `/api/v1/parkings`                        |
+| Parking: Get parking spots by ID                   | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Add parking spot                          | POST        | `parkingId`, body: `row`, `column`, `label`                                                                                       | `/api/v1/parkings/{parkingId}/spots`                            |
+| Parking: Get parking by ID                         | GET         | `parkingId`                                                                                                                       | `/api/v1/parkings/{parkingId}`                                  |
+| Parking: Get parkings by owner ID                  | GET         | `ownerId`                                                                                                                         | `/api/v1/parkings/owner/{ownerId}`                              |
+| Authentication: Sign up parking owner              | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `companyName`, `ruc`                                           | `/api/v1/authentication/sign-up/parking-owner`                  |
+| Authentication: Sign up driver                     | POST        | body: `email`, `password`, `fullName`, `city`, `country`, `phone`, `dni`                                                          | `/api/v1/authentication/sign-up/driver`                         |
+| Authentication: Sign in                            | POST        | `email`, `password`                                                                                                               | `/api/v1/authentication/sign-in`                                |
+| Edge Server: Create edge server                    | POST        | body: `serverId`, `apiKey`, `name`, `ipAddress`, `status`, `parkingId`                                                            | `/api/v1/edge-servers`                                          |
+| Edge Server: Get edge servers by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/edge-servers/parking/{parkingId}`                      |
+| Review: Create review                              | POST        | body: `driverId`, `parkingId`, `comment`, `rating`                                                                                | `/api/v1/reviews`                                               |
+| Review: Get reviews by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/reviews/parking/{parkingId}`                           |
+| Review: Get reviews by driver ID                   | GET         | `driverId`                                                                                                                        | `/api/v1/reviews/driver/{driverId}`                             |
+| Reservation: Create reservation                    | POST        | body: `driverId`, `vehiclePlate`, `parkingId`, `parkingSpotId`, `date`, `startTime`, `endTime`                                    | `/api/v1/reservations`                                          |
+| Reservation: Get reservations by parking           | GET         | `parkingId`                                                                                                                       | `/api/v1/reservations/parking/{parkingId}`                      |
+| Reservation: Get reservations by driver and status | GET         | `driverId`, `status`                                                                                                              | `/api/v1/reservations/driver/{driverId}/status/{status}`        |
+| Roles: Get all roles                               | GET         | –                                                                                                                                 | `/api/v1/roles`                                                 |
+| Payment: Create subscription payment               | POST        | `subscriptionId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                          | `/api/v1/payments/subscription/{subscriptionId}`                |
+| Payment: Create reservation payment                | POST        | `reservationId`, body: `userId`, `amount`, `nameOnCard`, `cardNumber`, `cardExpiryDate`                                           | `/api/v1/payments/reservation/{reservationId}`                  |
+| Device: Update device                              | PUT         | `deviceId`, body: `edgeId`, `macAddress`, `type`                                                                                  | `/api/v1/devices/{deviceId}`                                    |
+| Device: Get unassigned devices                     | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/unassigned/{parkingId}`                        |
+| Device: Get devices by parking ID                  | GET         | `parkingId`                                                                                                                       | `/api/v1/devices/parking/{parkingId}`                           |
+| Device: Get device by spot ID                      | GET         | `parkingSpotId`                                                                                                                   | `/api/v1/devices/parking-spot/{parkingSpotId}`                  |
+| Device: Get devices by edge server                 | GET         | `edgeServerId`                                                                                                                    | `/api/v1/devices/edge-server/{edgeServerId}`                    |
+| Users: Get all users                               | GET         | –                                                                                                                                 | `/api/v1/users`                                                 |
+| Users: Get user by ID                              | GET         | `userId`                                                                                                                          | `/api/v1/users/{userId}`                                        |
+| Profiles: Get parking owner profile                | GET         | `userId`                                                                                                                          | `/api/v1/profiles/parking-owner/{userId}`                       |
+| Profiles: Get driver profile                       | GET         | `userId`                                                                                                                          | `/api/v1/profiles/driver/{userId}`                              |
+| Token Controller: Register notification token      | POST        | `userId`, `token`                                                                                                                 | `/api/v1/notifications/register-token`                          |
+| Token Controller: Unregister notification token    | DELETE      | `token`                                                                                                                           | `/api/v1/notifications/unregister-token`                        |
+| Notification Controller: Send notification         | POST        | `token`, `title`, `body`                                                                                                          | `/api/notifications/send`                                       |
 
 - **Commit details:**
 
 |        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
 | :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 103071074a64f8fb59d7a9327d0275598072b7b3 | feat(Notifications): add documentation for endpoints of bounded context Notifications                           |                     |     03/07/2025     |
 |   smartparking-backend    |           develop          | 2de1ee66cba8b9d61e5ccd80eab8d9a379b250a3 | chore: add JSON configuration file to .gitignore                                                                |                     |     01/07/2025     |
 |   smartparking-backend    |           develop          | 2edc772241eaaeb92c03ff1f5ca943a14d2b3711 | feat(notifications): update firebaseConfig                                                                      |                     |     01/07/2025     |
 |   smartparking-backend    |    feature/notifications   | 6b1adb97cb143525c523a38ad909f4ab99148f09 | feat(notifications): update reservation service and FcmToken                                                    |                     |     01/07/2025     |
@@ -5877,8 +5913,6 @@ Se presenta la esencia de **SmartParking**: una solución IoT que conecta a cond
 **Enlace:** https://shorturl.at/R7qBj
 
 ## 6.5. Video About-the-Team
-
-### 6.5 Video About-The-Team
 
 **Nombre del archivo:**
 `upc-pre-202510-1asi0572-2971-IoT_Innovators-about-the-team-sprint-2.mp4`
