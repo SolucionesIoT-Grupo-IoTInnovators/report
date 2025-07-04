@@ -4529,43 +4529,47 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-8.png)
 
 **Web Application**
-- Login
+- Inicio de Sesión: Pantalla de acceso al sistema mediante correo electrónico y contraseña, con opción para registrarse si aún no se tiene una cuenta.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-1.png)
 
-- Register Driver
+- Creación de Cuenta (Driver): Formulario de registro para conductores, con campos como nombre completo, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario y número de identificación.
 
-![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 1 - Web App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20driver.png?raw=true)
 
-- Register Owner (parkingowner)
+- Creación de Cuenta (Parking Owner): Formulario de registro para propietarios de estacionamiento, con campos como nombre, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario, nombre de empresa y número de RUC.
 
-![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 1 - Web App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
 
-- Creation of parking
+- Creación de Estacionamiento: Pantalla para registrar un nuevo estacionamiento con campos como nombre, descripción, tarifa por hora e imagen, a través de pasos guiados.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-4.png)
 
+- Ubicación del Estacionamiento: Pantalla para definir la dirección del estacionamiento mediante selección en un mapa interactivo integrado con Google Maps.
+
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-5.png)
+
+- Diseño de Estacionamiento: Herramienta visual para definir la distribución de espacios de parqueo, con funciones para agregar espacios, pasillos, reiniciar u optimizar el diseño.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-6.png)
 
-- Confirm Creation of parking
+- Confirmación de Diseño: Resumen de los espacios creados en el diseño (ej. P1, P2), con opciones para regresar, guardar o continuar al siguiente paso.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-7.png)
 
-- Parking home
+- Monitoreo de Estacionamiento: Panel que muestra en tiempo real el estado de los espacios (disponibles, ocupados o reservados) con herramientas de gestión asociadas.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-8.png)
 
-- Review Parking
+- Reseñas de Usuarios: Sección que presenta comentarios breves de los usuarios sobre el servicio de estacionamiento, incluyendo calificaciones y fechas de publicación.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-9.png)
 
-- Reservation Data Parking
+- Datos de Reservación: Tabla que presenta las reservaciones realizadas con detalles como fecha, conductor, placa, horario, precio total y estado.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-10.png)
 
-- Parking List
+- Lista de Estacionamientos: Vista en formato de tarjetas que muestra los estacionamientos creados con detalles como dirección, tarifa, disponibilidad y calificación, además de incluir la opción para registrar un nuevo estacionamiento.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
 
@@ -5321,7 +5325,65 @@ Los avances específicos son:
 Se trabajo en
 
 **Web Application:**
-![Vista implementada en Sprint 3 - Web App](ChapterVI-images/Sprint3/WebApp/ExecutionEvidenceScreenshot-1.png)
+- Creación de Cuenta (Driver): Formulario de registro para conductores, con campos como nombre completo, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario y número de identificación.
+
+![Vista implementada en Sprint 3 - register driver](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20driver.png?raw=true)
+
+- Creación de Cuenta (Parking Owner): Formulario de registro para propietarios de estacionamiento, con campos como nombre, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario, nombre de empresa y número de RUC.
+
+![Vista implementada en Sprint 3 - register parking owner](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
+
+- Inicio de Sesión: Pantalla de acceso al sistema mediante correo electrónico y contraseña, con opción para registrarse si aún no se tiene una cuenta.
+
+![Vista implementada en Sprint 3 - login](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
+
+- Creación de Estacionamiento: Pantalla para registrar un nuevo estacionamiento con campos como nombre, descripción, tarifa por hora e imagen, a través de pasos guiados.
+
+![Vista implementada en Sprint 3 - creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/creation%20of%20parking.png?raw=true)
+
+- Ubicación del Estacionamiento: Pantalla para definir la dirección del estacionamiento mediante selección en un mapa interactivo integrado con Google Maps.
+
+![Vista implementada en Sprint 3 - add ubication of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/add%20location%20of%20parking.png?raw=true)
+
+- Diseño de Estacionamiento: Herramienta visual para definir la distribución de espacios de parqueo, con funciones para agregar espacios, pasillos, reiniciar u optimizar el diseño.
+
+![Vista implementada en Sprint 3 - add design of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/design%20of%20parking.png?raw=true)
+
+- Confirmación de Diseño: Resumen de los espacios creados en el diseño (ej. P1, P2), con opciones para regresar, guardar o continuar al siguiente paso.
+
+![Vista implementada en Sprint 3 - confirmation of creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/confirmation%20creation%20of%20parking.png?raw=true)
+
+- Lista de Estacionamientos: Vista en formato de tarjetas que muestra los estacionamientos creados con detalles como dirección, tarifa, disponibilidad y calificación, además de incluir la opción para registrar un nuevo estacionamiento.
+
+![Vista implementada en Sprint 3 - confirmation of creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20list.png?raw=true)
+
+- Perfil de Usuario: Sección donde el usuario visualiza y edita su información personal como nombre, ciudad, teléfono, país, nombre de empresa y número de RUC.
+
+![Vista implementada en Sprint 3 - parking owner account](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/information%20of%20account%20parking%20owner.png?raw=true)
+
+- Monitoreo de Estacionamiento: Panel que muestra en tiempo real el estado de los espacios (disponibles, ocupados o reservados) con herramientas de gestión asociadas.
+
+![Vista implementada en Sprint 3 - parking home](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20home.png?raw=true)
+
+- Datos de Reservación: Tabla que presenta las reservaciones realizadas con detalles como fecha, conductor, placa, horario, precio total y estado.
+
+![Vista implementada en Sprint 3 - reservation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/reservation%20data%20parking.png?raw=true)
+
+- Reseñas de Usuarios: Sección que presenta comentarios breves de los usuarios sobre el servicio de estacionamiento, incluyendo calificaciones y fechas de publicación.
+
+![Vista implementada en Sprint 3 - review parking]()
+
+- Dashboard de Análisis: Pantalla con gráficos de uso por hora, uso semanal, ingresos mensuales y duración promedio de las reservaciones, orientada a la toma de decisiones.
+
+![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/dashboard%20of%20parking.png?raw=true)
+
+- Device Monitoring: Pantalla que muestra información en tiempo real de un Edge Server, incluyendo su estado, ID, IP, API Key, y dispositivos conectados, con una lista de sensores detallada por tipo, estado, etiqueta de espacio y última comunicación, además de opciones para paginar y consultar sensores específicos.
+
+![Vista implementada en Sprint 3 - device monitoring of parking]()
+
+- Perfil de Estacionamiento: Vista detallada de un estacionamiento específico que incluye nombre, dirección, tarifa por hora e imagen.
+
+![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20profile.png?raw=true)
 
 **Mobile Application:**
 ![Vista implementada en Sprint 3 - Mobile App](ChapterVI-images/Sprint3/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
