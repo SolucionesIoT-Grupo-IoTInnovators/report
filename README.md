@@ -3600,7 +3600,19 @@ Gestiona la persistencia de edge servers, permitiendo verificar existencia y con
 |findByParkingIdParkingId(Long)|Recupera la lista de edge servers asignados a un estacionamiento específico.|
 
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
-![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
+**- Backend**
+
+El diagrama de componentes del Device Management API organiza su lógica en cuatro capas: Domain, Application, Infrastructure e Interfaces, que gestionan las reglas de negocio, casos de uso, persistencia de datos y la exposición de operaciones mediante HTTP. Incluye además un Device Context Facade que permite a otros bounded contexts acceder a funcionalidades específicas. La comunicación con la base de datos se realiza vía JDBC y las aplicaciones cliente interactúan a través de JSON/HTTPS.
+
+![Device Management Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0ead8aa8b498deee597672f34c5d07d84507e91a/ChapterIV-images/Diagram-component/Diagram-Component-Device-Management.png?raw=true)
+
+
+**- WebApp**
+
+El diagrama de componentes del Device Management Frontend presenta una interfaz web con el Device Table Component, que muestra y gestiona dispositivos registrados, y el Device Monitoring Component, que supervisa su estado en tiempo real. Ambos se apoyan en los servicios Device Service y Edge Server Service para la lógica de gestión y control, delegando a Device Assembler la transformación de datos entre backend y frontend.
+
+![Device Management Context WebApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0ead8aa8b498deee597672f34c5d07d84507e91a/ChapterIV-images/WebApp-Diagram-Component/webapp-device-management-diagram-component.png?raw=true)
+
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
