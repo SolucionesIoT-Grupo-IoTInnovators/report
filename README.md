@@ -2366,6 +2366,7 @@ Esta capa actúa como punto de entrada para consultas externas relacionadas con 
 | :-: | :-: | :-: | :-: |
 |getDriverProfile(Long userId)|Devuelve el perfil de un conductor por su userId|GET /profiles/driver/{userId}|Recurso del conductor|
 |getParkingOwnerProfile(Long userId)|Devuelve el perfil de un propietario por su userId|GET /profiles/parking-owner/{userId}|Recurso del propietario|
+
 #### 4.2.2.3. Application Layer
 Esta capa contiene la lógica de aplicación, incluyendo la validación de unicidad para campos clave y el manejo de comandos y consultas. Coordina la creación y recuperación de perfiles utilizando servicios específicos para cada tipo de usuario.
 
@@ -2400,6 +2401,7 @@ Esta capa contiene la lógica de aplicación, incluyendo la validación de unici
 |**Método**|**Descripción**|
 | :-: | :-: |
 |handle(GetParkingOwnerByUserIdQuery)|Recupera un propietario por su userId.|
+
 #### 4.2.2.4. Infrastructure Layer
 La capa de infraestructura proporciona la implementación de persistencia para los perfiles, permitiendo operaciones CRUD y búsquedas específicas. Los repositorios se basan en Spring Data JPA.
 
@@ -2424,6 +2426,7 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByRuc_Ruc(String)|Verifica si existe un propietario con un RUC dado.|
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 -**Backend**
 
@@ -2661,107 +2664,180 @@ El diagrama de base muestra la tabla parkings y parking_spots, así como la rela
 
 !["Parking Management Database Design Diagram"](ChapterIV-images/ParkingManagmentDatabase-Diagram.png)
 
-
-
 ### 4.2.4. Bounded Context: Reservation
-El Bounded Context de Reservation gestiona el proceso de reserva de espacios de estacionamiento dentro de la plataforma. Permite a los conductores reservar espacios disponibles y registrar los pagos asociados. Este contexto está compuesto por el agregado Reservation, que incluye la lógica relacionada con el proceso de reserva, así como la entidad ReservationPayment, que representa el pago correspondiente.
+El Bounded Context de **Reservation** se encarga de gestionar las reservas de espacios de estacionamiento realizadas por los conductores dentro del sistema Smart Parking. Permite crear reservas indicando la duración, placa de vehículo y espacio de estacionamiento, y consultar reservas por estacionamiento, por conductor o por estado. Este contexto interactúa mediante ACL con los contextos de perfiles y gestión de estacionamientos para validar disponibilidad, calcular precios y actualizar el estado de los espacios, notificando además a los propietarios de nuevas reservas.
 
 #### 4.2.4.1. Domain Layer
-El Domain Layer encapsula la lógica de negocio para la gestión de reservas. Incluye el agregado Reservation, el cual contiene la entidad ReservationPayment. El agregado gestiona el ciclo de vida de una reserva y su relación con el pago.
+La capa de dominio encapsula las entidades, objetos de valor y servicios de negocio relacionados con las reservas. Define un aggregate root que contiene los atributos, comportamiento y reglas asociadas a una reserva.
 
-**Aggregate:** Reservation
+**Aggregates**
 
-**Descripción:**
-Agregado raíz que representa una reserva de espacio de estacionamiento. Contiene la información principal de la reserva y una instancia de la entidad ReservationPayment.
+**Aggregate: Reservation**
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|driverId|Identificador del conductor que realiza la reserva.|Long|
-|parkingId|Identificador del estacionamiento reservado.|Long|
-|status|Estado actual de la reserva (ej. CREATED, PAID).|String|
-|startAt|Fecha y hora en que inicia la reserva.|Instant|
-|reservationPayment|Entidad que contiene la información del pago.|ReservationPayment|
+**Descripción:**  
+Representa una reserva realizada por un conductor para un espacio de estacionamiento en una fecha y horario específicos.
 
-**Métodos**
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `driverId` | Identificador del conductor que realiza la reserva | `DriverId` (Value Object) |
+| `driverName` | Nombre completo del conductor | `String` |
+| `vehiclePlate` | Placa del vehículo | `String` |
+| `parkingId` | Identificador del estacionamiento reservado | `ParkingId` (Value Object) |
+| `parkingSpotId` | Identificador del espacio reservado | `ParkingSpotId` (Value Object) |
+| `spotLabel` | Etiqueta del espacio reservado | `String` |
+| `date` | Fecha de la reserva | `LocalDate` |
+| `startTime` | Hora de inicio de la reserva | `LocalTime` |
+| `endTime` | Hora de fin de la reserva | `LocalTime` |
+| `totalPrice` | Precio total calculado para la reserva | `Float` |
+| `status` | Estado de la reserva (PENDING, CONFIRMED...) | `ReservationStatus` (Enum) |
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|markAsPaid(amount, method)|Marca la reserva como pagada y actualiza el estado de pago.|
-|isPaid()|Verifica si la reserva ha sido pagada.|
+**Métodos:**
 
-**ReservationPayment**
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `Reservation(CreateReservationCommand, String, Float, String)` | Constructor que inicializa una reserva con datos del comando y valores externos |
+| `Float calculateTotalPrice(Float pricePerHour)` | Calcula el precio total en función de la duración |
+| `confirm()` | Cambia el estado de la reserva a CONFIRMED |
+| `cancel()` | Cambia el estado de la reserva a CANCELED |
+| `complete()` | Cambia el estado de la reserva a COMPLETED |
 
-**Descripción:**
-Entidad que representa el pago realizado por una reserva. Está contenida dentro del agregado Reservation.
+**Value Objects**
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :-: | :-: | :-: |
-|id|Identificador único del pago.|Long|
-|reservationId|Identificador de la reserva asociada.|Integer|
-|amount|Monto pagado por la reserva.|Double|
-|paidAt|Fecha y hora en que se realizó el pago.|LocalDateTime|
-|status|Estado del pago (ej. PAID, FAILED).|String (máx. 20)|
+**DriverId**
 
-**Métodos**
+**Descripción:**  
+Representa de forma segura el identificador de un conductor, validando que sea un número positivo.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|isPaid()|Verifica si el pago fue exitoso (status = "PAID").|
-|markAsPaid()|Marca el pago como exitoso y registra la fecha de pago.|
-|markAsFailed()|Marca el estado del pago como fallido.|
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `driverId` | Identificador único del conductor | `Long` |
+
+**ParkingId**
+
+**Descripción:**  
+Representa de forma segura el identificador de un estacionamiento, validando que sea un número positivo.
+
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `parkingId` | Identificador único del estacionamiento | `Long` |
+
+**ParkingSpotId**
+
+**Descripción:**  
+Representa de forma segura el identificador de un espacio de estacionamiento, garantizando que sea un UUID válido.
+
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `parkingSpotId` | Identificador único del espacio | `UUID` |
+
+**ReservationStatus**
+
+**Descripción:**  
+Enum que define los posibles estados de una reserva.
+
+| **Valor** | **Descripción** |
+|----------|----------------|
+| `PENDING` | Reserva pendiente por confirmar |
+| `CONFIRMED` | Reserva confirmada |
+| `CANCELED` | Reserva cancelada |
+| `COMPLETED` | Reserva completada |
+
+**Domain Services**
+
+Los Domain Services definen las operaciones de negocio relacionadas con la creación y consulta de reservas.
+
+**ReservationCommandService**
+
+**Descripción:**  
+Define operaciones de negocio para crear nuevas reservas.
+
+| **Nombre** | **Descripción** |
+|-----------|----------------|
+| `Optional<Reservation> handle(CreateReservationCommand command)` | Procesa un comando de creación de reserva, actualiza disponibilidad y notifica al propietario |
+
+**ReservationQueryService**
+
+**Descripción:**  
+Define consultas de reservas por estacionamiento, conductor o estado.
+
+| **Nombre** | **Descripción** |
+|-----------|----------------|
+| `List<Reservation> handle(GetAllReservationsByParkingIdQuery query)` | Obtiene todas las reservas de un estacionamiento |
+| `List<Reservation> handle(GetAllReservationsByDriverIdQuery query)` | Obtiene todas las reservas de un conductor |
+| `List<Reservation> handle(GetAllReservationsByDriverIdAndStatusQuery query)` | Obtiene reservas de un conductor según estado |
 
 #### 4.2.4.2. Interface Layer
-Este layer contiene el controlador ReservationsController, el cual expone los endpoints necesarios para interactuar con el agregado Reservation. Las acciones incluyen la creación de reservas, consulta de reservas existentes y registro de pagos.
+Expone operaciones REST para crear y consultar reservas desde sistemas externos.
 
 **Controlador: ReservationsController**
 
-**Descripción:**
-Controlador REST que gestiona las operaciones del agregado Reservation.
+**Descripción:**  
+Gestiona las operaciones externas relacionadas con reservas de espacios en Smart Parking.
 
-|**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :-: | :-: | :-: | :-: |
-|createReservation(CreateReservationResource resource)|Crea una nueva reserva para un conductor|POST /reservations|Recurso de la reserva creada|
-|getAllReservations()|Devuelve todas las reservas realizadas|GET /reservations|Lista de recursos de reserva|
-|getReservationById(Long reservationId)|Devuelve una reserva específica por su ID|GET /reservations/{id}|Recurso de reserva|
-|payForReservation(Long reservationId, CreateReservationPaymentResource resource)|Registra un pago para una reserva|POST /reservations/{id}/payment|Recurso actualizado de la reserva|
+| **Método** | **Descripción** | **HTTP** | **Respuesta** |
+|-----------|----------------|---------|--------------|
+| `createReservation(CreateReservationResource resource)` | Crea una nueva reserva | `POST /api/v1/reservations` | Recurso de reserva creada |
+| `getReservationsByParkingId(Long parkingId)` | Obtiene todas las reservas de un estacionamiento | `GET /api/v1/reservations/parking/{parkingId}` | Lista de reservas |
+| `getReservationsByDriverIdAndStatus(Long driverId, String status)` | Obtiene reservas de un conductor filtradas por estado | `GET /api/v1/reservations/driver/{driverId}/status/{status}` | Lista de reservas |
 
 #### 4.2.4.3. Application Layer
-Este layer contiene los servicios de aplicación responsables de ejecutar los comandos y consultas relacionadas con el agregado Reservation. Coordina la lógica del dominio para garantizar que las reglas de negocio se apliquen correctamente.
+Orquesta los comandos y consultas de reservas, comunicándose con los servicios de dominio y ACL externos para gestionar disponibilidad y notificaciones.
 
-**ReservationCommandServiceImpl**
+**Clase: ReservationCommandServiceImpl**
 
-**Descripción:**
-Servicio de aplicación encargado de manejar comandos que modifican el estado del agregado Reservation.
+**Descripción:**  
+Gestiona la creación de reservas, validando información externa, actualizando disponibilidad y notificando al propietario.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(CreateReservationCommand command)|Crea una nueva reserva con los datos recibidos.|
-|handle(PayReservationCommand command)|Registra el pago para una reserva existente.|
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `handle(CreateReservationCommand command)` | Crea una reserva, actualiza estado del espacio, reduce cupos disponibles y envía notificación |
 
-**ReservationQueryServiceImpl**
+**Clase: ReservationQueryServiceImpl**
 
-**Descripción:**
-Servicio de aplicación que gestiona las consultas relacionadas con el agregado Reservation.
+**Descripción:**  
+Gestiona consultas de reservas por estacionamiento, conductor o estado.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|handle(GetAllReservationsQuery query)|Devuelve todas las reservas registradas.|
-|handle(GetReservationByIdQuery query)|Devuelve una reserva específica por su ID.|
-|handle(CheckReservationExistsByIdQuery query)|Verifica si una reserva existe por su ID.|
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `handle(GetAllReservationsByParkingIdQuery query)` | Obtiene reservas de un estacionamiento |
+| `handle(GetAllReservationsByDriverIdQuery query)` | Obtiene reservas de un conductor |
+| `handle(GetAllReservationsByDriverIdAndStatusQuery query)` | Obtiene reservas de un conductor filtradas por estado |
+
+**ACL: ExternalParkingService**
+
+**Descripción:**  
+Permite obtener información y actualizar disponibilidad de espacios desde otro contexto a través de un facade.
+
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `getParkingRatePerHour(Long parkingId)` | Obtiene tarifa por hora de un estacionamiento |
+| `getSpotLabel(UUID parkingSpotId, Long parkingId)` | Obtiene etiqueta de un espacio |
+| `updateParkingSpotAvailability(Long parkingId, UUID parkingSpotId, String availability)` | Actualiza disponibilidad de un espacio |
+| `updateAvailableSpotsCount(Long parkingId, Integer availableSpots, String operation)` | Modifica el conteo de espacios disponibles |
+| `getOwnerUserIdByParkingId(Long parkingId)` | Obtiene el userId del propietario |
+
+**ACL: ExternalProfileService**
+
+**Descripción:**  
+Permite obtener el nombre completo de un conductor desde otro contexto mediante un facade.
+
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `getDriverFullNameByUserId(Long userId)` | Obtiene el nombre completo de un conductor |
 
 #### 4.2.4.4. Infrastructure Layer
-Esta capa proporciona acceso a la persistencia de datos del agregado Reservation. Define el repositorio que permite almacenar, consultar y verificar la existencia de reservas en el sistema.
+Gestiona la persistencia de reservas, usando Spring Data JPA para operaciones CRUD y consultas personalizadas.
 
 **Repositorio: ReservationRepository**
 
-**Descripción:**
-Repositorio del agregado Reservation.
+**Descripción:**  
+Administra la persistencia de reservas en la base de datos.
 
-|**Método**|**Descripción**|
-| :-: | :-: |
-|findById(Long reservationId)|Busca una reserva por su ID. Devuelve un Optional<Reservation>.|
-|existsById(Long reservationId)|Verifica si existe una reserva por su ID. Devuelve un boolean.|
-|findAll()|Devuelve todas las reservas almacenadas.|
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `findReservationsByParkingIdParkingId(Long parkingId)` | Obtiene todas las reservas de un estacionamiento |
+| `findReservationsByDriverIdDriverId(Long driverId)` | Obtiene todas las reservas de un conductor |
+| `findReservationsByDriverIdDriverIdAndStatus(Long driverId, ReservationStatus status)` | Obtiene reservas de un conductor filtradas por estado |
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 -**Backend**
@@ -2909,180 +2985,145 @@ El diagrama de base muestra la tabla subscriptions y subscription_payments, así
 
 !["Subscription Database Design Diagram"](ChapterIV-images/SuscriptionDatabase-Diagram.png)
 
+### 4.2.6. Bounded Context: Review
+El Bounded Context de **Review** es responsable de gestionar las reseñas que los conductores realizan sobre los estacionamientos dentro del sistema Smart Parking. Permite crear reseñas con calificación y comentario, asociadas a un conductor y a un estacionamiento, y consultar todas las reseñas por conductor o por estacionamiento. Este contexto integra servicios externos mediante ACL para obtener información de perfiles y estacionamientos, y actualiza la calificación promedio de cada estacionamiento según nuevas reseñas.
 
-
-### 4.2.6 Bounded Context: Review
 #### 4.2.6.1. Domain Layer
+La capa de dominio encapsula las entidades y objetos de valor relacionados a reseñas. Define un aggregate root que centraliza los atributos y reglas de una reseña, junto con value objects para garantizar la validez de identificadores.
 
-La capa de dominio de Review encapsula la lógica de negocio para la creación y gestión de reseñas de parkings.
+**Aggregates**
 
-**Propósito:** Modelar el agregado raíz **Review** junto con sus entidades relacionadas **User** y **Parking**, asegurando las invariantes de dominio (por ejemplo, rating entre 1 y 5).
+**Aggregate: Review**
 
-| **Aggregate**: `Review`                                                                            |
-|----------------------------------------------------------------------------------------------------|
-| **Descripción**: Representa la reseña que un **User** hace sobre un **Parking**.                   |
+**Descripción:**  
+Representa una reseña creada por un conductor hacia un estacionamiento, incluyendo calificación, comentario e información contextual.
 
-| **Atributo**    | **Tipo**          | **Descripción**                                                                 |
-|-----------------|-------------------|---------------------------------------------------------------------------------|
-| `id`            | `Long`            | Identificador único de la reseña.                                               |
-| `user`          | `User`            | Usuario que crea la reseña.                                                     |
-| `parking`       | `Parking`         | Parking al que pertenece la reseña.                                             |
-| `rating`        | `Rating`          | Valor de la reseña (1–5).                                                       |
-| `comment`       | `Comment`         | Texto del comentario (máx. 500 caracteres).                                     |
-| `createdAt`     | `Date`            | Fecha de creación (inmutable).                                                  |
-| `updatedAt`     | `Date`            | Fecha de última modificación.                                                   |
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `driverId` | Identificador del conductor autor de la reseña | `DriverId` (Value Object) |
+| `driverName` | Nombre completo del conductor autor | `String` |
+| `parkingId` | Identificador del estacionamiento reseñado | `ParkingId` (Value Object) |
+| `parkingName` | Nombre del estacionamiento reseñado | `String` |
+| `comment` | Comentario de la reseña | `String` |
+| `rating` | Calificación numérica del estacionamiento | `Float` |
 
-| **Método**                | **Descripción**                                                          |
-|---------------------------|---------------------------------------------------------------------------|
-| `Review(Long id, User user, Parking parking, int rating, String comment)` | Constructor que valida y crea una reseña.  |
-| `updateRating(int rating)`    | Actualiza `rating` tras validar el rango 1–5.                        |
-| `updateComment(String comment)` | Actualiza `comment` tras validar longitud.                         |
-| `getRating()`             | Retorna el valor de la reseña.                                           |
-| `getComment()`            | Retorna el comentario.                                                   |
+**Métodos:**
 
----
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `Review(CreateReviewCommand, String, String)` | Constructor que inicializa una reseña con datos del comando y nombres recuperados por ACL. |
 
-| **Value Object**: `Rating`                                                                             |
-|--------------------------------------------------------------------------------------------------------|
-| **Descripción**: Encapsula y valida el valor de la reseña (debe estar entre 1 y 5).                    |
+**Value Objects**
 
-| **Atributo** | **Tipo** | **Descripción**               |
-|--------------|----------|-------------------------------|
-| `value`      | `int`    | Valor de la reseña (1–5).     |
+**DriverId**
 
-| **Método**        | **Descripción**                                        |
-|-------------------|--------------------------------------------------------|
-| `Rating(int v)`   | Constructor que valida `1 ≤ v ≤ 5`.                   |
-| `int value()`     | Retorna el valor encapsulado.                         |
+**Descripción:**  
+Representa de forma segura el identificador de un conductor, validando que sea un número positivo.
 
----
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `driverId` | Identificador único del conductor | `Long` |
 
-| **Value Object**: `Comment`                                                                             |
-|--------------------------------------------------------------------------------------------------------|
-| **Descripción**: Texto de la reseña, validado para no estar vacío y no exceder 500 caracteres.         |
+**ParkingId**
 
-| **Atributo** | **Tipo**    | **Descripción**                               |
-|--------------|-------------|-----------------------------------------------|
-| `text`       | `String`    | Comentario de la reseña.                      |
+**Descripción:**  
+Representa de forma segura el identificador de un estacionamiento, validando que sea un número positivo.
 
-| **Método**              | **Descripción**                                         |
-|-------------------------|---------------------------------------------------------|
-| `Comment(String txt)`   | Constructor que valida longitud y no-nulidad.           |
-| `String text()`         | Retorna el texto encapsulado.                           |
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `parkingId` | Identificador único del estacionamiento | `Long` |
 
----
+**Domain Services**
 
-| **Entity**: `User`                                                                                     |
-|--------------------------------------------------------------------------------------------------------|
-| **Descripción**: Representa al usuario que escribe la reseña.                                          |
+Los Domain Services definen operaciones de negocio relacionadas con la creación y consulta de reseñas, delegando la persistencia al repositorio.
 
-| **Atributo**     | **Tipo**     | **Descripción**                                           |
-|------------------|--------------|-----------------------------------------------------------|
-| `id`             | `Long`       | Identificador único.                                      |
-| `email`          | `String`     | Correo electrónico.                                       |
-| `createdAt`      | `Date`       | Fecha de creación.                                        |
-| `updatedAt`      | `Date`       | Fecha de última actualización.                            |
+**ReviewCommandService**
 
-| **Método**       | **Descripción**                        |
-|------------------|----------------------------------------|
-| `getId()`        | Retorna el `id`.                       |
-| `getEmail()`     | Retorna el `email`.                    |
+**Descripción:**  
+Define operaciones de negocio para crear nuevas reseñas.
 
----
+| **Nombre** | **Descripción** |
+|-----------|----------------|
+| `Optional<Review> handle(CreateReviewCommand command)` | Procesa el comando de creación de una reseña y actualiza el rating del estacionamiento. |
 
-| **Entity**: `Parking`                                                                                  |
-|--------------------------------------------------------------------------------------------------------|
-| **Descripción**: Representa el parking objeto de la reseña.                                            |
+**ReviewQueryService**
 
-| **Atributo**       | **Tipo**    | **Descripción**                                         |
-|--------------------|-------------|---------------------------------------------------------|
-| `id`               | `Long`      | Identificador único.                                    |
-| `name`             | `String`    | Nombre del parking.                                     |
-| `address`          | `String`    | Dirección del parking.                                  |
-| `ratePerHour`      | `Float`     | Tarifa por hora.                                        |
-| `totalSpots`       | `int`       | Total de espacios.                                      |
+**Descripción:**  
+Define consultas de reseñas asociadas a un conductor o estacionamiento.
 
-| **Método**         | **Descripción**                        |
-|--------------------|----------------------------------------|
-| `getId()`          | Retorna el `id`.                       |
-| `getName()`        | Retorna el `name`.                     |
+| **Nombre** | **Descripción** |
+|-----------|----------------|
+| `List<Review> handle(GetReviewsByDriverIdQuery query)` | Obtiene todas las reseñas hechas por un conductor. |
+| `List<Review> handle(GetReviewsByParkingIdQuery query)` | Obtiene todas las reseñas de un estacionamiento. |
 
----
 #### 4.2.6.2. Interface Layer
+Esta capa expone operaciones REST para crear y consultar reseñas en el sistema.
 
-Expone los endpoints HTTP para el manejo de reseñas.
+**Controlador: ReviewsController**
 
-| **Controlador**: `ReviewController`                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Gestiona las operaciones CRUD de reseñas.                                                            |
+**Descripción:**  
+Gestiona las operaciones externas relacionadas con la gestión de reseñas en Smart Parking.
 
-| **Método**                              | **Ruta**                                       | **Descripción**                                        |
-|-----------------------------------------|------------------------------------------------|--------------------------------------------------------|
-| `createReview`                          | `POST /api/v1/parkings/{parkingId}/reviews`    | Crea una nueva reseña para el parking dado.           |
-| `getReviewsByParking`                   | `GET /api/v1/parkings/{parkingId}/reviews`     | Lista todas las reseñas de un parking.                |
-| `getReviewById`                         | `GET /api/v1/reviews/{reviewId}`               | Obtiene una reseña por su ID.                         |
-| `updateReview`                          | `PUT /api/v1/reviews/{reviewId}`               | Actualiza rating y/o comentario de una reseña.        |
-| `deleteReview`                          | `DELETE /api/v1/reviews/{reviewId}`            | Elimina una reseña por su ID.                         |
+| **Método** | **Descripción** | **HTTP** | **Respuesta** |
+|-----------|----------------|---------|--------------|
+| `createReview(CreateReviewResource resource)` | Crea una nueva reseña con calificación y comentario | `POST /api/v1/reviews` | Recurso de reseña creada |
+| `getReviewsByParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento | `GET /api/v1/reviews/parking/{parkingId}` | Lista de reseñas |
+| `getReviewsByDriverId(Long driverId)` | Obtiene todas las reseñas hechas por un conductor | `GET /api/v1/reviews/driver/{driverId}` | Lista de reseñas |
 
-**Dependencias**:
-- `ReviewCommandService`
-- `ReviewQueryService`
-- `CreateReviewCommandFromResourceAssembler`
-- `ReviewResourceFromEntityAssembler`
-
----
 #### 4.2.6.3. Application Layer
+Contiene la lógica de aplicación que orquesta los comandos y consultas, comunicándose con los servicios de dominio y los ACL externos.
 
-Orquesta comandos y consultas de reseñas.
+**Clase: ReviewCommandServiceImpl**
 
-| **Servicio**: `ReviewCommandServiceImpl`                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Maneja la lógica de comandos (crear, actualizar, eliminar).                                          |
+**Descripción:**  
+Gestiona la creación de reseñas, validando la existencia de conductor y estacionamiento a través de servicios externos, y actualizando el rating promedio del estacionamiento.
 
-| **Método**                         | **Descripción**                                                                                         |
-|------------------------------------|---------------------------------------------------------------------------------------------------------|
-| `handle(CreateReviewCommand cmd)`  | Verifica existencia de `User` y `Parking`, crea y persiste un nuevo `Review`.                          |
-| `handle(UpdateReviewCommand cmd)`  | Valida y actualiza campos permitidos de `Review`.                                                       |
-| `handle(DeleteReviewCommand cmd)`  | Elimina la reseña y lanza excepción si no existe.                                                       |
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `handle(CreateReviewCommand command)` | Crea una nueva reseña y actualiza el rating del estacionamiento. |
 
-**Dependencias**:
-- `ReviewRepository`
-- `UserQueryService`
-- `ParkingQueryService`
+**Clase: ReviewQueryServiceImpl**
 
----
+**Descripción:**  
+Gestiona las consultas de reseñas por conductor o estacionamiento.
 
-| **Servicio**: `ReviewQueryServiceImpl`                                                                                |
-|-----------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Maneja la lógica de consultas (obtener reseñas).                                                    |
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `handle(GetReviewsByDriverIdQuery query)` | Obtiene todas las reseñas hechas por un conductor específico. |
+| `handle(GetReviewsByParkingIdQuery query)` | Obtiene todas las reseñas de un estacionamiento específico. |
 
-| **Método**                             | **Descripción**                                                                                   |
-|----------------------------------------|---------------------------------------------------------------------------------------------------|
-| `handle(GetReviewByIdQuery q)`         | Recupera un `Review` por su ID.                                                                   |
-| `handle(GetReviewsByParkingQuery q)`   | Recupera todas las `Review` de un `Parking` dado.                                                 |
-| `handle(GetAllReviewsQuery q)`         | Recupera todas las reseñas del sistema.                                                           |
+**ACL: ExternalParkingService**
 
-**Dependencias**:
-- `ReviewRepository`
+**Descripción:**  
+Permite recuperar el nombre del estacionamiento y actualizar su rating promedio desde otro contexto a través de un facade.
 
----
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `getParkingName(Long parkingId)` | Recupera el nombre del estacionamiento. |
+| `updateParkingRating(Long parkingId, Float rating)` | Actualiza la calificación promedio del estacionamiento. |
+
+**ACL: ExternalProfileService**
+
+**Descripción:**  
+Permite recuperar el nombre completo de un conductor desde otro contexto mediante un facade.
+
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `getDriverFullNameByUserId(Long userId)` | Obtiene el nombre completo de un conductor por su userId. |
+
 #### 4.2.6.4. Infrastructure Layer
+Implementa los mecanismos de persistencia para las reseñas, usando Spring Data JPA para operaciones CRUD y consultas especializadas.
 
-Persiste y recupera reseñas de la base de datos.
+**Repositorio: ReviewRepository**
 
-| **Repositorio**: `ReviewRepository`                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Interfaz para persistencia de `Review` (extiende `JpaRepository<Review, Long>`).                     |
+**Descripción:**  
+Administra la persistencia de las reseñas en el sistema.
 
-| **Método**                             | **Descripción**                                                       |
-|----------------------------------------|-----------------------------------------------------------------------|
-| `List<Review> findByParkingId(Long id)`| Obtiene todas las reseñas de un parking.                              |
-| `Optional<Review> findById(Long id)`   | Busca reseña por ID.                                                  |
-| `Review save(Review r)`                | Persiste o actualiza una reseña.                                      |
-| `void deleteById(Long id)`             | Elimina reseña por ID.                                                |
-| `boolean existsById(Long id)`          | Verifica existencia de reseña.                                        |
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `findAllByDriverIdDriverId(Long driverId)` | Obtiene todas las reseñas hechas por un conductor. |
+| `findAllByParkingIdParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento. |
 
----
 #### 4.2.6.5. Component Level Diagram (estructura)
 -**Backend**
 
@@ -3120,148 +3161,101 @@ Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apu
 
 ![Review Context Database Diagram](ChapterIV-images/ReviewsDatabase-Diagram.png)
 
+### 4.2.7. Notification Bounded Context
+Este bounded context gestiona la administración de tokens de notificación FCM y el envío de mensajes push a dispositivos móviles. Incluye el registro y eliminación de tokens asociados a usuarios, así como la composición y despacho de notificaciones hacia dispositivos específicos mediante un servicio de mensajería.
 
-
-
-### 4.2.7. Bounded Context: Notification
 #### 4.2.7.1. Domain Layer
-La capa de dominio de Notifications encapsula la lógica de negocio para la creación y gestión de notificaciones dirigidas a un usuario.
+La capa de dominio encapsula las entidades y objetos de valor relacionados con la gestión de tokens de notificación y los mensajes a enviar.
 
-**Propósito:** Modelar el agregado raíz **Notification** junto con su relación a **User**, asegurando las invariantes del dominio (por ejemplo, tipo y mensaje no vacíos).
+**Entity: FcmToken**
 
-| **Aggregate**: `Notification`                                                                            |
-|----------------------------------------------------------------------------------------------------------|
-| **Descripción**: Representa una notificación asociada a un **User** en el sistema.                        |
+**Descripción:**  
+Representa un token FCM (Firebase Cloud Messaging) vinculado a un usuario, utilizado para enviar notificaciones push.
 
-| **Atributo**    | **Tipo**           | **Descripción**                                         |
-|-----------------|--------------------|---------------------------------------------------------|
-| `id`            | `Long`             | Identificador único de la notificación.                 |
-| `user`          | `User`             | Usuario destinatario de la notificación.                |
-| `type`          | `NotificationType` | Tipo de notificación (e.g. “INFO”, “WARN”, “ERROR”).    |
-| `message`       | `NotificationMessage` | Texto de la notificación.                            |
-| `createdAt`     | `Date`             | Fecha de creación (inmutable).                          |
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `id` | Identificador único del token. | `Long` |
+| `userId` | Identificador del usuario propietario del token. | `Long` |
+| `token` | Token único de dispositivo para recibir notificaciones. | `String` |
 
-| **Método**                                  | **Descripción**                                        |
-|---------------------------------------------|--------------------------------------------------------|
-| `Notification(Long id, User user, NotificationType type, NotificationMessage msg)` | Constructor que valida y crea la notificación. |
-| `getType()`                                 | Retorna el tipo de la notificación.                    |
-| `getMessage()`                              | Retorna el mensaje.                                    |
+**Enity: NotificationMessage**
 
----
+**Descripción:**  
+Representa el contenido de una notificación que será enviada a través de un servicio de mensajería.
 
-| **Value Object**: `NotificationType`                                                                         |
-|--------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Encapsula y valida el tipo de notificación.                                                 |
+| **Atributo** | **Descripción** | **Tipo** |
+|-------------|----------------|---------|
+| `title` | Título de la notificación. | `String` |
+| `body` | Contenido de la notificación. | `String` |
+| `token` | Token de destino (identifica el dispositivo). | `String` |
 
-| **Atributo** | **Tipo** | **Descripción**                         |
-|--------------|----------|-----------------------------------------|
-| `value`      | `String` | Cadena no vacía que identifica el tipo. |
+**Métodos:**
 
-| **Método**                  | **Descripción**                                 |
-|-----------------------------|-------------------------------------------------|
-| `NotificationType(String v)`| Constructor que valida no-nulidad y no-blank.   |
-| `String value()`            | Retorna el tipo encapsulado.                    |
+| **Nombre** | **Descripción** |
+|-----------|----------------|
+| `NotificationMessage(String token, String title, String body)` | Crea un mensaje de notificación con título, cuerpo y token. |
+| `getToken()` | Devuelve el token de destino. |
+| `getTitle()` | Devuelve el título del mensaje. |
+| `getBody()` | Devuelve el cuerpo del mensaje. |
 
----
-
-| **Value Object**: `NotificationMessage`                                                                      |
-|--------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Encapsula y valida el texto de la notificación.                                             |
-
-| **Atributo** | **Tipo** | **Descripción**                           |
-|--------------|----------|-------------------------------------------|
-| `text`       | `String` | Mensaje de la notificación (máx. 500).    |
-
-| **Método**                      | **Descripción**                                |
-|---------------------------------|------------------------------------------------|
-| `NotificationMessage(String t)` | Constructor que valida longitud y no-nulidad. |
-| `String text()`                 | Retorna el texto encapsulado.                  |
-
----
-
-| **Entity**: `User`                                                                                      |
-|---------------------------------------------------------------------------------------------------------|
-| **Descripción**: Representa al destinatario de la notificación.                                         |
-
-| **Atributo**     | **Tipo**   | **Descripción**                               |
-|------------------|------------|-----------------------------------------------|
-| `id`             | `Long`     | Identificador único.                          |
-| `email`          | `String`   | Correo electrónico.                           |
-| `createdAt`      | `Date`     | Fecha de creación.                            |
-| `updatedAt`      | `Date`     | Fecha de actualización.                       |
-
-| **Método**       | **Descripción**                        |
-|------------------|----------------------------------------|
-| `getId()`        | Retorna el `id`.                       |
-| `getEmail()`     | Retorna el `email`.                    |
-
----
 #### 4.2.7.2. Interface Layer
-Expone los endpoints HTTP para la gestión de notificaciones.
+Esta capa expone los endpoints REST para registrar tokens, eliminar tokens y enviar notificaciones.
 
-| **Controlador**: `NotificationController`                                                                            |
-|----------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Gestiona las operaciones CRUD de notificaciones.                                                   |
+**Controlador: TokenController**
 
-| **Método**                      | **Ruta**                                       | **Descripción**                                   |
-|---------------------------------|------------------------------------------------|---------------------------------------------------|
-| `createNotification`            | `POST /api/v1/users/{userId}/notifications`    | Crea una nueva notificación para un usuario.     |
-| `getNotificationsByUser`        | `GET /api/v1/users/{userId}/notifications`     | Lista todas las notificaciones de un usuario.    |
-| `getNotificationById`           | `GET /api/v1/notifications/{notificationId}`   | Obtiene una notificación por su ID.              |
-| `deleteNotification`            | `DELETE /api/v1/notifications/{notificationId}`| Elimina una notificación por su ID.              |
+**Descripción:**  
+Gestiona la operación de registro y eliminación de tokens de notificación FCM.
 
-**Dependencias**:
-- `NotificationCommandService`
-- `NotificationQueryService`
-- `CreateNotificationCommandFromResourceAssembler`
-- `NotificationResourceFromEntityAssembler`
+| **Método** | **Descripción** | **HTTP** | **Respuesta** |
+|-----------|----------------|---------|--------------|
+| `registerToken(Long userId, String token)` | Registra un nuevo token FCM o actualiza el usuario asociado. | `POST /api/v1/notifications/register-token` | `201 Created` |
+| `unregisterToken(String token)` | Elimina un token de FCM del sistema. | `DELETE /api/v1/notifications/unregister-token` | `200 OK` |
 
----
+**Controlador: NotificationController**
+
+**Descripción:**  
+Gestiona el envío de notificaciones push a través de tokens FCM.
+
+| **Método** | **Descripción** | **HTTP** | **Respuesta** |
+|-----------|----------------|---------|--------------|
+| `sendNotification(String token, String title, String body)` | Envía una notificación push a un dispositivo específico. | `POST /api/v1/notifications/send` | `201 Created` |
+
 #### 4.2.7.3. Application Layer
-Orquesta los comandos y consultas de notificaciones.
+Esta capa contiene la lógica de aplicación para coordinar el envío de notificaciones.
 
-| **Servicio**: `NotificationCommandServiceImpl`                                                                  |
-|------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Maneja la lógica de comandos (crear, eliminar).                                                |
+**Clase: NotificationService**
 
-| **Método**                                | **Descripción**                                                              |
-|-------------------------------------------|------------------------------------------------------------------------------|
-| `handle(CreateNotificationCommand cmd)`   | Verifica existencia de `User`, crea y persiste una nueva `Notification`.     |
-| `handle(DeleteNotificationCommand cmd)`   | Elimina la notificación y lanza excepción si no existe.                      |
+**Descripción:**  
+Gestiona el envío de mensajes push a dispositivos a través de un repositorio de mensajería.
 
-**Dependencias**:
-- `NotificationRepository`
-- `UserQueryService`
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `sendNotification(String token, String title, String body)` | Crea y envía un mensaje de notificación utilizando el repositorio de mensajería. |
 
----
-
-| **Servicio**: `NotificationQueryServiceImpl`                                                                   |
-|------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Maneja la lógica de consultas (obtener notificaciones).                                        |
-
-| **Método**                                      | **Descripción**                                             |
-|-------------------------------------------------|-------------------------------------------------------------|
-| `handle(GetNotificationsByUserQuery q)`         | Recupera todas las notificaciones de un usuario dado.       |
-| `handle(GetNotificationByIdQuery q)`            | Recupera una notificación por su ID.                       |
-
-**Dependencias**:
-- `NotificationRepository`
-
----
 #### 4.2.7.4. Infrastructure Layer
-Interacción con la base de datos de notificaciones.
+La capa de infraestructura proporciona persistencia para los tokens FCM y la integración con servicios externos para el envío de notificaciones.
 
-| **Repositorio**: `NotificationRepository`                                                                           |
-|----------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Interfaz para persistencia de `Notification` (extiende `JpaRepository<Notification, Long>`).        |
+**Repositorio: FcmTokenRepository**
 
-| **Método**                                      | **Descripción**                                                  |
-|-------------------------------------------------|------------------------------------------------------------------|
-| `List<Notification> findByUserId(Long id)`      | Obtiene todas las notificaciones de un usuario.                  |
-| `Optional<Notification> findById(Long id)`      | Busca notificación por ID.                                       |
-| `Notification save(Notification n)`              | Persiste o actualiza una notificación.                           |
-| `void deleteById(Long id)`                      | Elimina notificación por ID.                                     |
-| `boolean existsById(Long id)`                   | Verifica existencia de notificación.                             |
+**Descripción:**  
+Administra la persistencia de los tokens de notificación FCM.
+
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `existsByToken(String token)` | Verifica si existe un token específico. |
+| `deleteByToken(String token)` | Elimina un token específico. |
+| `findByUserId(Long userId)` | Obtiene un token por usuario. |
+| `findAllByUserId(Long userId)` | Obtiene todos los tokens asociados a un usuario. |
+| `findByToken(String token)` | Obtiene un token por su valor. |
+
+**Repositorio: NotificationRepository**
+
+**Descripción:**  
+Interfaz de mensajería encargada de enviar notificaciones a dispositivos mediante FCM u otro servicio.
+
+| **Método** | **Descripción** |
+|-----------|----------------|
+| `send(NotificationMessage message)` | Envía una notificación push al dispositivo destino. |
 
 ---
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
@@ -3298,110 +3292,313 @@ La clave foránea `notifications.user_id` asegura que cada notificación esté a
 
 ![Notification Context Database Diagram](ChapterIV-images/NotificationDatabase-Diagram.png)
 
+### 4.2.8. Bounded Context: Device Management
+El Bounded Context de **Device Management** es responsable de gestionar los dispositivos y edge servers asociados a los estacionamientos del sistema Smart Parking. Permite la creación, actualización y consulta de dispositivos (sensores y cámaras) así como de edge servers que actúan como gateway de comunicación en el entorno IoT.
 
-
-
-### 4.2.8. Bounded Context: IoT Management
 #### 4.2.8.1. Domain Layer
-La capa de dominio de Notifications encapsula la lógica para la gestión de los dispositivos IoT.
+La capa de dominio encapsula las entidades principales de gestión de dispositivos y edge servers, junto a sus value objects y servicios de dominio.
 
-**Propósito:** Modelar el agregado raíz **IoTDevice** junto con su relación a **ParkingSpot**, asegurando uan relación de 1 a 1.
+**Aggregate:** Device
 
-| **Aggregate**: `IoTDevice`                                                                        |
-|---------------------------------------------------------------------------------------------------|
-| **Descripción**: Representa una dispositivo instalado en un **ParkingSpot** de un estacionamiento |
+**Descripción:** Representa un dispositivo físico (sensor o cámara) ubicado en un espacio de estacionamiento.
 
-| **Atributo**    | **Tipo**           | **Descripción**                                         |
-|-----------------|--------------------|---------------------------------------------------------|
-| `id`            | `Long`             | Identificador único del dispositivo                     |
-| `parkingSpotId` | `UUID`             | Identificador del espacio de estacionamiento            |
-| `serialNumber`  | `String`           | Número de serie del dispositivo IoT                     |
-| `model`         | `String`           | Modelo del dispositvo IoT                               |
-| `type`          | `String`           | Tipo del dispositivo (sensor)                           |
-| `batery`        | `Integer`          | Nivel de batería del dispositivo                        |
-| `lastCheckIn`   | `LocalDateTime`    | Último registro del espacio ocupado                     |
+|**Atributo**|**Descripción**|**Tipo**|
+| :-: | :-: | :-: |
+|parkingId|Identificador del estacionamiento|ParkingId|
+|parkingSpotId|Identificador del espacio de estacionamiento|ParkingSpotId|
+|spotStatus|Estado actual del espacio|SpotStatus|
+|spotLabel|Etiqueta visible del espacio|String|
+|edgeServerId|Identificador del edge server asignado|EdgeServerId|
+|macAddress|Dirección MAC del dispositivo|String|
+|type|Tipo de dispositivo|DeviceType|
+|operationalStatus|Estado operativo del dispositivo|DeviceStatus|
+|lastCommunication|Fecha y hora de última comunicación|LocalDateTime|
 
-| **Método**                                  | **Descripción**                                        |
-|---------------------------------------------|--------------------------------------------------------|
-| `IoTDevice(Long id, String serialNumber, String status, Integer batery, LocalDateTime lastCheckIn)` | Constructor que valida el dispositivo.|
-| `connect()`                                 | Conecta el dispotivo al sistema.                       |
-| `disconnect()`                              | Desconecta el dispotivo al sistema.                    |
-| `getStatus()`                               | Obtener estado de disponibilidad del espacio.          |
+**Método**
 
----
+|**Método**|**Descripción**|
+| :-: | :-: |
+|Device(Long, UUID, String, String)|Constructor que inicializa un dispositivo asignado a un espacio de estacionamiento.|
+|void updateMissingFields(UpdateDeviceCommand)|Actualiza campos pendientes en un dispositivo.|
 
-| **Value Object**: `Status`                              |
-|---------------------------------------------------------|
-| **Descripción**: Valida el estado des estacionamiento.  |
+**Aggregate:** EdgeServer
 
-| **Atributo** | **Tipo** | **Descripción**                |
-|--------------|----------|--------------------------------|
-| `status`     | `String` | Estado actual del dispositivo. |
+**Descripción:** Representa un servidor perimetral responsable de intermediar la comunicación entre dispositivos y el backend.
 
-| **Método**                  | **Descripción**                                 |
-|-----------------------------|-------------------------------------------------|
-| `getStatus()`               | Obtener estado de disponibilidad del espacio.   |
+|**Atributo**|**Descripción**|**Tipo**|
+| :-: | :-: | :-: |
+|serverId|Identificador único del edge server|String|
+|apiKey|Clave API de autenticación|String|
+|name|Nombre del edge server|String|
+|ipAddress|Dirección IP|String|
+|status|Estado operativo|EdgeServerStatus|
+|lastHeartbeat|Última señal de vida recibida|LocalDateTime|
+|connectedDevicesCount|Cantidad de dispositivos conectados|Integer|
+|parkingId|Identificador del estacionamiento|ParkingId|
 
----
+**Método**
 
-| **Entity**: `ParkingSpot`                                  |
-|------------------------------------------------------------|
-| **Descripción**: Representa el espacio de estacionamiento. |
+|**Método**|**Descripción**|
+| :-: | :-: |
+|EdgeServer(CreateEdgeServerCommand)|Constructor que inicializa un edge server a partir de un comando.|
 
-| **Atributo**     | **Tipo**   | **Descripción**                               |
-|------------------|------------|-----------------------------------------------|
-| `id`             | `UUID`     | Identificador único.                          |
-| `parkingId`      | `Long`     | Identificador del estacionamiento             |
-| `available`      | `Boolean`  | Disponibilidad del espacio                    |
-| `rowIndex`       | `Integer`  | Ubicación en el eje y del estacionamiento     |
-| `columnIndex`    | `Integer`  | Ubicación en el eje x del estacionamiento     |
-| `label`          | `String`   | Etiqueta del espacio de estacionamiento       |
+**Value Objects**
 
-| **Método**                       | **Descripción**                        |
-|----------------------------------|----------------------------------------|
-| `ParkingSpot(parkingId: Long, rowIndex: Integer, columnIndex: Integer, label: String)`|
-| `getId()`                        |: Retorna el valor de `id`              |
-| `getParkingId()`                 |: Retorna el valor de `parkingId`       |
-| `getLabel()`                     |: Retorna el valor de `label`           |
-| `setAvailability(state: Boolean)`|: Define el valor de `available`        |
+**DeviceStatus**
 
----
+**Descripción:**  
+Enumeración que representa los estados operativos posibles de un dispositivo físico en el sistema.
+
+| **Valor**      | **Descripción** |
+|---------------|----------------|
+| `ONLINE`      | El dispositivo está activo y comunicándose correctamente. |
+| `OFFLINE`     | El dispositivo está inactivo o no disponible. |
+| `MAINTENANCE` | El dispositivo se encuentra en mantenimiento preventivo o correctivo. |
+| `ERROR`       | El dispositivo ha reportado un estado de error operativo. |
+
+**DeviceType**
+
+**Descripción:**  
+Enumeración que define los tipos de dispositivos físicos que pueden integrarse al sistema de monitoreo.
+
+| **Valor**           | **Descripción** |
+|--------------------|----------------|
+| `OCCUPANCY_SENSOR` | Sensor de ocupación para detectar vehículos en un espacio de estacionamiento. |
+| `DISTANCE_SENSOR`  | Sensor de distancia para medir la proximidad de objetos o vehículos. |
+| `CAMERA`           | Cámara de videovigilancia para monitoreo visual del estacionamiento. |
+| `NONE`             | Tipo no definido o sin asignación. |
+
+**SpotStatus**
+
+**Descripción:**  
+Enumeración que representa el estado de ocupación actual de un espacio de estacionamiento.
+
+| **Valor**     | **Descripción** |
+|--------------|----------------|
+| `AVAILABLE`  | El espacio está libre y disponible. |
+| `OCCUPIED`   | El espacio está actualmente ocupado. |
+| `RESERVED`   | El espacio está reservado para un vehículo próximo o específico. |
+
+**EdgeServerStatus**
+
+**Descripción:**  
+Enumeración que indica el estado operativo actual de un servidor perimetral (edge server).
+
+| **Valor**      | **Descripción** |
+|---------------|----------------|
+| `ONLINE`      | El edge server está en línea y operativo. |
+| `OFFLINE`     | El edge server está fuera de línea o inactivo. |
+| `MAINTENANCE` | El edge server está en proceso de mantenimiento. |
+| `OVERLOADED`  | El edge server está sobrecargado y podría no atender nuevas conexiones. |
+
+**EdgeServerId**
+
+**Descripción:** Record wrapper de String que encapsula un identificador de edge server.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|edgeServerId|String|Identificador único de edge server|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|EdgeServerId()|Constructor que asigna "unassigned" por defecto.|
+
+**ParkingId**
+
+**Descripción:** Record wrapper de Long que encapsula un identificador de estacionamiento.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|parkingId|Long|Identificador del estacionamiento|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|ParkingId()|Constructor por defecto que asigna 0.|
+|ParkingId(Long)|Valida que el valor no sea nulo.|
+
+**ParkingSpotId**
+
+**Descripción:** Record wrapper de UUID que encapsula un identificador de espacio de estacionamiento.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|spotId|UUID|Identificador de espacio de estacionamiento|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|ParkingSpotId(UUID)|Valida que el valor no sea nulo.|
+
+**Domain Services**
+
+**DeviceCommandService**
+
+**Descripción:** Define operaciones de negocio relacionadas con la gestión de dispositivos.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<Device> handle(CreateDeviceCommand)|Crea un dispositivo.|
+|Optional<Device> handle(UpdateDeviceCommand)|Actualiza datos de un dispositivo.|
+|Optional<Device> handle(UpdateDeviceMacAddressCommand)|Actualiza la MAC de un dispositivo.|
+
+**DeviceQueryService**
+
+**Descripción:** Permite consultar información relacionada con los dispositivos.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|List<Device> handle(GetDevicesByParkingIdQuery)|Obtiene dispositivos por estacionamiento.|
+|Optional<Device> handle(GetDeviceByParkingSpotIdQuery)|Obtiene dispositivo por espacio.|
+|List<Device> handle(GetUnassignedDevicesByParkingIdQuery)|Dispositivos sin asignar por estacionamiento.|
+|List<Device> handle(GetDevicesByEdgeServerIdQuery)|Dispositivos asignados a un edge server.|
+
+**EdgeServerCommandService**
+
+**Descripción:** Define operaciones de negocio para la gestión de edge servers.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|Optional<EdgeServer> handle(CreateEdgeServerCommand)|Crea un edge server.|
+
+**EdgeServerQueryService**
+
+**Descripción:** Permite consultar información de edge servers.
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
+| :- | :- |
+|List<EdgeServer> handle(GetEdgeServerByParkingIdQuery)|Obtiene edge servers por estacionamiento.|
+
 #### 4.2.8.2. Interface Layer
-Expone los endpoints HTTP para gestionar la conexion de las entidades.
+Esta capa actúa como punto de entrada para solicitudes externas relacionadas con dispositivos y edge servers. Expone controladores REST que permiten a los clientes realizar operaciones de consulta y modificación.
 
-| **Controlador**: `IoTDeviceController`                                                                            |
-|-------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Gestiona las operaciones CRUD de los dispositivos IoT                                            |
+**Controlador: DevicesController**
 
-| **Método**               | **Ruta**                                       | **Descripción**                                            |
-|--------------------------|------------------------------------------------|------------------------------------------------------------|
-| `getAllStatus`           | `GET /api/v1/users/status`                     | Obtiene el estado de todos los espacios de estacionamiento.|
-| `getStatus`              | `GET /api/v1/users/{parkingSpotId}/status`     | Obtiene el estado del espacio de estacionamiento.          |
-| `setAvailability`        | `POST /api/v1/users/{parkingSpotId}/available` | Define la disponibilidad del espacio de estacionamiento.   |
+**Descripción:**  
+Gestiona las operaciones REST relacionadas con los dispositivos físicos (sensores y cámaras) en los espacios de estacionamiento.
 
----
+|**Método**|**Descripción**|**HTTP**|**Respuesta**|
+| :-: | :-: | :-: | :-: |
+|updateDevice(UUID, UpdateDeviceResource)|Actualiza los atributos de un dispositivo existente.|PUT /api/v1/devices/{deviceId}|Dispositivo actualizado|
+|updateDeviceMacAddress(Long, String)|Actualiza la dirección MAC de un dispositivo.|PATCH /api/v1/devices/{deviceId}|Dispositivo actualizado|
+|getDevicesByEdgeServerId(String)|Obtiene la lista de dispositivos asignados a un edge server.|GET /api/v1/devices/edge-server/{edgeServerId}|Lista de dispositivos|
+|getUnassignedDevicesByParkingId(Long)|Obtiene los dispositivos de un estacionamiento que no tienen edge server asignado.|GET /api/v1/devices/unassigned/{parkingId}|Lista de dispositivos|
+
+**Controlador: EdgeServersController**
+
+**Descripción:**  
+Gestiona las operaciones REST relacionadas con los edge servers, permitiendo su creación y consulta por estacionamiento.
+
+|**Método**|**Descripción**|**HTTP**|**Respuesta**|
+| :-: | :-: | :-: | :-: |
+|createEdgeServer(CreateEdgeServerResource)|Crea un nuevo edge server con sus atributos iniciales.|POST /api/v1/edge-servers|Edge server creado|
+|getEdgeServersByParkingId(Long)|Obtiene la lista de edge servers asociados a un estacionamiento.|GET /api/v1/edge-servers/parking/{parkingId}|Lista de edge servers|
+
+**ACL: DevicesContextFacade**
+
+**Descripción:**  
+Actúa como punto de integración entre contextos para crear dispositivos desde otros bounded contexts. Expone una operación de creación de dispositivo encapsulando la lógica de dominio correspondiente.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|void createDevice(Long, UUID, String, String)|Permite crear un dispositivo desde otro contexto utilizando un facade como intermediario.|
+
 #### 4.2.8.3. Application Layer
-| **Servicio**: `IoTDeviceQueryServiceImpl`                                        |
-|-------------------------------------------------------------------------------------|
-| **Descripción**: Maneja la lógica de estado.                                        |
+Esta capa contiene la lógica de aplicación, coordinando la ejecución de comandos y consultas relacionados con dispositivos y edge servers. Encapsula la orquestación de reglas de negocio usando los servicios de dominio y repositorios de infraestructura.
 
-| **Método**                             | **Descripción**                                             |
-|----------------------------------------|-------------------------------------------------------------|
-| `handle(GetAllStatus q)`               | Recupera todos los estados en el estacionamiento.           |
-| `handle(GetStatusByIdQuery q)`         | Recupera el estado de un estacionamiento dadoio dado.       |
-| `handle(SetAvailabiltyByIdQuery q)`    | Establece la disponibilidad de un estacionamiento dado.     |
+**Clase: DeviceCommandServiceImpl**
 
----
+**Descripción:**  
+Gestiona los comandos relacionados con dispositivos, incluyendo creación, actualización de datos y modificación de la dirección MAC.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(CreateDeviceCommand)|Crea un nuevo dispositivo físico en un espacio de estacionamiento, asociando su metadata y estado inicial.|
+|handle(UpdateDeviceCommand)|Actualiza la información operativa y asociativa de un dispositivo existente.|
+|handle(UpdateDeviceMacAddressCommand)|Actualiza la dirección MAC registrada de un dispositivo.|
+
+**Clase: EdgeServerCommandServiceImpl**
+
+**Descripción:**  
+Gestiona los comandos relacionados con la creación de edge servers, asegurando la unicidad del serverId y configurando sus atributos iniciales.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(CreateEdgeServerCommand)|Crea un nuevo edge server validando la unicidad de su identificador.|
+
+**Clase: DeviceQueryServiceImpl**
+
+**Descripción:**  
+Gestiona las consultas relacionadas con dispositivos en función de criterios como estacionamiento, espacio de parqueo o edge server asignado.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(GetDevicesByParkingIdQuery)|Obtiene la lista de dispositivos físicos asignados a un estacionamiento específico.|
+|handle(GetDeviceByParkingSpotIdQuery)|Obtiene un dispositivo por su espacio de estacionamiento (spotId).|
+|handle(GetUnassignedDevicesByParkingIdQuery)|Recupera dispositivos de un estacionamiento que no tienen edge server asignado.|
+|handle(GetDevicesByEdgeServerIdQuery)|Obtiene todos los dispositivos asignados a un edge server específico.|
+
+**Clase: EdgeServerQueryServiceImpl**
+
+**Descripción:**  
+Gestiona las consultas relacionadas con edge servers, particularmente listando los servers asociados a un estacionamiento.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|handle(GetEdgeServerByParkingIdQuery)|Obtiene la lista de edge servers asignados a un estacionamiento específico.|
+
+**ACL: DevicesContextFacadeImpl**
+
+**Descripción:**  
+Implementación de un facade de contexto que permite la creación de dispositivos desde otros bounded contexts mediante la invocación de un comando de dominio.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|createDevice(Long, UUID, String, String)|Crea un dispositivo a partir de datos recibidos desde otro contexto, usando un comando de dominio. Lanza una excepción si la creación falla.|
+
 #### 4.2.8.4. Infrastructure Layer
-| **Repositorio**: `IoTDeviceRepository`                                                                           |
-|----------------------------------------------------------------------------------------------------------------------|
-| **Descripción**: Interfaz para persistencia de `IoT Device` (extiende `JpaRepository<Notification, Long>`).      |
+La capa de infraestructura proporciona las implementaciones de persistencia para dispositivos y edge servers. Los repositorios están basados en Spring Data JPA, permitiendo operaciones CRUD y consultas personalizadas.
 
-| **Método**                      | **Descripción**                                                  |
-|---------------------------------|------------------------------------------------------------------|
-| `List<IoTDevice> allStatus()`   | Obtiene el estado de todos los espacios.                         |
-| `String findById(Long id)`      | Busca el estado de un espacio de estacionamiento por ID.         |
-| `void setAvailability()`        | Establecer la disponibilidad de un espacio                       |
+**Repositorio: DeviceRepository**
+
+**Descripción:**  
+Administra la persistencia y recuperación de dispositivos físicos asociados a espacios de estacionamiento.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|findByParkingSpotId_SpotId(UUID)|Obtiene un dispositivo a partir de su espacio de estacionamiento (spotId).|
+|findByParkingId_ParkingId(Long)|Recupera la lista de dispositivos asociados a un estacionamiento específico.|
+|findByParkingIdParkingIdAndEdgeServerIdEdgeServerId(Long, String)|Obtiene los dispositivos de un estacionamiento que no tienen un edge server asignado.|
+|findByEdgeServerIdEdgeServerId(String)|Obtiene la lista de dispositivos conectados a un edge server específico.|
+
+**Repositorio: EdgeServerRepository**
+
+**Descripción:**  
+Gestiona la persistencia de edge servers, permitiendo verificar existencia y consultar servidores asociados a un estacionamiento.
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|existsByServerId(String)|Verifica si un edge server con un identificador dado ya existe en la base de datos.|
+|findByParkingIdParkingId(Long)|Recupera la lista de edge servers asignados a un estacionamiento específico.|
+
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
 ![IoT Management Context Component Diagram](ChapterIV-images/IoTManagementBoundedContextComponentDiagram.png)
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
@@ -3413,130 +3610,112 @@ Expone los endpoints HTTP para gestionar la conexion de las entidades.
 
 
 ### 4.2.9. Bounded Context: Payment
-Gestiona los pagos relacionados con reservas y suscripciones dentro del sistema. Permite registrar, actualizar y consultar el estado de los pagos asociados a una reserva o suscripción.
+El Bounded Context de **Payment** es responsable de gestionar los pagos realizados por los usuarios, ya sea por reservas de estacionamientos o suscripciones en el sistema Smart Parking. Permite crear pagos con datos de tarjeta, diferenciando si son para una reserva o una suscripción. Este contexto implementa una jerarquía de agregados y una estructura de persistencia unificada.
 
 #### 4.2.9.1. Domain Layer
-La capa de dominio encapsula los conceptos clave y reglas de negocio del sistema de pagos. Aquí se encuentran los agregados SubscriptionPayment y ReservationPayment, los cuales representan los pagos realizados por suscripciones mensuales y por reservas individuales, respectivamente.
+La capa de dominio encapsula las entidades centrales relacionadas a pagos. Utiliza una jerarquía de agregados compuesta por **ReservationPayment** y **SubscriptionPayment**, ambas heredan de un value object abstracto **Payment** que centraliza atributos comunes. Define además interfaces de Domain Services que contienen la lógica de negocio transaccional.
 
-**Aggregates:** SubscriptionPayment
+**Aggregates**
 
-**Descripción:** Representa un pago realizado por una suscripción.
+**Aggregate: ReservationPayment**
 
-|**Atributo**|**Descripción**|**Tipo**|
-| :- | :- | :- |
-|subscriptionId|ID de la suscripción asociada.|Integer|
-|amount|Monto pagado.|Double|
-|paidAt|Fecha y hora del pago.|LocalDateTime|
-|status|Estado del pago (PAID, PENDING, FAILED).|String|
-
-**Método**
-
-|**Método**|**Descripción**|
-| :- | :- |
-|isPaid()|Retorna true si el pago está marcado como PAID.|
-|isPending()|Retorna true si el pago está marcado como PENDING.|
-|markAsPaid()|Marca el pago como PAID y actualiza la fecha de pago.|
-|markAsFailed()|Marca el pago como FAILED.|
-|markAsPending()|Marca el pago como PENDING.|
-
-**Aggregate:** ReservationPayment
-
-**Descripción:** Representa un pago realizado por la reserva de un espacio.
+**Descripción:** Representa un pago realizado por la reserva de un estacionamiento.
 
 |**Atributo**|**Descripción**|**Tipo**|
-| :- | :- | :- |
-|reservationId|Identificador de la reserva asociada.|Integer|
-|amount|Monto pagado por la reserva.|Double|
-|paidAt|Fecha y hora en que se realizó el pago.|LocalDateTime|
-|status|Estado del pago (PAID, FAILED).|String (máx. 20)|
+| :-: | :-: | :-: |
+|reservationId|Identificador de la reserva asociada|Long|
 
-**Método**
+**Métodos:**
 
 |**Método**|**Descripción**|
+| :-: | :-: |
+|ReservationPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de reserva con los datos de pago y el reservationId.|
+|boolean isForSubscription()|Indica si el pago es para suscripción (false).|
+|boolean isForReservation()|Indica si el pago es para reserva (true).|
+
+**Aggregate: SubscriptionPayment**
+
+**Descripción:** Representa un pago realizado por una suscripción al sistema.
+
+|**Atributo**|**Descripción**|**Tipo**|
+| :-: | :-: | :-: |
+|subscriptionId|Identificador de la suscripción asociada|Long|
+
+**Métodos:**
+
+|**Método**|**Descripción**|
+| :-: | :-: |
+|SubscriptionPayment(CreatePaymentCommand, Long)|Constructor que inicializa un pago de suscripción con los datos de pago y el subscriptionId.|
+|boolean isForSubscription()|Indica si el pago es para suscripción (true).|
+|boolean isForReservation()|Indica si el pago es para reserva (false).|
+
+**Value Objects**
+
+**Payment**
+
+**Descripción:**  
+Representa un pago genérico que centraliza los atributos comunes para todos los pagos del sistema. Es una entidad abstracta.
+
+**Atributos:**
+
+|**Nombre**|**Tipo**|**Descripción**|
+| :- | :- | :- |
+|userId|Long|Identificador del usuario que realiza el pago|
+|amount|double|Monto del pago|
+|paidAt|LocalDateTime|Fecha y hora de pago|
+|nameOnCard|String|Nombre del titular de la tarjeta|
+|cardNumber|String|Número de la tarjeta de crédito|
+|cardExpiryDate|String|Fecha de expiración de la tarjeta|
+
+**Métodos:**
+
+|**Nombre**|**Descripción**|
 | :- | :- |
-|isPaid()|Verifica si el pago fue exitoso (status = "PAID").|
-|markAsPaid()|Marca el pago como exitoso y registra la fecha de pago.|
-|markAsFailed()|Marca el estado del pago como fallido.|
+|Payment(CreatePaymentCommand)|Constructor que inicializa los atributos comunes del pago.|
+|boolean isForSubscription()|Método abstracto para identificar si es pago de suscripción.|
+|boolean isForReservation()|Método abstracto para identificar si es pago de reserva.|
 
 **Domain Services**
 
-**SubscriptionPaymentCommandService**
+**Descripción:**  
+Los Domain Services en este contexto son **interfaces** que definen operaciones de negocio relacionadas con los aggregates **ReservationPayment** y **SubscriptionPayment**. Permiten separar reglas de negocio que no pertenecen directamente a una entidad o value object.
 
-**Descripción:**
-Define las operaciones de negocio para procesar pagos de suscripción, como crear pagos y actualizar su estado.
+**PaymentCommandService**
 
-|**Nombre**|**Descripción**|
-| :- | :- |
-|Optional<SubscriptionPayment> handle(CreateSubscriptionPaymentCommand command)|Procesa el comando de creación de un pago de suscripción.|
-|Optional<SubscriptionPayment> handle(UpdateSubscriptionPaymentStatusCommand command)|Procesa el comando de actualización de estado de pago de suscripción.|
-
-**ReservationPaymentCommandService**
-
-**Descripción:**
-Define las operaciones de negocio para procesar pagos de reserva, como crear pagos y actualizar su estado.
+**Descripción:**  
+Interfaz que define operaciones de negocio relacionadas con la creación de pagos.
 
 |**Nombre**|**Descripción**|
 | :- | :- |
-|Optional<ReservationPayment> handle(CreateReservationPaymentCommand command)|Procesa el comando de creación de un pago de reserva.|
-|Optional<ReservationPayment> handle(UpdateReservationPaymentStatusCommand command)|Procesa el comando de actualización de estado de pago de reserva.|
+|Optional<ReservationPayment> handleReservationPayment(CreatePaymentCommand command, Long reservationId)|Procesa el comando para crear un nuevo pago de reserva.|
+|Optional<SubscriptionPayment> handleSubscriptionPayment(CreatePaymentCommand command, Long subscriptionId)|Procesa el comando para crear un nuevo pago de suscripción.|
 
-**PaymentQueryService**
-
-**Descripción:**
-Define las operaciones de consulta para obtener información sobre los pagos, ya sea de suscripción o reserva.
-
-|**Nombre**|**Descripción**|
-| :- | :- |
-|List<SubscriptionPayment> handle(GetAllSubscriptionPaymentsQuery query)|Devuelve la lista de pagos de suscripción.|
-|List<ReservationPayment> handle(GetAllReservationPaymentsQuery query)|Devuelve la lista de pagos de reserva.|
 #### 4.2.9.2. Interface Layer
-Esta capa actúa como punto de entrada para operaciones relacionadas con los pagos de suscripción y reserva. A través del controlador REST PaymentController, se exponen endpoints públicos que permiten registrar nuevos pagos, consultar el historial de pagos existentes y actualizar el estado de un pago.
+Esta capa define los puntos de entrada externos para gestionar los pagos. A través de controladores REST se exponen operaciones para crear pagos de reservas y suscripciones.
 
-**Controlador:** PaymentController
+**Controlador: PaymentsController**
 
-**Descripción:**
-Gestiona las operaciones expuestas vía API relacionadas con los pagos de suscripción y reserva.
+**Descripción:**  
+Gestiona las operaciones externas relacionadas con los pagos en Smart Parking.
 
 |**Método**|**Descripción**|**HTTP**|**Respuesta**|
-| :- | :- | :- | :- |
-|createSubscriptionPayment(CreateSubscriptionPaymentResource resource)|Permite registrar un pago de suscripción.|POST /api/v1/payments/subscriptions|Recurso de pago creado.|
-|getAllSubscriptionPayments()|Devuelve todos los pagos de suscripción registrados.|GET /api/v1/payments/subscriptions|Lista de recursos de pago.|
-|updateSubscriptionPaymentStatus(Integer subscriptionPaymentId, UpdatePaymentStatusResource resource)|Actualiza el estado de un pago de suscripción.|PUT /api/v1/payments/subscriptions/{subscriptionPaymentId}/status|Recurso de pago actualizado.|
-|createReservationPayment(CreateReservationPaymentResource resource)|Permite registrar un pago de reserva.|POST /api/v1/payments/reservations|Recurso de pago creado.|
-|getAllReservationPayments()|Devuelve todos los pagos de reserva registrados.|GET /api/v1/payments/reservations|Lista de recursos de pago.|
-|updateReservationPaymentStatus(Integer reservationPaymentId, UpdatePaymentStatusResource resource)|Actualiza el estado de un pago de reserva.|PUT /api/v1/payments/reservations/{reservationPaymentId}/status|Recurso de pago actualizado.|
+| :-: | :-: | :-: | :-: |
+|createReservationPayment(CreatePaymentResource resource, Long reservationId)|Crea un nuevo pago de reserva|POST /api/v1/payments/reservation/{reservationId}|Recurso de pago creado|
+|createSubscriptionPayment(CreatePaymentResource resource, Long subscriptionId)|Crea un nuevo pago de suscripción|POST /api/v1/payments/subscription/{subscriptionId}|Recurso de pago creado|
+
 #### 4.2.9.3. Application Layer
-Esta capa contiene la lógica de aplicación relacionada con la creación, actualización y recuperación de pagos, tanto de suscripción como de reserva. Las clases de servicio SubscriptionPaymentCommandServiceImpl, ReservationPaymentCommandServiceImpl y PaymentQueryServiceImpl manejan los comandos y consultas enviados desde la capa de interfaz, coordinando la ejecución de operaciones a través del dominio y los repositorios.
+La capa de aplicación contiene la lógica de negocio que orquesta la creación de pagos. Coordina los comandos entre la capa de interfaz y la de dominio.
 
-**SubscriptionPaymentCommandServiceImpl**
+**Clase: PaymentCommandServiceImpl**
 
-**Descripción:**
-Implementación del SubscriptionPaymentCommandService que maneja la creación y actualización de pagos de suscripción.
-
-|**Método**|**Descripción**|
-| :- | :- |
-|handle(CreateSubscriptionPaymentCommand)|Maneja la creación de un pago de suscripción.|
-|handle(UpdateSubscriptionPaymentStatusCommand)|Maneja la actualización de estado de un pago de suscripción.|
-
-**ReservationPaymentCommandServiceImpl**
-
-**Descripción:**
-Implementación del ReservationPaymentCommandService que maneja la creación y actualización de pagos de reserva.
+**Descripción:**  
+Gestiona los comandos relacionados con la creación de pagos de reservas y suscripciones.
 
 |**Método**|**Descripción**|
-| :- | :- |
-|handle(CreateReservationPaymentCommand)|Maneja la creación de un pago de reserva.|
-|handle(UpdateReservationPaymentStatusCommand)|Maneja la actualización de estado de un pago de reserva.|
+| :-: | :-: |
+|handleReservationPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de reserva y lo persiste en la base de datos.|
+|handleSubscriptionPayment(CreatePaymentCommand, Long)|Crea un nuevo pago de suscripción y lo persiste en la base de datos.|
 
-**PaymentQueryServiceImpl**
-
-**Descripción:**
-Implementación del PaymentQueryService que maneja las consultas de pagos, tanto de suscripción como de reserva.
-
-|**Método**|**Descripción**|
-| :- | :- |
-|handle(GetAllSubscriptionPaymentsQuery)|Devuelve la lista de pagos de suscripción.|
-|handle(GetAllReservationPaymentsQuery)|Devuelve la lista de pagos de reserva.|
 #### 4.2.9.4. Infrastructure Layer
 Esta capa proporciona las implementaciones de persistencia para los agregados SubscriptionPayment y ReservationPayment. A través de los repositorios SubscriptionPaymentRepository y ReservationPaymentRepository, se gestionan operaciones como guardar nuevos pagos, actualizar estados, buscar por ID o recuperar todos los registros.
 
@@ -3559,6 +3738,7 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 | :- | :- |
 |findById(Integer id)|Encuentra un pago de reserva por su ID.|
 |findAll()|Devuelve todos los pagos de reserva registrados.|
+
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
  Payment Bouded Context es el responsable de gestionar los pagos dentro de SmartParking, este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
 
