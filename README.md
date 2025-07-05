@@ -83,6 +83,7 @@ La tabla de Registro de Versiones del Informe funciona como un historial de cont
 | 4.2.0       | 02/07/2025 | Zarate Cáceres, Victor Ernesto | Añadir Services Documentation for Final Sprint                                                                                                     |
 | 4.3.0       | 04/07/2025 | Arroyo Ormeño, André Alonso    | Actualizacion de user stories y product backlog                                                                                                    |
 | 4.3.1       | 04/07/2025 | Zarate Cáceres, Victor Ernesto | Actualizar Sprint 3 y añadir Student Outcome                                                                                                       |
+| 4.3.2       | 05/07/2025 | Zarate Cáceres, Victor Ernesto | Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services                                                             |
 
 ---
 
@@ -5149,35 +5150,27 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 **Mobile Application:**
 
 - Pantalla de Login
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
 
 - Pantalla de inicio - Busqueda de estacionamiento
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-2.png?raw=true)
 
 - Pantalla de detalles del Parking
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-3.png?raw=true)
 
 - Pantalla de reserva de estacionamiento
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-4.png?raw=true)
 
 - Pantalla de confirmacion de reserva
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-5.png?raw=true)
 
 - Pantalla de pago de reserva
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-6.png?raw=true)
 
 - Pantalla de confirmacion de pago de reserva
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-7.png?raw=true)
 
 - Pantalla de lista de reservas
-
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-8.png?raw=true)
 
 **Web Services:**
@@ -5502,67 +5495,52 @@ Los avances específicos son:
 |                          |                            |                                          |                                                                                      |                     |                    |
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
-Se trabajo en
+Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplicación web se completo la implementación de las funcionalidades de creación y monitoreo de estacionamientos en tiempo real, reservas y reseñas. La aplicación móvil avanzó en la experiencia de usuario para conductores, mientras que los servicios web y la aplicación embebida integraron la gestión de sensores y estados de los espacios. Además, se fortaleció la infraestructura con el Edge Server, permitiendo una operación integral y conectada de todo el sistema. 
 
 **Web Application:**
 - Creación de Cuenta (Driver): Formulario de registro para conductores, con campos como nombre completo, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario y número de identificación.
-
 ![Vista implementada en Sprint 3 - register driver](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20driver.png?raw=true)
 
 - Creación de Cuenta (Parking Owner): Formulario de registro para propietarios de estacionamiento, con campos como nombre, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario, nombre de empresa y número de RUC.
-
 ![Vista implementada en Sprint 3 - register parking owner](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
 
 - Inicio de Sesión: Pantalla de acceso al sistema mediante correo electrónico y contraseña, con opción para registrarse si aún no se tiene una cuenta.
-
 ![Vista implementada en Sprint 3 - login](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
 
 - Creación de Estacionamiento: Pantalla para registrar un nuevo estacionamiento con campos como nombre, descripción, tarifa por hora e imagen, a través de pasos guiados.
-
 ![Vista implementada en Sprint 3 - creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/creation%20of%20parking.png?raw=true)
 
 - Ubicación del Estacionamiento: Pantalla para definir la dirección del estacionamiento mediante selección en un mapa interactivo integrado con Google Maps.
-
 ![Vista implementada en Sprint 3 - add ubication of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/add%20location%20of%20parking.png?raw=true)
 
 - Diseño de Estacionamiento: Herramienta visual para definir la distribución de espacios de parqueo, con funciones para agregar espacios, pasillos, reiniciar u optimizar el diseño.
-
 ![Vista implementada en Sprint 3 - add design of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/design%20of%20parking.png?raw=true)
 
 - Confirmación de Diseño: Resumen de los espacios creados en el diseño (ej. P1, P2), con opciones para regresar, guardar o continuar al siguiente paso.
-
 ![Vista implementada en Sprint 3 - confirmation of creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/confirmation%20creation%20of%20parking.png?raw=true)
 
 - Lista de Estacionamientos: Vista en formato de tarjetas que muestra los estacionamientos creados con detalles como dirección, tarifa, disponibilidad y calificación, además de incluir la opción para registrar un nuevo estacionamiento.
-
 ![Vista implementada en Sprint 3 - confirmation of creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20list.png?raw=true)
 
 - Perfil de Usuario: Sección donde el usuario visualiza y edita su información personal como nombre, ciudad, teléfono, país, nombre de empresa y número de RUC.
-
 ![Vista implementada en Sprint 3 - parking owner account](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/information%20of%20account%20parking%20owner.png?raw=true)
 
 - Monitoreo de Estacionamiento: Panel que muestra en tiempo real el estado de los espacios (disponibles, ocupados o reservados) con herramientas de gestión asociadas.
-
 ![Vista implementada en Sprint 3 - parking home](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20home.png?raw=true)
 
 - Datos de Reservación: Tabla que presenta las reservaciones realizadas con detalles como fecha, conductor, placa, horario, precio total y estado.
-
 ![Vista implementada en Sprint 3 - reservation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/reservation%20data%20parking.png?raw=true)
 
 - Reseñas de Usuarios: Sección que presenta comentarios breves de los usuarios sobre el servicio de estacionamiento, incluyendo calificaciones y fechas de publicación.
-
 ![Vista implementada en Sprint 3 - review parking]()
 
 - Dashboard de Análisis: Pantalla con gráficos de uso por hora, uso semanal, ingresos mensuales y duración promedio de las reservaciones, orientada a la toma de decisiones.
-
 ![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/dashboard%20of%20parking.png?raw=true)
 
 - Device Monitoring: Pantalla que muestra información en tiempo real de un Edge Server, incluyendo su estado, ID, IP, API Key, y dispositivos conectados, con una lista de sensores detallada por tipo, estado, etiqueta de espacio y última comunicación, además de opciones para paginar y consultar sensores específicos.
-
 ![Vista implementada en Sprint 3 - device monitoring of parking]()
 
 - Perfil de Estacionamiento: Vista detallada de un estacionamiento específico que incluye nombre, dirección, tarifa por hora e imagen.
-
 ![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20profile.png?raw=true)
 
 **Mobile Application:**
@@ -5570,9 +5548,21 @@ Se trabajo en
 
 **Web Services:**
 ![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-1.png)
+![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-2.png)
+![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-3.png)
+![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-4.png)
 
 **Embedded Application:**
-![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/spot-estado%20disponible.png?raw=true)
+
+- Spot Estado Disponible
+![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/ExecutionEvidenceScreenshot-1.png?raw=true)
+
+- Spot Estado Ocupado
+![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/ExecutionEvidenceScreenshot-2.png?raw=true)
+
+- Spot Estado Reservado
+![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/ExecutionEvidenceScreenshot-3.png?raw=true)
+
 
 **Edge Server:**
 ![Vista implementada en Sprint 3 - Edge Server](ChapterVI-images/Sprint3/EdgeServer/añadir%20estado%20disponible.png?raw=true)
@@ -5716,24 +5706,24 @@ Se trabajo en
 
 #### 6.2.3.9. Team Collaboration Insights during Sprint
 **Web Application**
-![Analiticos de Colaboracion: Web App -  Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Analytics.png?raw=true)
-![Commits: Web App -  Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Commits.png?raw=true)
+![Analiticos de Colaboracion: Web App - Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web App - Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Commits.png?raw=true)
 
 **Mobile Application:**
-![Analiticos de Colaboracion: Mobile App -  Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Analytics.png?raw=true)
-![Commits: Mobile App -  Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Commits.png?raw=true)
+![Analiticos de Colaboracion: Mobile App - Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Mobile App - Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Commits.png?raw=true)
 
 **Web Services:**
-![Analiticos de Colaboracion: Web Services -  Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Analytics.png?raw=true)
-![Commits: Web Services -  Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Commits.png?raw=true)
+![Analiticos de Colaboracion: Web Services - Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Web Services - Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Commits.png?raw=true)
 
 **Embedded Application:**
-![Analiticos de Colaboracion: Embedded App -  Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
-![Commits: Embedded App -  Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
+![Analiticos de Colaboracion: Embedded App - Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Embedded App - Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
 
 **Edge Server:**
-![Analiticos de Colaboracion: Edge Server -  Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
-![Commits: Edge Server -  Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Commits.png?raw=true)
+![Analiticos de Colaboracion: Edge Server - Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
+![Commits: Edge Server - Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Commits.png?raw=true)
 
 
 ## 6.3. Validation Interviews
