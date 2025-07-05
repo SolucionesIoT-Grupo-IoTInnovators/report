@@ -409,6 +409,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         En la planificación del despliegue, el equipo celebró sesiones para definir objetivos de lanzamiento. Cada integrante lideró una tarea, consolidando un liderazgo compartido en todas las áreas críticas.
         <br><br>
         TF1:<br>
+        En esta última fase del proyecto, se realizaron pruebas funcionales de las versiones finales y se ajustaron detalles antes del despliegue. El trabajo se organizó por tareas específicas, asegurando que todo esté listo para su presentación. Se colaboró activamente para revisar errores, validar el funcionamiento general y asegurar que la solución cumpla con lo propuesto desde el inicio.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -421,6 +422,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Se implementó un trabajo de guia conjunta sobre la incorporación y revisión de tareas. Esto promovió un liderazgo distribuido, aceleró la curva de aprendizaje y fortaleció el sentido de pertenencia.
         <br><br>
         TF1:<br>
+        Durante esta etapa final, se buscó mantener una coordinación clara en el equipo para asegurar que cada miembro cumpliera su rol. Se promovió un liderazgo compartido, donde todos participaron activamente en la toma de decisiones, aportando desde sus responsabilidades. Esto permitió mantener un ritmo constante de trabajo y resolver las tareas pendientes de forma organizada.
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
@@ -433,6 +435,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Para la elaboración de la landing page, el equipo tomo decisiones de manera conjunta. Cada propuesta de esquema UI fue votada y iterada, asegurando un producto final alineado con las necesidades de los usuarios.
         <br><br>
         TF1:<br>
+        Durante esta etapa, se evidenció un liderazgo compartido que permitió mantener la organización y el enfoque del equipo. Se promovió constantemente la participación activa de todos, especialmente en momentos clave como la elaboración de la landing page, donde cada decisión fue tomada de forma conjunta. Esta dinámica fortaleció la colaboración y aseguró que el resultado reflejara los aportes y expectativas del grupo.
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
@@ -445,6 +448,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Al diseñar la arquitectura de los servicios IoT y la integración con la app móvil, se organizaron proceso de revisión de código y buenas prácticas. Esto fomento la transferencia de conocimiento y fortaleció las habilidades de liderazgo de cada participante.
         <br><br>
         TF1:<br>
+        Durante esta etapa, se brindó apoyo al equipo mediante la propuesta de formatos que facilitaron el avance de distintas secciones del trabajo. Además, se participó activamente en las coordinaciones grupales, promoviendo la colaboración y un liderazgo compartido. La revisión conjunta del código y el diseño de la arquitectura también fortalecieron las habilidades técnicas y permitieron que todos aportaran al desarrollo del proyecto.
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
@@ -457,6 +461,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         El equipo estableció roles rotativos de liderazgo en las reuniones, permitiendo que cada integrante coordinara la planificación de sprints y facilitara la toma de decisiones colectivas. Esto reforzó la responsabilidad compartida y garantizó que las ideas de todos fueran valoradas.
         <br><br>
         TF1:<br>
+        A lo largo de esta fase, el grupo logró organizarse eficazmente mediante la asignación clara de tareas y el uso de herramientas como GitHub para monitorear avances. Se fomentó un liderazgo compartido con roles rotativos en las reuniones, lo que permitió una participación equitativa y decisiones consensuadas. También se promovió la responsabilidad individual y el apoyo mutuo, fortaleciendo así la cohesión y el compromiso del equipo.
         <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto  <br>
@@ -481,6 +486,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Se trabajó de forma conjunta con la revisión y mejora de los diagramas, coordinando sesiones grupales para consensuar cambios y garantizar su coherencia con los requerimientos técnicos. Asimismo, se organizaron reuniones de revisión de código y votaciones colaborativas en el diseño de los productos, garantizando que cada propuesta respondiera a las necesidades de los usuarios. Finalmente, se planificaron los objetivos de lanzamiento y se evaluaron continuamente las aplicaciones en desarrollo, permitiendo la obtención de resultados sólidos y alineados con la visión inicial.
         <br><br>
         TF1:<br>
+        Durante esta etapa del proyecto, se consolidó un liderazgo compartido basado en la comunicación constante, la toma de decisiones conjunta y la distribución equitativa de tareas. Se trabajó activamente en la revisión técnica de diagramas y código, organizando espacios colaborativos para consensuar mejoras. La coordinación grupal fue clave para asegurar el cumplimiento de los objetivos del entregable, reforzando la cohesión del equipo y asegurando que el desarrollo se mantuviera alineado con la visión del producto y las necesidades de los usuarios.
       </td>
     </tr>
     <!--Segundo Criterio-->
@@ -504,8 +510,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         TF1:<br>
         Propicié un ambiente de trabajo colaborativo al participar en la revisión y mejora de las user stories, escuchando las opiniones del equipo y proponiendo ajustes consensuados. Contribuí en la planificación de tareas al actualizar el product backlog, organizando las prioridades y definiendo objetivos claros para las siguientes etapas del proyecto. Este trabajo permitió que el equipo contara con una visión ordenada y estructurada de las tareas pendientes, facilitando así el cumplimiento de los objetivos establecidos en los plazos acordados.
         <br><br>
-        TF1:<br>
-        <br><br>
         <!--Cesar-->
         Castilla Pachas, César Antonio <br>
         TB1:<br>Para la entrega de este informe se coordino de manera grupal todos los pendientes de este proyecto trabajando de manera colaborativa, cumplinedo metas y objetivos para entregar un buen informe.<br><br>
@@ -516,6 +520,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Previa la última entrega, se planificaron tareas de documentación y despliegue. Cada integrante se comprometió con objetivos individuales y globales, planificando actividades conjuntas para cumplir con la entrega.
         <br><br>
         TF1:<br>
+        Durante la preparación de esta entrega, se coordinó en equipo la revisión y cierre de los pendientes del proyecto, manteniendo una dinámica colaborativa orientada al cumplimiento de metas comunes. Se establecieron fechas internas para revisar avances y asegurar una integración ordenada de todos los aportes. Se brindó apoyo entre los integrantes, tanto en aspectos técnicos como organizativos, promoviendo un entorno de trabajo solidario y eficiente. Esta organización permitió cumplir con los objetivos definidos y entregar un informe completo y coherente.
         <br><br>
         <!--Joaquin-->
         Cortés Casas, Joaquin Marcelo <br>
@@ -528,6 +533,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Se mantuvo un canal de comunicación continua, donde cualquier idea era bienvenida. Gracias a esto, se rediseñaron conjuntamente las historias de usuario y se ajustaron las prioridades de backlog de forma colaborativan.
         <br><br>
         TF1:<br>
+        Durante esta etapa del proyecto, se establecieron metas semanales que guiaron el avance del equipo, promoviendo un entorno colaborativo mediante reuniones periódicas y revisión conjunta de progresos. La planificación de tareas se realizó de forma colectiva, garantizando que todos los integrantes participaran activamente. Se mantuvo una comunicación constante, lo que permitió rediseñar historias de usuario y reorganizar el backlog de acuerdo a las necesidades del proyecto, fortaleciendo así la cohesión y el compromiso del grupo.
         <br><br>
         <!--Fernando-->
         Diaz Silva, Fernando Josué <br>
@@ -540,6 +546,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Con las primeras versiones de los productos, se organizaron las entrevistas de validación, donde usuarios reales validaron el trabajo realizado. Este enfoque identificó mejoras de usabilidad y permitió planificar acciones correctivas, cumpliendo con los cronogramas establecidos.
         <br><br>
         TF1:<br>
+        Se consolidó un ambiente inclusivo y organizado, en el que se promovió la colaboración equitativa y el respeto entre los integrantes. Las metas fueron definidas en conjunto y gestionadas a través de herramientas como GitHub, lo que permitió un seguimiento claro del progreso. Además, se llevaron a cabo entrevistas de validación con usuarios reales, lo que facilitó la identificación de oportunidades de mejora y la planificación de acciones correctivas, todo dentro de los plazos establecidos para la entrega.
         <br><br>
         <!--Johan-->
         Godoy, Johan Príncipe <br>
@@ -552,6 +559,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Para la integración de los sensores IoT, el equipo evaluo el desarrollo para mantener objetivos realistas. De esta manera, se cumplió el objetivo de tener una versión candidata lista para pruebas antes del siguiente sprint.
         <br><br>
         TF1:<br>
+        Se coordinó de forma conjunta la asignación de tareas, promoviendo un entorno colaborativo donde se resolvieron dudas y se realizaron correcciones mediante canales de comunicación activos. Se fomentó el respeto y la planificación grupal como base para alcanzar los objetivos. Además, en el proceso de integración de los sensores IoT, se evaluó el desarrollo con realismo, logrando así contar con una versión candidata funcional lista para pruebas antes del siguiente sprint.
         <br><br>
         <!--Josty-->
         Tafur Gonzales, Josty Gerardo <br>
@@ -564,6 +572,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         El equipo definió metas semanales claras, asignando tareas según las fortalezas de cada miembro. Este proceso transparente permitió que todos conocieran el progreso global y contribuyeran activamente al cumplimiento de hitos.
         <br><br>
         TF1:<br>
+        Se acordó en equipo la distribución de tareas y la metodología de trabajo, utilizando GitHub como herramienta principal para organizar y supervisar el avance. Se priorizó la participación activa y equitativa, fomentando un entorno inclusivo donde cada integrante aportó desde sus fortalezas. Las metas semanales definidas en conjunto facilitaron el cumplimiento ordenado de los hitos establecidos y promovieron un trabajo colaborativo sostenido.
         <br><br>
         <!--Victor-->
         Zarate Caceres, Victor Ernesto<br>
@@ -589,6 +598,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         Se promovió un entorno inclusivo mediante reuniones de revisión abiertas en las que se aportaron ajustes a los diagramas de componentes. Se coordinó la planificación de la documentación y el despliegue, asignando objetivos individuales y globales traducidos en actividades conjuntas y metas semanales alineadas con las fortalezas de cada miembro. Se mantuvo un canal de comunicación constante que permitió la reestructuración colaborativa de las historias de usuario y la priorización dinámica del backlog. Además, se llevaron a cabo entrevistas de validación con usuarios reales para definir acciones correctivas.
         <br><br>
         TF1:<br>
+        Durante esta etapa del proyecto, se mantuvo una coordinación constante entre los integrantes del equipo, promoviendo un entorno de trabajo colaborativo y respetuoso. Se distribuyeron tareas de forma equitativa y se definieron metas comunes, permitiendo un avance ordenado. El uso de herramientas de gestión y comunicación facilitó la organización de actividades y la resolución de dificultades. Se realizaron sesiones de revisión para validar el desarrollo y ajustar aspectos técnicos y funcionales según las necesidades del proyecto. Gracias al compromiso grupal, se logró cumplir con los objetivos establecidos dentro del plazo previsto.
       </td>
     </tr>
   </table>
