@@ -5929,7 +5929,7 @@ En materia de confianza, propuso añadir autenticación adicional en el pago (OT
 
 ### 6.3.3. Evaluaciones según heurísticas
 
-#### UX Heuristics & Principles Evaluation – SmartParking Web App (Panel Propietarios)
+**UX Heuristics & Principles Evaluation – SmartParking Web App (Panel Propietarios)**
 
 Usability – Inclusive Design – Information Architecture
 
@@ -5943,13 +5943,13 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### SITE / APP A EVALUAR
+**SITE / APP A EVALUAR**
 
 *SmartParking – Web App (Panel para propietarios)*
 
 ---
 
-#### TAREAS A EVALUAR
+**TAREAS A EVALUAR**
 
 1. Registro / inicio de sesión
 2. Creación de estacionamiento y diseño del plano
@@ -5960,7 +5960,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### ESCALA DE SEVERIDAD
+**ESCALA DE SEVERIDAD**
 
 | Nivel | Descripción                                                                 |
 | ----- | --------------------------------------------------------------------------- |
@@ -5971,7 +5971,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### TABLA RESUMEN
+**TABLA RESUMEN**
 
 | # | Problema                                           | Sev. | Heurística / Principio violado           |
 | - | -------------------------------------------------- | ---- | ---------------------------------------- |
@@ -5985,7 +5985,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### DESCRIPCIÓN DE PROBLEMAS (≥ 2)
+**DESCRIPCIÓN DE PROBLEMAS (≥ 2)**
 
 *Problema #1 – Interfaz por defecto en inglés*
 
@@ -6049,7 +6049,7 @@ Alertar 10 min antes del vencimiento y aplicar cargo automático por extra-tiemp
 
 ---
 
-#### UX Heuristics & Principles Evaluation – SmartParking Mobile App (Conductores)
+**UX Heuristics & Principles Evaluation – SmartParking Mobile App (Conductores)**
 
 Usability – Inclusive Design – Information Architecture
 
@@ -6063,13 +6063,13 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### SITE / APP A EVALUAR
+**SITE / APP A EVALUAR**
 
 *SmartParking – Mobile App (Conductores)*
 
 ---
 
-#### TAREAS A EVALUAR
+**TAREAS A EVALUAR**
 
 1. Login y geolocalización
 2. Búsqueda de estacionamientos cercanos
@@ -6080,7 +6080,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### ESCALA DE SEVERIDAD
+**ESCALA DE SEVERIDAD**
 
 | Nivel | Descripción                                                                 |
 | ----- | --------------------------------------------------------------------------- |
@@ -6091,7 +6091,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### TABLA RESUMEN
+**TABLA RESUMEN**
 
 | # | Problema                                          | Sev. | Heurística violada                |
 | - | ------------------------------------------------- | ---- | --------------------------------- |
@@ -6104,7 +6104,7 @@ Usability – Inclusive Design – Information Architecture
 
 ---
 
-#### DESCRIPCIÓN DE PROBLEMAS (≥ 2)
+**DESCRIPCIÓN DE PROBLEMAS (≥ 2)**
 
 *Problema #1 – Reserva solo mismo-día*
 Severidad 3 · Flexibilidad & eficiencia
