@@ -5465,17 +5465,32 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 Los avances específicos son:
 
 - **Web Application:**
+  - Incorporación del sistema de monitoreo de dispositivos (DeviceMonitoringPage) y componentes asociados.
+  - Integración de Firebase para notificaciones.
+  - Actualización de dependencias, documentación y estructura del router.
+  - Correcciones en propiedades de entidades y mejoras visuales. 
 
 - **Mobile Application:**
+  - Integración con Firebase Messaging para notificaciones push.
+  - Nuevas pantallas como el perfil del conductor y detalles del usuario.
+  - Mejoras visuales y de navegación (registro, login y rutas).
+  - Ajustes en la autenticación y estructura de navegación general. 
 
 - **Web Services:**
+  - La integración y documentación de un sistema de notificaciones por FCM.
+  - Mejoras en el manejo de dispositivos IoT, incluyendo actualización de direcciones MAC.
+  - Configuración de CORS para habilitar nuevos métodos HTTP y despliegue en Azure.
+  - Actualización del datasource para usar bases de datos en la nube (Azure MySQL).
 
 - **Embedded Application:**
+  - Se realizó la subida de los archivos desarrollados previamente en Wokwi, estableciendo la base del software que corre en los dispositivos físicos.
 
 - **Edge Server:**
+  - Se implementó la funcionalidad de comunicación con dispositivos IoT vía MQTT, permitiendo recibir y enviar información entre sensores y servidores en tiempo real.
 
 |       Repository          |           Branch           |                 Commit Id                |                                                            Commit Message                                                       | Commit Message Body | Commited on (Date) |
 | :-----------------------: | :------------------------: | :--------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------ | :------------------ | :----------------: |
+|   smartparking-frontend   |           develop          | e18ec8297f210f85b55800b2242ab7148649bfad | feat: update vehicle plate input mask                                                                                           |                     |     05/07/2025     | 
 |   smartparking-backend    |           develop          | 103071074a64f8fb59d7a9327d0275598072b7b3 | feat(Notifications): add documentation for endpoints of bounded context Notifications                                           |                     |     03/07/2025     |
 |   smartparking-backend    |           develop          | 2de1ee66cba8b9d61e5ccd80eab8d9a379b250a3 | chore: add JSON configuration file to .gitignore                                                                                |                     |     01/07/2025     |
 |    smartparking-mobile    |   features/notifications   | 3828bb943adc8c45ed6ca9ff19cdf308923b05d3 | chore(gitignore): add google-services.json to .gitignore                                                                        |                     |     01/07/2025     |
