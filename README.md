@@ -42,61 +42,72 @@
 
 # Registro de Versiones del Informe
 
-La tabla de Registro de Versiones del Informe funciona como un historial de control de versiones: lista cronológicamente cada entrega del documento, indicando versión, fecha, autor y resumen del cambio realizado, con el propósito de dar trazabilidad y transparencia a la evolución del informe, mostrando de forma clara quién añadió o corrigió qué y cuándo.
+En la siguiente tabla se presenta el registro de versiones del informe con el propósito de tener una lista cronológicamente de cada entrega del documento, indicando la versión, fecha, autor y resumen del cambio realizado. 
 
-
-| **Versión** | **Fecha**  | **Autor**                      | **Descripción de Modificación**                                                                                                                    |
-|-------------|------------|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0.0       | 31/03/2025 | Cortés Casas, Joaquín Marcelo  | Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondiente al primer entregable.   |
-| 1.1.0       | 01/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Startup                                                                                                                                |
-| 1.2.0       | 02/04/2025 | Zarate Caceres, Victor Ernesto | Adición del Solution Profile y Competidores.                                                                                                       |
-| 1.3.0       | 04/04/2025 | Arroyo Ormeño, André Alonso    | Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.                    |
-| 1.4.0       | 05/04/2025 | Arroyo Ormeño, André Alonso    | Adición del To-Be Scenario Mapping.                                                                                                                |
-| 1.5.0       | 08/04/2025 | Zarate Caceres, Victor Ernesto | Adición de User Stories.                                                                                                                           |
-| 1.6.0       | 14/04/2025 | Castilla Pachas, César Antonio | Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.            |
-| 1.7.0       | 16/04/2025 | Zarate Caceres, Victor Ernesto | Adición del segmento objetivo.                                                                                                                     |
-| 1.8.0       | 20/04/2025 | Castilla Pachas, César Antonio | Adición de diagramas de Software Architecture.                                                                                                     |
-| 1.9.0       | 22/04/2025 | Godoy, Johan Príncipe          | Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.                                                                   |
-| 1.10.0      | 23/04/2025 | Cortés Casas, Joaquín Marcelo  | Adición de Bounded Context Canvases para todos los bounded contexts.                                                                               |
-| 1.10.1      | 23/04/2025 | Zarate Caceres, Victor Ernesto | Correción del menú y puntos faltantes en el documento                                                                                              |
-| 1.10.2      | 28/04/2025 | Zarate Caceres, Victor Ernesto | Correciones de enlaces y Student Outcome                                                                                                           |
-| 2.0.0       | 28/04/2025 | Zarate Caceres, Victor Ernesto | Añadir títulos para la entrega parcial (TP)                                                                                                        |
-| 2.1.0       | 30/04/2025 | Principe Godoy, Johan          | Añadir style guidelines for app web, mobile and iot                                                                                                |
-| 2.2.0       | 30/04/2025 | Principe Godoy, Johan          | Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems |
-| 2.2.1       | 30/04/2025 | Principe Godoy, Johan          | Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements                                                  |
-| 2.2.2       | 30/04/2025 | Principe Godoy, Johan          | Corrección de los segmentos objetivos para que estén alineados con el Project Statement                                                            |
-| 2.2.3       | 07/05/2025 | Zarate Cáceres, Victor Ernesto | Corrección de User Stories and Product Backlog                                                                                                     |
-| 2.2.4       | 10/05/2025 | Zarate Cáceres, Victor Ernesto | Correción de Tachnical Stories and Product Backlog                                                                                                 |
-| 2.3.0       | 10/05/2025 | Tafur Gonzales, Josty Gerardo  | Añadir Entrevista de Segmento Propietarios                                                                                                         |                                                                                                                                    
-| 2.3.1       | 11/05/2025 | Zarate Cáceres, Victor Ernesto | Corrección de User Stories and Product Backlog                                                                                                     |
-| 2.3.2       | 12/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Wireframes                                                                                                                     |
-| 2.4.0       | 12/05/2025 | Tafur Gonzales, Josty Gerardo  | Añadir Applications User Flow Diagrams                                                                                                             |
-| 2.5.0       | 12/05/2025 | Cortés Casas, Joaquín Marcelo  | Añadir Entrevistas faltantes                                                                                                                       |
-| 2.6.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto | Sprint Backlog 1                                                                                                                                   |
-| 2.6.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo  | Correccion de Style Guidelines Section                                                                                                             |
-| 2.7.0       | 12/05/2025 | Zarate Caceres, Victor Ernesto | Añadir Evidencia de Ejecucion de Landing Page                                                                                                      |
-| 2.8.0       | 12/05/2025 | Zarate Cáceres, Victor Ernesto | Añadir Collaboration Insights                                                                                                                      |
-| 2.9.0       | 12/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App                                                              |
-| 2.9.1       | 12/05/2025 | Cortés Casas, Joaquín Marcelo  | Correccion de Ubiquitous Language                                                                                                                  |
-| 2.9.2       | 12/05/2025 | Zarate Cáceres, Victor Ernesto | Correccion de Sprint 1                                                                                                                             |
-| 2.9.3       | 13/05/2025 | Zarate Cáceres, Victor Ernesto | Landing Page Deployment Configuration and Evidence                                                                                                 |
-| 2.9.4       | 13/05/2025 | Zarate Cáceres, Victor Ernesto | Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review                                                     |
-| 2.10.0      | 13/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Mock-ups App Mobile                                                                                                            |
-| 2.11.0      | 13/05/2025 | Castilla Pachas, César Antonio | Añadir Applications Wireframes and Mock-ups Web App                                                                                                |
-| 2.12.0      | 13/05/2025 | Castilla Pachas, César Antonio | Añadir Application wireframess and mock-ups                                                                                                        |
-| 3.0.0       | 02/06/2025 | Cortés Casas, Joaquín Marcelo  | Corrección de estructura de texto para conversión a PDF                                                                                            |
-| 3.0.1       | 07/06/2025 | Arroyo Ormeño, André Alonso    | Actualizar diagramas de componentes de cada Bounded Context.                                                                                       |
-| 3.1.0       | 15/06/2025 | Zarate Cáceres, Victor Ernesto | Añadir Development Evidence for Sprint Review                                                                                                      |
-| 3.1.1       | 18/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar evaluaciones según heurísticas de las entrevistas de validación                                                                            |
-| 3.1.2       | 19/06/2025 | Cortés Casas, Joaquín Marcelo  | Agregar video about the video                                                                                                                      |
-| 4.0.0       | 25/06/2025 | Zarate Cáceres, Victor Ernesto | Preparación de documento para Final Sprint                                                                                                         |
-| 4.1.0       | 30/06/2025 | Zarate Cáceres, Victor Ernesto | Añadir Development Evidence for Final Sprint                                                                                                       |
-| 4.2.0       | 02/07/2025 | Zarate Cáceres, Victor Ernesto | Añadir Services Documentation for Final Sprint                                                                                                     |
-| 4.3.0       | 04/07/2025 | Arroyo Ormeño, André Alonso    | Actualizacion de user stories y product backlog                                                                                                    |
-| 4.3.1       | 04/07/2025 | Zarate Cáceres, Victor Ernesto | Actualizar Sprint 3 y añadir Student Outcome                                                                                                       |
-| 4.3.2       | 05/07/2025 | Zarate Cáceres, Victor Ernesto | Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services                                                             |
+<table border="1" cellpadding="6" cellspacing="0" style="margin: auto;">
+  <thead>
+    <tr>
+      <th><strong>Versión</strong></th>
+      <th><strong>Fecha</strong></th>
+      <th><strong>Autor</strong></th>
+      <th><strong>Descripción de Modificación</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1.0.0</td><td>31/03/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondientes al primer entregable.</td></tr>
+    <tr><td>1.1.0</td><td>01/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del Startup</td></tr>
+    <tr><td>1.2.0</td><td>02/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del Solution Profile y Competidores.</td></tr>
+    <tr><td>1.3.0</td><td>04/04/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.</td></tr>
+    <tr><td>1.4.0</td><td>05/04/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Adición del To-Be Scenario Mapping.</td></tr>
+    <tr><td>1.5.0</td><td>08/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición de User Stories.</td></tr>
+    <tr><td>1.6.0</td><td>14/04/2025</td><td>Castilla Pachas, César Antonio</td><td>Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.</td></tr>
+    <tr><td>1.7.0</td><td>16/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del segmento objetivo.</td></tr>
+    <tr><td>1.8.0</td><td>20/04/2025</td><td>Castilla Pachas, César Antonio</td><td>Adición de diagramas de Software Architecture.</td></tr>
+    <tr><td>1.9.0</td><td>22/04/2025</td><td>Godoy, Johan Príncipe</td><td>Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.</td></tr>
+    <tr><td>1.10.0</td><td>23/04/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Adición de Bounded Context Canvases para todos los bounded contexts.</td></tr>
+    <tr><td>1.10.1</td><td>23/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección del menú y puntos faltantes en el documento.</td></tr>
+    <tr><td>1.10.2</td><td>28/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Correcciones de enlaces y Student Outcome.</td></tr>
+    <tr><td>2.0.0</td><td>28/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir títulos para la entrega parcial (TP).</td></tr>
+    <tr><td>2.1.0</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Añadir style guidelines for app web, mobile and IoT.</td></tr>
+    <tr><td>2.2.0</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems.</td></tr>
+    <tr><td>2.2.1</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements.</td></tr>
+    <tr><td>2.2.2</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Corrección de los segmentos objetivos para que estén alineados con el Project Statement.</td></tr>
+    <tr><td>2.2.3</td><td>07/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de User Stories and Product Backlog.</td></tr>
+    <tr><td>2.2.4</td><td>10/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de Technical Stories and Product Backlog.</td></tr>
+    <tr><td>2.3.0</td><td>10/05/2025</td><td>Tafur Gonzales, Josty Gerardo</td><td>Añadir Entrevista de Segmento Propietarios.</td></tr>
+    <tr><td>2.3.1</td><td>11/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de User Stories and Product Backlog.</td></tr>
+    <tr><td>2.3.2</td><td>12/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireframes.</td></tr>
+    <tr><td>2.4.0</td><td>12/05/2025</td><td>Tafur Gonzales, Josty Gerardo</td><td>Añadir Applications User Flow Diagrams.</td></tr>
+    <tr><td>2.5.0</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Añadir Entrevistas faltantes.</td></tr>
+    <tr><td>2.6.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Sprint Backlog 1.</td></tr>
+    <tr><td>2.6.1</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de Style Guidelines Section.</td></tr>
+    <tr><td>2.7.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Evidencia de Ejecución de Landing Page.</td></tr>
+    <tr><td>2.8.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Collaboration Insights.</td></tr>
+    <tr><td>2.9.0</td><td>12/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App.</td></tr>
+    <tr><td>2.9.1</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de Ubiquitous Language.</td></tr>
+    <tr><td>2.9.2</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de Sprint 1.</td></tr>
+    <tr><td>2.9.3</td><td>13/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Landing Page Deployment Configuration and Evidence.</td></tr>
+    <tr><td>2.9.4</td><td>13/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review.</td></tr>
+    <tr><td>2.10.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Mock-ups App Mobile.</td></tr>
+    <tr><td>2.11.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireframes and Mock-ups Web App.</td></tr>
+    <tr><td>2.12.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Application wireframes and mock-ups.</td></tr>
+    <tr><td>3.0.0</td><td>02/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de estructura de texto para conversión a PDF.</td></tr>
+    <tr><td>3.0.1</td><td>07/06/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualizar diagramas de componentes de cada Bounded Context.</td></tr>
+    <tr><td>3.1.0</td><td>15/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Development Evidence for Sprint Review.</td></tr>
+    <tr><td>3.1.1</td><td>18/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar evaluaciones según heurísticas de las entrevistas de validación.</td></tr>
+    <tr><td>3.1.2</td><td>19/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar video about the video.</td></tr>
+    <tr><td>4.0.0</td><td>25/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Preparación de documento para Final Sprint.</td></tr>
+    <tr><td>4.1.0</td><td>30/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Development Evidence for Final Sprint.</td></tr>
+    <tr><td>4.2.0</td><td>02/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Services Documentation for Final Sprint.</td></tr>
+    <tr><td>4.3.0</td><td>04/07/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualización de user stories y product backlog.</td></tr>
+    <tr><td>4.3.1</td><td>04/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Actualizar Sprint 3 y añadir Student Outcome.</td></tr>
+    <tr><td>4.3.2</td><td>05/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services.</td></tr>
+  </tbody>
+</table>
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
 
