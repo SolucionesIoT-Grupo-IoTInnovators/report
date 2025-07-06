@@ -1890,8 +1890,11 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Solution Software Design
+
 ## 4.1. Strategic-Level Domain-Driven Design
+
 ### 4.1.1. EventStorming
+
 - **Unstructured Exploration**
 En esta etapa inicial, se identificaron libremente eventos clave del sistema sin estructura definida. Se exploraron acciones como la creación de cuentas, registro de estacionamientos, realización de reservas, actualización de sensores IoT y validaciones de pagos. Esta fase sirvió para reconocer los eventos más relevantes dentro del dominio.
 
@@ -1912,20 +1915,28 @@ Se identificaron los puntos clave que cambian el flujo de la aplicación, como l
 
 ![Pivotal Points](ChapterIV-images/Pivotal%20Points.PNG)
 
+<div style="page-break-after: always;"></div>
+
 - **Commands**
 Se definieron los comandos como intenciones del usuario o del sistema: CreateParkingCommand, AddParkingSpotCommand, UpdateParkingDetailsCommand, ValidateParkingAvailabilityCommand. Cada uno con sus posibles resultados positivos o errores relacionados (validaciones fallidas, datos duplicados, rangos inválidos).
 
 ![Commands](ChapterIV-images/Commands.PNG)
+
+<div style="page-break-after: always;"></div>
 
 - **Policies**
 Se establecieron políticas de negocio automáticas que responden a ciertos eventos. Ejemplos: política de validación de spots duplicados, asignación de rol por tipo de usuario, validación de espacio disponible antes de confirmar reserva o validación de monto pagado.
 
 ![Policies](ChapterIV-images/Policies.PNG)
 
+<div style="page-break-after: always;"></div>
+
 - **Read Models**
 Se identificaron las proyecciones de datos utilizadas por la interfaz de usuario: página de detalles de estacionamiento, lista de espacios, perfil del conductor o propietario, historial de reservas. Cada read model responde a una política que define qué información mostrar y cómo.
 
 ![Read Models](ChapterIV-images/Read%20Models.PNG)
+
+<div style="page-break-after: always;"></div>
 
 - **External Systems**
 Se reconocieron sistemas externos como:
@@ -1935,6 +1946,7 @@ Estos sistemas interactúan con el sistema principal para expandir capacidades f
 
 ![External Systems](ChapterIV-images/External%20Systems.PNG)
 
+<div style="page-break-after: always;"></div>
 
 - **Aggregates**
 Se modelaron los aggregates clave:
@@ -1944,6 +1956,8 @@ Se modelaron los aggregates clave:
 Cada aggregate encapsula consistencia y reglas de negocio en su propio contexto.
 
 ![Aggregates](ChapterIV-images/Aggregates.PNG)
+
+<div style="page-break-after: always;"></div>
 
 #### 4.1.1.1. Candidate Context Discovery
 - **Bounded Context: IAM**
@@ -1960,6 +1974,8 @@ Este contexto gestiona el ciclo de vida de los usuarios, desde el registro, aute
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 - **Bounded Context: Profile**
 
 Este contexto permite a los usuarios completar o modificar su perfil según el rol (conductor o propietario), registrando datos personales, de contacto y validando requisitos mínimos.
@@ -1973,6 +1989,8 @@ Este contexto permite a los usuarios completar o modificar su perfil según el r
 ![Canvas de Bounded Context - Profile](ChapterIV-images/profile-discovery.jpg)
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 - **Bounded Context: Reservations**
 
@@ -1988,6 +2006,8 @@ Encargado de gestionar las reservas de espacios de estacionamiento. Permite crea
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 - **Bounded Context: Parking Management**
 
 Responsable del registro, actualización y consulta de estacionamientos y sus espacios. Cada estacionamiento tiene un propietario y una estructura definida por filas y columnas.
@@ -2001,6 +2021,8 @@ Responsable del registro, actualización y consulta de estacionamientos y sus es
 ![Canvas de Bounded Context - Parking Management](ChapterIV-images/packing-managment-discovery.jpg)
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 - **Bounded Context: Subscription**
 
@@ -2016,6 +2038,8 @@ Este contexto define el modelo de suscripciones de los usuarios. Administra si u
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 - **Bounded Context: Review**
 
 Permite a los usuarios calificar y comentar sobre los estacionamientos luego de usarlos. Las reseñas pueden ser consultadas por otros usuarios como referencia de calidad.
@@ -2029,6 +2053,8 @@ Permite a los usuarios calificar y comentar sobre los estacionamientos luego de 
 ![Canvas de Bounded Context - Review](ChapterIV-images/review-discovery.jpg)
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 - **Bounded Context: IoT Management**
 
@@ -2044,6 +2070,8 @@ Gestiona los dispositivos IoT instalados en cada espacio de estacionamiento, per
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 - **Bounded Context: Payment**
 
 Centraliza la gestión de pagos realizados por usuarios, tanto por reservas como por suscripciones. Registra montos, fechas y estado del pago.
@@ -2058,6 +2086,8 @@ Centraliza la gestión de pagos realizados por usuarios, tanto por reservas como
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 - **Bounded Context: Notification
 
 Permite enviar notificaciones a los usuarios del sistema, relacionadas con el estado de pagos, reservas, suscripciones u otros eventos clave.
@@ -2069,6 +2099,10 @@ Permite enviar notificaciones a los usuarios del sistema, relacionadas con el es
 - Consultar historial de notificaciones por usuario.
 
 ![Canvas de Bounded Context - Notification](ChapterIV-images/notification-discovery.jpg)
+
+---
+
+<div style="page-break-after: always;"></div>
 
 #### 4.1.1.2. Modelado de flujos de mensajes del dominio
 
@@ -2083,6 +2117,8 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 #### 4.1.1.3. Canvases de Bounded Contexts
 1. IAM
 
@@ -2092,6 +2128,8 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 ![Canvas de Bounded Context - Profile](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.2.%20Bounded%20Context_%20Profile.jpg)
 
+<div style="page-break-after: always;"></div>
+
 3. Parking Management
 
 ![Canvas de Bounded Context - Parking Management](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.3%20Bounded%20Context_%20Parking%20Management.jpg)
@@ -2099,6 +2137,8 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 4. Reservation
 
 ![Canvas de Bounded Context - Reservation](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.4.%20Bounded%20Context_%20Reservation.jpg)
+
+<div style="page-break-after: always;"></div>
 
 5. Payment
 
@@ -2108,6 +2148,8 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 ![Canvas de Bounded Context - Review](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.6.%20Bounded%20Context_%20Review.jpg)
 
+<div style="page-break-after: always;"></div>
+
 7. Notification
 
 ![Canvas de Bounded Context - Notification](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.7.%20Bounded%20Context_%20Notification.jpg)
@@ -2116,10 +2158,13 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 ![Canvas de Bounded Context - IoT Management](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.8.%20Bounded%20Context_%20IoT%20Management.jpg)
 
+<div style="page-break-after: always;"></div>
+
 9. Subscription
 
 ![Canvas de Bounded Context - Subscription](ChapterIV-images/The%20Bounded%20Context%20Canvas%20-%204.2.9.%20Bounded%20Context_%20Subscription.jpg)
 
+<div style="page-break-after: always;"></div>
 
 ### 4.1.2. Context Mapping
 **Descripción de Relaciones**
@@ -2147,26 +2192,38 @@ Este mapeo nos permitió visualizar claramente qué eventos afectan a cada conte
 
 ![Context Mapping](ChapterIV-images/CONTEXTMAPING.jpeg)
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ### 4.1.3. Software Architecture
 #### 4.1.3.1. Software Architecture System Landscape Diagram
 Se presenta el diagrama de paisaje del sistema SmartParking, que ilustra la arquitectura general y los componentes principales del sistema.
 
 !["System Landscape Diagram"](ChapterIV-images/c4-landscape-fix.png)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.1.3.2. Software Architecture Context Level Diagrams
 Se describe el diagrama de contexto del sistema SmartParking, que define los límites del sistema y cómo interactúa con los segmentos objetivo y servicios externos.
 
 !["System Context Diagram"](ChapterIV-images/c4-context.png)
+
+<div style="page-break-after: always;"></div>
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
 Se presenta el diagrama de contenedores del sistema SmartParking, que detalla los principales componentes internos y sus interacciones entre sí y con sistemas externos.
 
 !["Container Diagram"](ChapterIV-images/c4-container.png)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.1.3.4. Software Architecture Deployment Diagrams
 Se presenta el diagrama de despliegue del sistema SmartParking, que ilustra cómo se implementan los contenedores en la infraestructura física y virtual.
 
 !["Deployment Diagram"](ChapterIV-images/c4-deployment.png)
+
+<div style="page-break-after: always;"></div>
 
 ## 4.2. Tactical-Level Domain-Driven Design
 ### 4.2.1. Bounded Context: Identity and Access Management
@@ -2358,34 +2415,49 @@ La capa de infraestructura se encarga de la interacción con fuentes externas de
 | :- | :- |
 |findByName(Roles name)|Busca un rol en la base de datos por su nombre. Devuelve un Optional<Role>.|
 |existsByName(Roles name)|Verifica si un rol con el nombre especificado ya existe. Devuelve un boolean.|
+
+<div style="page-break-after: always;"></div>
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 -**Backend**
 
 El IAM Bounded Context gestiona la autenticación y autorización de usuarios, estructurado en capas que incluyen lógica de negocio, coordinación de casos de uso, persistencia e interfaces HTTP. La interfaz recibe solicitudes desde las aplicaciones web y móvil, delegándolas a la capa de aplicación, que a su vez interactúa con la lógica de dominio y con la infraestructura para acceder a datos. Además, expone un servicio externo para coordinar acciones relacionadas con perfiles desde otros bounded contexts, asegurando una integración segura y coherente del sistema de identidad.
 !["IAM Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-IAM.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 -**WebApp**
 
 El diagrama de componentes del IAM Bounded Context representa los elementos encargados de gestionar la autenticación y registro de usuarios dentro de la aplicación SmartParking, incluyendo componentes de interfaz como Sign In Component y Sign Up Component, que capturan credenciales y datos de registro, y un AuthService que centraliza la lógica de autenticación comunicándose con la API REST y gestionando la transformación de datos mediante el IAMAssembler, garantizando una separación limpia entre la vista, la lógica y la comunicación con los servicios backend.
 !["IAM WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-iam-diagram-component.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 -**mobileApp**
 
 El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
 !["IAM MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-iam-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 El diagrama de clases muestra cómo se relacionan las entidades User y Role, así como los objetos de valor asociados a ellas.
 
 !["IAM Class Diagram"](ChapterIV-images/IAMClassDiagram.png)
+
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
 !["IAM Database Diagram"](ChapterIV-images/IAMDatabase-Diagram.png)
 
+<div style="page-break-after: always;"></div>
 
 ### 4.2.2. Bounded Context: Profile Management
+
 El Bounded Context de **Profile** es responsable de la gestión de perfiles de usuarios que interactúan con el sistema. En particular, maneja los perfiles de **Conductores (Drivers)** y **Propietarios de Estacionamientos (Parking Owners)**. Este contexto permite registrar nuevos perfiles y obtener información de los mismos mediante su userId. Las entidades principales son Driver y ParkingOwner, y su estructura está diseñada para asegurar la unicidad de identificadores clave como DNI, RUC y número de teléfono.
 #### 4.2.2.1. Domain Layer
 La capa de dominio encapsula las entidades centrales del sistema de perfiles y contiene la lógica de validación de atributos mediante objetos de valor. Las entidades principales son Driver y ParkingOwner, las cuales heredan de un agregado raíz auditable. Se usan objetos de valor como Phone, Dni y Ruc para encapsular lógica específica y validación.
@@ -2608,6 +2680,8 @@ La capa de infraestructura proporciona la implementación de persistencia para l
 |existsByPhone_Phone(String)|Verifica si existe un propietario con un teléfono dado.|
 |existsByUserId(Long)|Verifica si existe un propietario con un userId dado.|
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 -**Backend**
 
@@ -2615,27 +2689,41 @@ El Profile Bounded Context centraliza la gestión de la información de perfil d
 
 !["Profile Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Profile.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 -**WebApp**
 
 El diagrama de componentes del Profile Bounded Context describe la estructura de componentes dedicados a la gestión de perfiles de propietarios de estacionamientos, donde el Owner Car Edit Component permite visualizar y editar información personal, mientras que el OwnerService orquesta las operaciones y coordina con ProfileAssembler para transformar datos entre el frontend y la API RESTful, estableciendo una arquitectura desacoplada que facilita el mantenimiento y la evolución de las funcionalidades de perfil.
+
 !["Profile Management WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-profile-diagram-component.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 -**MobileApp**
 
 El diagrama de componentes del bounded context Profile muestra los componentes encargados de la gestión de perfiles de conductores en la aplicación móvil, incluyendo un widget para la edición de datos de usuario, un servicio de perfil que centraliza la lógica de negocio relacionada y un ensamblador que adapta los datos entre las estructuras de backend y los modelos del frontend. El flujo parte del Driver Card Edit Widget hacia el DriverService, que transforma los datos usando el ProfileAssembler y gestiona las solicitudes a la API RESTful, permitiendo la edición y recuperación de información de perfil de forma eficiente y estructurada.
+
 !["Profile Management MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-profile-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
 El diagrama de clases muestra la relación entre las entidades Driver y ParkingOwner, así como los objetos de valor asociados a ellas.
 
 !["Profile Management Class Diagram"](ChapterIV-images/SmartParking_Class_Diagram-Profile.png)
+
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.2.6.2. Bounded Context Database Design Diagram
+
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
 !["Profile Management Database Diagram"](ChapterIV-images/ProfileDatabase-Diagram.png)
 
-
+<div style="page-break-after: always;"></div>
 
 ### 4.2.3. Bounded Context: Parking Management
 El Bounded Context de **Parking Management** es responsable de la gestión de los estacionamientos registrados por los propietarios. Este contexto permite la creación de estacionamientos, el registro de spots (espacios disponibles), y la consulta de los mismos. Las entidades principales son **Parking** y **ParkingSpot**, donde un estacionamiento puede contener múltiples espacios. La lógica de agregación, validación y control de espacios está encapsulada en el agregado raíz Parking.
@@ -2814,12 +2902,17 @@ La capa de infraestructura implementa los mecanismos de persistencia para los es
 |existsByNameAndOwnerId(String, Long)|Verifica si existe un estacionamiento con el mismo nombre para un propietario.|
 |existsByAddressAndOwnerId(String, Long)|Verifica si existe un estacionamiento con la misma dirección para un propietario.|
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
 -**Backend**
 
 El Parking Management Bounded Context se encarga de toda la lógica relacionada con la administración de estacionamientos, desde la definición de espacios disponibles hasta la gestión de su estado. Mediante una separación clara por capas, permite recibir solicitudes externas, procesarlas con lógica de aplicación coordinada, aplicar las reglas de dominio y persistir los datos. Ofrece también una fachada que permite a otros bounded contexts consumir funcionalidades específicas del sistema de gestión de parkings de forma segura y acotada.
 
 !["Parking Management Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-ParkingManagement.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 -**WebApp**
 
@@ -2827,25 +2920,36 @@ El diagrama de componentes del Parking Management Bounded Context detalla los el
 
 !["Parking Management WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-parking-management-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 -**MobileApp**
 
 El diagrama de componentes del bounded context Parking Management detalla los componentes que permiten a los conductores visualizar y consultar información de los estacionamientos disponibles. Incluye widgets como Parking Card, Parking Info, Parking Map y Parking Spot Viewer, que presentan desde vistas resumidas hasta mapas interactivos y disponibilidad de espacios en tiempo real. Todos los widgets consumen lógica del ParkingService, encargado de coordinar operaciones y transformar datos mediante el ParkingAssembler. Este ensamblador adapta los DTOs del backend a modelos de dominio del frontend, con las solicitudes a la API RESTful realizándose a través de HTTPS y JSON.
 
 !["Parking Management MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-parking-management-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
 En el diagrama de clases se observa la relación entre las entidades Parking y ParkingSpot, así como los objetos de valor asociados a ellas.
 
 !["Parking Management Class Diagram"](ChapterIV-images/ParkingmanagementClassDiagram.png)
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.3.6.2. Bounded Context Database Design Diagram
+
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
 !["Parking Management Database Design Diagram"](ChapterIV-images/ParkingManagmentDatabase-Diagram.png)
 
+<div style="page-break-after: always;"></div>
+
 ### 4.2.4. Bounded Context: Reservation
+
 El Bounded Context de **Reservation** se encarga de gestionar las reservas de espacios de estacionamiento realizadas por los conductores dentro del sistema Smart Parking. Permite crear reservas indicando la duración, placa de vehículo y espacio de estacionamiento, y consultar reservas por estacionamiento, por conductor o por estado. Este contexto interactúa mediante ACL con los contextos de perfiles y gestión de estacionamientos para validar disponibilidad, calcular precios y actualizar el estado de los espacios, notificando además a los propietarios de nuevas reservas.
 
 #### 4.2.4.1. Domain Layer
@@ -3020,12 +3124,17 @@ Administra la persistencia de reservas en la base de datos.
 | `findReservationsByDriverIdDriverId(Long driverId)` | Obtiene todas las reservas de un conductor |
 | `findReservationsByDriverIdDriverIdAndStatus(Long driverId, ReservationStatus status)` | Obtiene reservas de un conductor filtradas por estado |
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
 -**Backend**
 
 El Reservation Bounded Context permite a los conductores realizar, modificar o cancelar reservas de estacionamiento, conectándose a los sistemas de parqueo y perfil mediante servicios externos. Implementa una arquitectura en capas para organizar la lógica de negocio, persistencia y exposición de servicios vía HTTP, lo que permite una orquestación robusta y modular de las funcionalidades de reserva, manteniendo una clara separación de responsabilidades y promoviendo el desacoplamiento.
 
 !["Reservation Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Reservation.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 -**WebApp**
 
@@ -3033,26 +3142,36 @@ El diagrama de componentes del Reservation Bounded Context modela los componente
 
 !["Reservation WebApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-reservation-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 -**MobileApp**
 
 El diagrama de componentes del bounded context Reservation describe los componentes que gestionan las reservas de estacionamiento realizadas por conductores en la aplicación móvil. Incluye widgets para mostrar tarjetas individuales de reserva y listas filtradas de reservas por estado, ambos conectados a un ReservationService que maneja la lógica de negocio para crear, recuperar y administrar reservas. Un ReservationAssembler se encarga de transformar datos entre DTOs y modelos de dominio, facilitando la presentación adecuada en la aplicación. La API RESTful gestiona las operaciones a través de peticiones seguras JSON sobre HTTPS.
 
 !["Reservation MobileApp Component Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-reservation-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
 El diagrama de clases muestra la relación entre las entidades Reservation y ReservationPayment, así como los objetos de valor asociados a ellas.
 
 !["Reservation Class Diagram"](ChapterIV-images/class-diagram-reservation.png)
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.4.6.2. Bounded Context Database Design Diagram
+
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
 !["Reservation Database Diagram"](ChapterIV-images/ReservationDatabase-Diagram.png)
 
+<div style="page-break-after: always;"></div>
 
 ### 4.2.5. Bounded Context: Subscription
+
 El Bounded Context **Subscription** se encarga de gestionar el estado de suscripción de los usuarios. Define si un usuario posee un plan gratuito (FREE) o ha adquirido una suscripción de pago. También se registran los pagos asociados a la suscripción, permitiendo verificar el historial, estado de pagos y fechas clave como el inicio y la renovación.
 
 #### 4.2.5.1. Domain Layer
@@ -3147,26 +3266,38 @@ Esta capa proporciona la implementación de persistencia del agregado Subscripti
 | :-: | :-: |
 |findByUserId(Integer userId)|Retorna la suscripción del usuario.|
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
 -**Backend**
 
 El Subscription Bounded Context se ocupa de gestionar las suscripciones que otorgan acceso a funcionalidades especiales o descuentos dentro del ecosistema SmartParking. Su diseño por capas permite procesar comandos y consultas de manera ordenada, aplicar reglas de dominio específicas y mantener la información de suscripciones en la base de datos, con interfaces bien definidas que permiten la interacción con las aplicaciones cliente.
 
 !["Subscription Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Subscription.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
 En el diagrama de clases se observa la relación entre las entidades Subscription y SubscriptionPayment, así como los objetos de valor asociados a ellas.
 
 !["Subscription Class Diagram"](ChapterIV-images/SubscriptionClassDiagram.png)
 
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.5.6.2. Bounded Context Database Design Diagram
+
 El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
 !["Subscription Database Design Diagram"](ChapterIV-images/SuscriptionDatabase-Diagram.png)
 
+<div style="page-break-after: always;"></div>
+
 ### 4.2.6. Bounded Context: Review
+
 El Bounded Context de **Review** es responsable de gestionar las reseñas que los conductores realizan sobre los estacionamientos dentro del sistema Smart Parking. Permite crear reseñas con calificación y comentario, asociadas a un conductor y a un estacionamiento, y consultar todas las reseñas por conductor o por estacionamiento. Este contexto integra servicios externos mediante ACL para obtener información de perfiles y estacionamientos, y actualiza la calificación promedio de cada estacionamiento según nuevas reseñas.
 
 #### 4.2.6.1. Domain Layer
@@ -3305,12 +3436,17 @@ Administra la persistencia de las reseñas en el sistema.
 | `findAllByDriverIdDriverId(Long driverId)` | Obtiene todas las reseñas hechas por un conductor. |
 | `findAllByParkingIdParkingId(Long parkingId)` | Obtiene todas las reseñas de un estacionamiento. |
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.6.5. Component Level Diagram (estructura)
+
 -**Backend**
 
 El Review Bounded Context centraliza la creación, almacenamiento y consulta de reseñas de parkings, integrándose con los bounded contexts de perfil y estacionamiento para enriquecer el contenido y garantizar la autenticidad de las evaluaciones. Gracias a sus capas claramente definidas, puede recibir peticiones HTTP, coordinar la lógica necesaria y persistir los datos, además de interactuar con servicios externos para validar información relacionada con usuarios y parkings.
 
 ![Review Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Review.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 -**WebApp**
 
@@ -3318,18 +3454,25 @@ El diagrama de componentes del Review Bounded Context abarca los elementos respo
 
 ![Review Context WebApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/ad20827934884f578ec78ba681c023b98964ddd3/ChapterIV-images/WebApp-Diagram-Component/webapp-review-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 -**MobileApp**
 
 El diagrama de componentes del bounded context Review presenta los componentes de la aplicación móvil responsables de la gestión de opiniones y calificaciones de los conductores sobre estacionamientos. Contiene widgets para mostrar reseñas individuales y listados ordenables y filtrables, todos gestionados por el ReviewService, que centraliza la lógica de negocio y la comunicación con el backend. El ReviewAssembler convierte los datos entre estructuras de backend y modelos de presentación, garantizando coherencia y formato adecuado en la aplicación. La interacción con la API RESTful se realiza mediante peticiones HTTPS con contenido en JSON.
 
 ![Review Context MobileApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/3f0bb5a040063e02b30dc0a5efafd72e097adaab/ChapterIV-images/MobileApp-Diagram-Component/mobileapp-review-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.6.6.1. Domain Layer Class Diagram
+
 En el diagrama de clases del contexto Review, el agregado raíz es Review, que se compone de atributos como id (Long), rating (Rating), comment (Comment), createdAt y updatedAt (Date). Proporciona métodos como getRating(), getComment(), updateRating(int) y updateComment(String) para leer y modificar su estado validando invariantes de dominio (por ejemplo, rango de rating y longitud de comentario). El agregado Review está relacionado con las entidades User y Parking, cada una con sus propios campos esenciales (id, email, name, address, etc.) y métodos de acceso (getId(), getEmail(), getName(), getAddress()).
 
 ![Review Context Class Diagram](ChapterIV-images/ReviewBoundedContextClassDiagram.png)
+
+<div style="page-break-after: always;"></div>
 
 ##### 4.2.6.6.2. Database Design Diagram
 
@@ -3342,7 +3485,10 @@ Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apu
 
 ![Review Context Database Diagram](ChapterIV-images/ReviewsDatabase-Diagram.png)
 
+<div style="page-break-after: always;"></div>
+
 ### 4.2.7. Notification Bounded Context
+
 Este bounded context gestiona la administración de tokens de notificación FCM y el envío de mensajes push a dispositivos móviles. Incluye el registro y eliminación de tokens asociados a usuarios, así como la composición y despacho de notificaciones hacia dispositivos específicos mediante un servicio de mensajería.
 
 #### 4.2.7.1. Domain Layer
@@ -3439,6 +3585,9 @@ Interfaz de mensajería encargada de enviar notificaciones a dispositivos median
 | `send(NotificationMessage message)` | Envía una notificación push al dispositivo destino. |
 
 ---
+
+<div style="page-break-after: always;"></div>
+
 #### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
 
 **- Backend**
@@ -3447,24 +3596,36 @@ El Notification Bounded Context es el encargado del manejo de notificaciones den
 
 ![Notification Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Notification.png?raw=true)
 
+<div style="page-break-after: always;"></div>
 
 **- WebApp**
 
 El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
 
-![Notification Context WebApp Component Diagram](/ChapterIV-images/structurizr-webApp-notification.png)
+![Notification Context WebApp Component Diagram](/ChapterIV-images/structurizr-web-app-notification.png)
+
+<div style="page-break-after: always;"></div>
 
 **- MobileApp**
 
 La arquitectura de la aplicación móvil para el contexto de Notificaciones refleja la estructura en capas del frontend Flutter. Comienza con NotificationScreen, el componente de interfaz que presenta las notificaciones al usuario. Esta pantalla delega el control de estado a NotificationBloc, que gestiona los eventos y estados asociados. A su vez, este interactúa con NotificationApiService, el cual comunica con el backend REST y utiliza NotificationAssembler para adaptar los datos.
 
 ![Notification Context MobileApp Component Diagram](ChapterIV-images/structurizr-mobile-notification.png)
+
+<div style="page-break-after: always;"></div>
+
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
+
 En el diagrama de clases del contexto Notifications, el agregado raíz es Notification, con atributos como id (Long), type (NotificationType), message (NotificationMessage) y createdAt (Date). Ofrece métodos como getType(), getMessage() y el constructor que valida la no-nullidad del mensaje y tipo. El agregado Notification se asocia con la entidad User, definida con campos como id, email y timestamps, y métodos getId()/getEmail().
 
 ![Notification Context Class Diagram](ChapterIV-images/NotificationBoundedContextClassDiagram.png)
+
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.7.6.2. Bounded Context Database Design Diagram
+
 El diagrama de base de datos del bounded context **Notifications** muestra dos tablas principales:
 - **notifications**: con campos `id` (clave primaria, BIGINT), `user_id` (BIGINT, clave foránea a `users.id`), `type` (VARCHAR(50)), `message` (VARCHAR(500)), `created_at` (TIMESTAMP).
 - **users**: con campos `id` (clave primaria, BIGINT), `email` (VARCHAR(255)), `created_at` y `updated_at` (TIMESTAMP).
@@ -3473,7 +3634,10 @@ La clave foránea `notifications.user_id` asegura que cada notificación esté a
 
 ![Notification Context Database Diagram](ChapterIV-images/NotificationDatabase-Diagram.png)
 
+<div style="page-break-after: always;"></div>
+
 ### 4.2.8. Bounded Context: Device Management
+
 El Bounded Context de **Device Management** es responsable de gestionar los dispositivos y edge servers asociados a los estacionamientos del sistema Smart Parking. Permite la creación, actualización y consulta de dispositivos (sensores y cámaras) así como de edge servers que actúan como gateway de comunicación en el entorno IoT.
 
 #### 4.2.8.1. Domain Layer
@@ -3780,13 +3944,17 @@ Gestiona la persistencia de edge servers, permitiendo verificar existencia y con
 |existsByServerId(String)|Verifica si un edge server con un identificador dado ya existe en la base de datos.|
 |findByParkingIdParkingId(Long)|Recupera la lista de edge servers asignados a un estacionamiento específico.|
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.8.5. Bounded Context Software Architecture Component Level Diagrams
+
 **- Backend**
 
 El diagrama de componentes del Device Management API organiza su lógica en cuatro capas: Domain, Application, Infrastructure e Interfaces, que gestionan las reglas de negocio, casos de uso, persistencia de datos y la exposición de operaciones mediante HTTP. Incluye además un Device Context Facade que permite a otros bounded contexts acceder a funcionalidades específicas. La comunicación con la base de datos se realiza vía JDBC y las aplicaciones cliente interactúan a través de JSON/HTTPS.
 
 ![Device Management Context Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0ead8aa8b498deee597672f34c5d07d84507e91a/ChapterIV-images/Diagram-component/Diagram-Component-Device-Management.png?raw=true)
 
+<div style="page-break-after: always;"></div>
 
 **- WebApp**
 
@@ -3794,15 +3962,28 @@ El diagrama de componentes del Device Management Frontend presenta una interfaz 
 
 ![Device Management Context WebApp Component Diagram](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/0ead8aa8b498deee597672f34c5d07d84507e91a/ChapterIV-images/WebApp-Diagram-Component/webapp-device-management-diagram-component.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.8.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.8.6.1. Bounded Context Domain Layer Class Diagrams
+
+ El diagrama muestra las entidades ParkingSpot e IoTDevice con sus atributos y métodos clave, destacando su relación 1:1 dentro del contexto de gestión IoT para monitorear disponibilidad de espacios mediante dispositivos físicos.
+
 ![IoT Management Context Class Diagram](ChapterIV-images/IotManagementBoundedContextClassDiagram.png)
+
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.8.6.2. Bounded Context Database Design Diagram
+
+ El esquema de base de datos detalla las tablas parking_spots e iot_devices, sus campos y claves foráneas, reflejando la estructura persistente del dominio para registrar dispositivos asociados a espacios de estacionamiento.
+ 
 ![IoT Management Context Database Diagram](ChapterIV-images/IotDatabase-Diagram.png)
 
-
+<div style="page-break-after: always;"></div>
 
 ### 4.2.9. Bounded Context: Payment
+
 El Bounded Context de **Payment** es responsable de gestionar los pagos realizados por los usuarios, ya sea por reservas de estacionamientos o suscripciones en el sistema Smart Parking. Permite crear pagos con datos de tarjeta, diferenciando si son para una reserva o una suscripción. Este contexto implementa una jerarquía de agregados y una estructura de persistencia unificada.
 
 #### 4.2.9.1. Domain Layer
@@ -3932,21 +4113,35 @@ Repositorio encargado de gestionar las operaciones de persistencia para el aggre
 |findById(Integer id)|Encuentra un pago de reserva por su ID.|
 |findAll()|Devuelve todos los pagos de reserva registrados.|
 
+<div style="page-break-after: always;"></div>
+
 #### 4.2.9.5. Bounded Context Software Architecture Component Level Diagrams
+
  Payment Bouded Context es el responsable de gestionar los pagos dentro de SmartParking, este contexto permite realizar transacciones seguras, coordinar la lógica asociada y almacenar los datos financieros necesarios. Las capas de interfaz, aplicación, dominio e infraestructura trabajan juntas para ofrecer un procesamiento confiable.
 
 !["Payment Architecture Component Level Diagram"](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/134e306af5fbdbf2e9a9b28aabd6363010424ea0/ChapterIV-images/Diagram-component/Diagram-Component-Payment.png?raw=true)
-#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams11
+
+<div style="page-break-after: always;"></div>
+
+#### 4.2.9.6. Bounded Context Software Architecture Code Level Diagrams
+
 ##### 4.2.9.6.1. Bounded Context Domain Layer Class Diagrams
+
 El diagrama de clases muestra cómo se relacionan las entidades Payment y PaymentMethod, así como los objetos de valor asociados a ellas.
 
 !["Payment Class Diagram"](ChapterIV-images/PaymentClassDiagram.png)
+
+<div style="page-break-after: always;"></div>
+
 ##### 4.2.9.6.2. Bounded Context Database Design Diagram
+
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
 !["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabase-Diagram.png)
 
+---
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Style Guidelines
