@@ -186,7 +186,7 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 
 - **Arroyo Ormeño, André Alonso:** Realicé  la corrección, redistribución y creación de nuevas user stories, ademas de actualizar el product backlog.
 - **Castilla Pachas, César Antonio:** (completar)
-- **Cortés Casas, Joaquín Marcelo:** He mejorado el formato del reporte para la entrega final. Tambien (completar)
+- **Cortés Casas, Joaquín Marcelo:** He mejorado el formato del reporte para la entrega final. Tambien he agregado los sprint planning 3 y sprint backlog 3.
 - **Díaz Silva, Fernando Josué:** (completar)
 - **Godoy, Johan Príncipe:** (completar)
 - **Tafur Gonzales, Josty Gerardo:** (completar)
