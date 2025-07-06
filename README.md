@@ -102,6 +102,10 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
     <tr><td>4.3.0</td><td>04/07/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualización de user stories y product backlog.</td></tr>
     <tr><td>4.3.1</td><td>04/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Actualizar Sprint 3 y añadir Student Outcome.</td></tr>
     <tr><td>4.3.2</td><td>05/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services.</td></tr>
+    <tr><td>4.3.3</td><td>05/07/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Arreglar formato del reporte para correcta conversion a pdf.</td></tr>
+    <tr><td>4.3.4</td><td>05/07/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar Sprint Planning 3 y Sprint Backlog 3.</td></tr>
+
+
   </tbody>
 </table>
 
