@@ -6052,9 +6052,7 @@ Durante el Sprint 3 se abordaron los siguientes aspectos clave:
 Durante este sprint, se trabajó en
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público:
 
-Trello: https://trello.com/b/VSzBJmt4
-
-https://trello.com/b/OUz3UBzQ
+Trello: https://trello.com/b/OUz3UBzQ
 
 **Tabla de control de estado del Sprint**
 
