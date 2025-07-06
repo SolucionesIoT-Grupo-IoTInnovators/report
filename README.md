@@ -4835,8 +4835,11 @@ El video presenta una simulación navegable de los flujos de usuario más import
 <div style="page-break-after: always;"></div>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
+
 ## 6.1. Software Configuration Management
+
 ### 6.1.1. Software Development Environment Configuration
+
 **Project Management:**
 * Discord: Utilizamos Discord como plataforma de aopoyo durante el trabajo conjunto entre los miembros del equipo de desarrollo. Discord proporcionó canales de comunicación en tiempo real para discusiones, reuniones y actualizaciones del proyecto. 
 * WhatsApp: Se utilizó WhatsApp como una herramienta de comunicación para mantener el contacto constante entre los miembros del equipo.
@@ -4867,6 +4870,8 @@ El video presenta una simulación navegable de los flujos de usuario más import
 **Software Documentation:** 
 * GitHub: Empleamos GitHub como plataforma principal para la documentación del código y la colaboración en el desarrollo. Utilizamos el README.md para documentar el proceso de desarrollo. 
 * Structurizr: La plataforma Structurizr se empleó para la creación de los diagramas C4 de nuestro proyecto, para la elaboración de los diagramas se necesita emplear una sintaxis similar a un lenguaje de programación.
+
+<div style="page-break-after: always;"></div>
 
 ### 6.1.2. Source Code Management
 El manejo y la organización de las diferentes modificaciones se llevaron a cabo mediante una organización del startup en Github.
@@ -4918,6 +4923,8 @@ Esta convención asegura que cada mensaje de commit refleje de forma precisa el 
 - **ci:** el cambio afecta a ficheros de configuración y scripts relacionados con la integración continua.
 - **perf:** usado para mejoras de rendimiento.
 - **revert:** si el commit revierte un commit anterior. Debería indicarse el hash del commit que se revierte.
+
+<div style="page-break-after: always;"></div>
 
 ### 6.1.3. Source Code Style Guide & Conventions
 **General:**
@@ -5012,9 +5019,14 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
   - **Configurar variables:** Configuramos las variables de entorno pertinentes
   - **Despliegue Automático:** Validar el despliegue automático desde GitHub, de modo que cada cambio se refleje automáticamente. Adicionalmente, se configurara una rama `develop` para pruebas y validaciones previas al despliegue en producción.
 
+<div style="page-break-after: always;"></div>
+
 ## 6.2. Landing Page, Services & Applications Implementation
+
 ### 6.2.1. Sprint 1
+
 #### 6.2.1.1. Sprint Planning 1
+
 En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
 
 | Sprint # | Sprint 1 |
@@ -5067,7 +5079,10 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 | TS17 | Crear Reserva a través de RESTful API	 |
 | TS18 | Obtener Reservas por ParkingId |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.1.2. Aspect Leaders and Collaborators
+
 Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
 
 En esta primera iteración, se abordaron los siguientes aspectos clave:
@@ -5088,7 +5103,10 @@ En esta primera iteración, se abordaron los siguientes aspectos clave:
 | Tafur Gonzales, Josty Gerardo | JostyTafur       |       C       |       C       |       C       |       C       |       L       |
 | Zarate Caceres, Victor        | ern23zc          |       C       |       C       |       C       |       C       |       C       |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.1.3. Sprint Backlog 1
+
 Durante este sprint, se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfocadas principalmente en dos entregables clave:
 
 - El diseño y desarrollo de la Landing Page.
@@ -5127,6 +5145,8 @@ https://trello.com/b/4jpMjzDd
 | TS16      | Obtener todos los parkings por ownerId                             |     18     | Parkings por ownerId                | GET para listar los parkings de un propietario       | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
 | TS17      | Crear Reserva a través de RESTful API                              |     19     | Crear reserva                       | POST para registrar una reserva con validaciones     | 6h                     | Cortés Casas, Joaquin Marcelo  | Done                                               |
 | TS18      | Obtener Reservas por ParkingId                                     |     20     | Ver reservas por parking            | GET para consultar reservas de un estacionamiento    | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+
+<div style="page-break-after: always;"></div>
 
 #### 6.2.1.4. Development Evidence for Sprint Review
 En este primer Sprint se crearon las versiones iniciales de la Landing Page y Web Appilcation de SmartParking. Los avances específicos son:
@@ -5208,6 +5228,8 @@ En este primer Sprint se crearon las versiones iniciales de la Landing Page y We
 |   smartparking-frontend  |           master           | 342af00380f15f8d18b535011c587d1ca0b8e8b9 | remove .env.development from repo and add to .gitignore                              |                     |     17/04/2025     |
 |   smartparking-frontend  |           master           | 5b9b0cefef70cbfc03bbf2a49ecf0a46a0a1612a | add parking-management bounded context, project dependencies and primevue components |                     |     16/04/2025     |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review
 Se llevaron a cabo pruebas preliminares para verificar la correcta visualización y funcionamiento de la landing page en diferentes dispositivos y navegadores.
 
@@ -5220,6 +5242,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 **Landing Page**
 
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-1.png)
+
+<div style="page-break-after: always;"></div>
 
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-2.png)
 
@@ -5235,6 +5259,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 ![Vista implementada en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/ExecutionEvidenceScreenshot-8.png)
 
+<div style="page-break-after: always;"></div>
+
 **Web Application**
 - Inicio de Sesión: Pantalla de acceso al sistema mediante correo electrónico y contraseña, con opción para registrarse si aún no se tiene una cuenta.
 
@@ -5244,6 +5270,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 ![Vista implementada en Sprint 1 - Web App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20driver.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Creación de Cuenta (Parking Owner): Formulario de registro para propietarios de estacionamiento, con campos como nombre, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario, nombre de empresa y número de RUC.
 
 ![Vista implementada en Sprint 1 - Web App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
@@ -5251,6 +5279,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 - Creación de Estacionamiento: Pantalla para registrar un nuevo estacionamiento con campos como nombre, descripción, tarifa por hora e imagen, a través de pasos guiados.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-4.png)
+
+<div style="page-break-after: always;"></div>
 
 - Ubicación del Estacionamiento: Pantalla para definir la dirección del estacionamiento mediante selección en un mapa interactivo integrado con Google Maps.
 
@@ -5260,6 +5290,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-6.png)
 
+<div style="page-break-after: always;"></div>
+
 - Confirmación de Diseño: Resumen de los espacios creados en el diseño (ej. P1, P2), con opciones para regresar, guardar o continuar al siguiente paso.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-7.png)
@@ -5267,6 +5299,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 - Monitoreo de Estacionamiento: Panel que muestra en tiempo real el estado de los espacios (disponibles, ocupados o reservados) con herramientas de gestión asociadas.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-8.png)
+
+<div style="page-break-after: always;"></div>
 
 - Reseñas de Usuarios: Sección que presenta comentarios breves de los usuarios sobre el servicio de estacionamiento, incluyendo calificaciones y fechas de publicación.
 
@@ -5276,9 +5310,13 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-10.png)
 
+<div style="page-break-after: always;"></div>
+
 - Lista de Estacionamientos: Vista en formato de tarjetas que muestra los estacionamientos creados con detalles como dirección, tarifa, disponibilidad y calificación, además de incluir la opción para registrar un nuevo estacionamiento.
 
 ![Vista implementada en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/ExecutionEvidenceScreenshot-11.png)
+
+<div style="page-break-after: always;"></div>
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
@@ -5317,6 +5355,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 | Profiles: Get parking owner profile | GET | `userId` | `/api/v1/profiles/parking-owner/{userId}` |
 | Profiles: Get driver profile | GET | `userId` | `/api/v1/profiles/driver/{userId}` |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review
 **Landing Page**
 
@@ -5331,6 +5371,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 - Actualizar el archivo de configuración
 
 ![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
+
+<div style="page-break-after: always;"></div>
 
 **Web App**
 
@@ -5352,12 +5394,16 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint
 **Landing Page**
 
 ![Analiticos de Colaboracion: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Analytics.png)
 
 ![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/Landing/CollaborationInsights-Commits.png)
+
+<div style="page-break-after: always;"></div>
 
 **Web Application**
 
@@ -5366,6 +5412,8 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ![Commits: Landing Page - Sprint 1](ChapterVI-images/Sprint1/WebApp/CollaborationInsights-Commits.png)
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2
@@ -5397,6 +5445,8 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 
 ** Story Points en total**
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.2.2. Aspect Leaders and Collaborators
 Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
 En esta iteración, se abordaron los siguientes aspectos clave:
@@ -5421,6 +5471,7 @@ En esta iteración, se abordaron los siguientes aspectos clave:
 | Tafur Gonzales, Josty Gerardo | JostyTafur       |        C      |         C     |        C      |        C      |       C       |       C       |       C       |       L       |       C       |
 | Zarate Caceres, Victor        | ern23zc          |        C      |         C     |        C      |        L      |       C       |       C       |       C       |       C       |       C       |
 
+<div style="page-break-after: always;"></div>
 
 #### 6.2.2.3. Sprint Backlog 2
 Durante este sprint, se trabajó en desarrollar una nueva versión de los entregables pasados, añadiendo nuevas funcionalidades que acerquen nuestros productos al objetivo planteado al inicio del curso.
@@ -5470,6 +5521,7 @@ https://trello.com/b/jqtsgLac
 | US32 | Recibir notificaciones en app móvil         | 31 | Configurar FCM en app móvil | Integrar Firebase Messaging en la app móvil y mostrar notificaciones de prueba                       | 3h  |      Castilla Pachas, César Antonio        | Done |
 | US33 | Recibir notificaciones en app web           | 32 | Configurar FCM en app web   | Configurar Firebase Messaging en el cliente web y mostrar notificaciones en el navegador             | 3h  |      Castilla Pachas, César Antonio        | Done |
 
+<div style="page-break-after: always;"></div>
 
 #### 6.2.2.4. Development Evidence for Sprint Review
 Los avances específicos son:
@@ -5640,6 +5692,8 @@ Los avances específicos son:
 |   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
 |   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review
 |        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
 | :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
@@ -5647,6 +5701,8 @@ Los avances específicos son:
 |                          |                            |                                          |                                                                                      |                     |                    |
 |                          |                            |                                          |                                                                                      |                     |                    |
 |                          |                            |                                          |                                                                                      |                     |                    |
+
+<div style="page-break-after: always;"></div>
 
 #### 6.2.2.6. Execution Evidence for Sprint Review
 En el caso de la Web Application, se trabajo en mejorar los aspectos del entregable pasado, complementando los errores cometido y completando la conexión con los Web Services.
@@ -5657,11 +5713,15 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 - Mejora de pantalla Sign In
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-1.png)
 
+<div style="page-break-after: always;"></div>
+
 - Mejora de pantalla Sign Up
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-2.png)
 
 - Mejora de Toolbar Superior
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-3.png)
+
+<div style="page-break-after: always;"></div>
 
 - Creación de tabla de reservas y boton de exportación
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-4.png)
@@ -5669,9 +5729,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 - Pantalla de creación de Parking
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-5.png)
 
+<div style="page-break-after: always;"></div>
+
 - Pantalla de gestión de Parking
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-6.png)
 ![Vista implementada en Sprint 2 - Web App](ChapterVI-images/Sprint2/WebApp/ExecutionEvidenceScreenshot-7.png)
+
+<div style="page-break-after: always;"></div>
 
 **Mobile Application:**
 
@@ -5681,11 +5745,15 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 - Pantalla de inicio - Busqueda de estacionamiento
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-2.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Pantalla de detalles del Parking
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-3.png?raw=true)
 
 - Pantalla de reserva de estacionamiento
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-4.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 - Pantalla de confirmacion de reserva
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-5.png?raw=true)
@@ -5693,17 +5761,23 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 - Pantalla de pago de reserva
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-6.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Pantalla de confirmacion de pago de reserva
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-7.png?raw=true)
 
 - Pantalla de lista de reservas
 ![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-8.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Web Services:**
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-1.png)
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-2.png)
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-3.png)
 ![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-4.png)
+
+<div style="page-break-after: always;"></div>
 
 **Embedded Application:**
 
@@ -5715,9 +5789,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 ![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20ocupado.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Spot Estado Reservado
 
 ![Vista implementada en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/spot-estado%20reservado.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 **Edge Server:**
 
@@ -5728,6 +5806,8 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 - Añadir Estado Disponible al Spot
 
 ![Vista implementada en Sprint 2 - Edge Server](ChapterVI-images/Sprint2/EdgeServer/añadir%20estado%20disponible.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
@@ -5825,6 +5905,8 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 |   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
 |   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review
 **Landing Page**
 
@@ -5836,9 +5918,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 ![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence2.jpg)
 
+<div style="page-break-after: always;"></div>
+
 - Actualizar el archivo de configuración
 
 ![Proceso de despliegue en Sprint 1 - Landing Page](ChapterVI-images/Sprint1/Landing/SoftwareDeploymentEvidence3.jpg)
+
+<div style="page-break-after: always;"></div>
 
 **Web App**
 
@@ -5850,9 +5936,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
 
+<div style="page-break-after: always;"></div>
+
 - Llenamos las resepctivas variables de entorno y le damos a "Deploy"
 
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
+
+<div style="page-break-after: always;"></div>
 
 - Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
 
@@ -5860,43 +5950,64 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
 
-
+<div style="page-break-after: always;"></div>
 
 **Web Services:**
 - El backend se desplegó en Azure utilizando las configuraciones establecidas, asegurando la compatibilidad con el entorno de ejecución de Java.
 
-
 ![Proceso de despliegue en Sprint 1 - Web Services](ChapterVI-images/Sprint2/WebServices/Deploying%20backend.png?raw=true)
 
+<div style="page-break-after: always;"></div>
 
 **Embedded Application:**
 - Se ha realizado el deploy del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
 ![Proceso de despliegue en Sprint 1 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/deploy-embeddedApp.jpg?raw=true)
 
+<div style="page-break-after: always;"></div>
 
 **Edge Server:**
 - Para esta entrega no se ha realizado deploy del edge serve ya que se requiere un dispositivo fisico para su procedimiento.
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint
 **Web Application**
+
 ![Analiticos de Colaboracion: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Web App - Sprint 2](ChapterVI-images/Sprint2/WebApp/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Mobile Application:**
+
 ![Analiticos de Colaboracion: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Mobile App - Sprint 2](ChapterVI-images/Sprint2/MobileApp/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Web Services:**
+
 ![Analiticos de Colaboracion: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Web Services - Sprint 2](ChapterVI-images/Sprint2/WebServices/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Embedded Application:**
+
 ![Analiticos de Colaboracion: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Embedded App - Sprint 2](ChapterVI-images/Sprint2/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Edge Server:**
+
 ![Analiticos de Colaboracion: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Edge Server - Sprint 2](ChapterVI-images/Sprint2/EdgeServer/CollaborationInsights-Commits.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 ### 6.2.3. Sprint 3
 #### 6.2.3.1. Sprint Planning 3
@@ -5926,6 +6037,8 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 **Sum of Story Points**
 ** Story Points en total**
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.3.2. Aspect Leaders and Collaborators
 Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
 En esta iteración, se abordaron los siguientes aspectos clave:
@@ -5945,6 +6058,7 @@ En esta iteración, se abordaron los siguientes aspectos clave:
 | Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |
 | Zarate Caceres, Victor        | ern23zc          |               |               |               |               |
 
+<div style="page-break-after: always;"></div>
 
 #### 6.2.3.3. Sprint Backlog 3
 Durante este sprint, se trabajó en
@@ -5964,6 +6078,8 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 |           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
 |           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
 |           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+
+<div style="page-break-after: always;"></div>
 
 #### 6.2.3.4. Development Evidence for Sprint Review
 Los avances específicos son:
@@ -6041,6 +6157,8 @@ Los avances específicos son:
 |                          |                            |                                          |                                                                                      |                     |                    |
 |                          |                            |                                          |                                                                                      |                     |                    |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.3.6. Execution Evidence for Sprint Review
 Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplicación web se completo la implementación de las funcionalidades de creación y monitoreo de estacionamientos en tiempo real, reservas y reseñas. La aplicación móvil avanzó en la experiencia de usuario para conductores, mientras que los servicios web y la aplicación embebida integraron la gestión de sensores y estados de los espacios. Además, se fortaleció la infraestructura con el Edge Server, permitiendo una operación integral y conectada de todo el sistema. 
 
@@ -6051,11 +6169,15 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 - Creación de Cuenta (Parking Owner): Formulario de registro para propietarios de estacionamiento, con campos como nombre, correo electrónico, contraseña, ciudad, país, teléfono, tipo de usuario, nombre de empresa y número de RUC.
 ![Vista implementada en Sprint 3 - register parking owner](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Inicio de Sesión: Pantalla de acceso al sistema mediante correo electrónico y contraseña, con opción para registrarse si aún no se tiene una cuenta.
 ![Vista implementada en Sprint 3 - login](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
 
 - Creación de Estacionamiento: Pantalla para registrar un nuevo estacionamiento con campos como nombre, descripción, tarifa por hora e imagen, a través de pasos guiados.
 ![Vista implementada en Sprint 3 - creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/creation%20of%20parking.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 - Ubicación del Estacionamiento: Pantalla para definir la dirección del estacionamiento mediante selección en un mapa interactivo integrado con Google Maps.
 ![Vista implementada en Sprint 3 - add ubication of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/add%20location%20of%20parking.png?raw=true)
@@ -6063,11 +6185,15 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 - Diseño de Estacionamiento: Herramienta visual para definir la distribución de espacios de parqueo, con funciones para agregar espacios, pasillos, reiniciar u optimizar el diseño.
 ![Vista implementada en Sprint 3 - add design of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/design%20of%20parking.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Confirmación de Diseño: Resumen de los espacios creados en el diseño (ej. P1, P2), con opciones para regresar, guardar o continuar al siguiente paso.
 ![Vista implementada en Sprint 3 - confirmation of creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/confirmation%20creation%20of%20parking.png?raw=true)
 
 - Lista de Estacionamientos: Vista en formato de tarjetas que muestra los estacionamientos creados con detalles como dirección, tarifa, disponibilidad y calificación, además de incluir la opción para registrar un nuevo estacionamiento.
 ![Vista implementada en Sprint 3 - confirmation of creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20list.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 - Perfil de Usuario: Sección donde el usuario visualiza y edita su información personal como nombre, ciudad, teléfono, país, nombre de empresa y número de RUC.
 ![Vista implementada en Sprint 3 - parking owner account](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/information%20of%20account%20parking%20owner.png?raw=true)
@@ -6075,11 +6201,15 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 - Monitoreo de Estacionamiento: Panel que muestra en tiempo real el estado de los espacios (disponibles, ocupados o reservados) con herramientas de gestión asociadas.
 ![Vista implementada en Sprint 3 - parking home](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20home.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Datos de Reservación: Tabla que presenta las reservaciones realizadas con detalles como fecha, conductor, placa, horario, precio total y estado.
 ![Vista implementada en Sprint 3 - reservation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/reservation%20data%20parking.png?raw=true)
 
 - Reseñas de Usuarios: Sección que presenta comentarios breves de los usuarios sobre el servicio de estacionamiento, incluyendo calificaciones y fechas de publicación.
 ![Vista implementada en Sprint 3 - review parking]()
+
+<div style="page-break-after: always;"></div>
 
 - Dashboard de Análisis: Pantalla con gráficos de uso por hora, uso semanal, ingresos mensuales y duración promedio de las reservaciones, orientada a la toma de decisiones.
 ![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/dashboard%20of%20parking.png?raw=true)
@@ -6087,17 +6217,29 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 - Device Monitoring: Pantalla que muestra información en tiempo real de un Edge Server, incluyendo su estado, ID, IP, API Key, y dispositivos conectados, con una lista de sensores detallada por tipo, estado, etiqueta de espacio y última comunicación, además de opciones para paginar y consultar sensores específicos.
 ![Vista implementada en Sprint 3 - device monitoring of parking]()
 
+<div style="page-break-after: always;"></div>
+
 - Perfil de Estacionamiento: Vista detallada de un estacionamiento específico que incluye nombre, dirección, tarifa por hora e imagen.
 ![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/parking%20profile.png?raw=true)
 
 **Mobile Application:**
+
 ![Vista implementada en Sprint 3 - Mobile App](ChapterVI-images/Sprint3/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Web Services:**
+
 ![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-1.png)
 ![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-2.png)
+
+<div style="page-break-after: always;"></div>
+
 ![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-3.png)
 ![Vista implementada en Sprint 3 - Web Services](ChapterVI-images/Sprint3/WebServices/ExecutionEvidenceScreenshot-4.png)
+
+
+<div style="page-break-after: always;"></div>
 
 **Embedded Application:**
 
@@ -6107,12 +6249,15 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 - Spot Estado Ocupado
 ![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/ExecutionEvidenceScreenshot-2.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 - Spot Estado Reservado
 ![Vista implementada en Sprint 3 - Embedded App](ChapterVI-images/Sprint3/EmbeddedApp/ExecutionEvidenceScreenshot-3.png?raw=true)
 
-
 **Edge Server:**
 ![Vista implementada en Sprint 3 - Edge Server](ChapterVI-images/Sprint3/EdgeServer/añadir%20estado%20disponible.png?raw=true)
+
+<div style="page-break-after: always;"></div>
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
@@ -6225,53 +6370,92 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 |   smartparking-backend    |           master           | b6f3010776250a68cee02cee79096aa6ad2c429c | add lat and lng attributes to Parking aggregate root                                                            |                     |     16/04/2025     |
 |   smartparking-backend    |           master           | bc75ffe0af58fe996c18fa8eebf6183736dc929c | chore: small changes in Parkings Controller.                                                                    |                     |     14/04/2025     |
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.3.8. Software Deployment Evidence for Sprint Review
 **Web App**
 - Ingresamos a [Vercel](https://vercel.com/) y seleccionamos "Add New Project"
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence1.jpg)
 
 - Vinculamos e importamos el repositorio donde se encuentra la Aplicación Web.
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence2.jpg)
 
+<div style="page-break-after: always;"></div>
+
 - Llenamos las resepctivas variables de entorno y le damos a "Deploy"
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence3.jpg)
 
+<div style="page-break-after: always;"></div>
+
 - Finalmente, la Aplicación Web ha sido desplegada y se encuentra accesible por todo público.
+
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence4.jpg)
 ![Proceso de despliegue en Sprint 1 - Web App](ChapterVI-images/Sprint1/WebApp/SoftwareDeploymentEvidence5.jpg)
 
+<div style="page-break-after: always;"></div>
+
 **Web Services:**
+
 - El backend se desplegó en Azure utilizando las configuraciones establecidas, asegurando la compatibilidad con el entorno de ejecución de Java.
+
 ![Proceso de despliegue en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/Deploying%20backend.png?raw=true)
 
 **Embedded Application:**
+
 - Se ha realizado el deploy del Embedded App en Wokwi con todos sus archivos necesarios para su correcto funcionamiento
+
 ![Proceso de despliegue en Sprint 2 - Embedded App](ChapterVI-images/Sprint2/EmbeddedApp/deploy-embeddedApp.jpg?raw=true)
 
 **Edge Server:**
+
 - Para esta entrega no se ha realizado deploy del edge serve ya que se requiere un dispositivo fisico para su procedimiento.
 
+<div style="page-break-after: always;"></div>
+
 #### 6.2.3.9. Team Collaboration Insights during Sprint
+
 **Web Application**
+
 ![Analiticos de Colaboracion: Web App - Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Web App - Sprint 3](ChapterVI-images/Sprint3/WebApp/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Mobile Application:**
+
 ![Analiticos de Colaboracion: Mobile App - Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Mobile App - Sprint 3](ChapterVI-images/Sprint3/MobileApp/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Web Services:**
+
 ![Analiticos de Colaboracion: Web Services - Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Web Services - Sprint 3](ChapterVI-images/Sprint3/WebServices/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Embedded Application:**
+
 ![Analiticos de Colaboracion: Embedded App - Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Embedded App - Sprint 3](ChapterVI-images/Sprint3/EmbeddedApp/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 **Edge Server:**
+
 ![Analiticos de Colaboracion: Edge Server - Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Analytics.png?raw=true)
+
 ![Commits: Edge Server - Sprint 3](ChapterVI-images/Sprint3/EdgeServer/CollaborationInsights-Commits.png?raw=true)
 
+<div style="page-break-after: always;"></div>
 
 ## 6.3. Validation Interviews
 ### 6.3.1. Diseño de Entrevistas
@@ -6358,7 +6542,9 @@ Medio de aplicación
 - Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
 
 ### 6.3.2. Registro de Entrevistas
+
 ##### **Segmento 1**
+
 ###### Entrevista 1
 
 **Nombre:** Jhon Gutierrez Lopez
@@ -6377,6 +6563,8 @@ Finalmente, valoro positivamente que los conductores puedan reservar espacios co
 **Tiempo en el video: 0:00:03**
 
 ----------
+
+<div style="page-break-after: always;"></div>
 
 ###### Entrevista 2
 
@@ -6399,6 +6587,8 @@ En términos generales, el usuario considera que la aplicación ha mejorado sign
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 3
 
 **Nombre:** Jose Contreras
@@ -6418,6 +6608,8 @@ Además, valoro positivamente que el sistema permita realizar pagos con cualquie
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 4
 
 **Nombre:** Armando Arturo Navarrete Caballero 
@@ -6436,7 +6628,10 @@ Respecto a la experiencia de uso, detectó como único freno inicial el hecho de
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ##### **Segmento 2**
+
 ###### Entrevista 5
 
 **Nombre:** Mauricio Oliveira Paucar 
@@ -6456,6 +6651,8 @@ Mauricio señaló que la información mostrada fue precisa durante la prueba, au
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 6
 
 **Nombre:** Rocio Maria Casas Lucich
@@ -6473,6 +6670,8 @@ En materia de confianza, propuso añadir autenticación adicional en el pago (OT
 **Tiempo en el video:** 1:06:30
 
 ----------
+
+<div style="page-break-after: always;"></div>
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -6678,6 +6877,8 @@ Integrar OTP o 3-D Secure y exhibir sello “Pago seguro”.
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## 6.4. Video About-the-Product
 
 **Nombre del archivo:**
@@ -6690,6 +6891,8 @@ Se presenta la esencia de **SmartParking**: una solución IoT que conecta a cond
 ![Screenshot del video](ChapterVI-images/about-the-product.png)
 
 **Enlace:** https://shorturl.at/R7qBj
+
+<div style="page-break-after: always;"></div>
 
 ## 6.5. Video About-the-Team
 
@@ -6706,6 +6909,8 @@ Se muestra cómo el equipo **IoT Innovators** llevó a cabo el proyecto SmartPar
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones y recomendaciones
 ## Conclusiones
 
@@ -6718,6 +6923,8 @@ Se muestra cómo el equipo **IoT Innovators** llevó a cabo el proyecto SmartPar
 
 ## Recomendaciones
 - Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
+
+<div style="page-break-after: always;"></div>
 
 # Bibliografia
 <div align="justify">
@@ -6734,6 +6941,8 @@ Se muestra cómo el equipo **IoT Innovators** llevó a cabo el proyecto SmartPar
     <li>W3Schools. (s.f.) <em>HTML Style Guide.</em>Recuperado de: https://www.w3schools.com/html/html5_syntax.asp [Consulta: 06 de mayo de 2025]</li>
  </ul>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
