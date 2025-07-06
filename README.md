@@ -109,117 +109,6 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 
 <div style="page-break-after: always;"></div>
 
-<p style="text-align:center">
-  <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
-  <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="100"><br><br>
-  <strong>Ingeniería de Software - 202510</strong><br>
-  <strong>Ciclo: 07</strong><br><br>
-  <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
-  <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
-  <strong>INFORME DE TRABAJO FINAL - TF1</strong><br><br>
-  <strong>Startup: IoT Innovators</strong><br>
-  <strong>Producto: SmartParking</strong><br><br>
-</p>
-
-<p style="text-align:center">
-  <strong>Relación de integrantes</strong><br><br>
-
-  <table border="1" cellpadding="8" cellspacing="0" style="margin:auto">
-    <thead>
-      <tr>
-        <th>Apellidos y Nombres</th>
-        <th>Código</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Arroyo Ormeño, André Alonso</td><td>u202114714</td></tr>
-      <tr><td>Castilla Pachas, César Antonio</td><td>u202218735</td></tr>
-      <tr><td>Cortés Casas, Joaquín Marcelo</td><td>u202114545</td></tr>
-      <tr><td>Diaz Silva, Fernando Josué</td><td>u202112722</td></tr>
-      <tr><td>Godoy, Johan Príncipe</td><td>u202014511</td></tr>
-      <tr><td>Tafur Gonzales, Josty Gerardo</td><td>u20201c069</td></tr>
-      <tr><td>Zarate Caceres, Victor Ernesto</td><td>u202112907</td></tr>
-    </tbody>
-  </table>
-</p>
-
-<p style="text-align:center">
-  <strong>Junio, 2025</strong>
-</p>
-
----
-
-<div style="page-break-after: always;"></div>
-
-# Registro de Versiones del Informe
-
-En la siguiente tabla se presenta el registro de versiones del informe con el propósito de tener una lista cronológicamente de cada entrega del documento, indicando la versión, fecha, autor y resumen del cambio realizado. 
-
-<table border="1" cellpadding="6" cellspacing="0" style="margin: auto;">
-  <thead>
-    <tr>
-      <th><strong>Versión</strong></th>
-      <th><strong>Fecha</strong></th>
-      <th><strong>Autor</strong></th>
-      <th><strong>Descripción de Modificación</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>1.0.0</td><td>31/03/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondientes al primer entregable.</td></tr>
-    <tr><td>1.1.0</td><td>01/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del Startup</td></tr>
-    <tr><td>1.2.0</td><td>02/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del Solution Profile y Competidores.</td></tr>
-    <tr><td>1.3.0</td><td>04/04/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.</td></tr>
-    <tr><td>1.4.0</td><td>05/04/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Adición del To-Be Scenario Mapping.</td></tr>
-    <tr><td>1.5.0</td><td>08/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición de User Stories.</td></tr>
-    <tr><td>1.6.0</td><td>14/04/2025</td><td>Castilla Pachas, César Antonio</td><td>Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.</td></tr>
-    <tr><td>1.7.0</td><td>16/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del segmento objetivo.</td></tr>
-    <tr><td>1.8.0</td><td>20/04/2025</td><td>Castilla Pachas, César Antonio</td><td>Adición de diagramas de Software Architecture.</td></tr>
-    <tr><td>1.9.0</td><td>22/04/2025</td><td>Godoy, Johan Príncipe</td><td>Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.</td></tr>
-    <tr><td>1.10.0</td><td>23/04/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Adición de Bounded Context Canvases para todos los bounded contexts.</td></tr>
-    <tr><td>1.10.1</td><td>23/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección del menú y puntos faltantes en el documento.</td></tr>
-    <tr><td>1.10.2</td><td>28/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Correcciones de enlaces y Student Outcome.</td></tr>
-    <tr><td>2.0.0</td><td>28/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir títulos para la entrega parcial (TP).</td></tr>
-    <tr><td>2.1.0</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Añadir style guidelines for app web, mobile and IoT.</td></tr>
-    <tr><td>2.2.0</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems.</td></tr>
-    <tr><td>2.2.1</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements.</td></tr>
-    <tr><td>2.2.2</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Corrección de los segmentos objetivos para que estén alineados con el Project Statement.</td></tr>
-    <tr><td>2.2.3</td><td>07/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de User Stories and Product Backlog.</td></tr>
-    <tr><td>2.2.4</td><td>10/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de Technical Stories and Product Backlog.</td></tr>
-    <tr><td>2.3.0</td><td>10/05/2025</td><td>Tafur Gonzales, Josty Gerardo</td><td>Añadir Entrevista de Segmento Propietarios.</td></tr>
-    <tr><td>2.3.1</td><td>11/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de User Stories and Product Backlog.</td></tr>
-    <tr><td>2.3.2</td><td>12/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireframes.</td></tr>
-    <tr><td>2.4.0</td><td>12/05/2025</td><td>Tafur Gonzales, Josty Gerardo</td><td>Añadir Applications User Flow Diagrams.</td></tr>
-    <tr><td>2.5.0</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Añadir Entrevistas faltantes.</td></tr>
-    <tr><td>2.6.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Sprint Backlog 1.</td></tr>
-    <tr><td>2.6.1</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de Style Guidelines Section.</td></tr>
-    <tr><td>2.7.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Evidencia de Ejecución de Landing Page.</td></tr>
-    <tr><td>2.8.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Collaboration Insights.</td></tr>
-    <tr><td>2.9.0</td><td>12/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App.</td></tr>
-    <tr><td>2.9.1</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de Ubiquitous Language.</td></tr>
-    <tr><td>2.9.2</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de Sprint 1.</td></tr>
-    <tr><td>2.9.3</td><td>13/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Landing Page Deployment Configuration and Evidence.</td></tr>
-    <tr><td>2.9.4</td><td>13/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review.</td></tr>
-    <tr><td>2.10.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Mock-ups App Mobile.</td></tr>
-    <tr><td>2.11.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireframes and Mock-ups Web App.</td></tr>
-    <tr><td>2.12.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Application wireframes and mock-ups.</td></tr>
-    <tr><td>3.0.0</td><td>02/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de estructura de texto para conversión a PDF.</td></tr>
-    <tr><td>3.0.1</td><td>07/06/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualizar diagramas de componentes de cada Bounded Context.</td></tr>
-    <tr><td>3.1.0</td><td>15/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Development Evidence for Sprint Review.</td></tr>
-    <tr><td>3.1.1</td><td>18/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar evaluaciones según heurísticas de las entrevistas de validación.</td></tr>
-    <tr><td>3.1.2</td><td>19/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar video about the video.</td></tr>
-    <tr><td>4.0.0</td><td>25/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Preparación de documento para Final Sprint.</td></tr>
-    <tr><td>4.1.0</td><td>30/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Development Evidence for Final Sprint.</td></tr>
-    <tr><td>4.2.0</td><td>02/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Services Documentation for Final Sprint.</td></tr>
-    <tr><td>4.3.0</td><td>04/07/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualización de user stories y product backlog.</td></tr>
-    <tr><td>4.3.1</td><td>04/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Actualizar Sprint 3 y añadir Student Outcome.</td></tr>
-    <tr><td>4.3.2</td><td>05/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services.</td></tr>
-  </tbody>
-</table>
-
----
-
-<div style="page-break-after: always;"></div>
-
 # Project Report Collaboration Insights
 
 **Enlace al repositorio del informe en GitHub:**  
@@ -507,6 +396,8 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
@@ -753,6 +644,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   </table>
 </div>
 
+---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -767,6 +661,8 @@ Con SmartParking buscamos optimizar el uso de los estacionamientos, para que sea
 
  - Visión: Ser la plataforma líder de estacionamientos inteligentes a nivel nacional, contribuyendo a la movilidad eficiente, promoviendo soluciones tecnológicas sostenibles.
 
+---
+
 ### 1.1.2. Perfiles de integrantes del equipo
 Los integrantes que conforman la startup son:
 
@@ -779,6 +675,10 @@ Los integrantes que conforman la startup son:
 | Godoy, Johan Príncipe (202014511)          | Soy Johan Príncipe, considero que seré un aporte importante al equipo debido a mis conocimientos en programación y mi capacidad para resolver problemas. Me apasiona el desarrollo de software y la creación de soluciones innovadoras. Estoy comprometido a contribuir al éxito del proyecto y a aprender de mis compañeros.                                                                                                                                                                                                                                           | <img src="https://github.com/W3bW0rks/Project-Report/blob/1387b57f0bf4a86fc34d9d0a688142d5ad6aaf95/assets/Johan-Principe.png?raw=true" width=auto height="130px"/>                       |
 | Tafur Gonzales, Josty Gerardo (20201c069)  | Soy Josty Tafur, estudiante de Ing. de software, cursando el décimo ciclo. Me apasiona aprender cosas nuevas y estoy siempre en busqueda de nuevos desafios que me ayuden a mejorar mis habilidades. Me considero una persona responsable, solidaria y con grabn capacidad de trabajar en equipo.                                                                                                                                                                                                                                                                       | <img src="ChapterI-images/JostyTafur.png" width=auto height="130">                                                                                                                       |
 | Zarate Caceres, Victor Ernesto (202112907) | Soy Ernesto Zarate, estudiante de Ingeniería de Software. Me considero una persona responsable, capaz de aportar distintas ideas y de organizar el trabajo para el desarrollo de nuevos proyectos. Tengo el compromiso de trabajar eficientemente y realizar las entregas en el plazo indicado                                                                                                                                                                                                                                                                          | <img src="ChapterI-images/ernesto.png" width="250" height="130">                                                                                                                         |
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -810,6 +710,10 @@ Los integrantes que conforman la startup son:
     - Impacto ambiental: Disminución de emisiones de CO₂ en un 15% al reducir la congestión. 
     - Retorno de inversión: Las municipalidades podrían aumentar ingresos mediante tarifas dinámicas y multas automatizadas.
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 
@@ -840,6 +744,9 @@ Brindar una solución digital que:
 - **Conductores urbanos jóvenes y adultos** (18–45 años) que usan smartphones y desean optimizar su tiempo.
 - **Propietarios de parqueos en zonas de alta demanda** (comerciales o residenciales) interesados en monetizar su espacio disponible.
 
+---
+
+<div style="page-break-after: always;"></div>
 
 #### 1.2.2.2. Lean UX Assumptions
 ###### Business Assumptions
@@ -875,6 +782,10 @@ Brindar una solución digital que:
 - **Interfaz de administración centralizada para propietarios**: Un panel centralizado permitirá a los propietarios de estacionamientos monitorear en tiempo real la disponibilidad de sus espacios, gestionar tarifas y hacer ajustes rápidos.
 - **Integración con sistemas de pago**: El sistema IoT se conectará con plataformas de pago para permitir que los conductores paguen por su espacio de estacionamiento directamente a través de la aplicación.
 
+---
+
+<div style="page-break-after: always;"></div>
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 ###### Hipótesis 1:
@@ -902,6 +813,9 @@ Creemos que el soporte técnico y la educación sobre el uso de la plataforma me
 
 Sabremos que hemos tenido éxito cuando la tasa de adopción inicial entre los nuevos usuarios alcance el 90% y la tasa de abandono sea menor al 15% en los primeros tres meses.
 
+---
+
+<div style="page-break-after: always;"></div>
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -989,6 +903,8 @@ Se condensa, en un solo lienzo, los problemas de negocio detectados, las solucio
   </table>
 </div>
 
+---
+
 ## 1.3. Segmentos objetivo
 
 Se perfila a los dos públicos clave de la plataforma: (1) propietarios o administradores de estacionamientos urbanos, motivados por optimizar ocupación y automatizar cobros, y (2) conductores que enfrentan alta congestión y valoran la rapidez y conveniencia de reservar y pagar espacios vía app; esta caracterización guía la propuesta de valor y las decisiones de diseño, marketing y producto.
@@ -1000,7 +916,10 @@ Se perfila a los dos públicos clave de la plataforma: (1) propietarios o admini
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
