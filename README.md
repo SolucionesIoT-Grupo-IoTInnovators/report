@@ -1,33 +1,44 @@
-# Informe de Trabajo Final - TF1
-<p align="center">
-    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
-    <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png"></img><br><br>
-    <strong>Ingeniería de Software - 202510</strong><br>
-    <strong>Ciclo: 07</strong><br><br>
-    <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
-    <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
-    <strong>INFORME DE TRABAJO FINAL - TF1 </strong> 
+<p style="text-align:center">
+  <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+  <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="100"><br><br>
+  <strong>Ingeniería de Software - 202510</strong><br>
+  <strong>Ciclo: 07</strong><br><br>
+  <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
+  <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
+  <strong>INFORME DE TRABAJO FINAL - TF1</strong><br><br>
+  <strong>Startup: IoT Innovators</strong><br>
+  <strong>Producto: SmartParking</strong><br><br>
 </p>
 
-<p align="center">
-    <strong>Startup: IoT Innovators </strong><br>
-    <strong>Producto:  SmartParking </strong>
+<p style="text-align:center">
+  <strong>Relación de integrantes</strong><br><br>
+
+  <table border="1" cellpadding="8" cellspacing="0" style="margin:auto">
+    <thead>
+      <tr>
+        <th>Apellidos y Nombres</th>
+        <th>Código</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Arroyo Ormeño, André Alonso</td><td>u202114714</td></tr>
+      <tr><td>Castilla Pachas, César Antonio</td><td>u202218735</td></tr>
+      <tr><td>Cortés Casas, Joaquín Marcelo</td><td>u202114545</td></tr>
+      <tr><td>Diaz Silva, Fernando Josué</td><td>u202112722</td></tr>
+      <tr><td>Godoy, Johan Príncipe</td><td>u202014511</td></tr>
+      <tr><td>Tafur Gonzales, Josty Gerardo</td><td>u20201c069</td></tr>
+      <tr><td>Zarate Caceres, Victor Ernesto</td><td>u202112907</td></tr>
+    </tbody>
+  </table>
 </p>
 
-### Relación de integrantes
-|      Apellidos y Nombres       |   Código   |
-|:------------------------------:|:----------:|
-|  Arroyo Ormeño, André Alonso   | u202114714 |
-| Castilla Pachas, César Antonio | u202218735 |
-| Cortés Casas, Joaquin Marcelo  | u202114545 |
-|   Diaz Silva, Fernando Josué   | u202112722 |
-|     Godoy, Johan Príncipe      | u202014511 |
-| Tafur Gonzales, Josty Gerardo  | u20201c069 |
-| Zarate Caceres, Victor Ernesto | u202112907 |
-
-**Junio, 2025**
+<p style="text-align:center">
+  <strong>Junio, 2025</strong>
+</p>
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Registro de Versiones del Informe
 
