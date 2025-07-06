@@ -109,76 +109,203 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 
 <div style="page-break-after: always;"></div>
 
+<p style="text-align:center">
+  <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+  <img src="https://www.upc.edu.pe/static/img/logo_upc_red.png" width="100"><br><br>
+  <strong>Ingeniería de Software - 202510</strong><br>
+  <strong>Ciclo: 07</strong><br><br>
+  <strong>1ASI0572 - Desarrollo de Soluciones IOT - 2971</strong><br><br>
+  <strong>Profesor: Velasquez Nuñez, Angel Augusto</strong><br><br>
+  <strong>INFORME DE TRABAJO FINAL - TF1</strong><br><br>
+  <strong>Startup: IoT Innovators</strong><br>
+  <strong>Producto: SmartParking</strong><br><br>
+</p>
+
+<p style="text-align:center">
+  <strong>Relación de integrantes</strong><br><br>
+
+  <table border="1" cellpadding="8" cellspacing="0" style="margin:auto">
+    <thead>
+      <tr>
+        <th>Apellidos y Nombres</th>
+        <th>Código</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Arroyo Ormeño, André Alonso</td><td>u202114714</td></tr>
+      <tr><td>Castilla Pachas, César Antonio</td><td>u202218735</td></tr>
+      <tr><td>Cortés Casas, Joaquín Marcelo</td><td>u202114545</td></tr>
+      <tr><td>Diaz Silva, Fernando Josué</td><td>u202112722</td></tr>
+      <tr><td>Godoy, Johan Príncipe</td><td>u202014511</td></tr>
+      <tr><td>Tafur Gonzales, Josty Gerardo</td><td>u20201c069</td></tr>
+      <tr><td>Zarate Caceres, Victor Ernesto</td><td>u202112907</td></tr>
+    </tbody>
+  </table>
+</p>
+
+<p style="text-align:center">
+  <strong>Junio, 2025</strong>
+</p>
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Registro de Versiones del Informe
+
+En la siguiente tabla se presenta el registro de versiones del informe con el propósito de tener una lista cronológicamente de cada entrega del documento, indicando la versión, fecha, autor y resumen del cambio realizado. 
+
+<table border="1" cellpadding="6" cellspacing="0" style="margin: auto;">
+  <thead>
+    <tr>
+      <th><strong>Versión</strong></th>
+      <th><strong>Fecha</strong></th>
+      <th><strong>Autor</strong></th>
+      <th><strong>Descripción de Modificación</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1.0.0</td><td>31/03/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Creación del informe, incluyendo la adición de una carátula, una tabla de contenidos y todas las secciones correspondientes al primer entregable.</td></tr>
+    <tr><td>1.1.0</td><td>01/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del Startup</td></tr>
+    <tr><td>1.2.0</td><td>02/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del Solution Profile y Competidores.</td></tr>
+    <tr><td>1.3.0</td><td>04/04/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Adición del Solution Profile, User Personas, Empathy Mappings, User Task Matrix, User Journey Mapping y As-Is Scenario Mapping.</td></tr>
+    <tr><td>1.4.0</td><td>05/04/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Adición del To-Be Scenario Mapping.</td></tr>
+    <tr><td>1.5.0</td><td>08/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición de User Stories.</td></tr>
+    <tr><td>1.6.0</td><td>14/04/2025</td><td>Castilla Pachas, César Antonio</td><td>Adición de registro de versiones del informe, student outcome, project report collaboration insights, Product Backlog y Event Storming.</td></tr>
+    <tr><td>1.7.0</td><td>16/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Adición del segmento objetivo.</td></tr>
+    <tr><td>1.8.0</td><td>20/04/2025</td><td>Castilla Pachas, César Antonio</td><td>Adición de diagramas de Software Architecture.</td></tr>
+    <tr><td>1.9.0</td><td>22/04/2025</td><td>Godoy, Johan Príncipe</td><td>Adición del Tactical-Level Domain-Driven Design para todos los bounded contexts.</td></tr>
+    <tr><td>1.10.0</td><td>23/04/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Adición de Bounded Context Canvases para todos los bounded contexts.</td></tr>
+    <tr><td>1.10.1</td><td>23/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección del menú y puntos faltantes en el documento.</td></tr>
+    <tr><td>1.10.2</td><td>28/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Correcciones de enlaces y Student Outcome.</td></tr>
+    <tr><td>2.0.0</td><td>28/04/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir títulos para la entrega parcial (TP).</td></tr>
+    <tr><td>2.1.0</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Añadir style guidelines for app web, mobile and IoT.</td></tr>
+    <tr><td>2.2.0</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Añadir Information Architecture including Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems and Navigation Systems.</td></tr>
+    <tr><td>2.2.1</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Corrección de formato de tablas y Lean UX Problem Statements, Assumptions y Hypothesis Statements.</td></tr>
+    <tr><td>2.2.2</td><td>30/04/2025</td><td>Principe Godoy, Johan</td><td>Corrección de los segmentos objetivos para que estén alineados con el Project Statement.</td></tr>
+    <tr><td>2.2.3</td><td>07/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de User Stories and Product Backlog.</td></tr>
+    <tr><td>2.2.4</td><td>10/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de Technical Stories and Product Backlog.</td></tr>
+    <tr><td>2.3.0</td><td>10/05/2025</td><td>Tafur Gonzales, Josty Gerardo</td><td>Añadir Entrevista de Segmento Propietarios.</td></tr>
+    <tr><td>2.3.1</td><td>11/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de User Stories and Product Backlog.</td></tr>
+    <tr><td>2.3.2</td><td>12/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireframes.</td></tr>
+    <tr><td>2.4.0</td><td>12/05/2025</td><td>Tafur Gonzales, Josty Gerardo</td><td>Añadir Applications User Flow Diagrams.</td></tr>
+    <tr><td>2.5.0</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Añadir Entrevistas faltantes.</td></tr>
+    <tr><td>2.6.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Sprint Backlog 1.</td></tr>
+    <tr><td>2.6.1</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de Style Guidelines Section.</td></tr>
+    <tr><td>2.7.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Evidencia de Ejecución de Landing Page.</td></tr>
+    <tr><td>2.8.0</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Collaboration Insights.</td></tr>
+    <tr><td>2.9.0</td><td>12/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireflow Diagrams App Mobile y Application Wireflows Diagrams App.</td></tr>
+    <tr><td>2.9.1</td><td>12/05/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de Ubiquitous Language.</td></tr>
+    <tr><td>2.9.2</td><td>12/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Corrección de Sprint 1.</td></tr>
+    <tr><td>2.9.3</td><td>13/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Landing Page Deployment Configuration and Evidence.</td></tr>
+    <tr><td>2.9.4</td><td>13/05/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Execution Evidence of Web Application and update Development Evidence for Sprint Review.</td></tr>
+    <tr><td>2.10.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Mock-ups App Mobile.</td></tr>
+    <tr><td>2.11.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Applications Wireframes and Mock-ups Web App.</td></tr>
+    <tr><td>2.12.0</td><td>13/05/2025</td><td>Castilla Pachas, César Antonio</td><td>Añadir Application wireframes and mock-ups.</td></tr>
+    <tr><td>3.0.0</td><td>02/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Corrección de estructura de texto para conversión a PDF.</td></tr>
+    <tr><td>3.0.1</td><td>07/06/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualizar diagramas de componentes de cada Bounded Context.</td></tr>
+    <tr><td>3.1.0</td><td>15/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Development Evidence for Sprint Review.</td></tr>
+    <tr><td>3.1.1</td><td>18/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar evaluaciones según heurísticas de las entrevistas de validación.</td></tr>
+    <tr><td>3.1.2</td><td>19/06/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar video about the video.</td></tr>
+    <tr><td>4.0.0</td><td>25/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Preparación de documento para Final Sprint.</td></tr>
+    <tr><td>4.1.0</td><td>30/06/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Development Evidence for Final Sprint.</td></tr>
+    <tr><td>4.2.0</td><td>02/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir Services Documentation for Final Sprint.</td></tr>
+    <tr><td>4.3.0</td><td>04/07/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualización de user stories y product backlog.</td></tr>
+    <tr><td>4.3.1</td><td>04/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Actualizar Sprint 3 y añadir Student Outcome.</td></tr>
+    <tr><td>4.3.2</td><td>05/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services.</td></tr>
+  </tbody>
+</table>
+
+---
+
+<div style="page-break-after: always;"></div>
+
 # Project Report Collaboration Insights
 
-**Enlace al repositorio del informe en GitHub:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md
+**Enlace al repositorio del informe en GitHub:**  
+[https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/main/README.md)
 
-**Actividades de elaboración del informe**
-#### TB1:
-**Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:** Me encargue de realizar la creacion de los user persona, emphaty map, as is scenario mapping, to be scenario mapping y en la elaboracion de la documentacion de los domain, interface, application, infrastrcuture layer de los bounded context
-- **Castilla Pachas, César Antonio:** He colaborado con la creacion de los competidores, product backlog, tambien en la creacion de los bounded context de profile y reservations, por ultimo ayude con la creacion de candidate context discovery.
-- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de la estructura del reporte y la adición de los capítulos de Entrevistas, Diagramas de Arquitectura de Software y de arquitectura de los bounded contexts.
-- **Diaz Silva, Fernando Josué:** He colaborado con la creacion del event storming con cada uno de sus puntos en miro y luego pasado a este informe, ademas ayude con la creacion de Context Mapping.
-- **Godoy, Johan Príncipe:** Para esta entrega, realicé la creación de los diagramas de clase y base de datos de los bounded contexts, así como la creación de los diagramas de arquitectura de software.
-- **Tafur Gonzales, Josty Gerardo:** En esta entrega colabore en desarrollar el Lean Ux Process, identificar el Lenguaje Ubicuo y desarrollar los mapas To-Be y de Impacto.
-- **Zarate Caceres, Victor Ernesto:** He colaborado en identificar los antecedentes del problema a resolver y a diseñar las historias de Usuario que orientaran el desarrollo del presente proyecto.
-
-**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-
-Se presentan los commits realizados en el report durante el periodo de entrega de la TB1.
-
-![Captura de analíticos de colaboración de GitHub - TB1](insights/CollaborationTB1.png)
-
-#### TP:
-**Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:** He contribuido en la creacion de los wireframes y mockups de la aplicacion web y la creacion de technical stories para el backend.
-- **Castilla Pachas, César Antonio:** Trabaje en diseñar los Wireframe y mockups para la aplicacion web.
-- **Cortés Casas, Joaquin Marcelo:** He contribuido con la creación de los wireframes y mockups del landing page, ademas del prototipado de aplicación, sprint planning 1 y sprint backlog 1.
-- **Diaz Silva, Fernando Josué:** He colaborado en el diseño, desarrollo, despliegue e implementación de la Landing Page.
-- **Godoy, Johan Príncipe:** Me dedique a diseñar la interfaz de creación de parkings para poder realizar el porceso de despliegue de la aplicación web.
-- **Tafur Gonzales, Josty Gerardo:** Colabore en el diseño en Figma de la Aplicacion móvil, su respectivo prototipado y realice entrevistas de recolección de requisitos. 
-- **Zarate Caceres, Victor Ernesto:** He colaborado en reescribir las User Stories para que se adapten mejor al alcance del curso, a definir el Software Configuration Management y a validar el funcionamiento inicial de nuestro producto.
-
-**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-
-Se presentan los commits realizados en el report durante el periodo de entrega de la TP1.
-
-
-![Captura de analíticos de colaboración de GitHub - TP](insights/CollaborationTP1.png)
-
-#### TB2:
-**Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:** He contribuido en la correcion de los diagramas de componentes del backend y he añadido los diagrama de componentes para la aplicacion web y aplicacion movil.
-- **Castilla Pachas, César Antonio:** Colabore en levantar las correcciones de los textos e imagenes de los entregables pasados e implementar el sistema de notificaciones en Firebase para las aplicaciones.
-- **Cortés Casas, Joaquin Marcelo:** Me encargue de realizar el registro y la edición de los videos de entrevistas de validacion y definir el Sprint Backlgo de esta entrega.
-- **Diaz Silva, Fernando Josué:** Pude realizar trabajos de desarrollo en el Sprint de esta entrega, garantizando el avance continuo.
-- **Godoy, Johan Príncipe:** He realizado trabajos de mejora en cada una de las aplicaciones desarrolladas, garantizando su correcto despliegue y coherencia con el sprint Backlog.
-- **Tafur Gonzales, Josty Gerardo:** Colabore en identificar los puntos a ser trabajados en este Sprint para garantizar el funcionamiento de nuestra Embedded Application y el Edge Server.
-- **Zarate Caceres, Victor Ernesto:** He contribuido en al correción de diversos aspectos de la aplicación web y a diseñar las preguntas que orientaran el proceso de validación de nuestros productos.
-
-**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-
-Se presentan los commits realizados en el report durante el periodo de entrega de la TB2.
-
-![Captura de analíticos de colaboración de GitHub - TB2](insights/CollaborationTB2.png)
-
-#### TF1:
-**Descripción de las actividades realizadas:**
-- **Arroyo Ormeño, André Alonso:** He contruibido en la correccion, redistribucion y creacion de nuevas user stories. Asimismo, tambien he actualizado el product backlog.
-- **Castilla Pachas, César Antonio:**
-- **Cortés Casas, Joaquin Marcelo:**
-- **Diaz Silva, Fernando Josué:**
-- **Godoy, Johan Príncipe:**
-- **Tafur Gonzales, Josty Gerardo:**
-- **Zarate Caceres, Victor Ernesto:** 
-
-**Evidencia de colaboración y commits en GitHub para el repositorio del informe:**
-
-Se presentan los commits realizados en el report durante el periodo de entrega del TF1.
-
-![Captura de analíticos de colaboración de GitHub - TF](insights/CollaborationTF1.png)
 ---
+
+## TB1
+
+### Descripción de las actividades realizadas
+
+- **Arroyo Ormeño, André Alonso:** Participé en la elaboración de los user personas, empathy map, escenarios actuales (As-Is) y propuestos (To-Be), así como en la documentación técnica de las capas domain, interface, application e infrastructure de los bounded contexts.
+- **Castilla Pachas, César Antonio:** Contribuí en el análisis de competidores, la creación del product backlog, el modelado de los bounded contexts *Profile* y *Reservations*, y en el desarrollo del candidate context discovery.
+- **Cortés Casas, Joaquín Marcelo:** Me encargué de estructurar el informe y redactar los capítulos correspondientes a entrevistas, diagramas de arquitectura de software y documentación de bounded contexts.
+- **Díaz Silva, Fernando Josué:** Desarrollé el Event Storming en Miro y su posterior documentación en el informe, además de colaborar en la construcción del Context Mapping.
+- **Godoy, Johan Príncipe:** Elaboré los diagramas de clase, de base de datos y de arquitectura de software para los bounded contexts definidos.
+- **Tafur Gonzales, Josty Gerardo:** Aporté en el desarrollo del proceso Lean UX, la identificación del lenguaje ubicuo, y la elaboración de mapas To-Be y de impacto.
+- **Zárate Cáceres, Víctor Ernesto:** Realicé la investigación de antecedentes del problema y diseñé las User Stories iniciales del proyecto.
+
+### Evidencia de colaboración
+
+<p align="center">
+  <img src="insights/CollaborationTB1.png" alt="Captura de analíticos de colaboración de GitHub - TB1">
+</p>
+
+<div style="page-break-after: always;"></div>
+
+## TP1
+
+### Descripción de las actividades realizadas
+
+- **Arroyo Ormeño, André Alonso:** Contribuí en el diseño de los wireframes y mockups de la aplicación web, y elaboré las technical stories del backend.
+- **Castilla Pachas, César Antonio:** Participé en la construcción de wireframes y mockups para la aplicación web, cuidando la coherencia visual y funcional.
+- **Cortés Casas, Joaquín Marcelo:** Diseñé los wireframes y mockups del landing page, elaboré el prototipo funcional, y definí el Sprint Planning 1 y el Sprint Backlog correspondiente.
+- **Díaz Silva, Fernando Josué:** Colaboré en el diseño, desarrollo e implementación de la Landing Page, incluyendo su despliegue funcional.
+- **Godoy, Johan Príncipe:** Diseñé la interfaz gráfica para el registro de estacionamientos, integrándola al flujo general de la aplicación web.
+- **Tafur Gonzales, Josty Gerardo:** Trabajé en el diseño en Figma de la app móvil, su prototipado interactivo, y realicé entrevistas con usuarios para recolección de requisitos.
+- **Zárate Cáceres, Víctor Ernesto:** Reestructuré las User Stories para alinearlas con el curso, definí el Software Configuration Management (SCM) e inicié la validación funcional del producto.
+
+### Evidencia de colaboración
+
+<p align="center">
+  <img src="insights/CollaborationTP1.png" alt="Captura de analíticos de colaboración de GitHub - TP1">
+</p>
+
+<div style="page-break-after: always;"></div>
+
+## TB2
+
+### Descripción de las actividades realizadas
+
+- **Arroyo Ormeño, André Alonso:** Corregí diagramas de componentes del backend y añadí los correspondientes para las aplicaciones web y móvil.
+- **Castilla Pachas, César Antonio:** Realicé ajustes en textos e imágenes de entregables anteriores e implementé el sistema de notificaciones Firebase para ambas aplicaciones.
+- **Cortés Casas, Joaquín Marcelo:** Grabé y edité los videos de entrevistas de validación de usuarios, y definí el Sprint Backlog de la entrega.
+- **Díaz Silva, Fernando Josué:** Desarrollé funcionalidades del producto durante el Sprint, asegurando avances constantes.
+- **Godoy, Johan Príncipe:** Mejoré componentes en todas las aplicaciones, alineándolos con los objetivos definidos en el Sprint Backlog.
+- **Tafur Gonzales, Josty Gerardo:** Identifiqué los puntos clave del Sprint para asegurar la funcionalidad de la aplicación embebida y del Edge Server.
+- **Zárate Cáceres, Víctor Ernesto:** Corregí elementos clave en la aplicación web y elaboré preguntas orientadoras para la validación del producto con usuarios.
+
+### Evidencia de colaboración
+
+<p align="center">
+  <img src="insights/CollaborationTB2.png" alt="Captura de analíticos de colaboración de GitHub - TB2">
+</p>
+
+<div style="page-break-after: always;"></div>
+
+## TF1
+
+### Descripción de las actividades realizadas
+
+- **Arroyo Ormeño, André Alonso:** Realicé  la corrección, redistribución y creación de nuevas user stories, ademas de actualizar el product backlog.
+- **Castilla Pachas, César Antonio:** (completar)
+- **Cortés Casas, Joaquín Marcelo:** He mejorado el formato del reporte para la entrega final. Tambien (completar)
+- **Díaz Silva, Fernando Josué:** (completar)
+- **Godoy, Johan Príncipe:** (completar)
+- **Tafur Gonzales, Josty Gerardo:** (completar)
+- **Zárate Cáceres, Víctor Ernesto:** (completar)
+
+### Evidencia de colaboración
+
+<p align="center">
+  <img src="insights/CollaborationTF1.png" alt="Captura de analíticos de colaboración de GitHub - TF1">
+</p>
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 **Tabla de contenidos**
