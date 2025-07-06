@@ -2452,7 +2452,7 @@ El diagrama de clases muestra cómo se relacionan las entidades User y Role, as�
 ##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En el diagrama de base, se observa la tabla users y roles, así como la relación entre estas.
 
-!["IAM Database Diagram"](ChapterIV-images/IAMDatabase-Diagram.png)
+!["IAM Database Diagram"](ChapterIV-images/vertabelo-iam.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -2721,7 +2721,7 @@ El diagrama de clases muestra la relación entre las entidades Driver y ParkingO
 
 El diagrama de base muestra las tablas drivers y parking\_owners, así como la relación entre estas.
 
-!["Profile Management Database Diagram"](ChapterIV-images/ProfileDatabase-Diagram.png)
+!["Profile Management Database Diagram"](ChapterIV-images/vertabelo-profile.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -2944,7 +2944,7 @@ En el diagrama de clases se observa la relación entre las entidades Parking y P
 
 El diagrama de base muestra la tabla parkings y parking_spots, así como la relación entre estas.
 
-!["Parking Management Database Design Diagram"](ChapterIV-images/ParkingManagmentDatabase-Diagram.png)
+!["Parking Management Database Design Diagram"](ChapterIV-images/vertabelo-parking.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -3166,7 +3166,7 @@ El diagrama de clases muestra la relación entre las entidades Reservation y Res
 
 El diagrama de base muestra la tabla reservations y reservation_payments, así como la relación entre estas.
 
-!["Reservation Database Diagram"](ChapterIV-images/ReservationDatabase-Diagram.png)
+!["Reservation Database Diagram"](ChapterIV-images/vertabelo-reservation.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -3292,7 +3292,7 @@ En el diagrama de clases se observa la relación entre las entidades Subscriptio
 
 El diagrama de base muestra la tabla subscriptions y subscription_payments, así como la relación entre estas.
 
-!["Subscription Database Design Diagram"](ChapterIV-images/SuscriptionDatabase-Diagram.png)
+!["Subscription Database Design Diagram"](ChapterIV-images/vertabelo-subscription.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -3483,7 +3483,7 @@ El diagrama de base de datos del bounded context **Review** muestra tres tablas 
 
 Las relaciones refuerzan la integridad referencial: cada reseña (`reviews`) apunta a un usuario y a un parking, garantizando que solo puedan existir reseñas para usuarios y parkings válidos.
 
-![Review Context Database Diagram](ChapterIV-images/ReviewsDatabase-Diagram.png)
+![Review Context Database Diagram](ChapterIV-images/vertabelo-review.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -3632,7 +3632,7 @@ El diagrama de base de datos del bounded context **Notifications** muestra dos t
 
 La clave foránea `notifications.user_id` asegura que cada notificación esté asociada a un usuario existente, facilitando el seguimiento y filtrado de notificaciones por destinatario.  
 
-![Notification Context Database Diagram](ChapterIV-images/NotificationDatabase-Diagram.png)
+![Notification Context Database Diagram](ChapterIV-images/vertabelo-notification.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -3978,7 +3978,7 @@ El diagrama de componentes del Device Management Frontend presenta una interfaz 
 
  El esquema de base de datos detalla las tablas parking_spots e iot_devices, sus campos y claves foráneas, reflejando la estructura persistente del dominio para registrar dispositivos asociados a espacios de estacionamiento.
  
-![IoT Management Context Database Diagram](ChapterIV-images/IotDatabase-Diagram.png)
+![IoT Management Context Database Diagram](ChapterIV-images/vertabelo-iot.jpg)
 
 <div style="page-break-after: always;"></div>
 
@@ -4137,7 +4137,7 @@ El diagrama de clases muestra cómo se relacionan las entidades Payment y Paymen
 
 El diagrama de base muestra la tabla payments y payment_methods, así como la relación entre estas.
 
-!["Payment Database Design Diagram"](ChapterIV-images/PaymentDatabase-Diagram.png)
+!["Payment Database Design Diagram"](ChapterIV-images/vertabelo-payment.jpg)
 
 ---
 
