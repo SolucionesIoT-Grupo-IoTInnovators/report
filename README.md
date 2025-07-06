@@ -6029,24 +6029,28 @@ Este objetivo está alineado con las metas del proyecto, priorizando la visibili
 
 <div style="page-break-after: always;"></div>
 
-#### 6.2.3.2. Aspect Leaders and Collaborators
-Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz LACX (Leadership-and-Collaboration Matrix), que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
-En esta iteración, se abordaron los siguientes aspectos clave:
+#### 6.2.3.2 Aspect Leaders and Collaborators – Sprint 3
 
-- **Aspect Name 1:** 
-- **Aspect Name 2:** 
-- **Aspect Name 3:** 
-- **Aspect Name 4:** 
+Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas, se elaboró la matriz **LACX (Leadership-and-Collaboration Matrix)**, que permite identificar qué integrante del equipo lidera cada aspecto y quiénes colaboran en su implementación.
 
-|           Team Member         | GitHub Username  | Aspect Name 1 | Aspect Name 2 | Aspect Name 3 | Aspect Name 4 |
-|-------------------------------|:----------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| Arroyo Ormeño, André Alonso   | anonimat0        |               |               |               |               |
-| Castilla Pachas, César Antonio| CesarrAnn        |               |               |               |               |
-| Cortés Casas, Joaquin Marcelo | U202114545       |               |               |               |               |
-| Diaz Silva, Fernando Josué    | FernandoDiazNeo  |               |               |               |               |
-| Godoy, Johan Príncipe         | JP19-03          |               |               |               |               |
-| Tafur Gonzales, Josty Gerardo | JostyTafur       |               |               |               |               |
-| Zarate Caceres, Victor        | ern23zc          |               |               |               |               |
+Durante el Sprint 3 se abordaron los siguientes aspectos clave:
+
+- **Aspect Name 1:** Notification  
+- **Aspect Name 2:** IoT Management  
+- **Aspect Name 3:** User & Profile Management (IAM)  
+- **Aspect Name 4:** Reservation Flow  
+
+| Team Member                           | GitHub Username | Notification | IoT Management | User & Profile Mgmt. | Reservation Flow |
+|---------------------------------------|:---------------:|:------------:|:--------------:|:--------------------:|:----------------:|
+| Arroyo Ormeño, André Alonso           | `anonimat0`     | C            | C              | **L**               | C               |
+| Castilla Pachas, César Antonio        | `CesarrAnn`     | **L**        | C              | C                   | C               |
+| Cortés Casas, Joaquín Marcelo         | `U202114545`    | C            | C              | C                   | C               |
+| Díaz Silva, Fernando Josué            | `FernandoDiazNeo` | C          | C              | C                   | C               |
+| Godoy, Johan Príncipe                 | `JP19-03`       | C            | C              | C                   | C               |
+| Tafur Gonzales, Josty Gerardo         | `JostyTafur`    | C            | **L**          | C                   | C               |
+| Zárate Cáceres, Víctor Ernesto        | `ern23zc`       | C            | C              | C                   | **L**           |
+
+**Leyenda:** **L** = Leader &nbsp;|&nbsp; C = Colaborador
 
 <div style="page-break-after: always;"></div>
 
