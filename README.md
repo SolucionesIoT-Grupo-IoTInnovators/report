@@ -1667,6 +1667,8 @@ En el escenario ideal, el propietario inicia su jornada abriendo un panel que ya
 - Disminuye la carga operativa y aumenta la eficiencia, lo que permite dedicar más tiempo a la estrategia.
 - Acceso a datos analíticos facilita la toma de decisiones y mejora la rentabilidad.
 
+<div style="page-break-after: always;"></div>
+
 **Segmento Conductor:**
 
 El conductor planifica su viaje reservando plaza desde la app, conduce guiado por GPS con la ubicación exacta del estacionamiento, ingresa sin demoras mediante QR y llega a su destino sabiendo el tiempo restante; en cada fase pasa de tranquilidad a confianza y satisfacción, eliminando la búsqueda, la incertidumbre de precio y el riesgo de multas, y disfrutando de una experiencia de estacionamiento fluida y sin estrés.
@@ -1678,6 +1680,10 @@ El conductor planifica su viaje reservando plaza desde la app, conduce guiado po
 - La incertidumbre por la disponibilidad y precios desaparece gracias a la reserva previa y visibilidad en tiempo real.
 - Se eliminan las vueltas innecesarias y el estrés por llegar tarde.
 - Mejora la confianza y seguridad, tanto en el trayecto como en el uso del espacio reservado.
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ## 3.2. User Stories
 
@@ -1779,6 +1785,10 @@ La sección de User Stories concentra, en forma tabular, todas las épicas, hist
 | TS32 | Persistir datos en cola local por fallo de conexión | Como desarrollador quiero que el Edge Server almacene en una cola local los datos no enviados al backend, para garantizar su posterior sincronización. | Scenario: Fallo de envío<br>Given que no hay conexión disponible con el backend<br>When se recibe un dato desde un dispositivo<br>Then el dato se guarda en la base de datos local y se marca como pendiente para sincronización futura.<br><br>Scenario: Consulta de datos pendientes<br>Given que se inicia un proceso de sincronización<br>When se consulta la base local<br>Then se obtienen todos los registros marcados como pendientes | EP13 |
 | TS33 | Enviar comandos MQTT a dispositivos desde Edge Server | Como desarrollador quiero que el Edge Server pueda publicar mensajes MQTT hacia los dispositivos embebidos, para enviar comandos como activar bloqueo o reiniciar dispositivo. | Scenario: Publicación de comando exitosa<br>Given que el Edge Server está conectado al broker MQTT<br>When se publica un mensaje de comando hacia un tópico de dispositivo<br>Then el dispositivo recibe el comando y lo ejecuta.<br><br>Scenario: Fallo de publicación<br>Given que el broker MQTT está inactivo<br>When se intenta publicar un comando<br>Then se genera un log de error y se mantiene el comando en cola de reintento | EP13 |
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ## 3.3. Impact Mapping
 En esta sección, se plantearon metas de negocio utilizando los criterios SMART para elaborar el Impact Mapping en base a nuestras User Personas y User Stories.
 
@@ -1786,9 +1796,17 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 
   !["Impact Mapping - Segmento 1"](ChapterIII-images/ImpactMap1.png)
 
+---
+
+<div style="page-break-after: always;"></div>
+
  - Segmento 2: Conductores
 
   !["Impact Mapping - Segmento 2"](ChapterIII-images/ImpactMap2.png)
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ## 3.4. Product Backlog
 | # Orden | User Story Id | Título | Descripción | Story Points (1/3/5/8) |
@@ -1866,6 +1884,10 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 | 71 | TS31 | Sincronizar datos desde Edge Server al Backend | Como desarrollador quiero que el Edge Server publique los estados almacenados al backend mediante mensajes MQTT, para garantizar que la información de ocupación esté actualizada. | 5 |
 | 72 | TS32 | Persistir datos en cola local | Como desarrollador quiero que el Edge Server almacene en una cola local los datos no enviados al backend, para garantizar su posterior sincronización. | 3 |
 | 73 | TS33 | Enviar comandos MQTT a dispositivos | Como desarrollador quiero que el Edge Server pueda publicar mensajes MQTT hacia los dispositivos embebidos, para enviar comandos como activar bloqueo o reiniciar dispositivo. | 5 |
+
+---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
