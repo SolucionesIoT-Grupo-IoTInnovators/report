@@ -970,6 +970,8 @@ Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artifi
 | ACCIST       | Soluciones personalizadas en control de acceso, asistencia y seguridad para empresas de distintos tamaños.                     |
 | Smelpro      | Soluciones integrales de monitoreo y control en tiempo real con conectividad inalámbrica y plataformas propias.                |
 
+<div style="page-break-after: always;"></div>
+
 ###### Mercado objetivo
 
 | Empresa      | Mercado objetivo                                                                                                        |
@@ -1000,6 +1002,8 @@ Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artifi
 | iPark        | App móvil, pagos QR, cámaras ANPR, kioscos de pago, dashboard online.                                          |
 | ACCIST       | Controles biométricos, molinetes, cámaras, sistemas de asistencia, impresoras de fotochecks.                   |
 | Smelpro      | Diseño electrónico, impresión 3D, software embebido, dashboards, sensores, redes LoRa/IoT.                     |
+
+<div style="page-break-after: always;"></div>
 
 ###### Precios & Costos
 
@@ -1041,6 +1045,8 @@ Smelpro desarrolla soluciones tecnológicas basadas en IoT e inteligencia artifi
 | ACCIST       | Dependencia de hardware específico.                                              |
 | Smelpro      | Soluciones técnicas requieren conocimiento especializado del cliente.            |
 
+<div style="page-break-after: always;"></div>
+
 ###### Oportunidades
 
 | Empresa      | Oportunidades                                                                    |
@@ -1067,6 +1073,8 @@ Para enfrentar a los competidores adoptaremos estrategias enfocadas en la difere
 - Para afrontar las fortalezas de competidores consolidados, ofreceremos una propuesta más flexible, integrada y enfocada tanto en conductores como en propietarios. 
 - Frente a las debilidades del mercado, se posicionará como una alternativa accesible, moderna y adaptable. 
 - Anticiparemos amenazas mediante alianzas estratégicas, escalabilidad tecnológica y atención personalizada.
+
+<div style="page-break-after: always;"></div>
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
@@ -1158,6 +1166,7 @@ Duración estimada de la entrevista
 Medio de aplicación
 - Las entrevistas se aplicarán de manera presencial o virtual (videollamada), dependiendo de la disponibilidad del entrevistado, y serán registradas con consentimiento para posterior análisis.
 
+<div style="page-break-after: always;"></div>
 
 ### 2.2.2. Registro de entrevistas
 ##### **Segmento 1**
@@ -1175,6 +1184,8 @@ Medio de aplicación
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 2
 
 **Nombre:** Lizet Antonia Pachas Torres
@@ -1189,6 +1200,8 @@ Medio de aplicación
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 3
 
 **Nombre:** Armando Arturo Navarrete Caballero
@@ -1202,6 +1215,8 @@ Medio de aplicación
 **Tiempo en el video:** 21:38
 
 ----------
+
+<div style="page-break-after: always;"></div>
 
 ##### **Segmento 2**
 ###### Entrevista 1
@@ -1230,6 +1245,8 @@ Medio de aplicación
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 2
 
 **Nombre:** Rocío María Casas Lucich
@@ -1244,6 +1261,8 @@ Medio de aplicación
 
 ----------
 
+<div style="page-break-after: always;"></div>
+
 ###### Entrevista 3
 
 **Nombre:** Marcelo Scerpella
@@ -1255,6 +1274,10 @@ Medio de aplicación
 ![Entrevista Marcelo](./ChapterII-images/Segmento2-Entrevista3.jpg)
 
 **Tiempo en el video:** 41:21
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ### 2.2.3. Análisis de entrevistas
 #### Segmento 1: Perfil general del segmento
@@ -1281,6 +1304,10 @@ Este segmento está compuesto por propietarios de uno o más estacionamientos en
 | Preocupación por errores humanos                 | Lizet menciona delegación y errores; Jhon tuvo fraude       |
 | Aceptación tecnológica si hay beneficios claros  | Jhon y Lizet muestran apertura si se adapta a su realidad   |
 | Priorizan funciones de monitoreo sobre reservas  | Armando prefiere control y seguridad sobre funciones de reserva |
+
+---
+
+<div style="page-break-after: always;"></div>
 
 #### Segmento 2: Perfil general del segmento
 
@@ -1323,6 +1350,10 @@ Ambos segmentos coinciden en valorar funcionalidades como:
 
  Este análisis evidencia un alineamiento entre los dolores reales y las propuestas de valor de SmartParking, validando tanto la necesidad como la viabilidad de una plataforma que conecte eficazmente ambos perfiles de usuario.
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ## 2.3. Needfinding
 
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones internas para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
@@ -1331,17 +1362,33 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
 
 En esta sección se presentarán las fichas de User Persona, las cuales son representaciones ficticias de los usuarios basadas en los hallazgos obtenidos a partir de las entrevistas realizadas. Estas fichas se centran en los segmentos objetivos identificados, incluyendo productores agrícolas y distribuidores. La elaboración de estas User Personas se fundamenta en el análisis de las características comunes y necesidades detectadas en las entrevistas, así como en la observación de la competencia. Al comprender mejor a nuestros usuarios, podremos diseñar soluciones más efectivas y alineadas con sus expectativas y desafíos, lo que resulta fundamental para el desarrollo de nuestra aplicación. Cada ficha incluirá detalles sobre las características demográficas, motivaciones, frustraciones y necesidades específicas de cada arquetipo, asegurando que nuestras decisiones de diseño se basen en información relevante y real.
 
+<div style="page-break-after: always;"></div>
+
 **Segmento Propietario de Estacionamiento:**
 
 Alejandro Torres es un empresario peruano que administra varios estacionamientos en Perú. Con formación en administración de empresas y un perfil racional, Alejandro está constantemente buscando formas de mejorar la rentabilidad de su negocio. Su objetivo es aumentar la ocupación de sus espacios, reducir los tiempos en que sus estacionamientos están vacíos y ofrecer una experiencia más cómoda y eficiente para sus clientes. Aunque está abierto a la tecnología, solo invierte en herramientas que demuestren un impacto claro en la eficiencia operativa o el incremento de ingresos. Se siente frustrado por la falta de visibilidad en tiempo real sobre el comportamiento de sus usuarios y por la carga que implica la gestión manual de pagos y reservas.
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Propietario.png?raw=true" alt="user persona de propietario de estacionamiento">
 
+---
+
+<div style="page-break-after: always;"></div>
+
+<div style="page-break-inside: avoid;">
+
 **Segmento Conductor:**
 
 Diego Ramírez utiliza su vehículo diariamente para cumplir con una agenda exigente de reuniones y visitas a clientes. Aunque es una persona organizada y con buena planificación, uno de sus mayores desafíos diarios es encontrar estacionamiento en zonas de alta demanda, lo que le genera estrés y pérdida de tiempo. Interesado en la tecnología, Diego busca soluciones digitales que le permitan reservar espacios con anticipación, recibir alertas sobre disponibilidad y comparar precios en tiempo real. Su motivación principal es optimizar su tiempo y evitar contratiempos que afecten su productividad laboral. Se frustra al no tener visibilidad de los espacios disponibles y cuando los costos son altos o inesperados.
 
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png?raw=true" alt="user persona de conductor">
+<p align="center">
+  <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/e1dda900260b6b693a0cf1e5d1dabc1f3fa738ff/ChapterII-images/UserPersona-Conductor.png?raw=true" alt="user persona de conductor" width="600px">
+</p>
+
+</div>
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.2. User Task Matrix
 
@@ -1361,6 +1408,8 @@ En esta sección se presenta el User Task Matrix, que concentra las tareas que l
 | Reservar espacio de estacionamiento      | -                                  | -               | High           | High            |
 | Verificar disponibilidad en tiempo real  | -                                  | -               | High           | High            |
 | Gestionar historial de reservas/pagos    | Medium                             | Medium          | Medium         | Medium          |
+
+---
 
 ###### Explicación
 
@@ -1387,6 +1436,10 @@ Ambos perfiles realizan la tarea de coordinar con clientes (por ejemplo, para re
 
 Estas diferencias y coincidencias subrayan la necesidad de una solución que contemple tanto la eficiencia operativa para los propietarios como la conveniencia y seguridad para los conductores.
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ### 2.3.3. User Journey Mapping
 
 La sección de User Journey Maps muestra el recorrido completo de los usuarios de la app de parking, desde que conocen por primera vez la solución hasta el momento en que la dejan de utilizar. El mapeo evidencia las acciones, metas, emociones y problemas experimentados por los dos segmentos clave: propietarios de estacionamiento y conductores. Además, se identifican oportunidades de mejora que pueden guiar el desarrollo de nuevas funcionalidades o ajustes en la experiencia del usuario.
@@ -1397,11 +1450,17 @@ Para los Propietarios de Estacionamiento, el journey inicia cuando descubren la 
 
 ![](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/165729b4a8060773766191d14f61a13c0b8669df/ChapterII-images/user_journey_mapping_owner.png?raw=true)
 
+<div style="page-break-after: always;"></div>
+
 El journey de los Conductores comienza al descubrir la app como una solución rápida y confiable para encontrar estacionamiento. A medida que la utilizan, pasan de la expectativa inicial al alivio de evitar pérdidas de tiempo, aunque también pueden encontrar frustraciones si la información está desactualizada o el proceso no es fluido. Las oportunidades detectadas incluyen mejoras en la verificación de parqueos, soporte activo, y opciones para personalizar la experiencia.
 
 **Segmento Conductor:**
 
 ![](ChapterII-images/user_journey_mapping_conductor.png?raw=true)
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -1412,10 +1471,17 @@ Alejandro Torres es propietario de varios estacionamientos en la ciudad y busca 
 
 <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20propietario%20de%20estacionamiento.png?raw=true" alt="emphaty mapping de propietario de estacionamiento">
 
+<div style="page-break-after: always;"></div>
+
 **Segmento Conductor:**
+
 Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asistir a reuniones. Su apretada agenda hace que encontrar estacionamiento sea un problema frecuente, especialmente en zonas de alta demanda. Se frustra al perder tiempo buscando un espacio disponible, enfrentarse a tarifas imprevistas o no tener información en tiempo real sobre la disponibilidad. Como usuario de tecnología, busca soluciones que optimicen su tiempo y le brinden mayor comodidad, como aplicaciones móviles que le permitan reservar espacios con antelación y recibir notificaciones sobre estacionamientos cercanos y sus costos. Su objetivo principal es reducir el estrés de encontrar estacionamiento y asegurarse de que su vehículo esté seguro mientras realiza su trabajo.
 
-<img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20conductor.png?raw=true" alt="emphaty mapping de conductor">
+<p align="center">
+  <img src="https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/6fbda0cca8d690926474d6efcedc50fab82f1245/ChapterII-images/emphaty%20map%20-%20conductor.png?raw=true" alt="Empathy Mapping del Conductor" width="600px">
+</p>
+
+<div style="page-break-after: always;"></div>
 
 **Proceso de Elaboración**
 1. **Preparación y Enfoque en el User Persona**
@@ -1510,15 +1576,20 @@ Diego Ramírez utiliza su vehículo diariamente para moverse por la ciudad y asi
             - Falta de información en tiempo real sobre precios y disponibilidad.
             - Riesgo de multas o retrasos por no encontrar espacio a tiempo.
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ### 2.3.5. As-is Scenario Mapping
 
-Los As-is Scenario Mapping describen la experiencia actual tanto del propietario de estacionamiento como del conductor, identificando puntos positivos (lo que ya aporta valor), negativos (fricciones operativas y de usuario) y áreas en blanco (incertidumbres y necesidades no cubiertas); este mapeo de situaciones reales permite comprender dónde se generan ineficiencias, estrés o pérdida de ingresos y sirve de base para priorizar mejoras en la futura solución.
+Los As-is Scenario Mapping describen la experiencia actual tanto del propietario de estacionamiento como del conductor, identificando puntos positivos, negativos y áreas en blanco (incertidumbres y necesidades no cubiertas).
 
 **Segmento Propietario de Estacionamiento:**
 
 Su jornada se inicia revisando a pie la ocupación; sin automatización, asigna puestos manualmente y confía en que la demanda sea alta. Al cobrar, ofrece efectivo o app —único momento relativamente fluido—, para luego registrar todo en Excel al cierre. Piensa en maximizar reservas y evitar impagos, pero carece de datos en tiempo real; se siente expectante al comienzo, agobiado durante la operación y frustrado al analizar resultados, aunque termina el día reflexivo y dispuesto a optimizar.
 
 ![as is scenario mapping propietario de estacionamiento](ChapterII-images/As%20is%20Scenario%20Mapping-propietario%20de%20estacionamiento.jpg)
+
 
 - **Positive points**:
     - **Cobra en efectivo o por app según el cliente:** Ofrece flexibilidad de pago, lo que facilita la experiencia del cliente.
@@ -1532,11 +1603,14 @@ Su jornada se inicia revisando a pie la ocupación; sin automatización, asigna 
     - **Espero que todos paguen sin problemas:** Habría que analizar qué porcentaje de clientes usa efectivo vs. apps, y si esto genera problemas operativos.
     - **Podría ganar más si tuviera más reservas anticipadas:** Es importante investigar si Alejandro está dispuesto a adoptar un sistema de reservas online y qué barreras percibe.
 
+<div style="page-break-after: always;"></div>
+
 **Segmento Conductor:**
 
 Antes de salir consulta Waze/Google Maps, esperando que haya sitio libre; conduce con tiempo justo y, ya en la zona, da vueltas sin información fiable hasta hallar un espacio caro e inesperado. La incertidumbre de multas y remolques lo acompaña mientras camina al destino. A lo largo del trayecto pasa de ligero optimismo a estrés, frustración, indignación y finalmente inseguridad resignada por la falta de transparencia y control sobre el estacionamiento.
 
 ![as is scenario mapping conductor](ChapterII-images/As%20is%20Scenario%20Mapping-conductor.jpg)
+
 
 - **Positive points**:
     - **Usa apps como Google Maps o Waze para planear su ruta:** Diego confía en la tecnología para planificar sus trayectos, lo que le permite evitar zonas con tráfico y llegar más rápido a sus destinos.
@@ -1548,6 +1622,10 @@ Antes de salir consulta Waze/Google Maps, esperando que haya sitio libre; conduc
 - **Blank points**:
     - **¿Habrá estacionamiento disponible cuando llegue?:** Se requiere entender mejor cómo los conductores manejan la incertidumbre de disponibilidad al momento de planear su viaje.
     - **Ojalá no me multen o remolquen:** Hay que investigar si los usuarios verifican la legalidad del lugar donde estacionan o si simplemente arriesgan por falta de tiempo o información.
+
+---
+
+<div style="page-break-after: always;"></div>
 
 ## 2.4. Ubiquitous Language
 Se presenta una tabla que contiene los términos específicos del dominio del negocio:
@@ -1570,6 +1648,8 @@ Se presenta una tabla que contiene los términos específicos del dominio del ne
 | PlatformFee        | Comisión cobrada por el uso de la plataforma SmartParking, deducida del ingreso del ParkingOwner.                                          |
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
