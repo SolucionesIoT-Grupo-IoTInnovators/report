@@ -4153,6 +4153,8 @@ El branding de SmartParking se enfoca en transmitir confianza, accesibilidad y s
 
 !["Smart Parking Logo"](ChapterIV-images/smartparking-logo.jpg)
 
+<div style="page-break-after: always;"></div>
+
 **Tipography**
 La tipografía empleada en SmartParking está basada en fuentes de tipo Sans Serif, por su legibilidad, disponibilidad multiplataforma y estilo limpio.
 
@@ -4225,7 +4227,10 @@ El emulador de Wokwi se utiliza para simular la interacción con dispositivos Io
 
 **Interacción con el Usuario:** Las interacciones con los sensores deben ser sencillas, permitiendo a los usuarios ver rápidamente el estado actual de los espacios
 
+<div style="page-break-after: always;"></div>
+
 ## 5.2. Information Architecture
+
 ### 5.2.1. Organization Systems
 SmartParking emplea distintos sistemas de organización para asegurar que tanto conductores como propietarios de estacionamientos encuentren y utilicen las funciones principales de manera rápida e intuitiva.
 
@@ -4277,58 +4282,105 @@ El menú principal está siempre disponible para cambiar entre funcionalidades c
 - **Navegación Local:**
 Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta”, se incluyen submenús para acciones específicas: editar, eliminar, ver historial, etc.
 
+<div style="page-break-after: always;"></div>
+
 ## 5.3. Landing Page UI Design
+
 ### 5.3.1. Landing Page Wireframe
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Hero.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-AboutTheProduct.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Drivers-1.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Drivers-2.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Owners-1.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Owners-2.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-AboutTheTeam.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Hero.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Sidebar.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-AboutTheProuct.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Drivers-1.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Drivers-2.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Owners-1.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-Owners-2.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-AboutTheTeam-1.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-MOBILE-AboutTheTeam-2.png)
 
+<div style="page-break-after: always;"></div>
 
 ### 5.3.2. Landing Page Mock-up
 
 ![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Hero.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-AbouttheProduct.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Driver-1.jpg)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Driver-2.png)
+
+<div style="page-break-after: always;"></div>
 
 ![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Owner-1.png)
 
+<div style="page-break-after: always;"></div>
+
 ![](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-Owner-2.jpg)
+
+<div style="page-break-after: always;"></div>
 
 ![About the team](ChapterV-images/Landing%20Page%20Figma/Mockup-Landing-AbouttheTeam.png)
 
+<div style="page-break-after: always;"></div>
 
 ## 5.4. Applications UX/UI Design
 ### 5.4.1. Applications Wireframes
@@ -4341,18 +4393,22 @@ Para iniciar sesión, el usuario ingresa su correo y contraseña. Si no tiene cu
 
 ![SignIn](ChapterV-images/sign-in-driver.png)
 
+<div style="page-break-after: always;"></div>
 
 **SignUp**
 El usuario ingresa su nombre, correo, contraseña, elige su rol y acepta los términos de uso.
 
 ![SignUp](ChapterV-images/sign-up-driver.png)
 
+<div style="page-break-after: always;"></div>
+
 **Home**
 Pantalla principal con un mapa que muestra estacionamientos cercanos donde el usuario puede buscar por su dirección actual.
 
 ![Home](ChapterV-images/Home-driver.png)
-
 ![Home2](ChapterV-images/details-driver.png)
+
+<div style="page-break-after: always;"></div>
 
 **Crear reserva**
 
@@ -4360,13 +4416,16 @@ Pantalla donde el usuario puede crear su reservas de estacionamiento.
 
 ![Reservas](ChapterV-images/Reservation-driver.png)
 
+<div style="page-break-after: always;"></div>
+
 **Pagar reserva**
 
 Pantalla donde el usuario puede pagar su reserva de estacionamiento.
 
 ![Pagar reserva](ChapterV-images/Payment-driver.png)
-
 ![Pagar reserva](ChapterV-images/successfull-reservation-driver.png)
+
+<div style="page-break-after: always;"></div>
 
 **Mis reservas**
 
@@ -4374,29 +4433,38 @@ Pantalla donde el usuario puede ver sus reservas activas
 
 ![Mis reservas](ChapterV-images/Reservation-2-driver.png)
 
+<div style="page-break-after: always;"></div>
+
 **Detalle de reserva**
+
 Pantalla donde el usuario puede ver los detalles de su reserva.
 
 ![Detalle de reserva](ChapterV-images/Reservation-3-driver.png)
+
+<div style="page-break-after: always;"></div>
 
 **Perfil**
 Pantalla donde el usuario puede ver y editar su perfil.
 
 ![Perfil](ChapterV-images/profile-driver.png)
-
 ![Editar perfil](ChapterV-images/change-password-driver.png)
+
+<div style="page-break-after: always;"></div>
 
 **Suscripciones**
 Pantalla donde el usuario puede ver sus suscripciones activas.
 
 ![Suscripciones](ChapterV-images/Subscription-driver.png)
 
+<div style="page-break-after: always;"></div>
+
 **Reseñas**
 Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos.
 
 ![Reseñas](ChapterV-images/Reviews-driver.png)
-
 ![Crear reseña](ChapterV-images/create-review-driver.png)
+
+<div style="page-break-after: always;"></div>
 
 **Aplicacion Web - Propietarios:**
 
@@ -4406,13 +4474,20 @@ Pantalla de inicio de sesión donde el propietario ingresa su correo y contrase�
 
 ![SignIn](ChapterV-images/Register-Parking-Owner-Wireframe.png)
 
+<div style="page-break-after: always;"></div>
+
 **SignUp**
 
 Pantalla de registro donde el propietario ingresa su nombre, correo, contraseña, ciudad, pais y telefono.
 
 ![SignUp](ChapterV-images/SignUpView-Wireframe.png)
+
+<div style="page-break-after: always;"></div>
+
 ![SignUp](ChapterV-images/Driver-Wireframe.png)
 ![SignUp](ChapterV-images/Owner-Wireframe.png)
+
+<div style="page-break-after: always;"></div>
 
 **Agregar estacionamiento**
 
@@ -4420,13 +4495,14 @@ Pantalla donde el propietario puede agregar un nuevo espacio de estacionamiento.
 
 ![Agregar estacionamiento](ChapterV-images/Step1-CreateParking-Wireframe.png)
 
+<div style="page-break-after: always;"></div>
+
 ![Agregar estacionamiento](ChapterV-images/Step2-CreateParking-wireframe.png)
-
 ![Agregar estacionamiento](ChapterV-images/Step3-CreateParking-wireframe.png)
-
 ![Agregar estacionamiento](ChapterV-images/Step4-CreateParking-wireframe.png)
-
 ![Agregar estacionamiento](ChapterV-images/Step5-CreateParking-wireframe.png)
+
+<div style="page-break-after: always;"></div>
 
 **Lista de estacionamientos**
 
@@ -4434,17 +4510,23 @@ Pantalla donde el propietario puede ver todos sus estacionamientos registrados.
 
 ![Lista de estacionamientos](ChapterV-images/Home-ParkingOwner-wireframe.png)
 
+<div style="page-break-after: always;"></div>
+
 **Reservas activas**
 
 Pantalla donde el propietario puede ver todas las reservas activas en sus estacionamientos.
 
 ![Reservas activas](ChapterV-images/Home-ParkingOwner-Reservation-wireframe.png)
 
+<div style="page-break-after: always;"></div>
+
 **Reseñas**
 
 Pantalla donde el propietario puede ver las reseñas de los usuarios sobre su estacionamiento.
 
 ![Reseñas](ChapterV-images/Home-ParkingOwner-Reviews-wireframe.png)
+
+<div style="page-break-after: always;"></div>
 
 ### 5.4.2. Applications Wireflow Diagrams
 
@@ -4470,6 +4552,8 @@ Descripción: Desde la pestaña de “Reservations”, el usuario puede ver sus 
 
 ![Cancelar una reserva activa](ChapterV-images/Cancelar-reservacion-driver.png)
 
+<div style="page-break-after: always;"></div>
+
 **Agregar reseña a un estacionamiento**
 
 User Goal: Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.
@@ -4479,6 +4563,7 @@ User Personas: Conductor
 Descripción: Desde el mapa, el usuario accede al detalle de un estacionamiento y puede seleccionar la opción “View reviews”. Desde esa pantalla, al presionar “Make a review”, se despliega un formulario emergente con un sistema de puntuación con estrellas y un campo para comentarios. Tras enviar la reseña, esta aparece listada entre las opiniones de otros usuarios.
 
 ![Agregar reseña a un estacionamiento](ChapterV-images/Agregar-reseña-driver.png)
+
 
 **App Web Wireflow Diagrams**
 
@@ -4490,6 +4575,8 @@ Descripción: Desde la pantalla principal, el propietario selecciona “Add park
 
 ![Agregar un nuevo estacionamiento](ChapterV-images/crear-estacionamiento.png)
 
+<div style="page-break-after: always;"></div>
+
 **Ver reservas activas**
 
 User Goal: Como desarrollador quiero obtener todas las reservas asociadas a un parkingId a través de la API para que los propietarios puedan consultar y gestionar las reservas de su estacionamiento.
@@ -4498,6 +4585,9 @@ Descripción: El usuario, desde el panel web, accede a la lista de sus estaciona
 
 ![Ver reservas activas](ChapterV-images/ver-reservas.png)
 
+---
+
+<div style="page-break-after: always;"></div>
 
 ### 5.4.3. Applications Mock-ups
 
@@ -4511,19 +4601,24 @@ Pantalla de inicio de sesión donde el usuario ingresa su correo y contraseña. 
 
 ![SignIn](ChapterV-images/Sign-in-mock.png)
 
+<div style="page-break-after: always;"></div>
+
 **Sign Up**
 
 Pantalla de registro donde el usuario ingresa su nombre, correo, contraseña y acepta los términos de uso.
 
 ![SignUp](ChapterV-images/Sign-up-mock.png)
 
+<div style="page-break-after: always;"></div>
+
 **Home**
 
 Pantalla principal donde el usuario puede ver un mapa con estacionamientos cercanos. Puede buscar por dirección o ver los estacionamientos disponibles.
 
 ![Home](ChapterV-images/Home-mock.png)
-
 ![Home2](ChapterV-images/Estacionamiento-details.png)
+
+<div style="page-break-after: always;"></div>
 
 **Crear reserva**
 
@@ -4531,21 +4626,25 @@ Pantalla donde el usuario puede crear una reserva de estacionamiento. Selecciona
 
 ![Crear reserva](ChapterV-images/Reservation-mock.png)
 
+<div style="page-break-after: always;"></div>
+
 **Pagar reserva**
 
 Pantalla donde el usuario puede pagar su reserva de estacionamiento. Llena los detalles de pago y confirma la transacción.
 
 ![Pagar reserva](ChapterV-images/Payment-mock.png)
-
 ![Pagar reserva](ChapterV-images/Successfull-reservation-mock.png)
+
+<div style="page-break-after: always;"></div>
 
 **Mis reservas**
 
 Pantalla donde el usuario puede ver sus reservas activas. Puede cancelar o ver los detalles de cada reserva.
 
 ![Mis reservas](ChapterV-images/Reservation-vIew-mock.png)
-
 ![Mis reservas](ChapterV-images/Reservation-cancel-mock.png)
+
+<div style="page-break-after: always;"></div>
 
 **Detalle de reserva**
 
@@ -4553,13 +4652,16 @@ Pantalla donde el usuario puede ver los detalles de su reserva. Incluye informac
 
 ![Detalle de reserva](ChapterV-images/Reservations-detail-mock.png)
 
+<div style="page-break-after: always;"></div>
+
 **Perfil**
 
 Pantalla donde el usuario puede ver y editar su perfil. Puede cambiar su contraseña y ver su información personal.
 
 ![Perfil](ChapterV-images/My-account-mock.png)
-
 ![Editar perfil](ChapterV-images/change-password-mock.png)
+
+<div style="page-break-after: always;"></div>
 
 **Suscripciones**
 
@@ -4567,13 +4669,16 @@ Pantalla donde el usuario puede ver sus suscripciones activas. Puede cancelar o 
 
 ![Suscripciones](ChapterV-images/Subscription-mock.png)
 
+<div style="page-break-after: always;"></div>
+
 **Reseñas**
 
 Pantalla donde el usuario puede ver y dejar reseñas de los estacionamientos. Puede calificar y dejar comentarios.
 
 ![Reseñas](ChapterV-images/Reviews-mock.png)
-
 ![Crear reseña](ChapterV-images/Make-review-mock.png)
+
+<div style="page-break-after: always;"></div>
 
 **App Web - Propietario**
 
@@ -4583,13 +4688,20 @@ Pantalla de inicio de sesión donde el propietario ingresa su correo y contrase�
 
 ![SignIn](ChapterV-images/SignIn.png)
 
+<div style="page-break-after: always;"></div>
+
 **Sign Up**
 
 Pantalla de registro donde el propietario ingresa su nombre, correo, contraseña, ciudad, pais y telefono.
 
 ![SignUp](ChapterV-images/SignUpView.png)
+
+<div style="page-break-after: always;"></div>
+
 ![SignUp](ChapterV-images/Driver.png)
 ![SignUp](ChapterV-images/Owner.png)
+
+<div style="page-break-after: always;"></div>
 
 **Agregar estacionamiento**
 
@@ -4597,13 +4709,14 @@ Pantalla principal donde el propietario de puede agregar su estacionamiento, com
 
 ![Home](ChapterV-images/CreateParking.png)
 
+<div style="page-break-after: always;"></div>
+
 ![Home](ChapterV-images/Step2-CreateParking.png)
-
 ![Home](ChapterV-images/Step3-CreateParking.png)
-
 ![Home](ChapterV-images/Step4-CreateParking.png)
-
 ![Home](ChapterV-images/Step5-CreateParking.png)
+
+<div style="page-break-after: always;"></div>
 
 **Lista de estacionamientos**
 
@@ -4611,11 +4724,15 @@ Pantalla principal donde el propietario puede ver sus estacionamientos.
 
 ![Home](ChapterV-images/Home-ParkingOwner.png)
 
+<div style="page-break-after: always;"></div>
+
 **Reservaciones**
 
 Pantalla donde el propietario puede ver las reservas activas para un espacio de su estacionamiento, donde puede ver informacion como nombre del conductor, placa del vehiculo, duracion y precio.
 
 ![Reservas](ChapterV-images/Home-ParkingOwner-Reservation.png)
+
+<div style="page-break-after: always;"></div>
 
 **Reseñas**
 
@@ -4623,14 +4740,19 @@ Pantalla donde el propietario puede ver las reseñas de su estacionamiento.
 
 ![Reseñas](ChapterV-images/Home-ParkingOwner-Reviews.png)
 
+<div style="page-break-after: always;"></div>
 
 ### 5.4.4. Applications User Flow Diagrams
+
 ##### Mobile App User Flow Diagrams
+
 **Visualización de espacios disponibles en el mapa**
 User goal: Como conductor, quiero visualizar en un mapa los espacios de estacionamiento disponibles en tiempo real para poder elegir rápidamente dónde estacionar.
 Descripción: El usuario visualiza el mapa al ingresar la aplicación, al seleccionar alguno de los puntos, se abre una pestaña mue muestra los detalles del local de parking, en esta, selecciona Reserve Now para visualizar los espacios disponibles.
 
 ![User flow 1](ChapterV-images/UserFlow1.png)
+
+<div style="page-break-after: always;"></div>
 
 **Visualizar detalles de un espacio disponible**
 User goal: Como conductor, quiero ver los detalles de un espacio disponible (precio, rating, sitios disponibles) al tocarlo en el mapa para tomar una decisión informada.
@@ -4638,7 +4760,10 @@ Descripción: El usuario visualiza el mapa al ingresar la aplicación, al selecc
 
 ![User flow 2](ChapterV-images/UserFlow2.png)
 
+<div style="page-break-after: always;"></div>
+
 **Reservar un espacio disponible desde la app**
+
 User Goal: Como conductor, quiero poder reservar un espacio disponible desde la app para asegurarme de que estará libre cuando llegue.
 Descripción: El usuario accede a la app, selecciona un parking y presiona en el botón Reserve Now, para luego seleccionar todas las opciones requeridas para reservar el espacio. Por ultimo, se dirige hacia la vista Pay, de esta manera, pagando el espacio y el sistema le mostrará un modal de confirmación.
 
@@ -4650,11 +4775,15 @@ Descripción: El usuario, desde la vista principal de la app, ingresa por medio 
 
 ![User Flow 4](ChapterV-images/UserFlow4.png)
 
+<div style="page-break-after: always;"></div>
+
 **Realizar pago desde la app**
 User goal: Como conductor, quiero poder pagar el estacionamiento directamente desde la app para ahorrar tiempo y evitar el uso de efectivo.	
 Descripción: El usuario, selecciona un parking desde la vista principal de la aplicación. Luego en la pestaña de detalles, selecciona Reserve Now. Configura los datos para reservar el parking. Luego, se le redirige a la pestaña Payment, en la cual el usuario ingresará los datos de su tarjeta para realizar el pago. Una vez realizado el pago, se le notificará por medio de un modal de confirmación.
 
 ![User Flow 5](ChapterV-images/UserFlow5.png)
+
+<div style="page-break-after: always;"></div>
 
 **Ver historial de pagos realizados**
 User goal: Como conductor, quiero consultar mi historial de pagos anteriores para tener un registro de mis transacciones y controlar mis gastos.
@@ -4662,11 +4791,15 @@ Descripción: El usuario ingresa a la pestaña de Reservations desde el menú in
 
 ![User Flow 6](ChapterV-images/UserFlow6.png)
 
+<div style="page-break-after: always;"></div>
+
 **Calificar estacionamientos utilizados**
 User goal: Como conductor, quiero poder calificar los estacionamientos que he utilizado, para ayudar a otros usuarios a tomar decisiones informadas.	
 Descripción: El usuario selecciona un parking que haya visitado desde el mapa, luego selecciona en la opción View Reviews. Esta opción le abrirá una ventana en la que podrá visualizar los comentarios de otras personas y realizar uno propio en base a su experiencia, seleccionando la opción Make a Review, el cual le abrirá un modal en el que podrá colocar una calificiación en estrellas y un comentario.
 
 ![User Flow 7](ChapterV-images/UserFlow7.png)
+
+<div style="page-break-after: always;"></div>
 
 **Application Web User Flow Diagrams**
 
@@ -4686,6 +4819,10 @@ Descripción: El usuario, desde el panel web de administración, accede a la opc
 
 ![User Flow 2](ChapterV-images/Ver-reservas-flow.png)
 
+---
+
+<div style="page-break-after: always;"></div>
+
 ## 5.5. Applications Prototyping
 
 Se ha elaborado un único video que consolida el prototipado de ambas interfaces (web y móvil) de SmartParking. 
@@ -4694,6 +4831,8 @@ El video presenta una simulación navegable de los flujos de usuario más import
 ![A fragment of application prototyping video](ChapterV-images/prototyping.png)
 
 ---
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
