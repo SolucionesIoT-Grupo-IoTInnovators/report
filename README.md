@@ -5405,35 +5405,29 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 <div style="page-break-after: always;"></div>
 
-### 6.2.2. Sprint 2
+### 6.2.2. Sprint 2  
 #### 6.2.2.1. Sprint Planning 2
 
 | Sprint # | Sprint 2 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 02/06/2025 |
-| **Time** | 07:00 horas (GMT-5) |
-| **Location** |  |
-| **Prepared By** | IoT Innovators |
-| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 1 Review Summary** |  |
-| **Sprint 1 Retrospective Summary** | |
+| **Date** | 02 / 06 / 2025 |
+| **Time** | 07 : 00 (GMT-5) |
+| **Location** | Microsoft Teams (canal *Sprint-2-Planning*) |
+| **Prepared By** | *IoT Innovators* |
+| **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
+| **Sprint-1 Review Summary** | Landing y portal web en línea; 96 % de las historias aprobadas por *Product Owner*; pequeños *bugs* en visualización móvil identificados para próximo *sprint*. |
+| **Sprint-1 Retrospective Summary** | + Excelente coordinación FE/BE.  <br> – Falta de ambiente de *staging IoT* real demoró pruebas de sensores; acordado habilitar *edge-server* emulado. |
 
 **Sprint 2 Goal**
 
-**Our focus is** delivering a prototype of SmartParking that allows drivers and parking owners to experience the complete parking workflow, including discovery, interaction, real-time status updates, and system responsiveness.  
-**We believe it delivers** early validation of the system's usability, real-time data accuracy, and operational effectiveness across both digital and physical components.  
-**This will be confirmed when** the presence of a vehicle on a parking spot is detected through sensor-striggered and edge-processed data forwared to the backend infrastructure to ensure platform-wide consistenty and reflect updated availability across all user interfaces.
+> Our focus is releasing the first end-to-end parking flow, being first search, then detail, next r0eserve, and finally pay. 
+> We believe it delivers proof that SmartParking can coordinate drivers, owners and sensors in real time.
+> This will be confirmed when a driver on the mobile app can reserve and pay for a spot and receive confirmation of it, and the same reservation appears on the owner dashboard within ≤ 3 s of sensor state change.
 
-Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+**Sprint 2 Velocity**: **96 h efectivas**
 
-**Sprint 2 Velocity**
-
-** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
-
-**Sum of Story Points**
-
-** Story Points en total**
+**Sum of Story Points**: **59 pts**  
 
 <div style="page-break-after: always;"></div>
 
@@ -5474,42 +5468,45 @@ https://trello.com/b/jqtsgLac
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint # ||   Sprint 2 ||||||
-|-----------| -----------|------------|------------|--------|--------|-----------|----------------|
-|   *User Story*     ||   *Work-Item / Task*     ||||||
-| *Id*    | *Title*    | *Id*     | *Title*       | *Description*    | *Estimation (Hours)* | *Assigned To*   | *Status (To-do / In-Process / To-Review / Done)* |
-| MS01 | Detección de ocupación del espacio | 01 | Sensor de distancia | Programar lectura del sensor de distancia y envío | 8h |  Tafur Gonzales, Josty Gerardo  | Done |
-| MS03 | Indicador LED según estado del spot | 02 | Lógica de LED | Controlar LED RGB según estado del spot | 4h |  Zarate Caceres, Victor Ernesto  | Done |
-| TS01 | Integrar sensores IoT al backend | 05 | Integración MQTT | Conectar sensores al edge mediante protocolo MQTT | 6h | Zarate Caceres, Victor Ernesto   | Done |
-| TS03 | Visualización en tiempo real en la aplicación | 06 | Panel de disponibilidad | Mostrar en tiempo real los estados de los spots | 6h |  Cortés Casas, Joaquin Marcelo  | Done |
-| US11 | Visualizar ocupación en tiempo real | 07 | Actualizar visualización | Sincronizar app con el backend usando WebSockets | 5h |  Cortés Casas, Joaquin Marcelo  | Done |
-| MS04 | Mostrar nombre del spot en display | 03 | Mostrar ID del spot | Mostrar nombre del spot por comando | 4h |  Tafur Gonzales, Josty Gerardo  | Done |
-| MS05 | Mostrar MAC para emparejamiento | 04 | Mostrar MAC | Mostrar dirección MAC por comando | 4h | Tafur Gonzales, Josty Gerardo   | Done |
-| US01 | Visualización de espacios disponibles en el mapa | 08 | Mapa interactivo | Mostrar mapa de parqueo con disponibilidad por colores | 8h | Diaz Silva, Fernando Josué  | Done |
-| US02 | Actualización automática de disponibilidad | 09 | Refrescar estado automáticamente | Implementar auto-actualización del estado de los spots | 5h | Zarate Caceres, Victor Ernesto  | Done |
-| US12 | Modificar tarifas de estacionamiento | 10 | CRUD de tarifas | Crear interfaz para gestionar tarifas desde backend | 6h |  Cortés Casas, Joaquin Marcelo  | Done |
-| US13 | Descargar reportes de uso | 11 | Reportes de uso | Generar y descargar reportes de uso desde dashboard | 5h |  Diaz Silva, Fernando Josué  | Done |
-| TS05 | Implementar sistema de pagos en línea | 12 | Integración pasarela de pago | Conectar con pasarela de pagos en app | 8h |  Zarate Caceres, Victor Ernesto  | Done |
-| US08 | Realizar pago desde la app | 13 | UI de pagos | Interfaz en app para realizar pagos | 6h |   Diaz Silva, Fernando Josué  | Done |
-| TS04 | Implementar sistema de reservas en la App móvil | 14 | Backend y lógica de reservas | API + lógica para manejar reservas | 8h |  Cortés Casas, Joaquin Marcelo  | Done |
-| US06 | Reservar un espacio disponible desde la app | 15 | UI de reservas | Interfaz para seleccionar y reservar espacios | 6h |  Castilla Pachas, César Antonio  | Done |
-| US10 | Ver historial de reservas | 16 | Historial de reservas | Mostrar historial de reservas realizadas | 5h |  Diaz Silva, Fernando Josué  | Done |
-| US26 | Registro desde el inicio de sesión | 17 | Registro de usuario | UI de Registro de usuario en app web y conexion con el backend | 5h |  André Arroyo  | Done |
-| US27 | Inicio de sesión | 18<br><br>19 | UI de Login en app movil<br><br> UI de Login en app web | Interfaz de Login en la app movil y conexion con el backend <br><br> Interfaz de Login en la app web y conexion con el backend  | 4h<br><br>4h |  André Arroyo<br><br>André Arroyo  | Done<br><br>Done |
-| MS02       | Bloquear spot reservado             | 19 | Sistema de bloqueo         | Desarrollar lógica para activar/desactivar bloqueo físico                                       | 6h                 |        Tafur Gonzales, Josty Gerardo      | Done                                           |
-| MS06       | Enviar datos al backend             | 20 | Conexión backend           | Implementar lógica para enviar métricas al backend desde IoT                                   | 6h                 |      Zarate Caceres, Victor Ernesto        | Done                                           |
-| MS07       | Guardar datos sin WiFi              | 21 | Persistencia local         | Guardar datos temporalmente en el edge ante falla de red                                       | 5h                 |      Tafur Gonzales, Josty Gerardo        | Done                                            |
-| MS08       | Sincronizar al volver WiFi          | 22 | Reenvío de datos           | Detectar retorno de red y sincronizar datos pendientes                                         | 5h                 |      Zarate Caceres, Victor Ernesto        | Done                                           |
-| MS09       | Recibir métricas en backend         | 23 | Endpoint de recepción      | Crear endpoint para recibir métricas desde sensores IoT                                        | 6h                 |       Tafur Gonzales, Josty Gerardo       | Done                                            |
-| MS10       | Procesar ocupación en backend       | 24 | Procesamiento de ocupación | Procesar estado de ocupación a partir de métricas recibidas                                   | 5h                 |       Tafur Gonzales, Josty Gerardo       | Done                                            |
-| MS11       | Generar alertas por sensores        | 25 | Lógica de alertas          | Configurar reglas para generar alertas ante valores críticos                                  | 6h                 |        Tafur Gonzales, Josty Gerardo      | Done                                            |
-| MS12       | Almacenar métricas históricas       | 26 | Histórico de métricas      | Guardar datos históricos y permitir consultas                                                  | 4h                 |        Tafur Gonzales, Josty Gerardo      | Done                                           |
-| US28       | Visualizar parkings en el mapa      | 27 | Mapa interactivo           | Mostrar en mapa los parkings disponibles geolocalizados                                        | 6h                 |      Godoy, Johan Príncipe        | Done                                            |
-| US29       | Ver detalles del parking            | 28 | Detalle del parking        | Mostrar información detallada del parking seleccionado                                         | 4h                 |     Godoy, Johan Príncipe         | Done                                            |
-| US30       | Ver disponibilidad en tiempo real   | 29 | Disponibilidad en tiempo real | Visualizar spots libres al instante desde detalle del parking                              | 5h                 |     Godoy, Johan Príncipe         | Done                                            |
-| US31 | Conectar servicio de notificaciones         | 30 | Integrar Firebase backend   | Configurar Firebase en el backend y realizar pruebas de envío manual                                | 5h  |      Castilla Pachas, César Antonio        | Done |
-| US32 | Recibir notificaciones en app móvil         | 31 | Configurar FCM en app móvil | Integrar Firebase Messaging en la app móvil y mostrar notificaciones de prueba                       | 3h  |      Castilla Pachas, César Antonio        | Done |
-| US33 | Recibir notificaciones en app web           | 32 | Configurar FCM en app web   | Configurar Firebase Messaging en el cliente web y mostrar notificaciones en el navegador             | 3h  |      Castilla Pachas, César Antonio        | Done |
+| Sprint #       | **Sprint 2**                  |                      |                               |                                                              |              |                           |            |
+| -------------- | ----------------------------- | -------------------- | ----------------------------- | ------------------------------------------------------------ | ------------ | ------------------------- | ---------- |
+| **User Story** |                               | **Work-Item / Task** |                               |                                                              |              |                           |            |
+| **Id**         | **Title**                     | **Id**               | **Title**                     | **Description**                                              | **Est. (h)** | **Assigned To**           | **Status** |
+| **US09**       | Login app móvil conductor     | US09-MO-01           | UI login RN                   | React Native + Hook Form, email & pwd, validaciones locales  | 3            | **Arroyo Ormeño André**   | Done       |
+|                |                               | US09-BE-01           | Auth móvil ↔ API              | Consumir `POST /auth/sign-in`, guardar JWT en Secure Storage | 4            | **Arroyo Ormeño André**   | Done       |
+| **US16**       | Descargar reportes de uso     | US16-FE-01           | Selector fechas & “Descargar” | Date-picker + botón, descarga desde panel Owner Web          | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US16-BE-01           | Export report endpoint        | `GET /reports?from&to` → genera PDF/Excel y URL firmada      | 5            | **Cortés Casas Joaquín**  | Done       |
+| **US18**       | Mapear parkings cercanos      | US18-MO-01           | Pantalla mapa                 | Mapbox GL, marker custom, permiso ubicación                  | 5            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US18-BE-01           | Service list parkings         | Extiende `GET /parkings` (lat, lon, radio, paginación)       | 3            | **Cortés Casas Joaquín**  | Done       |
+| **US19**       | Detalle de parking            | US19-MO-01           | Vista detalle                 | Dirección, tarifa, rating, horarios, carousel imágenes       | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US19-BE-01           | Mapper parking → DTO          | Adaptar `/parkings/{id}` a modelo móvil                      | 2            | **Cortés Casas Joaquín**  | Done       |
+| **US20**       | Detalle de espacio            | US20-MO-01           | Sheet spot detail             | BottomSheet precio, tipo, tiempo máx.                        | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US20-MO-02           | Cerrar sheet animado          | Gesture-handler + fade-out al tap cerrar                     | 2            | **Díaz Silva Fernando**   | Done       |
+| **US21**       | Disponibilidad en tiempo real | US21-MO-01           | Suscripción WS                | Socket.io `/availability/{parkingId}` actualiza mapa         | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US21-BE-01           | Gateway WS availability       | Publicar cambios spot (MQTT→WS)                              | 5            | **Cortés Casas Joaquín**  | Done       |
+| **US22**       | Reservar espacio              | US22-MO-01           | Flujo reserva                 | Stepper seleccionar→confirmar + countdown hold               | 5            | **Castilla Pachas César** | Done       |
+|                |                               | US22-BE-01           | POST /reservations            | DriverId, parkingSpotId, fechas; manejo 400 solapado         | 4            | **Cortés Casas Joaquín**  | Done       |
+| **US25**       | Historial de reservas         | US25-MO-01           | Lista reservas                | FlatList con filtros por estado; badges color                | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US25-BE-01           | Query reservas driver         | `GET /reservations/driver/{id}?status=` + paginación         | 3            | **Cortés Casas Joaquín**  | Done       |
+| **US39**       | Pago desde app                | US39-MO-01           | UI checkout Stripe            | CardInput + botón “Pagar”, spinner progreso                  | 5            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US39-BE-01           | Capture payment               | `POST /payments/reservation/{id}` ↔ Stripe, persistir        | 4            | **Zárate Cáceres Víctor** | Done       |
+| **TS15**       | Pago suscripción API          | TS15-BE-01           | DTO + validator               | userId, amount, card info; reglas numéricas                  | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                               | TS15-BE-02           | Persist + response            | Crear `PaymentEntity`, devolver JSON pago                    | 3            | **Zárate Cáceres Víctor** | Done       |
+| **TS16**       | Pago reserva API              | TS16-BE-01           | Validar reserva               | Confirmar PENDING antes de cobrar                            | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                               | TS16-BE-02           | Update estado reserva         | Al pagar, marcar `status = PAID`                             | 2            | **Zárate Cáceres Víctor** | Done       |
+| **TS20**       | Registrar token push          | TS20-BE-01           | Controller register           | Upsert token por userId, 201                                 | 2            | **Castilla Pachas César** | Done       |
+| **TS21**       | Eliminar token push           | TS21-BE-01           | Controller delete             | DELETE token; maneja 404                                     | 2            | **Castilla Pachas César** | Done       |
+| **TS22**       | Enviar notificación           | TS22-BE-01           | Servicio FCM send             | Wrapper Firebase Admin, topic/token                          | 3            | **Castilla Pachas César** | Done       |
+| **MS01**       | Detección ocupación           | MS01-FW-01           | Sensor ultrasonido            | Medir distancia, debounce 3 s, flag `occupied`               | 4            | **Tafur Gonzales Josty**  | Done       |
+|                |                               | MS01-FW-02           | Publicar MQTT estado          | `spot/{id}/status` payload JSON                              | 3            | **Tafur Gonzales Josty**  | Done       |
+| **MS02**       | Bloqueo spot reservado        | MS02-FW-01           | Servo-lock                    | Comando MQTT `lock:true` activa relé                         | 3            | **Tafur Gonzales Josty**  | Done       |
+|                |                               | MS02-FW-02           | Validar reserva RFID          | Leer tag autorizado → desbloquea                             | 4            | **Tafur Gonzales Josty**  | Done       |
+| **MS03**       | LED estado spot               | MS03-FW-01           | Código LED RGB                | Verde libre, Amarillo reservado, Rojo ocupado                | 2            | **Zárate Cáceres Víctor** | Done       |
+| **MS04**       | Display nombre spot           | MS04-FW-01           | Render LCD/OLED               | Mostrar label spot cada 5 s                                  | 2            | **Tafur Gonzales Josty**  | Done       |
+| **MS05**       | Display MAC device            | MS05-FW-01           | Modo mantenimiento            | Botón muestra MAC durante 10 s                               | 2            | **Tafur Gonzales Josty**  | Done       |
+| **TS29**       | Subscripción MQTT Edge        | TS29-ES-01           | Configurar topics             | Suscribir `spot/+/status`; reconexión auto                   | 3            | **Zárate Cáceres Víctor** | Done       |
+| **TS30**       | Persistir datos Edge          | TS30-ES-01           | ORM SQLite states             | Tabla `spot_state`; índice spotId+ts                         | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                               | TS30-ES-02           | Retry queue                   | Si `backendUp=false` guardar en cola y reintentar            | 3            | **Zárate Cáceres Víctor** | Done       |
 
 <div style="page-break-after: always;"></div>
 
