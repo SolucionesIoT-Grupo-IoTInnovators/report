@@ -5086,7 +5086,6 @@ Trello: https://trello.com/b/4jpMjzDd
 | -------------- | ----------------------------- | -------------------- | ----------------------------- | ------------------------------------------------------------ | ------------ | ------------------------- | ---------- |
 | **User Story** |                               | **Work-Item / Task** |                               |                                                              |              |                           |            |
 | **Id**         | **Title**                     | **Id**               | **Title**                     | **Description**                                              | **Est. (h)** | **Assigned To**           | **Status** |
-| 
 | **US01**       | Hero landing page        | **US01-UX-01**       | Diseñar wireframe hero        | Wireframe en Figma (zona *above-the-fold* + CTA, contraste AA).    | 3            | **Díaz Silva, Fernando**   | Done       |
 |                |                          | **US01-UX-02**       | Redactar micro-copy CTA       | Propuesta ≤ 60 caracteres, alineada a Style Guide.                 | 2            | **Díaz Silva, Fernando**   | Done       |
 |                |                          | **US01-FE-01**       | Implementar hero responsive   | **Vue 3 + TailwindCSS**; gradient overlay; layout móvil-desktop.   | 5            | **Díaz Silva, Fernando**   | Done       |
