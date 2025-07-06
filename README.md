@@ -6953,15 +6953,26 @@ Se muestra cómo el equipo **IoT Innovators** llevó a cabo el proyecto SmartPar
 # Conclusiones y recomendaciones
 ## Conclusiones
 
-- El sistema propuesto permite una clara separación de responsabilidades a través de 9 bounded contexts, lo cual mejora la escalabilidad, mantenibilidad y comprensión del modelo.
-- El contexto de IAM cumple un rol crítico como núcleo de autenticación y autorización, habilitando flujos seguros y consistentes para el resto de módulos.
-- La lógica de negocio de Subscription, Reservation y Parking Management está correctamente aislada y responde a escenarios reales y frecuentes de usuarios y operadores.
-- Las historias de usuario, acompañadas de criterios de aceptación claros y trazables, permitieron un desarrollo centrado en las necesidades del usuario. Estas historias guiaron el diseño UI/UX, visible en la landing page funcional y navegable en entorno web.
-- La implementación de un prototipo de landing page permitió validar visualmente la propuesta de valor, arquitectura de información y experiencia de usuario. Su diseño responsive, documentado a través de Figma, demuestra la aplicabilidad del sistema en contextos reales.
-- El uso de técnicas como Domain-Driven Design, Context Mapping y C4 Model permitió una visión profunda de la arquitectura, facilitando la trazabilidad entre necesidades del negocio y decisiones técnicas.
+A lo largo del desarrollo de nuestro proyecto SmartParking, experimentamos una evolución constante en la propuesta técnica y en el entendimiento profundo de las necesidades del usuario. Desde las primeras etapas, con la entrega del TB1, se definió una arquitectura basada en bounded contexts, lo que nos permitió mantener una separación clara de responsabilidades. Esta decisión estratégica facilitó la escalabilidad y mantenibilidad del sistema, y nos ayudó a construir una base sólida para el crecimiento progresivo de la solución.
+
+Durante la TP, el contexto de Identidad y Acceso (IAM) tomó un papel central al habilitar flujos de autenticación y autorización seguros para todo el ecosistema, consolidando así una experiencia de usuario confiable y bien integrada. Al mismo tiempo, las historias de usuario definidas con criterios de aceptación precisos nos guiaron en el diseño de una experiencia intuitiva y funcional, que se materializó más adelante en interfaces visuales estructuradas, desarrolladas con herramientas como Figma.
+
+En la TB2, avanzamos significativamente en la implementación de la lógica de negocio de los contextos clave, como Reservation, Subscription y Parking Management, aislando correctamente sus responsabilidades y alineándolas a casos de uso reales. Fue también en esta etapa donde iniciamos la configuración del dispositivo IoT, elemento fundamental para nuestra propuesta, ya que permite detectar en tiempo real la disponibilidad de espacios. Esta integración entre el mundo físico y digital continuó desarrollándose y fue validada durante la entrega final (TF), demostrando que el sistema no solo era teóricamente funcional, sino también aplicable en un entorno real.
+
+Además, la implementación de la landing page funcional, los prototipos responsivos de aplicaciones web y móviles, así como las entrevistas de validación, nos permitieron evaluar la solución desde una perspectiva visual y de experiencia de usuario. La arquitectura del sistema, documentada con modelos como C4, técnicas de Domain-Driven Design y context mapping, fortaleció la coherencia técnica del proyecto y aseguró una trazabilidad clara entre los requerimientos del negocio y las decisiones de diseño y desarrollo.
+
+En conjunto, el proyecto SmartParking no solo consolidó una solución tecnológica funcional y escalable, sino que también representó un ejercicio integral de diseño centrado en el usuario, ingeniería de software rigurosa y validación continua, reflejando así el compromiso de nuestro equipo con la innovación y la aplicabilidad real.
 
 ## Recomendaciones
 - Implementar un sistema de métricas para evaluar el uso real de funcionalidades por tipo de usuario y refinar los módulos más usados.
+
+- Usar un entorno staging para sensores y edge servers antes de cada release: reducirá en al menos 50 % los defectos de integración IoT detectados en producción.
+
+- Automatizar las pruebas end-to-end con Cypress y un emulador de dispositivos para mantener la confiabilidad del flujo reserva-pago-liberación sin depender de pruebas manuales.
+
+- Centralizar métricas de ocupación, latencia y fallas en un único panel (Grafana + Prometheus) para permitir decisiones operativas casi en tiempo real.
+
+- Implementar retrospectivas breves (≤ 30 min) justo después de cada demo para capturar aprendizajes mientras están frescos y ajustar el backlog de manera continua.
 
 <div style="page-break-after: always;"></div>
 
@@ -7004,6 +7015,12 @@ Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tb2`
 Formato: `.mp4`  
 Duración: 25:02  
 **Enlace:** https://shorturl.at/5PQoI
+
+**Exposición TF1**
+Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tf1`  
+Formato: `.mp4`  
+Duración:  
+**Enlace:** 
 
 **Needfinding Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  
