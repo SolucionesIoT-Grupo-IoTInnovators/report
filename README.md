@@ -5014,60 +5014,29 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 <div style="page-break-after: always;"></div>
 
 ## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.1. Sprint 1
+### 6.2.1. Sprint 1  
 #### 6.2.1.1. Sprint Planning 1
-
-En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
 
 | Sprint # | Sprint 1 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 01/05/2025 |
-| **Time** | 21:00 horas (GMT-5) |
-| **Location** |  |
-| **Prepared By** | IoT Innovators |
-| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 0 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
-| **Sprint 0 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
+| **Date** | 01 / 05 / 2025 |
+| **Time** | 21 : 00 (GMT-5) |
+| **Location** | Microsoft Teams (canal *Sprint-1-Planning*) |
+| **Prepared By** | *IoT Innovators* |
+| **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
+| **Sprint-0 Review Summary** | Se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de UI; se habilitó infraestructura (GitHub Actions + Azure Static Web Apps, Figma, MQTT broker de pruebas). |
+| **Sprint-0 Retrospective Summary** | Buena colaboración y cumplimiento de entregables; se detectó mejorar la gestión de dependencia entre módulos Web & IoT y la puntualidad de las ceremonias. |
 
 **Sprint 1 Goal**
 
-> **Our focus is** on delivering a publicly accessible Landing Page and the initial web app interface for SmartParking.  
-> **We believe it delivers** early user engagement and foundational infrastructure for stakeholder validation.  
-> **This will be confirmed when** users can access the landing page, view the product and team info, and navigate the web app’s home page from deployed environments.
+> Our focus is publishing a responsive public Landing Page and the skeleton of the SmartParking web app (login & empty dashboard).
+> We believe it delivers first-contact credibility and a deployable framework on which later features can iterate.
+> This will be confirmed when the Landing Page loads in less than 2 s from Lima, all 4 navigation links work on desktop & mobile, and a user can register, log in, and reach /home in the cloud environment without errors.
 
-Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+**Sprint 1 Velocity**: **80 h efectivas**
 
-**Sprint 1 Velocity**
-
-**80 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
-
-**Sum of Story Points**
-
-**55 Story Points en total**, agrupando las siguientes historias de usuario:
-
-| ID | Historia de Usuario |
-|----|---------------------|
-| US03 | Sección hero de landing page |
-| US04 | Barra de navegación en landing page	 |
-| US14 | Diseñar y distribuir espacios de estacionamiento	 |
-| US15 | Gestionar múltiples estacionamientos desde un solo panel	 |
-| US22 | Calificar estacionamientos utilizados	 |
-| US23 | Registro Rápido desde Landing Page	 |
-| TS02 | Autenticación con JWT en Web y App	 |
-| TS06	 | Crear Parking Owner a través de RESTful API		 |
-| TS07 | Crear Driver a través de RESTful API	 |
-| TS08 | Sign In de usuario a través de RESTful API	 |
-| TS09 | Obtener perfil de Parking Owner por userId a través de RESTful API	 |
-| TS10 | Obtener perfil de Driver por userId a través de RESTful API	 |
-| TS11	 | Obtener todos los parkings registrados		 |
-| TS12 | Crear un nuevo parking	 |
-| TS13 | Obtener todos los spots de un parking por su parkingId	 |
-| TS14 | Agregar un spot a un parking	 |
-| TS15 | Obtener parking por parkingId	 |
-| TS16	 | Obtener todos los parkings por ownerId		 |
-| TS17 | Crear Reserva a través de RESTful API	 |
-| TS18 | Obtener Reservas por ParkingId |
+**Sum of Story Points**: **78 pts**
 
 <div style="page-break-after: always;"></div>
 
@@ -5111,30 +5080,58 @@ https://trello.com/b/4jpMjzDd
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
-|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
-|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
-| **Id**    | **Title**                                                          | **Id**     | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
-| US03      | Sección hero de landing page                                       |     01     | Seccion Hero                        | Diseñar e implementar hero visual en landing page    | 6h                     | Diaz Silva, Fernando Josué     | Done                                               |
-| US04      | Barra de navegación en landing page                                |     02     | Barra de navegación en landing page | Barra navegable con enlaces                          | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
-| US14      | Diseñar y distribuir espacios de estacionamiento                   |     03     | Diseño de espacios                  | UI para organizar zonas de parqueo                   | 6h                     | Príncipe Godoy, Johan          | Done                                               |
-| US15      | Gestionar múltiples estacionamientos desde un solo panel           |     04     | Panel múltiple parkings             | Vista centralizada para gestión de cocheras          | 8h                    | Zarate Caceres, Victor Ernesto | Done                                               |
-| US22      | Calificar estacionamientos utilizados                              |     05     | Calificación                        | Interfaz para dejar y ver reseñas de estacionamientos| 6h                     | Castilla Pachas, César Antonio | Done                                               |
-| US23      | Registro Rápido desde Landing Page                                 |     06     | Registro rápido                     | Formulario desde landing page                        | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
-| TS02      | Autenticación con JWT en Web y App                                 |     07     | Autenticación                       | Login basado en tokens para Web y App                | 10h                    | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS06      | Crear Parking Owner a través de RESTful API                        |     08     | Crear Owner API                     | POST para registrar propietario                      | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS07      | Crear Driver a través de RESTful API                               |     09     | Crear Driver API                    | POST para registrar conductor                        | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS08      | Sign In de usuario a través de RESTful API                         |     10     | Login API                           | POST para autenticación y retorno de token JWT       | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS09      | Obtener perfil de Parking Owner por userId a través de RESTful API |     11     | Perfil Owner API                    | GET para obtener datos por userId (propietario)      | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
-| TS10      | Obtener perfil de Driver por userId a través de RESTful API        |     12     | Perfil Driver API                   | GET para obtener datos por userId (conductor)        | 4h                     | Castilla Pachas, César Antonio | Done                                               |
-| TS11      | Obtener todos los parkings registrados                             |     13     | Obtener parkings                    | GET general de parkings registrados                  | 4h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS12      | Crear un nuevo parking                                             |     14     | Crear parking                       | POST para agregar nuevo parking                      | 6h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS13      | Obtener todos los spots de un parking por su parkingId             |     15     | Ver spots por parkingId             | GET para listar espacios de un parking               | 4h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS14      | Agregar un spot a un parking                                       |     16     | Agregar spot                        | POST para crear nuevo espacio                        | 4h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS15      | Obtener parking por parkingId                                      |     17     | Obtener parking por ID              | GET específico de un parking                         | 4h                     | Castilla Pachas, César Antonio | Done                                               |
-| TS16      | Obtener todos los parkings por ownerId                             |     18     | Parkings por ownerId                | GET para listar los parkings de un propietario       | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
-| TS17      | Crear Reserva a través de RESTful API                              |     19     | Crear reserva                       | POST para registrar una reserva con validaciones     | 6h                     | Cortés Casas, Joaquin Marcelo  | Done                                               |
-| TS18      | Obtener Reservas por ParkingId                                     |     20     | Ver reservas por parking            | GET para consultar reservas de un estacionamiento    | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+| Sprint #       | **Sprint 1**                  |                      |                               |                                                              |              |                           |            |
+| -------------- | ----------------------------- | -------------------- | ----------------------------- | ------------------------------------------------------------ | ------------ | ------------------------- | ---------- |
+| **User Story** |                               | **Work-Item / Task** |                               |                                                              |              |                           |            |
+| **Id**         | **Title**                     | **Id**               | **Title**                     | **Description**                                              | **Est. (h)** | **Assigned To**           | **Status** |
+| 
+| **US01**       | Hero landing page        | **US01-UX-01**       | Diseñar wireframe hero        | Wireframe en Figma (zona *above-the-fold* + CTA, contraste AA).    | 3            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US01-UX-02**       | Redactar micro-copy CTA       | Propuesta ≤ 60 caracteres, alineada a Style Guide.                 | 2            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US01-FE-01**       | Implementar hero responsive   | **Vue 3 + TailwindCSS**; gradient overlay; layout móvil-desktop.   | 5            | **Díaz Silva, Fernando**   | Done       |
+| **US02**       | Navbar landing           | **US02-UX-01**       | Wireframe navbar sticky       | Estructura, anclas y variante móvil (hamburger).                   | 2            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US02-FE-01**       | Codificar navbar              | Vue Router + Tailwind; scroll-spy para *active-link*.              | 4            | **Díaz Silva, Fernando**   | Done       |
+| **US03**       | Planes landing           | **US03-UX-01**       | Diseñar cards planes          | Tres tiers con beneficios + iconos.                                | 3            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US03-FE-01**       | Implementar cards c/animación | **VueUseMotion** (*slide-in*) respetando `prefers-reduced-motion`. | 4            | **Díaz Silva, Fernando**   | Done       |
+| **US04**       | Sección Seguridad IoT    | **US04-UX-01**       | Crear ilustraciones IoT       | SVG isométrico sensor-edge-cloud (< 100 kB).                       | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US04-FE-01**       | Integrar sección              | Grid 2 cols con **VueUseMotion** scroll-reveal; links “Leer más”.  | 5            | **Príncipe Godoy, Johan**  | Done       |
+| **US05**       | Registro rápido          | **US05-FE-01**       | Colocar botón CTA             | Botón accesible; foco teclado.                                     | 2            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US05-FE-02**       | Redirección por rol           | **Vue Router** : Owner → `/web-signup`, Driver → links a stores.   | 3            | **Díaz Silva, Fernando**   | Done       |
+| **US06**       | Registro Owner web       | **US06-FE-01**       | Formulario Owner              | **Vee-Validate** + Yup con errores inline.                         | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US06-BE-01**       | POST /sign-up/owner           | Spring Boot 3; DTO validado, servicio `createOwner()`.             | 4            | **Arroyo Ormeño, André**   | Done       |
+| **US07**       | Login Owner web          | **US07-FE-01**       | Form login Owner              | Email + pwd + rememberMe (Pinia store).                            | 3            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US07-BE-01**       | Auth JWT + refresh            | Spring Security: `/auth/sign-in` devuelve access & refresh.        | 4            | **Arroyo Ormeño, André**   | Done       |
+| **US12**       | Crear parking virtual    | **US12-FE-01**       | UI formulario parking         | Inputs básicos + mapa **Leaflet** coord.                           | 5            | **Príncipe Godoy, Johan**  | Done       |
+|                |                          | **US12-BE-01**       | POST /parkings                | Geocoding lat/lon + persistencia (Spring Boot).                    | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **US13**       | Diseñar layout spots     | **US13-FE-01**       | Canvas drag-and-drop          | **vue-konva** grid editable.                                       | 8            | **Príncipe Godoy, Johan**  | Done       |
+|                |                          | **US13-BE-01**       | Guardar layout JSON           | PATCH `/parkings/{id}/layout` con versionado.                      | 5            | **Príncipe Godoy, Johan**  | Done       |
+| **US14**       | Dashboard ocupación RT   | **US14-FE-01**       | Gráfico doughnut              | **vue-chartjs** escuchando WebSocket.                              | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US14-BE-01**       | WebSocket /occupancy          | Spring WebSocket: emite ocupación cada 10 s.                       | 3            | **Príncipe Godoy, Johan**  | Done       |
+| **US15**       | Panel multi-parking      | **US15-FE-01**       | Tabla comparativa             | KPIs ocupación / ingresos (Vue DataTable).                         | 5            | **Zárate Cáceres, Víctor** | Done       |
+|                |                          | **US15-BE-01**       | Query métricas owner          | JOIN parkings + reservas; caché 5 min.                             | 4            | **Zárate Cáceres, Víctor** | Done       |
+| **US41**       | Reservas parkings        | **US41-FE-01**       | UI reservas                   | Filtros fecha / estado (DataTable).                                | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US41-BE-01**       | GET reservas owner            | Endpoint + mapper DTO.                                             | 4            | **Tafur Gonzales, Josty**  | Done       |
+| **US42**       | Calificaciones recibidas | **US42-FE-01**       | UI ratings                    | Estrellas promedio + lista comentarios.                            | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US42-BE-01**       | GET reviews owner             | Aggregación promedio rating (Spring Data).                         | 3            | **Castilla Pachas, César** | Done       |
+| **TS01**       | Sign-up Owner API        | **TS01-BE-01**       | Validar datos Owner           | Email único, RUC 11 dig, phone 9 dig.                              | 3            | **Arroyo Ormeño, André**   | Done       |
+|                |                          | **TS01-BE-02**       | Persistir Owner + roles       | Bcrypt pwd + tabla Roles.                                          | 4            | **Arroyo Ormeño, André**   | Done       |
+| **TS02**       | Sign-up Driver API       | **TS02-BE-01**       | Validar datos Driver          | DNI 8 dig + phone 9 dig.                                           | 3            | **Arroyo Ormeño, André**   | Done       |
+|                |                          | **TS02-BE-02**       | Persistir Driver + roles      | Cifrar pwd; asignar rol DRIVER.                                    | 4            | **Arroyo Ormeño, André**   | Done       |
+| **TS03**       | Sign-in API              | **TS03-BE-01**       | Verificar password            | Bcrypt match, 400 si falla.                                        | 3            | **Arroyo Ormeño, André**   | Done       |
+|                |                          | **TS03-BE-02**       | Emitir JWT & refresh          | Claims roles, exp 30 m.                                            | 3            | **Arroyo Ormeño, André**   | Done       |
+| **TS04**       | GET profile Owner        | **TS04-BE-01**       | Controller Owner              | userId → OwnerProfileDTO.                                          | 2            | **Tafur Gonzales, Josty**  | Done       |
+| **TS05**       | GET profile Driver       | **TS05-BE-01**       | Controller Driver             | userId → DriverProfileDTO.                                         | 2            | **Castilla Pachas, César** | Done       |
+| **TS06**       | GET parkings all         | **TS06-BE-01**       | Endpoint paginado             | city / country filtros.                                            | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **TS07**       | POST parking             | **TS07-BE-01**       | Validar horario               | opening < closing, 400 si no.                                      | 5            | **Príncipe Godoy, Johan**  | Done       |
+| **TS08**       | GET spots-parking        | **TS08-BE-01**       | Join parking-spots            | Lista disponibles / reservados.                                    | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **TS09**       | POST spot                | **TS09-BE-01**       | Validar número único          | `spotNumber` único en parking.                                     | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **TS10**       | GET parking id           | **TS10-BE-01**       | Mapper full info              | Incluye layout + métricas.                                         | 3            | **Castilla Pachas, César** | Done       |
+| **TS11**       | GET parkings owner       | **TS11-BE-01**       | Filtro ownerId                | Lista parkings propios.                                            | 3            | **Tafur Gonzales, Josty**  | Done       |
+| **TS12**       | POST reservation         | **TS12-BE-01**       | Verificar solapamiento        | Lock spotId → status PENDING.                                      | 5            | **Cortés Casas, Joaquín**  | Done       |
+| **TS13**       | GET reservas parking     | **TS13-BE-01**       | Query + rango fecha           | `date_from` / `date_to`.                                           | 4            | **Tafur Gonzales, Josty**  | Done       |
+| **TS14**       | GET reservas driver      | **TS14-BE-01**       | driverId & status             | Paginación.                                                        | 4            | **Tafur Gonzales, Josty**  | Done       |
+| **TS17**       | POST review              | **TS17-BE-01**       | Persistir rating 1-5          | Recalcula promedio parking.                                        | 3            | **Castilla Pachas, César** | Done       |
+| **TS18**       | GET reviews parking      | **TS18-BE-01**       | Aggregación promedio          | `groupBy parkingId`.                                               | 3            | **Castilla Pachas, César** | Done       |
+| **TS19**       | GET reviews driver       | **TS19-BE-01**       | List reviews driver           | Orden desc fecha.                                                  | 3            | **Castilla Pachas, César** | Done       |
 
 <div style="page-break-after: always;"></div>
 
