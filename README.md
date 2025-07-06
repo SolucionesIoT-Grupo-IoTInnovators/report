@@ -5999,19 +5999,19 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 <div style="page-break-after: always;"></div>
 
-### 6.2.3. Sprint 3
+### 6.2.3. Sprint 3  
 #### 6.2.3.1. Sprint Planning 3
 
 | Sprint # | Sprint 3 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 00/00/2025 |
-| **Time** | 00:00 horas (GMT-5) |
-| **Location** |  |
-| **Prepared By** | IoT Innovators |
-| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 2 Review Summary** |  |
-| **Sprint 2 Retrospective Summary** | |
+| **Date** | 30 / 06 / 2025 |
+| **Time** | 19 : 00 (GMT-5) |
+| **Location** | Microsoft Teams (canal *Sprint-3-Planning*) |
+| **Prepared By** | *IoT Innovators* |
+| **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
+| **Sprint-2 Review Summary** | MVP operativo con flujo de reserva y pago; usuarios piloto realizaron 15 reservas exitosas; integración de sensores alcanzó 90 % de confiabilidad. |
+| **Sprint-2 Retrospective Summary** | + Mejora en *DevOps pipeline*.  <br> – Notificaciones push inconsistentes en Android; acordado dedicar historias específicas y reasignar *aspect leader* de *Notification*. |
 
 **Sprint 3 Goal**
 
@@ -6019,13 +6019,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 **We believe it delivers**
 **This will be confirmed when**
 
-Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de los productos finales, facilitando su crecimiento futuro.
+> Our focus is hardening the reservation life-cycle across all channels (confirm, cancel, rate, notify) and exposing IoT management to owners.
+> We believe it delivers a release-candidate ready for external pilot users.
+> This will be confirmed when push notifications reach devices in less than 5 s after a reservation status changes, and Owners see real-time health of an edge-server in the IoT dashboard, 
 
-**Sprint 2 Velocity**
-** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+**Sprint 3 Velocity**: **90 h efectivas**
 
-**Sum of Story Points**
-** Story Points en total**
+**Sum of Story Points**: **56 pts**  
 
 <div style="page-break-after: always;"></div>
 
