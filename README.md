@@ -186,7 +186,7 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 - **Díaz Silva, Fernando Josué:** (completar)
 - **Godoy, Johan Príncipe:** (completar)
 - **Tafur Gonzales, Josty Gerardo:** (completar)
-- **Zárate Cáceres, Víctor Ernesto:** (completar)
+- **Zárate Cáceres, Víctor Ernesto:** He contribuido en reportar el avance logrado en el último sprint, completando la información correspondiente al desarrollo, despliegue y ejecución.
 
 ### Evidencia de colaboración
 
@@ -6174,7 +6174,7 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 <div style="page-break-after: always;"></div>
 
 - Inicio de Sesión: Pantalla de acceso al sistema mediante correo electrónico y contraseña, con opción para registrarse si aún no se tiene una cuenta.
-![Vista implementada en Sprint 3 - login](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/register%20parking%20owner.png?raw=true)
+![Vista implementada en Sprint 3 - login](ChapterVI-images/Sprint3/WebApp/login.png?raw=true)
 
 - Creación de Estacionamiento: Pantalla para registrar un nuevo estacionamiento con campos como nombre, descripción, tarifa por hora e imagen, a través de pasos guiados.
 ![Vista implementada en Sprint 3 - creation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/creation%20of%20parking.png?raw=true)
