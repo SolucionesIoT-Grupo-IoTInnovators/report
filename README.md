@@ -5074,9 +5074,7 @@ Durante este sprint, se trabajó en las funcionalidades iniciales de la platafor
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
 
-https://trello.com/b/4jpMjzDd
-
-![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/Sprint%20Backlog%201%20-%20Trello%20Board.png)
+Trello: https://trello.com/b/4jpMjzDd
 
 **Tabla de control de estado del Sprint**
 
@@ -5459,9 +5457,7 @@ Durante este sprint, se trabajó en desarrollar una nueva versión de los entreg
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: https://trello.com/b/4jpMjzDd
 
-![Captura de pantalla de Sprint 2 en Trello](ChapterVI-images/Sprint2/Sprint%20Backlog%202%20-%20Trello%20Board.png)
-
-https://trello.com/b/jqtsgLac 
+Trello: https://trello.com/b/jqtsgLac 
 
 **Tabla de control de estado del Sprint**
 
@@ -6052,7 +6048,7 @@ Durante el Sprint 3 se abordaron los siguientes aspectos clave:
 Durante este sprint, se trabajó en
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público:
 
-![Captura de pantalla de Sprint 3 en Trello](ChapterVI-images/Sprint3/Sprint-Backlog-2-Trello-Board.png)
+Trello: https://trello.com/b/VSzBJmt4
 
 **Tabla de control de estado del Sprint**
 
