@@ -919,9 +919,7 @@ Se perfila a los dos públicos clave de la plataforma: (1) propietarios o admini
 <div style="page-break-after: always;"></div>
 
 # Capítulo II: Requirements Elicitation & Analysis
-
 ## 2.1. Competidores
-
 ### 2.1.1. Análisis competitivo
 
 El Análisis competitivo muestra el panorama de competidores de SmartParking, siendo iPark, ACCIST y Smelpro. Se comparan sus propuestas, mercados objetivos, estrategias de marketing, modelos de precios, canales de distribución y factores SWOT; con el objetivo de identificar fortalezas, debilidades, oportunidades y amenazas que orienten las decisiones de posicionamiento, diferenciación y crecimiento de la plataforma.
@@ -1890,9 +1888,7 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 <div style="page-break-after: always;"></div>
 
 # Capítulo IV: Solution Software Design
-
 ## 4.1. Strategic-Level Domain-Driven Design
-
 ### 4.1.1. EventStorming
 
 - **Unstructured Exploration**
@@ -4230,7 +4226,6 @@ El emulador de Wokwi se utiliza para simular la interacción con dispositivos Io
 <div style="page-break-after: always;"></div>
 
 ## 5.2. Information Architecture
-
 ### 5.2.1. Organization Systems
 SmartParking emplea distintos sistemas de organización para asegurar que tanto conductores como propietarios de estacionamientos encuentren y utilicen las funciones principales de manera rápida e intuitiva.
 
@@ -4285,7 +4280,6 @@ Dentro de cada módulo, como “Detalles del estacionamiento” o “Mi cuenta�
 <div style="page-break-after: always;"></div>
 
 ## 5.3. Landing Page UI Design
-
 ### 5.3.1. Landing Page Wireframe
 
 ![](ChapterV-images/Landing%20Page%20Figma/Wireframe-Landing-PC-Hero.png)
@@ -4835,9 +4829,7 @@ El video presenta una simulación navegable de los flujos de usuario más import
 <div style="page-break-after: always;"></div>
 
 # Capítulo VI: Product Implementation, Validation & Deployment
-
 ## 6.1. Software Configuration Management
-
 ### 6.1.1. Software Development Environment Configuration
 
 **Project Management:**
@@ -5022,9 +5014,7 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 <div style="page-break-after: always;"></div>
 
 ## 6.2. Landing Page, Services & Applications Implementation
-
 ### 6.2.1. Sprint 1
-
 #### 6.2.1.1. Sprint Planning 1
 
 En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
@@ -6110,6 +6100,20 @@ Los avances específicos son:
 
 |       Repository          |           Branch           |                 Commit Id                |                                                            Commit Message                                                       | Commit Message Body | Commited on (Date) |
 | :-----------------------: | :------------------------: | :--------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------ | :------------------ | :----------------: |
+|   smartparking-frontend   |        feature/test        | 1030b5576a1ae3fa54eaeac1e31b89c5d091e934 | feat: add test sign-up                                                                                                          |                     |     06/07/2025     |
+|   smartparking-frontend   |        feature/test        | 2df356007a7bd4c242eafb36793f17643bc825c2 | feat: add test sign-in                                                                                                          |                     |     06/07/2025     |
+|   smartparking-frontend   |        feature/test        | 218926a1c6bcabca5f073ee63c2ed7aab81c52d3 | feat: add configuration test                                                                                                    |                     |     06/07/2025     |
+|   smartparking-backend    |           develop          | 851d8ed68b6d633bb3f6a476b4707315ecd2d632 | feat(device-management): change message map value type to Object for MQTT payloadions                                           |                     |     06/07/2025     |
+|   smartparking-backend    |           develop          | 49c43ebb31fdef00b37b40866bc05b497b2febd1 | feat(reservation): add update status functionality and endpoint for reservationstions                                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 46300577dbf4f6785fece80e656ec4ff913be87b | feat(device-management): implement MQTT configuration and service for parking and edge server communication                     |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 017b0bb731d3625b7d6633949a7a5e5e2bfa5855 | feat(device-management): add IOException handling to reservation commands and integrate ParkingMqttService                      |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 6df9b3a59b0e6eb7369bc5a87b7906197f97339c | feat(device-management): update EdgeServer to use MAC address instead of IP addressns                                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 5111490f03e1f9b0241e2186b417d94579a2d963 | feat(device-management): update SpotManager to use EAGER fetching for parking spotsns                                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 13c961cda8f939e0671cb25f22d8138592094e0a | feat(device-management): enhance repositories with additional query methods for devices and edge servers                        |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | b3ec32551a858b184086c3645de575f5603cc4d9 | feat(device-management): add MQTT dependencies for Spring Integrationxt Notifications                                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 12c81c5aa11301ab74f699f5f96fca5870186db7 | feat(device-management): rename methods to follow Java naming conventions for parking spot and edge server IDs                  |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | fae14077e7d826b7daacb78ef0621c75ee15b566 | feat(device-management): update edge server command to use MAC address instead of IP address                                    |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | b74dc00ab9c7ae5cd41741328e458cbbb6201bc1 | feat(configuration): update datasource credentials and add MQTT broker settingsations                                           |                     |     05/07/2025     |
 | smartparking-edge-server  |       feature/device       | c873f10cb21b973e34d582769d7f2d6c07bec37b | feat: add getmac package for MAC address retrieval in device functionality                                                      |                     |     05/06/2025     |
 | smartparking-edge-server  |       feature/device       | 00cbf385f0c0ab4f831fb0f42cdd9582e30fde3b | feat: enhance DeviceService to integrate EdgeServer functionality and update MQTT topic handling                                |                     |     05/06/2025     |
 | smartparking-edge-server  |       feature/device       | 0849b6cb9fa17b8f86b36ed56af05d9e3656c638 | feat: update EdgeServer and ParkingSpot repositories to use MAC address and improve server retrieval logic                      |                     |     05/06/2025     |
@@ -6150,13 +6154,11 @@ Los avances específicos son:
 |   smartparking-backend    |    feature/notifications   | 0d544c6ed944edf7f911ff000974de407f332587 | feat(notifications): add fcm configuration                                                                                      |                     |     16/06/2025     |    
 
 #### 6.2.3.5. Testing Suite Evidence for Sprint Review
-|        Repository        |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
-| :----------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
-|                          |                            |                                          |                                                                                      |                     |                    |
-|                          |                            |                                          |                                                                                      |                     |                    |
-|                          |                            |                                          |                                                                                      |                     |                    |
-|                          |                            |                                          |                                                                                      |                     |                    |
-
+|      Repository       |           Branch           |                 Commit Id                |                                     Commit Message                                   | Commit Message Body | Commited on (Date) |
+| :-------------------- | :------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------- | :------------------ | :----------------: |
+| smartparking-frontend |        feature/test        | 1030b5576a1ae3fa54eaeac1e31b89c5d091e934 | feat: add test sign-up                                                               |                     |     06/07/2025     |
+| smartparking-frontend |        feature/test        | 2df356007a7bd4c242eafb36793f17643bc825c2 | feat: add test sign-in                                                               |                     |     06/07/2025     |
+| smartparking-frontend |        feature/test        | 218926a1c6bcabca5f073ee63c2ed7aab81c52d3 | feat: add configuration test                                                         |                     |     06/07/2025     |
 <div style="page-break-after: always;"></div>
 
 #### 6.2.3.6. Execution Evidence for Sprint Review
@@ -6317,6 +6319,17 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 
 |        Repository         |           Branch           |                 Commit Id                |                                                    Commit Message                                               | Commit Message Body | Commited on (Date) |
 | :------------------------:| :------------------------: | :--------------------------------------: | :-------------------------------------------------------------------------------------------------------------- | :------------------ | :----------------: |
+|   smartparking-backend    |           develop          | 851d8ed68b6d633bb3f6a476b4707315ecd2d632 | feat(device-management): change message map value type to Object for MQTT payloadions                           |                     |     06/07/2025     |
+|   smartparking-backend    |           develop          | 49c43ebb31fdef00b37b40866bc05b497b2febd1 | feat(reservation): add update status functionality and endpoint for reservationstions                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 46300577dbf4f6785fece80e656ec4ff913be87b | feat(device-management): implement MQTT configuration and service for parking and edge server communication     |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 017b0bb731d3625b7d6633949a7a5e5e2bfa5855 | feat(device-management): add IOException handling to reservation commands and integrate ParkingMqttService      |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 6df9b3a59b0e6eb7369bc5a87b7906197f97339c | feat(device-management): update EdgeServer to use MAC address instead of IP addressns                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 5111490f03e1f9b0241e2186b417d94579a2d963 | feat(device-management): update SpotManager to use EAGER fetching for parking spotsns                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 13c961cda8f939e0671cb25f22d8138592094e0a | feat(device-management): enhance repositories with additional query methods for devices and edge servers        |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | b3ec32551a858b184086c3645de575f5603cc4d9 | feat(device-management): add MQTT dependencies for Spring Integrationxt Notifications                           |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | 12c81c5aa11301ab74f699f5f96fca5870186db7 | feat(device-management): rename methods to follow Java naming conventions for parking spot and edge server IDs  |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | fae14077e7d826b7daacb78ef0621c75ee15b566 | feat(device-management): update edge server command to use MAC address instead of IP address                    |                     |     05/07/2025     |
+|   smartparking-backend    | features/device-management | b74dc00ab9c7ae5cd41741328e458cbbb6201bc1 | feat(configuration): update datasource credentials and add MQTT broker settingsations                           |                     |     05/07/2025     |
 |   smartparking-backend    |           develop          | 103071074a64f8fb59d7a9327d0275598072b7b3 | feat(Notifications): add documentation for endpoints of bounded context Notifications                           |                     |     03/07/2025     |
 |   smartparking-backend    |           develop          | 2de1ee66cba8b9d61e5ccd80eab8d9a379b250a3 | chore: add JSON configuration file to .gitignore                                                                |                     |     01/07/2025     |
 |   smartparking-backend    |           develop          | 2edc772241eaaeb92c03ff1f5ca943a14d2b3711 | feat(notifications): update firebaseConfig                                                                      |                     |     01/07/2025     |
