@@ -102,6 +102,10 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
     <tr><td>4.3.0</td><td>04/07/2025</td><td>Arroyo Ormeño, André Alonso</td><td>Actualización de user stories y product backlog.</td></tr>
     <tr><td>4.3.1</td><td>04/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Actualizar Sprint 3 y añadir Student Outcome.</td></tr>
     <tr><td>4.3.2</td><td>05/07/2025</td><td>Zarate Cáceres, Victor Ernesto</td><td>Añadir capturas para Execution Evidence y Team Collaboration Insights for Web Services.</td></tr>
+    <tr><td>4.3.3</td><td>05/07/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Arreglar formato del reporte para correcta conversion a pdf.</td></tr>
+    <tr><td>4.3.4</td><td>05/07/2025</td><td>Cortés Casas, Joaquín Marcelo</td><td>Agregar Sprint Planning 3 y Sprint Backlog 3.</td></tr>
+
+
   </tbody>
 </table>
 
@@ -182,7 +186,7 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 
 - **Arroyo Ormeño, André Alonso:** Realicé  la corrección, redistribución y creación de nuevas user stories, ademas de actualizar el product backlog.
 - **Castilla Pachas, César Antonio:** (completar)
-- **Cortés Casas, Joaquín Marcelo:** He mejorado el formato del reporte para la entrega final. Tambien (completar)
+- **Cortés Casas, Joaquín Marcelo:** He mejorado el formato del reporte para la entrega final. Tambien he agregado los sprint planning 3 y sprint backlog 3.
 - **Díaz Silva, Fernando Josué:** (completar)
 - **Godoy, Johan Príncipe:** (completar)
 - **Tafur Gonzales, Josty Gerardo:** (completar)
@@ -5014,60 +5018,29 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 <div style="page-break-after: always;"></div>
 
 ## 6.2. Landing Page, Services & Applications Implementation
-### 6.2.1. Sprint 1
+### 6.2.1. Sprint 1  
 #### 6.2.1.1. Sprint Planning 1
-
-En el siguiente sprint planning se definen las tareas y objetivos del primer sprint, con un énfasis en implementar las funcionalidades básicas de la Landing Page institucional y las vistas iniciales de la aplicación web.
 
 | Sprint # | Sprint 1 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 01/05/2025 |
-| **Time** | 21:00 horas (GMT-5) |
-| **Location** |  |
-| **Prepared By** | IoT Innovators |
-| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 0 Review Summary** | Durante la etapa de preparación (Sprint 0), se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de interfaces. Además, se definió la infraestructura de despliegue y el entorno de trabajo colaborativo (GitHub, Trello, Figma, Azure, Vercel). |
-| **Sprint 0 Retrospective Summary** | El equipo evidenció una colaboración activa, con cumplimiento de tareas en la estructuración técnica y de diseño. Se identificó como oportunidad de mejora el control del tiempo en reuniones y la validación anticipada de dependencias técnicas entre módulos web e IoT. |
+| **Date** | 01 / 05 / 2025 |
+| **Time** | 21 : 00 (GMT-5) |
+| **Location** | Microsoft Teams (canal *Sprint-1-Planning*) |
+| **Prepared By** | *IoT Innovators* |
+| **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
+| **Sprint-0 Review Summary** | Se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de UI; se habilitó infraestructura (GitHub Actions + Azure Static Web Apps, Figma, MQTT broker de pruebas). |
+| **Sprint-0 Retrospective Summary** | Buena colaboración y cumplimiento de entregables; se detectó mejorar la gestión de dependencia entre módulos Web & IoT y la puntualidad de las ceremonias. |
 
 **Sprint 1 Goal**
 
-> **Our focus is** on delivering a publicly accessible Landing Page and the initial web app interface for SmartParking.  
-> **We believe it delivers** early user engagement and foundational infrastructure for stakeholder validation.  
-> **This will be confirmed when** users can access the landing page, view the product and team info, and navigate the web app’s home page from deployed environments.
+> Our focus is publishing a responsive public Landing Page and the skeleton of the SmartParking web app (login & empty dashboard).
+> We believe it delivers first-contact credibility and a deployable framework on which later features can iterate.
+> This will be confirmed when the Landing Page loads in less than 2 s from Lima, all 4 navigation links work on desktop & mobile, and a user can register, log in, and reach /home in the cloud environment without errors.
 
-Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+**Sprint 1 Velocity**: **80 h efectivas**
 
-**Sprint 1 Velocity**
-
-**80 horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
-
-**Sum of Story Points**
-
-**55 Story Points en total**, agrupando las siguientes historias de usuario:
-
-| ID | Historia de Usuario |
-|----|---------------------|
-| US03 | Sección hero de landing page |
-| US04 | Barra de navegación en landing page	 |
-| US14 | Diseñar y distribuir espacios de estacionamiento	 |
-| US15 | Gestionar múltiples estacionamientos desde un solo panel	 |
-| US22 | Calificar estacionamientos utilizados	 |
-| US23 | Registro Rápido desde Landing Page	 |
-| TS02 | Autenticación con JWT en Web y App	 |
-| TS06	 | Crear Parking Owner a través de RESTful API		 |
-| TS07 | Crear Driver a través de RESTful API	 |
-| TS08 | Sign In de usuario a través de RESTful API	 |
-| TS09 | Obtener perfil de Parking Owner por userId a través de RESTful API	 |
-| TS10 | Obtener perfil de Driver por userId a través de RESTful API	 |
-| TS11	 | Obtener todos los parkings registrados		 |
-| TS12 | Crear un nuevo parking	 |
-| TS13 | Obtener todos los spots de un parking por su parkingId	 |
-| TS14 | Agregar un spot a un parking	 |
-| TS15 | Obtener parking por parkingId	 |
-| TS16	 | Obtener todos los parkings por ownerId		 |
-| TS17 | Crear Reserva a través de RESTful API	 |
-| TS18 | Obtener Reservas por ParkingId |
+**Sum of Story Points**: **78 pts**
 
 <div style="page-break-after: always;"></div>
 
@@ -5105,36 +5078,62 @@ Durante este sprint, se trabajó en las funcionalidades iniciales de la platafor
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: 
 
-https://trello.com/b/4jpMjzDd
-
-![Captura de pantalla de Sprint 1 en Trello](ChapterVI-images/Sprint1/Sprint%20Backlog%201%20-%20Trello%20Board.png)
+Trello: https://trello.com/b/4jpMjzDd
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
-|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
-|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
-| **Id**    | **Title**                                                          | **Id**     | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
-| US03      | Sección hero de landing page                                       |     01     | Seccion Hero                        | Diseñar e implementar hero visual en landing page    | 6h                     | Diaz Silva, Fernando Josué     | Done                                               |
-| US04      | Barra de navegación en landing page                                |     02     | Barra de navegación en landing page | Barra navegable con enlaces                          | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
-| US14      | Diseñar y distribuir espacios de estacionamiento                   |     03     | Diseño de espacios                  | UI para organizar zonas de parqueo                   | 6h                     | Príncipe Godoy, Johan          | Done                                               |
-| US15      | Gestionar múltiples estacionamientos desde un solo panel           |     04     | Panel múltiple parkings             | Vista centralizada para gestión de cocheras          | 8h                    | Zarate Caceres, Victor Ernesto | Done                                               |
-| US22      | Calificar estacionamientos utilizados                              |     05     | Calificación                        | Interfaz para dejar y ver reseñas de estacionamientos| 6h                     | Castilla Pachas, César Antonio | Done                                               |
-| US23      | Registro Rápido desde Landing Page                                 |     06     | Registro rápido                     | Formulario desde landing page                        | 2h                     | Diaz Silva, Fernando Josué     | Done                                               |
-| TS02      | Autenticación con JWT en Web y App                                 |     07     | Autenticación                       | Login basado en tokens para Web y App                | 10h                    | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS06      | Crear Parking Owner a través de RESTful API                        |     08     | Crear Owner API                     | POST para registrar propietario                      | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS07      | Crear Driver a través de RESTful API                               |     09     | Crear Driver API                    | POST para registrar conductor                        | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS08      | Sign In de usuario a través de RESTful API                         |     10     | Login API                           | POST para autenticación y retorno de token JWT       | 6h                     | Arroyo Ormeño, André Alonso    | Done                                               |
-| TS09      | Obtener perfil de Parking Owner por userId a través de RESTful API |     11     | Perfil Owner API                    | GET para obtener datos por userId (propietario)      | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
-| TS10      | Obtener perfil de Driver por userId a través de RESTful API        |     12     | Perfil Driver API                   | GET para obtener datos por userId (conductor)        | 4h                     | Castilla Pachas, César Antonio | Done                                               |
-| TS11      | Obtener todos los parkings registrados                             |     13     | Obtener parkings                    | GET general de parkings registrados                  | 4h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS12      | Crear un nuevo parking                                             |     14     | Crear parking                       | POST para agregar nuevo parking                      | 6h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS13      | Obtener todos los spots de un parking por su parkingId             |     15     | Ver spots por parkingId             | GET para listar espacios de un parking               | 4h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS14      | Agregar un spot a un parking                                       |     16     | Agregar spot                        | POST para crear nuevo espacio                        | 4h                     | Príncipe Godoy, Johan          | Done                                               |
-| TS15      | Obtener parking por parkingId                                      |     17     | Obtener parking por ID              | GET específico de un parking                         | 4h                     | Castilla Pachas, César Antonio | Done                                               |
-| TS16      | Obtener todos los parkings por ownerId                             |     18     | Parkings por ownerId                | GET para listar los parkings de un propietario       | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
-| TS17      | Crear Reserva a través de RESTful API                              |     19     | Crear reserva                       | POST para registrar una reserva con validaciones     | 6h                     | Cortés Casas, Joaquin Marcelo  | Done                                               |
-| TS18      | Obtener Reservas por ParkingId                                     |     20     | Ver reservas por parking            | GET para consultar reservas de un estacionamiento    | 4h                     | Tafur Gonzales, Josty Gerardo  | Done                                               |
+| Sprint #       | **Sprint 1**                  |                      |                               |                                                              |              |                           |            |
+| -------------- | ----------------------------- | -------------------- | ----------------------------- | ------------------------------------------------------------ | ------------ | ------------------------- | ---------- |
+| **User Story** |                               | **Work-Item / Task** |                               |                                                              |              |                           |            |
+| **Id**         | **Title**                     | **Id**               | **Title**                     | **Description**                                              | **Est. (h)** | **Assigned To**           | **Status** |
+| 
+| **US01**       | Hero landing page        | **US01-UX-01**       | Diseñar wireframe hero        | Wireframe en Figma (zona *above-the-fold* + CTA, contraste AA).    | 3            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US01-UX-02**       | Redactar micro-copy CTA       | Propuesta ≤ 60 caracteres, alineada a Style Guide.                 | 2            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US01-FE-01**       | Implementar hero responsive   | **Vue 3 + TailwindCSS**; gradient overlay; layout móvil-desktop.   | 5            | **Díaz Silva, Fernando**   | Done       |
+| **US02**       | Navbar landing           | **US02-UX-01**       | Wireframe navbar sticky       | Estructura, anclas y variante móvil (hamburger).                   | 2            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US02-FE-01**       | Codificar navbar              | Vue Router + Tailwind; scroll-spy para *active-link*.              | 4            | **Díaz Silva, Fernando**   | Done       |
+| **US03**       | Planes landing           | **US03-UX-01**       | Diseñar cards planes          | Tres tiers con beneficios + iconos.                                | 3            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US03-FE-01**       | Implementar cards c/animación | **VueUseMotion** (*slide-in*) respetando `prefers-reduced-motion`. | 4            | **Díaz Silva, Fernando**   | Done       |
+| **US04**       | Sección Seguridad IoT    | **US04-UX-01**       | Crear ilustraciones IoT       | SVG isométrico sensor-edge-cloud (< 100 kB).                       | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US04-FE-01**       | Integrar sección              | Grid 2 cols con **VueUseMotion** scroll-reveal; links “Leer más”.  | 5            | **Príncipe Godoy, Johan**  | Done       |
+| **US05**       | Registro rápido          | **US05-FE-01**       | Colocar botón CTA             | Botón accesible; foco teclado.                                     | 2            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US05-FE-02**       | Redirección por rol           | **Vue Router** : Owner → `/web-signup`, Driver → links a stores.   | 3            | **Díaz Silva, Fernando**   | Done       |
+| **US06**       | Registro Owner web       | **US06-FE-01**       | Formulario Owner              | **Vee-Validate** + Yup con errores inline.                         | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US06-BE-01**       | POST /sign-up/owner           | Spring Boot 3; DTO validado, servicio `createOwner()`.             | 4            | **Arroyo Ormeño, André**   | Done       |
+| **US07**       | Login Owner web          | **US07-FE-01**       | Form login Owner              | Email + pwd + rememberMe (Pinia store).                            | 3            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US07-BE-01**       | Auth JWT + refresh            | Spring Security: `/auth/sign-in` devuelve access & refresh.        | 4            | **Arroyo Ormeño, André**   | Done       |
+| **US12**       | Crear parking virtual    | **US12-FE-01**       | UI formulario parking         | Inputs básicos + mapa **Leaflet** coord.                           | 5            | **Príncipe Godoy, Johan**  | Done       |
+|                |                          | **US12-BE-01**       | POST /parkings                | Geocoding lat/lon + persistencia (Spring Boot).                    | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **US13**       | Diseñar layout spots     | **US13-FE-01**       | Canvas drag-and-drop          | **vue-konva** grid editable.                                       | 8            | **Príncipe Godoy, Johan**  | Done       |
+|                |                          | **US13-BE-01**       | Guardar layout JSON           | PATCH `/parkings/{id}/layout` con versionado.                      | 5            | **Príncipe Godoy, Johan**  | Done       |
+| **US14**       | Dashboard ocupación RT   | **US14-FE-01**       | Gráfico doughnut              | **vue-chartjs** escuchando WebSocket.                              | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US14-BE-01**       | WebSocket /occupancy          | Spring WebSocket: emite ocupación cada 10 s.                       | 3            | **Príncipe Godoy, Johan**  | Done       |
+| **US15**       | Panel multi-parking      | **US15-FE-01**       | Tabla comparativa             | KPIs ocupación / ingresos (Vue DataTable).                         | 5            | **Zárate Cáceres, Víctor** | Done       |
+|                |                          | **US15-BE-01**       | Query métricas owner          | JOIN parkings + reservas; caché 5 min.                             | 4            | **Zárate Cáceres, Víctor** | Done       |
+| **US41**       | Reservas parkings        | **US41-FE-01**       | UI reservas                   | Filtros fecha / estado (DataTable).                                | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US41-BE-01**       | GET reservas owner            | Endpoint + mapper DTO.                                             | 4            | **Tafur Gonzales, Josty**  | Done       |
+| **US42**       | Calificaciones recibidas | **US42-FE-01**       | UI ratings                    | Estrellas promedio + lista comentarios.                            | 4            | **Díaz Silva, Fernando**   | Done       |
+|                |                          | **US42-BE-01**       | GET reviews owner             | Aggregación promedio rating (Spring Data).                         | 3            | **Castilla Pachas, César** | Done       |
+| **TS01**       | Sign-up Owner API        | **TS01-BE-01**       | Validar datos Owner           | Email único, RUC 11 dig, phone 9 dig.                              | 3            | **Arroyo Ormeño, André**   | Done       |
+|                |                          | **TS01-BE-02**       | Persistir Owner + roles       | Bcrypt pwd + tabla Roles.                                          | 4            | **Arroyo Ormeño, André**   | Done       |
+| **TS02**       | Sign-up Driver API       | **TS02-BE-01**       | Validar datos Driver          | DNI 8 dig + phone 9 dig.                                           | 3            | **Arroyo Ormeño, André**   | Done       |
+|                |                          | **TS02-BE-02**       | Persistir Driver + roles      | Cifrar pwd; asignar rol DRIVER.                                    | 4            | **Arroyo Ormeño, André**   | Done       |
+| **TS03**       | Sign-in API              | **TS03-BE-01**       | Verificar password            | Bcrypt match, 400 si falla.                                        | 3            | **Arroyo Ormeño, André**   | Done       |
+|                |                          | **TS03-BE-02**       | Emitir JWT & refresh          | Claims roles, exp 30 m.                                            | 3            | **Arroyo Ormeño, André**   | Done       |
+| **TS04**       | GET profile Owner        | **TS04-BE-01**       | Controller Owner              | userId → OwnerProfileDTO.                                          | 2            | **Tafur Gonzales, Josty**  | Done       |
+| **TS05**       | GET profile Driver       | **TS05-BE-01**       | Controller Driver             | userId → DriverProfileDTO.                                         | 2            | **Castilla Pachas, César** | Done       |
+| **TS06**       | GET parkings all         | **TS06-BE-01**       | Endpoint paginado             | city / country filtros.                                            | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **TS07**       | POST parking             | **TS07-BE-01**       | Validar horario               | opening < closing, 400 si no.                                      | 5            | **Príncipe Godoy, Johan**  | Done       |
+| **TS08**       | GET spots-parking        | **TS08-BE-01**       | Join parking-spots            | Lista disponibles / reservados.                                    | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **TS09**       | POST spot                | **TS09-BE-01**       | Validar número único          | `spotNumber` único en parking.                                     | 4            | **Príncipe Godoy, Johan**  | Done       |
+| **TS10**       | GET parking id           | **TS10-BE-01**       | Mapper full info              | Incluye layout + métricas.                                         | 3            | **Castilla Pachas, César** | Done       |
+| **TS11**       | GET parkings owner       | **TS11-BE-01**       | Filtro ownerId                | Lista parkings propios.                                            | 3            | **Tafur Gonzales, Josty**  | Done       |
+| **TS12**       | POST reservation         | **TS12-BE-01**       | Verificar solapamiento        | Lock spotId → status PENDING.                                      | 5            | **Cortés Casas, Joaquín**  | Done       |
+| **TS13**       | GET reservas parking     | **TS13-BE-01**       | Query + rango fecha           | `date_from` / `date_to`.                                           | 4            | **Tafur Gonzales, Josty**  | Done       |
+| **TS14**       | GET reservas driver      | **TS14-BE-01**       | driverId & status             | Paginación.                                                        | 4            | **Tafur Gonzales, Josty**  | Done       |
+| **TS17**       | POST review              | **TS17-BE-01**       | Persistir rating 1-5          | Recalcula promedio parking.                                        | 3            | **Castilla Pachas, César** | Done       |
+| **TS18**       | GET reviews parking      | **TS18-BE-01**       | Aggregación promedio          | `groupBy parkingId`.                                               | 3            | **Castilla Pachas, César** | Done       |
+| **TS19**       | GET reviews driver       | **TS19-BE-01**       | List reviews driver           | Orden desc fecha.                                                  | 3            | **Castilla Pachas, César** | Done       |
 
 <div style="page-break-after: always;"></div>
 
@@ -5405,35 +5404,29 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 
 <div style="page-break-after: always;"></div>
 
-### 6.2.2. Sprint 2
+### 6.2.2. Sprint 2  
 #### 6.2.2.1. Sprint Planning 2
 
 | Sprint # | Sprint 2 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 02/06/2025 |
-| **Time** | 07:00 horas (GMT-5) |
-| **Location** |  |
-| **Prepared By** | IoT Innovators |
-| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 1 Review Summary** |  |
-| **Sprint 1 Retrospective Summary** | |
+| **Date** | 02 / 06 / 2025 |
+| **Time** | 07 : 00 (GMT-5) |
+| **Location** | Microsoft Teams (canal *Sprint-2-Planning*) |
+| **Prepared By** | *IoT Innovators* |
+| **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
+| **Sprint-1 Review Summary** | Landing y portal web en línea; 96 % de las historias aprobadas por *Product Owner*; pequeños *bugs* en visualización móvil identificados para próximo *sprint*. |
+| **Sprint-1 Retrospective Summary** | + Excelente coordinación FE/BE.  <br> – Falta de ambiente de *staging IoT* real demoró pruebas de sensores; acordado habilitar *edge-server* emulado. |
 
 **Sprint 2 Goal**
 
-**Our focus is** delivering a prototype of SmartParking that allows drivers and parking owners to experience the complete parking workflow, including discovery, interaction, real-time status updates, and system responsiveness.  
-**We believe it delivers** early validation of the system's usability, real-time data accuracy, and operational effectiveness across both digital and physical components.  
-**This will be confirmed when** the presence of a vehicle on a parking spot is detected through sensor-striggered and edge-processed data forwared to the backend infrastructure to ensure platform-wide consistenty and reflect updated availability across all user interfaces.
+> Our focus is releasing the first end-to-end parking flow, being first search, then detail, next r0eserve, and finally pay. 
+> We believe it delivers proof that SmartParking can coordinate drivers, owners and sensors in real time.
+> This will be confirmed when a driver on the mobile app can reserve and pay for a spot and receive confirmation of it, and the same reservation appears on the owner dashboard within ≤ 3 s of sensor state change.
 
-Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de la arquitectura inicial, facilitando el crecimiento futuro de la plataforma web, móvil y IoT.
+**Sprint 2 Velocity**: **96 h efectivas**
 
-**Sprint 2 Velocity**
-
-** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
-
-**Sum of Story Points**
-
-** Story Points en total**
+**Sum of Story Points**: **59 pts**  
 
 <div style="page-break-after: always;"></div>
 
@@ -5468,48 +5461,49 @@ Durante este sprint, se trabajó en desarrollar una nueva versión de los entreg
 
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público: https://trello.com/b/4jpMjzDd
 
-![Captura de pantalla de Sprint 2 en Trello](ChapterVI-images/Sprint2/Sprint%20Backlog%202%20-%20Trello%20Board.png)
-
-https://trello.com/b/jqtsgLac 
+Trello: https://trello.com/b/jqtsgLac 
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint # ||   Sprint 2 ||||||
-|-----------| -----------|------------|------------|--------|--------|-----------|----------------|
-|   *User Story*     ||   *Work-Item / Task*     ||||||
-| *Id*    | *Title*    | *Id*     | *Title*       | *Description*    | *Estimation (Hours)* | *Assigned To*   | *Status (To-do / In-Process / To-Review / Done)* |
-| MS01 | Detección de ocupación del espacio | 01 | Sensor de distancia | Programar lectura del sensor de distancia y envío | 8h |  Tafur Gonzales, Josty Gerardo  | Done |
-| MS03 | Indicador LED según estado del spot | 02 | Lógica de LED | Controlar LED RGB según estado del spot | 4h |  Zarate Caceres, Victor Ernesto  | Done |
-| TS01 | Integrar sensores IoT al backend | 05 | Integración MQTT | Conectar sensores al edge mediante protocolo MQTT | 6h | Zarate Caceres, Victor Ernesto   | Done |
-| TS03 | Visualización en tiempo real en la aplicación | 06 | Panel de disponibilidad | Mostrar en tiempo real los estados de los spots | 6h |  Cortés Casas, Joaquin Marcelo  | Done |
-| US11 | Visualizar ocupación en tiempo real | 07 | Actualizar visualización | Sincronizar app con el backend usando WebSockets | 5h |  Cortés Casas, Joaquin Marcelo  | Done |
-| MS04 | Mostrar nombre del spot en display | 03 | Mostrar ID del spot | Mostrar nombre del spot por comando | 4h |  Tafur Gonzales, Josty Gerardo  | Done |
-| MS05 | Mostrar MAC para emparejamiento | 04 | Mostrar MAC | Mostrar dirección MAC por comando | 4h | Tafur Gonzales, Josty Gerardo   | Done |
-| US01 | Visualización de espacios disponibles en el mapa | 08 | Mapa interactivo | Mostrar mapa de parqueo con disponibilidad por colores | 8h | Diaz Silva, Fernando Josué  | Done |
-| US02 | Actualización automática de disponibilidad | 09 | Refrescar estado automáticamente | Implementar auto-actualización del estado de los spots | 5h | Zarate Caceres, Victor Ernesto  | Done |
-| US12 | Modificar tarifas de estacionamiento | 10 | CRUD de tarifas | Crear interfaz para gestionar tarifas desde backend | 6h |  Cortés Casas, Joaquin Marcelo  | Done |
-| US13 | Descargar reportes de uso | 11 | Reportes de uso | Generar y descargar reportes de uso desde dashboard | 5h |  Diaz Silva, Fernando Josué  | Done |
-| TS05 | Implementar sistema de pagos en línea | 12 | Integración pasarela de pago | Conectar con pasarela de pagos en app | 8h |  Zarate Caceres, Victor Ernesto  | Done |
-| US08 | Realizar pago desde la app | 13 | UI de pagos | Interfaz en app para realizar pagos | 6h |   Diaz Silva, Fernando Josué  | Done |
-| TS04 | Implementar sistema de reservas en la App móvil | 14 | Backend y lógica de reservas | API + lógica para manejar reservas | 8h |  Cortés Casas, Joaquin Marcelo  | Done |
-| US06 | Reservar un espacio disponible desde la app | 15 | UI de reservas | Interfaz para seleccionar y reservar espacios | 6h |  Castilla Pachas, César Antonio  | Done |
-| US10 | Ver historial de reservas | 16 | Historial de reservas | Mostrar historial de reservas realizadas | 5h |  Diaz Silva, Fernando Josué  | Done |
-| US26 | Registro desde el inicio de sesión | 17 | Registro de usuario | UI de Registro de usuario en app web y conexion con el backend | 5h |  André Arroyo  | Done |
-| US27 | Inicio de sesión | 18<br><br>19 | UI de Login en app movil<br><br> UI de Login en app web | Interfaz de Login en la app movil y conexion con el backend <br><br> Interfaz de Login en la app web y conexion con el backend  | 4h<br><br>4h |  André Arroyo<br><br>André Arroyo  | Done<br><br>Done |
-| MS02       | Bloquear spot reservado             | 19 | Sistema de bloqueo         | Desarrollar lógica para activar/desactivar bloqueo físico                                       | 6h                 |        Tafur Gonzales, Josty Gerardo      | Done                                           |
-| MS06       | Enviar datos al backend             | 20 | Conexión backend           | Implementar lógica para enviar métricas al backend desde IoT                                   | 6h                 |      Zarate Caceres, Victor Ernesto        | Done                                           |
-| MS07       | Guardar datos sin WiFi              | 21 | Persistencia local         | Guardar datos temporalmente en el edge ante falla de red                                       | 5h                 |      Tafur Gonzales, Josty Gerardo        | Done                                            |
-| MS08       | Sincronizar al volver WiFi          | 22 | Reenvío de datos           | Detectar retorno de red y sincronizar datos pendientes                                         | 5h                 |      Zarate Caceres, Victor Ernesto        | Done                                           |
-| MS09       | Recibir métricas en backend         | 23 | Endpoint de recepción      | Crear endpoint para recibir métricas desde sensores IoT                                        | 6h                 |       Tafur Gonzales, Josty Gerardo       | Done                                            |
-| MS10       | Procesar ocupación en backend       | 24 | Procesamiento de ocupación | Procesar estado de ocupación a partir de métricas recibidas                                   | 5h                 |       Tafur Gonzales, Josty Gerardo       | Done                                            |
-| MS11       | Generar alertas por sensores        | 25 | Lógica de alertas          | Configurar reglas para generar alertas ante valores críticos                                  | 6h                 |        Tafur Gonzales, Josty Gerardo      | Done                                            |
-| MS12       | Almacenar métricas históricas       | 26 | Histórico de métricas      | Guardar datos históricos y permitir consultas                                                  | 4h                 |        Tafur Gonzales, Josty Gerardo      | Done                                           |
-| US28       | Visualizar parkings en el mapa      | 27 | Mapa interactivo           | Mostrar en mapa los parkings disponibles geolocalizados                                        | 6h                 |      Godoy, Johan Príncipe        | Done                                            |
-| US29       | Ver detalles del parking            | 28 | Detalle del parking        | Mostrar información detallada del parking seleccionado                                         | 4h                 |     Godoy, Johan Príncipe         | Done                                            |
-| US30       | Ver disponibilidad en tiempo real   | 29 | Disponibilidad en tiempo real | Visualizar spots libres al instante desde detalle del parking                              | 5h                 |     Godoy, Johan Príncipe         | Done                                            |
-| US31 | Conectar servicio de notificaciones         | 30 | Integrar Firebase backend   | Configurar Firebase en el backend y realizar pruebas de envío manual                                | 5h  |      Castilla Pachas, César Antonio        | Done |
-| US32 | Recibir notificaciones en app móvil         | 31 | Configurar FCM en app móvil | Integrar Firebase Messaging en la app móvil y mostrar notificaciones de prueba                       | 3h  |      Castilla Pachas, César Antonio        | Done |
-| US33 | Recibir notificaciones en app web           | 32 | Configurar FCM en app web   | Configurar Firebase Messaging en el cliente web y mostrar notificaciones en el navegador             | 3h  |      Castilla Pachas, César Antonio        | Done |
+| Sprint #       | **Sprint 2**                  |                      |                               |                                                              |              |                           |            |
+| -------------- | ----------------------------- | -------------------- | ----------------------------- | ------------------------------------------------------------ | ------------ | ------------------------- | ---------- |
+| **User Story** |                               | **Work-Item / Task** |                               |                                                              |              |                           |            |
+| **Id**         | **Title**                     | **Id**               | **Title**                     | **Description**                                              | **Est. (h)** | **Assigned To**           | **Status** |
+| **US09**       | Login app móvil conductor     | US09-MO-01           | UI login RN                   | React Native + Hook Form, email & pwd, validaciones locales  | 3            | **Arroyo Ormeño André**   | Done       |
+|                |                               | US09-BE-01           | Auth móvil ↔ API              | Consumir `POST /auth/sign-in`, guardar JWT en Secure Storage | 4            | **Arroyo Ormeño André**   | Done       |
+| **US16**       | Descargar reportes de uso     | US16-FE-01           | Selector fechas & “Descargar” | Date-picker + botón, descarga desde panel Owner Web          | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US16-BE-01           | Export report endpoint        | `GET /reports?from&to` → genera PDF/Excel y URL firmada      | 5            | **Cortés Casas Joaquín**  | Done       |
+| **US18**       | Mapear parkings cercanos      | US18-MO-01           | Pantalla mapa                 | Mapbox GL, marker custom, permiso ubicación                  | 5            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US18-BE-01           | Service list parkings         | Extiende `GET /parkings` (lat, lon, radio, paginación)       | 3            | **Cortés Casas Joaquín**  | Done       |
+| **US19**       | Detalle de parking            | US19-MO-01           | Vista detalle                 | Dirección, tarifa, rating, horarios, carousel imágenes       | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US19-BE-01           | Mapper parking → DTO          | Adaptar `/parkings/{id}` a modelo móvil                      | 2            | **Cortés Casas Joaquín**  | Done       |
+| **US20**       | Detalle de espacio            | US20-MO-01           | Sheet spot detail             | BottomSheet precio, tipo, tiempo máx.                        | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US20-MO-02           | Cerrar sheet animado          | Gesture-handler + fade-out al tap cerrar                     | 2            | **Díaz Silva Fernando**   | Done       |
+| **US21**       | Disponibilidad en tiempo real | US21-MO-01           | Suscripción WS                | Socket.io `/availability/{parkingId}` actualiza mapa         | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US21-BE-01           | Gateway WS availability       | Publicar cambios spot (MQTT→WS)                              | 5            | **Cortés Casas Joaquín**  | Done       |
+| **US22**       | Reservar espacio              | US22-MO-01           | Flujo reserva                 | Stepper seleccionar→confirmar + countdown hold               | 5            | **Castilla Pachas César** | Done       |
+|                |                               | US22-BE-01           | POST /reservations            | DriverId, parkingSpotId, fechas; manejo 400 solapado         | 4            | **Cortés Casas Joaquín**  | Done       |
+| **US25**       | Historial de reservas         | US25-MO-01           | Lista reservas                | FlatList con filtros por estado; badges color                | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US25-BE-01           | Query reservas driver         | `GET /reservations/driver/{id}?status=` + paginación         | 3            | **Cortés Casas Joaquín**  | Done       |
+| **US39**       | Pago desde app                | US39-MO-01           | UI checkout Stripe            | CardInput + botón “Pagar”, spinner progreso                  | 5            | **Díaz Silva Fernando**   | Done       |
+|                |                               | US39-BE-01           | Capture payment               | `POST /payments/reservation/{id}` ↔ Stripe, persistir        | 4            | **Zárate Cáceres Víctor** | Done       |
+| **TS15**       | Pago suscripción API          | TS15-BE-01           | DTO + validator               | userId, amount, card info; reglas numéricas                  | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                               | TS15-BE-02           | Persist + response            | Crear `PaymentEntity`, devolver JSON pago                    | 3            | **Zárate Cáceres Víctor** | Done       |
+| **TS16**       | Pago reserva API              | TS16-BE-01           | Validar reserva               | Confirmar PENDING antes de cobrar                            | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                               | TS16-BE-02           | Update estado reserva         | Al pagar, marcar `status = PAID`                             | 2            | **Zárate Cáceres Víctor** | Done       |
+| **TS20**       | Registrar token push          | TS20-BE-01           | Controller register           | Upsert token por userId, 201                                 | 2            | **Castilla Pachas César** | Done       |
+| **TS21**       | Eliminar token push           | TS21-BE-01           | Controller delete             | DELETE token; maneja 404                                     | 2            | **Castilla Pachas César** | Done       |
+| **TS22**       | Enviar notificación           | TS22-BE-01           | Servicio FCM send             | Wrapper Firebase Admin, topic/token                          | 3            | **Castilla Pachas César** | Done       |
+| **MS01**       | Detección ocupación           | MS01-FW-01           | Sensor ultrasonido            | Medir distancia, debounce 3 s, flag `occupied`               | 4            | **Tafur Gonzales Josty**  | Done       |
+|                |                               | MS01-FW-02           | Publicar MQTT estado          | `spot/{id}/status` payload JSON                              | 3            | **Tafur Gonzales Josty**  | Done       |
+| **MS02**       | Bloqueo spot reservado        | MS02-FW-01           | Servo-lock                    | Comando MQTT `lock:true` activa relé                         | 3            | **Tafur Gonzales Josty**  | Done       |
+|                |                               | MS02-FW-02           | Validar reserva RFID          | Leer tag autorizado → desbloquea                             | 4            | **Tafur Gonzales Josty**  | Done       |
+| **MS03**       | LED estado spot               | MS03-FW-01           | Código LED RGB                | Verde libre, Amarillo reservado, Rojo ocupado                | 2            | **Zárate Cáceres Víctor** | Done       |
+| **MS04**       | Display nombre spot           | MS04-FW-01           | Render LCD/OLED               | Mostrar label spot cada 5 s                                  | 2            | **Tafur Gonzales Josty**  | Done       |
+| **MS05**       | Display MAC device            | MS05-FW-01           | Modo mantenimiento            | Botón muestra MAC durante 10 s                               | 2            | **Tafur Gonzales Josty**  | Done       |
+| **TS29**       | Subscripción MQTT Edge        | TS29-ES-01           | Configurar topics             | Suscribir `spot/+/status`; reconexión auto                   | 3            | **Zárate Cáceres Víctor** | Done       |
+| **TS30**       | Persistir datos Edge          | TS30-ES-01           | ORM SQLite states             | Tabla `spot_state`; índice spotId+ts                         | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                               | TS30-ES-02           | Retry queue                   | Si `backendUp=false` guardar en cola y reintentar            | 3            | **Zárate Cáceres Víctor** | Done       |
 
 <div style="page-break-after: always;"></div>
 
@@ -5999,19 +5993,19 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 <div style="page-break-after: always;"></div>
 
-### 6.2.3. Sprint 3
+### 6.2.3. Sprint 3  
 #### 6.2.3.1. Sprint Planning 3
 
 | Sprint # | Sprint 3 |
 |----------|----------|
 | **Sprint Planning Background** |
-| **Date** | 00/00/2025 |
-| **Time** | 00:00 horas (GMT-5) |
-| **Location** |  |
-| **Prepared By** | IoT Innovators |
-| **Attendees (to planning meeting)** | Arroyo Ormeño, André Alonso <br> Castilla Pachas, César Antonio <br> Cortés Casas, Joaquín Marcelo <br> Diaz Silva, Fernando Josué <br> Godoy, Johan Príncipe <br> Tafur Gonzales, Josty Gerardo <br> Zarate Caceres, Victor Ernesto |
-| **Sprint 2 Review Summary** |  |
-| **Sprint 2 Retrospective Summary** | |
+| **Date** | 30 / 06 / 2025 |
+| **Time** | 19 : 00 (GMT-5) |
+| **Location** | Microsoft Teams (canal *Sprint-3-Planning*) |
+| **Prepared By** | *IoT Innovators* |
+| **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
+| **Sprint-2 Review Summary** | MVP operativo con flujo de reserva y pago; usuarios piloto realizaron 15 reservas exitosas; integración de sensores alcanzó 90 % de confiabilidad. |
+| **Sprint-2 Retrospective Summary** | + Mejora en *DevOps pipeline*.  <br> – Notificaciones push inconsistentes en Android; acordado dedicar historias específicas y reasignar *aspect leader* de *Notification*. |
 
 **Sprint 3 Goal**
 
@@ -6019,13 +6013,13 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 **We believe it delivers**
 **This will be confirmed when**
 
-Este objetivo está alineado con las metas del proyecto, priorizando la visibilidad del producto (impacto en usuarios externos) y la validación técnica de los productos finales, facilitando su crecimiento futuro.
+> Our focus is hardening the reservation life-cycle across all channels (confirm, cancel, rate, notify) and exposing IoT management to owners.
+> We believe it delivers a release-candidate ready for external pilot users.
+> This will be confirmed when push notifications reach devices in less than 5 s after a reservation status changes, and Owners see real-time health of an edge-server in the IoT dashboard, 
 
-**Sprint 2 Velocity**
-** horas efectivas estimadas** de trabajo colaborativo, según capacidad del equipo durante la semana de desarrollo.
+**Sprint 3 Velocity**: **90 h efectivas**
 
-**Sum of Story Points**
-** Story Points en total**
+**Sum of Story Points**: **56 pts**  
 
 <div style="page-break-after: always;"></div>
 
@@ -6058,22 +6052,56 @@ Durante el Sprint 3 se abordaron los siguientes aspectos clave:
 Durante este sprint, se trabajó en
 La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde se registraron todas las tareas, su estado y responsables. A continuación, se presenta el enlace al board público:
 
-![Captura de pantalla de Sprint 3 en Trello](ChapterVI-images/Sprint3/Sprint-Backlog-2-Trello-Board.png)
+Trello: https://trello.com/b/VSzBJmt4
 
 https://trello.com/b/OUz3UBzQ
 
 **Tabla de control de estado del Sprint**
 
-|  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
-|-----------| -------------------------------------------------------------------|------------|-------------------------------------|------------------------------------------------------|------------------------|--------------------------------|----------------------------------------------------|
-|                                   **User Story**                               ||                                                                                   **Work-Item / Task**                                                                                                           ||||||
-|   **Id**  | **Title**                                                          |   **Id**   | **Title**                           | **Description**                                      | **Estimation (Hours)** | **Assigned To**                | **Status (To-do / In-Process / To-Review / Done)** |
-|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
-|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
-|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
-|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
-|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
-|           |                                                                    |            |                                     |                                                      |                        |                                |                                                    |
+| Sprint #       | **Sprint 3**                 |                      |                           |                                                                      |              |                           |            |
+| -------------- | ---------------------------- | -------------------- | ------------------------- | -------------------------------------------------------------------- | ------------ | ------------------------- | ---------- |
+| **User Story** |                              | **Work-Item / Task** |                           |                                                                      |              |                           |            |
+| **Id**         | **Title**                    | **Id**               | **Title**                 | **Description**                                                      | **Est. (h)** | **Assigned To**           | **Status** |
+| US08           | Registro app móvil conductor | US08-MO-01           | Form registro Flutter     | `flutter_form_builder`; email, contraseña, DNI, teléfono.            | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US08-BE-01           | Sign-up driver API        | Consumir `POST /auth/sign-up/driver`; guardar JWT en Secure Storage. | 4            | **Arroyo Ormeño André**   | Done       |
+| US10           | Perfil conductor             | US10-MO-01           | Vista perfil driver       | Mostrar nombre, email, foto; botón editar.                           | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US10-MO-02           | Editar perfil driver      | PATCH `/profiles/driver/{id}`; validaciones Yup.                     | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US10-BE-01           | Update driver endpoint    | Spring PATCH perfil driver; Bean Validation.                         | 3            | **Castilla Pachas César** | Done       |
+| US11           | Perfil propietario           | US11-FE-01           | Vista perfil owner (Vue)  | Tabla companyName, RUC, contacto.                                    | 3            | **Príncipe Godoy Johan**  | Done       |
+|                |                              | US11-FE-02           | Editar perfil owner       | PATCH `/profiles/parking-owner/{id}`; refrescar caché.               | 3            | **Príncipe Godoy Johan**  | Done       |
+|                |                              | US11-BE-01           | Update owner endpoint     | Spring PATCH perfil owner.                                           | 3            | **Tafur Gonzales Josty**  | Done       |
+| US17           | Modificar tarifas            | US17-FE-01           | UI tarifa spot            | Modal editable tarifa €/h (Vue 3 + Pinia).                           | 4            | **Zárate Cáceres Víctor** | Done       |
+|                |                              | US17-BE-01           | Update tariff API         | PATCH `/parkings/{id}/tariffs` (precio > 0).                         | 3            | **Zárate Cáceres Víctor** | Done       |
+| US23           | Cancelar reserva             | US23-MO-01           | Botón «Cancelar»          | Alert Dialog + llamada API.                                          | 2            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US23-BE-01           | Cancel reservation        | `/reservations/{id}/cancel`; rollback bloqueo spot.                  | 3            | **Cortés Casas Joaquín**  | Done       |
+| US24           | Confirmar reserva            | US24-MO-01           | Botón «He llegado»        | Cambia estado a CONFIRMED; vibración feedback.                       | 2            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US24-BE-01           | Confirm reservation       | Valida expiración; actualiza status = CONFIRMED.                     | 3            | **Cortés Casas Joaquín**  | Done       |
+| US31           | Calificar estacionamiento    | US31-MO-01           | Diálogo rating            | 5 estrellas + textarea comentario.                                   | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US31-BE-01           | POST review               | Llamar `/reviews`; rating 1-5 + comentario.                          | 3            | **Castilla Pachas César** | Done       |
+| US33           | Conectar Firebase backend    | US33-BE-01           | Instalar Admin SDK        | Configurar credenciales y env vars FCM.                              | 2            | **Castilla Pachas César** | Done       |
+|                |                              | US33-BE-02           | Servicio sendNotification | Función `send(token,title,body,data)` reutilizable.                  | 3            | **Castilla Pachas César** | Done       |
+| US34           | Recibir notificaciones en app móvil                   | US34-MO-01           | Config FCM Flutter        | Solicitar permisos; registrar token → TS20.                          | 3            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US34-MO-02           | Listener notifs           | Mostrar alerta in-app; navegar según data.                           | 3            | **Díaz Silva Fernando**   | Done       |
+| US35           | Recibir notificaciones en app web                     | US35-FE-01           | Service-Worker push       | Suscribirse Web-Push API; guardar token.                             | 4            | **Díaz Silva Fernando**   | Done       |
+|                |                              | US35-FE-02           | Toast notifs web          | Componente toast; auto-dismiss 5 s.                                  | 3            | **Díaz Silva Fernando**   | Done       |
+| US36           | Vista Edge Servers           | US36-FE-01           | Tabla edge servers        | Estados ONLINE/OFF, botón «Ver sensores».                            | 4            | **Zárate Cáceres Víctor** | Done       |
+|                |                              | US36-BE-01           | GET edge servers          | `/edge-servers/parking/{id}` paginado.                               | 3            | **Tafur Gonzales Josty**  | Done       |
+| US37           | Sensores por Edge            | US37-FE-01           | Lista dispositivos        | ID, MAC, tipo, spotLabel, status.                                    | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                              | US37-BE-01           | GET devices edge          | `/devices/edge-server/{id}`.                                         | 2            | **Tafur Gonzales Josty**  | Done       |
+| US38           | Tracking conectividad sensor | US38-FE-01           | Badge last ping           | Verde < 2 min, amarillo < 5, rojo > 5 min.                           | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                              | US38-BE-01           | Job offline flag          | CRON marca `operationalStatus=OFFLINE` si > 5 min.                   | 3            | **Tafur Gonzales Josty**  | Done       |
+| TS23           | Crear edge server API        | TS23-BE-01           | DTO + validate            | Campos serverId, apiKey, ipAddress.                                  | 2            | **Tafur Gonzales Josty**  | Done       |
+|                |                              | TS23-BE-02           | Persist edge server       | Guardar y devolver JSON completo.                                    | 3            | **Tafur Gonzales Josty**  | Done       |
+| TS24           | Edge por parking API         | TS24-BE-01           | List by parking           | Controller lista edge servers por parkingId.                         | 2            | **Tafur Gonzales Josty**  | Done       |
+| TS25           | Update device API            | TS25-BE-01           | PUT device                | Validar edgeId, type; actualizar campos.                             | 3            | **Tafur Gonzales Josty**  | Done       |
+| TS26           | Patch MAC device             | TS26-BE-01           | PATCH /macAddress         | Un solo campo; verificar formato HEX.                                | 2            | **Tafur Gonzales Josty**  | Done       |
+| TS27           | Devices unassigned API       | TS27-BE-01           | Query unassigned          | `parkingSpotId IS NULL` filtrado.                                    | 2            | **Tafur Gonzales Josty**  | Done       |
+| TS28           | Devices by edge API          | TS28-BE-01           | Query edgeServerId        | JOIN spot para label opcional.                                       | 2            | **Tafur Gonzales Josty**  | Done       |
+| TS31           | Sincronizar a backend        | TS31-ES-01           | Publisher MQTT→backend    | Publicar lotes pendientes (Flask).                                   | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                              | TS31-ES-02           | Retry exponencial         | Back-off 1-2-4-8 s hasta ack.                                        | 3            | **Zárate Cáceres Víctor** | Done       |
+| TS32           | Cola local offline           | TS32-ES-01           | Persistir pending queue   | SQLite tabla `pending_outbox`.                                       | 3            | **Zárate Cáceres Víctor** | Done       |
+|                |                              | TS32-ES-02           | Cleanup tras ack          | Borrar registros confirmados.                                        | 2            | **Zárate Cáceres Víctor** | Done       |
+| TS33           | Comandos MQTT                | TS33-ES-01           | Endpoint `/commands`      | POST `{deviceId,cmd}`; publicar MQTT.                                | 3            | **Zárate Cáceres Víctor** | Done       |
 
 <div style="page-break-after: always;"></div>
 
