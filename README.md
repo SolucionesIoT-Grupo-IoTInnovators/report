@@ -6060,6 +6060,8 @@ La gestión del sprint se llevó a cabo utilizando la herramienta Trello, donde 
 
 ![Captura de pantalla de Sprint 3 en Trello](ChapterVI-images/Sprint3/Sprint-Backlog-2-Trello-Board.png)
 
+https://trello.com/b/OUz3UBzQ
+
 **Tabla de control de estado del Sprint**
 
 |  Sprint # ||                                                                                                               Sprint 1                                                                                                                                                                ||||||
