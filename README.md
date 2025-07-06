@@ -3602,7 +3602,7 @@ El Notification Bounded Context es el encargado del manejo de notificaciones den
 
 El diagrama de componentes de la Web Application en el bounded context de Notificaciones representa los elementos que gestionan la visualización y recuperación de notificaciones en el frontend web de SmartParking. Incluye componentes como NotificationComponent (interfaz de usuario), NotificationService (lógica para acceder al backend) y NotificationAssembler (utilitario que transforma los modelos del backend a modelos de vista). 
 
-![Notification Context WebApp Component Diagram](/ChapterIV-images/structurizr-web-app-notification.png)
+![Notification Context WebApp Component Diagram](ChapterIV-images/structurizr-webApp-notification.png)
 
 <div style="page-break-after: always;"></div>
 
