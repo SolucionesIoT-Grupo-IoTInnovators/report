@@ -185,11 +185,11 @@ En la siguiente tabla se presenta el registro de versiones del informe con el pr
 ### Descripción de las actividades realizadas
 
 - **Arroyo Ormeño, André Alonso:** Realicé  la corrección, redistribución y creación de nuevas user stories, ademas de actualizar el product backlog.
-- **Castilla Pachas, César Antonio:** (completar)
+- **Castilla Pachas, César Antonio:** Integré Firebase Cloud Messaging en backend y clientes y publiqué los endpoints; también completé las APIs y pruebas de calificaciones - reviews, dejando la documentación Swagger actualizada.
 - **Cortés Casas, Joaquín Marcelo:** He mejorado el formato del reporte para la entrega final. Tambien he agregado los sprint planning 3 y sprint backlog 3.
-- **Díaz Silva, Fernando Josué:** (completar)
-- **Godoy, Johan Príncipe:** (completar)
-- **Tafur Gonzales, Josty Gerardo:** (completar)
+- **Díaz Silva, Fernando Josué:** Diseñé e implementé las pantallas React Native para registro, perfil y calificación de conductor así como los botones de cancelar / confirmar reserva.
+- **Godoy, Johan Príncipe:** Desarrollé las vistas y controladores de Edge Servers y dispositivos y los endpoints; optimicé consultas y mejoré el rendimiento del tablero de dispositivos.
+- **Tafur Gonzales, Josty Gerardo:**  Implementé la sincronización MQTT → backend y la cola local de datos, así como el endpoint /commands; configuré jobs CRON para marcar sensores offline y realicé pruebas en el edge-server emulado.
 - **Zárate Cáceres, Víctor Ernesto:** He contribuido en reportar el avance logrado en el último sprint, completando la información correspondiente al desarrollo, despliegue y ejecución.
 
 ### Evidencia de colaboración
