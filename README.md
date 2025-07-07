@@ -5397,7 +5397,6 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 ---
 
 <div style="page-break-after: always;"></div>
-
 ### 6.2.2. Sprint 2  
 #### 6.2.2.1. Sprint Planning 2
 
@@ -5405,22 +5404,24 @@ Se trabajó en las funcionalidades iniciales de la plataforma SmartParking, enfo
 |----------|----------|
 | **Sprint Planning Background** |
 | **Date** | 02 / 06 / 2025 |
-| **Time** | 07 : 00 (GMT-5) |
-| **Location** | Microsoft Teams (canal *Sprint-2-Planning*) |
+| **Time** | 19 : 00 horas |
+| **Location** | Discord |
 | **Prepared By** | *IoT Innovators* |
 | **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
-| **Sprint-1 Review Summary** | Landing y portal web en línea; 96 % de las historias aprobadas por *Product Owner*; pequeños *bugs* en visualización móvil identificados para próximo *sprint*. |
-| **Sprint-1 Retrospective Summary** | + Excelente coordinación FE/BE.  <br> – Falta de ambiente de *staging IoT* real demoró pruebas de sensores; acordado habilitar *edge-server* emulado. |
+| **Sprint-1 Review Summary** | Durante el primer sprint publicamos la Landing Page completa (hero, navbar, planes, sección de seguridad IoT) y enlazamos el registro rápido con la nueva **aplicación web**. Se habilitaron todos los flujos de **onboarding de propietarios** (sign-up, sign-in) y el RESTfull API, el que sustenta la creación de parkings, spots, reservas y calificaciones. Además, el panel web de propietarios ya muestra ocupación en tiempo real, multi-parking dashboard y listados de reservas y ratings. |
+| **Sprint-1 Retrospective Summary** | El equipo celebró la publicación pública de la landing y del portal web, pero reconoció que aún falta trasladar esas capacidades al canal móvil: no se implementó el flujo completo de inicio de sesión del conductor ni la visualización de parkings en mapa. También quedó pendiente la integración con el Edge Server y los sensores, lo que limitará las pruebas de disponibilidad en tiempo real durante el siguiente sprint. |
 
-**Sprint 2 Goal**
+### Sprint 2 Goal
 
-> Our focus is releasing the first end-to-end parking flow, being first search, then detail, next r0eserve, and finally pay. 
-> We believe it delivers proof that SmartParking can coordinate drivers, owners and sensors in real time.
-> This will be confirmed when a driver on the mobile app can reserve and pay for a spot and receive confirmation of it, and the same reservation appears on the owner dashboard within ≤ 3 s of sensor state change.
+> **Our focus is** delivering the complete driver journey on mobile—login, discover parkings on a map, view real-time availability, reserve a spot, and pay—while providing owners with downloadable usage reports and live sensor updates via the Edge Server.
+> **We believe it delivers** proof that SmartParking can synchronise drivers, owners, payments and IoT data end-to-end under real conditions.
+> **This will be confirmed when** a driver can finish the login-to-payment flow without errors, availability updates propagate from sensor to all User Interfaces quickly, and owners can export a PDF report that matches backend metrics.
 
 **Sprint 2 Velocity**: **96 h efectivas**
 
-**Sum of Story Points**: **59 pts**  
+**Sum of Story Points**: **59 pts**   
+
+---
 
 <div style="page-break-after: always;"></div>
 
