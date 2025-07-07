@@ -5020,22 +5020,24 @@ Para todos los lenguajes, se seguirán las siguientes convenciones de nomenclatu
 |----------|----------|
 | **Sprint Planning Background** |
 | **Date** | 01 / 05 / 2025 |
-| **Time** | 21 : 00 (GMT-5) |
-| **Location** | Microsoft Teams (canal *Sprint-1-Planning*) |
+| **Time** | 19 : 00 horas |
+| **Location** | Discord |
 | **Prepared By** | *IoT Innovators* |
 | **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
-| **Sprint-0 Review Summary** | Se completó la documentación del backlog, bounded contexts, arquitectura base y prototipos de UI; se habilitó infraestructura (GitHub Actions + Azure Static Web Apps, Figma, MQTT broker de pruebas). |
-| **Sprint-0 Retrospective Summary** | Buena colaboración y cumplimiento de entregables; se detectó mejorar la gestión de dependencia entre módulos Web & IoT y la puntualidad de las ceremonias. |
+| **Sprint-0 Review Summary** | Antes de iniciar con el Sprint 1, se consolidó la visión y la base técnica del proyecto: se depuró el **Product Backlog** completo, se levantó el **context map** con múltiples bounded contexts (IAM, Profile, Parking, Reservation, Payment, Review, Notification y Device Management) y se bosquejó la arquitectura *hexagonal* con pruebas de concepto para el flujo IoT-Edge-Cloud. Se configuraron los repositorios GitHub bajo *Git Flow*, pipelines CI/CD en Azure Static Web Apps y un broker MQTT de pruebas. El equipo acordó convenciones de código, definió la guía de estilo UI en Figma y creó los *wireframes* iniciales de landing page y portal web. |
+| **Sprint-0 Retrospective Summary** | Como puntos de mejora se detectó la necesidad de refinar las estimaciones (se subestimaron tareas de maqueta frontend) y de anticipar dependencias entre módulos Web e IoT; se planificó incorporar *feature toggles* y plantillas de *pull request* para aumentar la calidad de revisión a partir del Sprint 1. |
 
-**Sprint 1 Goal**
+### Sprint 1 Goal
 
-> Our focus is publishing a responsive public Landing Page and the skeleton of the SmartParking web app (login & empty dashboard).
-> We believe it delivers first-contact credibility and a deployable framework on which later features can iterate.
-> This will be confirmed when the Landing Page loads in less than 2 s from Lima, all 4 navigation links work on desktop & mobile, and a user can register, log in, and reach /home in the cloud environment without errors.
+> **Our focus is** delivering a production-ready public Landing Page **and** the complete onboarding flow for parking owners—including sign-up, sign-in, parking creation, layout designer and a real-time occupancy dashboard.
+> **We believe it delivers** the first end-to-end value loop: visitors understand the product, owners register and configure their parking, and the platform is ready to ingest sensor data.
+> **This will be confirmed when** the Landing Page loads quickly and all navigation links work on desktop & mobile; a new owner can register, log in, create a parking, draw at least one spot and visualize mocked occupancy in the dashboard without errors; and all involved APIs (sign-up, sign-in, CRUD parking/spot, occupancy feed) work succesfully.
 
 **Sprint 1 Velocity**: **80 h efectivas**
 
 **Sum of Story Points**: **78 pts**
+
+---
 
 <div style="page-break-after: always;"></div>
 
