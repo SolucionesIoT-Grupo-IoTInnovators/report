@@ -6235,7 +6235,7 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 ![Vista implementada en Sprint 3 - reservation of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/reservation%20data%20parking.png?raw=true)
 
 - Reseñas de Usuarios: Sección que presenta comentarios breves de los usuarios sobre el servicio de estacionamiento, incluyendo calificaciones y fechas de publicación.
-![Vista implementada en Sprint 3 - review parking]()
+![Vista implementada en Sprint 3 - review parking](ChapterVI-images/Sprint3/WebApp/reviews.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -6243,7 +6243,7 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 ![Vista implementada en Sprint 3 - dashboard analitics of parking](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/f70289669b84e3e5dd0baadcaa16587aaa7eb651/ChapterVI-images/Sprint3/WebApp/dashboard%20of%20parking.png?raw=true)
 
 - Device Monitoring: Pantalla que muestra información en tiempo real de un Edge Server, incluyendo su estado, ID, IP, API Key, y dispositivos conectados, con una lista de sensores detallada por tipo, estado, etiqueta de espacio y última comunicación, además de opciones para paginar y consultar sensores específicos.
-![Vista implementada en Sprint 3 - device monitoring of parking]()
+![Vista implementada en Sprint 3 - device monitoring of parking](ChapterVI-images/Sprint3/WebApp/monitoring.png)
 
 <div style="page-break-after: always;"></div>
 
