@@ -5717,43 +5717,41 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 
 **Mobile Application:**
 
-- Pantalla de Login
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
-
-- Pantalla de inicio - Busqueda de estacionamiento
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-2.png?raw=true)
+- Login: Pantalla de inicio de sesión con campos para correo y contraseña, y opción para registrarse si no se tiene cuenta.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/login.jpg?raw=true)
 
 <div style="page-break-after: always;"></div>
 
-- Pantalla de detalles del Parking
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-3.png?raw=true)
-
-- Pantalla de reserva de estacionamiento
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-4.png?raw=true)
+- Search Parking: Mapa que muestra las ubicaciones de estacionamientos en distintas zonas a traves del icono P
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/search%20parking.jpg?raw=true)
 
 <div style="page-break-after: always;"></div>
 
-- Pantalla de confirmacion de reserva
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-5.png?raw=true)
+- Parking Details: Detalles de un estacionamiento específico, incluyendo dirección, tarifa por hora y calificación
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/parking%20details.jpg?raw=true)
 
-- Pantalla de pago de reserva
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-6.png?raw=true)
-
-<div style="page-break-after: always;"></div>
-
-- Pantalla de confirmacion de pago de reserva
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-7.png?raw=true)
-
-- Pantalla de lista de reservas
-![Vista implementada en Sprint 2 - Mobile App](ChapterVI-images/Sprint2/MobileApp/ExecutionEvidenceScreenshot-8.png?raw=true)
+- Reservation Spot: Interfaz para seleccionar un espacio de estacionamiento, indicando disponibilidad y permitiendo elegir horarios de inicio y fin, incluyendo costo de la reservación.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/reservation%20spot.jpg?raw=true)
 
 <div style="page-break-after: always;"></div>
 
-**Web Services:**
-![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-1.png)
-![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-2.png)
-![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-3.png)
-![Vista implementada en Sprint 2 - Web Services](ChapterVI-images/Sprint2/WebServices/ExecutionEvidenceScreenshot-4.png)
+- Confirmation Reservation: Confirmación de reserva exitosa con detalles del vehículo, horario y espacio seleccionado, junto con opciones para pagar la reserva.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/confirmation%20reservation.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Payment Reservation: Formulario de pago para una reserva, con campos para tarjeta, fecha de expiración y CVV, junto con un botón para realizar el pago.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/payment%20reservation.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Confirmation Payment Reservation: Confirmación de pago exitoso para una reserva, con el monto total y un mensaje de éxito, además de un botón para volver al inicio.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/confirmation%20payment%20reservation.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Reservation List: Interfaz que muestra un listado de reservaciones de estacionamiento clasificadas por estado (PENDIENTE, CONFIRMADA, COMPLETADA). Incluye detalles como lugar, horario, costo y opciones para cancelar o confirmar asistencia. Cada reserva tiene un espacio asignado y un botón para indicar llegada.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/reservation%20list.jpg?raw=true)
 
 <div style="page-break-after: always;"></div>
 
@@ -6252,7 +6250,56 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 
 **Mobile Application:**
 
-![Vista implementada en Sprint 3 - Mobile App](ChapterVI-images/Sprint3/MobileApp/ExecutionEvidenceScreenshot-1.png?raw=true)
+- Login: Pantalla de inicio de sesión con campos para correo y contraseña, y opción para registrarse si no se tiene cuenta.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/login.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Driver Sign Up: Formulario de registro para conductores con campos básicos como nombre, correo, contraseña, teléfono, DNI y ubicación, junto con un botón para completar el proceso.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/sign%20up.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Driver Profile: Perfil del conductor que muestra información personal como nombre, DNI, teléfono y ubicación, con opción para cerrar sesión.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/driver%20profile.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Search Parking: Mapa que muestra las ubicaciones de estacionamientos en distintas zonas a traves del icono P
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/search%20parking.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Parking Details: Detalles de un estacionamiento específico, incluyendo dirección, tarifa por hora y calificación
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/parking%20details.jpg?raw=true)
+
+- Reservation Spot: Interfaz para seleccionar un espacio de estacionamiento, indicando disponibilidad y permitiendo elegir horarios de inicio y fin, incluyendo costo de la reservación.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/reservation%20spot.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Confirmation Reservation: Confirmación de reserva exitosa con detalles del vehículo, horario y espacio seleccionado, junto con opciones para pagar la reserva.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/confirmation%20reservation.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Payment Reservation: Formulario de pago para una reserva, con campos para tarjeta, fecha de expiración y CVV, junto con un botón para realizar el pago.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/payment%20reservation.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Confirmation Payment Reservation: Confirmación de pago exitoso para una reserva, con el monto total y un mensaje de éxito, además de un botón para volver al inicio.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/confirmation%20payment%20reservation.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Reservation List: Interfaz que muestra un listado de reservaciones de estacionamiento clasificadas por estado (PENDIENTE, CONFIRMADA, COMPLETADA). Incluye detalles como lugar, horario, costo y opciones para cancelar o confirmar asistencia. Cada reserva tiene un espacio asignado y un botón para indicar llegada.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/reservation%20list.jpg?raw=true)
+
+<div style="page-break-after: always;"></div>
+
+- Parking Review: Reseña breve de un usuario sobre su experiencia en un estacionamiento, con fecha y comentario, tambien permite añadir una review al parking.
+![Vista implementada en Sprint 2 - Mobile App](https://github.com/SolucionesIoT-Grupo-IoTInnovators/report/blob/60575f84bf498dacce0fd72ff693736dd314f9c6/ChapterVI-images/Sprint3/MobileApp/parking%20review.jpg?raw=true)
 
 <div style="page-break-after: always;"></div>
 
