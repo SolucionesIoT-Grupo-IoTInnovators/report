@@ -6339,7 +6339,7 @@ Se trabajo en los detalles finales de la plataforma de SmartParking. En la aplic
 
 #### 6.2.3.7. Services Documentation Evidence for Sprint Review
 - **Link de repositorio:** https://github.com/SolucionesIoT-Grupo-IoTInnovators/smartparking-backend
-- **Link de Web services deplegados:** https://smartparking-backend-d8dnejdze3ggh0bb.canadacentral-01.azurewebsites.net/swagger-ui/index.html#/
+- **Link de Web services deplegados:** https://smartparking-backend-v1-f4dkh7h8h4gxfpcu.canadacentral-01.azurewebsites.net/swagger-ui/index.html#
 
 |        Endpoint         |                                         Details                                          |
 | :---------------------: | :--------------------------------------------------------------------------------------- |
