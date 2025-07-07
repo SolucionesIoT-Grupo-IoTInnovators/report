@@ -6022,21 +6022,25 @@ Para asegurar una adecuada comunicación y eficiencia en la ejecución de tareas
 Durante el Sprint 3 se abordaron los siguientes aspectos clave:
 
 - **Aspect Name 1:** Notification  
-- **Aspect Name 2:** IoT Management  
-- **Aspect Name 3:** User & Profile Management (IAM)  
+- **Aspect Name 2:** Device Management  
+- **Aspect Name 3:** IAM  
 - **Aspect Name 4:** Reservation Flow  
+- **Aspect Name 5:** Profile Management  
+- **Aspect Name 6:** Parking Management  
 
-| Team Member                           | GitHub Username | Notification | IoT Management | User & Profile Mgmt. | Reservation Flow |
-|---------------------------------------|:---------------:|:------------:|:--------------:|:--------------------:|:----------------:|
-| Arroyo Ormeño, André Alonso           | `anonimat0`     | C            | C              | **L**               | C               |
-| Castilla Pachas, César Antonio        | `CesarrAnn`     | **L**        | C              | C                   | C               |
-| Cortés Casas, Joaquín Marcelo         | `U202114545`    | C            | C              | C                   | C               |
-| Díaz Silva, Fernando Josué            | `FernandoDiazNeo` | C          | C              | C                   | C               |
-| Godoy, Johan Príncipe                 | `JP19-03`       | C            | C              | C                   | C               |
-| Tafur Gonzales, Josty Gerardo         | `JostyTafur`    | C            | **L**          | C                   | C               |
-| Zárate Cáceres, Víctor Ernesto        | `ern23zc`       | C            | C              | C                   | **L**           |
+| Team Member                           | GitHub Username | Notification | Device Management | IAM | Reservation Flow | Profile Management | Parking Management |
+|---------------------------------------|:---------------:|:------------:|:--------------:|:---:|:----------------:|:------------------:|:------------------:|
+| Arroyo Ormeño, André Alonso           | `anonimat0`     | C            | C              | C   | C               | **L**             | C                 |
+| Castilla Pachas, César Antonio        | `CesarrAnn`     | **L**        | C              | C   | C               | C                 | C                 |
+| Cortés Casas, Joaquín Marcelo         | `U202114545`    | C            | C              | C   | C               | C                 | C                 |
+| Díaz Silva, Fernando Josué            | `FernandoDiazNeo` | C          | C              | C   | C               | C                 | C                 |
+| Godoy, Johan Príncipe                 | `JP19-03`       | C            | C              | C   | C               | C                 | C                 |
+| Tafur Gonzales, Josty Gerardo         | `JostyTafur`    | C            | **L**          | C   | C               | C                 | C                 |
+| Zárate Cáceres, Víctor Ernesto        | `ern23zc`       | C            | C              | C   | **L**           | C                 | C                 |
 
-**Leyenda:** **L** = Leader &nbsp;|&nbsp; C = Colaborador
+**Key:**  
+- **L**: Leader (Responsible for the bounded context)  
+- **C**: Contributor (Participates in the context)
 
 <div style="page-break-after: always;"></div>
 
