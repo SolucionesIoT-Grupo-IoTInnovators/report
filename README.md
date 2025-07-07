@@ -7069,8 +7069,8 @@ Duración: 25:02
 **Exposición TF1**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-expo-tf1`  
 Formato: `.mp4`  
-Duración:  
-**Enlace:** 
+Duración: 24:36
+**Enlace:** https://shorturl.at/fHCVq
 
 **Needfinding Interviews**
 Nomenclatura: `upc-pre-202510-1asi0572-2971-IoT_Innovators-needfinding-tb1`  
