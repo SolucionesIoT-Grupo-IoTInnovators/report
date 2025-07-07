@@ -5992,22 +5992,18 @@ Tanto para los Web Services, la Mobile Application y la Embedded Application se 
 |----------|----------|
 | **Sprint Planning Background** |
 | **Date** | 30 / 06 / 2025 |
-| **Time** | 19 : 00 (GMT-5) |
-| **Location** | Microsoft Teams (canal *Sprint-3-Planning*) |
+| **Time** | 19 : 00 horas |
+| **Location** |Discord |
 | **Prepared By** | *IoT Innovators* |
 | **Attendees** | Arroyo Ormeño, André Alonso  <br> Castilla Pachas, César Antonio  <br> Cortés Casas, Joaquín Marcelo  <br> Díaz Silva, Fernando Josué  <br> Godoy, Johan Príncipe  <br> Tafur Gonzales, Josty Gerardo  <br> Zárate Cáceres, Víctor Ernesto |
-| **Sprint-2 Review Summary** | MVP operativo con flujo de reserva y pago; usuarios piloto realizaron 15 reservas exitosas; integración de sensores alcanzó 90 % de confiabilidad. |
-| **Sprint-2 Retrospective Summary** | + Mejora en *DevOps pipeline*.  <br> – Notificaciones push inconsistentes en Android; acordado dedicar historias específicas y reasignar *aspect leader* de *Notification*. |
+| **Sprint-2 Review Summary** | Se implementó el flujo completo para conductores: login móvil, mapa de parkings, detalle y disponibilidad en tiempo real, reserva, pago Stripe y consulta de historial. Los propietarios ya descargan reportes de uso y reciben notificaciones push gracias al registro/eliminación de tokens. En cuanto al dispositivo IoT finalizamos la detección de ocupación, bloqueo de spot, LED de estado, displays y persistencia local, mientras que con el Edge Server se logro sincronizar con el backend. Además, se expusieron nuevos endpoints de pagos y notificaciones. |
+| **Sprint-2 Retrospective Summary** | Durante el Sprint 2 reforzamos nuestro pipeline CI/CD e incorporamos un emulador de dispositivos MQTT en el edge, lo que redujo drásticamente los defectos vinculados a sensores. No obstante, las notificaciones push en Android siguen requiriendo mayores ajustes para integrarlos de manera completa con el sistema de reservas en los productos de software.  |
 
 **Sprint 3 Goal**
 
-**Our focus is**  
-**We believe it delivers**
-**This will be confirmed when**
-
-> Our focus is hardening the reservation life-cycle across all channels (confirm, cancel, rate, notify) and exposing IoT management to owners.
-> We believe it delivers a release-candidate ready for external pilot users.
-> This will be confirmed when push notifications reach devices in less than 5 s after a reservation status changes, and Owners see real-time health of an edge-server in the IoT dashboard, 
+> **Our focus is** to harden the full reservation life-cycle—register, confirm, cancel and rate—across web/mobile apps and IoT device, while giving parking owners real-time visibility and control of their edge servers and sensors.
+> **We believe it delivers** a release-candidate fit for external pilot users, ensuring seamless user actions and reliable, low-latency system feedback.
+> **This will be confirmed when** push notifications arrive on any device in under **5 seconds** after a reservation status change, owners can see live health metrics for at least one edge server and its sensors in the IoT dashboard.
 
 **Sprint 3 Velocity**: **90 h efectivas**
 
